@@ -1,0 +1,49 @@
+= Notation In Project Phase Diagrams
+:description: An explanatory page for the project phase diagrams.
+:keywords: diagrams, phase, concept
+
+include::partial$_attributes.adoc[]
+include::{abb}[]
+
+== Introduction
+This Project Guide uses a variation of https://www.omg.org/spec/BPMN/2.0/[BPMN 2.0^] diagrams to describe the ASAM Project Phases.
+The diagrams contain information on
+
+* the sequence of actions
+* input and output documents
+* initiating (responsible) and receiving (involved) actors in actions
+
+The diagrams in the Project Guide are not simplified for readability.
+They are a formal and complete representation of the respective project phase or step.
+
+== Example
+<<fig-bpmn-example>> shows an example based on the Ideation Phase.
+
+[#fig-bpmn-example]
+image::compendium:asam/asam_phases_legend-example.svg[title=Example diagram based on the Ideation Phase]
+<1> The phase starts
+<2> The first activity in the phase is the person with the idea (the "Idea Giver") sending an email with their project idea to the ASAM Office
+<3> This is where the path branches: if the idea is a new standard, it will continue with event **4**, otherwise with event **5**
+<4> In case this is a new standard, the ASAM Office will initiate an Ideation Workshop together with the Idea Giver to add further details to the idea before deciding on whether to progress to the Proposal phase or disregard the idea.
+The Workshop is created using the provided (**4a**) Ideation Workshop gameplan, and its outcome (**4b**) is the basis for a new proposal.
+<5> Whether the idea is a new standard or not, the Idea Giver has to raise enough interest to gather the required amount of participants for the Proposal phase, which is at least 3.
+He keeps the ASAM Office informed about the status, and the ASAM Office may support by bringing the Idea Giver in contact with potentially interested parties at ASAM.
+<6> Once the requirements for entering the next phase have been fulfilled, the project may enter the Proposal phase.
+
+The details of each step of a phase are explained on separate child pages under the page containing the full diagram.
+In the example above, one child page would cover the activity of how to propose an idea, another page would cover the ideation workshop, and a final page would cover tips on how to find participants for a Project Proposal.
+
+NOTE: Disregarding the idea is not depicted explicitly.
+This can happen between most steps and, therefore, is kept out of the "default way" for clarity's sake. +
+The same is true for all BPMN-style diagrams throughout this Guide.
+
+
+== Legend
+To reduce the size of the diagrams, some changes compared to the original BPMN language were implemented:
+
+* Loop returns may lead to an action directly rather than a loop connection point
+
+<<fig-bpmn-legend>> contains the legend applicable to all BPMN-style diagrams throughout the Project Guide.
+
+[#fig-bpmn-legend]
+image::compendium:asam/asam_phases_legend-legend.svg[title=Legend for BPMN-style diagrams in Project Guide]

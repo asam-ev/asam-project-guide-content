@@ -1,0 +1,7 @@
+
+[IMPORTANT]
+====
+For some activities, an ASAM membership is required.
+You can identify if you need to be a member by checking the listed roles on each page. +
+**If you consider becoming an ASAM member to join a project, see https://www.asam.net/about-asam/join-asam/[join ASAM on the ASAM website^].**
+====

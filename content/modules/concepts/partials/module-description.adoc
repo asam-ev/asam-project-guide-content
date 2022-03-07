@@ -1,3 +1,4 @@
 
-This part contains an overview over general concepts and topics at ASAM. +
-Start here if you are new to ASAM to understand central concepts used throughout this Project Guide.
+**Get to know the central concepts at ASAM.** +
+This part contains an introduction to central aspects relevant on many other pages in this Project Guide. +
+Start here if you are new to ASAM to understand the concepts the development of standards at ASAM is based on.

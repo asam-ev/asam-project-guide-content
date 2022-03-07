@@ -15,7 +15,7 @@ Label:: {role-project-lead}
 
 == Requirements
 * Must be a project member.
-* Must have completed the xref:compendium:roles/project_lead_training.adoc[]
+* Must have completed the xref:compendium:ASAM/roles/project_lead_training.adoc[]
 
 == Responsibilities
 * Project management, meeting organization and alignment with ASAM office

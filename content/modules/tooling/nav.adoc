@@ -1,4 +1,5 @@
-* xref:overview.adoc[]
+include::../ROOT/partials/_attributes.adoc[]
+* {tools-nav-icon}
 ** xref:working-without-software-installation.adoc[]
 ** xref:gitlab.adoc[]
 *** xref:gitlab/gitlab-setup.adoc[]

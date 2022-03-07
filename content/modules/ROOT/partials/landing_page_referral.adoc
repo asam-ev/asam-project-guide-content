@@ -1,13 +1,13 @@
 ifndef::lifecylce[]
-Otherwise, the part xref:getting-involved:main.adoc[] presents the project phases and typical tasks in a chronological order. +
+Otherwise, the part **xref:getting-involved:main.adoc[]** presents the project phases and typical tasks in a chronological order. +
 endif::[]
 ifndef::role-specific[]
-Alternatively, all role-related topics can be accessed directly through the relevant role page at xref:role-specific:main.adoc[]. +
+Alternatively, all role-related topics can be accessed directly through the relevant role page at **xref:role-specific:main.adoc[]**. +
 endif::[]
 ifndef::tooling[]
-If you are looking for instructions on supported tools, refer to xref:tooling:main.adoc[]. +
+If you are looking for instructions on supported tools, refer to **xref:tooling:main.adoc[]**. +
 endif::[]
 ifndef::compendium[]
 
-You can also search the xref:compendium:compendium.adoc[] for topics directly or use the search function on top of each page.
+You can also search the **xref:compendium:compendium.adoc[]** for topics directly or use the search function on top of each page.
 endif::[]

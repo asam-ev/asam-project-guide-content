@@ -5,43 +5,6 @@
 include::partial$_attributes.adoc[]
 include::{abb}[]
 
-====
-[cols="1,5", frame=none, grid = rows]
-|===
-h|Involved roles
-a| * {role-idea-giver}
-* {role-wg-member}
-* {role-gtm}
-
-h| Step
-| TODO
-
-|===
-====
-
-NOTE: This page covers identifying the need for service providers in a project. +
-If you are looking for how a service provider is selcted, see xref:eengage_service_provider.adoc[]. +
-If you are a service provider looking for information on your role, refer to the xref:role-specific:service-provider.adoc[Service Provider Role Description].
-
-== Context
-
-It is possible a project's list of required expertise cannot be fully covered by the project members themselves.
-This may be
-
-* missing technological knowledge regarding some aspects the project's subject
-* the need for a specialized project organizer
-* model creation
-* the role of a technical writer and editor.
-
-In those cases, a project may decide to hire one or more service providers to fill these roles.
-
-== Result
-* The need for service providers is identified and quantified
-* If the project needs service providers, a list of requirements and job descriptions is created
-
-
-== How
-TODO
-
+include::compendium:page$ASAM/phase-02_proposal/how-to_identify_need_for_sp.adoc[tag=body]
 
 related::service-provider[]

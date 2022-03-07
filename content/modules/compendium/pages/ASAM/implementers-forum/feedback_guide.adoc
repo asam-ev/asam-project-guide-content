@@ -1,0 +1,88 @@
+= Feedback guide
+:description: TODO
+:keywords: TODO
+
+include::compendium:partial$_attributes.adoc[]
+
+== Overview on the different feedback mechanisms
+
+=== Feedback stages
+
+This is the list of feedback stages a feedback issue undergoes during its lifetime:
+
+[cols="1,1,1"]
+[frame=none,grid=rows]
+|===
+h| Stage/Label | Issue state | Description
+
+| ~IF-InternalReview
+| open
+|  Internal discussion and review in the Implementers Forum
+
+| ~IF-DevProjectActionNeeded
+| open
+| Waiting for answers or proposals for solutions from Development Project.
+This might be either addressed in Q&A live sessions or via gitlab comments.
+The state may change back to ~IF-InternalReview if all questions are answered and no further need for action is identified.
+
+| ~IF-DevProjectInProgress
+| open
+| Development project is working on a solution including consultation of Implementers Forum to agree on solution.
+
+| ~IF-Fixed
+| closed
+| 'Fixed' in consensus with IF.
+
+| ~IF-WontFix
+| closed
+| 'Won't fix' in consensus with IF (e.g. out of scope or moved to > 2.0).
+
+|===
+
+This is the workflow in which order an issue may be assigned to a certain stage:
+
+~IF-InternalReview (open) <-->  ~IF-DevProjectActionNeeded -> ~IF-DevProjectInProgress -> \~IF-Fixed/~IF-WontFix (closed)
+
+An overview of all currently available feedback issues you find in the https://code.asam.net/simulation/standard/openscenario-2.0/-/boards/66[IF Feedback Board^].
+
+
+=== Scenario specific feedback
+Use the issues created for each scenario https://code.asam.net/simulation/standard/openscenario-2.0/-/issues?label_name%5B%5D=ScenarioDescription[link to the list of issues for scenario feedback^].
+
+If you create a new issue for a new scenario, please assign the labels ~ImplementersForum, ~ScenarioDescription and ~IF-InternalReview (and no other labels).
+
+As soon as questions arise that cannot be answered by the Implementers Forum alone, then move the issue from the ~IF-InternalReview stage to ~IF-DevProjectActionNeeded (just drag & drop in the board) and mention the responsible person from the Development Project from this https://code.asam.net/simulation/standard/openscenario-2.0/-/wikis/Contact-Persons-from-OSC2-Development-Project[list^].
+
+
+=== General feedback
+If you identify a topic that does not only concern one of our example scenarios but many then you may create a new issue for that with the labels ~ImplementersForum, ~GeneralFeedback and ~IF-InternalReview.
+
+But please be spare with such issues and also try to put connected topics into the same issue to not overload the IF Feedback Board.
+
+https://code.asam.net/simulation/standard/openscenario-2.0/-/issues?label_name%5B%5D=GeneralFeedback[Link to the list of issues for general feedback^].
+
+
+== Feedback to OSC2 Feature List (Excel Table)
+Add your feedback as comment to the respective gitLab issue https://code.asam.net/simulation/standard/openscenario-2.0/-/issues/245[Collect feedback to OSC2.0 feature list^].
+
+
+== General guidelines for content of given feedback
+=== What should be contained in the iF-feedback from the perspective of the OSC2.0 project to be most valuable and helpful?
+- **Ambiguities in the language** (should have high priority)
+  - How clear is the intended meaning and use of language constructs and domain model entities?
+- Are there any **important features missing for 2.0**?  (e.g. if you cannot express things at all)
+- **Ease of expressiveness / Usability / Understandability** e.g.
+  - How complicated is it to express simple things (and why)?
+  - How difficult is it to write/read scenarios for non-programmers?
+  - ...
+
+- Feedback to desired features according to the original proposal like reusability,…
+
+**_General request: Feedback should be constructive and specific not only complains, but also reasons and proposals for improvements if possible._**
+
+
+=== What are the implementers forum members planning/Expecting To Provide (Subgroup A, Subgroup B)?
+- Which features were intensively used during specification of different case-studies? => Priority to be contained in 2.0
+- For which abstraction level which features were used? => Feature Sets, Usage & Pragmatics Group
+- For which use-case which features where used? => Feature Sets, Priorities, Usage & Pragmatics Group
+- ...

@@ -1,9 +1,9 @@
-= General Concepts
+= Concepts
 :description: Contains a short introduction to all important concepts and terms used throughout the Project Guide.
 :keywords: concepts, landing_page
 
 include::partial$_attributes.adoc[]
-include::compendium:partial$abbreviations.adoc[]
+include::{abb}[]
 include::ROOT:partial$_attributes.adoc[]
 
 {getting-started-icon}

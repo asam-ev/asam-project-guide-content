@@ -1,0 +1,59 @@
+= How-To: Identify The Need For Service Providers
+:description: How to identify the need for service providers.
+:keywords: service-provider, proposal
+
+
+include::compendium:partial$_attributes.adoc[]
+
+
+//tag::body[]
+
+[cols="1,5", grid = rows]
+|===
+h|Responsible
+| {role-proposal-submitter}
+
+h|Involved
+| {role-wg-member}
+
+ifdef::compendium[]
+h| Phase
+| xref:getting-involved:proposal_phase.adoc#_the_proposal_phase[image:compendium:asam/project_lifecycle-proposal.svg[]]
+endif::[]
+
+h| Step
+| TODO
+
+h|TL;DR
+a| * TODO
+
+|===
+
+NOTE: This page covers identifying the need for service providers in a project. +
+If you are looking for how a service provider is selected, see xref:engage_service_provider.adoc[]. +
+If you are a service provider looking for information on your role, refer to the xref:role-specific:service-provider.adoc[Service Provider role description].
+
+== Context
+
+It is possible a project's list of required expertise cannot be fully covered by the project members themselves.
+This may be
+
+* insufficient resources (people, time) on the participants' side.
+* missing technological knowledge regarding some aspects the project's subject.
+* the need for a specialized project organizer.
+* model creation.
+* the role of a technical writer and editor.
+
+In those cases, a project may decide to hire one or more service providers to fill these roles.
+
+== Result
+* The need for service providers is identified and quantified
+* If the project needs service providers, a list of requirements and job descriptions is created
+
+
+== How
+TODO
+
+//end::body[]
+
+related::service-provider[]

@@ -3,5 +3,6 @@
 :command-palette: xref:compendium:tools/vscode//vscode_command-palette.adoc[]
 :powershell: xref:compendium:tools/powershell/powershell_basics.adoc[PowerShell]
 :page-partial:
+:compendium:
 
 include::{abb}[]

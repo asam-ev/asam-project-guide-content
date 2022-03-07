@@ -1,3 +1,7 @@
 = Further roles in ASAM projects
+:description: Refers to other roles in ASAM projects.
+:keywords: roles
 
-TODO
+Besides Project Members (aka Worging Group Members), Working Group Leads, and Project Lead, there are a number of other, sometimes temporary roles in ASAM projects.
+
+All available roles as well as pages listing their information can be found in xref:role-specific:main.adoc[].

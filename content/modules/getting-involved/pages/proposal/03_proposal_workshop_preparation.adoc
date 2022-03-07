@@ -5,36 +5,6 @@
 include::partial$_attributes.adoc[]
 include::{abb}[]
 
-====
-[cols="1,5", frame=none, grid = rows]
-|===
-h|Involved roles
-a| * {role-idea-giver}
-* {role-gtm}
-
-h| Step
-| image:proposal_phase_v2-organize_proposal_workshop.svg[]
-
-|===
-====
-
-NOTE: This page covers how to set up a proposal workshop.
-If you are interested in joining a listed workshop, check out xref:proposal/04_join_proposal_workshop.adoc[] instead.
-
-== Context
-
-The first major event in the xref:proposal_phase.adoc[Proposal phase] is the xref:standardization:proposal-phase.adoc#_p1_-_proposal_workshop[proposal workshop].
-Here, the project idea is presented to a broader audience for the first time and discussed.
-
-The Idea Giver needs to prepare the event for it to be efficient and effective.
-ASAM provides a standard xref:compendium:guides/proposal_writing/proposal_workshop_gameplan.adoc[Proposal Workshop Gameplan] to help with the preparation.
-
-== Result
-The Proposal Workshop is prepared and listed on the https://www.asam.net/conferences-events/upcoming-events/[ASAM website^].
-
-
-== How
-TODO
-
+include::compendium:page$ASAM/phase-02_proposal/how_to_prepare_proposal_workshop.adoc[tag=body]
 
 related::proposal-workshop[]

@@ -1,5 +1,9 @@
-* xref:main.adoc[]
-** xref:project-types.adoc[]
+include::../ROOT/partials/_attributes.adoc[]
+* {getting-started-nav-icon}
+** xref:project_types.adoc[]
+** xref:project_phases.adoc[]
 ** xref:roles-overview.adoc[]
-** xref:tools-overview.adoc[]
-** xref:asam-contacts.adoc[]
+** xref:project_phases.adoc[]
+** xref:doc-as-code.adoc[]
+*** xref:tools-overview.adoc[]
+*** xref:pipeline_details.adoc[]

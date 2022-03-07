@@ -1,0 +1,27 @@
+= Ideation Workshop Gameplan
+:description: TODO
+:keywords: TODO
+
+include::compendium:partial$_attributes.adoc[]
+
+[cols="1,5", grid = rows]
+|===
+h|Responsible
+|{role-gtm}
+
+h|Involved
+| {role-idea-giver}, {role-member}
+
+ifdef::compendium[]
+h| Phase
+| xref:getting-involved:ideation_phase.adoc#_the_ideation_phase[image:compendium:asam/project_lifecycle-ideation.svg[]]
+endif::[]
+
+h| Step
+| image:compendium:asam/ideation_phase-ideation_propose.svg[]
+
+h| TL;DR
+a| * TODO
+|===
+
+TODO

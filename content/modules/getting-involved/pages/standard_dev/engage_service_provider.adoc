@@ -1,0 +1,52 @@
+= Engaging Service Providers
+:description: Describes how to engage one or more service providers for a project.
+:keywords: service-provider
+
+include::partial$_attributes.adoc[]
+include::{abb}[]
+
+====
+[cols="1,5", frame=none, grid = rows]
+|===
+h|Involved roles
+a| * {role-project-lead}
+* {role-gtm}
+* {role-member}
+* {role-service-provider}
+
+h| Project phase
+| xref:getting-involved:development_phase.adoc#_the_development_phase[image:compendium:asam/project_lifecycle-standard.svg[]]
+
+|===
+====
+
+== Context
+Some projects require more or different capabilities than the participating companies can provide.
+In these cases, the project will determine the need for service providers during the proposal phase.
+Once the project has been accepted, the project group sends out service requests for the open topics and starts the service provider selection process described below.
+
+== Result
+* Options for service providers have been vetted
+* One or more service providers have been hired
+
+== Prerequisites
+* The project proposal has been accepted by the __{tsc}__.
+* The project has planned budget for hiring service providers.
+
+== How
+Tasks can be bundled or offered separately. +
+Service providers can apply for one or more bundles, or they can limit their offer to select parts of one or more bundles.
+
+. The working group writes a call for tender.
+. Interested service providers apply for a presentation to present themselves and get more input on the tasks required from them
+. The group requests offers from interesting service providers
+. The service providers and the working group negotiate terms and conditions
+. The working group decides on a service provider
+. The contract is signed and an onboarding process is set up
+
+== Troubleshooting
+TODO
+
+== What Happens Next
+The contracted service provider or providers receive a kickoff workshop for their project and tasks.
+If they have not worked with ASAM before, the ideal starting place for general topics is this Project Guide, particularly the xref:role-specific:service-provider.adoc[Service Provider topics page].

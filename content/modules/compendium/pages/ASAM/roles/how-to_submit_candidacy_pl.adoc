@@ -1,0 +1,62 @@
+= How-To: Submit Candidacy For Project Lead
+:description: Describes how to submit a candidacy for Project Lead.
+:keywords: proposal, project-lead
+
+include::compendium:partial$_attributes.adoc[]
+
+//tag::body[]
+
+[cols="1,5", grid = rows]
+|===
+h|Responsible
+|{role-wg-member} -> {role-project-lead}
+
+h|Involved
+|{role-gtm}
+
+ifdef::compendium[]
+h| Phase
+| xref:getting-involved:proposal_phase.adoc#_the_proposal_phase[image:compendium:asam/project_lifecycle-proposal.svg[]]
+endif::[]
+
+h| Step
+| TODO
+
+h|TL;DR
+a| * TODO
+
+|===
+
+NOTE: This page covers how to submit candidacy for the role of xref:role-specific:project-lead.adoc[Project Lead]. +
+If you want to learn more about the role of the Project Lead and its requirements, see xref:getting-involved:signing_up/become_project_lead.adoc[].
+
+
+== Context
+Every project at ASAM needs a Project Lead.
+Consequently, a project may only move from Proposal phase to Standard Development phase if a Project Lead has been elected/designated. +
+In most cases, the Idea Giver is the one elected Project Lead, but this is not a requirement.
+
+
+include::role-specific:partial$role_responsibilities.adoc[tag=project-lead]
+
+== Result
+You have submitted your candidacy for the role of Project Lead.
+
+
+== Prerequisites
+* You must be a project member
+
+
+== How
+TODO
+
+
+== What Happens Next
+The Project Lead is officially decided at the beginning of the project, if the Proposal has been approved by the TSC.
+If there is more than one candidate, the project will then decide on the Project Lead.
+Otherwise, the single candidate is just confirmed formally by the project.
+
+
+See also xref:role-specific:project-lead.adoc[].
+
+//end::body[]

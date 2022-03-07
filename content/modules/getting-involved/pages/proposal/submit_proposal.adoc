@@ -5,29 +5,4 @@
 include::partial$_attributes.adoc[]
 include::{abb}[]
 
-====
-[cols="1,5", frame=none, grid = rows]
-|===
-h|Involved roles
-a| * {role-idea-giver}
-* {role-wg-member}
-* {role-gtm}
-
-h| Step
-| image:proposal_phase_v2-proposal_submission.svg[]
-
-|===
-====
-
-== Context
-
-Once the proposal description is complete, the proposal is submitted to ASAM for release and review.
-
-== Result
-* The proposal is submitted to ASAM for release and review
-
-== How
-TODO
-
-== Next Steps
-After the proposal has been submitted to ASAM Office, it is released on the https://www.asam.net/active-projects/proposals/[ASAM website^].
+include::compendium:page$ASAM/phase-02_proposal/how-to_submit_proposal.adoc[tag=body]

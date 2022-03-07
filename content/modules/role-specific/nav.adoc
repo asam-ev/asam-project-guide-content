@@ -1,4 +1,5 @@
-* xref:home.adoc[]
+include::../ROOT/partials/_attributes.adoc[]
+* {role-specific-nav-icon}
 ** xref:gtm.adoc[]
 ** xref:project-lead.adoc[]
 ** xref:wg-member.adoc[]

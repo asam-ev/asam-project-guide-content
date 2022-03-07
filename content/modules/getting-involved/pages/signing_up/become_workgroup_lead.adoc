@@ -1,5 +1,8 @@
-= Become a workgroup lead
+= Become Workgroup Lead
 :description: Describes how to become a lead of a workgroup and where to find more information.
 :keywords: workgroup-lead, TODO
 
-TODO
+include::partial$_attributes.adoc[]
+include::{abb}[]
+
+include::compendium:page$ASAM/roles/how-to_become_wg_lead.adoc[tag=body]

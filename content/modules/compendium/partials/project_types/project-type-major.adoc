@@ -1,0 +1,51 @@
+
+// tag::short[]
+A major version development project introduces significant changes to the standard, e.g. the addition of a new major feature or significant changes to existing features.
+It is expected that the implementation of the new version will require significant development or migration efforts by tool vendors and end users alike.
+A new major version of an ASAM standard does not have to be backward-compatible to its predecessor.
+// end::short[]
+
+// tag::long[]
+
+Major version developments of ASAM standards introduce significant changes to the standard.
+
+Major version development projects meet one or more of the following criteria:
+
+* Addition of a new, major feature.
+* Significant changes to existing features.
+
+It is expected that the implementation of the new version will require significant development or migration efforts by tool vendors and end users alike.
+
+A new major version of an ASAM standard does not have to be backward-compatible to its predecessor versions.
+
+The number of major version releases meets the pattern:
+"X.0.0".
+X is an integer number starting with 2.
+
+// tag::table[]
+.Summary
+[cols="1h,1"]
+|===
+|Purpose
+a|
+* Add major features
+* Make significant changes to existing features
+
+|Version
+| X.0.0
+
+|New Features
+| yes
+
+|Backward compatible
+| n.a.
+
+|Funding Limit
+| 25%
+
+|Process
+| Standard Development Process
+
+|===
+// end::table[]
+// end::long[]

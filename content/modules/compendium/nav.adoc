@@ -1,9 +1,3 @@
-* Compendium
-** Processes And Workflows
-*** Process 1
-*** Process 2
-*** Workflow 1
-** Definitions (auto generate)
-** Abbreviations
-
-//autonav::[]
+include::../ROOT/partials/_attributes.adoc[]
+* {compendium-nav-icon}
+//autonav::[keepabove]
