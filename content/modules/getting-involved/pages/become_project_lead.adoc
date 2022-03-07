@@ -1,0 +1,11 @@
+= Become a project lead
+:description: Describes how to become a project lead and where to find more information.
+:keywords: project-lead, TODO
+
+include::partial$_attributes.adoc[]
+include::{abb}[]
+
+{role-project-lead}
+
+Each project lead must fulfill a list of requirements.
+See the xref:compendium:roles/project_lead_training.adoc[] for more information on the training for becoming a project lead.

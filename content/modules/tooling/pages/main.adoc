@@ -1,9 +1,8 @@
-= Tools Overview
+= Tools overview
 :description: Gives an overview over the mandatory and recommended tools most commonly used in ASAM projects.
 :keywords: overview,tools,landing_page,tools-overview,READYFORREVIEW
 :no-installation: xref:working-without-software-installation.adoc[]
 :page-aliases: overview.adoc
-:tooling:
 
 include::tooling:partial$_attributes.adoc[]
 include::ROOT:partial$_attributes.adoc[]
@@ -12,8 +11,6 @@ include::{abb}[]
 {tools-icon}
 
 include::partial$module-description.adoc[]
-
-include::ROOT:partial$landing_page_referral.adoc[]
 
 Tools mandatory for every member are hosted by __{asam}__ and can be accessed online and without local setup.
 An overview over these can be found under <<Infrastructure for Standard Development>>.

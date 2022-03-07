@@ -1,8 +1,0 @@
-name: asamprojectguide-editing
-title: Editing the ASAM Project Guide
-version: master
-display_version: latest
-prerelease: -restructure
-start_page: ROOT:main.adoc
-nav:
-- modules/ROOT/nav.adoc

@@ -1,8 +1,0 @@
-= Become A Workgroup Member
-:description: Describes how to become a member of a workgroup and where to find more information.
-:keywords: workgroup-member, TODO
-
-include::partial$_attributes.adoc[]
-include::{abb}[]
-
-include::compendium:page$ASAM/roles/how-to_become_wg_member.adoc[tag=body]

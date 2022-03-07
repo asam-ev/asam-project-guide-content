@@ -1,8 +1,0 @@
-= Become Project Lead
-:description: Describes how to become a project lead and where to find more information.
-:keywords: project-lead, TODO
-
-include::partial$_attributes.adoc[]
-include::{abb}[]
-
-include::compendium:page$ASAM/roles/how-to_become_pl.adoc[tag=body]

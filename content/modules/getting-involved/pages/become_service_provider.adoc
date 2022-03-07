@@ -1,0 +1,8 @@
+= Become a service provider
+:description: Describes how to become a service provider and where to find more information.
+:keywords: service-provider, TODO
+
+include::partial$_attributes.adoc[]
+include::{abb}[]
+
+{role-service-provider}

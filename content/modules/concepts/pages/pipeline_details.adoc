@@ -1,8 +1,0 @@
-= Automation Pipelines At ASAM
-:description: Describes the standard automation pipeline and links to external sources for documentation.
-:keywords: pipeline
-
-include::partial$_attributes.adoc[]
-include::{abb}[]
-
-TODO

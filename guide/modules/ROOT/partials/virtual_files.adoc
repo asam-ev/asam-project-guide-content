@@ -1,4 +1,0 @@
-
-NOTE: Antora works with virtual files.
-See https://docs.antora.org/antora/latest/organize-content-files/#antoras-virtual-filesystem[Antora's virtual filesystem^].
-

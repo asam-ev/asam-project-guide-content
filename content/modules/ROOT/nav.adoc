@@ -1,5 +1,0 @@
-include::partials/_attributes.adoc[]
-* xref:asam-contacts.adoc[]
-* xref:credits.adoc[]
-// * xref:asam-contacts.adoc[image:https://cdn-icons-png.flaticon.com/512/1250/1250592.png[width={width-nav-icon}] Contacts]
-// * xref:credits.adoc[image:https://cdn-icons-png.flaticon.com/512/681/681443.png[width={width-nav-icon}] Credits ]

@@ -1,0 +1,17 @@
+= How to enter a new idea
+:description: Describes how to enter a new idea into the ideation process.
+:keywords: ideation, idea, TODO
+
+include::partial$_attributes.adoc[]
+include::{abb}[]
+
+{role-standard-user}
+
+include::standardization:partial$project-ideation.adoc[tag=short]
+
+Enter your idea for a new project through the ideation process:
+https://www.asam.net/active-projects/ideation/.
+
+You can find more information in this Project Guide on the xref:standardization:project-ideation.adoc[] page.
+
+// Needs restructuring
