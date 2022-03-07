@@ -1,0 +1,14 @@
+= Roles at ASAM - overview
+:description: Links to the current contact page for ASAM Office members.
+:keywords: roles, asam, new-here-content, TODO
+
+include::partial$_attributes.adoc[]
+include::{abb}[]
+
+include::role-specific:partial$roles.adoc[tag=summary]
+
+The following table contains a list of all project roles and a short description for them.
+
+include::role-specific:partial$roles.adoc[tag=list_of_roles]
+
+// related::role[]

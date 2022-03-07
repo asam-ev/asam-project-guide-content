@@ -1,0 +1,42 @@
+
+// tag::long[]
+// tag::table[]
+[cols="1h,20"]
+|===
+|Purpose
+|To create the project proposal.
+
+|Responsible
+|Proposal submitter
+
+|Involved
+|Office, members
+|===
+// end::table[]
+
+The submitter of a project proposal must be an ASAM member in an "active" membership class.
+
+The submitter shall consider the following input for writing the project proposal:
+
+- meeting minutes of the Proposal Workshop (if this occurred)
+- own sources (if no Proposal Workshop occurred)
+- relevant papers from concept projects
+
+The submitter shall estimate the work efforts of the project and create a milestone plan.
+The duration of the plan shall not exceed 1.5 years.
+
+The proposal may contain a request for video conferencing support through the Office, if project group members originate from locations that would require long-distance (i.e. inter-continental) business trips to regularly participate at project meetings.
+
+The Office assists the submitter by giving advice with respect to ASAM guideline and best practices.
+The Office checks the proposal document for formal compliance and understandability.
+
+The submitter shall send out the proposal to all participants of the Proposal Workshop (if this occurred) for review.
+// end::long[]
+
+//tag::short[]
+The proposal author prepares the project proposal.
+They consider input of the preceding proposal workshop (if available).
+They define which content shall be included in the standard, creates a project plan and estimates work efforts and a (optional) budget.
+They must also find a minimum of three companies (including his own), who commit work resources to the project.
+The ASAM office supports the proposal author.
+//end::short[]

@@ -1,0 +1,66 @@
+//tag::description[]
+This macro creates cross-references under the section "Pages" at the macro location to all pages (with or without nested folders) in a given folder relative to the file with the macro.
+If no folder is defined, the file's folder is used instead.
+
+In addition to this replacement, an attribute `:pagemacro:` is automatically set so that the section numbering feature will exclude this section title automatically.
+This helps other Antora extensions to identify this particular section header in order to act on it differently.
+//end::description[]
+
+//tag::prerequisits[]
+At least one asciidoc file that is not this file must be in the target folder.
+//end::prerequisits[]
+
+//tag::parameters[]
+[cols="1,1,4"]
+|===
+|Parameter |Argument(s) |Note
+
+|all |- |Also include all sub-folders
+|path |relative-path-to-folder |Path to the target folder relative to this file
+
+|===
+//end::parameters[]
+
+//tag::attributes[]
+[cols="2,1,1,1,4"]
+|===
+|Attribute |Multiplicity |Separator |Type |Note
+
+|===
+//end::attributes[]
+
+//tag::how[]
+Add `page::[<arguments>]` in an empty line and replace `<arguments>` with a list of arguments, separated by "," (comma).
+If you add no arguments, the macro will list all other pages in the same folder as this file.
+//end::how[]
+
+//tag::example[]
+Assuming the following folder structure:
+
+[source]
+----
+this_page.adoc
+other_page.adoc
+my_folder/
+├── ignored_subfolder/
+|   └── ignored_file_in_subfolder.adoc
+├── 01_proposal_setup.adoc
+├── 02_contributing.adoc
+├── 03_proposal_workshop_preparation.adoc
+└── 04_join_proposal_workshop.adoc
+----
+, the example below shows the result for applying the macro with the path set to "my_folder".
+
+.List all pages in the folder "my_folder" relative to the current file but not its subfolders
+====
+[source,asciidoc]
+----
+pages::[path=my_folder]
+----
+====
+
+====
+image::pages_macro.png[title='The macro "pages" applied to the folder "my_folder", which contains eleven files.', float="left"]
+====
+
+//end::example[]

@@ -1,0 +1,18 @@
+= Contributing to a Project Proposal
+:description: Summarizes steps for contributing to a project proposal
+:keywords: proposal,READYFORREVIEW
+
+include::partial$_attributes.adoc[]
+
+{role-wg-member}
+{role-project-lead}
+
+include::compendium:partial$conventions/git-based_workflow.adoc[tag=short]
+
+To contribute to a Project Proposal, project members can either <<How to contribute to a proposal through GitLab issues,contribute through GitLab issues>> or <<How to contribute to a proposal directly in AsciiDoc files,contribute directly in AsciiDoc>>. +
+Both can be performed xref:tooling:working-without-software-installation.adoc[without software installation] directly through the xref:compendium:tools/gitlab/gitlab-ide_guide.adoc[Gitlab IDE].
+However, if you prefer to work on your local computer, ASAM recommends using xref:tooling:git.adoc[Git] and xref:tooling:vscode.adoc[Visual Studio Code].
+
+include::compendium:page$guides/proposal_writing/contribute_with_issues.adoc[leveloffset=+1, tags=!roles]
+
+include::compendium:page$guides/proposal_writing/contribute_in_asciidoc.adoc[leveloffset=+1, tags=!roles]

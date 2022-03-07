@@ -1,0 +1,31 @@
+= Using roles
+:description: Describes how to link a page to a role.
+:keywords: how-to, role, READYFORREVIEW
+
+include::partial$_attributes.adoc[]
+include::{abb}[]
+
+{changes-icon}
+
+Most task and instruction pages in this Project Guide are assigned to one or more roles.
+By assigning a role, the page is automatically linked to the corresponding role page(s), making it easier to find them for people of that role.
+The benefit of these role labels is that
+
+. they link to the role's main page (the user can click on the label),
+. they are automatically listed on that role page, and
+. they can be listed on any page with the xref:extensions/macro-role_related.adoc[].
+
+TIP: All available roles are defined in the file `site.yml` at root level of the repository.
+If you need to define a new role first, see xref:adding_content/roles/add-new-role.adoc[].
+
+In order to work with roles, just add the attribute of that role to that page:
+
+. Add the attribute `{role-xyz}` to the page's body, where `xyz` is the name of the role (e.g. gtm).
+
+IMPORTANT: The role only works correctly if added to a page.
+Pages importing a partial with a role label will not show up correctly in the role's overview!
+
+== Recommendations
+- If the whole page relates to the role or roles, add the label right after the first empty line after the pages top includes, but before the first line of text.
+- If only a section relates to a specific role, add that role after the section heading.
+- If a page is relevant for multiple roles, add them in sequential lines (one role per line).

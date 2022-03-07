@@ -1,0 +1,41 @@
+= Current projects at ASAM
+:description: Links to the current projects page at ASAM.
+:keywords: projects, asam, new-here-content, ideation, standards, REVIEWED_OK
+:asam-released: https://www.asam.net/standards/
+:asam-current: https://www.asam.net/active-projects/projects/
+:asam-proposal: https://www.asam.net/active-projects/proposals/
+:asam-review: https://www.asam.net/active-projects/public-review/
+
+include::partial$_attributes.adoc[]
+include::{abb}[]
+
+TIP: You can find information on released standards and current projects on the ASAM website.
+
+== Released standards
+
+All standards that have been previously created and approved can be found on the ASAM website.
+
+NOTE: Link: {asam-released}[Released ASAM standards^]
+
+== Current projects
+There are different stages for a project to be in.
+Not all these stages are public (e.g. xref:standardization:project-ideation.adoc[]).
+The following section summarize the open information on current project activities.
+
+ASAM members are invited to:
+
+* Provide comments about the content of the proposal.
+* Enroll for participation in the project.
+
+NOTE: Link: {asam-proposal}[ASAM proposals^]
+
+=== Ongoing projects
+Projects currently under development are publicly announced, but their project work is usually for members only until the results are ready to be published.
+
+NOTE: Link: {asam-current}[ASAM current projects^]
+
+=== Public reviews
+The purpose of a "Public Review" is to involve ASAM members who are not part of the project group but work in the respective domain, to obtain their review feedback and to increase the overall quality and acceptance of a standard prior to its release.
+If you are employee of an ASAM member company, you are eligible to take part in the review process.
+
+NOTE: Link: {asam-review}[ASAM public reviews^]

@@ -1,0 +1,36 @@
+= The Proposal phase
+:description: Describes the Proposal phase in the ASAM development process for standards.
+:keywords: proposal,phase,standard,process,proposal-workshop, READYFORREVIEW
+
+include::partial$_attributes.adoc[]
+include::{abb}[]
+
+The purpose of the Proposal phase is to transfer ideas for standard development into a specific ASAM project proposal and to obtain a decision on the proposal.
+
+image::asam-development-process-Proposal.svg[title="The Proposal Phase (simplified)",opts=interactive]
+
+image::proposal_phase_v2-Proposal_Phase.svg[title="The Proposal Phase (expanded and interactive) as BPMN 2.0",opts=interactive]
+
+== P1 - Proposal Workshop
+include::partial$proposal-workshop.adoc[tag=long]
+
+
+== P2 - Proposal Writing
+include::partial$proposal-writing.adoc[tag=long]
+
+
+== P3 - Proposal Submission
+include::partial$proposal-submission.adoc[tag=long]
+
+
+== P4 - Proposal Publication
+include::partial$proposal-publication.adoc[tag=long]
+
+
+== P5 - Proposal Decision
+include::partial$proposal-decision.adoc[tag=long]
+
+
+pages::[path=proposal]
+
+related::proposal[]

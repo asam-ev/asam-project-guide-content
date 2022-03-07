@@ -1,0 +1,45 @@
+
+// tag::long[]
+// tag::table[]
+[cols="1h,20"]
+|===
+|Purpose
+|To approve or reject the project proposal.
+
+|Responsible
+|__{tsc}__
+
+|Involved
+|Proposal submitter
+|===
+// end::table[]
+
+Submitted project proposals are put on the agenda of the next available __{tsc}__ meeting.
+Proposals are handled during the meeting via a three-step process:
+
+. Submitter presents the proposal to the __{tsc}__ members.
+. __{tsc}__ members are given the opportunity to ask questions.
+. __{tsc}__ members discuss the proposal (without submitter's presence) and then proceed with casting their votes on the proposal.
+
+The __{tsc}__ does not modify the content of the proposal.
+If this is deemed to be necessary, then the proposal shall be rejected.
+
+The __{tsc}__ may add constraints or conditions for the execution of the proposed project.
+They are noted in the meeting minutes.
+
+The __{tsc}__ may decide to approve only some of the defined work packages of the project and ask for re-submission of the proposal with a content update for the unapproved work packages.
+
+The __{tsc}__ might assign a mentor for each new standard or major version development project.
+The mentor shall be a member of the __{tsc}__.
+
+The voting is carried out in accordance with the __{tsc}__ voting rules.
+The Board Representative for the __{tsc}_ has to confirm the _{tsc}__ decision.
+The proposed project becomes effective with the given approval of both parties.
+The approved project proposals are regarded as the work order for the new project group.
+// end::long[]
+
+//tag::short[]
+The proposal is reviewed by the __{tsc}__ (Technical Steering Committee).
+The proposal author presents his proposal to the members of the __{tsc}__ and answers their questions.
+The __{tsc}__ members then vote on whether or not to accept the proposal.
+//end::short[]

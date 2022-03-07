@@ -1,0 +1,38 @@
+= Using abbreviations
+:description: Describes how to use a defined abbreviation.
+:keywords: how-to, abbreviation, abbr, READYFORREVIEW
+
+include::partial$_attributes.adoc[]
+include::{abb}[]
+
+{changes-icon}
+
+Abbreviations help keep text short.
+In many cases, often used abbreviations may even enable people to understand things faster if they are familiar with the shorthand.
+
+Since not everyone may know all abbreviations, however, a xref:compendium:abbreviations.adoc[page that has a summary of them] was introduced.
+Here, you can find all abbreviations used throughout the Project Guide.
+
+If you want to use an abbreviation on a page or partial, do the following:
+
+. Make sure the page or partial contains the line `include::{abb}[]` above its body.
++
+NOTE: If a page mostly consists of a partial for its body, make sure that at least one of the two contains this line.
+
+. Ensure that the file or any includes **do not** contain the attribute `:is_abbreviations:` - this attribute marks the page where the full list of abbreviations is displayed!
+. Add the link attribute for each abbreviation where you would like it to be.
+You can find all available link attributes by looking in the **partial** "abbreviations.adoc" in the module "compendium"
++
+.Example
+====
+[source]
+----
+This page is about __{asam}__, not about __{api}s__.
+----
+This page is about __{asam}__, not about __{api}s__.
+====
+
+== Recommendations
+- Use the same abbreviation **only once per document**
+- **Avoid using abbreviations in partials**, if it is a commonly used abbreviation
+- **Highlight the abbreviation** with italic font (using two underscores "__" before and after the curly brackets)

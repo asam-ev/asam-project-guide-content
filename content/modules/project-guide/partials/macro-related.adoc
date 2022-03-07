@@ -1,0 +1,51 @@
+
+//tag::description[]
+Creates a subsection called "Related Topics" and filles it automatically with cross-references to (other) pages containing the listed keywords.
+Works similar to the macro `reference`, but adds said subsection.
+//end::description[]
+
+//tag::prerequisits[]
+In order to work as intended, you must label all pages you want to automatically cross-reference with the attribute `:keywords:` followed by a comma-separated list of keywords for that page.
+
+Keywords **MUST NOT** start with an exclamation mark!
+//end::prerequisits[]
+
+//tag::parameters[]
+[cols="1,1"]
+|===
+|Parameter |Argument(s) |Note
+
+|===
+//end::parameters[]
+
+//tag::attributes[]
+[cols="2,1,1,1,4"]
+|===
+|Attribute |Multiplicity |Separator |Type |Note
+
+|Keyword
+|1..n
+|","
+|String
+|Must be a keyword used in at least one other page to work correctly.
+
+|===
+//end::attributes[]
+
+//tag::how[]
+Add `related::<comma-separated-keywords>[]` in an empty line and replace `<comma-separated-keywords>` with a comma-separated list of keywords you want to reference.
+You can exclude pages with certain other keywords by negating that keyword.
+To negate a keyword, use an exclamationmark (`!`) in front of it.
+//end::how[]
+
+//tag::example[]
+The following example shows a list of all pages in a new section "Related" with the keyword "pipeline" that do not contain the keyword "asciidoctor".
+
+.Using the `related` macro to include the keyword `pipeline` and exclude the keyword `asciidoctor`
+====
+[source,asciidoc]
+----
+related::pipeline,!asciidoctor[]
+----
+====
+//end::example[]

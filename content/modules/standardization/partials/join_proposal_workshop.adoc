@@ -1,0 +1,39 @@
+
+include::partial$_attributes.adoc[]
+include::{abb}[]
+
+ifndef::small[]
+image::standardization:proposal_phase_v2-Join_Workshop.svg[title="Join Proposal workshop",opts=interactive]
+endif::[]
+
+ifdef::small[]
+image::standardization:asam-development-process-ProposalWS.svg[title="Join Proposal workshop (small)",opts=interactive]
+endif::[]
+
+TIP: Current proposal workshops are listed on the https://www.asam.net/conferences-events/upcoming-events/[ASAM website^].
+
+== Context
+You are interested in an upcoming project?
+The first major event after the xref:standardization:project-ideation.adoc[ideation phase] is the xref:standardization:proposal-phase.adoc#_p1_-_proposal_workshop[proposal workshop].
+Here, you will get a presentation on what the project's goal is and may give feedback on it.
+Additionally, you can also present your view on the project idea.
+If you are interested in doing so, contact the mailto:info@asam.net[ASAM office] before the event.
+
+You can also xref:getting-involved:become_workgroup_member.adoc[sign up for a project participation], both for the xref:standardization:proposal-phase.adoc[proposal] and the xref:standardization:development-phase.adoc[development phase] (if the project is agreed upon by the __{tsc}__)
+
+== Result
+You have signed up for the selected proposal workshop.
+
+== Prerequisites
+None
+
+== How
+. Go to the https://www.asam.net/conferences-events/upcoming-events/[ASAM website^] and find the proposal workshop you are interested in.
+. Access the "Registration" tab, fill out the form and send it to register. +
+You will receive a confirmation email if your registration was successful.
+
+== Troubleshooting / Known Issues
+=== I cannot find the event online, but I know it exists
+If you want to join a project proposal but cannot find the event on the website, you can also contact mailto:info@asam.net[ASAM office] directly.
+Please consider this as a last resort to fall back to only in case you cannot find the information.
+

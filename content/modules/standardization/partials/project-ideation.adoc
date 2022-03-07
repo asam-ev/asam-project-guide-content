@@ -1,0 +1,35 @@
+
+//tag::short[]
+The convergence of the automotive markets with new trends in digitalization, autonomous driving, alternative propulsion, and vehicle as a service as enabled by new IT business models provides many new technical concepts that can be standardized in __{asam}__.
+
+ASAM has launched this ideation platform to address topics and challenges that may benefit from standardization, and to get a feeling for their market relevance.
+We invite you to send us your ideas, share your expertise, and address your requirements.
+
+**Info page**: https://www.asam.net/active-projects/ideation/[window=_blank]
+//end::short[]
+
+//tag::long[]
+The convergence of the automotive markets with new trends in digitation, autonomous driving, alternative propulsion, and vehicle as a service as enabled by new IT business models provides many new technical concepts that can be standardized in ASAM.
+Standardization requires three components:
+
+* A technical concept
+* A market need for the standard
+* Passonate, technical experts who convene at reguaral intervals to define the requirements and the implementation
+
+To make sure that these three requirements are met, ASAM has launched this ideation platform.
+
+Technical experts from all over the globe can post concepts and ideas, receive feedback, and drive new standardization topics.
+This is how it works:
+
+. Send an email with your concept, idea, question or feedback to ideation@asam.net
+. The ASAM Office will contact you to clarify the details (or answer your questions)
+. It must be investigated if there are any other standards or standardization projects in that area
+. The ASAM Office will then post the mutually agreed concept
+. ASAM Members world-wide will be able to comment on the idea, and enroll in an ideation project
+
+When enough interest is raised (subject to suitable market relevance), ASAM will host a workshop to further develop the topic.
+If required, an ideation project is being set-up that will meet regularly.
+The final goal is to transfer the idea into the regular Standards Development Process.
+
+**Info page**: https://www.asam.net/active-projects/ideation/how-it-works/[window=_blank]
+//end::long[]

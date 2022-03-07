@@ -1,0 +1,13 @@
+= Processes and workflows - overview
+:description: Links to the current contact page for ASAM Office members.
+:keywords: processes,workflows, asam, new-here-content, REVIEWED_TODO
+
+include::partial$_attributes.adoc[]
+include::{abb}[]
+
+== ASAM standard development process
+include::standardization:partial$asam-processes.adoc[tags=image;short]
+
+For more information, see xref:standardization:main.adoc[].
+
+// TODO: Define new process diagram that displays more of the actual sequence and its steps

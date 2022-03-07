@@ -1,0 +1,16 @@
+= Prepare a Proposal workshop
+:description: What to prepare for a proposal workshop.
+:keywords: proposal-workshop, proposal, TODO
+
+include::partial$_attributes.adoc[]
+include::{abb}[]
+
+{role-gtm}
+
+image::standardization:proposal_phase_v2-Organize_Workshop.svg[title="Organize Proposal workshop",opts=interactive]
+
+TODO
+
+If you are looking for more information on the proposal workshop, see the section <<Related topics>>.
+
+related::proposal-workshop[]

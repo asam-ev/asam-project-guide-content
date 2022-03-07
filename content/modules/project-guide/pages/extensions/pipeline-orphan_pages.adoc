@@ -1,0 +1,22 @@
+= Pipeline: Orphan pages
+:description: Describes the use of the pipeline extension "Orphan pages" in detail.
+:keywords: pipeline,asam,antora,custom, REVIEWED_OK
+
+include::partial$_attributes.adoc[]
+include::{abb}[]
+
+{special-macros-icon}
+
+== Description
+include::partial$pipeline-orphan_pages.adoc[tag=description]
+
+== Configuration
+include::partial$pipeline-orphan_pages.adoc[tag=configuration]
+
+
+== Usage
+include::partial$pipeline-orphan_pages.adoc[tag=how]
+
+== Example
+include::partial$pipeline-orphan_pages.adoc[tag="example"]
+

@@ -1,0 +1,13 @@
+= Adding a Tool page
+:description: Explains how to add a new page for a tool to the Project Guide and what to look out for.
+:keywords: tool,page,project-guide,new-content-guide, READYFORREVIEW
+:page_reason: tool
+:page_template_name: template-tools-page.adoc
+:page_template_alt_name: tools template
+:page-aliases: adding_content/add-tool-page.adoc
+
+
+NOTE: This is a variation on the xref:adding_content/add-a-page.adoc[default page creation].
+The {page_template_alt_name} is ONLY intended for a new tools main page.
+
+include::partial$standard_page_creation.adoc[]

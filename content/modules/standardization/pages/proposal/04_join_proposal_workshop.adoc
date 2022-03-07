@@ -1,0 +1,10 @@
+= Join a Proposal workshop (extended description)
+:description: Describes how to join a proposal workshop
+:keywords: proposal-workshop,READYFORREVIEW
+
+{role-standard-user}
+{role-wg-member}
+
+include::standardization:partial$join_proposal_workshop.adoc[]
+
+related::proposal-workshop[]

@@ -1,0 +1,5 @@
+
+Want to participate in developing the Project Guide?
+Want to contribute information or update processes and guidelines?
+This module contains instructions on how to work with Antora, what to look out for with this guide, particularities and special features developed by ASAM etc.
+NOTE: This is intended for experienced users!

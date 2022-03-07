@@ -1,0 +1,22 @@
+= Introduction
+:description: Introduction page for the Project Guide. Links to all information in the introduction section.
+:keywords: introduction, landing_page, TODO
+
+include::partial$_attributes.adoc[]
+include::compendium:partial$abbreviations.adoc[]
+include::ROOT:partial$_attributes.adoc[]
+
+{getting-started-icon}
+
+// Change description once restructuring is done
+
+> Nobody is born an expert.
+
+Everyone needs to start somewhere. +
+To do so, the following sections give a basic summary over all important aspects of working at and with __{asam}__.
+
+include::partial$module-description.adoc[]
+
+== Content
+
+include::../nav.adoc[lines=2..-1]

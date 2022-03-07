@@ -1,0 +1,52 @@
+//tag::description[]
+Creates an automatically generated list under a new section "Role-related topics" with cross-references to (other) pages containing the relevant role.
+//end::description[]
+
+//tag::prerequisits[]
+At least one other AsciiDoc file with the relevant role label.
+//end::prerequisits[]
+
+//tag::parameters[]
+[cols="1,1,4"]
+|===
+|Parameter |Argument(s) |Note
+
+|keyword
+|nA
+|A list of keywords to filter the relevant pages, separated by "," (comma).
+If at least one keyword is given, the heading "== Role-related topics" is omitted and only pages containing both the specified role(s) AND the keyword(s) are listed!
+
+|===
+//end::parameters[]
+
+//tag::attributes[]
+[cols="2,1,1,1,4"]
+|===
+|Attribute |Multiplicity |Separator |Type |Note
+
+|role
+|1..n
+|","
+|String
+|The name of the role label with out the leading "role-", e.g. "gtm" for the label "role-gtm".
+
+|===
+//end::attributes[]
+
+//tag::how[]
+Add `role_related::<attributes>[<parameters>]` in an empty line and replace `<attributes>` with a list of role labels, separated by "," (comma), and `<parameters>` with an (optional) list of limiting keywords, separated by "," (comma).
+//end::how[]
+
+//tag::example[]
+In this example, all pages in the documentation that contain both the role label "gtm" and the keyword "proposal" are listed.
+
+.List all pages with the role "gtm" that also contain the keyword "proposal"
+====
+[source,asciidoc]
+----
+role_related::gtm[proposal]
+----
+====
+
+
+//end::example[]

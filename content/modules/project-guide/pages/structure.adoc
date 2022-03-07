@@ -1,0 +1,12 @@
+= Structure
+:description: Collects all pages on the ASAM Project Guide structure.
+:keywords: project-guide, structure, TODO
+
+include::partial$_attributes.adoc[]
+include::{abb}[]
+
+{structure-icon}
+
+Here you find all pages related to the structure of the Project Guide as well as navigating it.
+
+pages::[path=structure]

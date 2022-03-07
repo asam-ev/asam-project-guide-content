@@ -1,0 +1,10 @@
+= Including pages and partials
+:description: Provides information on including pages and partials in Antora.
+:keywords: project-guide, antora, include, TODO
+
+include::partial$_attributes.adoc[]
+include::{abb}[]
+
+{ref-include-icon}
+
+TODO

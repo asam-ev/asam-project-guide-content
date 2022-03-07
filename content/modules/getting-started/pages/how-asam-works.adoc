@@ -1,0 +1,17 @@
+= How ASAM works
+:description: Links to the current contact page for ASAM Office members.
+:keywords: about, asam, new-here-content, organization, REVIEWED_OK
+:asam-orga: https://www.asam.net/about-asam/organization/
+
+include::partial$_attributes.adoc[]
+include::{abb}[]
+
+__{asam}__ is a standardization organization where experts from OEMs, Tier-1s, tool vendors, engineering service providers, and research institutes meet to commonly standardize development and test systems for the automotive industry.
+For more information, see the {asam-orga}[ASAM Website^].
+
+{asam-orga}[image:https://www.asam.net/index.php?eID=tx_cms_showpic&file=92&md5=5e601664e69ac14ef27542511b76883019687ea3&parameters%5B0%5D=eyJ3aWR0aCI6IjgwMG0iLCJoZWlnaHQiOiI2MDBtIiwiYm9keVRhZyI6Ijxib2R5&parameters%5B1%5D=IHN0eWxlPVwibWFyZ2luOjA7IGJhY2tncm91bmQ6I2ZmZjtcIj4iLCJ3cmFwIjoi&parameters%5B2%5D=PGEgaHJlZj1cImphdmFzY3JpcHQ6Y2xvc2UoKTtcIj4gfCA8XC9hPiIsImNyb3Ai&parameters%5B3%5D=OiJ7XCJkZWZhdWx0XCI6e1wiY3JvcEFyZWFcIjp7XCJ4XCI6MCxcInlcIjowLFwi&parameters%5B4%5D=d2lkdGhcIjoxLFwiaGVpZ2h0XCI6MX0sXCJzZWxlY3RlZFJhdGlvXCI6XCJOYU5c&parameters%5B5%5D=IixcImZvY3VzQXJlYVwiOm51bGx9fSJ9[title="The ASAM Organization"] ^] +
+
+ASAM e.V. is built around https://www.asam.net/asam-statutes/[statutes^] that define what ASAM is, what its objectives are and what 'membership' means and implies.
+
+
+// related::asam[]
