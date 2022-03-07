@@ -1,0 +1,15 @@
+name: asam-project-guide-content-udpate
+
+on:
+  # create: # new branches or tags
+  # release: # new releases
+  push: # on push
+    branches:
+    - main
+    - 'restructuring_**'
+  workflow_dispatch: # manual trigger
+
+jobs:
+  notify:
+    name: Notify the generator about the update
+    runs-on: ubuntu-20.04
