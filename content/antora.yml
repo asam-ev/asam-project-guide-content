@@ -1,8 +1,8 @@
 name: asamprojectguide
 title: ASAM Project Guide
-version: master
-display_version: baseline
-prerelease: -dev
+version: pre-res
+display_version: Pre-Restructuring
+prerelease: -pre
 start_page: ROOT:index.adoc
 nav:
 - modules/getting-started/nav.adoc
@@ -12,4 +12,3 @@ nav:
 - modules/tooling/nav.adoc
 - modules/compendium/nav.adoc
 - modules/project-guide/nav.adoc
-# - modules/ROOT/nav.adoc
