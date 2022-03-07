@@ -2,7 +2,7 @@ name: asamprojectguide
 title: ASAM Project Guide
 version: master
 display_version: latest
-prerelease: -restructure
+prerelease: -dev
 start_page: ROOT:index.adoc
 nav:
 - modules/concepts/nav.adoc
