@@ -1,0 +1,12 @@
+name: asamprojectguide
+title: ASAM Project Guide
+version: master
+display_version: latest
+prerelease: -restructure
+start_page: ROOT:index.adoc
+nav:
+- modules/concepts/nav.adoc
+- modules/getting-involved/nav.adoc
+- modules/role-specific/nav.adoc
+- modules/tooling/nav.adoc
+- modules/compendium/nav.adoc

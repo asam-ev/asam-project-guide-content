@@ -1,0 +1,160 @@
+= How to include code blocks in ASAM documents
+:description: How-To for including code blocks in ASAM documents (standards).
+:keywords: asciidoc,code,how-to, READYFORREVIEW
+:reftext: Code and syntax highlighting
+
+
+include::compendium:partial$_attributes.adoc[]
+
+This chapters shows how to include code blocks in an ASAM standard. In the standard case, a fragment direcly from a source code file is included, to not have duplicated code in the document. This is shown in chapter <<Code as fragment from source code file>>.
+
+In some cases, e.g. examples, it is also possible to direcly include code in the documentation. This is shown in chapter <<Code as snippet in document>>.
+
+== Code as fragment from source code file
+
+=== Code
+
+[[code-tags-in-source-file]]
+.Tags for incusion source code file
+[source, js]
+----
+[...]
+// tag::exampleInclude[]  // <1>
+function lorem(ipsum, dolor = 1) { // <2>
+    const sit = ipsum == null ? 0 : ipsum.sit;
+    dolor = sit - amet(dolor);
+    return sit ? consectetur(ipsum, 0, dolor < 0 ? 0 : dolor) : [];
+}
+// end::exampleInclude[] // <3>
+[...]
+----
+<1> Anchor for code block. Reference this anchor using \<<code-example-code-block>>
+<2> Caption of the code block
+<3> Caption of the code block
+
+Then you can use the tags `+exampleInclude+` to include the fragement in the AsciiDoc documentation.
+
+....
+[[code-example-code-block-tag]]  // <1>
+.ASAM example code block using tags // <2>
+[source,js]  // <3>
+---- // <4>
+\include::../resources/examplecode.js[tags=exampleInclude] // <5>
+---- // <6>
+....
+<1> Anchor for code block. Reference this anchor using \<<code-example-code-block-tag>>
+<2> Caption of the code block
+<3> Sets code highlighting. Possible options: xml, java, ..
+<4> Code block delimiter
+<5> Direcly include source code file with tag marking fragment
+<6> Code block delimiter
+
+NOTE: For more informaton see the https://docs.asciidoctor.org/asciidoc/latest/directives/include-tagged-regions/[Asciidoctor reference].
+
+=== Result
+
+See the result in <<code-example-code-block-tag>>.
+
+[[code-example-code-block-tag]]
+.ASAM example code block
+[source,js]
+----
+include::compendium:example$/examplecode.js[tags=exampleInclude]
+----
+
+​
+
+== Code as snippet in document
+
+
+
+=== Code
+....
+[[code-example-code-block]]  // <1>
+.ASAM example code block // <2>
+[source,xml]  // <3>
+---- // <4>
+<ParameterDeclarations> // <5>
+  <ParameterDeclaration name="$HostVehicle" parameterType="string" value="car_white"/>
+  <ParameterDeclaration name="$TargetVehicle" parameterType="string" value="car_red"/>
+  <ParameterDeclaration name="$EgoStartS" parameterType="double" value="50"/>
+  <ParameterDeclaration name="$HeadwayTime_LaneChange" parameterType="double" value="0.4"/>
+  <ParameterDeclaration name="$HeadwayTime_Brake" parameterType="double" value="1.0"/>
+</ParameterDeclarations>
+---- // <6>
+....
+<1> Anchor for code block. Reference this anchor using \<<code-example-code-block>>
+<2> Caption of the code block
+<3> Sets code highlighting. Possible options: xml, java, ..
+<4> Actual Codeblock
+<5> Code block delimiter
+<6> Code block delimiter
+
+=== Result
+
+See the result in <<code-example-code-block>>.
+
+[[code-example-code-block]]
+.ASAM example direct include code block
+[source,xml]
+----
+<ParameterDeclarations>
+  <ParameterDeclaration name="$HostVehicle" parameterType="string" value="car_white"/>
+  <ParameterDeclaration name="$TargetVehicle" parameterType="string" value="car_red"/>
+  <ParameterDeclaration name="$EgoStartS" parameterType="double" value="50"/>
+  <ParameterDeclaration name="$HeadwayTime_LaneChange" parameterType="double" value="0.4"/>
+  <ParameterDeclaration name="$HeadwayTime_Brake" parameterType="double" value="1.0"/>
+</ParameterDeclarations>
+----
+
+
+
+
+
+== Code & syntax highlighting
+
+
+[cols="a,a"]
+|===
+|
+For inline code, enclose it with ` to apply monospace font:
+....
+`volume show -is-encrypted true`
+....
+|For inline code, enclose it with ` to apply monospace font: `volume show -is-encrypted true`
+
+| For code blocks: the html in the square brackets tells the compiler that this is html source code for source highlighting.
+
+....
+[source, html]
+----
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>My First Heading</h1>
+
+<p>My first paragraph.</p>
+
+</body>
+</html>
+
+----
+....
+|
+[source, html]
+----
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>My First Heading</h1>
+
+<p>My first paragraph.</p>
+
+</body>
+</html>
+
+----
+
+|===

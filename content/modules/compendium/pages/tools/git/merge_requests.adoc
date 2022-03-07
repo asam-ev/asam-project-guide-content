@@ -1,0 +1,61 @@
+= Merge requests
+:description: Summarizes how merge requests work and how to best approach them.
+:keywords: git,gitlab,merge,merge-request,review,TODO
+
+include::compendium:partial$_attributes.adoc[]
+
+== Merge commit strategy
+- History of commits in a PR must be clean prior to merge
+- Commit messages to a protected or master branch must adhere to conventional commits specification
+
+Repositories allow fast-forward merges only (`--ff-only`) and squash commits by default.
+This means we do not have a merge commit and that all commits are squashed.
+
+For squash commits with one commit, the commit message is taken directly (squash does not take place).
+For actual squashes the commit messages are taken from:
+
+. The first multi-line commit message in the merge.
+. The merge request’s title if no multi-line commit message is found.
+
+Squash commits is enabled by default but can be turned off, we do not always want to squash.
+This is to make sure that for those times that people create multiple unrelated changes in one branch we can still add them to the history.
+
+
+== Merge/Pull Request Review
+[mermaid]
+----
+graph LR
+A{Pull Request opened} --> B(Initial review by CCB)
+B --> C(Technical & editorial review)
+C --> D(Final CCB review & merge)
+----
+
+. Pull/Merge request opened
+* Technical discussion in comments
+. Initial review by CCB, includes technical alignment with other activities in and outside of the project
+. When a PR is ready for a review the CCB assigns it to a reviewer(s)
+* This could be a group in an ASAM project, an expert in the CCB or a participating service provider (e.g. for editorial review)
+* On approval by the reviewers the PR/MR is assigned the ~ReadyForCCBReview label
+. Final review & merge by CCB - includes ensuring clear commit history that adheres to xref:compendium:tools/gitlab/commit_guidelines.adoc[]
+* Discussion highlights and final decisions need to be documented in PRs/issues
+* If necessary, further participants will be invited to CCB for more discussion (e.g. if a decision is needed on a PR or issue)
+
+
+NOTE: Discussion and feedback takes place via comments in the PR
+
+
+=== Change management
+
+. Auto-generated changelog included in release based on *correctly* formatted commits
+. Manual summary included in spec - overview of important changes in the new version
+
+=== Milestone management
+* For now - milestones as defined in the proposal roadmap - this might be subject to change as the project develops
+* PRs to be assigned to a milestone by PR creator
+* CCB to review the milestone assignment
+* This must relate the change type (breaking change, backwards compatible, bug) to the release types (major/minor/maintenance)
+* For now, we will work with one master.
+Should we have many PRs targeting a future release we might implement multiple "development" branches for the different versions.
+(Only when necessary)
+
+related::merge,git[]

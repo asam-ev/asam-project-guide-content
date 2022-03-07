@@ -1,0 +1,59 @@
+
+//tag::summary[]
+Within projects at __{asam}__, participant have one or more roles.
+Each of these roles has their own set of requirements, mandatory and/or optional tool, guidelines and how-tos, some of them shared between multiple roles.
+//end::summary[]
+
+//tag::list_of_roles[]
+
+include::role-specific:partial$role_descriptions.adoc[]
+
+TIP: Click on a role's label to navigate directly to the role's summary page.
+
+.List of roles
+[cols = ">2,4"]
+|===
+|Role | Description
+
+2+^h| Roles within ASAM projects
+
+| {role-gtm}
+| {gtm-description}
+
+| Project Member
+| {project-member-description}
+
+| {role-project-lead}
+| {project-lead-description}
+
+| {role-wg-member}
+| {wg-member-description}
+
+| {role-wg-lead}
+| {wg-lead-description}
+
+| {role-service-provider}
+| {service-provider-description}
+
+| {role-technical-writer}
+| {technical-writer-description}
+
+2+^h| Roles around ASAM projects
+
+| {role-standard-user}
+| {standard-user-description}
+
+| {role-standard-manager}
+| {standard-manager-description}
+
+// | __{tsc}__
+| __xref:role-specific:tsc.adoc[TSC Member]__
+| {tsc-description}
+
+| {role-reviewer}
+| {reviewer-description}
+
+|===
+
+
+//end::list_of_roles[]

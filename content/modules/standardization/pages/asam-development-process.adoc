@@ -1,0 +1,23 @@
+= ASAM development process for standards
+:description: Summarizes the overal devlopment process for ASAM standards.
+:keywords: summary,summarize,development,process, TODO
+
+include::partial$_attributes.adoc[]
+include::{abb}[]
+include::partial$asam-processes.adoc[tag=short]
+
+The description of the ASAM standard development process in this chapter contains all formal process steps to develop an ASAM standard.
+The process steps are mandatory for the development of new standards and the development of a major version of an existing ASAM standard.
+For all other project types, some of the process steps are optional, which is further documented in Chapter 2 Project Types.
+
+This process description focuses on the ideal and best-case course of an ASAM project.
+Real projects may have iterations, loops and interventions by the __{tsc}__, Office, or Board of Directors.
+Project groups may decide to re-start a project with an updated project proposal, upgrade to a higher release level, or to prematurely end the project.
+While those events can occur and need to be appropriately managed, they are out-of-scope for this guideline document.
+
+include::partial$asam-processes.adoc[tag=image]
+
+The ASAM standards development process consists of five phases:
+
+include::partial$asam-processes.adoc[tag=enumerated]
+

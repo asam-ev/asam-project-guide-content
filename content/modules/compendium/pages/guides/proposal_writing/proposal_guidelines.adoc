@@ -1,0 +1,31 @@
+= Proposal writing guidelines
+:description: Contains a list of proposal writing guidelines that project members need to follow.
+:keywords: proposal, guideline, TODO
+:numbered:
+
+include::compendium:partial$_attributes.adoc[]
+
+{role-wg-member} {role-project-lead}
+
+== Gather topics in issues
+{recommended}
+
+Use issues to collect topics and tasks for the proposal writing.
+If this is an evolution of an existing ASAM standard, consider colleting and using backlog issues from the previous project.
+
+For more information on how to work with issues regarding the proposal writing, see xref:compendium:guides/proposal_writing/contribute_with_issues.adoc[]
+
+=== Use issue templates
+{mandatory}
+
+When working with issues, use the provided issue templates in the proposal repository.
+Each issue template contains a description (as comments) on when to use them and what content to add where.
+
+=== Label issues correctly
+{mandatory}
+
+When working with issues, make sure that each issues related to the proposal phase contains the label `Proposal`.
+
+NOTE: If you use the <<Use issue templates,issue templates>> provided in the proposal repository, the label is automatically assigned.
+
+== TODO

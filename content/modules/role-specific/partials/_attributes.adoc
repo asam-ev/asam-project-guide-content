@@ -1,0 +1,5 @@
+// Add attributes and content you want to reuse in multiple pages and artifacts within this module
+// example: :standard-image: https://www.asam.net/[image:https://www.asam.net/typo3conf/ext/asam_cms/Resources/Public/Images/asam-logo.svg[width=120,role=right] ,window=_blank] <-- can be used to display the ASAM logo as image link with  on the right of a page with a width of 120px
+
+include::{abb}[]
+include::partial$role_descriptions.adoc[]

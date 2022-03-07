@@ -1,0 +1,13 @@
+= Add a feedback button to an Antora project
+:description: Describes how to add a feedback button to an Antora project that creates an email with body for GitLab Service Desk or GitHub issue url.
+:keywords: antora,gitlab,github,service-desk, feedback, feedback-button, READYFORREVIEW
+:any-button:
+
+include::compendium:partial$_attributes.adoc[]
+
+{role-gtm}
+
+include::compendium:partial$guides/add_feedback_button.adoc[tag=short]
+
+
+related::service-desk,!antora[]

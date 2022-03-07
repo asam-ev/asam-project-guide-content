@@ -1,0 +1,12 @@
+= The Project Ideation phase
+:description: Describes the ideation process for a new project.
+:keywords: ideation,phase,standard,process, TODO
+
+include::partial$_attributes.adoc[]
+include::{abb}[]
+
+image::asam-development-process-Ideation.svg[title="The Ideation Phase (simplified)",opts=interactive]
+
+include::partial$project-ideation.adoc[tag=long]
+
+related::ideation[]

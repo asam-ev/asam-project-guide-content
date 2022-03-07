@@ -1,0 +1,33 @@
+= Project Proposal setup
+:description: Describes how to set up a new project proposal.
+:keywords: proposal, setup, TODO
+
+include::compendium:partial$_attributes.adoc[]
+
+//tag::roles[]
+{role-gtm}
+//end::roles[]
+
+TIP: For information on the proposal phase, see xref:standardization:proposal-phase.adoc[].
+
+TODO: Add image with highlighted step here.
+
+== Context
+The basis for collaboration at ASAM is GitLab.
+In order for project members and the project lead to work on their respective project, a new repository has to be created.
+
+== Result
+A new proposal repository has been created and the link been provided to all current project members.
+
+== Prerequisites
+* The idea has been proposed and approved in the xref:standardization:project-ideation.adoc[Ideation Phase].
+
+== How
+
+. In case of a new standard, https://docs.gitlab.com/ee/user/group/subgroups/#creating-a-subgroup[create a new subgroup^] in the group https://code.asam.net/simulation[Simulation^] with the target name of the standard.
++
+NOTE: If this is an evolution of an existing standard, use the existing subgroup instead
+. xref:compendium:tools/gitlab/forking_repo.adoc[Fork] the latest version of the https://code.asam.net/common/templates/proposal-template[proposal template repository^] into this subgroup.
+. Rename the forked project to `<THIS_STANDARD> Proposal`, where `<THIS_STANDARD>` is the target name of the standard.
+. Add all current project members and the project lead (ideagiver) to the subgroup.
+. Send a mail with the link to the new project to the group, informing them that the repository is now ready for use.

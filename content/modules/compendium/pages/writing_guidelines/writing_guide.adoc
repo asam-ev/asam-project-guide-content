@@ -1,0 +1,694 @@
+[#top-osc2-writing-guide]
+= Writing guide
+:description: Writing guide for technical writers.
+:keywords: writing_guide
+:numbered:
+
+include::compendium:partial$_attributes.adoc[]
+
+{role-technical-writer}
+{role-wg-member}
+
+
+This guide is intended to help you writing content for ASAM projects.
+It provides you a set of hints and rules that make it easier to contribute concise and homogeneous content and documents to the projects.
+
+TIP: If you are using __{vscode}__, see the xref:compendium:tools/vscode/recommended_vscode_settings.adoc[].
+
+== Language
+
+=== Use american english (AE)
+
+* Use "English (US)" (ISO: *en-US*) as a language setting in your text editor.
+* Mnemonic: -or, -l, -yze, -er
+
+[#tab-osc2-writing-guide-ae]
+.American English
+[%header, cols="^10,^10", align="right"]
+|===
+|No                         |#Yes#
+|[.line-through]#colour#    |color
+|[.line-through]#labelling# |labeling
+|[.line-through]#analyse#   |analyze
+|[.line-through]#centre#    |center
+|===
+
+=== Verbs with a special meaning (shall, should, may, can)
+
+* Use these modal verbs to express the level of obligation:
+
+[#tab-osc2-writing-guide-modal-verbs]
+.Proper modal verbs
+[%header, cols="^10,^10,^20", align="right"]
+|===
+|Level of obligation |Verb to use |Colloquial meaning
+|*_Requirement_* |#*shall, +
+shall not*# |mandatory statement, +
+"it must do/have", +
+"it is not allowed to do/have"
+|*_Recommendation_* |#*should, +
+should not*#|"it is good/bad practice to do/have"
+|*_Permission_* |#*may, +
+need not*#|"it is allowed to do/have and also allowed not to do/have"
+|*_Possibility_*|#*can, +
+cannot*#|"it depends on some circumstances if or if not"
+|===
+
+NOTE: The differences between these verbs are subtle and sometimes difficult to grasp.
+The table <<tab-osc2-writing-guide-modal-verbs, with modal verbs>> is based on ISO guidelines but currently under discussion.
+It is possible that the table will be simplified in the future.
+
+=== Keep it short
+
+* Write short sentences.
+* If sentences get too long, consider splitting them up into shorter sentences.
+* Keep headings short (only one line).
+
+[#tab-osc2-writing-guide-shortness]
+.Shortness is key
+[%header, cols="^10,^10", align="right"]
+|===
+|No                                                                                                                  |#Yes#
+|[.line-through]#3.1 Hints on how to maintain the printer#                                                           |3.1 Printer maintenance
+|[.line-through]#Due to the fact that they were able to come to an agreement, a name changing of the file took place.# |The file was renamed.
+|===
+
+=== Use present tense
+
+* Present tense is easy to understand.
+* Present tense is the preferred tense to express technical facts.
+
+[#tab-osc2-writing-guide-tense]
+.Present tense
+[%header, cols="^10,^10", align="right"]
+|===
+|No                                                    |#Yes#
+|[.line-through]#Chapter X will describe the details.# |Chapter X describes the details.
+|===
+
+=== Use active voice
+
+* Active voice is easier to understand than passive voice.
+
+[#tab-osc2-writing-guide-voice]
+.Passive voice and active voice
+[%header, cols="^10,^10", align="right"]
+|===
+|No                                                      |#Yes#
+|[.line-through]#The variable is set by the user.#       |The user sets the variable.
+|[.line-through]#The car is driven to the garage by me.# |I drive the car to the garage.
+|===
+
+== Keep it simple
+
+=== Use simple constructs
+
+* Simple constructs require fewer words and are easier to read.
+
+[#tab-osc2-writing-guide-constructs]
+.Simple constructs
+[%header, cols="^10,^10", align="right"]
+|===
+|No                                   |#Yes#
+|[.line-through]#in order to#         |to
+|[.line-through]#has the possibility# |can
+|===
+
+=== Do not use abbreviations
+
+* Some less common abbreviations may confuse the reader.
+Avoid them.
+
+[#tab-osc2-writing-guide-abbreviations]
+.No abbreviations
+[%header, cols="^10,^10", align="right"]
+|===
+|No                    |#Yes#
+|[.line-through]#e.g.# |for example
+|[.line-through]#i.e.# |meaning
+|===
+
+== Be precise
+
+=== Do not use synonyms
+
+* Stick to the same word for an element or concept.
+
+[#tab-osc2-writing-guide-consistency]
+.Use words consistently
+[%header, cols="^10,^10", align="right"]
+|===
+|No                                                                           |#Yes#
+|[.line-through]#Press the key.
+After hitting the button, the pop-up appears.# |Press the key.
+After pressing the key, a pop-up appears.
+|===
+
+=== Avoid words that are not precise
+
+* Do not use words like "[.line-through]#basically#", "[.line-through]#actually#", "[.line-through]#very#", "[.line-through]#practically#", ...
+
+=== Use 'that' and 'which' correctly
+
+* Use *'that'* and *'which'* to express the information level:
+** *_'that'_* adds essential information, no commas are used.
+** *_'which'_* adds information that can be left out, commas are used.
+
+[#tab-osc2-writing-guide-precision]
+.Precision matters
+[%header, cols="^10,^10", align="right"]
+|===
+|No                                                             |#Yes#
+|[.line-through]#The rule I follow#                             |The rule that I follow
+|[.line-through]#The vehicle that is red drives down the road.# |The vehicle, which is red, drives down the road.
+|===
+
+== Formatting
+
+=== Consistent formatting
+
+* Stick to *one spelling* for a word that allows several spellings (e-mail, email, E-mail).
+* Stick to *one style* to present information (steps always as numbered lists).
+* Stick to *one formatting* for a special purpose (first use of technical term: _italic_)
+
+=== Use templates
+
+* Adoc-templates are available for common types of topics.
+Use them to create consistent content.
+* Each template contains instructions on how to use the template and sample text that has to be replaced.
+* Currently available templates:
+** <<../template/generic_template.adoc, Generic>>
+** <<../template/task_template.adoc, Task>>
+** <<../template/uml_element_template.adoc, UML element>>
+** <<../template/use_case_template.adoc, Use case>>
+
+=== One sentence per line
+
+* Insert a line break after each sentence.
+* No manual line breaks inside sentences.
+
+=> _"Only hit 'enter' after a period ('.'), but make sure to hit 'enter' after a period."_
+
+```
+1 This is the first sentence.
+2 This is the second sentence.
+3 This is the third sentence.
+```
+
+=== Use paragraphs
+
+* Use paragraphs to structure your text.
+* A new thought or statement requires a new paragraph.
+* An empty line creates a new paragraph.
+
+```
+1 This is the first sentence of the first paragraph.
+2 This is the second sentence of the first paragraph.
+3
+4 This is the first sentence of the second paragraph.
+```
+
+=== Uppercase and lowercase
+
+* In headings and captions, only the *first word* begins with an uppercase letter (sentence-style capitalization).
+* _Exception_: *Acronyms* and *proper names* are spelled as is.
+
+[#tab-osc2-writing-guide-headings]
+.Use of uppercase in headings and captions
+[%header, cols="^10,^10", align="right"]
+|===
+|No                                             |#Yes#
+|[.line-through]#Wrong Formatting of a Heading# |Correct formatting of a heading
+|[.line-through]#Asam rules to follow#          |ASAM rules to follow
+|[.line-through]#Scope of OpenScenario#         |Scope of OpenSCENARIO
+|===
+
+=== File names
+
+* Use only *lowercase* for file and folder names.
+* Use the underscore _ instead of 'space' in file and folder names.
+* Use `.adoc` as file ending for documents.
+
+[#tab-osc2-writing-guide-file-names]
+.Use of uppercase and underscores in file and folder names
+[%header, cols="^10,^10", align="right"]
+|===
+|No                                      |#Yes#
+|[.line-through]#ExampleFileName.adoc#   |example_file_name.adoc
+|[.line-through]#Another file name.adoc# |another_file_name.adoc
+|[.line-through]#Writing_guide.adoc#     |writing_guide.adoc
+|===
+
+=== Indentation
+* Use four space characters per indentation level.
+* Do not use tab characters.
+* Use the following text editor settings:
+** *Tab size: 4*
+** *Insert spaces*
+
+[#tab-osc2-writing-guide-indentation]
+.Four spaces indentation (spaces marked as '.')
+[%header, cols="10,10", align="right"]
+|===
+^|No ^|#Yes#
+|Normal text +
+[.line-through]#->Level 1 indented text +
+->->Level 2 indented text#
+|Normal text +
+....Level 1 indented text +
+........Level 2 indented text
+|===
+
+=== Tags
+
+* All topics, figures, tables and code examples shall have a unique tag.
+* Sections may also have a tag if a link to the section is needed.
+* _Note:_ If you cannot come up with a document-wide unique id, just add `[#tag-uid]`.
+This triggers a pipeline warning and the technical writer can help you.
+
+```
+Examples:
+[#top-uid]
+[#fig-uid]
+[#tab-uid]
+[#code-uid]
+[#sec-uid]
+```
+
+TIP: You can generate a UUID using a generator like https://www.uuidgenerator.net/.
+
+=== Non-normative sections
+
+Text sections (paragraphs or blocks of text) in the documentation of a standard are considered **normative**.
+
+If some text sections should be considered as **non-normative** and only descriptive (for example, background information or examples), mark this sections deliberately as non-normative.
+
+* Non-normative sections shall be marked with the user-defined asciidoc role _non-normative_.
+
+** Put the role attribute `+[.non-normative]+` in front of single paragraphs or blocks to mark them as non-normative.
+
+** Inside a normative section use `+[.non-normative]#<text>#+` to mark single text passages `+<text>+` as non-normative.
+
+[#cod-osc2-writing-guide-normative]
+.Example for normative and non-normative sections
+[source, adoc]
+----
+This is a normative paragraph.
+
+[.non-normative]
+This is a descriptive, non-normative paragraph.
+
+====
+This is a normative block.
+====
+
+[.non-normative]
+====
+This is a descriptive block.
+====
+
+This is another normative paragraph.
+This sentence is normative.
+[.non-normative]#This sentence is non-normative.#
+This sentence is normative again.
+----
+
+* Roles can be combined using the following syntax: `+[.<first_role>.<second_role>]+`.
+
+[#cod-osc2-writing-guide-normative2]
+.Example with multiple roles
+[source, adoc]
+----
+[.important.non-normative]
+This is a descriptive, non-normative paragraph that is also marked with the important-role.
+----
+
+* Id and role attributes can be combined. +
+Use the long notation for easier reading: `+[id=<document_id>, role=<document_role>]+`.
+
+[#cod-osc2-writing-guide-normative3]
+.Example with role and id combined
+[source, adoc]
+----
+[id=top-doc-unique-id, role=non-normative]
+= Document title
+
+This is a descriptive, non-normative document.
+----
+
+* The actual format and style of non-normative sections depends on the entry in the CSS style sheet file that is used for rendering the text and is not coded in the adoc-file itself.
+
+[#cod-osc2-writing-guide-css-example]
+.Example of a CSS entry for non-normative text
+[source, css]
+----
+.non-normative { font-style: italic; color: darkgreen; background: gold }
+----
+
+
+== Additional elements
+
+=== Lists
+
+* Lists are a great way to present lots of similar information in a compact form.
+* Use the same word/sentence structure for all list items.
+* Use *numbered lists* (Asciidoc '*.*') for steps that require a specific order.
+* Use *bullet points* (Asciidoc '***') for enumerations and elements that do not require a specific order.
+
+.A numbered list example
+```
+. First step
+. Second step
+. Third step
+```
+
+. First step
+. Second step
+. Third step
+
+[#tab-osc2-writing-guide-list-example]
+.Bullet point list example 'ingredients'
+[%header, cols="10a,10a", align="right"]
+|===
+|No |#Yes#
+|* [.line-through]#first 2 apples,# +
+* [.line-through]#then one banana.# +
+* [.line-through]#And you need an orange too!#
+|* two apples +
+* one banana +
+* one orange
+|===
+
+=== Figures
+
+Figures, like pictures or drawings, may be used to illustrate complex facts.
+
+* Preferred format: `.svg`
+* Figures are stored in a subfolder named `images` located inside the chapter folder.
+* Each figure shall have:
+** a tag
+** a caption
+** the link to the picture
+** an alternative text
+
+```
+[#fig-uuid]
+.This is the caption of the figure
+image::logo.png[an alternative text]
+```
+
+[#fig-uuid]
+.This is the caption of the figure
+image::logo.png[an alternative text]
+
+=== Tables
+
+* Use tables if you have to present a huge amount of similar data in a very compressed form.
+* A table shall have:
+** a tag
+** a caption
+
+```
+[#tab-uuid]
+.This is the caption of the table
+|===
+|cell 1_1 | cell 1_2 | cell 1_3
+|cell 2_1 | cell 2_2 | cell 2_3
+|cell 3_1 | cell 3_2 | cell 3_3
+|===
+```
+
+[#tab-uuid]
+.This is the caption of the table
+|===
+|cell 1_1 | cell 1_2 | cell 1_3
+|cell 2_1 | cell 2_2 | cell 2_3
+|cell 3_1 | cell 3_2 | cell 3_3
+|===
+
+=== Special characters
+
+Sometimes you may need to display a character that is reserved for adoc-formatting.
+Here is how to do it.
+
+* *Underscore (&lowbar;)* +
+Use `+&lowbar;+` to display an underscore.
+* *Pound sign (&#35;)* +
+Use `+&#35;+` to display a pound sign.
+* *Protected space ({nbsp})* +
+Use `+{nbsp}+` to define a space character is not used for automatic line breaks. +
+This is especially useful for value-unit-pairs like `+5{nbsp}m/s+` (5{nbsp}m/s) to ensure that value and unit are always in the same line of text.
+
+== Source code
+
+Consider one of the following possibilities if you want to add source code examples to an adoc topic.
+
+. You may use small bits of code as an *inline literal* directly inside your text.
+. You may add source code as a *fragment* from a source code file by reference.
+. You may copy and paste source code directly as a *snippet* into the adoc topic.
+
+=== Inline literals
+
+For very small bits of code using *inline literals* is the most convenient way to add source code examples.
+This type of including source code is especially useful if you want to highlight single code elements like methods or class names.
+
+==== Changes in the adoc file
+
+Enclose the source code in a *pair of pluses surrounded by a pair of backticks*, like this:
+
+ Call the `+source_example_func()+` for the result.
+
+==== Result
+The previous line looks like this as adoc output:
+
+Call the `+source_example_func()+` for the result.
+
+=== Source code fragments
+
+You can add source code as a *fragment* from a source code file if you would like to reference to the source code within the source code file.
+
+There are several advantages of using fragments:
+
+* You do not need to copy the source code into the documentation.
+* You are referencing to the single point of truth, which is the source code file.
+* If you apply changes to the source code file, these changes are automatically applied to your documentation.
+
+Follow these steps to add source code fragments to your documentation:
+
+. Add source comment tags at the beginning and the end of the part of code you want to use in your code block.
+. Use this tag to include the fragment into the adoc documentation.
+
+The example in the following subchapters uses the tag `exampleInclude` to add a code fragment.
+
+==== Changes in the source code file
+
+[#code-tags-in-source-file]
+.Tags for the inclusion of source code from a source code file
+[source, osc2]
+----
+[...]
+// tag::exampleInclude[]    <1> <2>
+function lorem(ipsum, dolor = 1) {
+    const sit = ipsum == null ? 0 : ipsum.sit;
+    dolor = sit - amet(dolor);
+    return sit ? consectetur(ipsum, 0, dolor < 0 ? 0 : dolor) : [];
+}
+// end::exampleInclude[]    <3>
+[...]
+----
+
+<1> To indicate the start of a tagged region in the source code file, insert a comment line in the source code.
+<2> Assign a name to the tag directive.
+In this example, the tag is named `exampleInclude`.
+<3> Insert another comment line where you want the tagged region to end.
+
+==== Changes in the adoc file
+
+....
+[#code-example-code-block-tag]    <1>
+.ASAM example code block included by tags    <2>
+[source, osc2]    <3>
+----    <4>
+include::<path-to-file>/examplecode.js[tags=exampleInclude]    <5>
+----    <6>
+....
+
+<1> Insert an anchor for the code block
+You can reference this anchor using \<<code-example-code-block-tag>>
+<2> Insert a caption for the code block.
+<3> Define the source code language for code highlighting.
+For example, `osc2`, `xml`, or `java`.
+<4> Insert a code block delimiter.
+<5> Directly include the source code within the source code file with a tag marking fragment.
+<6> Insert a code block delimiter.
+
+NOTE: For more information see the https://docs.asciidoctor.org/asciidoc/latest/directives/include-tagged-regions/[Asciidoctor reference^].
+
+==== Result
+
+This is how the reference looks like inside the adoc file:
+
+[#code-example-code-block-tag]
+.ASAM example code block included by tags
+[source, osc2]
+----
+include::{examplesdir}/examplecode.js[tags=exampleInclude]
+----
+
+=== Source code snippets
+
+You can add source code as a *snippet* into your adoc documentation if you cannot or if you do not want to reference to the source code file.
+Be aware that you have to maintain two places (your original code and the snippet in the adoc) in case of future changes.
+
+Follow these steps to use source code as a snippet:
+
+. Copy the part of source code you want to use as a snippet.
+. Paste the snippet into your adoc file.
+. Insert an anchor, a caption, the highlighting info and delimiters as shown in the following subchapter.
+
+==== Changes in the adoc file
+....
+[#code-example-code-block]    <1>
+.ASAM example code block included in an asciidoc file    <2>
+[source, osc2]    <3>
+----    <4>
+<ParameterDeclarations>    <5>
+  <ParameterDeclaration name="$HostVehicle" parameterType="string" value="car_white"/>
+  <ParameterDeclaration name="$TargetVehicle" parameterType="string" value="car_red"/>
+  <ParameterDeclaration name="$EgoStartS" parameterType="double" value="50"/>
+  <ParameterDeclaration name="$HeadwayTime_LaneChange" parameterType="double" value="0.4"/>
+  <ParameterDeclaration name="$HeadwayTime_Brake" parameterType="double" value="1.0"/>
+</ParameterDeclarations>
+----    <6>
+....
+<1> Insert an anchor for the code block.
+Reference this anchor using \<<code-example-code-block>>
+<2> Insert a caption for the code block.
+<3> Define the source code language for code highlighting.
+For example, `osc2`, `xml`, or `java`.
+<4> Insert a code block delimiter.
+<5> Insert the code block.
+<6> Insert a code block delimiter.
+
+==== Result
+
+This is how the correctly configured snippet looks like in the adoc file:
+
+[#code-example-code-block]
+.ASAM example code block included in an asciidoc file
+[source, osc2]
+----
+<ParameterDeclarations>
+  <ParameterDeclaration name="$HostVehicle" parameterType="string" value="car_white"/>
+  <ParameterDeclaration name="$TargetVehicle" parameterType="string" value="car_red"/>
+  <ParameterDeclaration name="$EgoStartS" parameterType="double" value="50"/>
+  <ParameterDeclaration name="$HeadwayTime_LaneChange" parameterType="double" value="0.4"/>
+  <ParameterDeclaration name="$HeadwayTime_Brake" parameterType="double" value="1.0"/>
+</ParameterDeclarations>
+----
+=== Source code type 'osc2'
+Use #[source, osc2]# as a source block identifier for fragments and snippets (see <<code-example-code-block, example>>) to define the language type as 'osc2'.
+This enables future automatic syntax highlighting.
+
+== Review process and draft-attribute
+
+The project uses the adoc attribute `draft` to steer the review process.
+This FAQ helps you to manage the review and attribute handling.
+
+=== Purpose of the draft-attribute
+
+Q1 What is this draft-attribute for?::
+New content on the master branch has to be marked with the `ifdef::draft[] - endif::draft[]` 'feature flag' mechanism.
+New content in this case means content in adoc files that is not already reviewed and agreed on, like newly merged text from a development branch. +
++
+A typical adoc topic looks like this:
+
+[source]
+----
+  [#top-an-example-topic]
+  = Topic heading
+
+  ifdef::draft[]
+
+  Some content that is new or still needs
+  to be reviewed and agreed on.
+
+  endif::draft[]
+
+  Some other content that is already reviewed and
+  ready for being part of the standard documentation.
+----
+
+When a review is started, a WG-Lead or a member of the CCB removes the draft-mechanism for the part that has to be reviewed in the review merge request.
+
+
+=== Preview configuration
+
+Q2 I cannot see my content in the preview.
+What is wrong?::
+You may experience an empty preview in your editor when editing files that contain the mechanism. +
++
+This is actually a good sign.
+The preview is working correctly and hides all parts marked as draft. +
++
+To make the parts visible again, you have to set the attribute `draft` for your preview window.
+
+==== VisualStudioCode with asciidoc extension
+
+. In the Asciidoc extension settings go to `Preview:Attributes - Edit in settings.json`.
+. In the settings.json add the `draft` attribute:
+
+    "asciidoc.preview.attributes": {
+      "draft": ""
+    }
+
+. Save settings.json
+
+==== AsciidocFX preview
+
+. Go to `Settings` on the right hand side of the preview
+. Go to the `Preview settings` tab
+. Add an `Asciidoctor Attribute` by double-clicking an empty attribute line
+. Add attribute `draft` with value `true`
+. Save the settings (small button on the lower left of the tab!)
+. Reload the preview
+
+Other tools should have similar settings.
+
+==== Gitlab preview
+
+The preview in Gitlab intentionally shows the release version of the files, meaning that the parts marked as draft are hidden.
+You can easily switch off the preview and view the source content by clicking on the display source-icon on top of the file window:
+
+[#fig-osc2-writing-guide-source-view]
+.How to switch to source-view in Gitlab
+image::source_view.png[Source view icon location]
+The icon next to it switches back to the preview.
+
+
+=== Pipeline artifacts as reference
+Q3 My preview looks fine.
+Why do I get feedback that something is not formatted correctly?::
+Please note that all the previews described in this chapter are just for your convenience. +
+*The only reliable documents for reviews are the html-artifacts generated by the CI-pipeline!* +
+These artifacts are linked at the beginning of review merge requests.
+You can also download the artifacts directly from the pipeline result page.
+
+
+== Related topics
+
+* For a short introduction to Asciidoc, see the https://code.asam.net/simulation/resources/-/blob/master/asciidoc_tutorial/asciidoc_tutorial.adoc[].
+* The https://code.asam.net/simulation/standard/openscenario-2.0/-/tree/master/Documentation/etc/templates[adoc-templates] can be found https://code.asam.net/simulation/standard/openscenario-2.0/-/tree/master/Documentation/etc/templates[here].
+* For a guide on how to format code examples see the https://code.asam.net/simulation/standard/openscenario-2.0/-/blob/master/Documentation/etc/guides/coding_style_guide.adoc[].
+* Topics for entities of the domain model can be automatically created if the UML diagrams contain specially formatted comments. +
+See the https://code.asam.net/simulation/standard/openscenario-2.0/-/blob/master/Documentation/etc/guides/plantuml_documentation_guide.adoc[] for more details.
+* More information about the workflow and review process can be found in the https://code.asam.net/simulation/standard/openscenario-2.0/-/wikis/docs/general_guidelines/Workflow[Project Wiki].
+
+== Contact information
+
+If you have any questions and/or suggestions concerning this Writing guide for OpenSCENARIO 2 please contact andreas.muetsch@dxc.com.
+
+See also: https://code.asam.net/simulation/standard/openscenario-2.0/-/blob/master/Documentation/etc/guides/writing_guide.adoc[window=_blank]
+
+
+related::writing_guide[]

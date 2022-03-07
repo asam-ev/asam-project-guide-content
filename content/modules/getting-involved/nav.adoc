@@ -1,0 +1,27 @@
+* xref:main.adoc[]
+** xref:enter_new_idea.adoc[]
+** xref:proposal_phase.adoc[]
+*** xref:proposal/03_proposal_workshop_preparation.adoc[]
+*** xref:proposal/04_join_proposal_workshop.adoc[]
+*** xref:proposal/02_contributing.adoc[]
+*** xref:proposal/submit_candidacy.adoc[]
+*** xref:proposal/need_for_service_providers.adoc[]
+*** xref:proposal/submit_proposal.adoc[]
+** xref:engage_service_provider.adoc[]
+** xref:signing_up.adoc[]
+*** xref:signing_up/become_workgroup_member.adoc[]
+*** xref:signing_up/become_project_lead.adoc[]
+*** xref:signing_up/become_workgroup_lead.adoc[]
+*** xref:signing_up/further_roles.adoc[]
+** xref:participating.adoc[]
+***
+
+
+
+// ** xref:become_service_provider.adoc[]
+// ** xref:review_standard_asam.adoc[]
+// ** xref:review_standard_public.adoc[]
+// ** xref:initiate_webinar.adoc[]
+// ** xref:join_webinar.adoc[]
+
+// You may use links to pages or text for non-linked headers

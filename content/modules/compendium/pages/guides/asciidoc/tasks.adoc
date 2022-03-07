@@ -1,0 +1,38 @@
+[[top-task-headings]]
+= How to work with task headings in ASAM documents
+:description: How-To for using task headings in ASAM documents (standards).
+:keywords: asciidoc,tasks,how-to, READYFORREVIEW
+:reftext: Task headings
+
+If you're explaining how to perform a task, you might include introductory information before you get to the steps.
+And you might need to say what to do after completing the steps.
+If you do, it's best to organize that information using headers, which enables scanning.
+
+Use the following headings as needed:
+
+.What you'll need
+
+_The information the user needs to complete the task._
+
+.About this task
+
+_Some extra contextual info the user might need to know about this task._
+
+.Steps
+
+_The individual steps to complete the task._
+
+.What's next?
+
+_What the user should do next._
+
+Each of these should include a `.` right before the text, like so:
+
+....
+.What you'll need
+.About this task
+.Steps
+.What's next?
+....
+
+This syntax applies bold text in a larger font.

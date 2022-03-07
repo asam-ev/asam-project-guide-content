@@ -1,0 +1,53 @@
+= Standard expert group
+:description: Describes a standard expert group (member) from ASAM project view.
+:keywords: role, READYFORREVIEW
+:page-partial:
+:draft:
+
+//tag::default[]
+include::partial$_attributes.adoc[]
+
+// {role-standard-expert-group}
+//end::default[]
+
+== Description
+* TODO
+
+== Requirements
+* TODO
+
+== Responsibilities
+* TODO
+
+ifndef::draft[]
+== Issue resolution
+//tag::issue_resolution[]
+
+Each ASAM standard has an Standard Expert Group.
+The members of the Standard Expert Group have the primary purpose to ensure technical meaningfulness and correctness of revisions to their standard and to provide the necessary legitimacy for the new release to-gether with the __{tsc}__ (see next sub-chapter).
+The members of the Standard Expert Group have four primary tasks:
+
+* Review and confirm reported issues.
+* Advise the Standard Manager on how to fix reported issues of the standard.
+* Review implemented fixes in the revised standard.
+* Vote on the technical release of the revised standard.
+
+An optional task of the Standard Expert Group is to review feature requests and initiate next steps, e.g. to create a project proposal.
+
+The members of the Standard Expert Groups are volunteers from ASAM member companies.
+By default, members of the project group, which developed the latest version of the standard, become automatically members of the Standard Expert Group.
+They shall commit their participation in this group for one year as a minimum.
+A member can leave the group by notifying __{asam}__ of his intentions not to be part of the group any longer or because they are not working for an ASAM member company any longer.
+New members can join by absolute majority decision of the current Standard Expert Group members.
+
+The work load for the Standard Expert Group members shall be kept to a minimum.
+Throughout the year, the members of the Standard Expert Group get automatically notified about newly submitted CRs.
+The group members shall read each CR and optionally cast their veto, if they think that it has been incorrectly categorized as an issue or feature request.
+All other continuous work is being done by the Standard Manager.
+Meetings shall preferably be carried out via remote participation (phone + application sharing via Internet).
+
+The Standard Expert Group shall consist of at least three members.
+If the number of mem-bers drops below this limit, then the Standard Manager reports this to the __{tsc}__.
+The __{tsc}__ decides upon next steps.
+//end::issue_resolution[]
+endif::[]

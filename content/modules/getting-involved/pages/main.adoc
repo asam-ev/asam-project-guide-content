@@ -1,0 +1,65 @@
+= ASAM Lifecycle Guide
+:description: Landing page for information on how to get involved in ASAM projects.
+:keywords: landing_page,get-involved
+:lifecylce:
+
+include::partial$_attributes.adoc[]
+include::{abb}[]
+include::ROOT:partial$_attributes.adoc[]
+
+{getting-involved-icon}
+
+include::partial$module-description.adoc[]
+It presents a process-oriented view on ASAM projects and tasks therein.
+Topics are sorted in a chronological order from the perspective of the ASAM standard lifecycle. +
+include::ROOT:partial$landing_page_referral.adoc[]
+
+[NOTE]
+====
+Some of the following pages are mainly intended for particular xref:concepts:roles-overview.adoc[roles at ASAM].
+These pages have the relevant role labels at the top.
+However, the labels do not act as prerequisites or requirements.
+If restrictions apply, they are listed separately.
+====
+
+[IMPORTANT]
+====
+For some activities, an ASAM membership is required.
+You can identify if you need to be a member by checking the listed roles on each page. +
+**If you consider becoming an ASAM member to join a project, see https://www.asam.net/about-asam/join-asam/[join ASAM on the ASAM website^].**
+====
+
+image::project_lifecycle-v2.svg[alt=The project lifecycle at ASAM, title=The project lifecycle at ASAM]
+
+
+== Content
+
+[cols="^1,5", frame=none, grid=rows]
+|===
+|Phase|Description
+
+h| xref:enter_new_idea.adoc[image:project_lifecycle-ideation.svg[]] +
+xref:enter_new_idea.adoc[Ideation]
+a| Each new project must be proposed first.
+To do so, members and non-members can hand in ideas for new standards or updates to released ones. +
+Click the icon to learn more about the ideation phase and how to enter a new idea.
+
+h|xref:proposal_phase.adoc[image:project_lifecycle-proposal.svg[]] +
+xref:proposal_phase.adoc[Proposal]
+a| Before developing a standard, the project must first be proposed to and accepted by ASAM.
+In this phase, the general scope of the project is specified, companies can enroll for it, and the budget is determined. +
+Click the icon to learn about the Proposal Phase and how to participate in it.
+
+h|xref:participating.adoc[image:project_lifecycle-standard.svg[]] +
+xref:participating.adoc[Standard Development]
+a|If a proposal is accepted, the project enters the development phase.
+This is where the content and specifications of a standard and its (optional) supplemental documents are created, refined, and discussed. +
+Click the icon to learn about how to participate in developing a standard at ASAM.
+Note that you must xref:signing_up.adoc[**sign up**] first in order to join a project.
+
+|===
+
+
+NOTE: Not all phases must necessarily apply to all projects.
+Some projects may even stir away from the standard development path by developing a variation on the standard set of rules layed out here. +
+These can be found in their respective versions in the dropdown menu at the bottom-left of this guide.

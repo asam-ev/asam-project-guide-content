@@ -1,0 +1,14 @@
+= Project types
+:description: Summary of all project types at ASAM.
+:keywords: project-types,standardization,READYFORREVIEW
+
+include::partial$_attributes.adoc[]
+include::{abb}[]
+
+__{asam}__ distinguishes between two types of development:
+
+* xref:project_types/standard_projects.adoc[]
+* xref:project_types/other_projects.adoc[]
+
+.Project types
+image::project_types.png[]

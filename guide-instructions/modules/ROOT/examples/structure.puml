@@ -1,0 +1,263 @@
+'tag::standard[]
+@startmindmap
++ **ASAM Project Guide Structure**
+'end::standard[]
+'tag::first_level[]
+++ **__HOME__**
+'tag::comment[]
++++_ this is the default page; links to all major areas
+'end::comment[]
+
+'tag::introductions[]
+++ **Introduction** (main)
+'tag::comment[]
++++_ landing page for introductory content and general overview
+'end::comment[]
+'end::first_level[]
+
+
++++ **New Here?**
+'tag::comment[]
+++++_ this contains linked or specific content for new members/people and gives step-by-step instructions
+'end::comment[]
+
+++++ **How ASAM Works**
+'tag::comment[]
++++++_ a short high-level overview over ASAM and how members participate etc.
+'end::comment[]
+
+++++ **Processes And Workflows - Overview**
+'tag::comment[]
++++++_ a short overview over all major processes + links to their full definition
+'end::comment[]
+
+++++ **ASAM Roles - Overview**
+'tag::comment[]
++++++_ a short overview over all typical roles at ASAM and a link to the roles landing page
+'end::comment[]
+
+++++ **Standard Tools - Overview**
+'tag::comment[]
++++++_ summarizes the standard tools used at and supported by ASAM in their projects and notes that there are more - see roles
+'end::comment[]
+
+++++ **ASAM Projects - Overview**
+'tag::comment[]
++++++_ overview over what projects there are and links (?) to them
+'end::comment[]
+
+++++ **ASAM Contacts**
+'tag::comment[]
++++++_ important contacts at ASAM
+'end::comment[]
+
+
++++ **About This Guide**
+'tag::comment[]
+++++_ this should explain how this guide works
+'end::comment[]
+
+++++ **Intentions And Content**
+'tag::comment[]
++++++_ describes what this guide does and doesn't do and gives an overview over its general structure
+'end::comment[]
+
+++++ **Using This Guide**
+'tag::comment[]
++++++_ tips and information on navigating and using this guide, e.g. search feature etc.
+'end::comment[]
+
+++++ **Working On The Guide**
+'tag::comment[]
++++++_ this only gives a brief summary and links to the detailed section
+'end::comment[]
+'end::introductions[]
+
+'tag::getting_involved[]
+'tag::first_level[]
+++ **How To Get Involved**
+'tag::comment[]
++++_ contains information on how to get involved in ASAM projects
+'end::comment[]
+'end::first_level[]
++++ **Propose New Project**
+
++++ **New Standard: Join Proposal Workshop**
+
++++ **Active Project: Join As Work Group Member**
+
++++ **Active Project: Lead a Project**
+
++++ **Join Webinar**
+
++++ **Become A Service Provider**
+
++++ **Review Standard**
+'end::getting_involved[]
+
+'tag::roles[]
+'tag::first_level[]
+++ **Role-Specific Instructions**
+'tag::comment[]
++++_ this page contains the role definitions and links to role definitions
+'end::comment[]
+'end::first_level[]
+
++++ **Role-specific Content**
+'tag::comment[]
+++++_ one for each role; each follows the same basic structure and contains a summary of the role
+'end::comment[]
+
+++++ **Tasks And Responsibilities**
+
+++++ **Suggested Tools**
+
+++++ **Guides**
+
+++++ **Best Practices**
+
+++++ **General Information Links**
+'end::roles[]
+
+'tag::general_project_processes[]
+'tag::first_level[]
+++ **ASAM Standardization Process**
+'tag::comment[]
++++_ contains all important processes used by ASAM and in their projects
+'end::comment[]
+'end::first_level[]
++++ **The ASAM Development Process**
+
++++ **The Ideation Phase**
+
++++ **The Proposal Phase**
+
++++ **Project Types**
+
++++ **Setup Of A Project**
+
++++ **The Development Phase**
+
++++ **The Review Phase**
+
++++ **The Release Phase**
+
++++ **Working Model (workgroups)**
+
++++ **Issue-driven Workflow**
+
++++ **Reviews and Releases**
+
++++ **ASAM Deliverables**
+'end::general_project_processes[]
+
+'tag::compendium[]
+'tag::first_level[]
+++ **Compendium**
+'tag::comment[]
++++_ this contains all definitions in their original file. pages may include (parts) of them where needed, e.g. for roles and tutorials
++++_ TBD: Join with ASAM Project Handbook?
+'end::comment[]
+'end::first_level[]
+
++++ **Processes And Workflows**
+'tag::comment[]
+++++_ all processes and workflows go here, either linked automatically or manually (TBD)
+'end::comment[]
+
++++ **Definitions**
+'tag::comment[]
+++++_ all definitions, wording etc. go here, linked automatically
+'end::comment[]
+
++++ **Abbreviations**
+'tag::comment[]
+++++_ contains a list of typical abbreviations, ideally can be reused in projects etc.
+'end::comment[]
+'end::compendium[]
+
+'tag::tools[]
+'tag::first_level[]
+++ **Tools Overview**
+'tag::comment[]
++++_ contains all information in full on tools
+'end::comment[]
+'end::first_level[]
+
++++ Tool main page
+'tag::comment[]
+++++_ each tool has its own main page and the same basic architecture, with some alterations
+'end::comment[]
+
+++++ Setup
+
+++++ Guides
+
+++++ Troubleshooting
+
+++++ Best Practices
+'end::tools[]
+
+'tag::project_guide[]
+'tag::first_level[]
+++ **Working On The Project Guide**
+'tag::comment[]
++++_ this contains tutorials, definitions, and guidelines for working on this specification
+'end::comment[]
+'end::first_level[]
+
++++ **The Project Guide Structure**
+
++++ **Modules**
+
++++ **Pages VS Partials**
+
++++ **Pages**
+
+++++ **Adding Pages**
+
+++++ **Moving/Renaming/Deleting A Page**
+
++++ **Partials**
+
+++++ **Adding Partials**
+
++++ **Referencing And Including**
+
+++++ **Images**
+
+++++ **Examples**
+
+++++ **Attachments**
+
+++++ **Including Pages And Partials**
+
+++++ **Cross-referencing**
+
++++ **Macros**
+
+++++ **Asciidoctor**
+
+++++ **Antora**
+
+++++ **ASAM Macros**
+
++++ **Working With Projects**
+
++++ Additional Infos
+'end::project_guide[]
+
+-- Re-usable Partials
+--- ASAM Role Definitions
+--- ASAM Contacts
+'tag::standard[]
+legend right
+    * **Page in navigation bar (linked)**
+    * __**Header in navigation bar (unlinked)**__
+    * Page without entry in navigation bar
+    * __descriptive text__
+
+end legend
+
+@endmindmap
+'end::standard[]

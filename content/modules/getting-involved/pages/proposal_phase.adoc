@@ -1,0 +1,72 @@
+= The proposal phase
+:description: Describes the Proposal phase in the ASAM development process for standards.
+:keywords: proposal,phase,standard,process,proposal-workshop, READYFORREVIEW
+
+include::partial$_attributes.adoc[]
+include::{abb}[]
+
+====
+[cols="1,5", frame=none, grid = rows]
+|===
+h|Involved roles
+a| * {role-idea-giver}
+* {role-standard-user}
+* {role-gtm}
+* {role-tsc-member}
+* {role-member}
+
+h| Project phase
+| image:project_lifecycle-proposal.svg[]
+
+|===
+====
+
+
+== Context
+The purpose of the proposal phase is to transfer xref:enter_new_idea.adoc[ideas for a standard development project] into an ASAM project proposal and to obtain a decision on it.
+
+In this phase, the idea is further analyzed, central requirements are formulated, the expected effort quantified, and the timeline defined.
+In addition to that, interested parties can sign up during this phase for project participation. +
+The proposal is released to attract more attention as well as for transparency.
+It is then submitted and presented to the {tsc} for approval.
+If the approval is not given, the proposal can be improved and updated before presenting it again, or the project is dropped by the Idea Giver. +
+If the project is approved, it transitions to the xref:development_phase.adoc[Standard Development phase].
+
+image::proposal_phase_v2-Proposal_Phase.svg[title="The proposal phase in detail"]
+
+The following sections summarize the steps described above.
+If you want to learn more about how to participate in this phase, check out the pages in this chapter or follow the links in the relevant section on this page.
+
+:sectnums:
+
+== Create a first proposal draft
+Before the proposal is first presented to interested parties in the Proposal Workshop, an initial draft must be created that can be discussed properly.
+
+This is the responsibility of the Idea Giver together with the currently invested partner companies.
+
+== Enrollment Process
+include::partial$proposal-enrollment.adoc[tag=long]
+
+== Proposal Workshop
+include::partial$proposal-workshop.adoc[tag=long]
+
+
+== Proposal Writing
+include::partial$proposal-writing.adoc[tag=long]
+
+
+== Proposal Submission
+include::partial$proposal-submission.adoc[tag=long]
+
+
+== Proposal Publication
+include::partial$proposal-publication.adoc[tag=long]
+
+
+== Proposal Decision
+include::partial$proposal-decision.adoc[tag=long]
+
+
+:sectnums!:
+
+related::proposal[]

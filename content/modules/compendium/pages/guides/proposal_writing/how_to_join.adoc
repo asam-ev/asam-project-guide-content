@@ -1,0 +1,5 @@
+= How to enroll for a project proposal
+:description: Describes the steps to join a project proposal by enrolling at ASAM.
+:keywords: proposal, enrollment, TODO
+
+include::compendium:partial$_attributes.adoc[]

@@ -1,0 +1,19 @@
+= Doing a review on Filestage
+:description: Describes how to review something on Filestage.
+:keywords: review, filestage, TODO
+:page-partial:
+
+include::compendium:partial$_attributes.adoc[]
+
+== How to read through documents in Filestage
+TODO
+
+== How to add comments in Filestage
+TODO
+
+image::compendium:filestage_buttons.png[title="The Filestage navigation buttons"]
+
+== Writing comments and feedback
+TODO
+// make this an include from some partial or page!
+

@@ -1,0 +1,42 @@
+= Submit Your Candidacy As A Project Lead
+:description: Describes how to submit candidacy for the role of Project Lead.
+:keywords: project-lead, proposal
+
+include::partial$_attributes.adoc[]
+include::{abb}[]
+
+====
+[cols="1,5", frame=none, grid = rows]
+|===
+h|Involved roles
+a| * {role-wg-member}
+
+h| Step
+| TODO
+
+|===
+====
+
+NOTE: This page covers how to submit candidacy for the role of Project Lead. +
+If you want to learn more about the role of the Project Lead and its requirements, see xref:signing_up/become_project_lead.adoc[].
+
+
+== Context
+Every project at ASAM needs a Project Lead.
+Consequently, a project may only move from Proposal phase to Standard Development phase if a Project Lead has been elected/designated. +
+In most cases, the Idea Giver is the one elected Project Lead, but this is not a requirement.
+
+
+== Result
+You have submitted your candidacy for the role of Project Lead.
+
+
+== Prerequisites
+* You must be a project member
+
+
+== How
+TODO
+
+
+See also xref:role-specific:project-lead.adoc[].

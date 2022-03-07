@@ -1,0 +1,38 @@
+= Adding A Partial
+:description: Instructions on how to add a partial
+:keywords: new-content-guide,project-guide,partial, READYFORREVIEW
+:page-aliases: adding_content/add-a-partial.adoc
+
+include::partial$_attributes.adoc[]
+include::{abb}[]
+
+{add-file-icon}
+
+== Context
+When content is to be reused on different pages, use a partial.
+Partials are located in the partials folder (or a subfolder therein) of a module.
+
+NOTE: Partials are not transformed into their own pages by themselves.
+Rather, they only exist as html content when included in page.
+If you need to have a page purely containing the content of a partial, create a page (see xref:adding_content/add-a-page.adoc) where the partial is included as the body.
+
+See xref:adding_content/pages-vs-partials.adoc[] for more information on the difference between those two.
+
+== Result
+An Antora and ASAM conforming partial is created.
+
+== Prerequisites
+none
+
+== How
+IMPORTANT: These instructions already include the requirements of https://docs.antora.org/antora/latest/page/partials/#create-a-partial-file[Creating A Partial File^] by Antora implicitely.
+However, if one deviates from this guide here, the Antora restrictions and requirements still apply!
+
+. Find the module you want your partial to be located in.
++
+TIP: This should be the module which it relates to most closely.
+See other partials and pages in the modules in question for reference.
+You can also look at the xref:structure/content_structure.adoc[] for the Project Guide.
+
+. Create your file in the "partials" folder or move it there
+.. Alternatively, create a new folder and/or add your file to an existing folder within the "partials" folder if you want to add a structure within the module.

@@ -1,0 +1,16 @@
+= Working with git
+:description: Describes the standard way of working with git.
+:keywords: git,worklfow,TODO
+
+include::compendium:partial$_attributes.adoc[]
+
+TIP: It is best practice to check for changes on remote before changing files locally and before pushing changes to remote.
+
+The Git workflow for making changes is a 3 step process:
+
+.Git Worklfow
+image::compendium:git-workflow.svg[Git Workflow]
+
+. Add files from the working copy to the staging area.
+. Commit staged files to your local repo.
+. Push to a remote repository.

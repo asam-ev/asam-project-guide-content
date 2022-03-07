@@ -1,0 +1,12 @@
+= Starting a container from docker desktop
+:description: Run docker-compose from Desktop
+:keywords: docker,desktop, READYFORREVIEW
+
+
+include::compendium:partial$_attributes.adoc[]
+
+NOTE: This only works if the container was already created.
+
+. Open Docker Desktop (if you already started it, it may be in the system tray)
+. Go to "Containers/Apps" and select your container from the list
+. Click the image:compendium:play-button-docker.png[alt=Play] button to run the container

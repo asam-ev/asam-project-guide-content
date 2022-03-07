@@ -1,0 +1,47 @@
+
+//tag::description[]
+The ASAM Antora extension finds all pages not listed in any nav.adoc and puts a warning in the console output.
+If configured, these pages can also automatically be listed under a separated navigation entry (e.g. "orphans") at the end of the Antora document.
+//end::description[]
+
+//tag::how[]
+As long as the ASAM extension is defined in the Antora playbook (the "site.yml"), the console output warnings of this feature are active by default. +
+However, to automatically list all found orphan pages in the navigation tree, at least the attribute "add_to_navigation" must be set to true.
+//end::how[]
+
+//tag::configuration[]
+The following table lists the supported attributes as well as their default values:
+
+|===
+|Attribute |Description |Default |Example
+
+|add_to_navigation
+|De-/activates collecting and adding the orphan files under a new name in the navigation tree.
+|false
+|`add_to_navigation: true`
+
+|unlisted_pages_heading
+|Defines the name in the navigation tree under which the orphan pages are collected.
+|"Unlisted Pages"
+|`unlisted_pages_heading: Orphans`
+|===
+//end::configuration[]
+
+
+//tag::example[]
+.Using the "orphan pages" extension feature
+====
+[source,yaml]
+----
+- require: './antora_extensions/asam-extension.js'
+  add_to_navigation: true
+  unlisted_pages_heading: Orphans
+----
+====
+
+With this setting, Antora finds all orphan pages and lists them at the end of the navigation tree under the point "Orphans".
+
+====
+image::pipeline_orphans.png[title='Orphan page "Credits" found in a previous version of the Project Guide.', role="left"]
+====
+//end::example[]

@@ -1,0 +1,54 @@
+= ASAM Project Guide
+:description: The main landing page for the ASAM Project Guide.
+:keywords: main, home, start
+:page-aliases: home.adoc
+
+include::partial$_attributes.adoc[]
+include::{abb}[]
+
+Welcome to the **ASAM Project Guide**!
+
+****
+IMPORTANT: This guide is a work in progress and subject to change!
+This is the restructuring branch.
+****
+
+
+This guide provides an introduction to new members on __{asam}__ in general and its most central topics, gives an overview on how to get involved and provides role-specific information for working at ASAM and in ASAM projects. +
+In addition to that, it also contains a full explanation on each and every process and workflow applied in ASAM projects, contains guides on suggested tools as well as a compendium on specific tasks and topics. +
+Lastly, you can also find information and guides on how to participate in improving this Project Guide.
+
+NOTE: This guide assumes you already know who and what ASAM is.
+For more information, refer to the https://www.asam.net/about-asam/[ASAM website^].
+
+
+== Quick access
+[cols="^1h,4",frame=none, grid=rows, stripes=hover]
+|===
+
+|{getting-involved-icon-norole} +
+xref:getting-involved:main.adoc[]
+|
+include::getting-involved:partial$module-description.adoc[]
+
+|{role-specific-icon-norole} +
+xref:role-specific:main.adoc[]
+|
+include::role-specific:partial$module-description.adoc[]
+
+|{standardization-icon-norole} +
+xref:standardization:main.adoc[]
+|
+include::standardization:partial$module-description.adoc[]
+
+|{tools-icon-norole} +
+xref:tooling:main.adoc[]
+|
+include::tooling:partial$module-description.adoc[]
+
+|{compendium-icon-norole} +
+xref:compendium:main.adoc[]
+|
+include::compendium:partial$module-description.adoc[]
+
+|===

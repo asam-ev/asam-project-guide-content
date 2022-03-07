@@ -1,0 +1,74 @@
+= Workflow tutorial for the projects using gitlab
+:description: A guide on the GitLab workflow for projects.
+:keywords: gitlab,workflow,tutorial, TODO
+:page-aliases: guides/workflow_tutorial.adoc
+
+include::compendium:partial$_attributes.adoc[]
+
+{role-gtm}
+{role-project-lead}
+{role-wg-member}
+{role-wg-lead}
+{role-technical-writer}
+{role-service-provider}
+
+In this tutorial, we will go through the workflow we want to use to create project documents in GitLab.
+
+IMPORTANT: Never work on the master branch, always create your own <<Create development branch,development branch>>!
+
+== Tooling
+
+To work on the files in your branch, you can either use the xref:compendium:tools/gitlab/gitlab-ide_guide.adoc[Gitlab IDE] or a local setup consisting of text editor and Git.
+For the tools supported by __{asam}__, see xref:tooling:main.adoc[].
+
+:numbered:
+
+== Create development branch
+
+{mandatory}
+
+Each topic must be developed in a separate development branch before it is merged to main when ready.
+Please keep in mind to change only few files at once in one branch to minimize the chance for xref:compendium:tools/git/merge_conflicts.adoc[merge conflicts] to occur.
+
+TIP: Give the branch a significant name that describes its intensions.
+See xref:compendium:tools/gitlab/branch_naming_conventions.adoc[] for branch name conventions at ASAM.
+
+If you want to switch the branch you are viewing and working on, see xref:compendium:guides/switch_branches.adoc[].
+
+
+=== Create development branch from issue
+
+{recommended}
+
+The recommended way of working is by using issues.
+
+include::compendium:partial$tools/gitlab/create_branch_from_issue.adoc[]
+
+=== Create development branch manually
+
+{optional}
+
+Alternatively, you can create your branch manually, either through GitLab or locally (if set up).
+
+include::compendium:partial$tools/gitlab/branching_repo.adoc[leveloffset=+2]
+
+== Work in your development branch
+
+{mandatory}
+
+TIP: If you are using the xref:compendium:tools/gitlab/gitlab-ide_guide.adoc[Gitlab IDE], you can edit the files directly in your browser.
+
+If you are using a local setup, you can pull, change, stage, commit and push through Git.
+See the guide on xref:compendium:guides/git_interactions.adoc[] for further information on how to work with a repository.
+
+== Merge all changes back to the main branch
+
+{mandatory}
+
+After you are done with your work, create a "merge request" to the `main` branch.
+This is described in xref:compendium:tools/git/merge.adoc[].
+
+It is recommended to only merge a development branch once all issues related to it are closed.
+Each merge request must be reviewed internally with a simple review before it is allowed to be merged into `main` in order to minimize mistakes slipping through.
+
+Once a branch is merged into `main`, its changes are now offical and applied.

@@ -1,0 +1,10 @@
+
+:development-process: xref:standardization:asam-development-process.adoc[]
+:ideation-phase: xref:standardization:project-ideation.adoc[]
+:proposal-phase: xref:standardization:proposal-phase.adoc[]
+:project-setup: xref:standardization:project-setup.adoc[]
+:development-phase: xref:standardization:development-phase.adoc[]
+:review-phase: xref:standardization:review-phase.adoc[]
+:release-phase: xref:standardization:release-phase.adoc[]
+:project-types: xref:standardization:project-types.adoc[]
+:creation-of-standards: xref:standardization:creation-of-standards.adoc[]

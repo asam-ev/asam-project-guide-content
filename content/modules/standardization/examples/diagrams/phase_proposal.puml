@@ -1,0 +1,21 @@
+@startuml
+:Idea;
+if (New or existing standard?) then (New standard)
+    :Ideation workshop;
+else (Existing standard)
+
+endif
+while (Enough (3+) participants?) is (no)
+    :Look for participants;
+endwhile (yes)
+repeat :Draft Project Proposal
+    :Organize Proposal workshop;
+    :Proposal workshop;
+repeat :Finalize Proposal document;
+    :Select Proposal submitter;
+    :Submit Proposal document to TSC;
+    :Present Project Proposal at next TSC meeting;
+repeat while(Proposal needs small improvements?) is (yes)
+repeat while(Proposal approved?) is (no, large issues) not (yes)
+:Start project;
+@enduml

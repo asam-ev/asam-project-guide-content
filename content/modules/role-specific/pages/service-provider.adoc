@@ -1,0 +1,27 @@
+= Service provider
+:description: Summary and landing page for service providers.
+:keywords: role, role-landing-page, TODO
+
+include::partial$_attributes.adoc[]
+
+{service-provider-description}
+
+[horizontal,role=right]
+Label:: {role-service-provider}
+
+== Description
+* TODO
+
+== Requirements
+* TODO
+
+== Responsibilities
+* TODO
+
+== Typical roles as a service provider
+TODO
+
+=== Act as technical writer
+xref:technical-writer.adoc[]
+
+role_related::service-provider[]

@@ -1,0 +1,17 @@
+// Add attributes and content you want to reuse in multiple pages and artifacts within this module
+// example: :standard-image: https://www.asam.net/[image:https://www.asam.net/typo3conf/ext/asam_cms/Resources/Public/Images/asam-logo.svg[width=120,role=right] ] <-- can be used to display the ASAM logo as image link with  on the right of a page with a width of 120px
+
+:structure-icon: xref:structure.adoc[image:https://cdn-icons-png.flaticon.com/512/849/849924.png[width=120,role=right]]
+:structure-icon-norole: xref:structure.adoc[image:https://cdn-icons-png.flaticon.com/512/849/849924.png[width=80]]
+
+:add-file-icon: xref:add_files.adoc[image:https://cdn-icons-png.flaticon.com/512/2311/2311991.png[width=120,role=right] ]
+:add-file-icon-norole: xref:add_files.adoc[image:https://cdn-icons-png.flaticon.com/512/2311/2311991.png[width=80]]
+
+:changes-icon: xref:changing_content.adoc[image:https://cdn-icons-png.flaticon.com/512/1388/1388394.png[width=120,role=right] ]
+:changes-icon-norole: xref:changing_content.adoc[image:https://cdn-icons-png.flaticon.com/512/1388/1388394.png[width=80]]
+
+:ref-include-icon: xref:ref-include.adoc[image:https://cdn-icons-png.flaticon.com/512/6567/6567676.png[width=120,role=right] ]
+:ref-include-icon-norole: xref:ref-include.adoc[image:https://cdn-icons-png.flaticon.com/512/6567/6567676.png[width=80]]
+
+:special-macros-icon: xref:special-macros.adoc[image:https://cdn-icons-png.flaticon.com/512/4354/4354565.png[width=120,role=right] ]
+:special-macros-icon-norole: xref:special-macros.adoc[image:https://cdn-icons-png.flaticon.com/512/4354/4354565.png[width=80]]

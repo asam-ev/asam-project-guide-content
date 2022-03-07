@@ -1,0 +1,32 @@
+// tag::long[]
+// tag::table[]
+[cols="1h,20"]
+|===
+|Purpose
+|To review and decide upon the reviewers' feedback and to incorporate corresponding changes to the draft standard.
+
+|Responsible
+|Project group
+
+|Involved
+|Members
+|===
+// end::table[]
+The project group has the obligation to review each review feedback and make a decision on how to further work on it.
+The decision includes as a minimum the status "accepted", "rejected" or "deferred".
+The decision must be documented.
+
+Accepted feedback shall be implemented.
+The project group has full authority how to implement the reviewers' feedback into the standard.
+They can implement changes as proposed by the reviewer, or decide for a different implementation.
+
+If a reviewer's feedback is actually out-of-scope, since it contains a request to consider a new use-case, feature or requirement, then the feedback shall be rejected and transferred to the ASAM CR-system with status "new".
+
+__{asam}__ has the obligation to inform reviewers about the status of their review feedback, upon their request.
+
+// end::long[]
+
+//tag::short[]
+The project group members have the obligation to review each comment and make a decision.
+The project group has full authority to decide, how to handle a comment, e.g. to accept, modify, defer or reject comments, and to make corresponding changes to the standard at their own discretion.
+//end::short[]

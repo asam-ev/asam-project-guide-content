@@ -1,0 +1,7 @@
+= Ideation workshop gameplan
+:description: TODO
+:keywords: TODO
+
+include::compendium:partial$_attributes.adoc[]
+
+TODO

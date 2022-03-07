@@ -1,0 +1,8 @@
+
+== Add a comment in GitLab
+
+//tag::body[]
+__describe here how to add a new comment in gitlab__
+
+atsdf
+//end::body[]

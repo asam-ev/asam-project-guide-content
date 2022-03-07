@@ -1,0 +1,6 @@
+
+== Create a new issue in GitLab
+
+//tag::body[]
+__describe here how to add a new issue in gitlab__
+//end::body[]

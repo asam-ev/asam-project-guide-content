@@ -1,0 +1,22 @@
+= Switching to a specific submodule version
+:description: Describes how the version of a submodule can be switched or set.
+:keywords: git,gitlab,submodule,switch,version, READYFORREVIEW
+
+include::compendium:partial$_attributes.adoc[]
+
+When a certain version of the submodule is needed, go into the submodule and checkout the needed version.
+
+.Full example for update versiono of a submodule (for asciidoc-resources)
+====
+[source,console]
+----
+cd asciidoc-resources
+git checkout [tag]
+cd ..
+git add asciidoc-resources
+----
+====
+
+* After that, `git commit` & `git push`.
+
+related::submodule[]

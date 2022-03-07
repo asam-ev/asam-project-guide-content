@@ -1,0 +1,12 @@
+= Application programming interface
+:description: Definition of an API.
+:keywords: definition,content-characterization,base-standard, READYFORREVIEW
+
+include::compendium:partial$_attributes.adoc[]
+
+An application programming interface (__{api}__) is the interface that a computer system, library or application provides in order to allow requests for service to be made of it by other com-puter programs, and/or to allow data to be exchanged between them.
+An API allows software components to communicate with one another.
+
+//tag::related[]
+related::base-standard[]
+//end::related[]

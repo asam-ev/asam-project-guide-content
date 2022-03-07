@@ -1,0 +1,49 @@
+= Join A Proposal Workshop
+:description: Describes how to join a proposal workshop
+:keywords: proposal-workshop, proposal
+
+include::partial$_attributes.adoc[]
+include::{abb}[]
+
+====
+[cols="1,5", frame=none, grid = rows]
+|===
+h|Involved roles
+a| * {role-standard-user}
+* {role-member}
+* {role-idea-giver}
+
+h| Step
+| image:proposal_phase_v2-proposal_workshop.svg[]
+
+|===
+====
+
+NOTE: This page covers how to join a proposal workshop.
+If you are the Idea Giver and looking for how to prepare a workshop, check out xref:proposal/03_proposal_workshop_preparation.adoc[] instead.
+
+== Context
+You are interested in an upcoming project?
+The first major event after the xref:standardization:project-ideation.adoc[ideation phase] is the xref:standardization:proposal-phase.adoc#_p1_-_proposal_workshop[proposal workshop].
+Here, you will get a presentation on what the project's goal is and may give feedback on it.
+Additionally, you can also present your view on the project idea.
+If you are interested in doing so, contact the mailto:info@asam.net[ASAM office] before the event.
+
+You can also xref:getting-involved:become_workgroup_member.adoc[sign up for a project participation], both for the xref:standardization:proposal-phase.adoc[proposal] and the xref:standardization:development-phase.adoc[development phase] (if the project is agreed upon by the __{tsc}__)
+
+TIP: Current proposal workshops are listed on the https://www.asam.net/conferences-events/upcoming-events/[ASAM website^].
+
+== Result
+You have signed up for the selected proposal workshop.
+
+== How
+. Go to the https://www.asam.net/conferences-events/upcoming-events/[ASAM website^] and find the proposal workshop you are interested in.
+. Access the "Registration" tab, fill out the form and send it to register. +
+You will receive a confirmation email if your registration was successful.
+
+== Troubleshooting / Known Issues
+=== I cannot find the event online, but I know it exists
+If you want to join a project proposal but cannot find the event on the website, you can also contact mailto:info@asam.net[ASAM office] directly.
+Please consider this as a last resort to fall back to only in case you cannot find the information.
+
+related::proposal-workshop[]

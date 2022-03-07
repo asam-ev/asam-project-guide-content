@@ -1,0 +1,24 @@
+// tag::long[]
+// tag::table[]
+[cols="1h,20"]
+|===
+|Purpose
+|To end the public review and have all feedback ready for the next process step.
+
+|Responsible
+|Office
+
+|Involved
+|none
+|===
+// end::table[]
+The Office terminates the public draft review process by:
+
+- removing the draft standard download from the https://www.asam.net/active-projects/public-review/[ASAM website^].
+- closing the IT-solution to accept further review feedback.
+
+// end::long[]
+
+//tag::short[]
+Once the review period is over, the ASAM office removes the draft standard from public access and makes the review comments available to the project group.
+//end::short[]

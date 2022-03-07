@@ -1,0 +1,30 @@
+= Artifact page name
+:description: The artefact's description
+:keywords: artifact, TODO
+:page-partial:
+
+include::partial$_attributes.adoc[]
+include::{abb}[]
+
+{changes-icon}
+
+== Context
+Describe the context (why) for this artifact.
+
+== Result
+Describe the expected results of this artifact.
+
+== Prerequisites
+List all preqrequisits for this artifact.
+
+== How
+Describe the steps to perform this artifact.
+If you have alternative ways, use subchapters.
+
+== Troubleshooting / Known Issues
+// OPTIONAL
+
+If you have steps for this artifact where troubleshooting or known issues exist, add subchapters for each topic.
+
+//OPTIONAL: Add the reference macro with keywords you want to reference.
+// Example: related::guide,!main[]   <-- (lists all pages where the keyword "guide" but not "main" were used)

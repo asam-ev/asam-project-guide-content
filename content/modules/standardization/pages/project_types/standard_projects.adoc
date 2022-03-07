@@ -1,0 +1,25 @@
+= Standard development projects
+:description: Summary of all standard development project types at ASAM.
+:keywords: project-types,standardization, standard,READYFORREVIEW
+
+include::partial$_attributes.adoc[]
+include::{abb}[]
+
+include::partial$project_types/project-type-standard.adoc[tag=long]
+
+== New standard development
+
+include::partial$project_types/project-type-new-std-dev.adoc[tag=long]
+
+== Major version development
+
+include::partial$project_types/project-type-major.adoc[tag=long]
+
+== Minor version development
+
+include::partial$project_types/project-type-minor.adoc[tag=long]
+
+== Revision development
+
+include::partial$project_types/project-type-revision.adoc[tag=long]
+

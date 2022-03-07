@@ -1,0 +1,17 @@
+graph TD
+    start_1(( )) --> E[Draft project proposal]
+    start_2(( ))
+    E --> F[Organize Proposal workshop]
+    F --> G[Proposal workshop]
+    G --> H[Finalize Proposal document]
+    H --> I[Select proposal submitter]
+    start_2(( )) --> H
+
+    xD[[Proposal template]] -.-> E
+    xC[/Basis for Proposal/] -.->E
+    E -.-> xE[/Proposal DRAFT/]
+    xF[[Proposal workshop gameplan]] -.-> F
+    xE -.-> G
+    G -.-> xG[/Agreement on project scope/]
+    xG -.-> H
+    H -.-> xH[/Final Proposal/]

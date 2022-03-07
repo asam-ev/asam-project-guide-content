@@ -1,0 +1,19 @@
+= Pulling A Submodule
+:description: Describes how a submodule can be pulled.
+:keywords: git,gitlab,submodule,pull, READYFORREVIEW
+
+include::compendium:partial$_attributes.adoc[]
+
+Pulling a submodule can currently only be done through a terminal window.
+
+. To pull a submodule, you need to open a terminal in the folder of your git repository.
++
+[source, git]
+----
+git submodule update --init
+----
+
+
+NOTE: After you have initialized your submodules for the first time, they will also show up in your Git window in __{vscode}_ where you can update them directly from _{vscode}__.
+
+related::submodule[]

@@ -1,0 +1,68 @@
+= Branch naming conventions
+:description: TODO
+:keywords: TODO
+
+include::compendium:partial$_attributes.adoc[]
+
+== Name template
+
+====
+`[red]#change-type#/[green]#group-name#/[yellow]#branch-title#`
+====
+
+
+== General guidelines
+
+- Applies to all branches on the OSI repositories
+- All lowercase
+- Use hyphens not spaces
+
+
+== Change types
+[horizontal]
+`feature`:: branches that enhance the standard or add additional features
+`fix`:: Bug fixes to contradictions or errors in the standard
+`doc`:: Documentation changes only
+`experimental`:: (advanced development) Branches where developers want to try out or demonstrate some ideas but don't expect their changes to be integrated directly
+
+
+== Group names
+
+=== OSI
+[cols='1,3']
+|===
+h|Name | Description
+
+|`sm`
+| Sensor modeling
+
+|`tp`
+| Traffic Participants
+
+|`ha`
+| Harmonisation
+
+|`pp`
+| Performance & packaging
+
+|`ge`
+| Any other, non-group specific developments
+
+|===
+
+
+== Branch title
+- Should be descriptive and make the change clear, i.e. not "update-sensor-model-x" but rather "initial-radarsensorviewconfig-support"
+
+
+== Examples
+
+====
+    feature/tp/lane-subtype
+====
+====
+    feature/pp/support-for-flatbuffer
+====
+====
+    fix/ge/index-specification-of-trace-files
+====

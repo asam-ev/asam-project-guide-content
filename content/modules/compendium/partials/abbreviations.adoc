@@ -1,0 +1,79 @@
+
+:abb-link: xref:compendium:abbreviations.adoc#_
+
+// HOW TO:
+// To add a new abbreviation, you must:
+// - add the abbreviation as a new section (in the alphabetically correct position) and
+// - add a new abbreviation attribute that can be used in other pages.
+
+:api: {abb-link}api[API]
+:asam: {abb-link}asam[ASAM]
+:ccb: {abb-link}ccb[CCB]
+:cr: {abb-link}cr[CR]
+:dco: {abb-link}dco[DCO]
+:gtm: {abb-link}gtm[GTM]
+:ide: {abb-link}ide[IDE]
+:loki: {abb-link}loki[LOKI]
+:odr: {abb-link}odr[ODR]
+:osc: {abb-link}osc[OSC]
+:oxo: {abb-link}oxo[OxO]
+:tsc: {abb-link}tsc[TSC]
+:vscode: {abb-link}vscode[VSCode]
+:wg: {abb-link}wg[WG]
+:wgl: {abb-link}wgl[WGL]
+
+ifdef::is_abbreviations[]
+
+include::role-specific:partial$role_descriptions.adoc[]
+
+== API
+Application Programming Interface:: An application programming interface (API) is a connection between computers or between computer programs.
+It is a type of software interface, offering a service to other pieces of software. See https://en.wikipedia.org/wiki/API[Wikipedia^].
+
+== ASAM
+Association for Standardization of Automation and Measuring Systems:: ASAM is a non-profit organization that promotes standardization for tool chains in automotive development and testing. See https://www.asam.net/about-asam/our-vision/[ASAM website^]
+
+== CCB
+Change Control Board:: TODO
+
+== CR
+Change Request:: TODO
+
+== DCO
+Developer Certificate of Origin:: The DCO is an attestation attached to every contribution made by every developer.
+
+== GTM
+ASAM Global Technology Manager:: {gtm-description}
+See also: xref:role-specific:gtm.adoc[]
+
+== IDE
+Integrated Development Environment:: A software application for developers that provides comprehensive facilities for software development, such as a source code editor, build automation tools and debugger.
+
+== LOKI
+List Of Known Issues:: A public list of known issues related to a certain standard.
+The list is maintained by the xref:role-specific:standard_manager.adoc[].
+
+== ODR
+OpenDRIVE:: Abbreviation for the Standard ASAM OpenDRIVE
+
+== OSC
+OpenSCENARIO:: Abbreviation for the Standard ASAM OpenSCENARIO
+
+== OxO
+OpenXOntology:: Abbreviation for the Standard ASAM OpenXOntology
+
+== TSC
+Technical Steering Committee:: {tsc-description}
+See also: xref:role-specific:tsc.adoc[].
+
+== VSCode
+Visual Studio Code:: xref:tooling:vscode.adoc[]
+
+== WG
+Workgroup:: A subgroup within a project dedicated to a specific topic.
+Consists of xref:role-specific:wg-member.adoc[workgroup members] and a xref:role-specific:wg-lead.adoc[workgroup lead].
+
+== WGL
+Workgroup Lead:: A member of the work group leading the progress and the members of this work group. xref:role-specific:wg-lead.adoc[workgroup lead].
+
+endif::[]

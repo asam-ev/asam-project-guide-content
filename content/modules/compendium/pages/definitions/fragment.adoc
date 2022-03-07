@@ -1,0 +1,7 @@
+= Fragment
+:description: Defines the term 'fragment' as used by ASAM.
+:keywords: fragment, TODO
+
+include::compendium:partial$_attributes.adoc[]
+
+TODO - create definition of term fragment

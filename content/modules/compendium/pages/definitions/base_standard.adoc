@@ -1,0 +1,28 @@
+= Base standard
+:description: Definition of a base standard.
+:keywords: definition,classification,base-standard, READYFORREVIEW
+
+include::compendium:partial$_attributes.adoc[]
+
+A base standard defines the syntax, abstract models, and functionality for general use.
+A base standard is defined in a technology-independent form.
+It can use a problem-/task-related notation, e.g., UML for an object model, or any suitable description for protocols.
+Typically, a base standard is
+
+* A xref:compendium:definitions/format_description.adoc[] (data structure) **or**
+* A xref:compendium:definitions/protocol_definition.adoc[] **or**
+* An {api}
+
+and has the following properties:
+
+* Platform-independent
+* Technology-independent
+* Supplier-independent
+* Does not contradict any other https://www.asam.net/standards/[ASAM standard^]
+
+There are platform- and technology-specific mapping rules for each base standard.
+These are defined in xref:compendium:definitions/technology_reference.adoc[] as independent parts of the base standard.
+
+//tag::related[]
+related::base-standard[]
+//end::related[]

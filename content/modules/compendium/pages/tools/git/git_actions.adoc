@@ -1,0 +1,22 @@
+= Git actions
+:description: Lists typical git actions and their meaning.
+:keywords: git,action,actions, READYFORREVIEW
+
+include::compendium:partial$_attributes.adoc[]
+
+Clone:: Done once to obtain a local copy of a remote repository.
+
+Add:: Will add new and changed files to the Staging Area.
+
+Commit:: Save the state of a repository (ideally with a "commit message" that gives some background).
+This "snapshot" only applies to the local repository.
+It applies the staging area or, if used with the command '-a', all changes, staged or unstaged.
+
+Push:: Copy the committed changes to the remote.
+
+Pull:: Update your local copy with all changes that have been made to the remote.
+
+Branch:: Diverge from the main line of development by creating a branch; this has a pointer to a specific commit in the parent to make it clear where it started.
+
+Merge:: Integrate the changes made in one branch into another.
+Most times, this is used to integrate the changes from your branch to the main (master) branch.

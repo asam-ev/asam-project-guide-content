@@ -1,0 +1,3 @@
+
+This module contains detailed information on all roles typically found in and related to ASAM projects.
+Each role also links to related HOW-TOs, installation instructions and other information that apply to them.

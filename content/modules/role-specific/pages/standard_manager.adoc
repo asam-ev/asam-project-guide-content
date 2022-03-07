@@ -1,0 +1,62 @@
+= Standard manager
+:description: Summary and landing page for standad manager.
+:keywords: role, role-landing-page, TODO
+:page-partial:
+:draft:
+
+include::partial$_attributes.adoc[]
+
+{standard-manager-description}
+
+[horizontal,role=right]
+Label:: {role-standard-manager}
+
+
+== Description
+* TODO
+
+== Requirements
+* TODO
+
+== Responsibilities
+* TODO
+
+ifndef::draft[]
+=== Issue resolution
+//tag::issue_resolution[]
+Each ASAM standard has an appointed Standard Manager.
+They manage the issue resolution process for the standard that they are appointed to.
+Their primary goals are to resolve known issues of the standard, carrying out all work necessary for implementing the fix and to keep the work load for the members of the Standard Expert Group as low as possible.
+
+Their primary tasks are:
+
+* Handling of support requests on 2nd-level.
+* Handling and monitoring of change requests (__{cr}__s).
+* Maintain the public list of known issues (__{loki}__).
+* Create proposals to resolve those __{cr}__s, which are categorized as an issue.
+* Organize and carry out Standard Expert Group meetings.
+* Create revisions of the standard.
+* Obtain technical and public releases of the revised standard.
+
+By default, the Standard Manager is a staff member of the ASAM Office.
+ASAM members can voluntarily take over the role of Standard Manager for a standard.
+
+If there are no volunteers available among ASAM members and if the ASAM Office staff is either not qualified or the volume of work would be too high, then the office shall appoint a paid xref:role-specific:service-provider.adoc[service provider] for the job.
+
+The minimum tenure for the Standard Manager shall be one year.
+//end::issue_resolution[]
+//endif::[]
+
+
+== Instructional pages for this role
+TODO
+
+=== Proposal phase
+role_related::gtm[proposal]
+
+role_related::gtm[]
+
+
+role_related::standard-manager[]
+
+

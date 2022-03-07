@@ -1,0 +1,15 @@
+= How to contribute to a proposal through GitLab issues
+:description: Describes how one can participate in the creation of a proposal through GitLab issues.
+:keywords: proposal, gitlab, issue, TODO
+
+include::compendium:partial$_attributes.adoc[]
+
+//tag::roles[]
+{role-wg-member}
+{role-project-lead}
+//end::roles[]
+
+
+NOTE: Still TODO! Currently not fully supported yet.
+
+If you want to contribute more directly, you can easily transition through the approach of xref:compendium:tools/gitlab/create_branch_from_issue.adoc[creating development branches from issues].

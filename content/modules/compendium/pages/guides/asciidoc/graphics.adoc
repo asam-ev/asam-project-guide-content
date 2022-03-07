@@ -1,0 +1,186 @@
+[[top-graphics]]
+= How to include graphics in ASAM documents
+:description: How-To for including graphics in ASAM documents (standards).
+:keywords: asciidoc,graphic,figure,how-to, READYFORREVIEW
+:reftext: Graphics
+:drawio: xref:tooling:drawio.adoc[]
+
+
+include::compendium:partial$_attributes.adoc[]
+
+
+
+For most cases, {drawio} shall be used.
+It's a possibility to generate graphics with a powerful tool that can be included directly, without a intermediate image format.
+See <<top-drawio>> for usage.
+
+Im some cases, PlantUMl is used to model the relationships.
+See <<top-plantuml>> for usage.
+
+[[top-drawio]]
+== DrawIO
+
+=== Code
+....
+[[fig-example-drawio]] // <1>
+.example graphic // <2>
+image::examplegraphic.drawio.svg[image] // <3>
+....
+<1> Anchor for the graphic. Reference this anchor using \<<fig-example-drawio>>
+<2> Graphic caption
+<3> Include of actual graphic
+
+=== Result
+
+See the result in <<fig-example-drawio>>.
+
+[[fig-example-drawio]]
+.example graphic
+image::compendium:examplegraphic.drawio.svg[image]
+
+
+
+[[top-plantuml]]
+== PlantUML
+
+PlantUML can be defined in the AsciiDoc file direktly or included as a seperate file.
+
+=== Code in asciiDoc
+....
+[[fig-example-plantuml-code]] // <1>
+.example graphic // <2>
+[plantuml, svg] // <3>
+---- // <4>
+package "UML Class Diagram" // <5>
+{
+    abstract OSC20
+    interface PhysicalObject
+
+    interface TrafficParticipant
+    entity Vehicle{}
+
+	enum IntendedInfrastructure {
+	driving
+	sidewalk
+	biking
+    }
+
+    class dynamicLimits{
+        maxSpeed
+        maxAcceleration
+        maxDeceleration
+}
+
+OSC20 <|-- PhysicalObject // <6>
+PhysicalObject <|-- TrafficParticipant
+TrafficParticipant <|-- Vehicle
+TrafficParticipant <|-- Person
+TrafficParticipant <|-- Animal
+
+'TrafficParticipant
+TrafficParticipant -- IntendedInfrastructure
+TrafficParticipant -- dynamicLimits
+----
+....
+<1> Anchor for the graphic. Reference this anchor using \<<fig-example-plantuml-code>>
+<2> Graphic caption
+<3> Include of actual graphic
+<4> Delimiter for code block
+
+For Usage of the PlantUML language, see the https://plantuml.com/[PlantUML Documentation].
+
+
+=== Code included from file
+....
+[[fig-example-plantuml-file]] // <1>
+.example graphic // <2>
+[plantuml, svg] // <3>
+---- // <4>
+include::../resources/ExamplePlantUML.plantuml[] // <5>
+----
+....
+<1> Anchor for the graphic. Reference this anchor using \<<fig-example-plantuml-file>>
+<2> Graphic caption
+<3> Include of actual graphic
+<4> Delimiter for code block
+<5> include of the code file
+
+
+
+=== Result
+
+The result is the same in both cases. See <<fig-example-plantuml-code>> and <<fig-example-plantuml-file>>.
+
+[[fig-example-plantuml-code]]
+.example plantuml - defined in AsciiDoc
+[plantuml, svg]
+----
+package "UML Class Diagram"
+{
+    abstract OSC20
+    interface PhysicalObject
+
+    interface TrafficParticipant
+    entity Vehicle{}
+
+	enum IntendedInfrastructure {
+	driving
+	sidewalk
+	biking
+    }
+
+    class dynamicLimits{
+        maxSpeed
+        maxAcceleration
+        maxDeceleration
+}
+
+OSC20 <|-- PhysicalObject
+PhysicalObject <|-- TrafficParticipant
+TrafficParticipant <|-- Vehicle
+TrafficParticipant <|-- Person
+TrafficParticipant <|-- Animal
+
+'TrafficParticipant
+TrafficParticipant -- IntendedInfrastructure
+TrafficParticipant -- dynamicLimits
+----
+
+
+[[fig-example-plantuml-file]]
+.example plantuml - included from file
+[plantuml, svg]
+----
+include::compendium:example$ExamplePlantUML.plantuml[]
+----
+
+
+== Images with links
+
+You can add a link to an image so it acts like a "button."
+
+
+*Syntax*
+
+Use one of the following syntax when adding your image:
+
+....
+image:<file_name>.<ext>[alt=<text>,link=<url>,window=_blank]
+xref:path-to-file/file.adoc[image:<file_name>.<ext>[alt=<text>]<Link name>^]
+<url>[image:<file_name>.<ext>[alt=<text>]<Link name>^]
+....
+
+"window=_blank" opens the link in a new browser tab (or window).
+The addition of "^" at the end of the link name does the same in a shorthand version.
+
+For example:
+
+[cols="a,a"]
+|===
+|
+....
+image:logo.png[alt=A button titled ASAM Home,link=https://asam.net,window=_blank]
+....
+|
+image:logo.png[alt=A button titled ASAM Home,link=https://asam.net,window=_blank]
+|===

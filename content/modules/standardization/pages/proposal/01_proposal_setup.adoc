@@ -1,0 +1,12 @@
+= Create the first Proposal Draft
+:description: Describes how to create a new propsal draft.
+:keywords: proposal, draft,READYFORREVIEW
+
+include::partial$_attributes.adoc[]
+include::{abb}[]
+
+{role-project-lead}
+
+image::standardization:proposal_phase_v2-Executive_Draft.svg[title="Proposal preparation",opts=interactive]
+
+include::compendium:page$guides/proposal_writing/how_to_executive_draft.adoc[leveloffset=+1, tag=!roles]

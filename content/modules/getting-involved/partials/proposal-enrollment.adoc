@@ -1,0 +1,24 @@
+
+// tag::long[]
+// tag::table[]
+[cols="1h,20"]
+|===
+|Purpose
+|To enroll participants in the planned project.
+
+|Responsible
+|{role-gtm}
+
+|Involved
+|{role-member}
+|===
+// end::table[]
+
+Interested parties can start to enroll for the proposed project in parallel to the other Proposal Phase activities.
+See xref:signing_up.adoc[] for available options during this process and more detail information on it.
+
+// end::long[]
+
+//tag::short[]
+TODO
+//end::short[]

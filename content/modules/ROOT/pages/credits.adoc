@@ -1,0 +1,102 @@
+= Credits
+:description: Contains credits for used icons and images
+:keywords: credits
+
+
+[cols="1,4"]
+|===
+| Image | Attribution
+
+a| image::https://cdn-icons-png.flaticon.com/512/849/849924.png[width=40]
+| +++
+<a href="https://www.flaticon.com/free-icons/order" title="order icons">Order icons created by Becris - Flaticon</a>
++++
+
+a| image::https://cdn-icons-png.flaticon.com/512/2311/2311991.png[width=40]
+|+++
+<a href="https://www.flaticon.com/free-icons/add" title="add icons">Add icons created by Pixel perfect - Flaticon</a>
++++
+
+a| image::https://cdn-icons-png.flaticon.com/512/1388/1388394.png[width=40]
+|+++
+<a href="https://www.flaticon.com/free-icons/content" title="content icons">Content icons created by Freepik - Flaticon</a>
++++
+
+a| image::https://cdn-icons-png.flaticon.com/512/6567/6567676.png[width=40]
+|+++
+<a href="https://www.flaticon.com/free-icons/reference" title="reference icons">Reference icons created by Kuber_Icons - Flaticon</a>
++++
+
+a| image::https://cdn-icons-png.flaticon.com/512/4354/4354565.png[width=40]
+|+++
+<a href="https://www.flaticon.com/free-icons/computer-bug" title="computer bug icons">Computer bug icons created by Freepik - Flaticon</a>
++++
+
+a| image::https://cdn-icons-png.flaticon.com/512/1077/1077198.png[width=40]
+|+++
+<a href="https://www.flaticon.com/free-icons/repair" title="repair icons">Repair icons created by Freepik - Flaticon</a>
++++
+
+a| image::https://cdn-icons-png.flaticon.com/512/495/495499.png[width=40]
+|+++
+<a href="https://www.flaticon.com/free-icons/start" title="start icons">Start icons created by Freepik - Flaticon</a>
++++
+
+a| image::https://cdn-icons-png.flaticon.com/512/3100/3100232.png[width=40]
+|+++
+<a href="https://www.flaticon.com/free-icons/hands-up" title="hands up icons">Hands up icons created by Freepik - Flaticon</a>
++++
+
+a| image::https://cdn-icons-png.flaticon.com/512/103/103230.png[width=40]
+|+++
+<a href="https://www.flaticon.com/free-icons/role" title="role icons">Role icons created by Freepik - Flaticon</a>
++++
+
+a| image::https://cdn-icons-png.flaticon.com/512/1375/1375136.png[width=40]
+|+++
+<a href="https://www.flaticon.com/free-icons/document" title="document icons">Document icons created by Freepik - Flaticon</a>
++++
+
+a| image::https://cdn-icons-png.flaticon.com/512/1945/1945958.png[width=40]
+|+++
+<a href="https://www.flaticon.com/free-icons/knowledge" title="knowledge icons">Knowledge icons created by Freepik - Flaticon</a>
++++
+
+a| image::https://cdn-icons-png.flaticon.com/512/1705/1705243.png[width=40]
+|+++
+<a href="https://www.flaticon.com/free-icons/manual" title="manual icons">Manual icons created by Freepik - Flaticon</a>
++++
+
+a| image::https://cdn-icons-png.flaticon.com/128/4411/4411634.png[width=40]
+|+++
+<a href="https://www.flaticon.com/free-icons/work" title="work icons">Work icons created by Freepik - Flaticon</a>
++++
+
+a| image::https://cdn-icons-png.flaticon.com/512/2618/2618595.png[width=40]
+|+++
+<a href="https://www.flaticon.com/free-icons/instructions" title="instructions icons">Instructions icons created by Freepik - Flaticon</a>
++++
+
+a| image::https://cdn-icons-png.flaticon.com/512/868/868834.png[width=40]
+|+++
+<a href="https://www.flaticon.com/free-icons/help" title="help icons">Help icons created by Freepik - Flaticon</a>
++++
+
+a| image::https://cdn-icons-png.flaticon.com/512/2996/2996987.png[width=40]
+|+++
+<a href="https://www.flaticon.com/free-icons/quality" title="quality icons">Quality icons created by Freepik - Flaticon</a>
++++
+
+a| image::https://cdn-icons-png.flaticon.com/512/860/860794.png[width=40]
+|+++
+<a href="https://www.flaticon.com/free-icons/calendar" title="calendar icons">Calendar icons created by Becris - Flaticon</a>
++++
+
+|===
+
+// Template
+// a| image::[width=40]
+// |+++
+//
+// +++
+

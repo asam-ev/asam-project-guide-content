@@ -1,0 +1,41 @@
+= Recommended Visual Studio Code extensions
+:description: A collection of recommended VSCode extensions
+:keywords: vscode,extensions,gitlab,asciidoc,drawio,docker, READYFORREVIEW
+:lookup: compendium:partial$vscode
+
+include::compendium:partial$_attributes.adoc[]
+
+__{vscode}__ is already without extensions very powerful and user friendly.
+One thing that can make the __{vscode}__ experience even better are the extensions.
+There is a list of extensions we recommend that will make your life contributing to the ASAM standards way easier.
+
+Installing an extension is really easy, just enter the extension menu, search for the desired extension.
+Then, click on the Install-Button.
+
+== AsciiDoc
+
+include::{lookup}/asciidoctor.adoc[]
+
+== Comment anchors
+
+include::{lookup}/comment-anchors.adoc[]
+
+== Draw.io
+
+include::{lookup}/drawio.adoc[]
+
+== Code Spell Checker
+
+include::{lookup}/code-spell-checker.adoc[]
+
+== Git graph
+
+include::{lookup}/git-graph.adoc[]
+
+== GitLens
+
+include::{lookup}/gitlens.adoc[]
+
+== Docker
+
+include::{lookup}/docker.adoc[]

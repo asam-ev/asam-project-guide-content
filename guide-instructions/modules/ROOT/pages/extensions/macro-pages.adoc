@@ -1,0 +1,24 @@
+= Macro: pages
+:description: Describes the use of the macro "pages" in detail.
+:keywords: macro,asam,antora,custom, REVIEWED_OK
+:page-aliases: macros/macro-pages.adoc
+
+include::partial$_attributes.adoc[]
+include::{abb}[]
+
+{special-macros-icon}
+
+== Description
+include::partial$macro-pages.adoc[tag=description]
+
+== Prerequisites
+include::partial$macro-pages.adoc[tag=prerequisites]
+
+== Parameters
+include::partial$macro-pages.adoc[tag=parameters]
+
+== Usage
+include::partial$macro-pages.adoc[tag=how]
+
+== Example
+include::partial$macro-pages.adoc[tag="example"]

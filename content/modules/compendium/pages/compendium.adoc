@@ -1,0 +1,32 @@
+= Compendium
+:description: Landing page for all automatically gathered knowledge pieces and content in this Project Guide.
+:keywords: landing_page,compendium, TODO
+:page-aliases: home.adoc, main.adoc
+:adoc-exclude:
+:compendium:
+
+// Requires input from restructuring discussions for finalization
+
+include::compendium:partial$_attributes.adoc[]
+include::ROOT:partial$_attributes.adoc[]
+
+{compendium-icon}
+
+The **Compendium** contains the content fragments not specific to one of the main topics.
+They are listed in alphabetical order and clustered by type. +
+Here, guides and instructions are gathered. +
+include::ROOT:partial$landing_page_referral.adoc[]
+
+
+**Other main topics**:
+
+* If you are looking for a general overview over __{asam}__ and its structure, see xref:getting-started:main.adoc[].
+* See xref:getting-involved:home.adoc[] for information on participating in ASAM standardization.
+* The xref:role-specific:home.adoc[] part collects typical tasks and important topics by ASAM roles.
+* If you want to learn more about the processes used in ASAM standardization, see xref:standardization:home.adoc[].
+* For instructions, guides and other topics on supported tools, see xref:tooling:overview.adoc[].
+* Topics concerning this Project Guide and how to work on it are gathere in xref:project-guide:home.adoc[].
+
+
+
+// pages::[]

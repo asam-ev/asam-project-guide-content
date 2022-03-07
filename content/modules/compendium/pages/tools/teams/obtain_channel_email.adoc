@@ -1,0 +1,32 @@
+= Obtain the email address of a channel
+:description: Obtain the email adress of a teams channel in MS Teams
+:keywords: artifact,teams,email,channel, READYFORREVIEW
+
+include::compendium:partial$_attributes.adoc[]
+
+== Context
+Users can send mails to teams channels which are then automatically posted as messages in that channel.
+To do so, the user needs to know the channel mail provided by MS Teams.
+
+== Result
+* User has obtained email address of teams channel
+
+== Prerequisites
+* User has access to MS Teams channels
+
+== How
+
+. Select the channel you are interested in
+. Click on "..." and select "Get email address"
+. Copy the selected address to clipboard
+
+.How to obtain the email address of a Teams channel
+image::compendium:obtain-email-teams.gif[Obtaining an Email Adress of a Channel]
+
+// == Troubleshooting / Known Issues
+// OPTIONAL
+
+
+
+
+

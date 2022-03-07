@@ -1,0 +1,56 @@
+= Adding A New Module
+:description: Describes how to add a new module to the ASAM Project Guide so that it contains all importantn infos and structures by default for Antora to build correctly.
+:keywords: antora,guide,module,new-content-guide, READYFORREVIEW
+:page-aliases: adding_content/add-new-module.adoc
+
+include::partial$_attributes.adoc[]
+include::{abb}[]
+
+{add-file-icon}
+
+== Context
+A new module is a new core component of the Project Guide.
+Each module is a distinct collection of content, targeted at providing information in an optimized way for the given target group.
+
+Two types of modules exist:
+* content hosts
+* content aggregators
+
+A *content host* is a module where (most) source content files lie.
+Examples are the "tooling" module and the "compendium" modules. +
+A *content aggregator* is a module where some header content is located, but the main information is included from another (host) module.
+Examples are the "role-specific" and the "getting-involved" modules.
+
+WARNING: Adding a new module adds to the overall structure of the Project Guide, thus making it more complex.
+For this reason, adding a new module *should not* be taken lightly and must have a good reason for doing so.
+
+== Result
+A new module is added that contains the required base structure.
+
+== Prerequisites
+* It has been officially decided to add a new module to the Project Guide
+
+== How
+To add a new module to the Project Guide, follow these instructions:
+
+. Copy the folder "reference-module-folder" located in the "examples" folder of the "project-guide" module with all its files and subfolders into the "modules" folder
+
+. Rename the folder to be the name of the new module
++
+TIP: The name of the folder will show in the page url.
+Choose a meaningful but short name, if possible.
+
+. Add a description for the module to the file "partials/module-description.adoc" in your new module
+
+. Add the new module's nav.adoc file to the antora.yml in the "doc" folder
++
+TIP: The position in the list reflects the order of the modules in Antora's sidebar.
+
+. Change the content of the module's nav.adoc file according to the in-module-navigation you want to have in the sidebar.
+
+. Add the module structure to the plantuml file "structure.puml" in the examles of the project-guide module
+//TODO: Automate this process step!
+
+. Update the xref:structure/content_structure.adoc[] file accordingly
+
+related::new-content-guide[]

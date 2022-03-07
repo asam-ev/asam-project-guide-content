@@ -1,0 +1,33 @@
+=  ASAM global technology manager
+:description: Summary and landing page for GTMs.
+:keywords: role, role-landing-page, READYFORREVIEW
+
+include::partial$_attributes.adoc[]
+
+{gtm-description}
+
+[horizontal,role=right]
+Label:: {role-gtm}
+
+
+== Description
+* Employee of ASAM
+* ASAM office contact for standards
+* Supports and managing ASAM projects from the background
+
+== Requirements
+* Strong experience in the automotive and or simulation industry
+* Well structured and organized work ethic
+* Strong knowlege in ASAM used tools
+
+== Responsibilities
+* Responsible for the integration and continued development of the ASAM standards
+* Responsible for the coordination and architectural support of standards at ASAM
+
+== Instructional pages for this role
+TODO
+
+=== Proposal phase
+role_related::gtm[proposal]
+
+role_related::gtm[]

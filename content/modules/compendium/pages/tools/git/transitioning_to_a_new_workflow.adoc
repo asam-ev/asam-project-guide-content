@@ -1,0 +1,60 @@
+= Transitioning to the new workflow
+:description: Describes how to transition to the new workflow (osc2 only!).
+:keywords: osc2-only,TODO
+
+include::compendium:partial$_attributes.adoc[]
+
+This describes the transition of Open Scenario 2.0 to the new workflow.
+
+IMPORTANT: This phase will run up to the upcoming project meeting on 4th to 6th of May
+
+== Repository tidy up
+
+*Who: all project members*
+
+*	Remove stale branches (old branches that are not active or relevant) - merge them or delete them
+*	Close and consolidate issues –review the issues and see if they are all still relevant/needed.
+Close those that aren’t
+*	Consolidate branches that are maybe too granular – Merge them into one
+
+== Feature list compilation
+
+*Who: WG Leads*
+
+. Compile a list of the features planned for implementation by each of the  workgroups.
+This should include a first estimate of the delivery date for a first draft.
+This is based off of the table shared by Gil on 23.04:
+
++
+.The headers for the table of features
+[%headers,cols='6*']
+|===
+h|Feature |Details & Dependencies |Maturity / Readiness |Must be in 2.0? |Expected Delivery Date | Comments
+
+|Feature xx
+|
+|
+|
+|
+|
+
+|===
+
+. Issues created -> 1to1 mapping to planned deliveries (e.g. feature in feature list of document  subsection)
+. Define a delivery date
+. Assign a responsible user
+. Assign label `Deliverable`
+
+*Next Stage:*
+
+. All WG leads define a set of milestones, assign issues to milestones
+
+== Branch structure setup
+*Who: ASAM Office*
+
+. Create the develop branch and set it to default
+. Setup the release branch
+. Add draft flags to all content
+. Add draft attribute and config to CI
+
+related::git[]

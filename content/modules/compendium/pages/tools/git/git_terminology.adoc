@@ -1,0 +1,21 @@
+= Git terminology
+:description: Lists terms and terminology for git
+:keywords: term, terminology, git, READYFORREVIEW
+
+include::compendium:partial$_attributes.adoc[]
+
+Git:: A version control system.
+Used by __{asam}__ in their projects.
+
+GitLab:: Popular Open Source platform ASAM uses that leverages Git.
+
+Remote:: The server, i.e. not on your PC, often used to refer to the master repository of a project on a server.
+The default name on (local) git is "origin".
+
+Local:: A locally (on your pc) stored (cloned) version of the remote repository.
+
+Working Copy:: Files that are not yet handled by git or that contain changes git is not "aware" of.
+
+Staging Area:: Collection of files or changes that git is aware of but that are not yet part of the history.
+
+Merge Request:: If the changes made in a separate branch of a project are to be combined with another branch (usually the main or master branch), a Merge Request is triggered to review the changes and solve any conflicts where two independently made changes on the same file would interfere with one another.

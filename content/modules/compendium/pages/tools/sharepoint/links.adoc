@@ -1,0 +1,17 @@
+= Sharepoint link summary
+:description: This is a summary of important Sharepoint links.
+:keywords: sharepoint,link,links,projects,TODO
+
+include::compendium:partial$_attributes.adoc[]
+
+WARNING: These links will only work for you if you have access to the corresponding project!
+
+    * https://asamev.sharepoint.com/sites/asamopensimulationinterface/Freigegebene%20Dokumente/Forms/AllItems.aspx[OSI] - Link to the OSI standard
+    * https://asamev.sharepoint.com/sites/openscenario/Freigegebene%20Dokumente/Forms/AllItems.aspx[OpenSCENARIO 1.x] - Link to the OSC 1.x standard
+    * https://asamev.sharepoint.com/sites/openscenario2/Freigegebene%20Dokumente/Forms/AllItems.aspx[OpenSCENARIO 2.0] - Link to the OSC 2.0 standard
+    * https://asamev.sharepoint.com/sites/openxontology/Freigegebene%20Dokumente/Forms/AllItems.aspx[OpenXOntology]  - Link to the OpenXOntology standard
+
+[TIP]
+You can sync all project files if you have Onedrive: on the Sharepoint site -> Click Sync (see demo on synchronizing).
+
+

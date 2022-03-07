@@ -1,0 +1,42 @@
+= Review a standard (ASAM member review)
+:description: Describes how to review a standard between ASAM members.
+:keywords: review, REVIEWED_OK
+
+include::partial$_attributes.adoc[]
+include::{abb}[]
+
+{role-reviewer}
+
+== Context
+Standardization requires constant reviewing of its documents.
+After the project group has reached a presentable version, this is released for __{asam}__ members to review.
+If a document or documents enter the xref:standardization:review-phase.adoc#_c2_public_draft_review[ASAM member review phase], it is announced through the https://www.asam.net/newsletter/[newsletter^] and the https://www.asam.net/active-projects/public-review/[ASAM website^].
+The xref:standardization:review-phase.adoc#_c3_feedback_deadline[deadline] for the review phase typically is 4-6 weeks after the start of the review.
+
+This review occurs at the end of a standardization project.
+It is mandatory for major version releases and optional for other types of standard development projects.
+
+This description is intended for ASAM members interested in giving feedback for such a review document.
+
+== Result
+Comprehensive and comprehensible feedback has been submitted to the project group on the review document(s).
+
+== Prerequisites
+* Reviewer must be an ASAM member
+* Reviewer needs an https://www.asam.net/get-login/[ASAM website account^] +
++
+NOTE: This is *not* your GitHub/ASAM GitLab account!
+
+* Documents must be in review
+
+== How
+. Access the "Public Review" page (through the website or the newsletter)
+. Select the standard you would like to review to be forwarded to its review page
+.. If not logged in, a popup window will appear for you to log into your ASAM account first
+. Read through the document(s) carefully
+. Provide feedback on these through the integrated feedback tools
+
+ASAM uses the following feedback tools:
+include::tooling:partial$review_tools.adoc[]
+
+// == Troubleshooting / Known Issues

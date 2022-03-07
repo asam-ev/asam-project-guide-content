@@ -1,0 +1,24 @@
+= Platforms used at ASAM
+:description: TODO
+:keywords: TODO
+
+include::compendium:partial$_attributes.adoc[]
+
+**Microsoft Teams**
+: Chat, conferencing, document folder for sharing documents (e.g. research papers, notes, videos, anything that does not need to be versioned) - See the xref:tooling:teams-and-sharepoint.adoc[]
+
+https://code.asam.net[**GitLab**^]
+: All source code and standard relevant documentation.
+Issues relevant to deliverables should be created here.
+See xref:compendium:guides/standard_workflow.adoc[]
+
+https://github.com/asam-ev[**Github - Standards**^]
+: ADD
+
+https://github.com/asam-ev[**Github - Open Source Software Platform**^]
+: ADD
+
+**Mailing list**:: Project level communication will be duplicated here from the teams channel for redundancy (e.g. project meetings, announcements)
+
+**OpenXCalendar**:: Subscribable, shared calendar for all OpenX projects - this lists (filterable) all meetings for each project.
+See xref:tooling:calendar/calendar-setup.adoc[]

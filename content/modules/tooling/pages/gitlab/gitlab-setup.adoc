@@ -1,0 +1,48 @@
+= Setting up your ASAM GitLab Account
+:description: How to setup your ASAM GitLab account.
+:keywords: task,fragment,setup,gitlab,account,gitlab-setup
+
+include::partial$_attributes.adoc[]
+include::{abb}[]
+
+{gitlab-icon}
+
+== Context
+All specification-related documents are stored and updated in ASAMs GitLab.
+*The ASAM GitLab is located at {gitlab-url}[window=_blank].*
+
+== Result
+The user has activated their ASAM GitLab account and can access the correct project repositories.
+
+== Prerequisites
+* Account created by the ASAM office.
+
+== How
+. Follow the link in the GitLab account creation email sent by "GitLab +<code@asam.net>+" to set your password.
+. Log in with your account using the image:gitlab-standard-login-button.png[title="Standard Button"] access.
++
+image:gitlab-standard-login.png[title="Standard Login"]
++
+You will be promted to upload an SSH key.
+See xref:git/git-setup.adoc#_optional_ssh_key_pair[how to setup secure SSH connection] for instructions on generating and uploading the SSH keys.
+**This is only required IF you use git locally in addition to GitLab.**
+
+NOTE: The "ASAM SVN" login is deprecated and will be removed in the future.
+
+== Troubleshooting / Known Issues
+
+=== I have not received a mail from "GitLab"
+Ask the ASAM office to support you by creating your GitLab account.
+
+=== I forgot my password and cannot use the login anymore
+Click the "Forgot your password?" button and follow the instructions.
+
+[#no-access]
+=== I cannot access my project's repository
+Ask the ASAM office to grant you the correct rights according to your role in the project.
+
+=== I cannot access the "Common" group
+See <<no-access,I cannot access my project's repository>>.
+
+
+related::gitlab,git-setup,!gitlab-setup[]

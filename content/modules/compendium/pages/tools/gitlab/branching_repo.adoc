@@ -1,0 +1,7 @@
+= Creating a branch
+:description: Describes branching in git and gitlab
+:keywords: git,gitlab,branching,branch,TODO
+
+include::compendium:partial$_attributes.adoc[]
+
+include::compendium:partial$tools/gitlab/branching_repo.adoc[]

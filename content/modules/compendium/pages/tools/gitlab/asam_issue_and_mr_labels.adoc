@@ -1,0 +1,41 @@
+= ASAM issue and merge request labels
+:description: TODO
+:keywords: TODO
+
+include::compendium:partial$_attributes.adoc[]
+
+**Mouse over the labels for more information.**
+
+== General labels
+
+=== Issue type labels (automatically assigned in issue templates)
+Each issue should be assigned ONE of:
+
+~Bug ~Feature ~Question
+
+=== Status labels
+Each issue should be assigned ONE of:
+
+~Analysis ~Implementation ~ProjectReview ~Integration ~CCBReview
+
+~Duplicate ~WontFix
+
+
+== Project-Specific Labels
+
+=== Milestones
+These are used to define which release milestone the issues will be integrated into.
+
+> These are actually not labels but defined separately in the milestones section of the project (under issues)
+
+
+=== Group/Category labels
+
+All ASAM projects have their Work Packages for projects clustered into groups or categories.
+These labels are defined individually for each project and should be used to categorise issues.
+
+=== Work package labels
+All ASAM projects are have work items assigned to smaller work packages (that are then also assigned to a group or category).
+These labels are defined individually for each project and should be used to further categorise issues.
+
+> An issue can have multiple Group and Work Package labels provided that it is relevant to more than one of these.

@@ -1,0 +1,109 @@
+//tag::description[]
+include::partial$virtual_files.adoc[]
+
+If added as a comment line to a nav.adoc file, replaces the files content with an automatically generated pages summary containing all pages and folders in the module.
+The path structure is preserved and files and folders are sorted in alphabetical order (capital letters before small letters).
+
+For each folder, the extension checks if a file with the same name on the level of the folder exists.
+If not, a new virtual file with the name of the folder plus ".adoc" is generated and the xref:extensions/macro-pages.adoc["Pages" macro] added to its content.
+
+//end::description[]
+
+//tag::prerequisites[]
+The module contains at least one page.
+//end::prerequisites[]
+
+//tag::parameters[]
+[cols="1,1,4"]
+|===
+|Parameter |Argument(s) |Note
+
+| none
+|nA
+| If set, the module main page is not searched.
+Instead, all pages and folders are listed one level higher (i.e. all root level pages and folders get "\*", all content in the root-level folders gets "**" and so on).
+
+|===
+//end::parameters[]
+
+//tag::attributes[]
+[cols="2,1,1,1,4"]
+|===
+|Attribute |Multiplicity |Separator |Type |Note
+
+|===
+//end::attributes[]
+
+//tag::how[]
+IMPORTANT: This ONLY works in nav.adoc files, not in regular pages or partials!
+The macro must also always be used as a comment (similarly to the Asciidoctor macro "tag").
+
+* If the module has a main page, add `//autonav::[]` without parameters in an empty line in the relevant nav.adoc file.
+* If the module has no main page, add `//autonav::[none]` in an empty line in the relevant nav.adoc file.
+
+
+[NOTE]
+====
+The macro uses the following rules to determine the main page of a module:
+
+* If there is a file named like the module on root level, use this as the main page.
+* Else if there is a file named "index.adoc" on root level, use this as the main page.
+* Else if there is a file named "main.adoc" on root level, use this as the main page.
+* Else use the first page in the alphabetically sorted list.
+====
+
+//end::how[]
+
+//tag::example[]
+Assuming the following folder structure in a module named "Module_A":
+
+[source]
+----
+pages/
+├── content_folder/
+|   ├── additional_content/
+|   |   └── special_content_FILE.adoc
+|   ├── 01_proposal_setup.adoc
+|   ├── 02_contributing.adoc
+|   ├── 03_proposal_workshop_preparation.adoc
+|   ├── 04_join_proposal_workshop.adoc
+|   └── additional_content.adoc
+├── Module_A_Description.adoc
+├── a_file.adoc
+├── index.adoc
+└── second_file.adoc
+----
+, the example below shows the result for applying the macro in this module.
+
+.Create automatic navigation file content
+====
+[source,asciidoc]
+----
+* Test
+** This text will be replaced with the generated content
+
+// autonav::[]
+----
+====
+
+Output:
+====
+[source,asciidoc]
+----
+* xref::index.adoc[]
+** xref::Module_A_Description.adoc[]
+// the following file is generated
+** xref::content_folder.adoc[]
+*** xref::content_folder/01_proposal_setup.adoc[]
+*** xref::content_folder/02_contributing.adoc[]
+*** xref::content_folder/03_proposal_workshop_preparation.adoc[]
+*** xref::content_folder/04_join_proposal_workshop.adoc[]
+// the following file exists, so is not generated
+*** xref::content_folder/additional_content.adoc[]
+**** xref::content_folder/additional_content/special_content_FILE.adoc[]
+** xref::second_file.adoc[]
+----
+====
+
+
+//end::example[]

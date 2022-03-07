@@ -1,0 +1,12 @@
+
+The GitLens Extension is a great extension to follow up on all the changes made to the documents within the repository.
+Gitlens provides:
+
+* Repository Overview
+* File History
+* Line History
+* Commit Comparison
+
+.GitLens -- Git supercharged (id: eamodio.gitlens)
+image::compendium:gitlens_ext.PNG[]
+

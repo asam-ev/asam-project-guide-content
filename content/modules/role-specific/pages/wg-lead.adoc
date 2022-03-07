@@ -1,0 +1,26 @@
+= Workgroup lead
+:description: Summary and landing page for workgroup leads.
+:keywords: role, role-landing-page, TODO
+
+include::partial$_attributes.adoc[]
+
+{wg-lead-description}
+
+[horizontal,role=right]
+Label:: {role-wg-lead}
+
+== Description
+* TODO
+
+== Requirements
+* TODO
+
+== Responsibilities
+* TODO
+
+== Instructional pages for this role
+TODO
+
+
+
+role_related::wg-lead[]

@@ -1,0 +1,35 @@
+= ASAM standardization process
+:description: The standardization process applied at ASAM. Contains the general process as well as specifics on the life cycle of a project.
+:keywords: standardization,landing_page, READYFORREVIEW
+:page-aliases: home.adoc
+
+include::partial$_attributes.adoc[]
+include::{abb}[]
+include::ROOT:partial$_attributes.adoc[]
+
+{standardization-icon}
+
+Creating standards at __{asam}__ follows very specific processes.
+Everyone involved in such activities must familiarize themselves with these to understand the **DOs** and **DON'Ts** in order to minimize complications and overhead.
+
+Reading through these may also provide a better understanding on what is expected at which point during a project's life cycle.
+
+ifdef::debug[]
+== Subchapters
+
+* {project-types}
+* {development-process}
+** {ideation-phase}
+** {proposal-phase}
+** {development-phase}
+** {review-phase}
+** {release-phase}
+* {project-setup}
+* {creation-of-standards}
+
+endif::[]
+
+
+== Content
+
+include::../nav.adoc[lines=2..-1]

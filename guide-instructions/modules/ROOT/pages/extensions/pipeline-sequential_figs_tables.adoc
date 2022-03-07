@@ -1,0 +1,25 @@
+= Pipeline: Sequential figure and table numbers
+:description: Describes the use of the pipeline extension "Sequential figure and table numbers" in detail.
+:keywords: pipeline,asam,antora,asciidoctor,custom, TODO
+
+include::partial$_attributes.adoc[]
+include::{abb}[]
+
+{special-macros-icon}
+
+== Description
+include::partial$pipeline-sequential_figs_tables.adoc[tag=description]
+
+== Prerequisits
+include::partial$pipeline-sequential_figs_tables.adoc[tag=prerequisits]
+
+== Configuration
+include::partial$pipeline-sequential_figs_tables.adoc[tag=configuration]
+
+
+== Usage
+include::partial$pipeline-sequential_figs_tables.adoc[tag=how]
+
+== Example
+include::partial$pipeline-sequential_figs_tables.adoc[tag="example"]
+

@@ -1,0 +1,48 @@
+= Tools overview
+:description: Gives an overview over the mandatory and recommended tools most commonly used in ASAM projects.
+:keywords: overview,tools,landing_page,tools-overview,READYFORREVIEW
+:no-installation: xref:working-without-software-installation.adoc[]
+:page-aliases: overview.adoc
+:tooling:
+
+include::tooling:partial$_attributes.adoc[]
+include::ROOT:partial$_attributes.adoc[]
+include::{abb}[]
+
+{tools-icon}
+
+include::partial$module-description.adoc[]
+
+include::ROOT:partial$landing_page_referral.adoc[]
+
+Tools mandatory for every member are hosted by __{asam}__ and can be accessed online and without local setup.
+An overview over these can be found under <<Infrastructure for Standard Development>>.
+Because of this, most participants in ASAM projects do not **require** dedicated software installations in order to be able to participate in the process.
+For information on how to work without any local setup, see **{no-installation}** .
+
+Depending on your role at ASAM, some tasks may require local software installation or may benefit from one.
+In some cases, you may decide whether you would like to use the provided online tools or interface with them through a local setup.
+For some of these, ASAM provides a recommended base setup, listed under <<Recommended Tools>>.
+
+NOTE: Since ASAM does not develope those tools, descriptions and information on how to install, set up and use them is kept as short as possible to minimize outdated information in this guide as much as possible.
+
+== Infrastructure for Standard Development
+TIP: Instead of installing software locally, ASAM supports **{no-installation}** for some roles.
+
+
+include::tooling:partial$list-of-tools.adoc[tag=mandatory]
+
+// reference::mandatory[]
+
+
+== Recommended tools
+include::tooling:partial$list-of-tools.adoc[tag=recommended]
+
+// reference::recommended[]
+
+
+== Content
+
+include::../nav.adoc[lines=2..-1]
+
+related::landing_page,!tools[]

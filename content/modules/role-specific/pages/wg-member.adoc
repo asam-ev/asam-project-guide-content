@@ -1,0 +1,27 @@
+= Workgroup member
+:description: Summary and landing page for wg members.
+:keywords: role, role-landing-page, TODO
+
+include::partial$_attributes.adoc[]
+
+{wg-member-description}
+
+[horizontal,role=right]
+Label:: {role-wg-member}
+
+== Description
+* TODO
+
+== Requirements
+* TODO
+
+== Responsibilities
+* TODO
+
+== Instructional pages for this role
+TODO
+
+=== Proposal phase
+role_related::wg-member[proposal]
+
+role_related::wg-member[]
