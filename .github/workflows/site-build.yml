@@ -13,3 +13,22 @@ jobs:
   notify:
     name: Notify the generator about the update
     runs-on: ubuntu-20.04
+   
+    steps:
+    - name: Workflow Dispatcher
+      uses: adityakar/workflow-dispatcher@v1.0
+      with:
+        # Owner of the GitHub repo
+        owner: asam-ev
+        # Name of the GitHub repo
+        repo: asam-project-guide
+        # Access token (PAT) for the repo
+#         token: 
+        # The event type of the repository dispatch
+        event_type: content-update
+        # Payload for the repository dispatch event
+#         client_payload: # optional, default is {}
+        # How long to wait between polls (seconds)
+#         wait_time: # optional, default is 10
+        # Maximum amount of time to wait for workflow (seconds)
+#         max_time: # optional, default is 600
