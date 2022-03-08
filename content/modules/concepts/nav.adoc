@@ -2,6 +2,7 @@ include::../ROOT/partials/_attributes.adoc[]
 * {getting-started-nav-icon}
 ** xref:project_types.adoc[]
 ** xref:project_phases.adoc[]
+** xref:project_lifecycle.adoc[]
 ** xref:roles-overview.adoc[]
 ** xref:diagram_notations.adoc[]
 ** xref:doc-as-code.adoc[]

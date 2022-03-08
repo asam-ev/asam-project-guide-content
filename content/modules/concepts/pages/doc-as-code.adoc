@@ -6,16 +6,22 @@ include::partial$_attributes.adoc[]
 include::{abb}[]
 
 
-The concept of Documentation as Code (or Doc as Code) refers to using the same tools for documentation as for writing (software) code. +
-Typically, this involves
+// rewrite motivation sentence
+All standards in the ASAM Simulation domain follow the concept of Documentation as Code (Doc-as-Code).
+This concept refers to using the same tools for documentation as for writing (software) code. +
+ASAM employs this concept in the following ways:
 
-* using <<Issue Tracking,issue tracking>>
-* having a <<Version Control System, version control system>> (e.g. Git)
-* using <<Plain Text Markup,plain text markup>> for content (e.g. AsciiDoc)
-* doing <<Reviews,(code) reviews>>
-* <<Process Automation,automating >>steps in the (code/content) generation.
+// * using <<Issue Tracking,issue tracking>>
+// * having a <<Version Control System, version control system>> (e.g. Git)
+// * using <<Plain Text Markup,plain text markup>> for content (e.g. AsciiDoc)
+// * doing <<Reviews,(code) reviews>>
+// * <<Process Automation,automating >>steps in the (code/content) generation.
 
-All standards in the ASAM Simulation domain follow this concept.
+
+* Standards are created as plain text
+*
+
+
 Different projects may use different tools or versions of the same tools, but the central ideas stay the same.
 
 == Issue Tracking

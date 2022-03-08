@@ -7,23 +7,21 @@ include::{abb}[]
 
 WARNING: This section needs approval by {tsc}.
 
-image::compendium:asam/project_types.png[title="ASAM project types"]
-
-// TBD: Implementation Project still valid?
-// TODO: Update image
-// TBD: Implementers forum relevant?
-// Project types need to be discussed by TSC first.
-
-
-__{asam}__ has four defined project types, which further characterize the work to be done within the projects.
+__{asam}__ defines three project types, which further characterize the work to be done within the projects.
 They are:
 
 * <<Standard Development>>
 * <<Concept>>
 * <<Study>>
-* <<Implementation>>
 
+image::project_types_overview.drawio.svg[title="ASAM project types overview"]
 
+// image::compendium:asam/project_types.png[title="ASAM project types"]
+
+// TBD: Implementation Project still valid?
+// TODO: Update image
+// TBD: Implementers forum relevant?
+// Project types need to be discussed by TSC first.
 
 
 == Standard Development
@@ -69,10 +67,10 @@ include::compendium:partial$project_types/project-type-study.adoc[tag=short]
 
 
 
-== Implementation
-include::compendium:partial$project_types/project-type-implementation.adoc[tag=table]
+// == Implementation
+// include::compendium:partial$project_types/project-type-implementation.adoc[tag=table]
 
-include::compendium:partial$project_types/project-type-implementation.adoc[tag=short]
+// include::compendium:partial$project_types/project-type-implementation.adoc[tag=short]
 
 
 
