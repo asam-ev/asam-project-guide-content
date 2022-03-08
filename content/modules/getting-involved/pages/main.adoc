@@ -31,7 +31,7 @@ The ASAM project lifecycle consists of six main phases:
 
 * xref:ideation_phase.adoc[**Ideation**]
 * xref:proposal_phase.adoc[**Proposal**]
-* xref:development_phase.adoc[**Standard Development**]
+* xref:development_phase.adoc[**Development**]
 * xref:review_phase.adoc[**Review**]
 * xref:release_phase.adoc[**Release**]
 * xref:public_phase.adoc[**Public**]
@@ -64,7 +64,7 @@ Project commitment has to be announced in the Proposal Phase and is specified ex
 Click the icon to learn about how to join a project and take over specific roles.
 
 h|xref:development_phase.adoc[image:compendium:asam/project_lifecycle-standard.svg[]] +
-xref:development_phase.adoc[Standard Development]
+xref:development_phase.adoc[Development]
 a|If a proposal is accepted, the project enters the development phase.
 This is where the content and specifications of a standard and its (optional) supplemental documents are created, refined, and discussed. +
 Click the icon to learn about how to participate in developing a standard at ASAM.

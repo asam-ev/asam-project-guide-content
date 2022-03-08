@@ -1,49 +1,113 @@
-= Notation In Project Phase Diagrams
-:description: An explanatory page for the project phase diagrams.
-:keywords: diagrams, phase, concept
+= ASAM Project Phases
+:description: An overview over the ASAM Project Phases.
+:keywords: phase, concept
 
 include::partial$_attributes.adoc[]
 include::{abb}[]
 
-== Introduction
-This Project Guide uses a variation of https://www.omg.org/spec/BPMN/2.0/[BPMN 2.0^] diagrams to describe the ASAM Project Phases.
-The diagrams contain information on
 
-* the sequence of actions
-* input and output documents
-* initiating (responsible) and receiving (involved) actors in actions
+Besides xref:project_types.adoc[different types of projects], there are seven main project phases that ASAM defines.
+Not all projects must necessarily pass through all these phases.
+See the phase descriptions below for more details.
 
-The diagrams in the Project Guide are not simplified for readability.
-They are a formal and complete representation of the respective project phase or step.
+TIP: If you want to learn how to participate in a certain phase, check out the xref:getting-involved:main.adoc[] part for more information.
 
-== Example
-<<fig-bpmn-example>> shows an example based on the Ideation Phase.
-
-[#fig-bpmn-example]
-image::compendium:asam/asam_phases_legend-example.svg[title=Example diagram based on the Ideation Phase]
-<1> The phase starts
-<2> The first activity in the phase is the person with the idea (the "Idea Giver") sending an email with their project idea to the ASAM Office
-<3> This is where the path branches: if the idea is a new standard, it will continue with event **4**, otherwise with event **5**
-<4> In case this is a new standard, the ASAM Office will initiate an Ideation Workshop together with the Idea Giver to add further details to the idea before deciding on whether to progress to the Proposal phase or disregard the idea.
-The Workshop is created using the provided (**4a**) Ideation Workshop gameplan, and its outcome (**4b**) is the basis for a new proposal.
-<5> Whether the idea is a new standard or not, the Idea Giver has to raise enough interest to gather the required amount of participants for the Proposal phase, which is at least 3.
-He keeps the ASAM Office informed about the status, and the ASAM Office may support by bringing the Idea Giver in contact with potentially interested parties at ASAM.
-<6> Once the requirements for entering the next phase have been fulfilled, the project may enter the Proposal phase.
-
-The details of each step of a phase are explained on separate child pages under the page containing the full diagram.
-In the example above, one child page would cover the activity of how to propose an idea, another page would cover the ideation workshop, and a final page would cover tips on how to find participants for a Project Proposal.
-
-NOTE: Disregarding the idea is not depicted explicitly.
-This can happen between most steps and, therefore, is kept out of the "default way" for clarity's sake. +
-The same is true for all BPMN-style diagrams throughout this Guide.
+image::compendium:asam/project_lifecycle-v2.svg[alt=The ASAM Project Phases, title=The ASAM Project Phases]
 
 
-== Legend
-To reduce the size of the diagrams, some changes compared to the original BPMN language were implemented:
+== Ideation Phase
+|===
+h|Purpose
+|To decide whether an idea for a project is promising.
 
-* Loop returns may lead to an action directly rather than a loop connection point
+h|Required for
+|Any project not directly based on a previous project.
+|===
 
-<<fig-bpmn-legend>> contains the legend applicable to all BPMN-style diagrams throughout the Project Guide.
+If someone has an idea for a new standard, it triggers the ideation phase for a new project. +
+During this phase, the idea is evaluated and fleshed out a bit until it is either discarded (e.g. it is not feasible or a duplicate of sorts) or accepted.
+In case the idea is accepted, the project moves on to the <<Proposal Phase>>.
 
-[#fig-bpmn-legend]
-image::compendium:asam/asam_phases_legend-legend.svg[title=Legend for BPMN-style diagrams in Project Guide]
+== Proposal Phase
+|===
+h|Purpose
+|To define funding and participants for a project and decide whether to proceed.
+
+h|Required for
+|Every project type
+|===
+
+Whether a project idea was just accepted or an improvement or update on an existing standard was proposed, the project enters the Proposal Phase.
+During this phase, a Proposal document is generated, detailing the project's targets, participants, the budget, timeline, and other project-related information.
+The Project Type is also specified during this phase.
+With this document, the ASAM __{tsc}__ decides if the project may continue or not. +
+If the go-ahead is given, the project continues on to the <<Development Phase>>.
+
+
+== Development Phase
+|===
+h|Purpose
+|To develop the project's deliverables.
+
+h|Required for
+|Every project type.
+|===
+
+**This is the main phase of each project.** +
+During this phase, the project-type specific deliverables are developed by the project participants.
+In the beginning, the project team organizes a workshop to specify their modus operandi and set up all technical aspects of the project.
+This is followed by specifying, writing, and reviewing content internally until the document or documents are ready for a ASAM-internal or public review in the <<Review Phase>>.
+
+== Review Phase
+|===
+h|Purpose
+|To review the developed deliverables.
+
+h|Required for
+|Every project type.
+|===
+
+Before they are officially released, the created deliverables are to be reviewed.
+Depending on the project, these reviews may be available to ASAM members only, free for the public, or a mixture of both.
+Any problems that are identified during any of these reviews are then analyzed and categorized.
+Important fixes have to be made before the deliverables are released, whilst improvements beyond the initial scope or minute details may be put off for future iterations.
+
+== Release Phase
+|===
+h|Purpose
+|To release the developed content of a standard.
+
+h|Required for
+|Standards.
+|===
+
+In the case of a Standard Development project, the created documents are released to the public as official standard after the Review phase has been passed successfully.
+Immediately afterwards, the project transitions to the next phase: the <<Public Phase>>.
+
+== Public Phase
+|===
+h|Purpose
+|To apply the standard in the industry and officially support it.
+
+h|Required for
+|Standards.
+|===
+
+During this phase, the released standard is publicly available and officially supported.
+There is no active development on the standard itself.
+However, feedback from users may still be gathered in order to start a follow-up project down the line to improve the standard.
+In this case, a new Project Proposal would be created and the process started anew. +
+If, however, the standard at some point becomes obsolete or deprecated, it enters its final phase: the <<Retirement Phase>>.
+
+== Retirement Phase
+|===
+h|Purpose
+|To retire an outdated or deprecated standard.
+
+h|Required for
+|Standards.
+|===
+
+This phase is the final phase for every standard eventually.
+The standard has become obsolete and is retired.
+With this, it will no longer be supported and propagated by ASAM.
