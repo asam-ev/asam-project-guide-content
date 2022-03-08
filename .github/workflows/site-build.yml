@@ -15,20 +15,16 @@ jobs:
     runs-on: ubuntu-20.04
    
     steps:
-    - name: Workflow Dispatcher
-      uses: adityakar/workflow-dispatcher@v1.0
+    - name: Repository Dispatch
+      # You may pin to the exact commit or the version.
+      # uses: peter-evans/repository-dispatch@ce5485de42c9b2622d2ed064be479e8ed65e76f4
+      uses: peter-evans/repository-dispatch@v1.1.3
       with:
-        # Owner of the GitHub repo
-        owner: asam-ev
-        # Name of the GitHub repo
-        repo: asam-project-guide
-        # Access token (PAT) for the repo
-#         token: 
-        # The event type of the repository dispatch
-        event_type: content-update
-        # Payload for the repository dispatch event
-#         client_payload: # optional, default is {}
-        # How long to wait between polls (seconds)
-#         wait_time: # optional, default is 10
-        # Maximum amount of time to wait for workflow (seconds)
-#         max_time: # optional, default is 600
+        # A repo scoped GitHub Personal Access Token
+        token: ${{ secrets.GITHUB_TOKEN }}
+        # The full name of the repository to send the dispatch.
+        repository: asam-ev/asam-project-guide
+        # A custom webhook event name.
+        event-type: content-update
+        # JSON payload with extra information about the webhook event that your action or worklow may use.
+#         client-payload: # optional, default is {}
