@@ -13,4 +13,4 @@ include::partial$module-description.adoc[]
 
 == Content
 
-include::../nav.adoc[lines=2..-1]
+include::../nav.adoc[lines=3..-1]
