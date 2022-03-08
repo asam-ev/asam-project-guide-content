@@ -6,7 +6,7 @@
 
 include::partial$_attributes.adoc[]
 include::{abb}[]
-include::ROOT:partial$_attributes.adoc[]
+include::asamprojectguide:ROOT:partial$_attributes.adoc[]
 
 {project-guide-icon}
 
