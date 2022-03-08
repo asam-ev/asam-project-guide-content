@@ -7,6 +7,8 @@ include::{abb}[]
 
 include::role-specific:partial$roles.adoc[tag=summary]
 
+image::roles_overview.drawio.svg[title=Overview over the most relevant roles in ASAM projects.]
+
 The following table contains a list of all project roles and a short description for them.
 
 // include::role-specific:partial$roles.adoc[tag=list_of_roles]
