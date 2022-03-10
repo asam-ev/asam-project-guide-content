@@ -1,6 +1,8 @@
-= Meeting moderation
+= Meeting Moderation
 :description: Change when the page changes. Leads a few tips for leading meetings, which is one of the main tasks of the project manager. 
 :keywords: role,project-lead,training,meeting-moderation,READYFORREVIEW
+
+include::partial$_attributes.adoc[]
 
 {role-project-lead}
 

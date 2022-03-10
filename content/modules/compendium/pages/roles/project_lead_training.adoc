@@ -1,6 +1,8 @@
-= Project lead training
+= Project Lead Training
 :description: Defines the responsibilities of a project lead at ASAM
 :keywords: role,project-lead,training,meeting-moderation
+
+include::partial$_attributes.adoc[]
 
 {role-project-lead}
 
@@ -21,7 +23,7 @@ Define a working mode:::
 * Forcing a decision in case of disagreement
 * Responsible for leading or passing on the leadership of meetings
 * Responsible for the documentation of meetings
-* See also xref:Meeting_moderation_best_practices.adoc[]
+* See also xref:ASAM/Meeting_moderation_best_practices.adoc[meeting moderation best practices]
 Leading of change control board:::
 * Refining and ensuring a change management process
 * Organisation of the topics to be implemented
