@@ -1,7 +1,8 @@
 name: asamprojectguide
 title: ASAM Project Guide
-version: master
-display_version: latest
+version:
+  main: 'latest'
+  open-(*): 'open-$1'
 prerelease: -dev
 start_page: ROOT:index.adoc
 nav:
