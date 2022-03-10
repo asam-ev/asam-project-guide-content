@@ -1,7 +1,0 @@
-= Template for project proposals (AsciiDoc)
-:description: Contains a description of the proposal template
-:keywords: proposal, template, TODO
-
-include::compendium:partial$_attributes.adoc[]
-
-TODO
