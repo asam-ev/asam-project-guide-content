@@ -1,12 +1,34 @@
-= Participating In A Project
-:description:
-:keywords:
+= Development Phase
+:description: Describes the development phase
+:keywords: development, phase
 
 include::partial$_attributes.adoc[]
 include::{abb}[]
 
 
-== The Development Phase
+====
+[cols="1,5", frame=none, grid = rows]
+|===
+h|Involved roles
+a| * {role-wg-member}
+* {role-wg-lead}
+* {role-project-lead}
+
+h| Project phase
+| image:compendium:asam/project_lifecycle-development.svg[]
+
+|===
+====
+
+== Getting Started Immediately
+
+TODO
+// [horizontal]
+// xref:ideation/enter_new_idea.adoc[]:: Start here to learn how you can enter an idea at ASAM.
+// xref:ideation/developing_an_idea.adoc[]:: Start here if you want to further develop an idea you previously entered.
+// xref:ideation/raising_interest.adoc[]:: Start here for tips and tricks on finding enough project participants.
+
+== Process Overview
 The description of the ASAM standard development process in this section contains all formal process steps to develop an ASAM standard. +
 The process steps are mandatory for the development of new standards and the development of a major version of an existing ASAM standard.
 For all other project types, some of the process steps are optional (see xref:concepts:project_types.adoc[]).
