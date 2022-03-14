@@ -18,6 +18,9 @@ They are:
 * <<Concept>>
 * <<Study>>
 
+
+image::project_types_overview.drawio.svg[title="ASAM project types overview", width= 800]
+
 A new project can be triggered by either a new idea, a previous Concept Paper, or a previously released Standard.
 The intended output of each project type is a document.
 
@@ -25,9 +28,7 @@ The intended output of each project type is a document.
 * For a Standard Development project, the output is the standard + optional supplemental documents
 * For a Study project, the output is a Study Report that details the findings of the project.
 
-image::project_types_overview.drawio.svg[title="ASAM project types overview"]
-
-// image::compendium:asam/project_types.png[title="ASAM project types"]
+Note that a new concept project is usually not triggered by a previous one.
 
 // TBD: Implementation Project still valid?
 // TODO: Update image
