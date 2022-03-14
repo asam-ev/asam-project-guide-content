@@ -11,3 +11,4 @@ nav:
 - modules/role-specific/nav.adoc
 - modules/tooling/nav.adoc
 - modules/compendium/nav.adoc
+- modules/ROOT/nav.adoc
