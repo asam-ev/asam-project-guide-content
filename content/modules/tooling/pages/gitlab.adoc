@@ -16,15 +16,18 @@ It can host wikis, has issue-tracking, continuous integration, and deployment pi
 GitLab::
 +
 --
-{gitlab-icon-norole}
+[cols="1,8"]
+|===
+|{gitlab-icon-norole}
 
-ASAM uses {gitlab-url}[GitLab] for multiple aspects of its standardization process:
+a|ASAM uses {gitlab-url}[GitLab] for multiple aspects of its standardization process:
 
 * Document control during standard development
 * Commenting and tracking of feedback
 * Automation of document creation and publication steps
 * Milestone tracking
 * Synchronizing assets, style guides, scripts, and reusable content
+|===
 
 Link: https://code.asam.net/
 --
