@@ -24,7 +24,7 @@ X is an integer number starting with 2.
 
 // tag::table[]
 .Summary
-[cols="1h,1"]
+[cols="1h,3"]
 |===
 |Purpose
 a|
