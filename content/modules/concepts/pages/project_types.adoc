@@ -24,9 +24,9 @@ image::project_types_overview.drawio.svg[title="ASAM project types overview", wi
 A new project can be triggered by either a new idea, a previous Concept Paper, or a previously released Standard.
 The intended output of each project type is a document.
 
-* For a Concept project, the output is a Concept Paper (which can be the basis for a follow-up project)
-* For a Standard Development project, the output is the standard + optional supplemental documents
-* For a Study project, the output is a Study Report that details the findings of the project.
+* For a **Concept project**, the output is a Concept Paper (which can be the basis for a follow-up project)
+* For a **Standard Development project**, the output is the standard + optional supplemental documents
+* For a **Study project**, the output is a Study Report that details the findings of the project.
 
 Note that a new concept project is usually not triggered by a previous one.
 
