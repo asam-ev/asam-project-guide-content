@@ -26,6 +26,10 @@
 :git-url: https://git-scm.com/download/win
 :filestage-url: https://filestage.io/de/
 
+:remote-icon: image:tooling:remote.svg[alt="Remote Repository Icon", width={icon-width-large},role=right]
+:remote-icon-norole: image:tooling:remote.svg[alt="Remote Repository Icon", width={icon-width-small}]
+:github-icon: {github-url}[image:tooling:github-icon.png[alt="GitHub Icon", width={icon-width-large},role=right] ,window=_blank]
+:github-icon-norole: {github-url}[image:tooling:github-icon.png[alt="GitHub Icon",width={icon-width-small}] ,window=_blank]
 :gitlab-icon: {gitlab-url}[image:tooling:gitlab-icon.png[alt="GitLab Icon", width={icon-width-large},role=right] ,window=_blank]
 :gitlab-icon-norole: {gitlab-url}[image:tooling:gitlab-icon.png[alt="GitLab Icon", width=40] ,window=_blank]
 :calendar-icon: {calendar-url}[image:{calendar-image}[alt="OpenX Calendar Icon",width={icon-width-large},role=right] ,window=_blank]

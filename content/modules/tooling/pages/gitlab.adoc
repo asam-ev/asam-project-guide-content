@@ -1,23 +1,48 @@
-= GitLab
-:description: A summary page describing what GitLab is and where to find related information, guides etc.
-:keywords: gitlab,summary,tool,mandatory,READYFORREVIEW
+= Remote Repository Platforms
+:description: A summary page describing what online repository platforms are, which are supported by ASAM, and where to find related information, guides etc.
+:keywords: gitlab, github,summary,tool,mandatory
 
 include::partial$_attributes.adoc[]
 include::{abb}[]
 
-{gitlab-icon}
+{remote-icon}
 
-GitLab is a web-based DevOps lifecycle tool that provides a xref:git.adoc[] repository manager.
-It can host wikis, has issue-tracking and continuous integration and deployment pipeline features, using an open-source license.
+A remote repository platform is a web-based DevOps lifecycle tool that provides a xref:git.adoc[] repository manager.
+It can host wikis, has issue-tracking, continuous integration, and deployment pipeline features, using an open-source license.
 
 == GitLab At ASAM
+[tabs]
+====
+GitLab::
++
+--
+{gitlab-icon-norole}
+
 ASAM uses {gitlab-url}[GitLab] for multiple aspects of its standardization process:
 
 * Document control during standard development
 * Commenting and tracking of feedback
 * Automation of document creation and publication steps
 * Milestone tracking
-* Synchronizing assets, styleguides, scripts and reusable content
+* Synchronizing assets, style guides, scripts, and reusable content
+
+Link: https://code.asam.net/
+--
+GitHub::
++
+--
+{github-icon-norole}
+ASAM uses {gitlab-url}[GitLab] for multiple aspects of its standardization process:
+
+* Document control during standard development
+* Commenting and tracking of feedback
+* Automation of document creation and publication steps
+* Milestone tracking
+* Synchronizing assets, style guides, scripts, and reusable content
+
+Link: https://github.com/asam-ev
+--
+====
 
 == Content
 
