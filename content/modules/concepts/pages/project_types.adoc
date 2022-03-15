@@ -1,4 +1,4 @@
-= ASAM Project Types
+= Project Types
 :description: Describes the different project types at ASAM for new members and interested parties.
 :keywords: projects, type, asam, concept
 
@@ -44,8 +44,6 @@ include::compendium:partial$project_types/project-type-concept.adoc[tag=short]
 
 
 == Standard Development
-include::compendium:partial$project_types/project-type-standard.adoc[tag=short]
-
 [tabs]
 ====
 New Standard::
@@ -70,6 +68,9 @@ include::compendium:partial$project_types/project-type-minor.adoc[tag=table]
 include::compendium:partial$project_types/project-type-minor.adoc[tag=short]
 --
 ====
+
+include::compendium:partial$project_types/project-type-standard.adoc[tag=short]
+
 
 
 == Study
