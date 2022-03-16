@@ -63,7 +63,7 @@ a|To participate in a Standard Development project, you must first enroll for th
 Project commitment has to be announced in the Proposal Phase and is specified explicitly in the xref:proposal/proposal_document.adoc#_commitments[Proposal Document]. +
 Click the icon to learn about how to join a project and take over specific roles.
 
-h|xref:development_phase.adoc[image:compendium:asam/project_lifecycle-standard.svg[]] +
+h|xref:development_phase.adoc[image:compendium:asam/project_lifecycle-development.svg[]] +
 xref:development_phase.adoc[Development]
 a|If a proposal is accepted, the project enters the development phase.
 This is where the content and specifications of a standard and its (optional) supplemental documents are created, refined, and discussed. +
