@@ -2,9 +2,7 @@
 //tag::short[]
 include::compendium:partial$_attributes.adoc[]
 
-The __Simulation__ domain at __{asam}__ uses a repository-based standardization approach built around {gitlab-url}[GitLab^]. +
-Proposals, concept papers and standards are written as AsciiDoc files.
-All project content is stored, organized, versioned and discussed through a repository on {gitlab-url}[GitLab^], which is provided by ASAM.
-The GitLab pipeline creates the required final documents, typically as `.html` or as `.pdf`.
+The __Simulation__ domain at ASAM uses the xref:concepts:doc-as-code.adoc[] concept for its projects. +
+All documents are written as AsciiDoc files.
 
 //end::short[]
