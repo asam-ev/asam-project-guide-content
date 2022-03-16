@@ -104,7 +104,7 @@ Using online collabartion platforms with repository support provide multiple ben
 * They enable central automation steps through xref:pipeline_details.adoc[CI/CD pipelines], for example automated writing rules checks on a document after it was updated
 * Integrated issue boards for keeping track of tasks, found problems, discussion topics, etc.
 
-image::issue_example.png[title=Example for a topic discussion through the GitLab issue board in a project]
+image::issue_example.drawio.svg[title=Example for a topic discussion through the GitLab issue board in a project]
 
 ASAM currently supports projects on both its internal GitLab instance as well as on the public GitHub.
 Each project can decide independently which platform it will use.
