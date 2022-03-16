@@ -1,12 +1,14 @@
-= How to contribute to a proposal directly in AsciiDoc files
+= Contributing In AsciiDoc Files
 :description: Describes how one can participate in the creation of a proposal through directly entering content in the appropriate AsciiDoc files.
 :keywords: proposal, asciidoc, READYFORREVIEW
+:numbered:
 
 include::compendium:partial$_attributes.adoc[]
 
 //tag::roles[]
 {role-wg-member}
 {role-project-lead}
+{role-technical-writer}
 //end::roles[]
 
 The most direct way of contributing to a project is by creating and editing the AsciiDoc files.
@@ -33,3 +35,70 @@ Users **must** follow these guidelines:
 * xref:compendium:writing_guidelines/asciidoc_guide.adoc[]
 * xref:compendium:writing_guidelines/writing_guide.adoc[]
 * xref:compendium:writing_guidelines/editorial_guide.adoc[]
+
+
+
+//tag::body[]
+== Working In Branches
+{mandatory}
+
+ASAM's xref:concepts:doc-as-code.adoc[] concept requires trunk-based development for all projects.
+This implies that all content changes shall be added through branches.
+
+Content changes must not be added directly on the trunk.
+
+**Exception**: A hotfix for a typo or incorrectly working markup instruction may be added directly on the master branch.
+Note that this requires elevated rights in the project's repository.
+
+
+=== One Branch Per Issue
+{mandatory}
+
+Each issue shall have zero or one branch created from it.
+
+Issues without content changes may have no branch. +
+Issues that require content changes shall have exactly one branch.
+
+=== Branches For Sub-issues
+{mandatory}
+
+If an issue has sub-issues, each sub-issue shall have its own branch. +
+A sub-issue's branch shall branch off the parent issue's branch, not the trunk.
+
+
+=== Creating Branches
+{recommended}
+
+ASAM recommends to create branches xref:compendium:tools/gitlab/create_branch_from_issue.adoc[directly from the issue] to ensure the xref:compendium:tools/gitlab/branch_naming_conventions.adoc[**naming schema for branches**] is applied and the branch is linked to the issue.
+
+TIP: Adding "DRAFT: " in front of a Merge Request's name marks it as not ready for merge and disables the "Merge" button.
+This way, the Merge Request (and its branch) are already accessible through the parent issue but cannot be completed by accident.
+
+
+=== Naming Branches
+{mandatory}
+
+Each branch shall follow the xref:compendium:tools/gitlab/branch_naming_conventions.adoc[**naming schema for branches**].
+
+
+=== Merging Issue Branches
+{mandatory}
+
+A Merge Request (or Pull Request) shall be created once all work on the issue has been done.
+If a Merge Request already exists and is currently in DRAFT state, it shall be marked as "ready".
+
+
+=== Merging Sub-issue Branches
+{mandatory}
+
+Branches for sub-issues shall merge back into the parent issue's branch, not the trunk.
+
+
+== Writing AsciiDoc Files
+{mandatory}
+
+When writing AsciiDoc files, the writers shall follow the **xref:compendium:writing_guidelines/editorial_guide.adoc[]**.
+
+For a general AsciiDoc guide, see **xref:compendium:writing_guidelines/asciidoc_guide.adoc[]** in this Project Guide. +
+Asciidoctor itself also provides a general https://asciidoctor.org/docs/asciidoc-writers-guide/[**AsciiDoc Writer's Guide**^] with an introduction to AsciiDoc. +
+Finally, the official https://docs.asciidoctor.org/asciidoc/latest/syntax-quick-reference/[**AsciiDoc Syntax Quick Reference**^] is a great resource for looking up AsciiDoc commands and examples.

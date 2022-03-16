@@ -1,6 +1,7 @@
-= How to contribute to a proposal through GitLab issues
-:description: Describes how one can participate in the creation of a proposal through GitLab issues.
+= Contributing Through Issues
+:description: Describes how to contribute through issues.
 :keywords: proposal, gitlab, issue, TODO
+:numbered:
 
 include::compendium:partial$_attributes.adoc[]
 
@@ -10,6 +11,96 @@ include::compendium:partial$_attributes.adoc[]
 //end::roles[]
 
 
-NOTE: Still TODO! Currently not fully supported yet.
+TIP: If you want to contribute more directly, see xref:compendium:ASAM/doc-as-code/contribute_in_asciidoc.adoc[].
 
-If you want to contribute more directly, you can easily transition through the approach of xref:compendium:tools/gitlab/create_branch_from_issue.adoc[creating development branches from issues].
+//tag::body[]
+
+== Make Discussions Accessible
+{mandatory}
+
+It must be possible for every project member to contribute to and give feedback on the content of a Proposal document directly.
+For this purpose, all content discussions shall happen through issues in a project's issue board.
+
+
+== Gather Topics In Issues
+{mandatory}
+
+//end::body[]
+PROPOSAL::
+//tag::proposal[]
+Participants shall gather content for sections in issues in the proposal repository and discuss them there.
+
+If the Proposal is for an update of an existing ASAM standard, consider collecting and using backlog issues from the previous project first.
+//end::proposal[]
+
+DEVELOPMENT::
+//tag::development[]
+Every topic shall have its own issue.
+
+=== Sub-issues
+//end::development[]
+**DEVELOPMENT only**
+//tag::development[]
+
+{recommended}
+
+If a topic is too complex for a single issue, sub-issues shall be created.
+
+
+=== Closing Issues And Sub-issues
+//end::development[]
+**DEVELOPMENT only**
+//tag::development[]
+
+{mandatory}
+
+
+An issue with sub-issues shall only be closed if all its sub-issues have been closed. +
+If an issue has a branch, the issue shall not be closed before the branch has been merged or closed.
+
+//end::development[]
+
+//tag::body[]
+
+== Issue Naming
+{mandatory}
+
+//end::body[]
+PROPOSAL::
+//tag::proposal[]
+The name of the issue shall correspond to the respective section.
+
+image::compendium:asam/proposal_issue_example.png[title=Topic issue for a proposal's Executive Summary]
+
+//end::proposal[]
+
+DEVELOPMENT::
+//tag::development[]
+The name of the issue shall follow the xref:compendium:tools/gitlab/branch_naming_conventions.adoc[].
+//end::development[]
+
+//tag::body[]
+
+
+== Use Issue Templates
+{mandatory}
+
+Issues shall be created using the provided issue templates in the repository.
+
+TIP: Each issue template contains a description (as comments) on when to use them and what content to add where.
+
+image::compendium:asam/issue_template_example.png[title=Creating an issue from a template]
+
+
+== Label Issues Correctly
+{mandatory}
+
+Each issue shall be labeled according to the appropriate project labeling schema.
+
+//tag::proposal[]
+For project proposals, all issues related to the proposal shall be labeled `Proposal`.
+
+This helps with separating issues from the proposal phase later when transferring content to the standardization repository.
+//end::proposal[]
+
+//end::body[]

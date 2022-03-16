@@ -17,7 +17,10 @@ h| Steps
 | image:compendium:asam/proposal_phase_v2-proposal_writing.svg[]
 
 h| TL;DR
-a| * TODO
+a| * All participants contribute content through issues
+* Issues are transferred to AsciiDoc files by dedicated writers
+* Before the Proposal Workshop, a complete project and feature description must be present
+* After the workshop, the Proposal is finalized by including the feedback from the Workshop, defining the timeline, adding the list of participants, and calculating the proposed budget.
 
 |===
 
@@ -26,28 +29,48 @@ a| * TODO
 == The Proposal Document
 The Project Proposal is a written document that is submitted to the __{tsc}__ for project approval before any project at ASAM may start. +
 All committed participants (the Idea Giver, the Proposal Submitter, and all prospective Workgroup Members) can participate in writing the proposal document (the Proposal Submitter actually has to participate in the <<Finalizing The Proposal,finalization step>>). +
-See xref:getting-involved:proposal/proposal_document.adoc[] for more information on the document and its intended contents.
+See **xref:getting-involved:proposal/proposal_document.adoc[]** for more information on the document and its intended contents.
 
 
 == How To Contribute
 
 include::compendium:partial$conventions/git-based_workflow.adoc[tag=short]
 
-To contribute to a Project Proposal, project members can either <<Content Definition,contribute through GitLab issues>> or <<How to contribute to a proposal directly in AsciiDoc files,contribute directly in AsciiDoc>>.
+To contribute to a Project Proposal, project members can either <<Contributing Through Issues,contribute through GitLab issues>> or <<Contributing In AsciiDoc,contribute directly in AsciiDoc>>.
 However, at least one person must transfer all content to the AsciiDoc file eventually. +
 Both ways of contribution can be performed xref:tooling:working-without-software-installation.adoc[without software installation] directly through the respective web interface.
-If you prefer to work on your local computer, ASAM recommends using xref:tooling:git.adoc[Git] and xref:tooling:vscode.adoc[Visual Studio Code].
+If you prefer to work on your local computer, see the xref:tooling:main.adoc#_recommended_tools[list of recommended tools].
 
 
-== Proposal Contribution Guidelines
-IMPORTANT: All writers shall follow these guidelines when writing for the Proposal document.
+=== Contributing Through Issues
+{mandatory}
 
-include::compendium:page$ASAM/phase-02_proposal/proposal_guidelines.adoc[leveloffset=+1, tags=body;!roles]
+The content of a Proposal document shall be drafted and discussed through issues in the project's issue board. +
+ASAM provides guidelines on how to contribute through issues on the page **xref:compendium:ASAM/phase-02_proposal/proposal_guidelines.adoc[]**.
+All participants must follow these guidelines.
+
+=== Contributing Directly In AsciiDoc
+{optional}
+
+The project may decide to contribute directly in AsciiDoc as well.
+However, content shall still be discussed and updated in issues as described in <<Contributing Through Issues>>.
+
+When writing AsciiDoc, writers must follow the guidelines described in **xref:compendium:ASAM/doc-as-code/contribute_in_asciidoc.adoc[]** as well as the <<ASAM Editorial Guide>>.
+
+=== Transferring Content To AsciiDoc
+{mandatory}
+
+The content that is defined in the project's issues must be transferred to AsciiDoc eventually.
+ASAM recommends that the project defines one or more writers responsible for this task.
+
+When writing AsciiDoc, writers must follow the guidelines described in **xref:compendium:ASAM/doc-as-code/contribute_in_asciidoc.adoc[]** as well as the <<ASAM Editorial Guide>>.
 
 
-== ASAM Editorial Guide
+=== ASAM Editorial Guide
 ASAM provides an Editorial Guide containing the writing guidelines applicable to all ASAM documents.
-The current version of the Editorial Guide is located in the xref:compendium:writing_guidelines/editorial_guide.adoc[**Project Guide Compendium**].
+The current version of the Editorial Guide is located in the xref:compendium:writing_guidelines/editorial_guide.adoc#_basics[**Project Guide Compendium**].
+
+The Editorial Guide is **mandatory** for all users writing directly in AsciiDoc and **recommended** for users contributing content through issues.
 
 // == Creating The Executive Summary
 
