@@ -5,6 +5,8 @@
 include::partial$_attributes.adoc[]
 include::{abb}[]
 
+{roles-icon}
+
 include::role-specific:partial$roles.adoc[tag=summary]
 
 == Overview

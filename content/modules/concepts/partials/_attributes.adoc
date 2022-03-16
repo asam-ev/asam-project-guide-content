@@ -1,2 +1,20 @@
 // Add attributes and content you want to reuse in multiple pages and artifacts within this module
 // example: :standard-image: https://www.asam.net/[image:https://www.asam.net/typo3conf/ext/asam_cms/Resources/Public/Images/asam-logo.svg[width=120,role=right] ,window=_blank] <-- can be used to display the ASAM logo as image link with  on the right of a page with a width of 120px
+
+:width-large: 160
+:width-small: 100
+
+:project-types-icon: xref:project_types.adoc[image:types_icon.png[width={width-large}], role=right]
+:project-types-icon-norole: xref:project_types.adoc[image:types_icon.png[width={width-small}]]
+
+:project-phases-icon: xref:project_phases.adoc[image:phases_icon.png[width={width-large}], role=right]
+:project-phases-icon-norole: xref:project_phases.adoc[image:phases_icon.png[width={width-small}]]
+
+:roles-icon: xref:roles-overview.adoc[image:roles_icon.svg[width={width-large}], role=right]
+:roles-icon-norole: xref:roles-overview.adoc[image:roles_icon.svg[width={width-small}]]
+
+:diagram-notation-icon: xref:diagram_notations.adoc[image:notation_icon.drawio.svg[width={width-large}], role=right]
+:diagram-notation-icon-norole: xref:diagram_notations.adoc[image:notation_icon.drawio.svg[width={width-small}]]
+
+:doc-as-code-icon: xref:doc-as-code.adoc[image:doc-as-code-icon.png[width={width-large}], role=right]
+:doc-as-code-icon-norole: xref:doc-as-code.adoc[image:doc-as-code-icon.png[width={width-small}]]

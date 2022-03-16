@@ -7,6 +7,7 @@ include::{abb}[]
 
 WARNING: This section needs approval by {tsc}.
 
+{project-types-icon}
 
 == Overview
 __{asam}__ developes its products and results in projects.

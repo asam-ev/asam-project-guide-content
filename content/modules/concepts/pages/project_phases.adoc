@@ -5,6 +5,9 @@
 include::partial$_attributes.adoc[]
 include::{abb}[]
 
+{project-phases-icon}
+
+== Introduction
 
 Besides xref:project_types.adoc[different types of projects], there are seven main project phases that ASAM defines.
 Not all projects must necessarily pass through all these phases.

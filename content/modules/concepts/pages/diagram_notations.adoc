@@ -5,6 +5,8 @@
 include::partial$_attributes.adoc[]
 include::{abb}[]
 
+{diagram-notation-icon}
+
 == Introduction
 This Project Guide uses a variation of https://www.omg.org/spec/BPMN/2.0/[BPMN 2.0^] diagrams to describe the ASAM Project Phases.
 The diagrams contain information on
