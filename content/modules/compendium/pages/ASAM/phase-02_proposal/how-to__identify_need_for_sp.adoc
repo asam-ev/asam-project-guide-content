@@ -30,7 +30,7 @@ a| * TODO
 |===
 
 NOTE: This page covers identifying the need for service providers in a project. +
-If you are looking for how a service provider is selected, see xref:engage_service_provider.adoc[]. +
+If you are looking for how a service provider is selected, see xref:getting-involved:development/engage_service_provider.adoc[]. +
 If you are a service provider looking for information on your role, refer to the xref:role-specific:service-provider.adoc[Service Provider role description].
 
 == Context

@@ -171,7 +171,7 @@ a| The ASAM moderator starts the following information and estimates with the gr
 
 * the minimum required commitment in days
 * the duration of the project in months
-* the xref:concepts:project_    types.adoc[project type]
+* the xref:concepts:project_types.adoc[project type]
 |===
 
 //end::agenda_example[]

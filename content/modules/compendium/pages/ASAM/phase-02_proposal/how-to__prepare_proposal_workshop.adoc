@@ -24,17 +24,17 @@ h| Step
 
 h|TL;DR
 a| * Use the xref:compendium:ASAM/phase-02_proposal/proposal_workshop_gameplan.adoc[**Proposal Workshop Gameplan**]
-* Schedule the meeting >4 weeks ahead of time
+* Schedule the meeting >=4 weeks ahead of time
 * Add event to website
 * Reserve room/online meeting
 |===
 
 NOTE: This page covers how to set up a proposal workshop.
-If you are interested in joining a listed workshop, check out xref:getting-involved:proposal/04_join_proposal_workshop.adoc[] instead.
+If you are interested in joining a listed workshop, check out xref:getting-involved:proposal/join_proposal_workshop.adoc[] instead.
 
 == Context
 
-The first major event in the xref:getting-involved:proposal_phase.adoc#_the_proposal_phase[Proposal phase] is the Proposal Workshop.
+The first major event in the xref:getting-involved:proposal_phase.adoc#_process_overview[Proposal phase] is the Proposal Workshop.
 Here, the project idea is presented to a broader audience for the first time and discussed.
 
 The Idea Giver needs to prepare the event for it to be efficient and effective.

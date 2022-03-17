@@ -31,7 +31,7 @@ a| * Sign up through the https://www.asam.net/conferences-events/upcoming-events
 Current Proposal Workshops:: https://www.asam.net/conferences-events/upcoming-events/[ASAM website^]
 
 NOTE: This page covers how to join a proposal workshop.
-If you are the Idea Giver and looking for how to prepare a workshop, check out xref:getting-involved:proposal/03_proposal_workshop_preparation.adoc[] instead.
+If you are the Idea Giver and looking for how to prepare a workshop, check out xref:getting-involved:proposal/proposal_workshop_preparation.adoc[] instead.
 
 == Context
 You are interested in an upcoming project?
