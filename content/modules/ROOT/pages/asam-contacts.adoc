@@ -1,6 +1,6 @@
 = Contacts
 :description: Links to the current contact page for ASAM Office members.
-:keywords: contacts, asam, new-here-content, about, REVIEWED_OK
+:keywords: imprint
 :asam_contacts: https://www.asam.net/about-asam/asam-in-person/
 
 include::partial$_attributes.adoc[]

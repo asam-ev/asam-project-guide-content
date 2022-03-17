@@ -1,6 +1,6 @@
 = Abbreviations
 :description: A collection of abbreviations used throughout the ASAM Project Guide.
-:keywords: abbr, abbreviation, REVIEWED_OK
+:keywords: REVIEWED_OK
 :is_abbreviations:
 
 The Project Guide contains a number of abbreviations.

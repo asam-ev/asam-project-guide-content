@@ -1,6 +1,6 @@
 = Credits
 :description: Contains credits for used icons and images
-:keywords: credits
+:keywords: imprint
 
 
 [cols="1,4"]
