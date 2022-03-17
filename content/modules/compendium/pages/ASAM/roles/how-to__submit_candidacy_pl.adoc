@@ -20,10 +20,10 @@ h| Phase
 endif::[]
 
 h| Step
-| TODO
+| Any time during the proposal phase
 
 h|TL;DR
-a| * TODO
+a| * Send an email to your {gtm} containing your candidacy for project lead
 
 |===
 
@@ -33,8 +33,8 @@ If you want to learn more about the role of the Project Lead and its requirement
 
 == Context
 Every project at ASAM needs a Project Lead.
-Consequently, a project may only move from Proposal phase to Standard Development phase if a Project Lead has been elected/designated. +
-In most cases, the Idea Giver is the one elected Project Lead, but this is not a requirement.
+Consequently, a project may only move from Proposal phase to Standard Development phase if at least one project member has declared their candidacy for Project Lead. +
+In most projects, the Idea Giver candidates for Project Lead, but this is not a requirement.
 
 
 include::role-specific:partial$role_responsibilities.adoc[tag=project-lead]
@@ -45,14 +45,15 @@ You have submitted your candidacy for the role of Project Lead.
 
 == Prerequisites
 * You must be a project member
+* You accept the xref:role-specific:project-lead.adoc[**responsibilities and expectations**] for this role
 
 
 == How
-TODO
+* Send an email to your GTM with your candidacy for the role of Project Lead
 
 
 == What Happens Next
-The Project Lead is officially decided at the beginning of the project, if the Proposal has been approved by the TSC.
+The Project Lead is officially decided at the beginning of the project, if the Proposal has been approved by the TSC. +
 If there is more than one candidate, the project will then decide on the Project Lead.
 Otherwise, the single candidate is just confirmed formally by the project.
 
