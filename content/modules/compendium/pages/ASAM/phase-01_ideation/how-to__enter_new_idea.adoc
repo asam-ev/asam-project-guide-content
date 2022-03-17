@@ -23,7 +23,9 @@ h| Step
 | image:compendium:asam/ideation_phase-ideation_propose.svg[]
 
 h| TL;DR
-a| * TODO
+a| * Send idea to ideation@asam.net
+* Wait for response from ASAM
+* Create concept together with ASAM Office
 |===
 
 == Context
