@@ -15,8 +15,8 @@ Different result types require different approaches and conditions.
 For this reason, ASAM defines three project types, which further characterize the work to be done within the projects. +
 They are:
 
-* <<Standard Development>>
 * <<Concept>>
+* <<Standard Development>>
 * <<Study>>
 
 
