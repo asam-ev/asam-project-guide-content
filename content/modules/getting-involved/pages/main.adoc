@@ -70,6 +70,13 @@ This is where the content and specifications of a standard and its (optional) su
 Click the icon to learn about how to participate in developing a standard at ASAM.
 Note that you must xref:signing_up.adoc[**sign up**] first in order to join a project.
 
+h|xref:review_phase.adoc[image:compendium:asam/project_lifecycle-review.svg[]] +
+xref:review_phase.adoc[Review]
+a|TODO
+
+h|xref:release_phase.adoc[image:compendium:asam/project_lifecycle-release.svg[]] +
+xref:release_phase.adoc[Release]
+a|TODO
 |===
 
 
