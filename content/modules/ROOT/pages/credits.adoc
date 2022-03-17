@@ -52,11 +52,6 @@ a| image::https://cdn-icons-png.flaticon.com/512/103/103230.png[width=40]
 <a href="https://www.flaticon.com/free-icons/role" title="role icons">Role icons created by Freepik - Flaticon</a>
 +++
 
-a| image::https://cdn-icons-png.flaticon.com/512/1375/1375136.png[width=40]
-|+++
-<a href="https://www.flaticon.com/free-icons/document" title="document icons">Document icons created by Freepik - Flaticon</a>
-+++
-
 a| image::https://cdn-icons-png.flaticon.com/512/1945/1945958.png[width=40]
 |+++
 <a href="https://www.flaticon.com/free-icons/knowledge" title="knowledge icons">Knowledge icons created by Freepik - Flaticon</a>

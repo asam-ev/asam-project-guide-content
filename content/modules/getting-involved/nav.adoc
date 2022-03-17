@@ -19,7 +19,9 @@ include::../ROOT/partials/_attributes.adoc[]
 *** xref:signing_up/become_workgroup_lead.adoc[]
 *** xref:signing_up/further_roles.adoc[]
 ** xref:development_phase.adoc[]
-*** xref:engage_service_provider.adoc[]
+*** xref:development/engage_service_provider.adoc[]
+** xref:review_phase.adoc[]
+** xref:release_phase.adoc[]
 
 
 

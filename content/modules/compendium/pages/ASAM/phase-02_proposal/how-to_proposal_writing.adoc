@@ -1,4 +1,4 @@
-= How-to create a project proposal document
+= How-To: Create A Project Proposal Document
 :description: How-to for creating a new project proposal from an executive draft
 :keywords: proposal, writing
 
@@ -50,7 +50,7 @@ For proposal submission, the proposal document must be converted into the approp
 == Prerequisites
 TODO
 
-* The idea has been proposed and approved in the xref:standardization:project-ideation.adoc[Ideation Phase].
+* The idea has been proposed and approved in the xref:getting-involved:ideation_phase.adoc[Ideation Phase].
 * The proposal needs at least three (3) partner companies.
 
 == How

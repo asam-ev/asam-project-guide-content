@@ -41,15 +41,6 @@
 :role-specific-nav-icon: xref:{role-specific-xref}[]
 // :role-specific-nav-icon: xref:{role-specific-xref}[image:{role-specific-image}[width={width-nav-icon}] ASAM Roles]
 
-//standardization
-:standardization-image: https://cdn-icons-png.flaticon.com/512/1375/1375136.png
-:standardization-xref: standardization:home.adoc
-:standardization-icon: xref:{standardization-xref}[image:{standardization-image}[alt= Standardization, width={width-large}, role=right]]
-:standardization-icon-norole: xref:{standardization-xref}[image:{standardization-image}[alt= Standardization, width={width-small}]]
-:standardization-nav-icon: xref:{standardization-xref}[]
-// :standardization-nav-icon: xref:{standardization-xref}[image:{standardization-image}[width={width-nav-icon}] Standardization]
-
-
 //compendium
 :compendium-image: https://cdn-icons-png.flaticon.com/512/1945/1945958.png
 :compendium-xref: compendium:home.adoc

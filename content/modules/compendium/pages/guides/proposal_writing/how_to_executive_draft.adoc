@@ -1,7 +1,7 @@
 = How-to create an executive proposal draft
 :description: How-to for creating a new project proposal as executive draft
 :keywords: proposal, executive-draft, READYFORREVIEW
-:proposal-workshop: xref:standardization:proposal-phase.adoc#_p1_proposal_workshop[Proposal Workshop]
+:proposal-workshop: xref:getting-involved:proposal_phase.adoc#_p1_proposal_workshop[Proposal Workshop]
 
 include::compendium:partial$_attributes.adoc[]
 
@@ -12,18 +12,18 @@ include::compendium:partial$_attributes.adoc[]
 //end::roles[]
 
 == Context
-To start a new project with a xref:standardization:proposal-phase.adoc[Project Proposal], it first needs a Project Proposal Executive Draft for internal analysis.
+To start a new project with a xref:getting-involved:proposal_phase.adoc[Project Proposal], it first needs a Project Proposal Executive Draft for internal analysis.
 It also is the basis for the xref:compendium:guides/proposal_writing/how_to_proposal_document.adoc[Project Proposal Draft] before the {proposal-workshop}.
 This guide explains how to create such an Executive Draft and what to look out for when doing so.
 
 == Result
-An initial draft for managament and executives, containing a basic executive summary and, optionally, further details.
+An initial draft for management and executives, containing a basic executive summary and, optionally, further details.
 
 NOTE: The final Project Proposal document is generated based on Asciidoc files.
 The Executive Draft described here is currently created as a Word document based on a simple template in order to minimize any entry barrier.
 
 == Prerequisites
-* The idea has been proposed and approved in the xref:standardization:project-ideation.adoc[Ideation Phase].
+* The idea has been proposed and approved in the xref:getting-involved:ideation_phase.adoc[Ideation Phase].
 * The proposal needs at least three (3) partner companies.
 * The xref:compendium:guides/proposal_writing/how_to_setup_git.adoc[project repostiory] has been set up by the __{gtm}__.
 

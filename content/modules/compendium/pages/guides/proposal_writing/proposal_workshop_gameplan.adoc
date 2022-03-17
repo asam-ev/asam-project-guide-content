@@ -34,8 +34,7 @@ h| ASAM office
 == Timeline to an approved project proposal
 
 image::compendium:proposal_workshop_timeline.drawio.svg[]
-// Disucssion: Should this image be moved to the standardization module instead?
-// Or is this actually better suited for the Compendium?
+
 
 == Hosting a proposal workshop
 
@@ -158,5 +157,5 @@ a| The ASAM moderator starts the following information and estimates with the gr
 
 * the minimum required commitment in days
 * the duration of the project in months
-* the xref:standardization:project-types.adoc[project type]
+* the xref:concepts:project_types.adoc[project type]
 |===

@@ -8,7 +8,7 @@ include::compendium:partial$_attributes.adoc[]
 {role-gtm}
 //end::roles[]
 
-TIP: For information on the proposal phase, see xref:standardization:proposal-phase.adoc[].
+TIP: For information on the proposal phase, see xref:getting-involved:proposal_phase.adoc[].
 
 TODO: Add image with highlighted step here.
 
@@ -20,7 +20,7 @@ In order for project members and the project lead to work on their respective pr
 A new proposal repository has been created and the link been provided to all current project members.
 
 == Prerequisites
-* The idea has been proposed and approved in the xref:standardization:project-ideation.adoc[Ideation Phase].
+* The idea has been proposed and approved in the xref:getting-involved:ideation_phase.adoc[Ideation Phase].
 
 == How
 
