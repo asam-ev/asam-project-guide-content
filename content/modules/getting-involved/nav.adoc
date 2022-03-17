@@ -21,6 +21,8 @@ include::../ROOT/partials/_attributes.adoc[]
 ** xref:development_phase.adoc[]
 *** xref:development/engage_service_provider.adoc[]
 ** xref:review_phase.adoc[]
+*** xref:review/review_standard_asam.adoc[]
+*** xref:review/review_standard_public.adoc[]
 ** xref:release_phase.adoc[]
 
 
