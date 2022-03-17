@@ -21,7 +21,7 @@ Remote repository platform
 Issues relevant to deliverables should be created here.
 |{mandatory}
 |ASAM IT infrastructure
-|xref:tooling:gitlab.adoc[]
+|xref:tooling:remote_repo.adoc[]
 
 |{git-icon-norole} +
 {git-url}[Git^]
@@ -114,7 +114,7 @@ Remote repository platform
 |All source code and standard relevant documentation.
 Issues relevant to deliverables should be created here.
 |ASAM IT infrastructure
-|xref:tooling:gitlab.adoc[]
+|xref:tooling:remote_repo.adoc[]
 
 |{calendar-icon-norole} +
 {calendar-url}[OpenX Calendar^]

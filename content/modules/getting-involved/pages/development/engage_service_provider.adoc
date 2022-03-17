@@ -15,7 +15,7 @@ a| * {role-project-lead}
 * {role-service-provider}
 
 h| Project phase
-| xref:getting-involved:development_phase.adoc#_the_development_phase[image:compendium:asam/project_lifecycle-development.svg[]]
+| xref:getting-involved:development_phase.adoc#_process_overview[image:compendium:asam/project_lifecycle-development.svg[]]
 
 |===
 ====

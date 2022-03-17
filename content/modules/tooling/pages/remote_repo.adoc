@@ -16,34 +16,31 @@ It can host wikis, has issue-tracking, continuous integration, and deployment pi
 GitLab::
 +
 --
-[cols="1,8"]
+[cols="^1,8", frame=none, grid=none]
 |===
-|{gitlab-icon-norole}
-
-a|ASAM uses {gitlab-url}[GitLab] for multiple aspects of its standardization process:
-
+|{gitlab-icon-norole} +
+{gitlab-url}[ASAM GitLab^]
+a|
 * Document control during standard development
 * Commenting and tracking of feedback
 * Automation of document creation and publication steps
 * Milestone tracking
 * Synchronizing assets, style guides, scripts, and reusable content
 |===
-
-Link: https://code.asam.net/
 --
 GitHub::
 +
 --
-{github-icon-norole}
-ASAM uses {gitlab-url}[GitLab] for multiple aspects of its standardization process:
-
-* Document control during standard development
+[cols="^1,8", frame=none, grid=none]
+|===
+|{github-icon-norole} +
+{github-url}[ASAM e.V. on GitHub^]
+a|* Document control during standard development
 * Commenting and tracking of feedback
 * Automation of document creation and publication steps
 * Milestone tracking
 * Synchronizing assets, style guides, scripts, and reusable content
-
-Link: https://github.com/asam-ev
+|===
 --
 ====
 

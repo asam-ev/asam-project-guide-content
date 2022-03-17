@@ -13,7 +13,7 @@ include::{abb}[]
 Git is a free software for tracking changes in a set of files (versioning).
 It is typically used for coordinating collaborative development (programming) of source code or other text-based content.
 
-NOTE: xref:gitlab.adoc[] is the webhosted tool that provides a central hub and storage space (repository) and functions as remote for Git.
+NOTE: xref:remote_repo.adoc[] is the webhosted tool that provides a central hub and storage space (repository) and functions as remote for Git.
 
 == Git at ASAM
 __{asam}__ recommends using Git for working on a repository locally:
@@ -43,4 +43,4 @@ __{asam}__ recommends using Git for working on a repository locally:
 
 related::git,!summary[]
 
-* xref:gitlab.adoc[]
+* xref:remote_repo.adoc[]

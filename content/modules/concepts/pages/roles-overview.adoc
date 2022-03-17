@@ -62,6 +62,8 @@ h|xref:role-specific:tsc.adoc[(7) Technical Steering Committee (TSC)]
 a|Committee at ASAM reviewing a project's state. +
 The TSC is responsible for approving or rejecting budgets, projects and proposals as well as releases of project results, such as standards or concept papers.
 
+|===
+
 == Further Information
 
 For a complete overview over roles at ASAM, see xref:role-specific:main.adoc[].

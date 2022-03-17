@@ -13,7 +13,7 @@ a| * {role-project-lead}
 * {role-wg-member}
 * {role-wg-lead}
 * {role-gtm}
-* {role-tsc}
+* {role-tsc-member}
 
 h| Project phase
 | image:compendium:asam/project_lifecycle-release.svg[]
@@ -25,7 +25,7 @@ h| Project phase
 
 TODO
 // [horizontal]
-// xref:proposal/03_proposal_workshop_preparation.adoc[]:: Start here to learn how you prepare a Proposal Workshop.
+// xref:proposal/proposal_workshop_preparation.adoc[]:: Start here to learn how you prepare a Proposal Workshop.
 
 
 == Process Overview
@@ -81,7 +81,7 @@ Sources are those digital work products, which can be modified or edited with st
 |To review the deliverables, to clarify open questions, and to come to an individual conclusion about the release-worthiness of the release candidate.
 
 |Responsible
-|{role-tsc}
+|{role-tsc-member}
 
 |Involved
 |{role-gtm}
@@ -101,7 +101,7 @@ The minimum review period for release candidates is four weeks.
 |To approve or reject the release candidate.
 
 |Responsible
-|{role-tsc}
+|{role-tsc-member}
 
 |Involved
 |{role-project-lead},

@@ -6,7 +6,7 @@ include::partial$_attributes.adoc[]
 include::{abb}[]
 
 NOTE: This page describes the expected content of the Project Proposal document.
-Click xref:proposal/02_contributing.adoc[**here**] to learn more about how you can contribute to it directly.
+Click xref:proposal/proposal_writing.adoc[**here**] to learn more about how you can contribute to it directly.
 
 
 The Project Proposal is an https://asciidoctor.org/docs/asciidoc-writers-guide/[AsciiDoc document^] laying out the proposed project for a new standard / version of a released standard. +
@@ -74,4 +74,4 @@ Similarly, a standard with (nearly) identical content as another standard is obs
 TODO
 
 == Project Type
-The proposal must specify the xref:concepts:project-types.adoc[type of project] it wants to start.
+The proposal must specify the xref:concepts:project_types.adoc[type of project] it wants to start.

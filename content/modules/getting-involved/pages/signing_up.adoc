@@ -14,7 +14,7 @@ include::partial$asam_membership.adoc[]
 
 
 == When To Sign Up
-Typically, signing up for a project happens during the xref:proposal_phase.adoc#_the_proposal_phase[Proposal Phase] of a project.
+Typically, signing up for a project happens during the xref:proposal_phase.adoc#_process_overview[Proposal Phase] of a project.
 However, there are some exceptions:
 
 == How To Sign Up

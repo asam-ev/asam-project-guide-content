@@ -1,7 +1,7 @@
 include::../ROOT/partials/_attributes.adoc[]
 * {tools-nav-icon}
 ** xref:working-without-software-installation.adoc[]
-** xref:gitlab.adoc[]
+** xref:remote_repo.adoc[]
 *** xref:gitlab/gitlab-setup.adoc[]
 *** xref:gitlab/gitlab-guides.adoc[]
 ** xref:calendar.adoc[]
