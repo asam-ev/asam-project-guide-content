@@ -1,4 +1,4 @@
-How-To: Become Working Group Lead
+= How-To: Become Working Group Lead
 :description: Describes the steps to becoming the project lead of a project after having handed in the candidacy.
 :keywords: wg-lead
 

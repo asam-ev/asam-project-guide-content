@@ -32,4 +32,4 @@ The following table summarizes the main points from this page.
 |===
 
 
-include::compendium:page$guides/proposal_writing/how_to_enrollment_list.adoc[leveloffset=+2]
+include::compendium:page$guides/proposal_writing/how-to__enrollment_list.adoc[leveloffset=+2]

@@ -120,7 +120,7 @@ See xref:proposal/02_contributing.adoc[].
 Interested parties can start to enroll for the proposed project in parallel to the other Proposal Phase activities. +
 See xref:signing_up.adoc[] for available options during this process and more detail information on it.
 
-For more information on the enrollment list, see xref:compendium:ASAM/guides/how_to_enrollment_list.adoc[].
+For more information on the enrollment list, see xref:compendium:ASAM/guides/how-to__enrollment_list.adoc[].
 
 
 === Proposal Workshop

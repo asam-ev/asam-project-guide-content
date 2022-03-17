@@ -74,12 +74,12 @@ The Editorial Guide is **mandatory** for all users writing directly in AsciiDoc 
 
 // == Creating The Executive Summary
 
-// include::compendium:page$ASAM/phase-02_proposal/how_to_executive_draft.adoc[leveloffset=+1, tags=body]
+// include::compendium:page$ASAM/phase-02_proposal/how-to__executive_draft.adoc[leveloffset=+1, tags=body]
 
 
 == Writing The Proposal Draft
 
-include::compendium:page$ASAM/phase-02_proposal/how-to_proposal_writing.adoc[leveloffset=+1, tags=body]
+include::compendium:page$ASAM/phase-02_proposal/how-to__proposal_writing.adoc[leveloffset=+1, tags=body]
 
 
 == Finalizing The Proposal

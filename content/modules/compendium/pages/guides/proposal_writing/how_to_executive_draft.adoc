@@ -13,7 +13,7 @@ include::compendium:partial$_attributes.adoc[]
 
 == Context
 To start a new project with a xref:getting-involved:proposal_phase.adoc[Project Proposal], it first needs a Project Proposal Executive Draft for internal analysis.
-It also is the basis for the xref:compendium:guides/proposal_writing/how_to_proposal_document.adoc[Project Proposal Draft] before the {proposal-workshop}.
+It also is the basis for the xref:compendium:ASAM/phase-02_proposal/how_to_proposal_document.adoc[Project Proposal Draft] before the {proposal-workshop}.
 This guide explains how to create such an Executive Draft and what to look out for when doing so.
 
 == Result

@@ -8,7 +8,7 @@ include::compendium:partial$_attributes.adoc[]
 // If you use a recurring image for similar artifacts, declare it as attribute in partials/_attributes.adoc and reference here.
 
 == Context
-In case a new project is proposed, the first step is to create an xref:compendium:guides/proposal_writing/how_to_executive_draft.adoc[Executive Draft] for internal analysis.
+In case a new project is proposed, the first step is to create an xref:compendium:ASAM/phase-02_proposal/how-to__executive_draft.adoc[Executive Draft] for internal analysis.
 Based on this draft, a rough Proposal Draft is then created that contains further details needed for the {proposal-workshop}.
 This Proposal Draft is then further expanded and detailed until it is ready for submission to the __{tsc}__.
 

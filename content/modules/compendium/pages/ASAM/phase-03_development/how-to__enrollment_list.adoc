@@ -1,4 +1,4 @@
-= How-To Add The Enrollment List
+= How-To: Add The Enrollment List
 :description: How-to for adding and including the enrollment list in a project proposal.
 :keywords: proposal, enrollment, TODO
 

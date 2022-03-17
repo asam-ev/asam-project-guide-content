@@ -5,4 +5,4 @@
 include::partial$_attributes.adoc[]
 include::{abb}[]
 
-include::compendium:page$ASAM/phase-02_proposal/how_to_setup_proposal_git.adoc[tag=body]
+include::compendium:page$ASAM/phase-02_proposal/how-to__setup_proposal_git.adoc[tag=body]
