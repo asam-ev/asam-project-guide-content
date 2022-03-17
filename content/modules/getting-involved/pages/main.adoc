@@ -41,7 +41,7 @@ The following table contains links to the content of this part.
 An entry in the table corresponds to either a phase of the project lifecycle or a transcendent topic applicable to multiple phases.
 Click the respective link to learn more about each topic.
 
-[cols="^1,5", frame=none, grid=rows]
+[cols="^1,5", frame=none, grid=rows, stripes=hover]
 |===
 |Phase|Description
 

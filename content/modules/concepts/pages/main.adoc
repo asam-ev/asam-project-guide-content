@@ -13,7 +13,7 @@ include::partial$module-description.adoc[]
 
 == Content
 
-[cols="^1,5", frame=none, grid=rows]
+[cols="^1,5", frame=none, grid=rows, stripes=hover]
 |===
 |Concept|Description
 

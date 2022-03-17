@@ -25,9 +25,9 @@ h| Project phase
 == Getting Started Immediately
 
 [horizontal]
-xref:proposal/03_proposal_workshop_preparation.adoc[]:: Start here to learn how you prepare a Proposal Workshop.
-xref:proposal/04_join_proposal_workshop.adoc[]:: Start here to learn how to join a scheduled Proposal Workshop.
-xref:proposal/02_contributing.adoc[]:: Start here to learn how to contribute as a participant of a project Proposal.
+xref:proposal/proposal_workshop_preparation.adoc[]:: Start here to learn how you prepare a Proposal Workshop.
+xref:proposal/join_proposal_workshop.adoc[]:: Start here to learn how to join a scheduled Proposal Workshop.
+xref:proposal/proposal_writing.adoc[]:: Start here to learn how to contribute as a participant of a project Proposal.
 xref:proposal/submit_candidacy.adoc[]:: Start here to learn how you can submit a candidacy for Project Lead.
 xref:proposal/submit_proposal.adoc[]:: Start here to learn what to do in order to submit a project Proposal for review by the __{tsc}__.
 
@@ -85,7 +85,7 @@ The Proposal phase consists of the following steps, which are explained in detai
 |===
 
 At the beginning of the Proposal phase, ASAM sets up the repository where the proposal content is kept and discussed. +
-See xref:proposal/01_setup.adoc[].
+See xref:proposal/setup.adoc[].
 
 === Draft Creation
 [cols="1h,20"]
@@ -102,7 +102,7 @@ See xref:proposal/01_setup.adoc[].
 
 Before the proposal is first presented to interested parties in the Proposal Workshop, an initial draft must be created that can be discussed properly.
 
-See xref:proposal/02_contributing.adoc[].
+See xref:proposal/proposal_writing.adoc[].
 
 === Enrollment Process
 [cols="1h,20"]
@@ -120,7 +120,7 @@ See xref:proposal/02_contributing.adoc[].
 Interested parties can start to enroll for the proposed project in parallel to the other Proposal Phase activities. +
 See xref:signing_up.adoc[] for available options during this process and more detail information on it.
 
-For more information on the enrollment list, see xref:compendium:ASAM/guides/how-to__enrollment_list.adoc[].
+For more information on the enrollment list, see xref:compendium:ASAM/phase-02_proposal/how-to__enrollment_list.adoc[].
 
 
 === Proposal Workshop
