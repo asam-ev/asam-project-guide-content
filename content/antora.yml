@@ -12,3 +12,7 @@ nav:
 - modules/tooling/nav.adoc
 - modules/compendium/nav.adoc
 - modules/project-guide/nav.adoc
+asciidoc:
+  attributes:
+    gitlab-url: https://code.asam.net
+    github-url: https://github.com/asam-ev
