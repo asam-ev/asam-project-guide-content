@@ -25,23 +25,75 @@ h| Project phase
 xref:ideation/enter_new_idea.adoc[]:: Start here to learn how you can enter an idea at ASAM.
 xref:ideation/developing_an_idea.adoc[]:: Start here if you want to further develop an idea you previously entered.
 xref:ideation/raising_interest.adoc[]:: Start here for tips and tricks on finding enough project participants.
+xref:signing_up/enroll_for_ideation.adoc[]:: Start here to learn how to sign up for updates of a published idea
 
 == Process Overview
-
-[horizontal]
-Info page:: https://www.asam.net/active-projects/ideation/how-it-works/[window=_blank]
-
-The convergence of the automotive markets with new trends in digitalization, autonomous driving, alternative propulsion, and vehicle as a service as enabled by new IT business models provides many new technical concepts that can be standardized in ASAM.
-
-Standardization requires three components:
-
-* A technical concept
-* A market need for the standard
-* Passionate, technical experts who convene at regular intervals to define the requirements and the implementation
-
-To make sure that these requirements are met, ASAM has launched this https://www.asam.net/active-projects/ideation/how-it-works/[ideation platform^]. +
-Technical experts from all over the globe can post concepts and ideas, receive feedback, and drive new standardization topics.
+New projects do not start themselves.
+They get initiated by someone entering an idea for a new project. +
+The Ideation phase specifies the process of how an idea for a new topic can be entered and is then analyzed at ASAM.
+For more information, see the https://www.asam.net/active-projects/ideation/how-it-works/[**info page**^] on the ASAM website.
 
 image::compendium:asam/ideation_phase-ideation_phase.svg[title="The ideation phase in detail"]
 
+== Ideation Phase Steps
+The Ideation phase consists of the following steps, which are explained in detail in their own sections:
 
+* <<Entering An Idea>>
+* OPTIONAL: <<Proposal Workshop>>
+* <<Gathering Participants>>
+
+=== Entering An Idea
+[cols="1h,20"]
+|===
+|Purpose
+|To trigger the ideation process.
+
+|Responsible
+|{role-standard-user} -> {role-idea-giver}
+|===
+
+The ideation phase starts with the person with the idea (the Idea Giver) or their ASAM sponsor sending in the idea. +
+See xref:ideation/enter_new_idea.adoc[].
+
+=== Ideation Workshop
+[cols="1h,20"]
+|===
+|Purpose
+a|* To discuss the idea, detail it further, and decide whether to proceed to the Proposal phase.
+* OPTIONAL: To determine the initial Proposal participants (must be or become "active" ASAM member)
+
+|Responsible
+|{role-gtm}, in collaboration with initiating member(s) ({role-idea-giver}).
+
+|Involved
+|{role-member} and {role-standard-user}, particularly technical domain experts, internal end-user support experts, product managers, development managers
+|===
+
+The Office is responsible for the preparation and carrying out of the Ideation Workshop.
+This is done in close cooperation with the member(s), who initiated the process and are the major drivers of the idea.
+
+Ideation Workshops are open to all ASAM members.
+Non-members can participate upon invitation by the Office. +
+By default, the Office moderates the workshop.
+This task can be passed to a member, if appropriate.
+
+If there is significant interest in the proposed project in different regions (primarily in North America, Europe, East Asia), then the Office organizes meetings in a way that equally allows all members from those regions to influence the results of the Ideation Workshop.
+
+
+=== Gathering Participants
+[cols="1h,20"]
+|===
+|Purpose
+|To meet the requirements for transitioning to the Proposal phase.
+
+|Responsible
+|{role-idea-giver}
+
+|Involved
+|{role-gtm}, {role-standard-user}
+|===
+
+The Idea Giver finds enough participants and at least one writer for the Proposal phase and communicates the list to the ASAM Office.
+
+
+related::ideation[]

@@ -17,7 +17,8 @@ h| Step
 
 h| TL;DR
 a| * Use your network
-* GTM can support with ASAM network, if required
+* {gtm} can support with ASAM network, if required
+* Provide the list of participants to the GTM
 |===
 
 There are two types of project ideas: those for completely new standards and those for updates and new features for existing ones. +
@@ -43,5 +44,6 @@ include::partial$minimum_required_participants_proposal.adoc[]
 
 
 == What Happens Next?
-Once all <<Requirements For Transitioning To Proposal Phase,requirements>> have been met, the project transitions to the xref:getting-involved:proposal_phase.adoc[proposal phase].
+Once all <<Requirements For Transitioning To Proposal Phase,requirements>> have been met, the Idea Giver communicates the list of participants to the GTM.
+The project then transitions to the xref:getting-involved:proposal_phase.adoc[proposal phase]. +
 The final goal is to transfer the idea into the regular xref:development_phase.adoc[Standard Development Process].
