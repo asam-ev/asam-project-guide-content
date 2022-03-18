@@ -9,7 +9,7 @@
 include::partial$_attributes.adoc[]
 include::{abb}[]
 
-{calendar-icon}
+{calendar-icon-page}
 
 
 

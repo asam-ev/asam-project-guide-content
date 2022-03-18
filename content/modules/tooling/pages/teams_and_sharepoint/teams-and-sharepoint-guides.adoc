@@ -6,8 +6,8 @@
 include::partial$_attributes.adoc[]
 include::{abb}[]
 
-{sharepoint-icon}
-{teams-icon}
+{sharepoint-icon-page}
+{teams-icon-page}
 
 This page contains guides and best-practices for <<Microsoft Teams>> and <<Sharepoint>>.
 

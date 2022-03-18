@@ -10,7 +10,7 @@
 include::partial$_attributes.adoc[]
 include::{abb}[]
 
-{vscode-icon}
+{vscode-icon-page}
 
 Visual Studio Code is a powerful code and text editor that can be highly individualized and adapted to the task at hand using the existing extensions for it.
 Here, you get an overview over how Visual Studio Code is structured.

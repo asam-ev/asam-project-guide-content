@@ -5,6 +5,8 @@
 include::partial$_attributes.adoc[]
 include::{abb}[]
 
+include::tooling:partial$icon_reminder.adoc[tag=online-access]
+
 {drawio-icon}
 
 Draw.io is a free tool for creating diagrams.

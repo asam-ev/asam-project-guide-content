@@ -6,7 +6,7 @@
 include::partial$_attributes.adoc[]
 include::{abb}[]
 
-{git-icon}
+{git-icon-page}
 
 This is a guide for programming with version control.
 

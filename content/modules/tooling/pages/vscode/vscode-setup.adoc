@@ -6,7 +6,7 @@
 include::partial$_attributes.adoc[]
 include::{abb}[]
 
-{vscode-icon}
+{vscode-icon-page}
 
 == Context
 Visual Studio Code is the recommended editor for working on AsciiDoc files and diagrams locally.

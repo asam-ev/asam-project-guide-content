@@ -6,6 +6,6 @@
 include::partial$_attributes.adoc[]
 include::{abb}[]
 
-{calendar-icon}
+{calendar-icon-page}
 
 include::partial$calendar-include-mail.adoc[]

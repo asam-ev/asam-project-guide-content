@@ -5,6 +5,7 @@
 include::partial$_attributes.adoc[]
 include::{abb}[]
 
+TIP: Click the Sharepoint icon on the right to directly access ASAM's sharepoint, or click the Team icon to access the MS Teams download page.
 
 {sharepoint-icon}
 {teams-icon}

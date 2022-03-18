@@ -5,8 +5,8 @@
 include::partial$_attributes.adoc[]
 include::{abb}[]
 
-{sharepoint-icon}
-{teams-icon}
+{sharepoint-icon-page}
+{teams-icon-page}
 
 // If you use a recurring image for similar artifacts, declare it as attribute in partials/_attributes.adoc and reference here.
 

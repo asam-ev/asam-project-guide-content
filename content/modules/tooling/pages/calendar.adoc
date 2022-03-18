@@ -5,6 +5,8 @@
 include::partial$_attributes.adoc[]
 include::{abb}[]
 
+include::tooling:partial$icon_reminder.adoc[tag=online-access]
+
 {calendar-icon}
 
 __{asam}__ has a shared calendar for all OpenX projects: the OpenX calendar ({openx-calendar-mail}).

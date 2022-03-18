@@ -6,6 +6,9 @@
 include::partial$_attributes.adoc[]
 include::{abb}[]
 
+
+include::tooling:partial$icon_reminder.adoc[tag=download-link]
+
 {vscode-icon}
 
 

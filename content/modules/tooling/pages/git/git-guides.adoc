@@ -6,7 +6,7 @@
 include::partial$_attributes.adoc[]
 include::{abb}[]
 
-{git-icon}
+{git-icon-page}
 
 include::compendium:page$tools/git/git_terminology.adoc[{offset-value}]
 

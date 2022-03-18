@@ -6,7 +6,7 @@
 include::partial$_attributes.adoc[]
 include::{abb}[]
 
-{docker-icon}
+{docker-icon-page}
 
 
 For the default docker-compose.yml needed to easily create the html result of a project locally, see the xref:compendium:tools/docker/standard_docker_config.adoc[default docker-compose.yml for creating local htmls].

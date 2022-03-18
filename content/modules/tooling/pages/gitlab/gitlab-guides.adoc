@@ -6,6 +6,8 @@
 include::partial$_attributes.adoc[]
 include::{abb}[]
 
+{remote-icon-page}
+
 include::compendium:page$tools/gitlab/gitlab-ide_guide.adoc[{offset-value}]
 
 include::compendium:page$tools/gitlab/gitlab_terminology.adoc[{offset-value}]

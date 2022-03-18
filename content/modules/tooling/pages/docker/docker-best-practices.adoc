@@ -5,7 +5,7 @@
 include::partial$_attributes.adoc[]
 include::{abb}[]
 
-{docker-icon}
+{docker-icon-page}
 
 
 * For more general information on how to use Docker, see the https://docs.docker.com/get-started/[official guides, window=_blank] from Docker.

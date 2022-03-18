@@ -5,6 +5,8 @@
 include::partial$_attributes.adoc[]
 include::{abb}[]
 
+include::tooling:partial$icon_reminder.adoc[tag=download-link]
+
 {docker-icon}
 
 include::compendium:partial$what-is-docker.adoc[tag=intro]

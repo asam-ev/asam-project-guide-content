@@ -5,7 +5,7 @@
 include::partial$_attributes.adoc[]
 include::{abb}[]
 
-{gitlab-icon}
+{remote-icon-page}
 
 == Context
 All specification-related documents are stored and updated in ASAMs GitLab.
