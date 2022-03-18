@@ -1,4 +1,4 @@
-= GitLab Guides
+= Guides For Remote Repositories
 :description: Collects all types of important GitLab guides
 :keywords: guides,gitlab
 :offset-value: leveloffset=+1

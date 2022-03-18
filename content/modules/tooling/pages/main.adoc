@@ -13,31 +13,25 @@ include::{abb}[]
 
 include::partial$module-description.adoc[]
 
+TIP: Most roles can contribute by **{no-installation}**.
 
-Tools mandatory for every member are hosted by __{asam}__ and can be accessed online and without local setup.
-An overview over these can be found under <<Infrastructure for Standard Development>>.
-Because of this, most participants in ASAM projects do not **require** dedicated software installations in order to be able to participate in the process.
-For information on how to work without any local setup, see **{no-installation}** .
+Tools on these pages are separated into mandatory infrastructure and recommended tools. +
+<<Infrastructure For Standard Development,**Mandatory infrastructure**>> contains everything that is mandatory for every project.
+These platforms and tools are often hosted by ASAM and always accessible online. +
+<<Recommended Tools, **Recommended tools**>> are tools that in provide additional features beyond their online equivalent and can be beneficial for certain users.
+ASAM provides helpful guides and tips here.
 
-Depending on your role at ASAM, some tasks may require local software installation or may benefit from one.
-In some cases, you may decide whether you would like to use the provided online tools or interface with them through a local setup.
-For some of these, ASAM provides a recommended base setup, listed under <<Recommended Tools>>.
+It also is a central aspect of ASAM's concept of xref:concepts:doc-as-code[].
 
-NOTE: Since ASAM does not develope those tools, descriptions and information on how to install, set up and use them is kept as short as possible to minimize outdated information in this guide as much as possible.
 
-== Infrastructure for Standard Development
-TIP: Instead of installing software locally, ASAM supports **{no-installation}** for some roles.
 
+== Infrastructure For Standard Development
 
 include::tooling:partial$list-of-tools.adoc[tag=mandatory]
 
-// reference::mandatory[]
 
-
-== Recommended tools
+== Recommended Tools
 include::tooling:partial$list-of-tools.adoc[tag=recommended]
-
-// reference::recommended[]
 
 
 // == Content

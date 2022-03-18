@@ -1,13 +1,14 @@
-= Working without software installation
+= Working Online
 :description: Contains an overview over when and how working without any additional software installation is possible.
-:keywords: installation,software,online,gitlab,recommended,READYFORREVIEW
+:keywords: online,recommended
 
 include::partial$_attributes.adoc[]
 include::{abb}[]
 
-{gitlab-url}[GitLab] provides an integrated working environment and text editor with which users can directly create and edit files without having to install xref:git.adoc[] or an editor like xref:vscode.adoc[].
-See xref:compendium:tools/gitlab/gitlab-ide_guide.adoc[the GitLab Web IDE Guide] in the compendium for more information.
+{remote-xref}[Remote Repositories] provide an integrated working environment and text editor with which users can directly create and edit files without having to install xref:git.adoc[] or an editor like xref:vscode.adoc[]. +
+The choice of remote repository depends on the project.
+ASAM recommends looking up specific questions on these platforms and their features in general on their respective online documentation.
+Topics related to ASAM rules in projects (e.g. for using issue templates) can be found in the {remote-xref}[Remote Repositories Info Page].
 
-However, note that you will still need to configure your accounts for the mandatory tools.
-
-related::mandatory[]
+However, note that you will still need to configure an account.
+Also note that some tasks may be easier or more convenient to be done with local setups.

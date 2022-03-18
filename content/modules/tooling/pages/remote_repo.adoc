@@ -50,12 +50,12 @@ a|* Document control during standard development
 [cols="^1h,4",frame=none, grid=rows, stripes=hover]
 |===
 
-|xref:gitlab/gitlab-setup.adoc[image:{setup-image}[width=120,title="GitLab Setup"]]
+|xref:remote_repo/remote_repo_setup.adoc[image:{setup-image}[width=120,title="GitLab Setup"]]
 |GitLab Setup
 
-|xref:gitlab/gitlab-guides.adoc[image:{guide-image}[width=120,title="GitLab Guides"]]
+|xref:remote_repo/remote_repo_guides.adoc[image:{guide-image}[width=120,title="GitLab Guides"]]
 |GitLab Guides
 
 |===
 
-related::gitlab,!summary[]
+// related::gitlab,github,!summary[]
