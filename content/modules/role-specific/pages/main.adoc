@@ -13,17 +13,14 @@ include::{abb}[]
 
 include::partial$module-description.adoc[]
 
-include::ROOT:partial$landing_page_referral.adoc[]
-
 
 include::partial$roles.adoc[tag = list_of_roles]
 
-== Content
+// == Content
 
-include::../nav.adoc[lines=2..-1]
+// include::../nav.adoc[lines=2..-1]
 
-
-
-  related::role,roles[]
+related::role,roles[]
 
 
+include::ROOT:partial$landing_page_referral.adoc[]

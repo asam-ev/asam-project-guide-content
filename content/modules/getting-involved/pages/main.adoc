@@ -1,7 +1,7 @@
 = ASAM's Project Processes
 :description: Landing page for information on how to get involved in ASAM projects.
 :keywords: landing_page,get-involved
-:lifecylce:
+:processes:
 
 include::partial$_attributes.adoc[]
 include::{abb}[]
@@ -12,8 +12,6 @@ include::ROOT:partial$_attributes.adoc[]
 include::partial$module-description.adoc[]
 It presents a process-oriented view on ASAM projects and tasks therein.
 Topics are sorted in a chronological order from the perspective of the ASAM standard lifecycle.
-
-include::ROOT:partial$landing_page_referral.adoc[]
 
 [NOTE]
 ====
@@ -83,3 +81,5 @@ a|TODO
 NOTE: Not all phases must necessarily apply to all projects.
 Some projects may even stir away from the standard development path by developing a variation on the standard set of rules layed out here. +
 These can be found in their respective versions in the dropdown menu at the bottom-left of this guide.
+
+include::ROOT:partial$landing_page_referral.adoc[]

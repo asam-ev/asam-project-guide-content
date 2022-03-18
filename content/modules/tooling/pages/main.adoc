@@ -13,7 +13,6 @@ include::{abb}[]
 
 include::partial$module-description.adoc[]
 
-include::ROOT:partial$landing_page_referral.adoc[]
 
 Tools mandatory for every member are hosted by __{asam}__ and can be accessed online and without local setup.
 An overview over these can be found under <<Infrastructure for Standard Development>>.
@@ -45,4 +44,4 @@ include::tooling:partial$list-of-tools.adoc[tag=recommended]
 
 // include::../nav.adoc[lines=2..-1]
 
-related::landing_page,!tools[]
+include::ROOT:partial$landing_page_referral.adoc[]

@@ -1,6 +1,7 @@
 = Concepts
 :description: Contains a short introduction to all important concepts and terms used throughout the Project Guide.
 :keywords: concepts, landing_page
+:concepts:
 
 include::partial$_attributes.adoc[]
 include::{abb}[]
@@ -49,3 +50,4 @@ Child pages then detail some aspects of the concept.
 
 |===
 
+include::ROOT:partial$landing_page_referral.adoc[]

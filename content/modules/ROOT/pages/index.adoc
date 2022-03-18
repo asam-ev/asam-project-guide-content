@@ -23,32 +23,5 @@ For more information, refer to the https://www.asam.net/about-asam/[ASAM website
 
 
 == Quick access
-[cols="^1h,4",frame=none, grid=rows, stripes=hover]
-|===
 
-|{getting-started-icon-norole} +
-xref:concepts:main.adoc[]
-|
-include::concepts:partial$module-description.adoc[]
-
-|{getting-involved-icon-norole} +
-xref:getting-involved:main.adoc[]
-|
-include::getting-involved:partial$module-description.adoc[]
-
-|{role-specific-icon-norole} +
-xref:role-specific:main.adoc[]
-|
-include::role-specific:partial$module-description.adoc[]
-
-|{tools-icon-norole} +
-xref:tooling:main.adoc[]
-|
-include::tooling:partial$module-description.adoc[]
-
-|{compendium-icon-norole} +
-xref:compendium:main.adoc[]
-|
-include::compendium:partial$module-description.adoc[]
-
-|===
+include::partial$landing_page_referral.adoc[tag=body]
