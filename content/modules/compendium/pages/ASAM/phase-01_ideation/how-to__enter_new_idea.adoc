@@ -12,7 +12,7 @@ h|Responsible
 |{role-standard-user} -> {role-idea-giver}
 
 h|Involved
-| {role-gtm}
+| {role-gtm}, {role-standard-user}
 
 ifdef::compendium[]
 h| Phase
@@ -31,22 +31,30 @@ a| * Send idea to ideation@asam.net
 == Context
 You have an idea and want to submit it to ASAM?
 Follow the steps below.
-To enter an idea, make sure to prepare all the <<prerequisites-idea-submittal, required submission content>> first.
+To enter an idea, make sure to prepare all the <<Prerequisites,required submission content>> first.
 
 == Result
 The idea has been submitted to ASAM.
+
 
 [#prerequisites-idea-submittal]
 == Prerequisites
 * The basic idea is well and precisely articulated
 * The market need has been identified
 
+
 == How
 
 . Send an email with your concept, idea, question or feedback to ideation@asam.net
-. The ASAM Office will contact you to clarify the details (or answer your questions)
-. It must be investigated if there are any other standards or standardization projects in that area
-. The ASAM Office will then post the mutually agreed concept
-. ASAM Members world-wide will be able to comment on the idea and enroll in an ideation project
+.. If you are not an ASAM member, you must be sponsored by an ASAM member and the idea must be send in by your sponsor instead.
+See the https://www.asam.net/active-projects/ideation/how-it-works/[ASAM website^] for more details
+. The ASAM Office ({gtm}) will contact you to clarify the details (or answer your questions)
+. The GTM investigates if there are any other standards or standardization projects in that area
+. Idea Giver and GTM detail the proposed idea further
+. The GTM will then post the mutually agreed concept
+. Interested companies world-wide can comment on the idea and xref:getting-involved:signing_up/enroll_for_ideation.adoc[enroll for updates on the proposed idea]
+
+* If the proposed topic is a new standard, the next step is to organize an xref:ideation/developing_an_idea.adoc[Ideation Workshop].
+* If the proposed topic intends to update or extend an existing standard, the Idea Giver continues to xref:ideation/raising_interest.adoc[gather enough participants] for the Proposal phase.
 
 //end::body[]

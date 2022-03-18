@@ -16,11 +16,32 @@ h| Step
 | image:compendium:asam/ideation_phase-ideation_participants.svg[]
 
 h| TL;DR
-| TODO
+a| * Use your network
+* GTM can support with ASAM network, if required
 |===
 
-This page contains tips and tricks for people trying to gather enough participants for a Project Proposal.
+There are two types of project ideas: those for completely new standards and those for updates and new features for existing ones. +
+If the idea is for a new standard, the Ideation Workshop will often get the Idea Giver in contact with enough interested parties to transition to the Proposal phase. +
+If the project idea concerns new features and updates to an existing standard, the Idea Giver can contact the project team from the previous Development phase.
 
+In most cases, either way will likely provide enough interested parties for the Proposal phase already.
+However, if this is not the case, the {gtm} can support the Idea Giver by getting them in contact with possibly interested parties within the ASAM network.
+Alternatively or additionally, the Idea Giver may utilize their own network to raise enough interest.
+
+
+== Requirements For Transitioning To Proposal Phase
+* A first draft of the proposed idea has been set up ("Basis for Proposal")
+* The minimum number of required participants has been reached or
+surpassed
+* At least one participant volunteers to contribute to the Proposal Writing directly
+** ASAM recommends three to five people volunteer to actively contribute to the Proposal writing
+
+[NOTE]
+====
 include::partial$minimum_required_participants_proposal.adoc[]
+====
 
-TODO
+
+== What Happens Next?
+Once all <<Requirements For Transitioning To Proposal Phase,requirements>> have been met, the project transitions to the xref:getting-involved:proposal_phase.adoc[proposal phase].
+The final goal is to transfer the idea into the regular xref:development_phase.adoc[Standard Development Process].

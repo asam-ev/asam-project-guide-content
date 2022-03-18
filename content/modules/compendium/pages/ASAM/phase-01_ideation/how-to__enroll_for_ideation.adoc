@@ -1,0 +1,53 @@
+= How-To: Enroll During Ideation Phase
+:description: Describes how to enroll for an idea during the Ideation phase.
+:keywords: ideation
+:compendium:
+
+include::partial$_attributes.adoc[]
+
+//tag::body[]
+
+[cols="1,5", grid = rows]
+|===
+h|Responsible
+|{role-standard-user}
+
+h|Involved
+| {role-gtm}
+
+ifdef::compendium[]
+h| Phase
+| xref:getting-involved:ideation_phase.adoc#_the_ideation_phase[image:compendium:asam/project_lifecycle-ideation.svg[]]
+endif::[]
+
+// h| Step
+// | image:compendium:asam/ideation_phase-ideation_propose.svg[]
+
+h| TL;DR
+a| * Send idea to the contact listed on the idea's page on the https://www.asam.net/active-projects/ideation/[ASAM website^]
+* Wait for response from ASAM
+* Create concept together with ASAM Office
+|===
+
+
+== Context
+You are interested in a proposed idea and want to join in its discussions and possible the following Proposal phase?
+Follow the steps below.
+
+
+== Result
+You have signed up for updates and events around the idea.
+
+[#prerequisites-idea-submittal]
+== Prerequisites
+* You must be an ASAM member or be sponsored by one
+
+
+== How
+
+. Send an email to the address listed on the idea page
+. The ASAM Office ({gtm}) will send you a confirmation
+
+Also see https://www.asam.net/active-projects/ideation/how-it-works/[the ASAM website^] for more information.
+//end::body[]
+
