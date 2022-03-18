@@ -14,6 +14,9 @@ include::ROOT:partial$_attributes.adoc[]
 The **Compendium** contains the content fragments not specific to one of the main topics.
 They are listed in alphabetical order and clustered by type. +
 Here, guides and instructions are gathered. +
+
+pages::[]
+
 include::ROOT:partial$landing_page_referral.adoc[]
 
-// pages::[]
+
