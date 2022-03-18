@@ -13,7 +13,7 @@ Project Work::
 +
 --
 
-[cols="^3s,8,^1,^1"]
+[cols="^3s,8,^1,^1", stripes=hover]
 |===
 h|Name|Description|Usage|Location
 
@@ -59,7 +59,7 @@ Communication::
 +
 --
 
-[cols="^3s,8,^1,^1"]
+[cols="^3s,8,^1,^1", stripes=hover]
 |===
 h|Name|Description|Usage|Location
 
@@ -101,7 +101,7 @@ include::tooling:partial$icon_reminder.adoc[tag=info-page]
 [#collaborative_infrastructure]
 .Infrastructure to enable collaborative standard development
 [cols="^3s,8,^1"]
-[frame=none,grid=rows]
+[frame=none,grid=rows, stripes=hover]
 
 |===
 h|Name|Description|Location
@@ -147,7 +147,7 @@ include::tooling:partial$icon_reminder.adoc[tag=info-page]
 [#recommended_tools_table]
 .Recommended Tools
 [cols="^3s,8,^1"]
-[frame=none,grid=rows]
+[frame=none,grid=rows, stripes=hover]
 |===
 h|Name|Description|Location
 
