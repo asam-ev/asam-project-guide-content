@@ -1,4 +1,4 @@
-= Workflow tutorial for the projects using gitlab
+= Workflow Tutorial For Projects Using GitLab
 :description: A guide on the GitLab workflow for projects.
 :keywords: gitlab,workflow,tutorial, TODO
 :page-aliases: guides/workflow_tutorial.adoc

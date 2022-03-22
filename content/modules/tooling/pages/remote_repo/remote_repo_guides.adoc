@@ -8,6 +8,21 @@ include::{abb}[]
 
 {remote-icon-page}
 
-include::compendium:page$tools/gitlab/gitlab-ide_guide.adoc[{offset-value}]
+// include::compendium:page$tools/gitlab/gitlab-ide_guide.adoc[{offset-value}]
 
-include::compendium:page$tools/gitlab/gitlab_terminology.adoc[{offset-value}]
+// include::compendium:page$tools/gitlab/gitlab_terminology.adoc[{offset-value}]
+
+// include::compendium:page$guides/git/workflow_tutorial.adoc[{offset-value}]
+
+// include::compendium:page$guides/git/working_with_issues.adoc[{offset-value}]
+
+// include::compendium:page$guides/accessing_compiled_artifacts.adoc[{offset-value}]
+
+. Participate with issues
+. issue rules and labels
+. The trunk strategy
+. Creating a branch
+. Branch naming
+. option: forking
+. merge requests and reviews
+. accessing artifacts

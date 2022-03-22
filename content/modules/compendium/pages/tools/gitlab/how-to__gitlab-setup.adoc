@@ -1,4 +1,4 @@
-= How-To: Setting Up Your Repository Account
+= How-To: Setting Up Your GitLab Account
 :description: How to setup your ASAM account.
 :keywords: task,fragment,setup,gitlab, github,account
 
@@ -18,7 +18,7 @@ The {gtm} will create the account and the user must then set it up.
 The user has activated their repository account and can access the correct project repositories.
 
 == Prerequisites
-* GitLab: Account created by the ASAM office.
+* Account created by the ASAM office.
 
 == How
 //tag::how[]

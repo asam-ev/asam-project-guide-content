@@ -1,6 +1,6 @@
-= Working with issues in a repository
+= Working With Issues In Repositories
 :description: TODO
-:keywords: issue,git,TODO
+:keywords: issue,gitlab,TODO
 :page-aliases: guides/working_with_issues.adoc
 
 include::compendium:partial$_attributes.adoc[]

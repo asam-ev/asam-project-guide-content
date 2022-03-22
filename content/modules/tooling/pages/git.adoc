@@ -8,6 +8,8 @@
 include::partial$_attributes.adoc[]
 include::{abb}[]
 
+{recommended}
+
 include::tooling:partial$icon_reminder.adoc[tag=download-link]
 
 {git-icon}

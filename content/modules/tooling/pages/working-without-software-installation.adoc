@@ -5,6 +5,8 @@
 include::partial$_attributes.adoc[]
 include::{abb}[]
 
+{mandatory}
+
 == Overview
 
 {remote-xref}[Remote Repositories] provide an integrated working environment and text editor with which users can directly create and edit files without having to install xref:git.adoc[] or an editor like xref:vscode.adoc[]. +
@@ -16,7 +18,7 @@ However, note that you will still need to configure an account.
 Also note that some tasks may be easier or more convenient to be done with local setups.
 
 == Minimum Required Setup
-Whether or not you prefer to work online or with locally installed software, you must do a minimum setup before you can participate in and contribute to any project. +
+Whether you prefer to work online or with locally installed software, you must do a minimum setup before you can participate in and contribute to any project. +
 To do so, go through the setup description for each of the platforms and tools listed in the table below.
 
 

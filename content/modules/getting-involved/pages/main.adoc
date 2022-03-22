@@ -13,22 +13,13 @@ include::partial$module-description.adoc[]
 It presents a process-oriented view on ASAM projects and tasks therein.
 Topics are sorted in a chronological order from the perspective of the ASAM standard lifecycle.
 
+include::partial$asam_membership.adoc[]
+
 ---
 
 == Phases Overview
 
-include::partial$asam_membership.adoc[]
-
 image::compendium:asam/project_lifecycle-v2.svg[alt=The project phases at ASAM, title=The project phases at ASAM with transitions]
-
-There are six project phases:
-
-* xref:ideation_phase.adoc[**Ideation**]
-* xref:proposal_phase.adoc[**Proposal**]
-* xref:development_phase.adoc[**Development**]
-* xref:review_phase.adoc[**Review**]
-* xref:release_phase.adoc[**Release**]
-* xref:public_phase.adoc[**Public**]
 
 
 The following table contains descriptions of and links to each of these.
@@ -44,7 +35,7 @@ If restrictions apply, they are listed separately.
 
 [cols="^1,5", frame=none, grid=rows, stripes=hover]
 |===
-|Phase|Description
+|Topic|Description
 
 h| xref:ideation_phase.adoc[image:compendium:asam/project_lifecycle-ideation.svg[]] +
 xref:ideation_phase.adoc[Ideation]
@@ -73,11 +64,14 @@ Note that you must xref:signing_up.adoc[**sign up**] first in order to join a pr
 
 h|xref:review_phase.adoc[image:compendium:asam/project_lifecycle-review.svg[]] +
 xref:review_phase.adoc[Review]
-a|TODO
+a|Before any project's deliverables are released, they are reviewed at ASAM first.
+This happens during the Review phase.
 
 h|xref:release_phase.adoc[image:compendium:asam/project_lifecycle-release.svg[]] +
 xref:release_phase.adoc[Release]
-a|TODO
+a|Once a project has passed its Review phase, it enters the Release phase.
+Here, the TSC makes a final review and decides whether the deliverables can be released.
+If the project is released and it was a Standard Development project, it now enters its Public phase.
 |===
 
 include::ROOT:partial$landing_page_referral.adoc[]

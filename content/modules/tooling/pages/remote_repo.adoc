@@ -5,12 +5,18 @@
 include::partial$_attributes.adoc[]
 include::{abb}[]
 
+{mandatory}
+
 {remote-icon}
 
 A remote repository platform is a web-based DevOps lifecycle tool that provides a xref:git.adoc[] repository manager.
 It can host wikis, has issue-tracking, continuous integration, and deployment pipeline features, using an open-source license.
 
-== GitLab At ASAM
+== Remote Repository Platforms At ASAM
+ASAM supports repositories both on its GitLab instance and on GitHub (public).
+
+NOTE: All Proposal repositories are hosted on GitLab.
+
 [tabs]
 ====
 GitLab::
@@ -22,10 +28,12 @@ GitLab::
 {gitlab-url}[ASAM GitLab^]
 a|
 * Document control during standard development
-* Commenting and tracking of feedback
+* Commenting and tracking of feedback and discussions
 * Automation of document creation and publication steps
 * Milestone tracking
 * Synchronizing assets, style guides, scripts, and reusable content
+* Account management by ASAM
+* Hosts all Proposal repositories
 |===
 --
 GitHub::
@@ -36,10 +44,12 @@ GitHub::
 |{github-icon-norole} +
 {github-url}[ASAM e.V. on GitHub^]
 a|* Document control during standard development
-* Commenting and tracking of feedback
+* Commenting and tracking of feedback and discussions
 * Automation of document creation and publication steps
 * Milestone tracking
-* Synchronizing assets, style guides, scripts, and reusable content
+* ASAM's docker image registry
+* Uses public GitHub accounts
+* Hosting GitHub pages, e.g. this Project Guide
 |===
 --
 ====
@@ -50,11 +60,13 @@ a|* Document control during standard development
 [cols="^1h,4",frame=none, grid=rows, stripes=hover]
 |===
 
-|xref:remote_repo/remote_repo_setup.adoc[image:{setup-image}[width=120,title="GitLab Setup"]]
-|GitLab Setup
+|xref:remote_repo/remote_repo_setup.adoc[image:{setup-image}[width=120,title="Remote Repository Account Setup"]] +
+xref:remote_repo/remote_repo_setup.adoc[Setup]
+|Contains instructions on how to set up your account for the respective remote repository.
 
-|xref:remote_repo/remote_repo_guides.adoc[image:{guide-image}[width=120,title="GitLab Guides"]]
-|GitLab Guides
+|xref:remote_repo/remote_repo_guides.adoc[image:{guide-image}[width=120,title="Remote Repository Guides"]] +
+xref:remote_repo/remote_repo_guides.adoc[Guides]
+|Contains guides and instructions for using the respective remote repository.
 
 |===
 
