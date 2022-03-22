@@ -1,5 +1,7 @@
 
 = Issue triage - managing unedited issues
+:description: Describes the process of ticket or issue triage.
+:keywords: triage, remote, issue
 
 //tag::body[]
 

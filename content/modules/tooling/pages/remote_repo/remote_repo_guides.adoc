@@ -1,7 +1,6 @@
 = Guides For Remote Repositories
 :description: Collects all types of important GitLab guides
 :keywords: guides,gitlab
-:offset-value: leveloffset=+1
 
 include::partial$_attributes.adoc[]
 include::{abb}[]
@@ -19,10 +18,27 @@ include::{abb}[]
 // include::compendium:page$guides/accessing_compiled_artifacts.adoc[{offset-value}]
 
 . Participate with issues
-. issue rules and labels
 . The trunk strategy
 . Creating a branch
 . Branch naming
 . option: forking
 . merge requests and reviews
 . accessing artifacts
+
+include::compendium:page$ASAM/doc-as-code/contribute_with_issues.adoc[leveloffset=+1, tag=!numbered]
+
+---
+
+include::compendium:page$ASAM/doc-as-code/trunk_workflow.adoc[leveloffset=+1]
+
+---
+
+include::compendium:page$tools/gitlab/forking_repo.adoc[leveloffset=+1]
+
+---
+
+include::compendium:page$tools/git/merge_requests.adoc[leveloffset=+1]
+
+---
+
+include::compendium:page$guides/accessing_compiled_artifacts.adoc[leveloffset=+1]

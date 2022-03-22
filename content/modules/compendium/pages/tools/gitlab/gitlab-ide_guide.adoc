@@ -1,8 +1,0 @@
-= GitLab IDE Guide
-:description: A guide to using the GitLab IDE.
-:keywords: gitlab, ide, online, TODO
-
-include::compendium:partial$_attributes.adoc[]
-
-GitLab provides a Web {ide} editor for interacting with the repository's content directly through the browser.
-// TODO

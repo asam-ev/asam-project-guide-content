@@ -1,9 +1,10 @@
-= How to switch branches
+= How-To: Switch Branches
 :description: A how-to for switching branches with git
 :keywords: git,gitlab,branch,vscode, TODO
 :page-aliases: guides/switch_branches.adoc
 
 include::compendium:partial$_attributes.adoc[]
+
 
 == Switch to a other branch on your local copy
 

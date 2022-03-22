@@ -1,4 +1,4 @@
-= Cloning A Repository Using GitLab To Visual Studio Code
+= How-To: Clone A Repository Using GitLab To Visual Studio Code
 :description: Describes how to clone a repository directly to VSCode from GitLab
 :keywords: vscode,how-to,clone,cloning,gitlab,repository,repo, READYFORREVIEW
 

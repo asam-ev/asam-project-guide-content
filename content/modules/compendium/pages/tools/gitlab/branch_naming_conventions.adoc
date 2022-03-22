@@ -1,24 +1,24 @@
-= Branch naming conventions
-:description: TODO
-:keywords: TODO
+= Branch Naming Conventions
+:description: Contains the conventions for naming branches that ASAM applies.
+:keywords: branch, convention
 
 include::compendium:partial$_attributes.adoc[]
 
-== Name template
+== Name Template
 
 ====
 `[red]#change-type#/[green]#group-name#/[yellow]#branch-title#`
 ====
 
 
-== General guidelines
+== General Guidelines
 
-- Applies to all branches on the OSI repositories
+- Applies to all feature branches
 - All lowercase
-- Use hyphens not spaces
+- Use hyphens instead of spaces
 
 
-== Change types
+== Change Types
 [horizontal]
 `feature`:: branches that enhance the standard or add additional features
 `fix`:: Bug fixes to contradictions or errors in the standard
@@ -26,9 +26,11 @@ include::compendium:partial$_attributes.adoc[]
 `experimental`:: (advanced development) Branches where developers want to try out or demonstrate some ideas but don't expect their changes to be integrated directly
 
 
-== Group names
+== Group Names
+The group names are defined by the project.
+The table below shows an example.
 
-=== OSI
+.Group names for the OSI project
 [cols='1,3']
 |===
 h|Name | Description
@@ -51,8 +53,8 @@ h|Name | Description
 |===
 
 
-== Branch title
-- Should be descriptive and make the change clear, i.e. not "update-sensor-model-x" but rather "initial-radarsensorviewconfig-support"
+== Branch Title
+- Should be descriptive and make the change clear, i.e. not "update-sensor-model-x", but rather "initial-radarsensorviewconfig-support"
 
 
 == Examples
