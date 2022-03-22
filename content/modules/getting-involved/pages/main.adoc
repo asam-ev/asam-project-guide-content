@@ -13,19 +13,15 @@ include::partial$module-description.adoc[]
 It presents a process-oriented view on ASAM projects and tasks therein.
 Topics are sorted in a chronological order from the perspective of the ASAM standard lifecycle.
 
-[NOTE]
-====
-Some of the following pages are mainly intended for particular xref:concepts:roles-overview.adoc[roles at ASAM].
-These pages have the relevant role labels at the top.
-However, the labels do not act as prerequisites or requirements.
-If restrictions apply, they are listed separately.
-====
+---
+
+== Phases Overview
 
 include::partial$asam_membership.adoc[]
 
-image::compendium:asam/project_lifecycle-v2.svg[alt=The project lifecycle at ASAM, title=The project lifecycle at ASAM]
+image::compendium:asam/project_lifecycle-v2.svg[alt=The project phases at ASAM, title=The project phases at ASAM with transitions]
 
-The ASAM project lifecycle consists of six main phases:
+There are six project phases:
 
 * xref:ideation_phase.adoc[**Ideation**]
 * xref:proposal_phase.adoc[**Proposal**]
@@ -34,10 +30,17 @@ The ASAM project lifecycle consists of six main phases:
 * xref:release_phase.adoc[**Release**]
 * xref:public_phase.adoc[**Public**]
 
-== Content
-The following table contains links to the content of this part.
-An entry in the table corresponds to either a phase of the project lifecycle or a transcendent topic applicable to multiple phases.
-Click the respective link to learn more about each topic.
+
+The following table contains descriptions of and links to each of these.
+An entry in the table corresponds to either a project phase or a transcendent topic applicable to multiple phases. +
+Click the respective link (the icon) to learn more about each topic.
+
+[NOTE]
+====
+Some of the following pages are mainly intended for particular xref:concepts:roles-overview.adoc[roles at ASAM].
+These pages have the relevant role labels at the top.
+If restrictions apply, they are listed separately.
+====
 
 [cols="^1,5", frame=none, grid=rows, stripes=hover]
 |===
@@ -76,10 +79,5 @@ h|xref:release_phase.adoc[image:compendium:asam/project_lifecycle-release.svg[]]
 xref:release_phase.adoc[Release]
 a|TODO
 |===
-
-
-NOTE: Not all phases must necessarily apply to all projects.
-Some projects may even stir away from the standard development path by developing a variation on the standard set of rules layed out here. +
-These can be found in their respective versions in the dropdown menu at the bottom-left of this guide.
 
 include::ROOT:partial$landing_page_referral.adoc[]

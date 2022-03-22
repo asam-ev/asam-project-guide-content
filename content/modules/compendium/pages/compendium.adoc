@@ -11,7 +11,9 @@ include::ROOT:partial$_attributes.adoc[]
 
 {compendium-icon}
 
-include::partial%module-description.adoc[]
+include::partial$module-description.adoc[]
+
+---
 
 pages::[]
 

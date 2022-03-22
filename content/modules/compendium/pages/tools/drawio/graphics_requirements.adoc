@@ -1,0 +1,53 @@
+= Requirements For Graphic Assets
+:description: Contains the requirements for graphic assets in the ASAM graphics library.
+:keywords: graphic, asset, requirement, openx, drawio
+
+// All **OpenX Standard Projects** are relevevant for graphics tooling and asset library.
+
+
+
+== Technical
+// . Accessible for every member
+// . Easy to use
+. Supported file format
+. Conforms to ASAM CI
+. (optional) Diffable
+. Support for library of assets with correct colors to fit ASAM CI
+. Colors in assets shall be configurable
+
+
+
+== types of graphics
+. block diagrams
+. block diagrams with rich images
+. streets from top to depict scenarios
+
+
+== style
+. graphics shall contain as little text as possible
+. font size should be consistent in graphics
+. font type Arial shall be used
+. ASAM colors shall be used
+
+
+
+== assets
+
+. color pallet
+. basic shapes
+
+=== assets for block diagram
+// work in progress
+
+=== assets for streets from top to depict scenarios
+// work in progress
+. car from top in different colors
+. parts of street
+. traffic signals and signs
+. arrors decipting temporal actions
+
+
+== Sources
+
+- http://jgraph.github.io/drawio-libs/[How to create diagrams.net library]
+- https://www.diagrams.net/doc/faq/svg-edit-colours[How to make colors editable in SVGs]

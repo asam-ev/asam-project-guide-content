@@ -1,4 +1,4 @@
-= Setting up the openX Calendar
+= Setting Up The OpenX Calendar
 :description: How to import the shared OpenX calendar.
 :keywords: task,fragment,setup,openx-calendar, calendar-setup,READYFORREVIEW
 

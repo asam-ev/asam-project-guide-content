@@ -28,6 +28,9 @@ ASAM uses Draw.io for creating custom diagrams for standards and documentation.
 |===
 
 |xref:drawio/drawio-setup.adoc[image:{setup-image}[width=120,title="Draw.io Setup"]]
+|Draw.io Setup
+
+|xref:drawio/drawio-guides.adoc[image:{guide-image}[width=120,title="Draw.io Guides"]]
 |Draw.io Guides
 
 |===

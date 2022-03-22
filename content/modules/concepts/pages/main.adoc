@@ -12,6 +12,8 @@ include::ROOT:partial$_attributes.adoc[]
 
 include::partial$module-description.adoc[]
 
+---
+
 == Content
 
 [cols="^1,5", frame=none, grid=rows, stripes=hover]

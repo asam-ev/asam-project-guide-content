@@ -23,7 +23,9 @@ h| Project phase
 == Getting Started Immediately
 
 TODO
-// [horizontal]
+[horizontal]
+xref:tooling:working-without-software-installation.adoc#_minimum_required_setup[Minimum Required Setup]:: Check out the minimum required setup to get ready for participation and contribution.
+
 // xref:ideation/enter_new_idea.adoc[]:: Start here to learn how you can enter an idea at ASAM.
 // xref:ideation/developing_an_idea.adoc[]:: Start here if you want to further develop an idea you previously entered.
 // xref:ideation/raising_interest.adoc[]:: Start here for tips and tricks on finding enough project participants.
@@ -38,7 +40,7 @@ Real projects may have iterations, loops and interventions by the __{tsc}__, Off
 Project groups may decide to re-start a project with an updated project proposal, upgrade to a higher release level, or to prematurely end the project.
 While those events can occur and need to be appropriately managed, they are out-of-scope for this Project Guide.
 
-image::compendium:asam/development_phase.drawio.svg[title=The development phase in detail]
+image::compendium:asam/development_phase.drawio.svg[title="The development phase in detail, using the xref:concepts:diagram_notations.adoc[ASAM Project Phase Notation]"]
 
 
 

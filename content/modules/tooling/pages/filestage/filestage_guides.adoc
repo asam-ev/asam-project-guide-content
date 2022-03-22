@@ -1,4 +1,4 @@
-= Filestage guides
+= Filestage Guides
 :description: Collection of guidelines for Filestage.
 :keywords: filestage, guides, TODO
 :offset-value: leveloffset=+1

@@ -25,3 +25,10 @@ For more information, refer to the https://www.asam.net/about-asam/[ASAM website
 == Quick access
 
 include::partial$landing_page_referral.adoc[tag=body]
+
+
+// IMPORTANT: This version contains the rules and information relevant to each project by default.
+// Some projects can decide to steer away from the standard development path by developing a variation on the standard set of rules layed out here.
+// These changes must be discussed with and accepted by ASAM Office first. +
+// Any project with specific alterations gets a project-specific variant of this guide.
+// You can access different versions in the dropdown menu at the bottom-left.

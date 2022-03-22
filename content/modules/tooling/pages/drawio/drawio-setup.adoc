@@ -1,6 +1,6 @@
-= Setting up draw.io
+= Setting Up Draw.io
 :description: How to set up drawio for ASAM projects.
-:keywords: task,fragment,setup,drawio, drawio-setup,READYFORREVIEW
+:keywords: task,fragment,setup,drawio,READYFORREVIEW
 :library-repo: https://code.asam.net/common/asam-graphic-library/
 
 include::partial$_attributes.adoc[]
@@ -24,7 +24,7 @@ The user can access Draw.io with the ASAM asset library connected to create and 
 == How
 Draw.io can be used either locally (through the dedicated app <<Draw.io App (Desktop),Draw.io Deskop>> or through the <<VSCode Extension,VS Code Extension>>) or with the <<Remote Setup, web app>>.
 
-=== Local setup
+=== Local Setup
 
 ==== Draw.io App (Desktop)
 
@@ -36,7 +36,7 @@ Draw.io can be used either locally (through the dedicated app <<Draw.io App (Des
 
 image::drawio-import-library.gif[title=Import ASAM Draw.io library into Desktop.]
 
-==== Draw.io VSCode extension
+==== Draw.io VSCode Extension
 
 include::compendium:partial$vscode/drawio.adoc[]
 
@@ -65,7 +65,7 @@ NOTE: Remove the comma after the last braket ("]") if there is no other line bef
 
 image::drawio-import-library-vscode.gif[title=Import ASAM Draw.io library into VSCode extension.]
 
-=== Remote setup
+=== Remote Setup
 
 The use of Draw.io through the web browser does not require any setup.
 Just use the provided {drawio-url}[link^].

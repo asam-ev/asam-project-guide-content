@@ -1,4 +1,4 @@
-= Setting up git
+= Setting Up Git
 :description: Contains a summary of how to set up git locally.
 :keywords: setup, git, task, fragment, git-setup,READYFORREVIEW
 :vscode: xref:vscode.adoc[]
@@ -27,7 +27,7 @@ Git can also interface directly with __{vscode}__, making changing and updating 
 Git requires a multi-step installation.
 The following sections describe each part of this setup sequentially.
 
-=== Install git
+=== Install Git
 . If you are unsure if git is installed, you can check by entering the following in a shell window and confirming:
 +
 [source]
@@ -38,7 +38,7 @@ git --version
 If a git version is returned, git is already installed on your system.
 . If git is not installed, follow the instructions on https://git-scm.com/book/en/v2/Getting-Started-Installing-Git[how to install git^]
 
-=== Configure user credentials
+=== Configure User Credentials
 After installation of Git, **configure your user credentials** that Git uses when checking in changed content from your PC to the {gitlab}.
 To make sure your commits match your name and email details, a one time configuration is necessary.
 

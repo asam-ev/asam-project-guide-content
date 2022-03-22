@@ -1,13 +1,12 @@
 [[top-graphics]]
 = How to include graphics in ASAM documents
 :description: How-To for including graphics in ASAM documents (standards).
-:keywords: asciidoc,graphic,figure,how-to, READYFORREVIEW
+:keywords: asciidoc,graphic,drawio,figure,how-to, READYFORREVIEW
 :reftext: Graphics
 :drawio: xref:tooling:drawio.adoc[]
 
 
 include::compendium:partial$_attributes.adoc[]
-
 
 
 For most cases, {drawio} shall be used.
@@ -19,7 +18,7 @@ See <<top-plantuml>> for usage.
 
 [[top-drawio]]
 == DrawIO
-
+//tag::drawio[]
 === Code
 ....
 [[fig-example-drawio]] // <1>
@@ -38,7 +37,7 @@ See the result in <<fig-example-drawio>>.
 .example graphic
 image::compendium:examplegraphic.drawio.svg[image]
 
-
+//end::drawio[]
 
 [[top-plantuml]]
 == PlantUML

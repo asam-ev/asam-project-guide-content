@@ -6,7 +6,7 @@
 
 // Other
 :openx-calendar-mail: openx@asam.net
-:return-info: ->Home<-.
+:return-info: ->Home<-
 
 // Internal links
 :standard-tooling-xref: xref:tooling:
