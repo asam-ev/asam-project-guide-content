@@ -1,0 +1,41 @@
+= Contributing In AsciiDoc Files
+:description: Describes how one can participate in the creation of a proposal through directly entering content in the appropriate AsciiDoc files.
+:keywords: proposal, asciidoc, READYFORREVIEW
+:numbered:
+
+include::compendium:partial$_attributes.adoc[]
+
+//tag::roles[]
+{role-wg-member}
+{role-proposal-submitter}
+{role-technical-writer}
+//end::roles[]
+
+The most direct way of contributing to a project is by creating and editing the AsciiDoc files.
+However, in order for a consistent workflow and optimal use of the automation steps set up by __{asam}__, users must be familiar with the xref:compendium:new_structure/Guidelines/trunk_workflow.adoc[] and <<Writing AsciiDoc Files,AsciiDoc>>.
+This ensures that all projects work the same way and deliver the same high level of quality that is expected of an ASAM standard.
+
+
+IMPORTANT: Do **not** add content to the central document (`main.adoc` or `index.adoc`) directly!
+All sections are included through the files in the folder `subchapters`.
+The central document only contains the mapping instructions for these chapters.
+
+//tag::body[]
+
+== Workflow
+{mandatory}
+
+Editing AsciiDoc files in a project shall be done in development or feature branches, as described in xref:compendium:new_structure/Guidelines/trunk_workflow.adoc[].
+Click the link for more information on the workflow.
+
+
+== Write AsciiDoc Files
+{mandatory}
+
+include::compendium:partial$asciidoc.adoc[]
+
+When writing AsciiDoc files, the writers shall follow the **xref:compendium:writing_guidelines/editorial_guide.adoc[]**.
+
+For a general AsciiDoc guide, see **xref:compendium:writing_guidelines/asciidoc_guide.adoc[]** in this Project Guide. +
+Asciidoctor itself also provides a general https://asciidoctor.org/docs/asciidoc-writers-guide/[**AsciiDoc Writer's Guide**^] with an introduction to AsciiDoc. +
+Finally, the official https://docs.asciidoctor.org/asciidoc/latest/syntax-quick-reference/[**AsciiDoc Syntax Quick Reference**^] is a great resource for looking up AsciiDoc commands and examples.

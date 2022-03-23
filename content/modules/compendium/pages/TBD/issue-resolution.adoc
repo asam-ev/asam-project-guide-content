@@ -1,0 +1,101 @@
+= OLD - Issue resolution process
+:description: Describes the issue resolution process in the ASAM standardization in case a released standard has issues.
+:keywords: standardization,READYFORREVIEW
+
+include::partial$_attributes.adoc[]
+include::{abb}[]
+
+ASAM standards are used by companies, who are either members of __{asam}__ or buyers of the standards.
+If a standard has a known problem, then members generally have the expectation that the known problem is fixed within a reasonable time.
+Buyers of ASAM standards have, in accordance with the German civil code BGB, the right of supplementary performance (ger. Nacherfüllung) if the standard has a known problem.
+
+The issue resolution process shall ensure that member expectations are met and the legal rights of buyers are fulfilled within a predictable period of time and for all standards.
+
+== Scope
+This process is limited to resolve technical issues of ASAM standards.
+Issues in the context of this process have one of the following characteristics:
+
+* Error: unintended or wrong content.
+* Contradiction: inconsistent or contradictory content.
+* Specification gap: missing content required for a functional system and for com-plete understanding.
+* Lack of clarity: Unclear, vague or ambiguous description, which leads to misun-derstandings and misinterpretations.
+
+The issue may exist in the xref:compendium:definitions/base_standard.adoc[base standard], in xref:compendium:definitions/associated_standard.adoc[associate standards], schema files, interface definition files, model files, examples or any other supplements of the standard.
+
+The request of a new feature or modification of an existing feature, independent of its declared urgency and importance, is not an issue handled through this process.
+
+== Roles
+Several parties are involved in carrying out the issue resolution process.
+
+=== Standard user
+include::role-specific:page$standard_user.adoc[tags=issue_resolution]
+
+=== Standard manager
+include::role-specific:page$standard_manager.adoc[tags=issue_resolution]
+
+=== Standard expert group
+include::role-specific:page$standard_expert-group.adoc[tags=issue_resolution]
+
+=== TSC
+include::role-specific:page$tsc.adoc[tags=issue_resolution]
+
+== Process
+ASAM experiences a continuous and spontaneous influx of support requests for its stand-ards.
+1st-Level Support together with the Standard Manager has the overall task to bring structure into this activity and answer the support requests.
+In case that a support request reveals an issue with an ASAM standard, the following issue resolution process shall be carried out.
+
+The process consist of three phases.
+The time between the reported issue and its resolution through a revised release of the standard shall not exceed 6 months.
+If the involved parties decide not to resolve the issue, then the process ends in phase 2 and is significantly shorter.
+
+If the issue shall be resolved via a new release of the standard, then the outcome of this process can only be a revision release (third digit of the version number).
+Changes that would render the standard incompatible to earlier versions, introduction of new features or major rework that spans over multiple pages and chapters, cannot be implemented through this process.
+
+Phases 2 and 3 of the issue resolution process are suspended during the time, when a project group works on the further development of the standard.
+During this time, the project group is in charge of handling all reported issues.
+The Standard Manager will only work on technical support during this period.
+It is recommended that they are a member of the project group.
+
+=== Phase 1: Technical Support
+[horizontal]
+1.1:: The user of an ASAM standard contacts ASAM technical support with a technical ques-tion or a request.
+1.2:: First-level support processes the support request.
+If the first-level supporter identifies a feature request or an issue with the standard, then the request shall be forwarded to the Standard Manager (i.e. 2nd-level support) for further processing.
+1.3:: The Standard Manager determines, whether the support request shall be entered as a CR in ASAM's CR database and determines its category as
++
+* feature request, or
+* issue report.
+
+If the CR is of the category "issue report", then the Standard Manager creates an entry in the LOKI document, too.
+They also write an answer for the support request.
+Members of the Standard Expert Group are automatically notified about each new CR.
+They may object, if a CR has been incorrectly categorized.
+
+image::compendium:technical-support-phase.png[]
+
+=== Phase 2: Issue Resolution
+[horizontal]
+2.1:: The Standard Manager carries out the issue resolution phase two times per year at most.
+For each known issue, the Standard Manager creates a specific proposal how to fix the issue.
+The proposal is copy-and-paste-ready to be implemented into the standard.
+2.2:: The Standard Manager calls for a Standard Expert Group meeting.
+They organize and moderates the meeting.
+The group reviews each CR categorized as an "issue report".
+They present his proposals for resolution of the issues and receives technical advice from the members of the group.
+The members of the Standard Expert Group have the final decision authority about how to handle each issue.
+Besides accepting the proposal of the Standard Manager, the Standard Expert Group can also decide to leave an issue unresolved or to defer the resolution to a standard development project.
+In both cases, the decision must be well reasoned, and the reason is published in the LOKI.
+In case of deferring the issue res-olution to a project, a member of the Standard Expert Group must commit to submit a project proposal for this purpose.
+2.3:: The Standard Manager creates a new revision of the standard based upon the decisions and technical advice from the Standard Expert Group members.
+2.4:: The Standard Manager sends out the revised standard to the Standard Expert Group members for review.
+They collect the review feedback and makes necessary changes to the revision version.
+2.5:: Once the review iterations are finished, the Standard Manager calls the Standard Expert Group members to cast their votes on the technical release of the revised standard.
+
+image::compendium:issue-resolution-phase.png[]
+
+=== Phase 3: Release
+[horizontal]
+3.1:: The Standard Manager submits the revised standard to the __{tsc}__ for public release.
+The release process is the same as described in chapter 1.4 "Release Phase".
+Correction sheets can be published immediately after the technical release from the Standard Expert Group.
+The __{tsc}__ confirms in its next meeting the release.

@@ -1,0 +1,12 @@
+= How-To: Access Compiled Artifacts
+:description: TODO
+:keywords: TODO
+
+include::compendium:partial$_attributes.adoc[]
+
+.This gif demonstrates how to access compiled html artifacts for other commits or branches
+image::downloading_artifacts.gif[]
+
+. Access _Repository_ -> _Branches_
+. Select the pipeline for the branch that you'd like to access
+. Retrieve the compiled artifacts
