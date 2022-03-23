@@ -1,0 +1,255 @@
+
+[#sec-lists]
+= Lists
+
+This section contains editorial rules on how to create lists:
+
+* <<#sec-ASM-8>>
+* <<#sec-ASM-48>>
+* <<#sec-ASM-9>>
+* <<#sec-ASM-10>>
+* <<#sec-ASM-5>>
+* <<#sec-ASM-6>>
+* <<#sec-ASM-11>>
+
+
+[#sec-ASM-8]
+== Use lists with similarly structured items for complex text (ASM-8)
+
+* Use lists instead of long sentences to present complex text in a way that is easier to read and understand.
+* The list items shall be a set of similarly structured items.
+For example, each item should be a noun or a phrase that starts with a verb.
+
+*Exceptions*
+
+There are no exceptions.
+
+*Example*
+
+```
+The outline of the road marking is described by the attributes @length and @space:
+
+* @length represents the visible part of the line.
+* @space describes the non-visible part.
+```
+
+*Source*
+
+* ASD-STE100 (2021, issue 8): Rule 4.3 Use a vertical list for complex text, page 1-4-4
+* Microsoft Style Guide: https://docs.microsoft.com/en-us/style-guide/scannable-content/lists
+* Google Developer Documentation Style Guide: https://developers.google.com/style/lists
+
+
+[#sec-ASM-48]
+== Use AsciiDoc syntax for lists (ASM-48)
+
+* Use only AsciiDoc syntax to format lists.
+* Use either ordered or unordered lists (see <<#sec-ASM-10>>).
+
+*Exceptions*
+
+There are no exceptions.
+
+*Example*
+
+```
+Unordered list
+
+* This is an item.
+* This is another item.
+* This is an additional item.
+
+Ordered list
+
+. This is the first item.
+. This is the second item.
+. This is the third item.
+```
+
+*Exceptions*
+
+There are no exceptions.
+
+*Source*
+
+* https://docs.asciidoctor.org/asciidoc/latest/lists/unordered/
+* https://docs.asciidoctor.org/asciidoc/latest/lists/ordered/
+
+
+[#sec-ASM-9]
+== Just add one sentence per line in lists (ASM-9)
+
+* Insert a line break after each sentence.
+* Do not add manual line breaks inside sentences.
+
+*Instructions*
+
+* _"Only hit 'enter' after a period ('.'), but make sure to hit 'enter' after a period."_
+
+*Exceptions*
+
+There are no exceptions.
+
+*Example*
+
+[.underline]#Code#
+
+```
+* This is the first sentence of the element.
+This is the second sentence of the element.
+* This is the second element.
+* This is the third element.
+```
+
+[.underline]#Result#
+
+* This is the first sentence of the element.
+This is the second sentence of the element.
+* This is the second element.
+* This is the third element.
+
+*Source*
+
+ASAM Writing Guide: 4.3. One sentence per line
+
+[#sec-ASM-10]
+== Choose a suitable type of list (ASM-10)
+
+
+== Use a bulleted list for things that have something in common but do not need to appear in a particular order
+
+*Exceptions*
+
+There are no exceptions.
+
+*Example*
+
+```
+The database owner can:
+
+* Create and delete a database
+* Add, delete, or modify a document
+* Add, delete, or modify any information in the database
+```
+
+*Source*
+
+Microsoft Style Guide: https://docs.microsoft.com/en-us/style-guide/scannable-content/lists#bulleted-lists
+
+
+== Use a numbered list for sequential items (like a procedure) or prioritized items (like a top 10 list)
+
+*Exceptions*
+
+There are no exceptions.
+
+*Example*
+
+```
+To sign on to a database:
+
+. On the File menu, select Open database.
+. In Username, enter your name.
+. In Password, enter your password, and then select OK.
+```
+
+*Source*
+
+Microsoft Style Guide: https://docs.microsoft.com/en-us/style-guide/scannable-content/lists#numbered-lists
+
+
+[#sec-ASM-5]
+== Start each list item in a list with an uppercase letter (ASM-5)
+
+*Exceptions*
+
+If a list item starts with one of the following, do not use an uppercase letter:
+
+* Code elements +
+For example: * `<elevation>` elements shall be defined in ascending order according to the s-coordinate.
+* Mathematical signs +
+For example: * `x` and `y`
+* URLs +
+For example: * http://www.asam.net
+
+*Example*
+
+```
+* This is the first sentence.
+* This is the second sentence.
+* This is the third sentence.
+```
+
+*Source*
+
+ASD-STE100 (2021, issue 8): Rule 4.3 Use a vertical list for complex text, page 1-4-4
+
+
+[#sec-ASM-6]
+== Put a full stop at the end of a list item if it is a full sentence (ASM-6)
+
+*Exceptions*
+
+There are no exceptions.
+
+*Example*
+
+[#tab-23063c34-07c7-4ecd-a797-ad8d715df052]
+.Use of full stops at the end of a list item
+[%header]
+|===
+|No |#Yes#
+
+a|
+* [.line-through]#This is the first sentence#
+* [.line-through]#This is the second sentence#
+* [.line-through]#This is the third sentence#
+a|
+* This is the first sentence.
+* This is the second sentence.
+* This is the third sentence.
+|===
+
+*Source*
+
+* ASD-STE100 (2021, issue 8): Rule 4.3 Use a vertical list for complex text, page 1-4-4
+* Microsoft Style Guide: https://docs.microsoft.com/en-us/style-guide/scannable-content/lists#punctuation
+
+
+[#sec-ASM-11]
+== Do not put punctuation or conjunctions at the end of a list item if it is not a full sentence (ASM-11)
+
+If an item in a list is not a full sentence, then do not put the following punctuation or conjunctions:
+
+* Full stops (periods)
+* Semicolons
+* Commas
+* Conjunctions like "and" or "or"
+
+*Exceptions*
+
+There are no exceptions.
+
+*Example*
+
+[#tab-a099df34-7296-42e1-bd7f-db180f84fe66]
+.Use of punctuation and conjunctions at the end of an item
+[%header]
+|===
+|No |#Yes#
+
+a|
+* [.line-through]#Common junctions,#
+* [.line-through]#Direct junctions, and#
+* [.line-through]#Virtual junctions.#
+a|
+* Common junctions
+* Direct junctions
+* Virtual junctions
+|===
+
+*Source*
+
+* ASD-STE100 (2021, issue 8): Rule 4.3 Use a vertical list for complex text, page 1-4-4
+* Microsoft Style Guide: https://docs.microsoft.com/en-us/style-guide/scannable-content/lists#punctuation
+* Google Developer Documentation Style Guide: https://developers.google.com/style/lists

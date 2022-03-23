@@ -1,0 +1,343 @@
+
+[#sec-basics]
+= Basics
+
+This section contains basic editorial rules on ASAM standards:
+
+* <<#sec-ASM-125>>
+* <<#sec-ASM-119>>
+* <<#sec-ASM-22>>
+* <<#sec-ASM-1>>
+* <<#sec-ASM-30>>
+* <<#sec-ASM-117>>
+* <<#sec-ASM-54>>
+* <<#sec-ASM-23>>
+* <<#sec-ASM-120>>
+* <<#sec-ASM-20>>
+
+
+* Consistent formatting
+** Stick to *one spelling* for a word that allows several spellings (e-mail, email, E-mail).
+** Stick to *one style* to present information (steps always as numbered lists).
+** Stick to *one formatting* for a special purpose (first use of technical term: _italic_)
+
+////
+* Use templates
+
+== Use templates
+* Adoc-templates are available for common types of topics.
+Use them to create consistent content.
+* Each template contains instructions on how to use the template and sample text that has to be replaced.
+* Currently available templates:
+** <<../template/generic_template.adoc, Generic>>
+** <<../template/task_template.adoc, Task>>
+** <<../template/uml_element_template.adoc, UML element>>
+** <<../template/use_case_template.adoc, Use case>>
+
+* Use existing foreword
+
+\opendrive\standard\00_preface\00_foreword.adoc
+////
+
+
+
+[#sec-ASM-125]
+== Names of ASAM standards (ASM-125)
+
+* The name of an _ASAM_ standard always starts with the prefix _ASAM_.
+* The prefix _ASAM_ shall be extended by the standard's name in the defined upper and lower case writing.
+
+*Exceptions*
+
+There are no exceptions.
+
+*Example*
+
+[#tab-5f4033b5-2249-43cf-94ec-e9683758ad4c]
+.Names of ASAM standards
+[%header]
+|===
+|No                         |#Yes#
+|[.line-through]#Opendrive# |ASAM OpenDRIVE
+|[.line-through]#AODrive#   |ASAM OpenDRIVE
+|[.line-through]#ASAMOS#    |ASAM OpenSCENARIO
+|[.line-through]#AOS#       |ASAM OpenSCENARIO
+|===
+
+*Source*
+
+ASAM specific rule.
+
+
+[#sec-ASM-119]
+== Use the full name of ASAM standards (ASM-119)
+
+* Always use the full name of ASAM standards.
+* Do not use abbreviations.
+
+*Exceptions*
+
+If you refer to the _standard you are working on_, see <<#sec-ASM-120>>.
+
+*Example*
+
+[#tab-40e63cc3-f488-40ee-aab4-3489db11cc79]
+.Use the full name of ASAM standards
+[%header]
+|===
+|No                         |#Yes#
+|[.line-through]#OpenDRIVE# |ASAM OpenDRIVE
+|[.line-through]#OS#        |ASAM OpenSCENARIO
+|===
+
+*Source*
+
+ASAM specific rule.
+
+
+[#sec-ASM-22]
+== Use generic ASAM standard chapter structure (ASM-22)
+
+The chapter structure of ASAM standards always follows the same pattern.
+
+The sequence, headings and the numbering of the first and last chapters are fixed.
+
+The first chapter with standard specific heading and content is chapter 6.
+
+The amount of annexes is also standard specific.
+
+The generic chapter structure and headings are as follows, the brackets comment on the content:
+
+* Foreword (fixed content)
+* Introduction (standard specific content)
+* Overview (standard specific content)
+* Conventions and notations (fixed content)
+* Deliverables (standard specific content)
+1. Scope (standard specific content)
+2. Normative references (standard specific content)
+3. Terms and definitions (standard specific content)
+4. Abbreviations (standard specific content)
+5. Backward compatibility (standard specific content)
+6. (First standard specific heading and content)
+* Annexes (optional standard specific content)
+* Annex A: (standard specific heading) (optional standard specific content)
+* Annex B: (standard specific heading) (optional standard specific content)
+* Bibliography (standard specific content)
+* List of figures (automatically generated content)
+* List of tables (automatically generated content)
+
+*Exceptions*
+
+There are no exceptions.
+
+*Example*
+
+[#tab-c3c84dc8-601f-4091-a674-75c9dd47e04a]
+.caption
+[%header]
+|===
+|No|#Yes#
+
+a|
+
+* Conventions and notations
+* [.line-through]#[]#
+* Foreword
+* Backward compatibility
+
+[.line-through]#0# Introduction
+
+
+2 Scope [.line-through]#of this standard#
+
+3 [.line-through]#Definitions and normative references#
+
+4 [.line-through]#Abbreviations and Terms#
+
+5 (First standard specific heading and content)
+
+* Annexes
+* Annex [.line-through]#1#:
+* Annex [.line-through]#2#:
+* Bibliography
+* List of figures
+* List of tables
+a|
+* Foreword
+* Introduction
+* Overview
+* Conventions and notations
+* Deliverables
+1. Scope
+2. Normative references
+3. Terms and definitions
+4. Abbreviations
+5. Backward compatibility
+6. (First standard specific heading and content)
+* Annexes
+* Annex A: (standard specific heading)
+* Annex B: (standard specific heading)
+* Bibliography
+* List of figures
+* List of tables
+|===
+
+*Source*
+
+ASAM specific rule.
+
+
+[#sec-ASM-1]
+== Do not include version information (ASM-1)
+
+Do not include version information in the content or in the names of files or folders or UML models.
+
+*Exceptions*
+
+There are no exceptions.
+//NOTE: What about the chapter "Backward compatibility"?
+//NOTE: Where is the version of a standard in a document mentioned at all?
+
+*Example*
+
+[#tab-05a17f73-4687-4e58-92c9-1269b89ccd7f]
+.Use of constant file names
+[%header]
+|===
+|No                                              |#Yes#
+|[.line-through]#example_file_name_v3.adoc#      |example_file_name.adoc
+|[.line-through]#Referenced Standard V 1.2.34.3# |Referenced Standard
+|===
+
+*Source*
+
+ASAM specific rule.
+
+
+[#sec-ASM-30]
+== Use lowercase for file names (ASM-30)
+
+*Exceptions*
+
+There are no exceptions.
+
+*Example*
+
+[#tab-cb96bd0c-8dde-4df1-9e77-1d7d553303eb]
+.Use lowercase in file names
+[%header]
+|===
+|No                                    |#Yes#
+|[.line-through]#ExampleFileName.adoc# |example_file_name.adoc
+|===
+
+*Source*
+
+ASAM Writing Guide: File names
+
+
+[#sec-ASM-117]
+== Use underscore '_' instead of space ' ' in file and folder names (ASM-117)
+
+*Exceptions*
+
+There are no exceptions.
+
+*Example*
+
+[#tab-c7b9f7ca-49da-4e9e-afc0-feb33e8158ac]
+.Use of underscore in file names
+[%header]
+|===
+|No                                      |#Yes#
+|[.line-through]#Example File Name.adoc# |example_file_name.adoc
+|===
+
+*Source*
+
+ASAM Writing Guide: File names
+
+
+[#sec-ASM-54]
+== Use AsciiDoc syntax for text documents (ASM-54)
+
+*Exceptions*
+
+There are no exceptions.
+//NOTE: What about the included CSV table files?
+
+*Source*
+
+ASAM specific rule.
+
+
+[#sec-ASM-23]
+== Use '.adoc' as file extension for text documents (ASM-23)
+
+*Exceptions*
+
+There are no exceptions.
+//NOTE: What about the included CSV table files?
+
+*Example*
+
+[#tab-7e8d6e0e-7049-4872-9bb9-b3fbe4d02f11]
+.Use of .adoc as file extension
+[%header]
+|===
+|No                                   |#Yes#
+|[.line-through]#ExampleFileName.ado# |+++example_file_name.adoc+++
+|===
+
+*Source*
+
+ASAM Writing Guide: File names
+
+
+[#sec-ASM-120]
+== Use the variable `{THIS_STANDARD}` to refer to the standard you are working on (ASM-120)
+
+*Exceptions*
+
+If you are writing about _other standards_, see <<#sec-ASM-119>>.
+
+*Example*
+
+[.underline]#Code#
+
+In `{THIS_STANDARD}`, all roads contain lanes.
+
+[.underline]#Result#
+
+In ASAM OpenDRIVE, all roads contain lanes.
+
+*Source*
+
+* ASAM specific rule.
+* https://asciidoctor.org/docs/asciidoc-recommended-practices/#document-attributes-i-e-variables
+
+
+[#sec-ASM-20]
+== Delete trailing whitespace (ASM-20)
+
+Eliminate any spaces or tabs at each end of line.
+
+*Exceptions*
+
+There are no exceptions.
+
+*Example*
+
+[#tab-e829db29-94c8-492d-bbf3-8fb6adb9489d]
+.No trailing whitespace before the end of line (`[EOL]`).
+[%header]
+|===
+|No |#Yes#
+|[.line-through]#``This is wrong with whitespace.   &nbsp;&nbsp;&nbsp;         [EOL]``#
+|``This is correct.[EOL]``
+|===
+
+*Source*
+
+ASAM specific rule.
+

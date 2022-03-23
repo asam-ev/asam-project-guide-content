@@ -1,0 +1,240 @@
+
+[#sec-figures]
+= Figures
+
+This section contains editorial rules on how to create figures:
+
+* <<#sec-ASM-56>>
+* <<#sec-ASM-57>>
+* <<#sec-ASM-28>>
+* <<#sec-ASM-29>>
+* <<#sec-ASM-92>>
+* <<#sec-ASM-87>>
+* <<#sec-ASM-12>>
+* <<#sec-ASM-58>>
+* <<#sec-ASM-59>>
+
+// TODO: Terminology: Images or figures? Image = file? Figure = rendering of AsciiDoc with image and caption?
+
+
+[#sec-ASM-56]
+== Illustrate complex facts with figures (ASM-56)
+
+Figures, for example, pictures or drawings, may be used to illustrate complex facts.
+
+*Exceptions*
+
+There are no exceptions.
+
+*Example*
+
+There is no example.
+
+*Source*
+
+ASAM Writing Guide: 5.2. Figures
+
+
+[#sec-ASM-57]
+== Use figures with the file type SVG (ASM-57)
+
+SVG is the preferred format for figures.
+
+*Exceptions*
+
+If you cannot use an figures with the file type SVG, use the file type PNG.
+
+*Example*
+
+There is no example.
+
+*Source*
+
+ASAM Writing Guide: 5.2. Figures
+
+
+[#sec-ASM-28]
+== Make sure that all figures included in the User Guide are shown correctly (ASM-28)
+
+*Exceptions*
+
+There are no exceptions.
+
+*Example*
+
+There is no example.
+
+*Source*
+
+
+[#sec-ASM-29]
+== Make sure that there are no unused figures in the repository of the standard (ASM-29)
+
+*Exceptions*
+
+There are no exceptions.
+
+// TODO: (Are there any exceptions where it makes sense to keep unused images? Images are not only used in the User Guide but also the other deliverables.)
+
+*Example*
+
+There is no example.
+
+*Source*
+//TODO: Name source
+
+
+[#sec-ASM-92]
+== Use one folder _images_ per chapter (ASM-92)
+
+Every chapter has an _images_ folder that contains all the figures of the chapter and the sections of the chapter.
+
+*Exceptions*
+
+There are no exceptions.
+
+*Example*
+
+```
+content/
+├── ...
+├── 07_geometry/
+│   ├── images/
+│   ├── 07_00_geometry.adoc
+│   ├── 07_01_road_reference_line.adoc
+│   ├── 07_02_straight_line.adoc
+│   └── ...
+└── ...
+```
+
+*Source*
+
+ASAM specific rule.
+
+
+[#sec-ASM-87]
+== Use AsciiDoc syntax for figures (ASM-87)
+
+Use the AsciiDoc syntax for figures for images, diagrams, and so on.
+
+*Exceptions*
+
+There are no exceptions.
+
+*Example*
+
+```
+[#fig-56c849b0-a608-46a3-87be-d4d15a2d4ea3]
+.This is the caption of the figure
+image::scenario.png[an alternative text]
+```
+
+*Source*
+
+ASAM Writing Guide: 5.2. Figures
+
+https://docs.asciidoctor.org/asciidoc/latest/macros/images/
+
+
+
+[#sec-ASM-12]
+== Create an anchor with an UUID for every figure (ASM-12)
+
+The figure anchor consists of `[#`, the string `fig-`, a following UUID, and `]`.
+
+*Exceptions*
+
+If you do not know how to use unique IDs, insert `[#tag-uid]` as a placeholder.
+The placeholder will trigger a pipeline warning so that the technical writer can help with creating a unique ID.
+
+*Example*
+
+```
+[#fig-ad5fd969-c02a-48fc-97dd-84228f630df6]
+.This is the caption of the figure
+image::scenario.png[an alternative text]
+```
+
+*Source*
+
+ASAM Writing Guide: 5.2. Figures
+
+
+[#sec-ASM-58]
+== Create a caption for every figure (ASM-58)
+
+*Exceptions*
+
+There are no exceptions.
+
+*Example*
+
+```
+[#fig-b4745bab-a439-4fda-97d2-3e79fc4c483e]
+.This is the caption of the figure
+image::scenario.png[an alternative text]
+```
+
+*Source*
+
+ASAM Writing Guide: 5.2. Figures
+
+////
+[#sec-ASM-xx]
+== Write an alternative text for every figure (ASM-xx)
+
+// TODO: How does the alternative text comply with the image numbering?
+
+```
+image::images/uml_notation.drawio.svg[1100]
+```
+ vs.
+```
+image::images/uml_notation.drawio.svg[alternative text, 1100]
+```
+
+*Exceptions*
+
+There are no exceptions.
+
+*Example*
+
+```
+[#fig-54f39ea2-f91f-4a20-bb13-7daec1800513]
+.This is the caption of the figure
+image::scenario.png[an alternative text]
+```
+
+*Source*
+
+ASAM Writing Guide: 5.2. Figures
+////
+
+[#sec-ASM-59]
+== Write a description for each figure (ASM-59)
+
+* The description shall be below the figure.
+* The description shall start with "[Reference to figure] shows".
+  The description shall not have an initial article.
+* The description shall not contain references to the placement of the figure; for example, "before" or "below".
+
+*Exceptions*
+
+Decorative figures shall not have a description; for example, the ASAM logo.
+
+*Example*
+
+[.underline]#Code#
+
+```
+<<fig-7558b905-679d-4fb9-affa-3b3b72025a18>> shows the offset of the center lane away from the road reference line.
+```
+
+[.underline]#Result#
+
+[.underline]#Figure 58# shows the offset of the center lane away from the road reference line.
+
+* The number of the figure, "figure 58", is automatically referenced.
+* The text "Figure 58" is shown as a link to the figure.
+
+*Source*
