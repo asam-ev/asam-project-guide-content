@@ -7,13 +7,13 @@ include::compendium:partial$_attributes.adoc[]
 Creating a fork "clones" the repository into your profile, allowing you to make changes without having to interact with the main repository.
 This is particularly useful if you want to create an independent copy. +
 However, it is strongly recommended to NOT fork a project repository to develope features and merge the fork back later!
-Use branches to do so (xref:compendium:How-Tos/how-to_create_branch_from_issue.adoc[] and xref:compendium:How-Tos/how-to_create_new_branch.adoc[])
+Use branches to do so (xref:compendium:How-Tos/how-to__create_branch_from_issue.adoc[]).
 
 TIP: The procedure is the same on https://code.asam.net[GitLab^] and on GitHub.
 
 == Forking Steps
 
-image::forking-a-repo.gif[title="Forking a repo"]
+image::compendium:forking-a-repo.gif[title="Forking a repo"]
 
 . Select "Fork" from the top of the repository page
 . Select yourself from the list of users
@@ -25,7 +25,7 @@ Once you see your name in the url of the repository, the forking is complete.
 
 To submit the changes you make in your fork back to the original repository, submit a xref:compendium:Guidelines/repo__merge-pull_requests.adoc[Merge/Pull Request] as normal in the main repository, making sure to select your fork.
 
-image::creating-a-pr-from-a-fork.gif[title="Creating a PR from a fork"]
+image::compendium:creating-a-pr-from-a-fork.gif[title="Creating a PR from a fork"]
 
 . Access the original repository
 . Click on "Pull requests"
