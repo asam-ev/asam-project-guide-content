@@ -11,7 +11,7 @@ include::compendium:partial$_attributes.adoc[]
 ** The project lead and the ASAM representative.
 ** The shared OpenX Calendar, openx@asam.net.
 ** The Teams channel email; this will post the meeting in the channel for all to see.
-See xref:compendium:How-To/how-to__obtain_channel_email.adoc[].
+See xref:compendium:How-Tos/how-to__obtain_channel_email.adoc[].
 
 > To find the list of people registered for your group or WP, see the WP signup list.
 Its location is described in the xref:compendium:Guidelines/coordination__teams-channel_file-structure.adoc[Teams&Sharepoint Overview].
