@@ -1,14 +1,12 @@
-[[top-graphics]]
-= How to include graphics in ASAM documents
+= Graphics
 :description: How-To for including graphics in ASAM documents (standards).
 :keywords: asciidoc,graphic,drawio,figure,how-to, READYFORREVIEW
-:reftext: Graphics
-:drawio: xref:tooling:drawio.adoc[]
-
+:navtitle: [AsciiDoc] Graphics
 
 include::compendium:partial$_attributes.adoc[]
 
-
+//tag::body[]
+:drawio: xref:tooling:drawio.adoc[]
 For most cases, {drawio} shall be used.
 It's a possibility to generate graphics with a powerful tool that can be included directly, without a intermediate image format.
 See <<top-drawio>> for usage.
@@ -19,7 +17,11 @@ See <<top-plantuml>> for usage.
 [[top-drawio]]
 == DrawIO
 //tag::drawio[]
-=== Code
+[tabs]
+====
+AsciiDoc::
++
+--
 ....
 [[fig-example-drawio]] // <1>
 .example graphic // <2>
@@ -28,26 +30,31 @@ image::examplegraphic.drawio.svg[image] // <3>
 <1> Anchor for the graphic. Reference this anchor using \<<fig-example-drawio>>
 <2> Graphic caption
 <3> Include of actual graphic
-
-=== Result
-
-See the result in <<fig-example-drawio>>.
-
+--
+Result::
++
+--
 [[fig-example-drawio]]
 .example graphic
 image::compendium:examplegraphic.drawio.svg[image]
-
+--
+====
 //end::drawio[]
 
 [[top-plantuml]]
 == PlantUML
 
-PlantUML can be defined in the AsciiDoc file direktly or included as a seperate file.
+PlantUML can be defined in the AsciiDoc file directly or included as a separate file.
 
-=== Code in asciiDoc
+=== Defined In AsciiDoc
+[tabs]
+====
+AsciiDoc::
++
+--
 ....
 [[fig-example-plantuml-code]] // <1>
-.example graphic // <2>
+.PlantUML - defined in AsciiDoc // <2>
 [plantuml, svg] // <3>
 ---- // <4>
 package "UML Class Diagram" // <5>
@@ -88,30 +95,11 @@ TrafficParticipant -- dynamicLimits
 
 For Usage of the PlantUML language, see the https://plantuml.com/[PlantUML Documentation].
 
-
-=== Code included from file
-....
-[[fig-example-plantuml-file]] // <1>
-.example graphic // <2>
-[plantuml, svg] // <3>
----- // <4>
-include::../resources/ExamplePlantUML.plantuml[] // <5>
-----
-....
-<1> Anchor for the graphic. Reference this anchor using \<<fig-example-plantuml-file>>
-<2> Graphic caption
-<3> Include of actual graphic
-<4> Delimiter for code block
-<5> include of the code file
-
-
-
-=== Result
-
-The result is the same in both cases. See <<fig-example-plantuml-code>> and <<fig-example-plantuml-file>>.
-
-[[fig-example-plantuml-code]]
-.example plantuml - defined in AsciiDoc
+--
+Result::
++
+--
+.PlantUML - defined in AsciiDoc
 [plantuml, svg]
 ----
 package "UML Class Diagram"
@@ -144,17 +132,42 @@ TrafficParticipant <|-- Animal
 TrafficParticipant -- IntendedInfrastructure
 TrafficParticipant -- dynamicLimits
 ----
+--
+====
 
-
-[[fig-example-plantuml-file]]
-.example plantuml - included from file
+=== Included From File
+[tabs]
+====
+AsciiDoc::
++
+--
+....
+[[fig-example-plantuml-file]] // <1>
+.PlantUML - included from file // <2>
+[plantuml, svg] // <3>
+---- // <4>
+include::../resources/ExamplePlantUML.plantuml[] // <5>
+----
+....
+<1> Anchor for the graphic. Reference this anchor using \<<fig-example-plantuml-file>>
+<2> Graphic caption
+<3> Include of actual graphic
+<4> Delimiter for code block
+<5> include of the code file
+--
+Result::
++
+--
+.PlantUML - included from file
 [plantuml, svg]
 ----
 include::compendium:example$ExamplePlantUML.plantuml[]
 ----
+--
+====
 
 
-== Images with links
+== Images With Links
 
 You can add a link to an image so it acts like a "button."
 
@@ -174,12 +187,19 @@ The addition of "^" at the end of the link name does the same in a shorthand ver
 
 For example:
 
-[cols="a,a"]
-|===
-|
+[tabs]
+====
+AsciiDoc::
++
+--
 ....
 image:logo.png[alt=A button titled ASAM Home,link=https://asam.net,window=_blank]
 ....
-|
+--
+Result::
++
+--
 image:logo.png[alt=A button titled ASAM Home,link=https://asam.net,window=_blank]
-|===
+--
+====
+//end::body[]

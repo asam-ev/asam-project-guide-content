@@ -21,6 +21,6 @@ include::compendium:page$tools/vscode/vscode_activity-bar.adoc[{offset-value}]
 
 include::compendium:page$tools/vscode/vscode_install_extension.adoc[{offset-value}]
 
-include::compendium:page$tools/vscode/recommended_vscode_extensions.adoc[{offset-value-sub}]
+include::compendium:page$tools/vscode/vscode__recommended_vscode_extensions.adoc[{offset-value-sub}]
 
-include::compendium:page$tools/vscode/recommended_vscode_settings.adoc[{offset-value}]
+include::compendium:page$tools/vscode/vscode__recommended_vscode_settings.adoc[{offset-value}]

@@ -1,6 +1,7 @@
-= [Coordination] Hosting Workshops
+= Hosting Workshops
 :description: Describes general steps for hosting a workshop.
 :keywords: workshop
+:navtitle: [Coordination] Hosting Workshops
 
 {role-gtm}
 

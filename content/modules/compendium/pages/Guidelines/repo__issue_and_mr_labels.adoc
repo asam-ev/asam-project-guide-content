@@ -1,11 +1,13 @@
-= [Repository] Issue And Merge Request Labels
+= Issue And Merge Request Labels
 :description: Contains a list of mandatory labels each project shall use.
-:keywords: label, gitlab, github, naming, issue, merge_request
+:keywords: label, gitlab, github, naming, issue, merge_request, repo_convention
+:navtitle: [Repository] Issue And Merge Request Labels
 
 include::compendium:partial$_attributes.adoc[]
 
 // Label attributes are defined in the partial issue_labels.adoc and included through the _attributes.adoc partial
 
+//tag::compendium[]
 //tag::roles[]
 {role-wg-member}
 {role-wg-lead}
@@ -14,6 +16,7 @@ include::compendium:partial$_attributes.adoc[]
 {role-proposal-submitter}
 {role-technical-writer}
 //end::roles[]
+//end::compendium[]
 
 This page contains a list of mandatory labels for ASAM projects.
 These labels shall be applied to all projects, independent of their remote repository platform. +
@@ -41,7 +44,9 @@ https://code.asam.net/groups/simulation/-/labels[**Simulation Domain Labels**^]
 GitHub::
 TODO - Must be defined by organization owners
 
+//tag::compendium[]
 :numbered:
+//end::compendium[]
 
 ---
 

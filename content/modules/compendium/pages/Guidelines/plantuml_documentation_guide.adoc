@@ -1,8 +1,7 @@
-[#top-osc2-plantuml-documentation-guide]
-
 = PlantUML Documentation Guide
 :description: TODO
 :keywords: TODO
+:navtitle: [] PlantUML Documentation Guide
 :numbered:
 
 include::compendium:partial$_attributes.adoc[]

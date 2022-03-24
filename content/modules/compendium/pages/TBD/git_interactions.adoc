@@ -40,7 +40,7 @@ image::push.png[push, 500, title="source control menu"]
 Now other project members will be able to review and comment on your changes
 
 
-Once everyone is happy with the changes, the merge request will be accepted and the changes made will be integrated with the master branch, deleting the originally merged branch and closing the request & associated issues.
+Once everyone is happy with the changes, the merge request will be accepted and the changes made will be integrated with the trunk, deleting the originally merged branch and closing the request & associated issues.
 
-Only project members with the role of "maintainer" can accept merge requests onto the master branch - these are decided on in project meetings.
+Only project members with the role of "maintainer" can accept merge requests onto the trunk - these are decided on in project meetings.
 Get in touch with an ASAM rep if you want to apply for this role.

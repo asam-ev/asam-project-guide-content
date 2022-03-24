@@ -1,6 +1,7 @@
 = Project Lead Training
 :description: TODO
 :keywords: role,project-lead,training,meeting-moderation
+:navtitle: [] Project Lead Training
 
 include::partial$_attributes.adoc[]
 

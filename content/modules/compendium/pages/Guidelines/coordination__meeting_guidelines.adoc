@@ -1,6 +1,7 @@
-= [Coordination] Meeting Guidelines
+= Meeting Guidelines
 :description: TODO
 :keywords: TODO
+:navtitle: [Coordination] Meeting Guidelines
 
 include::compendium:partial$_attributes.adoc[]
 

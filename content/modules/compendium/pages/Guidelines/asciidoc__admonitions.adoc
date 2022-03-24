@@ -1,9 +1,9 @@
-
-= How to highlight topics with admonitions ASAM documents
+= Admonitions For Highlighting Topics
 :description: How-To for using admonitions in ASAM documents (standards).
 :keywords: asciidoc,admonitions,note,tip,warning,important,how-to, READYFORREVIEW
-:reftext: Admonitions: Notes, tips, etc.
+:navtitle: [AsciiDoc] Admonitions For Highlighting Topics
 
+//tag::body[]
 You might want to draw attention to certain statements by creating notes or tips - so-called https://docs.asciidoctor.org/asciidoc/latest/syntax-quick-reference/#admonitions[admonitions^].
 
 Use each of these sparingly.
@@ -27,3 +27,4 @@ WARNING: And this is a warning that informs of danger or harm.
 This one should be used very rarely, as well.
 
 If you're authoring new content, you'll want to review this section for some nitty-gritty details.
+//end::body[]

@@ -1,7 +1,7 @@
-[#top-osc2-writing-guide]
-= Writing guide
+= Writing Guide
 :description: Writing guide for technical writers.
 :keywords: writing_guide
+:navtitle: [AsciiDoc] Writing Guide
 :numbered:
 
 include::compendium:partial$_attributes.adoc[]
@@ -13,7 +13,8 @@ include::compendium:partial$_attributes.adoc[]
 This guide is intended to help you writing content for ASAM projects.
 It provides you a set of hints and rules that make it easier to contribute concise and homogeneous content and documents to the projects.
 
-TIP: If you are using __{vscode}__, see the xref:compendium:tools/vscode/recommended_vscode_settings.adoc[].
+TIP: If you are using __{vscode}__, see the xref:compendium:tools/vscode/vscode__recommended_vscode_settings.adoc[].
+NOTE: __{asam}__ uses `.adoc` as fileextension for all AsciiDoc files.
 
 == Language
 
@@ -598,7 +599,7 @@ This FAQ helps you to manage the review and attribute handling.
 === Purpose of the draft-attribute
 
 Q1 What is this draft-attribute for?::
-New content on the master branch has to be marked with the `ifdef::draft[] - endif::draft[]` 'feature flag' mechanism.
+New content on the trunk has to be marked with the `ifdef::draft[] - endif::draft[]` 'feature flag' mechanism.
 New content in this case means content in adoc files that is not already reviewed and agreed on, like newly merged text from a development branch. +
 +
 A typical adoc topic looks like this:

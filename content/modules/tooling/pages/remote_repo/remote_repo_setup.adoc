@@ -24,7 +24,7 @@ GitLab::
 |===
 |{gitlab-icon-norole} +
 {gitlab-url}[ASAM GitLab^]
-a|include::compendium:page$tools/gitlab/how-to__gitlab-setup.adoc[tag=body]
+a|include::compendium:page$How-Tos/how-to__gitlab-setup.adoc[tag=body]
 |===
 --
 GitHub::

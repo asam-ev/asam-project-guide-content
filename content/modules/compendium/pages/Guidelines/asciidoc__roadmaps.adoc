@@ -1,12 +1,12 @@
-[[top-roadmap]]
-= How to create roadmaps in ASAM documents
+= Roadmaps
 :description: How-To for creating roadmaps in ASAM documents (standards).
 :keywords: asciidoc,roadmap,how-to, READYFORREVIEW
-
+:navtitle: [AsciiDoc] Roadmaps
 
 include::compendium:partial$_attributes.adoc[]
 
-This chapters shows how to include roadmaps in an ASAM standard.
+//tag::body[]
+This section shows how to include roadmaps in an ASAM standard.
 
 CAUTION: Asciidoc preview in __{vscode}__ renders the roadmap but does not apply the correct theme ("neutral"). Reason is unclear.
 
@@ -14,8 +14,11 @@ CAUTION: Asciidoctor can render mermaid with '-r asciidoctor-diagram' when 'mmdc
 
 
 
-
-== Code
+[tabs]
+====
+AsciiDoc::
++
+--
 ....
 [[fig-example-roadmap]] // <1>
 .example roadmap // <2>
@@ -47,11 +50,10 @@ gantt // <5>
 
 
 You can use the https://mermaid-js.github.io/mermaid-live-editor[Mermaid Live Editor] for creating the diagram code block.
-
-== Result
-
-See the result in <<fig-example-roadmap>>.
-
+--
+Result::
++
+--
 [[fig-example-roadmap]]
 .example roadmap
 [mermaid, theme="neutral"]
@@ -69,3 +71,9 @@ gantt
         Prepare new features for next Project: after a3,2021-06-11
         Migration path 1.x - 2.0: 2021-04-01, 2021-06-15
 ----
+--
+====
+
+
+
+//end::body[]

@@ -1,6 +1,7 @@
-= [Repository] Issue Naming Conventions
+= Issue Naming Conventions
 :description: Contains the conventions for naming issues that ASAM applies.
-:keywords: issue, naming, convention, git-workflow
+:keywords: issue, naming, repo_convention, git-workflow
+:navtitle: [Repository] Issue Naming Conventions
 
 include::compendium:partial$_attributes.adoc[]
 

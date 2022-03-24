@@ -1,21 +1,23 @@
-= How to include code blocks in ASAM documents
+= Include Code Blocks
 :description: How-To for including code blocks in ASAM documents (standards).
 :keywords: asciidoc,code,how-to, READYFORREVIEW
-:reftext: Code and syntax highlighting
-
+:navtitle: [AsciiDoc] Include Code Blocks
 
 include::compendium:partial$_attributes.adoc[]
 
-This chapters shows how to include code blocks in an ASAM standard. In the standard case, a fragment direcly from a source code file is included, to not have duplicated code in the document. This is shown in chapter <<Code as fragment from source code file>>.
+//tag::body[]
+This section shows how to include code blocks in an ASAM standard. In the standard case, a fragment direcly from a source code file is included, to not have duplicated code in the document. This is shown in chapter <<Code as fragment from source code file>>.
 
 In some cases, e.g. examples, it is also possible to direcly include code in the documentation. This is shown in chapter <<Code as snippet in document>>.
 
-== Code as fragment from source code file
-
-=== Code
-
+== Use Code Fragments From File
+[tabs]
+====
+Source file::
++
+--
 [[code-tags-in-source-file]]
-.Tags for incusion source code file
+.Tags for including source code file
 [source, js]
 ----
 [...]
@@ -31,9 +33,10 @@ function lorem(ipsum, dolor = 1) { // <2>
 <1> Anchor for code block. Reference this anchor using \<<code-example-code-block>>
 <2> Caption of the code block
 <3> Caption of the code block
-
-Then you can use the tags `+exampleInclude+` to include the fragement in the AsciiDoc documentation.
-
+--
+AsciiDoc::
++
+--
 ....
 [[code-example-code-block-tag]]  // <1>
 .ASAM example code block using tags // <2>
@@ -46,29 +49,29 @@ Then you can use the tags `+exampleInclude+` to include the fragement in the Asc
 <2> Caption of the code block
 <3> Sets code highlighting. Possible options: xml, java, ..
 <4> Code block delimiter
-<5> Direcly include source code file with tag marking fragment
+<5> Directly include source code file with tag marking fragment
 <6> Code block delimiter
 
-NOTE: For more informaton see the https://docs.asciidoctor.org/asciidoc/latest/directives/include-tagged-regions/[Asciidoctor reference].
-
-=== Result
-
-See the result in <<code-example-code-block-tag>>.
-
+NOTE: For more information, see the https://docs.asciidoctor.org/asciidoc/latest/directives/include-tagged-regions/[Asciidoctor reference].
+--
+Result::
++
+--
 [[code-example-code-block-tag]]
 .ASAM example code block
 [source,js]
 ----
 include::compendium:example$/examplecode.js[tags=exampleInclude]
 ----
+--
+====
 
-​
-
-== Code as snippet in document
-
-
-
-=== Code
+== Code As Snippet In Document
+[tabs]
+====
+AsciiDoc::
++
+--
 ....
 [[code-example-code-block]]  // <1>
 .ASAM example code block // <2>
@@ -89,11 +92,10 @@ include::compendium:example$/examplecode.js[tags=exampleInclude]
 <4> Actual Codeblock
 <5> Code block delimiter
 <6> Code block delimiter
-
-=== Result
-
-See the result in <<code-example-code-block>>.
-
+--
+Result::
++
+--
 [[code-example-code-block]]
 .ASAM example direct include code block
 [source,xml]
@@ -106,25 +108,35 @@ See the result in <<code-example-code-block>>.
   <ParameterDeclaration name="$HeadwayTime_Brake" parameterType="double" value="1.0"/>
 </ParameterDeclarations>
 ----
+--
+====
 
 
+== Code & Syntax Highlighting
+For inline code, enclose it with ` to apply monospace font.
 
-
-
-== Code & syntax highlighting
-
-
-[cols="a,a"]
-|===
-|
-For inline code, enclose it with ` to apply monospace font:
+[tabs]
+====
+AsciiDoc::
++
+--
 ....
-`volume show -is-encrypted true`
+You must set `volume show -is-encrypted true` before it works.
 ....
-|For inline code, enclose it with ` to apply monospace font: `volume show -is-encrypted true`
+--
+Result::
++
+--
+You must set `volume show -is-encrypted true` before it works.
+--
+====
 
-| For code blocks: the html in the square brackets tells the compiler that this is html source code for source highlighting.
-
+For code blocks: the html in the square brackets tells the compiler that this is html source code for source highlighting.
+[tabs]
+====
+AsciiDoc::
++
+--
 ....
 [source, html]
 ----
@@ -141,7 +153,10 @@ For inline code, enclose it with ` to apply monospace font:
 
 ----
 ....
-|
+--
+Result::
++
+--
 [source, html]
 ----
 <!DOCTYPE html>
@@ -156,5 +171,7 @@ For inline code, enclose it with ` to apply monospace font:
 </html>
 
 ----
+--
+====
 
-|===
+//end::body[]

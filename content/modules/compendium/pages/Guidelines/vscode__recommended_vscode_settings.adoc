@@ -1,6 +1,7 @@
 = Recommended Visual Studio Code Settings
 :description: Summarizes the recommended VSCode settings.
 :keywords: vscode,settings, READYFORREVIEW
+:navtitle: [VSCode] Recommended Visual Studio Code Settings
 
 include::compendium:partial$_attributes.adoc[]
 

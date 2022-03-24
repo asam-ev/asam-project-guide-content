@@ -1,18 +1,23 @@
 = Contributing Through Issues
 :description: Describes how to contribute through issues.
 :keywords: proposal, gitlab, issue, TODO
+:navtitle: [Workflow] Contributing Through Issues
+//tag::compendium[]
 //tag::numbered[]
 :numbered:
 //end::numbered[]
+//end::compendium[]
 
 include::compendium:partial$_attributes.adoc[]
 
+//tag::compendium[]
 //tag::roles[]
 {role-wg-member}
 {role-wg-lead}
 {role-project-lead}
 {role-idea-giver}
 //end::roles[]
+//end::compendium[]
 
 IMPORTANT: This is relevant to **ALL** project members!
 
@@ -20,7 +25,7 @@ This page describes how project participants can contribute to a project through
 This is the most common way of content contribution and does not require deeper knowledge of AsciiDoc or specific tools.
 
 
-TIP: If you want to contribute more directly, see xref:compendium:Guidelines/contribute_in_asciidoc.adoc[].
+TIP: If you want to contribute more directly, see xref:compendium:Guidelines/workflow__contribute_in_asciidoc.adoc[].
 
 //tag::body[]
 

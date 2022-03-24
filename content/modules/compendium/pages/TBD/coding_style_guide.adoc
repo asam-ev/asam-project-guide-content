@@ -33,14 +33,14 @@ By following the recommendations in this guide your code becomes easy-to-underst
 ** *Tab size: 4*
 ** *Insert spaces*
 
-TIP: For support in Visual Studio Code, see xref:compendium:tools/vscode/recommended_vscode_settings.adoc#_indentations[Indentations].
+TIP: For support in Visual Studio Code, see xref:compendium:tools/vscode/vscode__recommended_vscode_settings.adoc#_indentations[Indentations].
 
 === Encoding
 * Use *UTF-8* as encoding.
 
 === Whitespace
 
-TIP: For support in Visual Studio Code, see xref:compendium:tools/vscode//recommended_vscode_settings.adoc#_automatic_removal_of_spaces_after_periods[Automatic Whitespace Removal].
+TIP: For support in Visual Studio Code, see xref:compendium:tools/vscode//vscode__recommended_vscode_settings.adoc#_automatic_removal_of_spaces_after_periods[Automatic Whitespace Removal].
 
 Whitespace characters provide better readability when used in the correct places.
 

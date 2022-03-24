@@ -1,6 +1,7 @@
-= [Repository] Branch Naming Conventions
+= Branch Naming Conventions
 :description: Contains the conventions for naming branches that ASAM applies.
-:keywords: branch, naming, convention, git-workflow
+:keywords: branch, naming, repo_convention, git-workflow
+:navtitle: [Repository] Branch Naming Conventions
 
 include::compendium:partial$_attributes.adoc[]
 

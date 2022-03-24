@@ -18,7 +18,7 @@ An issue with the described problem and suggested solution is created.
 None
 
 == How
-// include::compendium:partial$tools/gitlab/create_issue_service_desk.adoc[tag=steps]
+// include::compendium:partial$How-Tos/how-to__create_issue_service_desk.adoc[tag=steps]
 
 . Click the button "Submit feedback"
 +

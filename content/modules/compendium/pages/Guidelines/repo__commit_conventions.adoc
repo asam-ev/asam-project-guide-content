@@ -1,6 +1,7 @@
-= [Repository] Commit Message Conventions
+= Commit Message Conventions
 :description: Git and GitLab commit conventions
-:keywords: commit,convention,naming,git-workflow
+:keywords: commit,repo_convention,naming,git-workflow
+:navtitle: [Repository] Commit Message Conventions
 
 include::compendium:partial$_attributes.adoc[]
 

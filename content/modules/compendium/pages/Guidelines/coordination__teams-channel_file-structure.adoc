@@ -1,6 +1,7 @@
-= [Coordination] Teams Channels File Structure
+= Teams Channels File Structure
 :description: Describes the standard teams channel structure at ASAM.
 :keywords: teams,channel,file-structure, READYFORREVIEW
+:navtitle: [Coordination] Teams Channels File Structure
 
 include::compendium:partial$_attributes.adoc[]
 

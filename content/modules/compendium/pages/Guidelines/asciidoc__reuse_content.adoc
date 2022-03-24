@@ -1,9 +1,9 @@
-[[top-partials]]
-= Reusing content
+= Reuse Content
 :description: How-To for reusing content from other files.
 :keywords: asciidoc,reuse,include,how-to, READYFORREVIEW
+:navtitle: [AsciiDoc] Reuse Content
 
-
+//tag::body[]
 If you have a chunk of content that's repeated across different pages, you can easily write it once and reuse it across those pages.
 Reuse is possible from within the same repository and across repositories.
 In the files where you'd like to reuse content:
@@ -19,3 +19,4 @@ In the files where you'd like to reuse content:
 
 
 If you want to learn more about the include directive, https://asciidoctor.org/docs/user-manual/#include-directive[check out the AsciiDoctor User Manual^].
+//end::body[]

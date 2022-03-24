@@ -1,6 +1,7 @@
 = Proposal Phase Contribution Guidelines
 :description: Contains a list of guidelines for contributing with issues that project members need to follow.
 :keywords: guideline, issue, proposal
+:navtitle: [] Proposal Phase Contribution Guidelines
 :numbered:
 
 include::compendium:partial$_attributes.adoc[]
@@ -25,4 +26,4 @@ h| Step
 |===
 //end::roles[]
 
-include::compendium:page$ASAM/doc-as-code/contribute_with_issues.adoc[tags=body;proposal]
+include::compendium:page$ASAM/doc-as-code/workflow__contribute_with_issues.adoc[tags=body;proposal]

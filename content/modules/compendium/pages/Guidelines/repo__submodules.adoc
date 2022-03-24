@@ -1,6 +1,7 @@
-= [Repository] Submodules
+= Submodules
 :description: Describes submodules and their usage in Git.
 :keywords: git,gitlab,submodule, READYFORREVIEW
+:navtitle: [Repository] Submodules
 
 include::compendium:partial$_attributes.adoc[]
 
@@ -13,7 +14,7 @@ For further information, see the https://git-scm.com/book/en/v2/Git-Tools-Submod
 
 This page give an overview over how to handle submodules in ASAM projects.
 
-TIP: If you are not setting up or responsible for a git repository, you only need to know how to xref:compendium:tools/git/submodules/submodule_pull.adoc[pull a previously set up submodule in git].
+TIP: If you are not setting up or responsible for a git repository, you only need to know how to xref:compendium:How-Tos/how-to__submodule_pull.adoc[pull a previously set up submodule in git].
 For this you only need to know: `+git submodule update --init+`. See below for details.
 
 == Git submodule usage

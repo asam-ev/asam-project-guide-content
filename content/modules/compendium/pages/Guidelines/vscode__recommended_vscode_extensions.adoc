@@ -2,6 +2,7 @@
 :description: A collection of recommended VSCode extensions
 :keywords: vscode,extensions,gitlab,asciidoc,drawio,docker, READYFORREVIEW
 :lookup: compendium:partial$vscode
+:navtitle: [VSCode] Recommended Visual Studio Code Extensions
 
 include::compendium:partial$_attributes.adoc[]
 

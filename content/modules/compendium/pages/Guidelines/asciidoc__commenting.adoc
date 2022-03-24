@@ -1,13 +1,11 @@
-= How to comment and review adoc files
+= Comment And Review adoc Files
 :description: A how-to for commenting AsciiDoc files
 :keywords: asciidoc,comment,gitlab,vscode, READYFORREVIEW
+:navtitle: [AsciiDoc] Comment And Review adoc Files
 
 include::compendium:partial$_attributes.adoc[]
 
-include::compendium:partial$conventions/git-based_workflow.adoc[tag=short]
-
-xref:tooling:vscode.adoc[].
-
+//tag::body[]
 Once a document is written by the group/service provider, we want to review and comment on the document.
 Unfortunatelly, there is no native built-in comment feature in GitLab and/or __{vscode}__.
 Also everyone / every  workgroup is working on their own branch.
@@ -18,7 +16,7 @@ There are now to possibilities how to handle his process, either use the comment
 
 Another and quicker way to comment directly in the document can be used when installing the __{vscode}__ Extension "Comment Anchor".
 
-image::comment_anchor.jpg[comment_anchor, 1100]
+image::compendium:comment_anchor.jpg[comment_anchor, 1100]
 
 Comment Anchor provides a possiblity to set highlighted comments and comment types directly in the text.
 There are several possiblities of comment types.
@@ -32,13 +30,13 @@ There are several possiblities of comment types.
 
 The list above looks like this in the __{vscode}__ Editor:
 
-image:sim_anchors.png[sim_anchors, 800]
+image::compendium:sim_anchors.png[sim_anchors, 800]
 
 The Anchor is tied to the Word (e.g. ANCHOR).
 
 How would this look like in an adoc file:
 
-image:asci_doc_comments.png[asci_com, 800]
+image::compendium:asci_doc_comments.png[asci_com, 800]
 
 ////
 TODO:  there is still work to do on this chapter
@@ -53,11 +51,12 @@ Now, the big question still open is when to use the issue comment section and wh
 As you can see in the image below, a new branch is create with an issue, the major progress you make should be documented in the ticket.
 For detailed comments that relate to a section/image/chapter of your document use the anchors.
 
-image:adoc_comment_workflow.png[workflow, 1100]
+image::compendium:adoc_comment_workflow.png[workflow, 1100]
 
 Now we have all those anchors in our document, how to find them again?
 To solve this issue, you can open the "Comment Anchor" Menu via the __{vscode}__ sidebar (marked as `1`).
 Now, the below window opens and we have two seperate possiblities to check our comments.
 First, we have an overview about the comments in the acitve file (marked as `2`) and we can scan the whole workspace for comments and get that overview (marked as `3`)
 
-image:comment_overview.png[overview, 1100]
+image::compendium:comment_overview.png[overview, 1100]
+//end::body[]
