@@ -1,4 +1,4 @@
-= Meeting Guidelines
+= [Coordination] Meeting Guidelines
 :description: TODO
 :keywords: TODO
 
@@ -13,7 +13,7 @@ include::compendium:partial$_attributes.adoc[]
   See xref:compendium:tools/teams/obtain_channel_email.adoc[].
 
 > To find the list of people registered for your group or WP, see the WP signup list.
-Its location is described in the xref:compendium:tools/teams/teams-channel_file-structure.adoc[Teams&Sharepoint Overview].
+Its location is described in the xref:compendium:Guidelines/coordination__teams-channel_file-structure.adoc[Teams&Sharepoint Overview].
 
 // TODO: find correct link and information supposed to go here.
 // TODO: write the full meaning of "WP"

@@ -1,4 +1,4 @@
-= Teams channels file structure
+= [Coordination] Teams Channels File Structure
 :description: Describes the standard teams channel structure at ASAM.
 :keywords: teams,channel,file-structure, READYFORREVIEW
 

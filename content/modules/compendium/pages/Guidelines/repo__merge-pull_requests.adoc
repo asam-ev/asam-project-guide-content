@@ -1,17 +1,17 @@
-= Merge/Pull Requests
+= [Repository] Merge/Pull Requests
 :description: Summarizes how merge requests work and how to best approach them.
 :keywords: merge,review, git-workflow
 
 include::compendium:partial$_attributes.adoc[]
 
 == Introduction
-A Merge or Pull Requests (MRs) are the way you merge content changes from a development or feature branch back into the xref:compendium:Guidelines/trunk_workflow.adoc#_the_trunk[trunk] or another branch.
+A Merge or Pull Requests (MRs) are the way you merge content changes from a development or feature branch back into the xref:compendium:Guidelines/workflow__trunk.adoc#_the_trunk[trunk] or another branch.
 They provide the project team the opportunity to review changes before they are applied and made public/official.
 
 
 == Merge Commit Strategy
 - History of commits in a MR must be https://medium.com/@catalinaturlea/clean-git-history-a-step-by-step-guide-eefc0ad8696d[clean^] prior to merge
-- Commit messages to a protected or master branch must adhere to the xref:compendium:Guidelines/commit_conventions.adoc[]
+- Commit messages to a protected or master branch must adhere to the xref:compendium:Guidelines/repo__commit_conventions.adoc[]
 
 ASAM repositories allow https://docs.gitlab.com/ee/user/project/merge_requests/fast_forward_merge.html[fast-forward merges^] only (`--ff-only`) and https://docs.gitlab.com/ee/user/project/merge_requests/squash_and_merge.html[squash commits^] by default.
 This means commits do not have to be merged manually and all commits are squashed automatically.
@@ -27,9 +27,9 @@ This is to make sure that in case multiple unrelated changes occurred in one bra
 
 
 == Dealing With Merge Conflicts
-See xref:compendium:Guidelines/merge_conflicts.adoc[].
+See xref:compendium:Guidelines/repo__merge_conflicts.adoc[].
 
 
 == Merge/Pull Request Review
 Merge/Pull Requests are reviewed by the project team in sequential steps.
-See the xref:compendium:Guidelines/trunk_workflow.adoc#_review[Trunk Workflow] page for more information on these reviews
+See the xref:compendium:Guidelines/workflow__trunk.adoc#_review[Trunk Workflow] page for more information on these reviews

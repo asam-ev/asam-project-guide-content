@@ -12,7 +12,7 @@ include::compendium:partial$_attributes.adoc[]
 //end::roles[]
 
 The most direct way of contributing to a project is by creating and editing the AsciiDoc files.
-However, in order for a consistent workflow and optimal use of the automation steps set up by __{asam}__, users must be familiar with the xref:compendium:Guidelines/trunk_workflow.adoc[] and <<Writing AsciiDoc Files,AsciiDoc>>.
+However, in order for a consistent workflow and optimal use of the automation steps set up by __{asam}__, users must be familiar with the xref:compendium:Guidelines/workflow__trunk.adoc[] and <<Writing AsciiDoc Files,AsciiDoc>>.
 This ensures that all projects work the same way and deliver the same high level of quality that is expected of an ASAM standard.
 
 
@@ -25,7 +25,7 @@ The central document only contains the mapping instructions for these chapters.
 == Workflow
 {mandatory}
 
-Editing AsciiDoc files in a project shall be done in development or feature branches, as described in xref:compendium:Guidelines/trunk_workflow.adoc[].
+Editing AsciiDoc files in a project shall be done in development or feature branches, as described in xref:compendium:Guidelines/workflow__trunk.adoc[].
 Click the link for more information on the workflow.
 
 

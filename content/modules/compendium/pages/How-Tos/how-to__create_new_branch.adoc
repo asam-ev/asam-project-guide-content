@@ -5,7 +5,7 @@
 include::compendium:partial$_attributes.adoc[]
 
 
-:convention: xref:compendium:Guidelines/branch_naming_conventions.adoc
+:convention: xref:compendium:Guidelines/repo__branch_naming_conventions.adoc
 
 There a many ways to create a branch in the git process.
 Two options are highlighted below.

@@ -1,4 +1,4 @@
-= Submodules in git
+= [Repository] Submodules
 :description: Describes submodules and their usage in Git.
 :keywords: git,gitlab,submodule, READYFORREVIEW
 

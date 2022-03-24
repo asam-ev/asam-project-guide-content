@@ -29,7 +29,7 @@ include::compendium:page$ASAM/doc-as-code/contribute_with_issues.adoc[leveloffse
 
 ---
 
-include::compendium:page$ASAM/doc-as-code/trunk_workflow.adoc[leveloffset=+1]
+include::compendium:page$ASAM/doc-as-code/workflow__trunk.adoc[leveloffset=+1]
 
 ---
 

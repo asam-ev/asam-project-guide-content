@@ -1,4 +1,4 @@
-= Merge Conflicts: Preventing And Resolving
+= [Repository] Merge Conflicts: Preventing And Resolving
 :description: Describes how merge conflicts can be resolved with git and how to avoid them ahead of time.
 :keywords: git-workflow,merge,conflict, TODO
 

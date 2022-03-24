@@ -1,4 +1,4 @@
-= Hosting Workshops
+= [Coordination] Hosting Workshops
 :description: Describes general steps for hosting a workshop.
 :keywords: workshop
 

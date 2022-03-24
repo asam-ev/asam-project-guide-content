@@ -12,7 +12,7 @@ include::{abb}[]
 This page contains guides and best-practices for <<Microsoft Teams>> and <<Sharepoint>>.
 
 == Microsoft Teams
-include::compendium:page$tools/teams/teams-channel_file-structure.adoc[{offset_value}]
+include::compendium:page$Guidelines/coordination__teams-channel_file-structure.adoc[{offset_value}]
 
 include::compendium:page$tools/teams/receive_notifications.adoc[{offset_value}]
 

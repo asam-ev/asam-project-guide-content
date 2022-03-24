@@ -99,7 +99,7 @@ image::compendium:asam/proposal_issue_example.png[title=Topic issue for a propos
 
 DEVELOPMENT::
 //tag::development[]
-The name of the issue shall follow the xref:compendium:Guidelines/branch_naming_conventions.adoc[].
+The name of the issue shall follow the xref:compendium:Guidelines/repo__branch_naming_conventions.adoc[].
 //end::development[]
 
 //tag::body[]
@@ -109,7 +109,7 @@ The name of the issue shall follow the xref:compendium:Guidelines/branch_naming_
 {mandatory}
 
 The use of issue labels is required for filtering and sorting issues more efficiently.
-Each issue and merge/pull request must apply labels as defined in xref:compendium:Guidelines/issue_and_mr_labels.adoc[]. +
+Each issue and merge/pull request must apply labels as defined in xref:compendium:Guidelines/repo__issue_and_mr_labels.adoc[]. +
 A project may also have project-specific labels in addition to the official ones, specified directly in the project group.
 
 
@@ -168,7 +168,7 @@ Additionally, an issue may also be closed without resolution if
 == The Issue Triage
 ASAM has defined a process for closing outdated issues.
 This is called the "Issue Triage" or "Ticket Triage". +
-See xref:compendium:Guidelines/ticket_triage.adoc[] for more details.
+See xref:compendium:Guidelines/workflow__ticket_triage.adoc[] for more details.
 
 
 == Reopening Issues

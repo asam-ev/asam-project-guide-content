@@ -54,7 +54,7 @@ When organizing a Proposal Workshop, a few things are needed as prerequisites.
 
 
 == Hosting a proposal workshop
-include::compendium:page$ASAM/hosting_workshops.adoc[leveloffset=+1,tag=body]
+include::compendium:page$ASAM/coordination__hosting_workshops.adoc[leveloffset=+1,tag=body]
 
 
 == Agenda Template

@@ -1,4 +1,4 @@
-= Trunk Workflow For Remote Repositories
+= [Workflow] Trunk-based Remote Repositories
 :description: A guide on the trunk workflow for projects.
 :keywords: trunk,workflow,doc-as-code, git-workflow,TODO
 
@@ -25,7 +25,7 @@ ASAM recommends always merging back to the parent branch.
 
 The benefit of this approach is that each repository's trunk contains the latest reviewed (and possibly released) version.
 Mistakes and unfinished changes to parts of it only have an impact on the branch where they happen. +
-The approach also relies on xref:compendium:Guidelines/merge-pull_requests.adoc[Merge/Pull Request] which provide better tools and options for reviews than a direct push to the trunk would.
+The approach also relies on xref:compendium:Guidelines/repo__merge-pull_requests.adoc[Merge/Pull Request] which provide better tools and options for reviews than a direct push to the trunk would.
 
 
 == The Trunk
@@ -61,7 +61,7 @@ MERGE --Review OK--> CLOSED;
 Each stage is described in more detail in the sections below.
 The role listed at the top of each section is the one responsible for it.
 
-You may also want to check out ASAM's xref:compendium:Guidelines/issue_and_mr_labels.adoc#_status_labels[**list of status labels**].
+You may also want to check out ASAM's xref:compendium:Guidelines/repo__issue_and_mr_labels.adoc#_status_labels[**list of status labels**].
 
 ---
 
@@ -70,7 +70,7 @@ You may also want to check out ASAM's xref:compendium:Guidelines/issue_and_mr_la
 Who:: {role-wg-lead}
 Steps::
 . Create issues that map to the features in the project list
-* Apply the xref:compendium:Guidelines/issue_naming_conventions.adoc[]
+* Apply the xref:compendium:Guidelines/repo__issue_naming_conventions.adoc[]
 . Assign the issues to the correct `<milestone>`
 . Assign the issues to a responsible with `@<user>`
 Tips::
@@ -101,15 +101,15 @@ Tips::
 [horizontal]
 Who:: Assignee
 Steps::
-. Once a proposal is ready to be implemented, create a new development branch for the issue, applying the xref:compendium:Guidelines/branch_naming_conventions.adoc[**Branch Naming Conventions**]
+. Once a proposal is ready to be implemented, create a new development branch for the issue, applying the xref:compendium:Guidelines/repo__branch_naming_conventions.adoc[**Branch Naming Conventions**]
 * Each branch must have a parent issue and each issue may have zero or one child branches
 . Change the issue status label to {implementation-label} to indicate that a proposal is being implemented for this issue
-. Begin submitting work via commits to the develop branch, adhering to the xref:compendium:tools/gitlab/commit_conventions.adoc[**Commit Message Conventions**]
+. Begin submitting work via commits to the develop branch, adhering to the xref:compendium:tools/gitlab/repo__commit_conventions.adoc[**Commit Message Conventions**]
 . Review implementation progress of issue with {role-wg-lead} and the other {role-wg-member} in Work Group meetings
 . Once the group agrees that the feature is complete:
 .. Change the issue status label to {internalreview-label}
 .. If changes were developed in xref:compendium:How-Tos/how-to__mark_parts_as_draft.adoc[draft sections], remove the encapsulating draft feature flag from the content (make sure that all other content remains within the draft flag) and commit the change.
-.. If there is no xref:compendium:Guidelines/merge-pull_requests.adoc[Merge/Pull Request] for this branch yet, create one
+.. If there is no xref:compendium:Guidelines/repo__merge-pull_requests.adoc[Merge/Pull Request] for this branch yet, create one
 .. If a Merge/Pull Request exists and is set to "Draft:", remove the draft flag from the Merge/Pull Request name
 .. Add a comment to the Merge/Pull Request to ask for a review by the whole project and the implementers forum: ``/request_review @all``.
 * The MR MUST include document subsection number(s) being reviewed and a link to the lines of source code to be reviewed.
@@ -117,7 +117,7 @@ Tips::
 * If at any point during the implementation the group decides the issue has become irrelevant or cannot be implemented, the status label is changed to {wontfix-label} and the issue is closed (as well as any related branches and Merge/Pull Requests)
 * Issue branches SHOULD be short-lived (no more than 2 weeks) to ensure progress and direction are visible to project members and that it is not too out of sync with other activities.
 * If a branch cannot be short-lived, rebase frequently to incorporate upstream changes.
-Both tips reduce the chance for xref:compendium:Guidelines/merge_conflicts.adoc[**Merge Conflicts**].
+Both tips reduce the chance for xref:compendium:Guidelines/repo__merge_conflicts.adoc[**Merge Conflicts**].
 * Create branches xref:compendium:tools/gitlab/create_branch_from_issue.adoc[directly from the issue] to ensure the branch is linked to the issue.
 ** This also provides the option to set up the related Merge/Pull Request right away.
 This way, the Merge/Pull Request (and its branch) are already accessible through the parent issue.
@@ -162,7 +162,7 @@ Steps::
 Who:: {role-service-provider}
 Steps::
 . The Service Provider changes the status label to {documentation-label}
-. The Service Provider refines the content in the xref:compendium:Guidelines/merge-pull_requests.adoc[Merge/Pull Request]
+. The Service Provider refines the content in the xref:compendium:Guidelines/repo__merge-pull_requests.adoc[Merge/Pull Request]
 .. The content is adjusted to adhere to xref:compendium:Guidelines/editorial_guide.adoc[ASAM style and writing conventions]
 .. General editorial rewrites to ensure homogeneity of content
 +
@@ -172,7 +172,7 @@ In the case that questions lead to significant changes to the content, the MR is
 . On completion of the integration:
 .. Set the status label of the Merge/Pull Request to {needccbreview-label}
 * Set to squash commits with https://www.tutorialspoint.com/what-is-a-fast-forward-merge-in-git[fast-forward merging^] (default).
-* Squash commit message MUST adhere to the xref:compendium:tools/gitlab/commit_conventions.adoc[**Commit Message Conventions**]
+* Squash commit message MUST adhere to the xref:compendium:tools/gitlab/repo__commit_conventions.adoc[**Commit Message Conventions**]
 
 ---
 
@@ -184,7 +184,7 @@ Steps::
 * Is the original content still correctly represented?
 * Are all guidelines & conventions maintained?
 * Are all discussions resolved?
-* Does it have a https://medium.com/@catalinaturlea/clean-git-history-a-step-by-step-guide-eefc0ad8696d[clear commit history^] that adheres to the xref:compendium:tools/gitlab/commit_conventions.adoc[]?
+* Does it have a https://medium.com/@catalinaturlea/clean-git-history-a-step-by-step-guide-eefc0ad8696d[clear commit history^] that adheres to the xref:compendium:tools/gitlab/repo__commit_conventions.adoc[]?
 . If the review is not passed, return to <<Integration>>
 . If the review is passed and the CCB can merge, the CCB merges the Merge/Pull Request back to the trunk
 .. The CCB removes the status label and closes the linked issue

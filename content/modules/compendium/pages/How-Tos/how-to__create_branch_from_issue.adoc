@@ -18,7 +18,7 @@ Keep the size of the issue reasonable, for example by trying to have it cover ab
 image::compendium:workflow_tut_issue2.png[define_issue, 1100, "define issue"]
 
 . Open your issue and create your branch from it.
-Follow the xref:compendium:Guidelines/branch_naming_conventions.adoc[] for the branch name.
+Follow the xref:compendium:Guidelines/repo__branch_naming_conventions.adoc[] for the branch name.
 +
 image::compendium:workflow_tut_issue_branch.png[create_branch,1100, "create branch from issue"]
 

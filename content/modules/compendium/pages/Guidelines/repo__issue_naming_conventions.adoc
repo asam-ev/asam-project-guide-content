@@ -1,4 +1,4 @@
-= Issue Naming Conventions
+= [Repository] Issue Naming Conventions
 :description: Contains the conventions for naming issues that ASAM applies.
 :keywords: issue, naming, convention, git-workflow
 

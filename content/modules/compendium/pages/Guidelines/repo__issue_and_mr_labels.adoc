@@ -1,4 +1,4 @@
-= Issue And Merge Request Labels
+= [Repository] Issue And Merge Request Labels
 :description: Contains a list of mandatory labels each project shall use.
 :keywords: label, gitlab, github, naming, issue, merge_request
 
