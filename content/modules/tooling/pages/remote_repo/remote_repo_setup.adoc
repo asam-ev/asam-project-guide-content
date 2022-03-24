@@ -34,7 +34,7 @@ GitHub::
 |===
 |{github-icon-norole} +
 {github-url}[ASAM e.V. on GitHub^]
-a|include::compendium:page$tools/github/how-to__github-setup.adoc[tag=body]
+a|include::compendium:page$How-Tos/how-to__github-setup.adoc[tag=body]
 |===
 --
 ====

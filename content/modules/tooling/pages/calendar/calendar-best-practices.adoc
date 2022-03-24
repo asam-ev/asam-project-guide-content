@@ -8,4 +8,9 @@ include::{abb}[]
 
 {calendar-icon-page}
 
+== General Tips
 include::partial$calendar-include-mail.adoc[]
+
+include::compendium:page$Guidelines/coordination__meeting_guidelines.adoc[leveloffset=+1]
+
+include::compendium:page$Guidelines/coordination__meeting_moderation.adoc[leveloffset=+1]

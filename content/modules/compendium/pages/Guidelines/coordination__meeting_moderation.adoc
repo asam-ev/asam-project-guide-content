@@ -43,7 +43,7 @@ include::partial$_attributes.adoc[]
 * Ask less involved people about their opinion/contribution
 * Do not let the discussion become repetitive
 * In case discussions are very controversial
-** Clearly document the opposing positions in the memo. Once everything has​ been said, carry out a vote.
+** Clearly document the opposing positions in the memo. Once everything has been said, carry out a vote.
 ** If opposing positions are based upon uncertainty (e.g. something "might not work" or​ "could be too slow"), then propose an investigation and postpone the discussion until​ the results are known.
 ** If opposing positions are based upon different status-quo in member companies (e.g. something is implemented one way in company A and the other way in company B), try to find a compromise, e.g.
 *** propose a mix of both approaches, which allows easy migration for everyone  ​
