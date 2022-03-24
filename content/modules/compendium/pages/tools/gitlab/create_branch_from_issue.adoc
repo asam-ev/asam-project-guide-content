@@ -1,7 +1,0 @@
-= Create development branch from issues
-:description: Describes how to create a (development) branch from an issue
-:keywords: branch,issue,gitlab,TODO
-
-include::compendium:partial$_attributes.adoc[]
-
-include::compendium:partial$tools/gitlab/create_branch_from_issue.adoc[]

@@ -12,6 +12,6 @@ include::compendium:page$tools/git/git_terminology.adoc[{offset-value}]
 
 include::compendium:page$tools/git/git_actions.adoc[{offset-value}]
 
-include::compendium:page$tools/git/working_with_git.adoc[{offset-value}]
+include::compendium:page$tools/git/git__make_changes.adoc.adoc[{offset-value}]
 
 include::compendium:page$tools/git/cloning_repo_tutorial.adoc[{offset-value}]

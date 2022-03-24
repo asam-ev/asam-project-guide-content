@@ -1,0 +1,48 @@
+= Branch Naming Conventions
+:description: Contains the conventions for naming branches that ASAM applies.
+:keywords: branch, naming, convention, git-workflow
+
+include::compendium:partial$_attributes.adoc[]
+
+== Convention
+
+====
+`[red]#change-type#/[green]#group-name#/[yellow]#branch-title#`
+====
+
+
+== General Guidelines
+
+. Applies to all feature branches
+. All letters in the name must be lowercase
+. Use hyphens ("_") instead of spaces (" ")
+
+
+== Change Types
+[horizontal]
+`feature`:: branches that enhance the standard or add additional features
+`fix`:: Bug fixes to contradictions or errors in the standard
+`doc`:: Documentation changes only
+`experimental`:: (advanced development) Branches where developers want to try out or demonstrate some ideas but don't expect their changes to be integrated directly
+
+
+== Group Names
+include::compendium:partial$group-name_examples.adoc[]
+
+
+== Branch Title
+. Should be descriptive and make the change clear, i.e. not "update-sensor-model-x", but rather "initial-radarsensorviewconfig-support"
+. If based on an issue, the title shall use the issue-title (i.e. the issue name minus the (optional) work group prefix), applying the <<General Guidelines>>
+
+
+== Examples
+
+====
+    feature/tp/lane-subtype
+====
+====
+    feature/pp/support-for-flatbuffer
+====
+====
+    fix/ge/index-specification-of-trace-files
+====

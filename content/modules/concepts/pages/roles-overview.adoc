@@ -60,7 +60,7 @@ A __GTM__ is an ASAM employee focussed on coordinating project processes and the
 h|xref:role-specific:technical-writer.adoc[(7) Technical Writer]
 a|Editor and writing support. +
 A __Technical Writer__ supports the creation of documents.
-They ensure ASAM's xref:compendium:writing_guidelines/editorial_guide.adoc[Editorial Guide] is applied and the document is formalized.
+They ensure ASAM's xref:compendium:Guidelines/editorial_guide.adoc[Editorial Guide] is applied and the document is formalized.
 
 h|xref:role-specific:tsc.adoc[(8) Technical Steering Committee (TSC)]
 a|Committee at ASAM reviewing a project's state. +

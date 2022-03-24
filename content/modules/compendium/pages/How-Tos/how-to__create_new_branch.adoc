@@ -1,0 +1,48 @@
+= How-To: Create A Branch
+:description: Describes branching in git and gitlab
+:keywords: git,gitlab,branching,branch,TODO
+
+include::compendium:partial$_attributes.adoc[]
+
+
+:convention: xref:compendium:Guidelines/branch_naming_conventions.adoc
+
+There a many ways to create a branch in the git process.
+Two options are highlighted below.
+
+
+== Option 1: Using Visual Studio Code
+
+image::create-a-branch.png[title="Create a new branch in __{vscode}__"]
+
+. Click on the branch icon on the bottom left
+. Click on "Create New Branch"
+. Enter a new {convention}[valid branch name] and confirm with Enter
+
+You are automatically switched to the new branch.
+
+[NOTE]
+====
+**This is a local branch**.
+You need to push it before it is also on the remote.
+====
+
+
+== Option 2: In GitLab
+
+image::compendium:workflow_tut_step1.png[img1, 1100, title="Select the dropdown menu for new branch"]
+
+. Open an issue for which you want to create a new branch
+. Select "Create branch" from the dropdown menu
++
+image::compendium:workflow_tut_step2.png[img2, 1100,title="Create name for new branch"]
+
+. Enter a new {convention}[valid branch name]
+. Click "Create branch"
+
+The branch is now created on remote.
+
+[NOTE]
+====
+**You need to check out this branch locally as this only creates the branch on the server.**
+====

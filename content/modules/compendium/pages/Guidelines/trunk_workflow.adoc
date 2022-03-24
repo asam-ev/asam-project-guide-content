@@ -1,0 +1,197 @@
+= Trunk Workflow For Remote Repositories
+:description: A guide on the trunk workflow for projects.
+:keywords: trunk,workflow,doc-as-code, git-workflow,TODO
+
+include::compendium:partial$_attributes.adoc[]
+
+{role-gtm}
+{role-project-lead}
+{role-wg-member}
+{role-wg-lead}
+{role-technical-writer}
+{role-service-provider}
+
+IMPORTANT: Never work on the trunk directly -- always create your own <<Create development branch,development branch>>!
+
+== Introduction
+The trunk-based workflow is an established development approach.
+Its central idea is that there is a single central branch (also known as "trunk") that contains the official and reviewed state of a project. +
+Usually, this trunk is protected so that users cannot directly commit and push changes to it.
+Instead, all changes on the repository's content are made in development or feature branches.
+These can either be branched off of the trunk or from another feature branch.
+
+Once all changes are ready, the branch is merged back into either its parent branch (which may be the trunk or another feature branch) or directly to the trunk (if its parent is another feature branch).
+ASAM recommends always merging back to the parent branch.
+
+The benefit of this approach is that each repository's trunk contains the latest reviewed (and possibly released) version.
+Mistakes and unfinished changes to parts of it only have an impact on the branch where they happen. +
+The approach also relies on xref:compendium:Guidelines/merge-pull_requests.adoc[Merge/Pull Request] which provide better tools and options for reviews than a direct push to the trunk would.
+
+
+== The Trunk
+This branch can only be merged to by the ASAM office or the project's Change Control Board (CCB).
+Unless indicated by a clear git tag, all commits are considered to be part of a release candidate.
+
+Users **MAY** branch off the trunk for more focused development work. +
+These branches **SHOULD** be short-lived (<2 weeks) and regularly merged back. +
+These branches **MAY** be squashed and **MUST** be merged via fast-forward merge (enabled by default).
+
+
+== Workflow Overview
+Developing content for ASAM standards is focussed around the concept of xref:compendium:Guidelines/contribute_with_issues.adoc[contributing through issues].
+The following sections describe this workflow in more detail.
+
+.Workflow Stages
+[mermaid]
+....
+graph LR
+id1[ISSUE created during INITIAL SETUP]
+--> ANALYSIS
+--Duplicate-->CLOSED
+ANALYSIS --> IMPLEMENTATION
+--Done--> REVIEW
+IMPLEMENTATION --Issue Canceled--> CLOSED
+REVIEW --Review NOK--> IMPLEMENTATION
+REVIEW --Review OK--> INTEGRATION
+--Done--> MERGE
+MERGE --Review NOK--> INTEGRATION
+MERGE --Review OK--> CLOSED;
+....
+
+Each stage is described in more detail in the sections below.
+The role listed at the top of each section is the one responsible for it.
+
+You may also want to check out ASAM's xref:compendium:Guidelines/issue_and_mr_labels.adoc#_status_labels[**list of status labels**].
+
+---
+
+=== Initial Setup
+[horizontal]
+Who:: {role-wg-lead}
+Steps::
+. Create issues that map to the features in the project list
+* Apply the xref:compendium:Guidelines/issue_naming_conventions.adoc[]
+. Assign the issues to the correct `<milestone>`
+. Assign the issues to a responsible with `@<user>`
+Tips::
+* Avoid including files in source control that are specific to your development
+  machine or process -> set up https://git-scm.com/docs/gitignore[.gitignore^] accordingly
+* Create sub-issues in case an issue contains too much content for a short-lived implementation
+* It may be necessary to create new issues during development as well, as new knowledge and information comes up.
+These have the same requirements and steps as those created at the beginning
+
+---
+
+=== Analysis
+[horizontal]
+Who:: Assignee
+Steps::
+. Assign the label {analysis-label} to indicate this issue is being looked at and discussed.
+. Coordinate and drive the preparation of a proposal for addressing the issue.
+Do this either directly via comments or in further meetings, adding the results to the comments later.
+. If the analysis shows the issue is a duplicate to another issue in the same project:
+.. Assign the label {duplicate-label} and assign the {role-wg-lead}
+.. The WG Lead reviews the issue and either closes it (if it is a duplicate) or changes the status back to {analysis-label} and the assignee back to the original issue assignee
+Tips::
+* If analysis shows an issue to contain too many steps, create sub-issues to split the topic up further for faster content implementation
+
+---
+
+=== Implementation
+[horizontal]
+Who:: Assignee
+Steps::
+. Once a proposal is ready to be implemented, create a new development branch for the issue, applying the xref:compendium:Guidelines/branch_naming_conventions.adoc[**Branch Naming Conventions**]
+* Each branch must have a parent issue and each issue may have zero or one child branches
+. Change the issue status label to {implementation-label} to indicate that a proposal is being implemented for this issue
+. Begin submitting work via commits to the develop branch, adhering to the xref:compendium:tools/gitlab/commit_conventions.adoc[**Commit Message Conventions**]
+. Review implementation progress of issue with {role-wg-lead} and the other {role-wg-member} in Work Group meetings
+. Once the group agrees that the feature is complete:
+.. Change the issue status label to {internalreview-label}
+.. If changes were developed in xref:compendium:How-Tos/how-to__mark_parts_as_draft.adoc[draft sections], remove the encapsulating draft feature flag from the content (make sure that all other content remains within the draft flag) and commit the change.
+.. If there is no xref:compendium:Guidelines/merge-pull_requests.adoc[Merge/Pull Request] for this branch yet, create one
+.. If a Merge/Pull Request exists and is set to "Draft:", remove the draft flag from the Merge/Pull Request name
+.. Add a comment to the Merge/Pull Request to ask for a review by the whole project and the implementers forum: ``/request_review @all``.
+* The MR MUST include document subsection number(s) being reviewed and a link to the lines of source code to be reviewed.
+Tips::
+* If at any point during the implementation the group decides the issue has become irrelevant or cannot be implemented, the status label is changed to {wontfix-label} and the issue is closed (as well as any related branches and Merge/Pull Requests)
+* Issue branches SHOULD be short-lived (no more than 2 weeks) to ensure progress and direction are visible to project members and that it is not too out of sync with other activities.
+* If a branch cannot be short-lived, rebase frequently to incorporate upstream changes.
+Both tips reduce the chance for xref:compendium:Guidelines/merge_conflicts.adoc[**Merge Conflicts**].
+* Create branches xref:compendium:tools/gitlab/create_branch_from_issue.adoc[directly from the issue] to ensure the branch is linked to the issue.
+** This also provides the option to set up the related Merge/Pull Request right away.
+This way, the Merge/Pull Request (and its branch) are already accessible through the parent issue.
+** Adding "DRAFT: " in front of a Merge/Pull Request's name marks it as not ready for merge and disables the "Merge" button.
+This way, the Merge/Pull Request (and its branch) cannot be concluded by accident.
+* Mark passages which are not ready for viewing in the final output as draft (see xref:compendium:How-Tos/how-to__mark_parts_as_draft.adoc[])
+
+---
+
+=== Review
+The Review stage consists of the <<Internal Review>> and the <<Change Control Board Review>>
+
+==== Internal Review
+[horizontal]
+Who:: All {role-wg-member} & Implementers Forum
+Steps::
+. Submit feedback on the changes directly in the Merge/Pull Request
+* General feedback: Submit a comment on the Merge/Pull Request
+* Content specific feedback: Start a review in the changes tab of the Merge/Pull Request
++
+NOTE: To start a review, write a comment on a diff as normal under the 'Changes' tab in a Merge/Pull Request and then select 'Start a review'. +
+Click https://docs.gitlab.com/ee/user/discussions/#starting-a-review[here^] for more information.
++
+. If the review feedback requires further development work, the process restarts from the <<Implementation>> stage
+Tips::
+* Technical discussion happen in comments
+
+// .A demo of a review
+// image::ReviewExample.gif[]
+
+==== Change Control Board Review
+[horizontal]
+Who:: {ccb}
+Steps::
+. If there are no unresolved comments or threads after two weeks, the CCB ends the review
+. The Merge/Pull Request is assigned to the Service Provider for <<Integration>>
+
+---
+
+=== Integration
+[horizontal]
+Who:: {role-service-provider}
+Steps::
+. The Service Provider changes the status label to {documentation-label}
+. The Service Provider refines the content in the xref:compendium:Guidelines/merge-pull_requests.adoc[Merge/Pull Request]
+.. The content is adjusted to adhere to xref:compendium:Guidelines/editorial_guide.adoc[ASAM style and writing conventions]
+.. General editorial rewrites to ensure homogeneity of content
++
+IMPORTANT: Questions on content should be addressed to the original issue assignee who will be responsible for ensuring a satisfactory resolution.
+In the case that questions lead to significant changes to the content, the MR is reopened for review on resolution.
++
+. On completion of the integration:
+.. Set the status label of the Merge/Pull Request to {needccbreview-label}
+* Set to squash commits with https://www.tutorialspoint.com/what-is-a-fast-forward-merge-in-git[fast-forward merging^] (default).
+* Squash commit message MUST adhere to the xref:compendium:tools/gitlab/commit_conventions.adoc[**Commit Message Conventions**]
+
+---
+
+=== Merge
+[horizontal]
+Who:: {ccb}
+Steps::
+. CCB performs a final review of the integrated content
+* Is the original content still correctly represented?
+* Are all guidelines & conventions maintained?
+* Are all discussions resolved?
+* Does it have a https://medium.com/@catalinaturlea/clean-git-history-a-step-by-step-guide-eefc0ad8696d[clear commit history^] that adheres to the xref:compendium:tools/gitlab/commit_conventions.adoc[]?
+. If the review is not passed, return to <<Integration>>
+. If the review is passed and the CCB can merge, the CCB merges the Merge/Pull Request back to the trunk
+.. The CCB removes the status label and closes the linked issue
+. If the review is passed but the CCB may not merge, the CCB changes the status label to {readytomerge-label}
+Tips::
+- Use a https://help.github.com/articles/using-pull-requests/[pull request^] for code reviews.
+- Delete local and remote feature branches after merging.
+
+
+related::git-workflow[]

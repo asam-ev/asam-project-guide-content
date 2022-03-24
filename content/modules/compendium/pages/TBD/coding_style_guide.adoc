@@ -18,7 +18,7 @@ You should follow the recommendations in this document in the following cases:
 
 . You are a _scenario developer_ writing fully functional scenarios for real use.
 . You are a _writer of documentation_ and want to add code examples (snippets) to your adoc document. +
-In this case you should mark your code examples as a `+[source, osc2]+` source block as described in the xref:compendium:writing_guidelines/writing_guide.adoc[].
+In this case you should mark your code examples as a `+[source, osc2]+` source block as described in the xref:compendium:Guidelines/writing_guide.adoc[].
 
 
 By following the recommendations in this guide your code becomes easy-to-understand for you and other users.

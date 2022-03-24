@@ -1,0 +1,32 @@
+= How-To: Forking from repository
+:description: TODO
+:keywords: TODO
+
+include::compendium:partial$_attributes.adoc[]
+
+Creating a fork "clones" the repository into your profile, allowing you to make changes without having to interact with the main repository.
+
+TIP: The procedure is the same on code.asam.net (gitlab) and on github.
+
+== Forking step-by-Step
+
+image::forking-a-repo.gif[title="Forking a repo"]
+
+. Select "Fork" from the top of the repository page
+. Select yourself from the list of users
+. Wait for the forking process to finish
+
+Once you see your name in the url of the repository, the forking is complete.
+
+== Creating A Pull Request From A Fork
+
+To submit the changes you make in your fork back to the original repository, submit a Merge/Pull request as normal in the main repository, making sure to select your fork.
+
+image::creating-a-pr-from-a-fork.gif[title="Creating a PR from a fork"]
+
+. Access the original repository
+. Click on "Pull requests"
+. Click on "New pull request"
+. Click "compare across forks"
+. Select your fork from the list
+. Click on "Create pull request"

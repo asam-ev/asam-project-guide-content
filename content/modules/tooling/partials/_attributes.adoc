@@ -9,16 +9,16 @@
 :return-info: ->Home<-
 
 // Internal links
-:standard-tooling-xref: xref:tooling:
-:drawio-xref: {standard-tooling-xref}drawio.adoc
-:calendar-xref: {standard-tooling-xref}calendar.adoc
-:sharepoint-xref: {standard-tooling-xref}teams-and-sharepoint.adoc
-:vscode-xref: {standard-tooling-xref}vscode.adoc
-:docker-xref: {standard-tooling-xref}docker.adoc
-:teams-xref: {standard-tooling-xref}teams-and-sharepoint.adoc
-:git-xref: {standard-tooling-xref}git.adoc
-:filestage-xref: {standard-tooling-xref}filestage.adoc
-:remote-xref: {standard-tooling-xref}remote_repo.adoc
+:standard-tooling-xref:xref:tooling:
+:drawio-xref:{standard-tooling-xref}drawio.adoc
+:calendar-xref:{standard-tooling-xref}calendar.adoc
+:sharepoint-xref:{standard-tooling-xref}teams-and-sharepoint.adoc
+:vscode-xref:{standard-tooling-xref}vscode.adoc
+:docker-xref:{standard-tooling-xref}docker.adoc
+:teams-xref:{standard-tooling-xref}teams-and-sharepoint.adoc
+:git-xref:{standard-tooling-xref}git.adoc
+:filestage-xref:{standard-tooling-xref}filestage.adoc
+:remote-xref:{standard-tooling-xref}remote_repo.adoc
 
 // External links
 //--Access--

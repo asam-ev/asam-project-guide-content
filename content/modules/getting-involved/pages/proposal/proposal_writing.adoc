@@ -68,7 +68,7 @@ When writing AsciiDoc, writers must follow the guidelines described in **xref:co
 
 === ASAM Editorial Guide
 ASAM provides an Editorial Guide containing the writing guidelines applicable to all ASAM documents.
-The current version of the Editorial Guide is located in the xref:compendium:writing_guidelines/editorial_guide.adoc#_basics[**Project Guide Compendium**].
+The current version of the Editorial Guide is located in the xref:compendium:Guidelines/editorial_guide.adoc#_basics[**Project Guide Compendium**].
 
 The Editorial Guide is **mandatory** for all users writing directly in AsciiDoc and **recommended** for users contributing content through issues.
 

@@ -1,0 +1,22 @@
+= How-To: Meetings in microsoft teams
+:description: Plan and participate in meetings directly through MS Teams
+:keywords: artifact,teams,meetings, READYFORREVIEW
+
+include::compendium:partial$_attributes.adoc[]
+
+== Context
+Virtual meetings can be created directly from MS Teams.
+Meetings that are sent to a channel or created directly within that channel let everyone who has access to that channel join.
+If you want to restrict the access, create a meeting outside of a channel and invite users selectively.
+
+== Result
+* A virtual meeting with teams communication is created
+* Only the intended users have access to the created meeting
+
+== Prerequisites
+* User has access to the Teams channel
+* User has full MS Teams license
+
+== How
+
+image::compendium:creating-a-meeting-in-teams.gif[Creating A Meeting In Teams]

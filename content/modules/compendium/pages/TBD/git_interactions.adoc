@@ -15,6 +15,7 @@ git bash commands to commit and push changes
     git add . # add your changes to the tracked versioning of git
     git commit -m "<SHORT MESSAGE DETAILING CHANGES>" # this message will be visible to anyone
     git push # push or upload the changes you made to the remote version of the branch you are on
+include::compendium:partial$commit_conventions_reminder.adoc[]
 
 to pull the latest changes, open the git bash in the repository folder (or change into the folder in the bash)
 

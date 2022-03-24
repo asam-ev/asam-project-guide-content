@@ -1,0 +1,42 @@
+= How-To: Mark Passages As Draft
+:description: Describes how to mark passages as draft so that they are not rendered in the final output.
+:keywords: draft
+
+include::compendium:partial$_attributes.adoc[]
+
+== Context
+If a file contains content that will be merged although it is not completely ready yet, use the feature flag 'draft' to mark the section or instructions in draft mode. +
+This allows to have both a draft document and a reviewed document from the same source through just adding or removing the ``draft`` attribute in the build pipeline.
+
+To convert content to reviewed (i.e. non draft) content, the encapsulating `ifdef` statement simply needs to be removed (everything that is not in the square brackets).
+
+IMPORTANT: These flags SHOULD only be modified by WG Leads, the {ccb} or the ASAM office.
+
+== Result
+
+== Prerequisites
+
+== How
+. Add `ifdef::draft[]` before the section you want to mark as draft
+. Add `\endif::[]` after the section you want to mark as draft
+
+Alternatively, to mark only a single line of content add `ifdef::draft[<your content>]`, where `<your content>` is the content you want to mark as draft.
+
+== Example
+
+.Using 'draft' to exclude the line "(I think...)" from the following passage
+[source]
+----
+You shall not pass!
+\ifdef::draft[]
+(I think...)
+\endif::[]
+----
+
+== Troubleshooting
+=== I cannot see the marked content in my preview anymore
+This is actually a good sign!
+The preview is working correctly and hides all parts marked as draft.
+
+To make the parts visible again, you have to set the attribute `draft` for your preview window.
+The best approach to do this on the editor level is described under xref:compendium:How-Tos/how-to__active_draft_section_preview.adoc[].

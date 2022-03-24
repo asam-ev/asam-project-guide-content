@@ -1,0 +1,2 @@
+
+Make sure to adhere to the xref:compendium:Guidelines/commit_conventions.adoc[].
