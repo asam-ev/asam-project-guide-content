@@ -10,9 +10,9 @@ include::partial$_attributes.adoc[]
 === Contributors
 - Develop software, i.e. write source code and tests.
 - For open-source projects hosted under the ASAM organization on Github.com, all commits **must** include a sign-off message. +
-See xref:compendium:open-source/asam_dco.adoc[].
+See xref:compendium:Templates/asam_dco.adoc[].
 
-=== ASAM change control board
+=== ASAM Change Control Board
 
 ==== Requirements
 - Minimum of three representatives from 3 different companies

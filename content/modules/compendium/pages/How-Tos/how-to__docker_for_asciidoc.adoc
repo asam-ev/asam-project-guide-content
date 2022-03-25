@@ -14,7 +14,7 @@ include::compendium:partial$what-is-docker.adoc[]
 
 The xref:{vscode-extensions}#_asciidoc[VSCode extension for Asciidoc] provides a decent preview.
 However, some styling and content will not look exactly as in the final result.
-If the layout and final look is important, you should create the HTMl output from the adoc files by using the asciidoctor docker container (configured in the xref:compendium:tools/docker/standard_docker_config.adoc[standard docker-compose.yml]).
+If the layout and final look is important, you should create the HTMl output from the adoc files by using the asciidoctor docker container (configured in the xref:compendium:How-Tos/how-to__setup_standard_docker_config.adoc[standard docker-compose.yml]).
 
 For information on how to execute docker-compose, see the xref:tooling:docker.adoc[].
 

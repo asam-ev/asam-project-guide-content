@@ -4,13 +4,13 @@
 
 include::compendium:partial$_attributes.adoc[]
 
-IMPORTANT: {docker-deamon-warning}
+IMPORTANT: {docker-daemon-warning}
 
 You can run Docker-Compose directly from within Visual Studio Code if you have added the docker extensions.
 __{vscode}__ will automatically ask you if it finds a .yml file in your project workspace.
 Otherwise, you can get it through the usual way of finding and installing extensions:
 
-include::compendium:partial$vscode/docker.adoc[]
+include::compendium:page$Guidelines/vscode__recommended_vscode_extensions.adoc[tag=docker]
 
 To run Docker-Compose on your docker-compose.yml, right-click on the file in your workspace and select `Compose Up` from the menu.
 

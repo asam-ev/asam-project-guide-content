@@ -9,7 +9,7 @@ include::{abb}[]
 {docker-icon-page}
 
 
-For the default docker-compose.yml needed to easily create the html result of a project locally, see the xref:compendium:tools/docker/standard_docker_config.adoc[default docker-compose.yml for creating local htmls].
+For the default docker-compose.yml needed to easily create the html result of a project locally, see the xref:compendium:How-Tos/how-to__setup_standard_docker_config.adoc[default docker-compose.yml for creating local htmls].
 
 include::compendium:page$How-Tos/how-to__run_docker.adoc[{offset-value}]
 

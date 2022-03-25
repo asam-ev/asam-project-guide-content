@@ -35,6 +35,7 @@ image::compendium:commentanchor_ext.PNG[]
 
 
 == Draw.io
+//tag::drawio[]
 The Draw.io extension for Visual Sudio Code allows for easy creation and assisted editing of drawio and other files supported by Draw.io within Visual Studio Code.
 For shortcuts and tips, see the documentation of the extension.
 You can access that documentation when you click on the extension in the marketplace.
@@ -45,6 +46,7 @@ image::compendium:drawio_ext.png[alt=Search and find the extension 'Draw.io Inte
 NOTE: The Draw.io extension does not support remote custom libraries as of now.
 For this reason, it is recommended to create and make larger edits to drawio files through the web app.
 
+//end::drawio[]
 
 == Code Spell Checker
 The Code Spell Checker extension provides you with the ability of spell checking in Visual Studio Code.
@@ -84,8 +86,10 @@ image::compendium:gitlens_ext.PNG[]
 
 
 == Docker
+//tag::docker[]
 The Docker extension lets you directly interact with Docker through Visual Studio Code.
 You can run, for example, the docker-compose.yml directly without having to open a console or using Docker Desktop.
 
 .Docker (id: ms-azuretools.vscode-docker)
 image::compendium:docker_ext.png[alt=Search and find the extension 'Docker']
+//end::docker[]
