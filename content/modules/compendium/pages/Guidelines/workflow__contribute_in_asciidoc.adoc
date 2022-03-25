@@ -37,8 +37,6 @@ Click the link for more information on the workflow.
 == Write AsciiDoc Files
 {mandatory}
 
-include::compendium:partial$asciidoc.adoc[]
-
 When writing AsciiDoc files, the writers shall follow the **xref:compendium:Guidelines/asciidoc_guide.adoc[]**. +
 Technical Writers and advanced users shall also follow the **xref:compendium:Guidelines/editorial_guide.adoc[]**.
 

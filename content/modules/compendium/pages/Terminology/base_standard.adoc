@@ -9,8 +9,8 @@ A base standard is defined in a technology-independent form.
 It can use a problem-/task-related notation, e.g., UML for an object model, or any suitable description for protocols.
 Typically, a base standard is
 
-* A xref:compendium:definitions/format_description.adoc[] (data structure) **or**
-* A xref:compendium:definitions/protocol_definition.adoc[] **or**
+* A xref:compendium:Terminology/format_description.adoc[] (data structure) **or**
+* A xref:compendium:Terminology/protocol_definition.adoc[] **or**
 * An {api}
 
 and has the following properties:
@@ -21,7 +21,7 @@ and has the following properties:
 * Does not contradict any other https://www.asam.net/standards/[ASAM standard^]
 
 There are platform- and technology-specific mapping rules for each base standard.
-These are defined in xref:compendium:definitions/technology_reference.adoc[] as independent parts of the base standard.
+These are defined in xref:compendium:Terminology/technology_reference.adoc[] as independent parts of the base standard.
 
 //tag::related[]
 related::base-standard[]

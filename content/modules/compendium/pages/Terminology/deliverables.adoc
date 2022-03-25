@@ -4,7 +4,7 @@
 
 //tag::body[]
 
-include::partial$_attributes.adoc[]
+include::compendium:partial$_attributes.adoc[]
 
 
 The deliverables of a standard package consist of standard documents and other files.

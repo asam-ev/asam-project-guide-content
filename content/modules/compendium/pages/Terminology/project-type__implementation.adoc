@@ -3,6 +3,8 @@
 :keywords:
 :navtitle: [Project Type] Implementation
 
+include::compendium:partial$_attributes.adoc[]
+
 == Summary
 //tag::summary[]
 .Summary

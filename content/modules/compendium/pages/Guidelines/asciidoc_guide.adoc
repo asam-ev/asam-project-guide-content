@@ -9,7 +9,7 @@ include::compendium:partial$_attributes.adoc[]
 {role-project-lead}
 {role-wg-member}
 
-TIP: See xref:compendium:Guidelines/writing_guide.adoc[] for ASAM-specific writing style guidelines.
+TIP: See xref:compendium:Guidelines/asciidoc__writing_guide.adoc[] for ASAM-specific writing style guidelines.
 
 == Introduction
 The content of this page is intended to provide a quick overview over the most used features of AsciiDoc.

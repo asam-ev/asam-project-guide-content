@@ -128,10 +128,10 @@ xref:tooling:teams-and-sharepoint.adoc[]
 It can be accessed directly or through Teams, which is why all files that have been added either way can be retrieved through both tools.
 |ASAM IT infrastructure
 
-|{filestage-icon-norole} +
-xref:tooling:filestage.adoc[]
-|Webhosted tool for reviewing content and leaving comments on screenshots.
-|ASAM IT infrastructure
+// |{filestage-icon-norole} +
+// xref:tooling:filestage.adoc[]
+// |Webhosted tool for reviewing content and leaving comments on screenshots.
+// |ASAM IT infrastructure
 
 
 |===

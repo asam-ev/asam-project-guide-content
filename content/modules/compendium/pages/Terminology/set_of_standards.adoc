@@ -1,8 +1,12 @@
-= Set of standards
+= Set Of Standards
 :description: A definition of the term "set of standards".
 :keywords: definition, READYFORREVIEW
 
-
 include::compendium:partial$_attributes.adoc[]
 
-include::compendium:partial$set-of-standards.adoc[]
+//tag::body[]
+A "**set of standards**" is a special form comprising different elements in one standard.
+//end::body[]
+
+//tag::related[]
+//end::related[]

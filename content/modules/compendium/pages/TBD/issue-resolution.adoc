@@ -20,7 +20,7 @@ Issues in the context of this process have one of the following characteristics:
 * Specification gap: missing content required for a functional system and for com-plete understanding.
 * Lack of clarity: Unclear, vague or ambiguous description, which leads to misun-derstandings and misinterpretations.
 
-The issue may exist in the xref:compendium:definitions/base_standard.adoc[base standard], in xref:compendium:definitions/associated_standard.adoc[associate standards], schema files, interface definition files, model files, examples or any other supplements of the standard.
+The issue may exist in the xref:compendium:Terminology/base_standard.adoc[base standard], in xref:compendium:Terminology/associated_standard.adoc[associate standards], schema files, interface definition files, model files, examples or any other supplements of the standard.
 
 The request of a new feature or modification of an existing feature, independent of its declared urgency and importance, is not an issue handled through this process.
 

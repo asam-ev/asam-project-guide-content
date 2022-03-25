@@ -1,12 +1,10 @@
-= Status of documents
+= Status Of Documents
 :description: Describes what the status of a standardization document is.
 :keywords: definition, READYFORREVIEW
-
 
 include::compendium:partial$_attributes.adoc[]
 
 The draft number is counted up during the development of new versions. Before the release, the release candidate appears for review. The date is updated accordingly in all versions
 
 //tag::related[]
-
 //end::related[]

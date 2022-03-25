@@ -3,6 +3,8 @@
 :keywords: workshop
 :navtitle: [Coordination] Hosting Workshops
 
+include::compendium:partial$_attributes.adoc[]
+
 {role-gtm}
 
 //tag::body[]

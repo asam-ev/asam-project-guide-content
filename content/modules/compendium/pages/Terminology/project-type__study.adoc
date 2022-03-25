@@ -3,6 +3,8 @@
 :keywords: type, project
 :navtitle: [Project Type] Study
 
+include::compendium:partial$_attributes.adoc[]
+
 == Summary
 //tag::summary[]
 .Summary
