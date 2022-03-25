@@ -54,10 +54,10 @@ Comprehensive and comprehensible feedback has been submitted to the project grou
 . Access the "Public Review" page (through the website or the newsletter)
 . Select the standard you would like to review to be forwarded to its review page
 . Read through the document(s) carefully
-. Provide feedback on the relevant page through the integrated "Submit feedback" button or sending an email to the provided review address using the xref:compendium:templates/review_feedback_template.adoc[]
+. Provide feedback on the relevant page through the integrated "Submit feedback" button or sending an email to the provided review address using the xref:compendium:Templates/review_feedback_template.adoc[]
 
 NOTE: The sent email creates a new issue in the ASAM remote repository using the GitLab Service Desk feature.
-You can find more information on using GitLab Service Desk under xref:compendium:tools/gitlab/review_with_service_desk.adoc[].
+You can find more information on using GitLab Service Desk under xref:compendium:How-Tos/how-to__review_with_gitlab_service_desk.adoc[].
 
 // ASAM uses the following feedback tools:
 // include::tooling:partial$review_tools.adoc[]

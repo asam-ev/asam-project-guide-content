@@ -41,13 +41,13 @@ IMPORTANT: To become the Project Lead of a project, you must first xref:getting-
 TODO
 
 == Responsibilities
-The Workgroup Lead is responsible for
+The Project Lead is responsible for
 
 *
 
 == Prerequisites
-* Each project lead must fulfill a list of requirements.
-See the xref:compendium:ASAM/roles/project_lead_training.adoc[] for more information on the training for becoming a project lead.
+* Each Project Lead must fulfill a list of requirements.
+See the xref:compendium:Guidelines/project_lead_training.adoc[] for more information.
 
 == When
 The Project Lead is elected at the beginning of a project. +

@@ -15,7 +15,7 @@ Label:: {role-project-lead}
 
 == Requirements
 * Must be a project member
-* Must have completed the xref:compendium:ASAM/roles/project_lead_training.adoc[]
+* Must have completed the xref:compendium:Guidelines/project_lead_training.adoc[]
 
 == Responsibilities
 === Supervises the compliance with the ASAM processes
@@ -23,7 +23,7 @@ Label:: {role-project-lead}
 Interface to ASAM office::
 * Reporting of project status to ASAM office and commitees
 * Responsible for presentation at TSC
-* Escalaton of issues to ASAM office + 
+* Escalaton of issues to ASAM office +
 To identifiy additional risks or critical issues early
 
 Content structuring of project::
@@ -49,7 +49,7 @@ Budget controlling::
 * Coordination of technical service provider
 
 == Instructional pages for this role
-* xref:compendium:ASAM/roles/project_lead_training.adoc[Project Lead Training]
+* xref:compendium:Guidelines/project_lead_training.adoc[Project Lead Training]
 
 === Proposal phase
 role_related::project-lead[proposal]

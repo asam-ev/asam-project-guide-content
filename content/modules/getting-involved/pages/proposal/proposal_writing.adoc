@@ -32,9 +32,9 @@ See **xref:getting-involved:proposal/proposal_document.adoc[]** for more informa
 
 
 == How To Contribute
-IMPORTANT: You must first complete the xref:tooling:working-without-software-installation.adoc#_minimum_required_setup[**Minimum Required Setup**] before you can participate in and contribute to any project.
-
-include::compendium:partial$conventions/git-based_workflow.adoc[tag=short]
+IMPORTANT: You must first complete the xref:tooling:working-without-software-installation.adoc#_minimum_required_setup[**Minimum Required Setup**] before you can participate in and contribute to any project. +
+Participation in the creation of a Project Proposal follows the central xref:compendium:Guidelines/workflow__trunk.adoc[**Trunk-based Workflow**] at ASAM.
+If you want to learn more about this workflow, click the link.
 
 To contribute to a Project Proposal, project members can either <<Contributing Through Issues,contribute through GitLab issues>> or <<Contributing In AsciiDoc,contribute directly in AsciiDoc>>.
 However, at least one person must transfer all content to the AsciiDoc file eventually. +
@@ -46,7 +46,7 @@ If you prefer to work on your local computer, see the xref:tooling:main.adoc#_re
 {mandatory}
 
 The content of a Proposal document shall be drafted and discussed through issues in the project's issue board. +
-ASAM provides guidelines on how to contribute through issues on the page **xref:compendium:ASAM/phase-02_proposal/proposal_guidelines.adoc[]**.
+ASAM provides guidelines on how to contribute through issues on the page **xref:compendium:Guidelines/proposal_phase_contribution_guidelines.adoc[]**.
 All participants must follow these guidelines.
 
 === Contributing Directly In AsciiDoc
@@ -55,7 +55,7 @@ All participants must follow these guidelines.
 The project may decide to contribute directly in AsciiDoc as well.
 However, content shall still be discussed and updated in issues as described in <<Contributing Through Issues>>.
 
-When writing AsciiDoc, writers must follow the guidelines described in **xref:compendium:ASAM/doc-as-code/workflow__contribute_in_asciidoc.adoc[]** as well as the <<ASAM Editorial Guide>>.
+When writing AsciiDoc, writers must follow the guidelines described in **xref:compendium:Guidelines/workflow__contribute_in_asciidoc.adoc[]** as well as the <<ASAM Editorial Guide>>.
 
 === Transferring Content To AsciiDoc
 {mandatory}
@@ -63,23 +63,23 @@ When writing AsciiDoc, writers must follow the guidelines described in **xref:co
 The content that is defined in the project's issues must be transferred to AsciiDoc eventually.
 ASAM recommends that the project defines one or more writers responsible for this task.
 
-When writing AsciiDoc, writers must follow the guidelines described in **xref:compendium:ASAM/doc-as-code/workflow__contribute_in_asciidoc.adoc[]** as well as the <<ASAM Editorial Guide>>.
+When writing AsciiDoc, writers must follow the guidelines described in **xref:compendium:Guidelines/workflow__contribute_in_asciidoc.adoc[]** as well as the <<ASAM Editorial Guide>>.
 
 
 === ASAM Editorial Guide
 ASAM provides an Editorial Guide containing the writing guidelines applicable to all ASAM documents.
 The current version of the Editorial Guide is located in the xref:compendium:Guidelines/editorial_guide.adoc#_basics[**Project Guide Compendium**].
 
-The Editorial Guide is **mandatory** for all users writing directly in AsciiDoc and **recommended** for users contributing content through issues.
+The Editorial Guide is **mandatory** for all Technical Writers and **recommended** for users contributing content through issues.
 
 // == Creating The Executive Summary
 
-// include::compendium:page$ASAM/phase-02_proposal/how-to__executive_draft.adoc[leveloffset=+1, tags=body]
+// include::compendium:page$How-Tos/how-to__executive_draft.adoc[leveloffset=+1, tags=body]
 
 
 == Writing The Proposal Draft
 
-include::compendium:page$ASAM/phase-02_proposal/how-to__proposal_writing.adoc[leveloffset=+1, tags=body]
+include::compendium:page$How-Tos/how-to__proposal_writing.adoc[leveloffset=+1, tags=body]
 
 
 == Finalizing The Proposal

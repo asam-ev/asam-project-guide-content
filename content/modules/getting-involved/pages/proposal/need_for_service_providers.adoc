@@ -5,6 +5,6 @@
 include::partial$_attributes.adoc[]
 include::{abb}[]
 
-include::compendium:page$ASAM/phase-02_proposal/how-to__identify_need_for_sp.adoc[tag=body]
+include::compendium:page$How-Tos/how-to__identify_need_for_sp.adoc[tag=body]
 
 related::service-provider[]

@@ -70,7 +70,7 @@ IMPORTANT: You must update the content of each chapter's issue regardless of if 
 The GTM will support you with this task, if needed.
 Note that you do not need to render the document manually.
 The repository's pipeline will create the required documents as artifacts automatically when the changes are committed and pushed to the trunk.
-See xref:compendium:guides/accessing_compiled_artifacts.adoc[] to learn more about pipeline artifacts and how you can access them.
+See xref:compendium:How-Tos/how-to__access_compiled_artifacts.adoc[] to learn more about pipeline artifacts and how you can access them.
 
 NOTE: The sections 'Project Resources' and 'Project Plan' will be filled out at a later stage and do not need to be edited in this draft.
 

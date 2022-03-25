@@ -50,7 +50,7 @@ An initial draft for management and executives, containing a basic executive sum
 == Prerequisites
 * The idea has been proposed and approved in the xref:getting-involved:ideation_phase.adoc#_the_ideation_phase[Ideation Phase].
 * The proposal has at least three (3) partner companies.
-* The xref:compendium:ASAM/phase-02_proposal/how-to__setup_proposal_git.adoc[project repository] has been set up by the __{gtm}__.
+* The xref:compendium:How-Tos/how-to__setup_proposal_git.adoc[project repository] has been set up by the __{gtm}__.
 
 
 == How

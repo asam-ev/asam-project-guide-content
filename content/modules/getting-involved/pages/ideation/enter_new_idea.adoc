@@ -6,4 +6,4 @@ include::partial$_attributes.adoc[]
 include::{abb}[]
 
 
-include::compendium:page$ASAM/phase-01_ideation/how-to__enter_new_idea.adoc[tags=body]
+include::compendium:page$How-Tos/how-to__enter_new_idea.adoc[tags=body]

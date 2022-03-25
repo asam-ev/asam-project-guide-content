@@ -41,7 +41,7 @@ The goal of an Ideation Workshop is to investigate and develope the proposed ide
 
 
 == How
-. The GTM prepares the workshop using the xref:compendium:ASAM/phase-01_ideation/ideation_workshop_gameplan.adoc[]
+. The GTM prepares the workshop using the xref:compendium:Templates/ideation_workshop_gameplan.adoc[]
 . The GTM informs people who have already signed up to the ideation workshop
 * Optionally, the GTM broadly informs all ASAM members if this approach seems necessary
 . The Workshop happens, following the outline of the <<Typical Workshop Agenda>> shown below
@@ -50,5 +50,5 @@ The goal of an Ideation Workshop is to investigate and develope the proposed ide
 
 
 == Typical Workshop Agenda
-include::compendium:ASAM/phase-01_ideation/ideation_workshop_gameplan.adoc[tag=agenda_example]
+include::compendium:Templates/ideation_workshop_gameplan.adoc[tag=agenda_example]
 
