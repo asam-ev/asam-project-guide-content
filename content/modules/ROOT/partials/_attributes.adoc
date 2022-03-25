@@ -51,7 +51,7 @@
 
 //project-guide
 :project-guide-image: https://cdn-icons-png.flaticon.com/512/1705/1705243.png
-:project-guide-xref: project-guide:home.adoc
+:project-guide-xref: asamprojectguide-editing:ROOT:home.adoc
 :project-guide-icon: xref:{project-guide-xref}[image:{project-guide-image}[alt= Project Guide, width={width-large}, role=right]]
 :project-guide-icon-norole: xref:{project-guide-xref}[image:{project-guide-image}[alt= Project Guide, width={width-small}]]
 :project-guide-nav-icon: xref:{project-guide-xref}[]

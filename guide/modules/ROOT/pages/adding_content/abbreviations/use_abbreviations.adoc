@@ -10,7 +10,7 @@ include::{abb}[]
 Abbreviations help keep text short.
 In many cases, often used abbreviations may even enable people to understand things faster if they are familiar with the shorthand.
 
-Since not everyone may know all abbreviations, however, a xref:compendium:abbreviations.adoc[page that has a summary of them] was introduced.
+Since not everyone may know all abbreviations, however, a {abb-link}[page that has a summary of them] was introduced.
 Here, you can find all abbreviations used throughout the Project Guide.
 
 If you want to use an abbreviation on a page or partial, do the following:

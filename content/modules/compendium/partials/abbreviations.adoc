@@ -1,5 +1,5 @@
 
-:abb-link: xref:compendium:abbreviations.adoc#_
+:abb-link: xref:latest@asamprojectguide:compendium:abbreviations.adoc#_
 
 // HOW TO:
 // To add a new abbreviation, you must:

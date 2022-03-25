@@ -10,8 +10,8 @@ include::{abb}[]
 == Description
 include::partial$pipeline-iso_style.adoc[tag=description]
 
-== Prerequisits
-include::partial$pipeline-iso_style.adoc[tag=prerequisits]
+== Prerequisites
+include::partial$pipeline-iso_style.adoc[tag=prerequisites]
 
 == Configuration
 include::partial$pipeline-iso_style.adoc[tag=configuration]

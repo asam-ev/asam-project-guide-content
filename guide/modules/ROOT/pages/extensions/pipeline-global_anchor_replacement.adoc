@@ -10,8 +10,8 @@ include::{abb}[]
 == Description
 include::partial$pipeline-global_anchor_replacement.adoc[tag=description]
 
-== Prerequisits
-include::partial$pipeline-global_anchor_replacement.adoc[tag=prerequisits]
+== Prerequisites
+include::partial$pipeline-global_anchor_replacement.adoc[tag=prerequisites]
 
 == Usage
 include::partial$pipeline-global_anchor_replacement.adoc[tag=how]
