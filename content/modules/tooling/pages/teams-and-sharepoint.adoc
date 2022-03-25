@@ -1,6 +1,10 @@
 = Microsoft Teams And Sharepoint
 :description: A summary page describing what MS Teams and Sharepoint are and where to find related information, guides etc.
 :keywords: teams,sharepoint,summary,tool,mandatory,TODO
+:page-layout: responsible
+:page-responsible-name: Benjamin Engel
+:page-responsible-contact: benjamin.engel(at)asam.net
+
 
 include::partial$_attributes.adoc[]
 include::{abb}[]
@@ -21,10 +25,10 @@ It can be accessed directly or through Teams, which is why all files that have b
 
 
 * Each channel in Teams has a "Chat" tab for chatting & a "Files" tab to share files.
-** If you need another Teams channel, contact mailto:benjamin.engel@asam.net[Benjamin Engel]!
+** If you need another Teams channel, contact the page Responsible (see top of this page)
 * These file tabs can also be found directly in Sharepoint (sign in with your microsoft account).
 
-IMPORTANT: Project files such as chapters, specifications, or images intended for use in the standard are to be handled through GitLab instead! See xref:compendium:guides/standard_workflow.adoc[] for more information.
+IMPORTANT: Project files such as chapters, specifications, or images intended for use in the standard are to be handled through GitLab instead! See xref:compendium:Guidelines/workflow__trunk.adoc[] for more information.
 
 
 == MS Teams At ASAM
