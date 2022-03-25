@@ -1,5 +1,0 @@
-
-The Git Graph extension is a great tool navigating the branches in the git repository and provides a great overview.
-
-.Git Graph (id: mhutchie.git-graph)
-image::compendium:gitgraph_ext.PNG[]

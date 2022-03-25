@@ -14,18 +14,16 @@ This page contains guides and best-practices for <<Microsoft Teams>> and <<Share
 == Microsoft Teams
 include::compendium:page$Guidelines/coordination__teams-channel_file-structure.adoc[{offset_value}]
 
-include::compendium:page$tools/teams/receive_notifications.adoc[{offset_value}]
+include::compendium:page$How-Tos/how-to__receive_notifications.adoc[{offset_value}]
 
-include::compendium:page$tools/teams/email-notifications.adoc[{offset_value}]
+include::compendium:page$How-Tos/how-to__email-notifications.adoc[{offset_value}]
 
-include::compendium:page$tools/teams/polls_and_surveys.adoc[{offset_value}]
+include::compendium:page$How-Tos/how-to__polls_and_surveys.adoc[{offset_value}]
 
-include::compendium:page$tools/teams/meetings_in_teams.adoc[{offset_value}]
+include::compendium:page$How-Tos/how-to__meetings_in_teams.adoc[{offset_value}]
 
-include::compendium:page$tools/teams/obtain_channel_email.adoc[{offset_value}]
+include::compendium:page$How-Tos/how-to__obtain_channel_email.adoc[{offset_value}]
 
 == Sharepoint
 
-include::compendium:page$tools/sharepoint/links.adoc[{offset_value}]
-
-include::compendium:page$tools/sharepoint/synchronizing_sharepoint_with_onedrive.adoc[{offset_value}]
+include::compendium:page$How-Tos/how-to__synchronizing_sharepoint_with_onedrive.adoc[{offset_value}]

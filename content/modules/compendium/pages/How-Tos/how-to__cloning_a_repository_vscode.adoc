@@ -8,7 +8,7 @@ NOTE: This only needs to be done once to obtain a local copy.
 
 . Find the repository url on the website and copy the git url
 
-. Open the xref:compendium:tools/vscode/vscode_command-palette.adoc[], type `Git: Clone`, then press Enter
+. Open the Command Pallette, type `Git: Clone`, then press Enter
 
 . Paste the copied git url and press Enter
 

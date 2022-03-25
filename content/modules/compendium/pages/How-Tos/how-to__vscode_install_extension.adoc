@@ -1,4 +1,4 @@
-= How-To: Install extensions
+= How-To: Install VScode Extensions
 :description: Explains how to install extensions for VSCode.
 :keywords: vscode,extensions, READYFORREVIEW
 
@@ -9,17 +9,17 @@ This is done by installing and using extensions.
 This section shows how to install a new extension from the marketplace.
 As an example, we will use the xref:{vscode-extensions}#_asciidoc[AsciiDoc] extension.
 
-The AsciiDoc extension for __{vscode}_ allows for easy creation and supported editing of AsciiDoc or adoc files within _{vscode}__.
+The AsciiDoc extension for __{vscode}__ allows for easy creation and supported editing of AsciiDoc or adoc files within VSCode.
 For shortcuts and tips, see the documentation of the extension.
 You can access that documentation when you click on the extension in the marketplace.
 
-. Access the extensions window through the __{vscode}__ menu bar -> View -> Extensions.
+. Access the extensions window through the VSCode menu bar -> View -> Extensions.
 +
 image::compendium:extensions.png[alt=Add extension under 'View']
 
 . Search for AsciiDoc (or use asciidoctor.asciidoctor-vscode) & install it.
 +
-include::compendium:partial$vscode/asciidoctor.adoc[]
+include::compendium:page$Guidelines/vscode\__recommended_vs_code_extensions.adoc[tag=asciidoc]
 
 
 //tag::standalone[]

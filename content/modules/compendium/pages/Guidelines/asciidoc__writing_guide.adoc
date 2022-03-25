@@ -13,7 +13,7 @@ include::compendium:partial$_attributes.adoc[]
 This guide is intended to help you writing content for ASAM projects.
 It provides you a set of hints and rules that make it easier to contribute concise and homogeneous content and documents to the projects.
 
-TIP: If you are using __{vscode}__, see the xref:compendium:tools/vscode/vscode__recommended_vscode_settings.adoc[].
+TIP: If you are using __{vscode}__, see the xref:compendium:Guidelines/vscode__recommended_vscode_settings.adoc[].
 NOTE: __{asam}__ uses `.adoc` as fileextension for all AsciiDoc files.
 
 == Language

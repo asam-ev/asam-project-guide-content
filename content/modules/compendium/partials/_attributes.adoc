@@ -1,6 +1,5 @@
 :docker-deamon-warning: The docker daemon must be running in the background before you can run docker commands from VSCode. To start the deamon, either have Docker Desktop automatically start with Windows or start it manually.
-:vscode-extensions: compendium:tools/vscode/vscode__recommended_vscode_extensions.adoc
-:command-palette: xref:compendium:tools/vscode//vscode_command-palette.adoc[]
+:vscode-extensions: compendium:Guidelines/vscode__recommended_vscode_extensions.adoc
 :powershell: xref:compendium:tools/powershell/powershell_basics.adoc[PowerShell]
 :page-partial:
 :compendium:

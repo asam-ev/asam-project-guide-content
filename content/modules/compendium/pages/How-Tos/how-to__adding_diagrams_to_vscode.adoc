@@ -33,7 +33,7 @@ NOTE: In the example above, the images are now stored in a folder named "images"
 The images are served over http:// and you must allow your preview to include data from unsafe sources.
 To do this:
 
-. Open the xref:compendium:tools/vscode//vscode_command-palette.adoc[].
+. Open the Command Pallette
 . Enter ``asciidoc preview security`` .
 . Choose ``Allow insecure content``.
 

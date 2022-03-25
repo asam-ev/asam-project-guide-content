@@ -8,4 +8,4 @@ include::{abb}[]
 
 {filestage-icon-page}
 
-include::compendium:page$tools/filestage/filestage_review.adoc[{offset-value}]
+include::compendium:page$How-Tos/how-to__filestage_review.adoc[{offset-value}]

@@ -11,7 +11,5 @@ include::{abb}[]
 
 For the default docker-compose.yml needed to easily create the html result of a project locally, see the xref:compendium:tools/docker/standard_docker_config.adoc[default docker-compose.yml for creating local htmls].
 
-include::compendium:page$tools/vscode/run_docker.adoc[{offset-value}]
-
-include::compendium:page$tools/docker/run_docker.adoc[{offset-value}]
+include::compendium:page$How-Tos/how-to__run_docker.adoc[{offset-value}]
 

@@ -5,21 +5,49 @@
 
 include::compendium:partial$_attributes.adoc[]
 
-:lookup: compendium:partial$vscode
-
 This is a summary of recommended __{vscode}__ settings to follow writing guidelines easier.
 
 
 == Indentations
 
-include::{lookup}/indentations.adoc[]
+image::compendium:vscode-settings-indent.png[]
+. Open the Command Pallette
+. Type "user settings" and confirm with Enter
+. Search for "indent" in the user settings
+. Enable "Insert Spaces"
+. Set "Tab Size" to 4
 
 
-== Automatic removal of spaces after periods
+== Automatic Removal Of Spaces After Periods
 
-include::{lookup}/spaces-removal.adoc[]
+image::compendium:VSCodeSettingsWhiteSpace.png[]
+. Open the Command Pallette
+. Type "user settings" and confirm with Enter
+. Search for "whitespace" in the user settings
+. Enable "Trim Trailing Whitespace"
 
 
-== Enabling kroki support in asciiDoc
+== Enabling Kroki Support In AsciiDoc
 
-include::{lookup}/kroki.adoc[]
+The AsciiDoc extension for Visual Studio Code (see xref:{vscode-extensions}#_asciidoc[Recommended Visual Studio Code Extensions]) comes with the ability to include Kroki diagrams.
+However, it is deactivated by default and must be configured before first use.
+
+This requires a diagram server.
+There are multiple options:
+
+. Use the public kroki.io server
+. Deploy your own server
+. https://docs.kroki.io/kroki/setup/install/[Run a kroki docker container^] on your local machine
+
+We will go with option 1.
+
+WARNING: This extension will send graph information to https://kroki.io.
+If this is an issue, it is also possible to use your own kroki instance (see https://docs.kroki.io/kroki/setup/install/[here for more information^]).
+
+To enable diagram support, set the use_kroki parameter in your User Settings to true.
+
+image::compendium:enable_kroki.gif[Enabling Kroki diagram support in AsciiDoc extension]
+
+. Open the {command-palette}
+. Type "user settings" and confirm with Enter
+. Search for "kroki" in the user settings and enable the "Use_kroki" checkbox

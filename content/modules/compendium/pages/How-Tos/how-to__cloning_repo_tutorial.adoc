@@ -10,7 +10,7 @@ To do so, follow one of the cloning instructions below.
 IMPORTANT: If your project contains submodules, make sure to also update them.
  See xref:compendium:Guidelines/repo__submodules.adoc[] for more information.
 
-include::compendium:page$tools/vscode/cloning_a_repository.adoc[leveloffset=+1]
+include::compendium:page$How-Tos/how-to__clone_a_repository.adoc[leveloffset=+1]
 
 include::compendium:page$tools/powershell/cloning_a_repository.adoc[leveloffset=+1]
 
