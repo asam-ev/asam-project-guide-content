@@ -1,0 +1,269 @@
+= Standard Development Project
+:description:
+:keywords:
+:navtitle: [Project Type] Standard Development
+
+== Summary
+//tag::summary[]
+[horizontal]
+Description:: Standard development projects are the core of ASAM.
+In these, workgroup members define the content of an ASAM standard (new or updated).
+Goal:: The goal is to create new standards and to update existing standards in accordance with the demands of ASAM members and market requirements.
+//end::summary[]
+
+
+== Project Type Description
+The core of ASAM is to carry out standard development projects with the goal to create new standards and to update existing standards in accordance with the demands of ASAM members and market requirements.
+ASAM defines four types of standard development projects, depending on the expected magnitude of changes to the standard:
+
+* <<New Standard>>
+* <<Major Version Update>>
+* <<Minor Version Update>>
+* <<Revision>>
+
+They all have in common that the primary output of the project is a standard.
+The upper limit for subsidiary funding from ASAM is 25% of the total required project budget.
+
+
+== New Standard
+=== Summary
+//tag::new-summary[]
+.Summary
+[cols="1h,3"]
+|===
+|Purpose
+| Create a new standard.
+
+|Version
+| 1.0.0
+
+|New Features
+| yes
+
+|Backward compatible
+| n.a.
+
+|Funding Limit
+| 25%
+
+|Process
+| Standard Development Process
+
+|===
+
+A new standard is developed from the outset.
+There is no predecessor in the ASAM standard portfolio, or the predecessor has been declared as 'deprecated'.
+A new ASAM standard can be a transfer from another organization or an extension of a standard from another standardization organization.
+//end::new-summary[]
+
+=== Project Type Description
+
+Start the development of a completely new standard within __{asam}__.
+
+The development project meets one of the following criteria:
+
+* There exists no predecessor in the ASAM standard portfolio.
+* A predecessor in the ASAM standard portfolio was deprecated and a new standard in the same technology area shall be developed from scratch.
+* The new standard is an extension, substitution or parallel development of a standard from another standardization organization.
+
+A new ASAM standard gets the version number "1.0.0".
+If a new standard replaces a deprecated standard, then the new standard cannot have the same name than the deprecated standard.
+
+
+== Major Version Update
+=== Summary
+//tag::major-summary[]
+.Summary
+[cols="1h,3"]
+|===
+|Purpose
+a|
+* Add major features
+* Make significant changes to existing features
+
+|Version
+| X.0.0
+
+|New Features
+| yes
+
+|Backward compatible
+| n.a.
+
+|Funding Limit
+| 25%
+
+|Process
+| Standard Development Process
+
+|===
+
+A major version development project introduces significant changes to the standard, e.g. the addition of a new major feature or significant changes to existing features.
+It is expected that the implementation of the new version will require significant development or migration efforts by tool vendors and end users alike.
+A new major version of an ASAM standard does not have to be backward-compatible to its predecessor.
+//end::major-summary[]
+
+
+=== Project Type Description
+Major version developments of ASAM standards introduce significant changes to the standard.
+
+Major version development projects meet one or more of the following criteria:
+
+* Addition of a new, major feature.
+* Significant changes to existing features.
+
+It is expected that the implementation of the new version will require significant development or migration efforts by tool vendors and end users alike.
+
+A new major version of an ASAM standard does not have to be backward-compatible to its predecessor versions.
+
+The number of major version releases meets the pattern:
+"X.0.0".
+X is an integer number starting with 2.
+
+
+== Minor Version Update
+=== Summary
+//tag::minor-summary[]
+.Summary
+[cols="1h,3"]
+|===
+|Purpose
+a|
+* Add minor features
+* Make minor changes to existing feature
+
+|Version
+| ?.X.0
+
+|New Features
+| yes
+
+|Backward compatible
+| yes
+
+|Funding Limit
+| 25%
+
+|Process
+a|
+Standard Development Process except:
+
+* Proposal Workshop
+* Review Phase
+|===
+
+A minor version development project introduces changes to existing features on a smaller scale or introduce new features that are rather small relative to the rest of the standard.
+It is expected that the implementation of the new version will require low development or migration efforts by tool vendors and end users.
+A minor version of an ASAM standard shall be backward-compatible to its immediate predecessor.
+Exceptions are allowed, require approval from the __{tsc}__ and must be documented in the standard.
+//end::minor-summary[]
+
+
+=== Project Type Description
+Minor version developments of ASAM standards introduce changes t existing features on a smaller scale or introduce new features that are rather small relative to the rest of the standard.
+
+Minor version development projects meet one or more of the following criteria:
+
+* Addition of new features, which are considered as small relative to existing features.
+* Insignificant changes or additions to existing features.
+
+It is expected that the implementation of the new version will require low development or migration efforts by tool vendors and end users.
+
+A new minor version of an ASAM standard shall be backward-compatible to its immediate predecessor version.
+Exceptions are allowed, require approval from the __{tsc}__ and must be documented in the standard.
+
+The number of minor version releases meets the pattern:
+"?.X.0".
+X is an integer number starting with 1.
+? is the current major release number.
+
+The following process steps are not mandatory and are skipped by default, unless otherwise decided by the __{tsc}__ or the project group:
+
+* P1: ProposalWorkshop
+* C: Review Phase
+
+
+== Revision
+=== Summary
+//tag::revision-summary[]
+.Summary
+[cols="1h,3"]
+|===
+|Purpose
+a|
+* Correct errors
+* Remove ambiguities
+* Add clarifications
+* Make editorial improvements
+* Change/add examples
+
+|Version
+| ?.?.X
+
+|New Features
+| n.a
+
+|Backward compatible
+| yes
+
+|Funding Limit
+| 25%
+
+|Process
+a|
+Standard Development Process except:
+
+* Proposal Workshop
+* Review Phase
+
+|===
+
+A revision version development project resolves technical issues of the standard, i.e. corrects errors, removes ambiguities, adds clarifications to existing descriptions, makes editorial improvements or changes examples.
+It is expected that the implementation of the new version will require low development or migration efforts by tool vendors and end users.
+Revisions cannot include new features.
+A new revision version of an ASAM standard is always backward-compatible.
+//end::revision-summary[]
+
+
+=== Project Type Description
+Revision version developments of ASAM standards resolve technical issues with the currently released version of the standard.
+
+Revision version development projects meet one or more of the following criteria:
+
+* Correction of errors.
+* Removal of ambiguities.
+* Addition of clarifications to existing descriptions.
+* Editorial improvements.
+* Any kind of changes to examples, including the addition of examples.
+
+It is expected that the implementation of the new version will require low development or migration ef-forts by tool vendors and end users.
+
+Revisions cannot include new features.
+The only exception is, that a new feature has been forgotten in an earlier release of the standard and is absolutely required for a functional and meaningful standard.
+
+A new revision version of an ASAM standard shall be backward-compatible to its immediate predecessor version.
+The only exception is, that the correction of an error or the removal of an ambiguity cannot be reasonably solved in any other way than breaking the backward-compatibility.
+
+An exception requires approval from the __{tsc}__ and must be documented in the standard.
+
+Revision development projects may be converted to a minor or major version development project during the course of the project term, if backward-compatibility issues turn out to be too severe or new features need to be added.
+The __{tsc}__ has to approve this change of project type.
+
+Only those ASAM members, who were actively involved in development of the preceding major or minor version, can participate in the revision development project.
+
+Revision projects are limited to a life cycle of up to 18 months.
+
+Unlike other project types, the paid service provider for a revision project can be contracted without a public request for quotation.
+
+The service provider is confirmed by the __{tsc}__ and is appointed before the project starts.
+
+The project leader and the service provider must be employees from different companies.
+
+The number of minor version releases meets the pattern: "?.?.X".
+X is an integer number starting with 1.
+? represents the current major and minor release number.
+
+The following process steps are not mandatory and are skipped by default, unless otherwise decided by the __{tsc}__ or the project group:
+
+* P1: Proposal Workshop
+* C: Review Phase

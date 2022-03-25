@@ -1,13 +1,36 @@
+= Implementation Project
+:description:
+:keywords:
+:navtitle: [Project Type] Implementation
 
-//tag::short[]
+== Summary
+//tag::summary[]
+.Summary
+[cols="1h,3"]
+|===
+|Purpose
+a| Develop supplementary products supporting the application of ASAM standards
+
+|Funding Limit
+| none
+
+|Process
+a|
+Standard Development Process except:
+
+* Proposal Workshop
+* Review Phase
+|===
+
 [horizontal]
 Description:: An implementation project has the purpose to create a supplementary product to a standard that supports the implementation or application of an ASAM standard in the industry.
 Goal:: The result of an implementation project can be a tool or source code, such as checkers for file formats and __{api}__s, add-ons or plug-ins for commonly used __{ide}__s, importers, exporters or reference implementations.
 NOTE: Promoting specific commercial tools shall be avoided.
 
-//end::short[]
+//end::summary[]
 
-//tag::long[]
+
+== Project Type Description
 An implementation project has the purpose to create a supplementary product that supports the ap-plication of an ASAM standard in the industry.
 
 An ASAM product shall cover one of the following use-cases:
@@ -96,23 +119,3 @@ Distributable source code files shall include the following comment text in the 
 
 // Any use is limited to the scope described in the ASAM license terms. This file is distributable in accordance with the ASAM license terms. See www.asam.net/license.html for further details.
 ----
-
-//tag::table[]
-.Summary
-[cols="1h,1"]
-|===
-|Purpose
-a| Develop supplementary products supporting the application of ASAM standards
-
-|Funding Limit
-| none
-
-|Process
-a|
-Standard Development Process except:
-
-* Proposal Workshop
-* Review Phase
-|===
-//end::table[]
-//end::long[]

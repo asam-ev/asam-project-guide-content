@@ -1,11 +1,41 @@
+= Study Project
+:description: A detailed description of the Project Type "Study".
+:keywords: type, project
+:navtitle: [Project Type] Study
 
-//tag::short[]
+== Summary
+//tag::summary[]
+.Summary
+[cols="1h,3"]
+|===
+|Purpose
+a| Develop supplementary products supporting the application of ASAM standards
+
+|Funding Limit
+a|
+* Small budget project:
+** 5000€
+* Large budget project:
+** 25%
+
+|Process
+a|
+* Small budget project:
+** Managed by the office
+* Large budget project:
+** Regular Proposal Process
+** no Proposal Workshop
+** no Review Phase
+
+|===
+
 [horizontal]
 Description:: Study projects provide members, an organizational structure to study or analyze specific aspects of ASAM standards in a collaborative way.
 Goal:: These projects have the overall goal to enhance the understanding of ASAM standards, to promote their application in member companies, and to create change requests for the further development of ASAM standards.
-//end::short[]
+//end::summary[]
 
-//tag::long[]
+
+== Project Type Description
 Study projects provide members an organizational structure to study or analyze specific aspects of ASAM standards in a collaborative way.
 
 Study projects have the overall goal to enhance the understanding of ASAM standards among the participants, to promote their application in member companies and to create change requests for the further development of ASAM standards.
@@ -44,30 +74,3 @@ The minutes may be translated into the working language of the study group.
 Upon request, ASAM provides funding for study projects up to the limit for small budget projects.
 
 In case that a larger budget is required beyond the limit of a small budget project, then the project must be requested via the regular project proposal process, which consist of the process steps P2 Proposal Writing, P3 Proposal Submission, P4 Proposal Publication and P5 Proposal Decision by the __{tsc}__.
-
-//tag::table[]
-.Summary
-[cols="1h,3"]
-|===
-|Purpose
-a| Develop supplementary products supporting the application of ASAM standards
-
-|Funding Limit
-a|
-* Small budget project:
-** 5000€
-* Large budget project:
-** 25%
-
-|Process
-a|
-* Small budget project:
-** Managed by the office
-* Large budget project:
-** Regular Proposal Process
-** no Proposal Workshop
-** no Review Phase
-
-|===
-//end::table[]
-//end::long[]

@@ -1,13 +1,35 @@
+= Concept Project
+:description:
+:keywords:
+:navtitle: [Project Type] Concept
 
-//tag::short[]
+== Summary
+//tag::summary[]
+.Summary
+[cols="1h,3"]
+|===
+|Purpose
+a| Develop supplementary products supporting the application of ASAM standards
+
+|Funding Limit
+| 75%
+
+|Process
+a|
+Standard Development Process except:
+
+* Proposal Workshop
+* Review Phase
+|===
+
 [horizontal]
 Description:: Concept projects have the purpose to prepare the further development of existing ASAM standards or to prepare the development of new ASAM standards.
 They are typically chosen when the envisioned standard is complex and requires significant resources to even develop a sound and solid project proposal.
 Goal:: The goals of concept projects are to propose specific content for ASAM standards and/or to provide justification for the usefulness, practicability, and feasibility of the proposed content.
+//end::summary[]
 
-//end::short[]
 
-//tag::long[]
+== Project Type Description
 Concept projects have the purpose to prepare the further development of existing ASAM standards or to prepare the development of new ASAM standards.
 
 The goals of concept projects are:
@@ -36,23 +58,3 @@ The following process steps are not mandatory and are skipped by default, unless
 
 The project group still caries out an R1 Technical Release and submits their deliverables to the __{tsc}__.
 The __{tsc}__ reviews the deliverables and determines, whether the project objectives have been reached and the project is closed.
-
-//tag::table[]
-.Summary
-[cols="1h,3"]
-|===
-|Purpose
-a| Develop supplementary products supporting the application of ASAM standards
-
-|Funding Limit
-| 75%
-
-|Process
-a|
-Standard Development Process except:
-
-* Proposal Workshop
-* Review Phase
-|===
-//end::table[]
-// end::long[]
