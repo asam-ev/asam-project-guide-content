@@ -5,6 +5,12 @@
 
 include::compendium:partial$_attributes.adoc[]
 
+//tag::compendium[]
+{role-wg-member}
+{role-technical-writer}
+{role-gtm}
+//end::compendium[]
+
 == What are submodules
 Submodules are a way to include other repositories within your repository.
 This way, you do not need to copy identical content from another repository and risk getting out of synch with changes in said external repository.

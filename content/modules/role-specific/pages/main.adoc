@@ -5,9 +5,9 @@
 :role-specific:
 
 include::partial$_attributes.adoc[]
-include::{abb}[]
+
 include::ROOT:partial$_attributes.adoc[]
-include::{abb}[]
+
 
 {role-specific-icon}
 

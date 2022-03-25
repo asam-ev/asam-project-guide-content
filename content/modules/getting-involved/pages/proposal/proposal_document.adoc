@@ -3,7 +3,7 @@
 :keywords: proposal
 
 include::partial$_attributes.adoc[]
-include::{abb}[]
+
 
 NOTE: This page describes the expected content of the Project Proposal document.
 Click xref:proposal/proposal_writing.adoc[**here**] to learn more about how you can contribute to it directly.

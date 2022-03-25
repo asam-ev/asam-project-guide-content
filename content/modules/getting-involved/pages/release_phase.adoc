@@ -3,7 +3,7 @@
 :keywords: release,phase,standard,process, TODO
 
 include::partial$_attributes.adoc[]
-include::{abb}[]
+
 
 ====
 [cols="1,5", frame=none, grid = rows]

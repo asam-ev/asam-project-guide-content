@@ -3,7 +3,7 @@
 :keywords: docker,summary,tool,recommended,TODO
 
 include::partial$_attributes.adoc[]
-include::{abb}[]
+
 
 {recommended}
 

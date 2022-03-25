@@ -8,7 +8,7 @@
 :offset-value-sub: leveloffset=+{level-sub}
 
 include::partial$_attributes.adoc[]
-include::{abb}[]
+
 
 {vscode-icon-page}
 

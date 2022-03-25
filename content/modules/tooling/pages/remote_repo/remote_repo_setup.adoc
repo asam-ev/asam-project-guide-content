@@ -3,7 +3,7 @@
 :keywords: task,fragment,setup,gitlab, github,account
 
 include::partial$_attributes.adoc[]
-include::{abb}[]
+
 
 {remote-icon-page}
 

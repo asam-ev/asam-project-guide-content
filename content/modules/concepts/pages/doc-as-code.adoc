@@ -3,7 +3,7 @@
 :keywords: concept
 
 include::partial$_attributes.adoc[]
-include::{abb}[]
+
 
 {doc-as-code-icon}
 

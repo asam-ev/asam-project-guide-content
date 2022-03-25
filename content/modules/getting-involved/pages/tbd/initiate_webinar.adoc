@@ -3,12 +3,12 @@
 :keywords: webinar, REVIEWED_OK
 
 include::partial$_attributes.adoc[]
-include::{abb}[]
+
 
 {role-wg-member}
 
 NOTE: This page describes how project members can initiate a webinar.
-If you are looking to join a scheduled webinar, see xref:getting-involved:join_webinar.adoc[] instead.
+If you are looking to join a scheduled webinar, see xref:getting-involved:tbd/join_webinar.adoc[] instead.
 
 == Context
 In order to gather feedback on project development and decisions from outside as well as to give an introduction to a standard to non-project-members, a project can decide to host a webinar.

@@ -3,6 +3,6 @@
 :keywords: workgroup-lead, TODO
 
 include::partial$_attributes.adoc[]
-include::{abb}[]
+
 
 include::compendium:page$How-Tos/how-to__become_wg_lead.adoc[tag=body]

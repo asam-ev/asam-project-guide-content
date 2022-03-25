@@ -7,7 +7,7 @@
 
 
 include::partial$_attributes.adoc[]
-include::{abb}[]
+
 
 {mandatory}
 

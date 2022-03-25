@@ -3,7 +3,7 @@
 :keywords: guides,gitlab
 
 include::partial$_attributes.adoc[]
-include::{abb}[]
+
 
 {remote-icon-page}
 

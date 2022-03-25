@@ -3,6 +3,6 @@
 :keywords: project-lead, TODO
 
 include::partial$_attributes.adoc[]
-include::{abb}[]
+
 
 include::compendium:page$How-Tos/how-to__become_pl.adoc[tag=body]

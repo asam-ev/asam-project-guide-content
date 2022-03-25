@@ -3,6 +3,6 @@
 :keywords: project-lead, proposal
 
 include::partial$_attributes.adoc[]
-include::{abb}[]
+
 
 include::compendium:page$How-Tos/how-to__submit_candidacy_pl.adoc[tag=body]

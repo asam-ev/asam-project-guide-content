@@ -3,7 +3,7 @@
 :keywords: review,phase,standard,process, TODO
 
 include::partial$_attributes.adoc[]
-include::{abb}[]
+
 
 The purpose of the Review phase is to involve members of __{asam}__ outside the project group to give their review feedback and to increase the overall quality and acceptance of the standard prior to its release.
 

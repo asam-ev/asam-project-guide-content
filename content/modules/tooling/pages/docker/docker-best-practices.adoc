@@ -3,7 +3,7 @@
 :keywords: docker, best-practices
 
 include::partial$_attributes.adoc[]
-include::{abb}[]
+
 
 {docker-icon-page}
 

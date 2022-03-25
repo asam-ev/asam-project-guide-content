@@ -3,7 +3,7 @@
 :keywords: projects, type, asam, concept
 
 include::partial$_attributes.adoc[]
-include::{abb}[]
+
 
 WARNING: This section needs approval by {tsc}.
 

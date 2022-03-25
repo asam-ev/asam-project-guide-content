@@ -3,7 +3,7 @@
 :keywords: roles, asam, concept
 
 include::partial$_attributes.adoc[]
-include::{abb}[]
+
 
 {roles-icon}
 

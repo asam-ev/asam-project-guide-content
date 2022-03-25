@@ -5,7 +5,7 @@
 :sublevel: leveloffset=+2,tag=!related
 
 include::partial$_attributes.adoc[]
-include::{abb}[]
+
 
 This section describes the structure of standards documents and the types of standards that are produced in projects.
 

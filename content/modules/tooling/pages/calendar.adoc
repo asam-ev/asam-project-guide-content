@@ -3,7 +3,7 @@
 :keywords: openx-calendar,summary,tool,mandatory,READYFORREVIEW
 
 include::partial$_attributes.adoc[]
-include::{abb}[]
+
 
 {mandatory}
 

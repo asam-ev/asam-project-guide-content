@@ -3,7 +3,7 @@
 :keywords: review, service-desk, REVIEWED_OK
 
 include::partial$_attributes.adoc[]
-include::{abb}[]
+
 
 //tag::body[]
 

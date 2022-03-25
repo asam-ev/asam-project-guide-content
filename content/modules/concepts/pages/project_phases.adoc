@@ -3,7 +3,7 @@
 :keywords: phase, concept
 
 include::partial$_attributes.adoc[]
-include::{abb}[]
+
 
 {project-phases-icon}
 

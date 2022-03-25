@@ -3,7 +3,7 @@
 :keywords: proposal,phase,standard,process,proposal-workshop
 
 include::partial$_attributes.adoc[]
-include::{abb}[]
+
 
 
 // == Getting Started Immediately

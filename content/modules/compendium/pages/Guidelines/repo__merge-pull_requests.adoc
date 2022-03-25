@@ -5,6 +5,12 @@
 
 include::compendium:partial$_attributes.adoc[]
 
+//tag::compendium[]
+{role-project-lead}
+{role-gtm}
+{role-technical-writer}
+//end::compendium[]
+
 == Introduction
 A Merge or Pull Requests (MRs) are the way you merge content changes from a development or feature branch back into the xref:compendium:Guidelines/workflow__trunk.adoc#_the_trunk[trunk] or another branch.
 They provide the project team the opportunity to review changes before they are applied and made public/official.

@@ -6,7 +6,7 @@
 :page-responsible-contact: stefan.cyliax(at)asam.net
 
 include::partial$_attributes.adoc[]
-include::{abb}[]
+
 
 {recommended}
 

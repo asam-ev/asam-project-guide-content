@@ -3,7 +3,7 @@
 :keywords: drawio,summary,tool,recommended,READYFORREVIEW
 
 include::partial$_attributes.adoc[]
-include::{abb}[]
+
 
 {recommended}
 

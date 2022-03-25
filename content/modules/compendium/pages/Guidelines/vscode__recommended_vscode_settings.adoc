@@ -48,6 +48,6 @@ To enable diagram support, set the use_kroki parameter in your User Settings to 
 
 image::compendium:enable_kroki.gif[Enabling Kroki diagram support in AsciiDoc extension]
 
-. Open the {command-palette}
+. Open the Command Pallette
 . Type "user settings" and confirm with Enter
 . Search for "kroki" in the user settings and enable the "Use_kroki" checkbox

@@ -5,6 +5,14 @@
 
 include::compendium:partial$_attributes.adoc[]
 
+//tag::compendium[]
+{role-technical-writer}
+{role-wg-lead}
+{role-project-lead}
+{role-proposal-submitter}
+{role-gtm}
+//end::compendium[]
+
 == Git Workflow
 
 TIP: It is best practice to check for changes on remote before changing files locally and before pushing changes to remote.

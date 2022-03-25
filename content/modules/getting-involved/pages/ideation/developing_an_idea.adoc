@@ -3,7 +3,7 @@
 :keywords: ideation, workshop
 
 include::partial$_attributes.adoc[]
-include::{abb}[]
+
 
 [cols="1,5", grid = rows]
 |===

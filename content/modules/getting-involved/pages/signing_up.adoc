@@ -3,7 +3,7 @@
 :keywords: participate
 
 include::partial$_attributes.adoc[]
-include::{abb}[]
+
 
 
 IMPORTANT: If a member intends to commit a work effort of less than 50% of the average of the work efforts committed by all other project group members, then the Office can deny the registration.

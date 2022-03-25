@@ -4,7 +4,7 @@
 :page-aliases: home.adoc
 
 include::partial$_attributes.adoc[]
-include::{abb}[]
+
 
 Welcome to the **ASAM Project Guide**!
 

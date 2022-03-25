@@ -5,6 +5,13 @@
 
 include::compendium:partial$_attributes.adoc[]
 
+//tag::compendium[]
+{role-wg-member}
+{role-technical-writer}
+{role-gtm}
+//end::compendium[]
+
+== Introduction
 A merge conflict occurs when multiple different changes (usually made by different users) are to be merged and some or all of the changes contradict each other.
 For example, if user A deletes a section in their copy and user B adds a new paragraph to it instead, the merging tool does not know whether to keep the section and add the changes made by user B or to delete it like user A did.
 

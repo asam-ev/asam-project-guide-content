@@ -3,7 +3,7 @@
 :keywords: setup,teams,sharepoint,TODO
 
 include::partial$_attributes.adoc[]
-include::{abb}[]
+
 
 {sharepoint-icon-page}
 {teams-icon-page}

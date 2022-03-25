@@ -6,7 +6,7 @@
 
 include::compendium:partial$_attributes.adoc[]
 include::partial$_attributes.adoc[]
-include::{abb}[]
+
 
 
 {git-icon-page}

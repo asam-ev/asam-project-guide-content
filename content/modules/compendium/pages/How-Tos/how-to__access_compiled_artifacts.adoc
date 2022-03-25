@@ -4,6 +4,15 @@
 
 include::compendium:partial$_attributes.adoc[]
 
+//tag::compendium[]
+{role-wg-member}
+{role-wg-lead}
+{role-project-lead}
+{role-proposal-submitter}
+{role-technical-writer}
+{role-gtm}
+//end::compendium[]
+
 The description on this page currently only covers GitLab.
 However, steps are similar at GitHub.
 

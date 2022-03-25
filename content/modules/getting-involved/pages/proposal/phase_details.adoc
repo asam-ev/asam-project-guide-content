@@ -2,6 +2,9 @@
 :keywords: proposal
 :description: proposal phase details
 
+include::partial$_attributes.adoc[]
+
+
 == Phase Diagram
 The figure <<fig-proposal-phase-diagram-detailed>> shows the Proposal phase in full detail.
 Each step is explained shortly under <<Proposal Phase Steps>>.

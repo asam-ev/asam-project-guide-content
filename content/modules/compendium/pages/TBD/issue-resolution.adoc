@@ -3,7 +3,7 @@
 :keywords: standardization,READYFORREVIEW
 
 include::partial$_attributes.adoc[]
-include::{abb}[]
+
 
 ASAM standards are used by companies, who are either members of __{asam}__ or buyers of the standards.
 If a standard has a known problem, then members generally have the expectation that the known problem is fixed within a reasonable time.

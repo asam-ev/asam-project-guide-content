@@ -4,7 +4,7 @@
 :gitlab: xref:remote_repo.adoc[]
 
 include::partial$_attributes.adoc[]
-include::{abb}[]
+
 
 {recommended}
 

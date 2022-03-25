@@ -7,7 +7,7 @@
 
 include::tooling:partial$_attributes.adoc[]
 include::ROOT:partial$_attributes.adoc[]
-include::{abb}[]
+
 
 {tools-icon}
 

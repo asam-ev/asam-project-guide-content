@@ -44,7 +44,7 @@ A new proposal repository has been created and the link been provided to all cur
 . In case of a new standard, https://docs.gitlab.com/ee/user/group/subgroups/#creating-a-subgroup[create a new subgroup^] in the group https://code.asam.net/simulation[**Simulation**^] with the target name of the standard.
 +
 NOTE: If this is an evolution of an existing standard, use the existing subgroup instead
-. xref:compendium:tools/gitlab/forking_repo.adoc[Fork] the latest version of the https://code.asam.net/common/templates/proposal-template[**proposal template repository**^] into this subgroup.
+. xref:compendium:How-Tos/how-to__forking_repo.adoc[Fork] the latest version of the https://code.asam.net/common/templates/proposal-template[**proposal template repository**^] into this subgroup.
 . Rename the forked project to `<THIS_STANDARD> Proposal`, where `<THIS_STANDARD>` is the target name of the standard.
 . Add all current proposal members to the subgroup.
 . Send a mail with the link to the new project to the proposal members, informing them that the repository is now ready for use.

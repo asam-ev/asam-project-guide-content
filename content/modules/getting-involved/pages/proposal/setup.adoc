@@ -3,6 +3,6 @@
 :keywords: proposal, setup
 
 include::partial$_attributes.adoc[]
-include::{abb}[]
+
 
 include::compendium:page$How-Tos/how-to__setup_proposal_git.adoc[tag=body]

@@ -3,7 +3,7 @@
 :keywords: development, phase
 
 include::partial$_attributes.adoc[]
-include::{abb}[]
+
 
 
 ====

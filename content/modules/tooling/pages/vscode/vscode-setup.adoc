@@ -4,7 +4,7 @@
 :vscode-download: https://code.visualstudio.com/download
 
 include::partial$_attributes.adoc[]
-include::{abb}[]
+
 
 {vscode-icon-page}
 

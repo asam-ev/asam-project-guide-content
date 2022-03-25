@@ -3,7 +3,7 @@
 :keywords: drawio, guides,READYFORREVIEW
 
 include::partial$_attributes.adoc[]
-include::{abb}[]
+
 
 {drawio-icon-page}
 

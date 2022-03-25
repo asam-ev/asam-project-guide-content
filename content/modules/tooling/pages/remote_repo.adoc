@@ -3,7 +3,7 @@
 :keywords: gitlab, github,summary,tool,mandatory
 
 include::partial$_attributes.adoc[]
-include::{abb}[]
+
 
 {mandatory}
 
