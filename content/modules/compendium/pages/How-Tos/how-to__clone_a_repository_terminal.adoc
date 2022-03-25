@@ -15,7 +15,7 @@ Confirm with Enter
 +
 NOTE: With this command, you do not need to manually initialize the submodules after checkout!
 
-TIP: Alternatively to the Git Bash, you can also use the {powershell} with the same commands.
+TIP: Alternatively to the Git Bash, you can also use the terminal with the same commands.
 Make sure to open your Powershell in your directory, though.
 
 image::compendium:clone-by-git-bash.gif[]

@@ -42,7 +42,7 @@ If a git version is returned, git is already installed on your system.
 After installation of Git, **configure your user credentials** that Git uses when checking in changed content from your PC to the {gitlab}.
 To make sure your commits match your name and email details, a one time configuration is necessary.
 
-. Open a shell or terminal (e.g. {powershell}) window
+. Open a shell or terminal window
 . Execute the following command and replace the entries _"FIRST_NAME_, _LAST_NAME"_  accordingly:
 +
 [source,git]
@@ -134,6 +134,6 @@ Get-Service -Name ssh-agent | Set-Service -StartupType Manual
 ----
 
 === I cannot add my private key to the SSH agent
-This cannot be done in the Administration {powershell} window if your Admin account is not your user account!
+This cannot be done in the Administration terminal window if your Admin account is not your user account!
 Otherwise, Windows will complain about unprotected private key files!
 Switch to a non-administrator PowerShell and execute the command again.

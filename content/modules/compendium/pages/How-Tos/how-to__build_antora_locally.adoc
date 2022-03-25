@@ -19,7 +19,7 @@ The Project Guide is built locally and the content can be accessed from the "sit
 
 
 == How
-. In a {powershell}, open the _ASAM Project Guide_ repository.
+. In a terminal, open the _ASAM Project Guide_ repository.
 . Pull the current version of the repository: `git pull`
 . Check out the branch you want to build (default: use the _master_ branch): `git checkout <branch name>`
 . [[only-required-once]]Only required once:
@@ -39,7 +39,7 @@ The Project Guide is built locally and the content can be accessed from the "sit
 The script must be executed from the correct folder.
 
 . Navigate to the folder where the script is located.
-. Open a {powershell} window
+. Open a terminal window
 . Execute 'python build.py'
 
 === I don't want to/cannot use python

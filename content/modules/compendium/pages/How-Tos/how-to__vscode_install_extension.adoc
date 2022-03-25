@@ -19,7 +19,7 @@ image::compendium:extensions.png[alt=Add extension under 'View']
 
 . Search for AsciiDoc (or use asciidoctor.asciidoctor-vscode) & install it.
 +
-include::compendium:page$Guidelines/vscode\__recommended_vs_code_extensions.adoc[tag=asciidoc]
+include::compendium:page$Guidelines/vscode__recommended_vscode_extensions.adoc[tag=asciidoc]
 
 
 //tag::standalone[]

@@ -15,10 +15,8 @@ This is a guide for programming with version control.
 - Write a http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html[good commit message^].
 
 
-include::compendium:page$tools/git/maintain_a_repo.adoc[{offset-value}]
+include::compendium:page$How-Tos/how-to__write_a_feature.adoc[{offset-value}]
 
-include::compendium:page$tools/git/write_a_feature.adoc[{offset-value}]
+include::compendium:page$How-Tos/how-to__review_code.adoc[{offset-value}]
 
-include::compendium:page$tools/git/review_code.adoc[{offset-value}]
-
-include::compendium:page$tools/git/merge.adoc[{offset-value}]
+include::compendium:page$How-Tos/how-to__merge.adoc[{offset-value}]

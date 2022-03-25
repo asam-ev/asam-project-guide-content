@@ -89,7 +89,9 @@ The list below contains the requirements ASAM places on graphic assets.
 // . traffic signals and signs
 // . arrors decipting temporal actions
 
+//tag::numbered[]
 :numbered:
+//end::numbered[]
 //tag::tools[]
 == Tools
 
