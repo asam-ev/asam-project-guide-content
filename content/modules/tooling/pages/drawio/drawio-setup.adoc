@@ -38,7 +38,7 @@ image::drawio-import-library.gif[title=Import ASAM Draw.io library into Desktop.
 
 ==== Draw.io VSCode Extension
 
-include::compendium:page$Guidelines/vscode__recommended_vscode_extensions.adoc[tag=drawio]
+include::compendium:page$Guidelines/vscode-recommended_vscode_extensions.adoc[tag=drawio]
 
 NOTE: At this time, the VS Code extension does not provide url links to libraries.
 The only option to add the library is to download a copy and add it manually.

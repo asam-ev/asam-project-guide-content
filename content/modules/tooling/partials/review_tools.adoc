@@ -5,4 +5,4 @@
 
 GitLab Service Desk:: An email service for creating issues in the ASAM GitLab through email without the need for an ASAM account.
 **Use for public release candidate reviews.**
-For a guide on using the Service Desk, see xref:compendium:How-Tos/how-to__review_with_gitlab_service_desk.adoc[]
+For a guide on using the Service Desk, see xref:compendium:How-Tos/how-to-review_with_gitlab_service_desk.adoc[]

@@ -38,9 +38,9 @@ Note that a new concept project is usually not triggered by a previous one.
 
 
 == Concept
-include::compendium:page$Terminology/project-type__concept.adoc[tag=summary]
+include::compendium:page$Terminology/project-type-concept.adoc[tag=summary]
 
-For more details, see xref:compendium:Terminology/project-type__concept.adoc[] in the Compendium.
+For more details, see xref:compendium:Terminology/project-type-concept.adoc[] in the Compendium.
 
 
 == Standard Development
@@ -49,40 +49,40 @@ For more details, see xref:compendium:Terminology/project-type__concept.adoc[] i
 New Standard::
 +
 --
-include::compendium:page$Terminology/project-type__standard.adoc[tag=new-summary]
+include::compendium:page$Terminology/project-type-standard.adoc[tag=new-summary]
 --
 Major Version Update::
 +
 --
-include::compendium:page$Terminology/project-type__standard.adoc[tag=major-summary]
+include::compendium:page$Terminology/project-type-standard.adoc[tag=major-summary]
 --
 Minor Version Update::
 +
 --
-include::compendium:page$Terminology/project-type__standard.adoc[tag=minor-summary]
+include::compendium:page$Terminology/project-type-standard.adoc[tag=minor-summary]
 --
 Revision::
 +
 --
-include::compendium:page$Terminology/project-type__standard.adoc[tag=revision-summary]
+include::compendium:page$Terminology/project-type-standard.adoc[tag=revision-summary]
 --
 ====
 
-include::compendium:page$Terminology/project-type__standard.adoc[tag=summary]
+include::compendium:page$Terminology/project-type-standard.adoc[tag=summary]
 
-For more details, see xref:compendium:Terminology/project-type__standard.adoc[] in the Compendium.
+For more details, see xref:compendium:Terminology/project-type-standard.adoc[] in the Compendium.
 
 == Study
-include::compendium:page$Terminology/project-type__study.adoc[tag=summary]
+include::compendium:page$Terminology/project-type-study.adoc[tag=summary]
 
-For more details, see xref:compendium:Terminology/project-type__study.adoc[] in the Compendium.
+For more details, see xref:compendium:Terminology/project-type-study.adoc[] in the Compendium.
 
 
 
 // == Implementation
-// include::compendium:page$Terminology/project-type__implementation.adoc[tag=summary]
+// include::compendium:page$Terminology/project-type-implementation.adoc[tag=summary]
 
-// For more details, see xref:compendium:Terminology/project-type__implementation.adoc[] in the Compendium.
+// For more details, see xref:compendium:Terminology/project-type-implementation.adoc[] in the Compendium.
 
 
 

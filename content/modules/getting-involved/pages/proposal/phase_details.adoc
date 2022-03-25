@@ -100,7 +100,7 @@ Interested parties can start to enroll for the proposed project in parallel to t
 See xref:signing_up.adoc[] for available options during this process and more detail information on it. +
 Additionally, you can xref:proposal/submit_candidacy.adoc[apply for the role of Project Lead].
 
-For more information on the enrollment list, see xref:compendium:How-Tos/how-to__enrollment_list.adoc[].
+For more information on the enrollment list, see xref:compendium:How-Tos/how-to-enrollment_list.adoc[].
 
 ---
 
@@ -382,7 +382,7 @@ Interested parties can start to enroll for the proposed project in parallel to t
 See xref:signing_up.adoc[] for available options during this process and more detail information on it. +
 Additionally, you can xref:proposal/submit_candidacy.adoc[apply for the role of Project Lead].
 
-For more information on the enrollment list, see xref:compendium:How-Tos/how-to__enrollment_list.adoc[].
+For more information on the enrollment list, see xref:compendium:How-Tos/how-to-enrollment_list.adoc[].
 --
 Proposal Workshop Preparation::
 +

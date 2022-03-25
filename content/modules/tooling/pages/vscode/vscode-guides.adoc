@@ -14,8 +14,8 @@ include::partial$_attributes.adoc[]
 
 Visual Studio Code is a powerful code and text editor that can be highly individualized and adapted to the task at hand using the existing extensions for it.
 
-include::compendium:page$How-Tos/how-to__vscode_install_extension.adoc[{offset-value}]
+include::compendium:page$How-Tos/how-to-vscode_install_extension.adoc[{offset-value}]
 
-include::compendium:page$Guidelines/vscode__recommended_vscode_extensions.adoc[{offset-value-sub}]
+include::compendium:page$Guidelines/vscode-recommended_vscode_extensions.adoc[{offset-value-sub}]
 
-include::compendium:page$Guidelines/vscode__recommended_vscode_settings.adoc[{offset-value}]
+include::compendium:page$Guidelines/vscode-recommended_vscode_settings.adoc[{offset-value}]

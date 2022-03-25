@@ -28,7 +28,7 @@ It can be accessed directly or through Teams, which is why all files that have b
 ** If you need another Teams channel, contact the page Responsible (see top of this page)
 * These file tabs can also be found directly in Sharepoint (sign in with your microsoft account).
 
-IMPORTANT: Project files such as chapters, specifications, or images intended for use in the standard are to be handled through GitLab instead! See xref:compendium:Guidelines/workflow__trunk.adoc[] for more information.
+IMPORTANT: Project files such as chapters, specifications, or images intended for use in the standard are to be handled through GitLab instead! See xref:compendium:Guidelines/workflow-trunk.adoc[] for more information.
 
 
 == MS Teams At ASAM

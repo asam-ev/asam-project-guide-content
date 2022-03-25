@@ -5,4 +5,4 @@
 include::partial$_attributes.adoc[]
 
 
-include::compendium:page$How-Tos/how-to__setup_proposal_git.adoc[tag=body]
+include::compendium:page$How-Tos/how-to-setup_proposal_git.adoc[tag=body]

@@ -6,4 +6,4 @@ include::partial$_attributes.adoc[]
 
 
 
-include::compendium:page$How-Tos/how-to__enter_new_idea.adoc[tags=body]
+include::compendium:page$How-Tos/how-to-enter_new_idea.adoc[tags=body]

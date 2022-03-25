@@ -6,4 +6,4 @@ include::partial$_attributes.adoc[]
 
 
 
-include::compendium:page$How-Tos/how-to__enroll_for_ideation.adoc[tag=body]
+include::compendium:page$How-Tos/how-to-enroll_for_ideation.adoc[tag=body]

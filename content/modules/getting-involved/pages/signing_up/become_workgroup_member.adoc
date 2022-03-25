@@ -5,4 +5,4 @@
 include::partial$_attributes.adoc[]
 
 
-include::compendium:page$How-Tos/how-to__become_wg_member.adoc[tag=body]
+include::compendium:page$How-Tos/how-to-become_wg_member.adoc[tag=body]

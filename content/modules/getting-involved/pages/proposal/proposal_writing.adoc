@@ -33,7 +33,7 @@ See **xref:getting-involved:proposal/proposal_document.adoc[]** for more informa
 
 == How To Contribute
 IMPORTANT: You must first complete the xref:tooling:working-without-software-installation.adoc#_minimum_required_setup[**Minimum Required Setup**] before you can participate in and contribute to any project. +
-Participation in the creation of a Project Proposal follows the central xref:compendium:Guidelines/workflow__trunk.adoc[**Trunk-based Workflow**] at ASAM.
+Participation in the creation of a Project Proposal follows the central xref:compendium:Guidelines/workflow-trunk.adoc[**Trunk-based Workflow**] at ASAM.
 If you want to learn more about this workflow, click the link.
 
 To contribute to a Project Proposal, project members can either <<Contributing Through Issues,contribute through GitLab issues>> or <<Contributing In AsciiDoc,contribute directly in AsciiDoc>>.
@@ -55,7 +55,7 @@ All participants must follow these guidelines.
 The project may decide to contribute directly in AsciiDoc as well.
 However, content shall still be discussed and updated in issues as described in <<Contributing Through Issues>>.
 
-When writing AsciiDoc, writers must follow the guidelines described in **xref:compendium:Guidelines/workflow__contribute_in_asciidoc.adoc[]** as well as the <<ASAM Editorial Guide>>.
+When writing AsciiDoc, writers must follow the guidelines described in **xref:compendium:Guidelines/workflow-contribute_in_asciidoc.adoc[]** as well as the <<ASAM Editorial Guide>>.
 
 === Transferring Content To AsciiDoc
 {mandatory}
@@ -63,7 +63,7 @@ When writing AsciiDoc, writers must follow the guidelines described in **xref:co
 The content that is defined in the project's issues must be transferred to AsciiDoc eventually.
 ASAM recommends that the project defines one or more writers responsible for this task.
 
-When writing AsciiDoc, writers must follow the guidelines described in **xref:compendium:Guidelines/workflow__contribute_in_asciidoc.adoc[]** as well as the <<ASAM Editorial Guide>>.
+When writing AsciiDoc, writers must follow the guidelines described in **xref:compendium:Guidelines/workflow-contribute_in_asciidoc.adoc[]** as well as the <<ASAM Editorial Guide>>.
 
 
 === ASAM Editorial Guide
@@ -74,12 +74,12 @@ The Editorial Guide is **mandatory** for all Technical Writers and **recommended
 
 // == Creating The Executive Summary
 
-// include::compendium:page$How-Tos/how-to__executive_draft.adoc[leveloffset=+1, tags=body]
+// include::compendium:page$How-Tos/how-to-executive_draft.adoc[leveloffset=+1, tags=body]
 
 
 == Writing The Proposal Draft
 
-include::compendium:page$How-Tos/how-to__proposal_writing.adoc[leveloffset=+1, tags=body]
+include::compendium:page$How-Tos/how-to-proposal_writing.adoc[leveloffset=+1, tags=body]
 
 
 == Finalizing The Proposal

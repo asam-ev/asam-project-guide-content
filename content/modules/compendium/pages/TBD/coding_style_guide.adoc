@@ -18,7 +18,7 @@ You should follow the recommendations in this document in the following cases:
 
 . You are a _scenario developer_ writing fully functional scenarios for real use.
 . You are a _writer of documentation_ and want to add code examples (snippets) to your adoc document. +
-In this case you should mark your code examples as a `+[source, osc2]+` source block as described in the xref:compendium:Guidelines/asciidoc__writing_guide.adoc[].
+In this case you should mark your code examples as a `+[source, osc2]+` source block as described in the xref:compendium:Guidelines/asciidoc-writing_guide.adoc[].
 
 
 By following the recommendations in this guide your code becomes easy-to-understand for you and other users.
@@ -33,14 +33,14 @@ By following the recommendations in this guide your code becomes easy-to-underst
 ** *Tab size: 4*
 ** *Insert spaces*
 
-TIP: For support in Visual Studio Code, see xref:compendium:Guidelines/vscode__recommended_vscode_settings.adoc#_indentations[Indentations].
+TIP: For support in Visual Studio Code, see xref:compendium:Guidelines/vscode-recommended_vscode_settings.adoc#_indentations[Indentations].
 
 === Encoding
 * Use *UTF-8* as encoding.
 
 === Whitespace
 
-TIP: For support in Visual Studio Code, see xref:compendium:Guidelines/vscode__recommended_vscode_settings.adoc#_automatic_removal_of_spaces_after_periods[Automatic Whitespace Removal].
+TIP: For support in Visual Studio Code, see xref:compendium:Guidelines/vscode-recommended_vscode_settings.adoc#_automatic_removal_of_spaces_after_periods[Automatic Whitespace Removal].
 
 Whitespace characters provide better readability when used in the correct places.
 
@@ -272,7 +272,7 @@ scenario slower_large_vehicle_in_adjacent_lane
 == Related topics
 
 * If you cannot find a recommendation for your source code formatting or naming problem in this document, follow the https://www.python.org/dev/peps/pep-0008/[Style Guide for Python Code (PEP 8)^].
-* For more information about creating documentation with adoc-topics check out the xref:Guidelines/asciidoc__writing_guide.adoc[].
+* For more information about creating documentation with adoc-topics check out the xref:Guidelines/asciidoc-writing_guide.adoc[].
 
 
 // == Contact information

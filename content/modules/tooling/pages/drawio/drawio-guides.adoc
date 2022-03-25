@@ -15,7 +15,7 @@ Here, you can learn more about the basics of Draw.io as well as advanced techniq
 == Including Draw.io In AsciiDoc
 If you have a drawio diagram (must be a .drawio.svg file!), you can add it to your document the following way.
 
-include::compendium:page$Guidelines/asciidoc__graphics.adoc[tag=drawio]
+include::compendium:page$Guidelines/asciidoc-graphics.adoc[tag=drawio]
 
 
 == Accessing The ASAM Library
@@ -25,4 +25,4 @@ To use assets from the library, drag and drop the required asset from the librar
 
 include::compendium:page$Guidelines/graphic_assets_requirements_and_conventions.adoc[leveloffset=+1, tag=!numbered]
 
-include::compendium:page$How-Tos/how-to__change_asset_library_content.adoc[leveloffset=+1]
+include::compendium:page$How-Tos/how-to-change_asset_library_content.adoc[leveloffset=+1]

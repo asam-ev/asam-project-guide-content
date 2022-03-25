@@ -50,7 +50,7 @@ include::compendium:partial$feedback_template_button.adoc[{button-attributes}]
 
 == Troubleshooting / Known Issues
 === I want to add more features or a different template to my button
-See xref:compendium:How-Tos/how-to__add_custom_feedback_button.adoc[].
+See xref:compendium:How-Tos/how-to-add_custom_feedback_button.adoc[].
 
 //end::short[]
 

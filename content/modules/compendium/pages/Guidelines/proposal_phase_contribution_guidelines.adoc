@@ -26,4 +26,4 @@ h| Step
 |===
 //end::roles[]
 
-include::compendium:page$Guidelines/workflow__contribute_with_issues.adoc[tags=body;proposal]
+include::compendium:page$Guidelines/workflow-contribute_with_issues.adoc[tags=body;proposal]

@@ -1,2 +1,2 @@
 
-Make sure to adhere to the xref:compendium:Guidelines/repo__commit_conventions.adoc[].
+Make sure to adhere to the xref:compendium:Guidelines/repo-commit_conventions.adoc[].

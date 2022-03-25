@@ -7,6 +7,6 @@ The Project Guide contains a number of abbreviations.
 This page lists them.
 If a more in-depth definition or guide exists on it, a link to that page in the Project Guide is included.
 
-If you need to add a new abbreviation, see xref:project-guide:adding_content/add-an-abbreviation.adoc[].
+If you need to add a new abbreviation, see xref:asamprojectguide-editing:ROOT:adding_content/add-an-abbreviation.adoc[].
 
 include::compendium:partial$_attributes.adoc[]

@@ -33,7 +33,7 @@ Define a working mode:::
 * Responsible for a clean preparation of workshops
 * Responsible for leading or passing on the leadership of meetings
 * Responsible for the documentation of meetings
-* See also xref:ASAM/Meeting_moderation_best_practices.adoc[meeting moderation best practices]
+* See also xref:compendium:Guidelines/coordination-meeting_moderation.adoc[meeting moderation best practices]
 Leading of change control board:::
 * Refining and ensuring a change management process
 * Organisation of the topics to be implemented

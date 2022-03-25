@@ -37,7 +37,7 @@ Ideally, interested parties already sign up for the Proposal phase during the wo
 
 
 == Hosting An Ideation Workshop
-include::compendium:page$Guidelines/coordination__hosting_workshops.adoc[leveloffset=+1,tag=body]
+include::compendium:page$Guidelines/coordination-hosting_workshops.adoc[leveloffset=+1,tag=body]
 
 
 == Agenda Template

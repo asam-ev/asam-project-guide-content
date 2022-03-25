@@ -8,7 +8,7 @@ include::partial$_attributes.adoc[]
 {remote-icon-page}
 
 == General Workflows
-include::compendium:page$Guidelines/workflow__trunk.adoc[leveloffset=+2, tag=!compendium]
+include::compendium:page$Guidelines/workflow-trunk.adoc[leveloffset=+2, tag=!compendium]
 
 ---
 
@@ -16,7 +16,7 @@ include::compendium:page$Guidelines/workflow__trunk.adoc[leveloffset=+2, tag=!co
 You can contribute to ASAM projects directly through issues.
 These issues can be created and managed in the respective Remote Repository of the project.
 
-For more information, see xref:compendium:page$Guidelines/workflow__contribute_with_issues.adoc[] in the Compendium.
+For more information, see xref:compendium:page$Guidelines/workflow-contribute_with_issues.adoc[] in the Compendium.
 
 ---
 
@@ -25,32 +25,32 @@ For more information, see xref:compendium:page$Guidelines/workflow__contribute_w
 Projects may get so big, that issues are created and forgotten without ever being finished.
 To prevent unnecessary and obsolete issues bogging up the repository, ASAM employs a Ticket Triage workflow.
 
-For more information, see xref:compendium:page$Guidelines/workflow__ticket_triage.adoc[] in the Compendium.
+For more information, see xref:compendium:page$Guidelines/workflow-ticket_triage.adoc[] in the Compendium.
 
 
 == Specific Guidelines
 
-include::compendium:page$Guidelines/repo__make_changes.adoc[leveloffset=+2, tag=!compendium]
+include::compendium:page$Guidelines/repo-make_changes.adoc[leveloffset=+2, tag=!compendium]
 
 ---
 
-include::compendium:page$Guidelines/repo__merge-pull_requests.adoc[leveloffset=+2, tag=!compendium]
+include::compendium:page$Guidelines/repo-merge-pull_requests.adoc[leveloffset=+2, tag=!compendium]
 
 ---
 
-include::compendium:page$Guidelines/repo__merge_conflicts.adoc[leveloffset=+2, tag=!compendium]
+include::compendium:page$Guidelines/repo-merge_conflicts.adoc[leveloffset=+2, tag=!compendium]
 
 ---
 
-include::compendium:page$Guidelines/repo__submodules.adoc[leveloffset=+2, tag=!compendium]
+include::compendium:page$Guidelines/repo-submodules.adoc[leveloffset=+2, tag=!compendium]
 
 ---
 
-include::compendium:page$How-Tos/how-to__access_compiled_artifacts.adoc[leveloffset=+2, tag=!compendium]
+include::compendium:page$How-Tos/how-to-access_compiled_artifacts.adoc[leveloffset=+2, tag=!compendium]
 
 ---
 
-include::compendium:page$How-Tos/how-to__forking_repo.adoc[leveloffset=+2, tag=!compendium]
+include::compendium:page$How-Tos/how-to-forking_repo.adoc[leveloffset=+2, tag=!compendium]
 
 == Conventions
 reference::repo_convention[]

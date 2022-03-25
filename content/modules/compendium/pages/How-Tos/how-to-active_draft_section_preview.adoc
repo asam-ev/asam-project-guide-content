@@ -1,0 +1,52 @@
+= How-To: Activate Draft Section Preview
+:description: Explains how to activate the draft section preview.
+:keywords: draft
+
+include::compendium:partial$_attributes.adoc[]
+
+== Context
+If you are working with xref:compendium:How-Tos/how-to-mark_parts_as_draft.adoc[draft sections], they will not show in the preview of your writing tool by default (as intended!). +
+If you want to be able to see draft sections in your preview, follow these instructions.
+
+== Result
+The preview shows the sections marked as 'draft'.
+
+== How
+[tabs]
+====
+Visual Studio Code::
++
+--
+. In the Asciidoc extension settings, go to `Preview:Attributes - Edit in settings.json`
+. In the settings.json, add the `draft` attribute:
++
+[source]
+----
+"asciidoc.preview.attributes": {
+    "draft": ""
+}
+----
++
+. Save settings.json
+--
+AsciidocFX::
++
+--
+. Go to `Settings` on the right hand side of the preview
+. Go to the `Preview settings` tab
+. Add an `Asciidoctor Attribute` by double-clicking an empty attribute line
+. Add attribute `draft` with value `true`
+. Save the settings (small button on the lower left of the tab!)
+. Reload the preview
+--
+GitLab::
++
+--
+The preview in GitLab intentionally shows the release version of the files, meaning that the parts marked as draft are hidden. +
+You can easily switch off the preview and view the source content by clicking on the `display source`-icon on top of the file window:
+
+image::source_view.png[]
+
+The icon next to it switches back to the preview.
+--
+====
