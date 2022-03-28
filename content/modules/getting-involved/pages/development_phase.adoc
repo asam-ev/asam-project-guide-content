@@ -20,11 +20,11 @@ h| Project phase
 |===
 ====
 
-== Getting Started Immediately
+// == Getting Started Immediately
 
-TODO
-[horizontal]
-xref:tooling:working-without-software-installation.adoc#_minimum_required_setup[Minimum Required Setup]:: Check out the minimum required setup to get ready for participation and contribution.
+// TODO
+// [horizontal]
+// xref:tooling:working-without-software-installation.adoc#_minimum_required_setup[Minimum Required Setup]:: Check out the minimum required setup to get ready for participation and contribution.
 
 // xref:ideation/enter_new_idea.adoc[]:: Start here to learn how you can enter an idea at ASAM.
 // xref:ideation/developing_an_idea.adoc[]:: Start here if you want to further develop an idea you previously entered.
