@@ -79,7 +79,7 @@ This is done through a so-called Merge Request (MR), sometimes called a Pull Req
 
 image::example-repo-workflow.drawio.svg[title=Repository workflow and branching example.]
 
-NOTE: The strategy of having one main branch (trunk) and develop changes in separate branches is called trunk-based development and the quasi-standard of modern software development.
+NOTE: The strategy of having one main branch (trunk) and develop changes in separate branches is called xref:compendium:Guidelines/workflow-trunk.adoc[**trunk-based development**] and the quasi-standard of modern software development.
 
 These repositories also contain some files with information about the history and current state of the content.
 The repository information is updated and used by Git and usually needs not to be changed by users manually.
