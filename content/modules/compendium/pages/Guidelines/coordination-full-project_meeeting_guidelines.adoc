@@ -21,7 +21,7 @@ NOTES:
 - Logistics: ASAM
 - Frequency/cadence: at least quaterly (typically: every 2 months during active cycles)
 - Voting: PL
-- Apply the xref:compendium/Guidelines/coordination-general_meeting_guidelines.adoc[].
+- Apply the xref:compendium:Guidelines/coordination-general_meeting_guidelines.adoc[].
 
 Types:
 

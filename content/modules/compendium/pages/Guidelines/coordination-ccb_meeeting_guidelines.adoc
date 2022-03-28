@@ -19,6 +19,6 @@ NOTES:
 - Logistics: Moderator (or delegate)
 - Frequency/cadence: group decides
 - Voting: Moderator
-- Apply the xref:compendium/Guidelines/coordination-general_meeting_guidelines.adoc[].
+- Apply the xref:compendium:Guidelines/coordination-general_meeting_guidelines.adoc[].
 
 TODO: Unify with wg-lead-meeting-guidelines

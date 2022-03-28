@@ -18,4 +18,4 @@ NOTES:
 - Minutes: Moderator (or delegate)
 - Logistics: Moderator (or delegate)
 - Frequency/cadence: group decides
-- Apply the xref:compendium/Guidelines/coordination-general_meeting_guidelines.adoc[].
+- Apply the xref:compendium:Guidelines/coordination-general_meeting_guidelines.adoc[].
