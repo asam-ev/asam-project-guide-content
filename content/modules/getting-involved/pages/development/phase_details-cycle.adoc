@@ -1,0 +1,342 @@
+= Development Phase Details
+:keywords: development
+:description: Development phase details
+
+include::partial$_attributes.adoc[]
+
+
+== Phase Diagrams
+The development phase consists of the <<fig-development-setup-step-diagram,Project Setup Step>>, followed by the main development loop (the <<fig-development-main-cycle-diagram,Main Cycle>>).
+Each step is explained shortly under <<Development Phase Steps>>.
+Every task of each step is then further detailed on its respective page.
+
+
+=== Setup Step
+[#fig-development-setup-step-diagram]
+image::compendium:asam/development_phase-setup.svg[title="The Development phase's setup step in detail, using the xref:concepts:diagram_notations.adoc[ASAM Project Phase Notation]"]
+
+At the beginning of the Development phase, the project team gets together for a <<Kick-off Workshop>>.
+Here, the team decides on key topics of the project and also elects the Project Lead. +
+In parallel to that, the {gtm} sets up the repository and the mailing list for the project.
+After the workshop has happened, the repository is updated with the outcomes from it.
+
+If the project has requested budget for one or more Service Providers, a call for offer is issued, potential Service Providers present their offers, and the project decides on whom to contract.
+After the Service Provider or Providers have been chosen, they receive an onboarding.
+
+After the initial setup has been dealt with, the project enters into the development cycle described below.
+
+
+=== Development Cycle
+[#fig-development-main-cycle-diagram]
+image::compendium:asam/development_phase-main.svg[title="The Development phase's main cycle in detail, using the xref:concepts:diagram_notations.adoc[ASAM Project Phase Notation]"]
+
+While the project is actively being developed, it follows the main development cycle of planning, developing, and reviewing.
+Occasionally, there are project-independent events happening, such as "Controlling Meetings", where each project may or must participate in.
+In particular, there are the __CGSim Controlling Meetings__ (mandatory for all Simulation Domain projects during the Development phase) and the __TSC Controlling Meetings__. +
+Typically, projects present their current (i.e. the latest updated) status report to allow the respective panel to monitor and intervene, if necessary.
+
+
+
+== Development Phase Timeline
+Each project defines their own timeline during the Proposal phase.
+Therefore, there is no standard Development phase timeline. +
+However, there are typical categories for project length.
+These are shown below.
+
+TODO
+
+Additionally, a project may request additional time if the project's content turns out to be more complex than anticipated.
+// * 8-12 weeks for creating the draft
+// * 1 day of Proposal Workshop (announced 4-6 weeks ahead of time)
+// * 1-4 weeks of finalizing the draft and enrollment
+// * proposal publication
+// * proposal review, presentation, and project decision
+
+// image::compendium:asam/proposal_phase_timeline.drawio.svg[title=Typical Proposal phase timeline]
+
+
+== Development Phase Steps
+The Development phase consists of the following steps, which are explained in detail in their own sections:
+
+* Setup
+** <<Prepare Kick-off Workshop>>
+** <<Kick-off Workshop>>
+** <<Set Up Project Repository>>
+** <<Set Up Mailing Lists>>
+** <<Update Repository After Kick-off Workshop>>
+** <<Issue Call For Offers>>
+** <<Select Service Providers>>
+** <<Onboarding For Service Providers>>
+* Cycle
+** <<Cycle Planning>>
+** <<Cycle Development>>
+** <<Cycle Review>>
+* Controlling Meetings
+** <<TSC Controlling Meeting>>
+** <<CGSim Controlling Meeting>>
+
+
+---
+
+=== Prepare Kick-off Workshop
+[cols="3,1,10"]
+|===
+.3+|image:compendium:asam/development_phase-kick-off_preparation.svg[]
+>h|Purpose
+|To prepare the kick-off workshop for the Development phase.
+
+>h|Responsible
+|{role-gtm}
+
+>h|Involved
+|{role-wg-member}
+
+|===
+
+TODO +
+See xref:development/kick-off_workshop_preparation.adoc[].
+
+---
+
+=== Kick-off Workshop
+[cols="3,1,10"]
+|===
+.3+|image:compendium:asam/development_phase-kick-off.svg[]
+>h|Purpose
+|To define all project-specific definitions and elect a Project Lead as well as all WG Leads.
+
+>h|Responsible
+|{role-gtm}
+
+>h|Involved
+|{role-wg-member} +
+-> {role-project-lead} +
+-> {role-wg-lead}
+
+|===
+
+TODO +
+See xref:development/kick-off_workshop.adoc[].
+
+---
+
+=== Set Up Project Repository
+[cols="3,1,10"]
+|===
+.3+|image:compendium:asam/development_phase-repo_setup.svg[]
+>h|Purpose
+|To set up the repository of the project so that the project members can start working on it.
+
+>h|Responsible
+|{role-gtm}
+
+>h|Involved
+|{role-wg-member}
+
+|===
+
+TODO +
+See xref:development/project_setup.adoc[].
+
+---
+
+=== Set Up Mailing Lists
+[cols="3,1,10"]
+|===
+.3+|image:compendium:asam/development_phase-mailing_list.svg[]
+>h|Purpose
+|To prepare the project's mailing list.
+
+>h|Responsible
+|{role-gtm}
+
+>h|Involved
+|{role-wg-member}
+
+|===
+
+The GTM takes the list of enrolled members, creates a new xref:tooling:teams-and-sharepoint.adoc[MS Teams] channel for the project (if it does not exist yet), creates a related sharepoint folder, and adds all participants to that channel and folder. +
+The channel can then also be used as a mailing list.
+
+---
+
+=== Update Repository After Kick-off Workshop
+[cols="3,1,10"]
+|===
+.3+|image:compendium:asam/development_phase-customstep.svg[]
+>h|Purpose
+|TODO
+
+>h|Responsible
+|TODO
+
+>h|Involved
+|TODO
+
+|===
+
+TODO +
+See xref:development/customstepfile.adoc[].
+
+---
+
+=== Issue Call For Offers
+[cols="3,1,10"]
+|===
+.3+|image:compendium:asam/development_phase-customstep.svg[]
+>h|Purpose
+|TODO
+
+>h|Responsible
+|TODO
+
+>h|Involved
+|TODO
+
+|===
+
+TODO +
+See xref:development/customstepfile.adoc[].
+
+---
+
+=== Select Service Providers
+[cols="3,1,10"]
+|===
+.3+|image:compendium:asam/development_phase-customstep.svg[]
+>h|Purpose
+|TODO
+
+>h|Responsible
+|TODO
+
+>h|Involved
+|TODO
+
+|===
+
+TODO +
+See xref:development/customstepfile.adoc[].
+
+---
+
+=== Onboarding For Service Providers
+[cols="3,1,10"]
+|===
+.3+|image:compendium:asam/development_phase-customstep.svg[]
+>h|Purpose
+|TODO
+
+>h|Responsible
+|TODO
+
+>h|Involved
+|TODO
+
+|===
+
+TODO +
+See xref:development/customstepfile.adoc[].
+
+---
+
+=== Cycle Planning
+[cols="3,1,10"]
+|===
+.3+|image:compendium:asam/development_phase-customstep.svg[]
+>h|Purpose
+|TODO
+
+>h|Responsible
+|TODO
+
+>h|Involved
+|TODO
+
+|===
+
+TODO +
+See xref:development/customstepfile.adoc[].
+
+---
+
+=== Cycle Development
+[cols="3,1,10"]
+|===
+.3+|image:compendium:asam/development_phase-customstep.svg[]
+>h|Purpose
+|TODO
+
+>h|Responsible
+|TODO
+
+>h|Involved
+|TODO
+
+|===
+
+TODO +
+See xref:development/customstepfile.adoc[].
+
+---
+
+=== Cycle Review
+[cols="3,1,10"]
+|===
+.3+|image:compendium:asam/development_phase-customstep.svg[]
+>h|Purpose
+|TODO
+
+>h|Responsible
+|TODO
+
+>h|Involved
+|TODO
+
+|===
+
+TODO +
+See xref:development/customstepfile.adoc[].
+
+---
+
+=== TSC Controlling Meeting
+[cols="3,1,10"]
+|===
+.3+|image:compendium:asam/development_phase-customstep.svg[]
+>h|Purpose
+|TODO
+
+>h|Responsible
+|TODO
+
+>h|Involved
+|TODO
+
+|===
+
+TODO +
+See xref:development/customstepfile.adoc[].
+
+---
+
+=== CGSim Controlling Meeting
+[cols="3,1,10"]
+|===
+.3+|image:compendium:asam/development_phase-customstep.svg[]
+>h|Purpose
+|TODO
+
+>h|Responsible
+|TODO
+
+>h|Involved
+|TODO
+
+|===
+
+TODO +
+See xref:development/customstepfile.adoc[].
+
+---
+

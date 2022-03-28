@@ -1,0 +1,7 @@
+= TSC Controlling Meeting
+:description: Describes a typical TSC Controlling Meeting for the Development phase.
+:keywords: tsc, controlling, development
+
+include::partial$_attributes.adoc[]
+
+TODO

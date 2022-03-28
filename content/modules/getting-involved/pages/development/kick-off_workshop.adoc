@@ -1,0 +1,9 @@
+= Kick-off Workshop
+:description: Describes a typical Kick-off Workshop for the Development phase.
+:keywords: kick-off-workshop, development
+
+include::partial$_attributes.adoc[]
+
+TODO
+
+related::kick-off-workshop[]

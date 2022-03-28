@@ -1,0 +1,51 @@
+= Meeting Logistics
+:description: Defines the term 'meeting logistics' in the context of ASAM meetings.
+:keywords: term
+
+include::compendium:partial$_attributes.adoc[]
+
+The term "Meeting Logistics" in the context of ASAM meetings refers to the following topics:
+
+* Sending meeting invites
+* Setting up the tooling (particularly for virtual or hybrid meetings)
+* Booking rooms (for hybrid or face-to-face meetings)
+* Catering (for hybrid or face-to-face meetings)
+
+[cols="1,2,1,1,1"]
+|===
+.2+h|Topic
+.2+h|Description
+3+h|Relevant for meeting type
+
+h|Virtual
+h|Hybrid
+h|Face-to-Face
+
+|Invites
+|Send the meeting invites to the participants
+|x
+|x
+|x
+
+|Tooling
+|Set up the required tooling for the meeting
+|x
+|x
+|*
+
+|Booking rooms
+|Book a sufficiently large room to accompany all invited participants
+|
+|x
+|x
+
+|Catering
+|Organize catering for the workshop or meeting
+|
+|x
+|x
+
+|===
+
+[horizontal]
+*:: Even though pure face-to-face meetings do not require any web meeting tool setup (e.g. for MS Teams or WebEx), other tooling may still be required or requested.

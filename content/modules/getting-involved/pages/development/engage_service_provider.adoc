@@ -37,7 +37,7 @@ Once the project has been accepted, the project group sends out service requests
 Tasks can be bundled or offered separately. +
 Service providers can apply for one or more bundles, or they can limit their offer to select parts of one or more bundles.
 
-. The working group writes a call for tender.
+. The working group writes a call for offer.
 . Interested service providers apply for a presentation to present themselves and get more input on the tasks required from them
 . The group requests offers from interesting service providers
 . The service providers and the working group negotiate terms and conditions

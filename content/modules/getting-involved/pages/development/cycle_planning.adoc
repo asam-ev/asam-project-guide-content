@@ -1,0 +1,7 @@
+= Development Cycle - Planning
+:description: Describes what happens during a cycle planning during the development phase.
+:keywords: cycle, planning, development
+
+include::partial$_attributes.adoc[]
+
+TODO

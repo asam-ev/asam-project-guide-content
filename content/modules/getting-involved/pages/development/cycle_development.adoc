@@ -1,0 +1,7 @@
+= Development Cycle - Development
+:description: Describes what happens during the cycle development part of the development phase.
+:keywords: cycle, development
+
+include::partial$_attributes.adoc[]
+
+TODO
