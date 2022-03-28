@@ -5,3 +5,9 @@
 include::partial$_attributes.adoc[]
 
 TODO
+
+NOTE:
+
+- Presenter: PL
+- Content: PL
+- Logistics: ASAM

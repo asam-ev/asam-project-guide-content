@@ -1,0 +1,24 @@
+= Change Control Board Meeting Guidelines
+:description: TODO
+:keywords: guideline, ccb, meeting
+:navtitle: [Coordination] Change Control Board Meeting Guidelines
+
+include::partial$_attributes.adoc[]
+
+{role-project-lead}
+
+participates: ccb
+
+TODO
+
+NOTES:
+
+- Moderation: Project Lead
+- Participation: CCB representatives
+- Minutes: Moderator (or delegate)
+- Logistics: Moderator (or delegate)
+- Frequency/cadence: group decides
+- Voting: Moderator
+- Apply the xref:compendium/Guidelines/coordination-general_meeting_guidelines.adoc[].
+
+TODO: Unify with wg-lead-meeting-guidelines

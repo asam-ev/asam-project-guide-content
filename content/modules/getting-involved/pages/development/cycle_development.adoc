@@ -5,3 +5,9 @@
 include::partial$_attributes.adoc[]
 
 TODO
+
+NOTES:
+
+- See xref:compendium:Guidelines/coordination-wg_meeeting_guidelines.adoc[]
+- See xref:compendium:Guidelines/coordination-ccb_meeeting_guidelines.adoc[]
+- See xref:compendium:Guidelines/coordination-wg-lead_meeeting_guidelines.adoc[]

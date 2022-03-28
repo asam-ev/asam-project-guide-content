@@ -5,3 +5,13 @@
 include::partial$_attributes.adoc[]
 
 TODO
+
+NOTE:
+
+- Must be at least 2 weeks prior to TSC (ideally: This is scheduled intentionally so)
+- Status must contain reasons for missed goals
+- Status must contain project health
+- Status must indicate risk for delays
+- Status should contain project participation
+- Update the backlog and the milestone plan
+- Indicate whether project can transition to next phase (at the end of the timeline)

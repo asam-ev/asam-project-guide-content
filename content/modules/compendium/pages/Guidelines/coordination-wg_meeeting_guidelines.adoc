@@ -1,0 +1,21 @@
+= Work Group Meeting Guidelines
+:description: TODO
+:keywords: wg, meeting, guideline
+:navtitle: [Coordination] Work Group Meeting Guidelines
+
+include::partial$_attributes.adoc[]
+
+{role-wg-lead}
+
+participates: {role-wg-member}
+
+TODO
+
+NOTES:
+
+- Moderation: WG Lead
+- Participation: WG Members, involved SP + TW
+- Minutes: Moderator (or delegate)
+- Logistics: Moderator (or delegate)
+- Frequency/cadence: group decides
+- Apply the xref:compendium/Guidelines/coordination-general_meeting_guidelines.adoc[].

@@ -42,10 +42,9 @@ Additionally, a project may request additional time if the project's content tur
 == Development Phase Steps
 The Development phase consists of the following steps, which are explained in detail in their own sections:
 
-* Cycle
-** <<Cycle Planning>>
-** <<Cycle Development>>
-** <<Cycle Review>>
+* <<Cycle Planning>>
+* <<Cycle Development>>
+* <<Cycle Review>>
 * Controlling Meetings
 ** <<TSC Controlling Meeting>>
 ** <<CGSim Controlling Meeting>>
@@ -72,7 +71,11 @@ The Development phase consists of the following steps, which are explained in de
 
 NOTE: This is a multi-step task.
 
-TODO +
+The Project Lead, together with the CCB, specifies the high level goals for the project's next development cycle.
+They then present and discuss the created milestone with the WG Leads. +
+After the overall goals have been specified and communicated, the WG Leads specify the detailed goals for the respective involved Working Groups.
+They then present and discuss both the global and the detailed goals of the milestone with the WG members, the involved Service Providers, and the Technical Writers.
+
 See xref:development/cycle_planning.adoc[].
 
 ---
@@ -97,7 +100,15 @@ See xref:development/cycle_planning.adoc[].
 
 NOTE: This is a multi-step task.
 
-TODO +
+During the development cycle, each work group individually works on their respective topics (if any).
+Each work group will also meet regularly in its Work Group Meetings. +
+Note that each work group may define the intervals and modalities of their meetings for themselves.
+
+To coordinate activities between different Work Groups, ASAM recommends that all WG Leads meet regularly during each cycle.
+Each project may define their own intervals for WG Lead meetings. +
+In addition to that, the CCB may meet regularly or triggered by specific events to review and merge urgent topics as well as discuss other project-related topics.
+Similarly to the Work Group Meetings, each project may define their own intervals for CCB meetings.
+
 See xref:development/cycle_development.adoc[].
 
 ---
@@ -121,7 +132,8 @@ See xref:development/cycle_development.adoc[].
 
 NOTE: This is a multi-step task.
 
-TODO +
+Each cycle ends with a project meeting where the project process is assessed and the project status report is updated. +
+The project status is then presented at the next <<CGSim Controlling Meeting>>.
 See xref:development/cycle_review.adoc[].
 
 ---
@@ -151,16 +163,17 @@ See xref:development/customstepfile.adoc[].
 |===
 .3+|image:compendium:asam/development_phase-customstep.svg[]
 >h|Purpose
-|TODO
+|To present the current project status and update the CGSim and optionally escalate problems to the TSC.
 
 >h|Responsible
-|TODO
+|{role-project-lead}
 
 >h|Involved
-|TODO
+|{gtm}, CGSim
 
 |===
 
-TODO +
-See xref:development/customstepfile.adoc[].
+The Project Lead regularly updates the CGSim about the current project status (updated at the latest <<Cycle Review>>).
+In case there is need to find a solution to a problem with the project with direct involvement of ASAM e.V. (e.g. there is a high risk of a delay), the CGSim speaker escalates the topic at the next ASAM TSC meeting. +
+See xref:development/cgsim_controlling_meeting.adoc[CGSim Controlling Meeting]
 

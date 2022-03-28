@@ -1,0 +1,36 @@
+= Full Project Meeting Guidelines
+:description: TODO
+:keywords: guideline, project, meeting
+:navtitle: [Coordination] Full Project Meeting Guidelines
+
+include::partial$_attributes.adoc[]
+
+{role-project-lead}
+
+participates: {role-wg-member}, {role-wg-lead}, ccb, {role-technical-writer}, {role-service-provider}, {role-gtm};
+(full mailing list)
+
+TODO
+
+NOTES:
+
+- Invites must include openx calendar (see best practices)
+- Moderation and agenda: Project Lead
+- Participation: CCB representatives
+- Minutes: delegated
+- Logistics: ASAM
+- Frequency/cadence: at least quaterly (typically: every 2 months during active cycles)
+- Voting: PL
+- Apply the xref:compendium/Guidelines/coordination-general_meeting_guidelines.adoc[].
+
+Types:
+
+- Kick-off
+- Development Face-to-Face or Workshops (when requested)
+-- Status update from WGs
+-- Targeted development activities, often intra WG
+-- Full project level votes on topics
+- Review meeting (cycle and final project review before submission to TSC)
+- Retrospectives (recommended!)
+
+TODO: Add retrospectives to development cycle (after review)

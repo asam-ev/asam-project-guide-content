@@ -5,3 +5,12 @@
 include::partial$_attributes.adoc[]
 
 TODO
+
+NOTES:
+
+- Use the latest report (i.e. the report updated at or after the last review meeting)
+- TBD: Update report only every 3 months (quaterly)?
+- If escalation is necessary (e.g. risk of delay, project health low, etc.), the CGSim speaker escalates the topic at the next TSC meeting
+- Presenter: PL
+- Content: PL
+- Logistics: ASAM
