@@ -140,7 +140,16 @@ In particular, they assign the correct roles and rights and update any descripti
 To do so, the GTM supports them by granting them the rights to maintain the repository.
 Additionally, the GTM may support with technical problems and questions regarding the used remote repository platform.
 
-After having assigned the correct roles, the Project Lead may delegate specific tasks to the WG Leads and/or the appointed {ccb} members.
+The following topics need to be updated:
+
+* Milestones
+* Create Issues for all known topics
+* Assign milestones and labels to issues
+* Update timeline in README in repository
+* Set up or update CI pipeline, if necessary
+
+After having assigned the correct roles, the Project Lead may delegate specific tasks to the WG Leads and/or the appointed {ccb} members. +
+For more information on this step, see the xref:compendium:Guidelines/workflow-trunk.adoc#_initial_setup[Initial Step] of the Trunk-based workflow in the Compendium.
 
 ---
 

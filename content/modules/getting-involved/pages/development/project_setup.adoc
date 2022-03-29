@@ -5,3 +5,5 @@
 include::partial$_attributes.adoc[]
 
 TODO
+
+Use https://code.asam.net/common/templates/standard-template

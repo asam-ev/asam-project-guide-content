@@ -184,7 +184,7 @@ Here are some pages containing tips on doing a retrospective:
 |===
 
 TODO +
-See xref:development/customstepfile.adoc[].
+See xref:development/tsc_controlling_meeting.adoc[].
 
 ---
 

@@ -5,24 +5,39 @@
 include::partial$_attributes.adoc[]
 
 
-
 ====
-[cols="1,5", frame=none, grid = rows]
+[cols=">1,5", frame=none, grid = cols]
 |===
-h|Involved roles
-a| * {role-wg-member}
-* {role-wg-lead}
-* {role-project-lead}
-* {role-service-provider}
-* {role-technical-writer}
-* {role-ccb}
-* {role-gtm}
+|Phase|Involved Roles
 
-h| Project phase
-| image:compendium:asam/project_lifecycle-development.svg[]
+|image:compendium:asam/project_lifecycle-development.svg[]
+a| {role-wg-member} -- {role-wg-lead} -- {role-project-lead} --
+{role-service-provider} -- {role-technical-writer} -- {role-ccb} --
+{role-gtm}
 
 |===
 ====
+
+
+// Original Version
+
+// ====
+// [cols="1,5", frame=none, grid = rows]
+// |===
+// h|Involved roles
+// a| * {role-wg-member}
+// * {role-wg-lead}
+// * {role-project-lead}
+// * {role-service-provider}
+// * {role-technical-writer}
+// * {role-ccb}
+// * {role-gtm}
+
+// h| Project phase
+// | image:compendium:asam/project_lifecycle-development.svg[]
+
+// |===
+// ====
 
 // == Getting Started Immediately
 
@@ -45,8 +60,3 @@ Project groups may decide to re-start a project with an updated project proposal
 While those events can occur and need to be appropriately managed, they are out-of-scope for this Project Guide.
 
 image::compendium:asam/development_phase-summary.svg[title="The development phase overview, using the xref:concepts:diagram_notations.adoc[ASAM Project Phase Notation]"]
-
-
-
-
-TODO

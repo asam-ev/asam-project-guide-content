@@ -62,6 +62,7 @@ This change has to be approved by ASAM first before it may be implemented.
 * Work Groups may change over the course of a project.
 The workshop shall define the setup with which it wants to start into the development
 . Elect Work Group Leads
+. Define the Change Control Board (CCB) and its members
 . Assign members to work groups
 . Add detail to the project plan and milestones
 . Add detail to each work package
