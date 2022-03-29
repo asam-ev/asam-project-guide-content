@@ -1,4 +1,4 @@
-= Development Phase Details - Development Cycle
+= Development Phase Details -- Development Cycle
 :keywords: development
 :description: Development phase details
 
@@ -136,6 +136,35 @@ Each cycle ends with a project meeting where the project process is assessed and
 The project status is then presented at the next <<CGSim Controlling Meeting>>.
 See xref:development/cycle_review.adoc[].
 
+---
+
+=== Cycle Retrospective
+[cols="3,1,10"]
+|===
+.3+|image:compendium:asam/development_phase-retro.svg[]
+>h|Purpose
+|To discuss how the latest cycle went and find out, whether processes can and must be improved or not.
+
+>h|Responsible
+|{role-project-lead}
+
+>h|Involved
+|{role-wg-member}, {role-service-provider}, {role-technical-writer}
+
+|===
+
+No process is perfect, and every initial assumption and definition may be imperfect.
+For this reason, ASAM recommends doing a Cycle Retrospective meeting after every cycle.
+
+The idea is to identify methods, processes, and topics that proved to work great and should be kept as well as topics that turned out to be inefficient or problematic and should be changed or improved.
+This way, each project can improve not only its content, but also its way of working together to become more efficient and increase their work quality over time.
+Ideally, these lessons learned are documented and, if generally applicable, used to improve this Project Guide around the project's conclusion.
+
+Here are some pages containing tips on doing a retrospective:
+
+* https://www.atlassian.com/team-playbook/plays/retrospective[window=_blank]
+* https://backlog.com/blog/three-ways-run-productive-retrospective/[window=_blank]
+* https://retromat.org/en/[Online generator for Retrospective activities^]
 ---
 
 === TSC Controlling Meeting

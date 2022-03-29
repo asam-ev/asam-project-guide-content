@@ -1,4 +1,4 @@
-= Development Phase Details - Setup Step
+= Development Phase Details -- Setup Step
 :keywords: development
 :description: Development phase details
 
