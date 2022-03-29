@@ -1,6 +1,7 @@
 = Ideation Workshop Gameplan
 :description: Contains the gameplan for the ideation workshop.
 :keywords: gameplan, ideation
+:compendium:
 
 include::compendium:partial$_attributes.adoc[]
 
