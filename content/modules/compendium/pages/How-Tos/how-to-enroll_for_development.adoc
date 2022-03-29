@@ -1,0 +1,50 @@
+= How-To: Enroll For Project Development
+:description: Describes how to enroll for a project's development phase.
+:keywords: enroll, development, proposal
+:compendium:
+
+include::partial$_attributes.adoc[]
+
+//tag::body[]
+
+[cols="1,5", grid = rows]
+|===
+h|Responsible
+|{role-member}
+
+h|Involved
+| {role-gtm}
+
+// ifdef::compendium[]
+// h| Phase
+// | xref:getting-involved:ideation_phase.adoc#_process_overview[image:compendium:asam/project_lifecycle-ideation.svg[]]
+// endif::[]
+
+// h| Step
+// | image:compendium:asam/ideation_phase-ideation_propose.svg[]
+
+h| TL;DR
+a| * TODO
+|===
+
+
+== Context
+You are interested in joining an ASAM project for active development?
+Follow the steps below.
+
+
+== Result
+You have signed up for and committed to the chosen project.
+
+
+== Prerequisites
+* You must be an ASAM member to join a project
+
+NOTE: Enrollment is possible in the period between the xref:getting-involved:proposal/phase_details.adoc#_proposal_workshop[Proposal Workshop] and the xref:getting-involved:development/phase_details_setup.adoc#_kick-off_workshop[Kick-off Workshop].
+
+== How
+
+TODO
+
+//end::body[]
+

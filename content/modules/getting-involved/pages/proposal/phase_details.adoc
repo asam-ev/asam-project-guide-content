@@ -96,11 +96,12 @@ See xref:proposal/proposal_writing.adoc[].
 |{role-gtm}
 |===
 
-Interested parties can start to enroll for the proposed project in parallel to the other Proposal Phase activities. +
+Interested parties can start to xref:compendium:How-Tos/how-to-enroll_for_development.adoc[enroll] for the proposed project in parallel to the other Proposal Phase activities. +
 See xref:signing_up.adoc[] for available options during this process and more detail information on it. +
 Additionally, you can xref:proposal/submit_candidacy.adoc[apply for the role of Project Lead].
 
-For more information on the enrollment list, see xref:compendium:How-Tos/how-to-enrollment_list.adoc[].
+For more information on the enrollment list, see xref:compendium:How-Tos/how-to-enrollment_list.adoc[] in the Compendium. +
+For more information on how to enroll for the Development phase, see xref:compendium:How-Tos/how-to-enroll_for_development.adoc[] in the Compendium.
 
 ---
 

@@ -50,7 +50,7 @@ The Development phase consists of the following steps, which are explained in de
 
 |===
 
-TODO +
+Prepare the Kick-off Workshop for the Development phase at least 2 weeks ahead of time. +
 See xref:development/kick-off_workshop_preparation.adoc[].
 
 ---
@@ -72,7 +72,7 @@ See xref:development/kick-off_workshop_preparation.adoc[].
 
 |===
 
-TODO +
+This workshop's goal is to define all central aspects, particularly regarding organization and processes, and elect the Project Lead for the project. +
 See xref:development/kick-off_workshop.adoc[].
 
 ---
@@ -92,7 +92,8 @@ See xref:development/kick-off_workshop.adoc[].
 
 |===
 
-TODO +
+In parallel to the workshop preparation and execution, the GTM sets up the project's repository.
+This is done using a template repository for new projects or using the previous one for version updates or revisions. +
 See xref:development/project_setup.adoc[].
 
 ---
@@ -112,7 +113,7 @@ See xref:development/project_setup.adoc[].
 
 |===
 
-The GTM takes the list of enrolled members, creates a new xref:tooling:teams-and-sharepoint.adoc[MS Teams] channel for the project (if it does not exist yet), creates a related sharepoint folder, and adds all participants to that channel and folder. +
+The GTM takes the list of enrolled members, creates a new xref:tooling:teams-and-sharepoint.adoc[MS Teams] channel for the project (if it does not exist yet), creates a related Sharepoint folder, and adds all participants to that channel and folder. +
 The channel can then also be used as a mailing list.
 
 ---

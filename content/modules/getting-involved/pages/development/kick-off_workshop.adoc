@@ -4,6 +4,14 @@
 
 include::partial$_attributes.adoc[]
 
-TODO
+== Context
+include::compendium:page$Templates/kick-off_workshop_gameplan.adoc[tag=context]
+
+== Goals
+include::compendium:page$Templates/kick-off_workshop_gameplan.adoc[tag=goals]
+
+== Joining
+To join the Kick-off Workshop of a project, you have to enroll in the project prior to the event.
+See xref:compendium:How-Tos/how-to-enroll_for_development.adoc[] in the Compendium.
 
 related::kick-off-workshop[]
