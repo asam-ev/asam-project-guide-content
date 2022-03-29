@@ -21,7 +21,7 @@ h|Motivation
 | To participate in the creation of a standard.
 
 h|When
-| xref:getting-involved:proposal_phase.adoc#_the_proposal_phase[Proposal phase]
+| xref:getting-involved:proposal_phase.adoc#_process_overview[Proposal phase]
 
 h|Summary
 | The project responsible and main content coordinator of a project.

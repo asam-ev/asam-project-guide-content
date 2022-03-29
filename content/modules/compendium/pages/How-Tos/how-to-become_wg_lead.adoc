@@ -23,7 +23,7 @@ h|Motivation
 | To lead the direction of activities in a specific section of a project.
 
 h|When
-| xref:getting-involved:proposal_phase.adoc#_the_proposal_phase[Proposal phase]
+| xref:getting-involved:proposal_phase.adoc#_process_overview[Proposal phase]
 
 h|Summary
 | A coordinator and leader for a working group in a project.

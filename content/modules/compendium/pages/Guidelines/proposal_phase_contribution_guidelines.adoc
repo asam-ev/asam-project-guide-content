@@ -17,7 +17,7 @@ a| * {role-wg-member}
 
 ifdef::compendium[]
 h| Phase
-| xref:getting-involved:proposal_phase.adoc#_the_proposal_phase[image:compendium:asam/project_lifecycle-proposal.svg[]]
+| xref:getting-involved:proposal_phase.adoc#_process_overview[image:compendium:asam/project_lifecycle-proposal.svg[]]
 endif::[]
 
 h| Step

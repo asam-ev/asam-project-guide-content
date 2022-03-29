@@ -16,7 +16,7 @@ h|Involved
 
 ifdef::compendium[]
 h| Phase
-| xref:getting-involved:proposal_phase.adoc#_the_proposal_phase[image:compendium:asam/project_lifecycle-proposal.svg[]]
+| xref:getting-involved:proposal_phase.adoc#_process_overview[image:compendium:asam/project_lifecycle-proposal.svg[]]
 endif::[]
 
 h| Step
@@ -37,7 +37,7 @@ In order for project members and the project lead to work on their respective pr
 A new proposal repository has been created and the link been provided to all current project members.
 
 == Prerequisites
-* The idea has been proposed and approved in the xref:getting-involved:ideation_phase.adoc#_the_ideation_phase[Ideation Phase].
+* The idea has been proposed and approved in the xref:getting-involved:ideation_phase.adoc#_process_overview[Ideation Phase].
 
 == How
 

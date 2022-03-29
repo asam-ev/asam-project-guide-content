@@ -19,7 +19,7 @@ h|Involved
 
 ifdef::compendium[]
 h| Phase
-| xref:getting-involved:proposal_phase.adoc#_the_proposal_phase[image:compendium:asam/project_lifecycle-proposal.svg[]]
+| xref:getting-involved:proposal_phase.adoc#_process_overview[image:compendium:asam/project_lifecycle-proposal.svg[]]
 endif::[]
 
 h| Step
@@ -33,7 +33,7 @@ a| * Outline the general idea of the project
 //end::roles[]
 
 == Context
-To start a new project with a xref:getting-involved:proposal_phase.adoc#_the_proposal_phase[Project Proposal], it first needs a Project Proposal Executive Draft for internal analysis.
+To start a new project with a xref:getting-involved:proposal_phase.adoc#_process_overview[Project Proposal], it first needs a Project Proposal Executive Draft for internal analysis.
 This document needs to be ready before the xref:getting-involved:proposal_phase.adoc#_proposal_workshop[Proposal Workshop]. +
 This guide explains how to create such an Executive Draft and what to look out for when doing so.
 
@@ -48,7 +48,7 @@ An initial draft for management and executives, containing a basic executive sum
 
 
 == Prerequisites
-* The idea has been proposed and approved in the xref:getting-involved:ideation_phase.adoc#_the_ideation_phase[Ideation Phase].
+* The idea has been proposed and approved in the xref:getting-involved:ideation_phase.adoc#_process_overview[Ideation Phase].
 * The proposal has at least three (3) partner companies.
 * The xref:compendium:How-Tos/how-to-setup_proposal_git.adoc[project repository] has been set up by the __{gtm}__.
 

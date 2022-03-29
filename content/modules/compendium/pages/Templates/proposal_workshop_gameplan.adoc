@@ -14,7 +14,7 @@ h|Involved
 
 ifdef::compendium[]
 h| Phase
-| xref:getting-involved:proposal_phase.adoc#_the_proposal_phase[image:compendium:asam/project_lifecycle-proposal.svg[]]
+| xref:getting-involved:proposal_phase.adoc#_process_overview[image:compendium:asam/project_lifecycle-proposal.svg[]]
 endif::[]
 
 h| Step
@@ -27,7 +27,6 @@ a| * Ensure the <<Prerequisites>> are met
 * Send invites to all participants
 |===
 
-When organizing a Proposal Workshop, a few things are needed as prerequisites.
 
 // == Roles In The Proposal Process
 
@@ -46,6 +45,12 @@ When organizing a Proposal Workshop, a few things are needed as prerequisites.
 // | The employees of ASAM.
 // |===
 
+== Context
+//tag::context[]
+The first major event in the xref:getting-involved:proposal_phase.adoc#_process_overview[Proposal phase] is the Proposal Workshop.
+Here, the project idea is presented to a broader audience for the first time and discussed.
+//end::context[]
+
 == Prerequisites
 
 . Written proposal
@@ -53,7 +58,7 @@ When organizing a Proposal Workshop, a few things are needed as prerequisites.
 . At least three companies committing to the project
 
 
-== Hosting a proposal workshop
+== Hosting A Proposal Workshop
 include::compendium:page$Guidelines/coordination-hosting_workshops.adoc[leveloffset=+1,tag=body]
 
 

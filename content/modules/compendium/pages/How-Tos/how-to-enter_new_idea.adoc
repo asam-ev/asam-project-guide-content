@@ -16,7 +16,7 @@ h|Involved
 
 ifdef::compendium[]
 h| Phase
-| xref:getting-involved:ideation_phase.adoc#_the_ideation_phase[image:compendium:asam/project_lifecycle-ideation.svg[]]
+| xref:getting-involved:ideation_phase.adoc#_process_overview[image:compendium:asam/project_lifecycle-ideation.svg[]]
 endif::[]
 
 h| Step

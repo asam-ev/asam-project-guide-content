@@ -16,7 +16,7 @@ h|Involved
 
 ifdef::compendium[]
 h| Phase
-| xref:getting-involved:proposal_phase.adoc#_the_proposal_phase[image:compendium:asam/project_lifecycle-proposal.svg[]]
+| xref:getting-involved:proposal_phase.adoc#_process_overview[image:compendium:asam/project_lifecycle-proposal.svg[]]
 endif::[]
 
 h| Step
@@ -35,8 +35,9 @@ If you are the Idea Giver and looking for how to prepare a workshop, check out x
 
 == Context
 You are interested in an upcoming project?
-The first major event after the xref:getting-involved:ideation_phase.adoc#_the_ideation_phase[Ideation phase] is the xref:getting-involved:proposal_phase.adoc#_the_proposal_phase[Proposal Workshop].
-Here, you will get a presentation on what the project's goal is and may give feedback on it.
+
+include::compendium:page$Templates/proposal_workshop_gameplan.adoc[tag=context]
+
 Additionally, you can also present your view on the project idea.
 If you are interested in doing so, contact the mailto:info@asam.net[ASAM Office] before the event.
 

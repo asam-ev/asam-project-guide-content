@@ -14,7 +14,7 @@ h|Involved
 
 ifdef::compendium[]
 h| Phase
-| xref:getting-involved:ideation_phase.adoc#_the_ideation_phase[image:compendium:asam/project_lifecycle-ideation.svg[]]
+| xref:getting-involved:ideation_phase.adoc#_process_overview[image:compendium:asam/project_lifecycle-ideation.svg[]]
 endif::[]
 
 h| Step
@@ -27,9 +27,6 @@ a| * Ensure the <<Prerequisites>> are met
 * Send invites to all participants
 |===
 
-The goal of an ideation workshop is to present the idea to a broader audience, get some input, detail it more, and decide whether it is worth proceeding with into the Proposal phase.
-Ideally, interested parties already sign up for the Proposal phase during the workshop.
-
 
 == Prerequisites
 . The idea draft has been created and published by ASAM
@@ -38,6 +35,11 @@ Ideally, interested parties already sign up for the Proposal phase during the wo
 
 == Hosting An Ideation Workshop
 include::compendium:page$Guidelines/coordination-hosting_workshops.adoc[leveloffset=+1,tag=body]
+
+
+== Workshop Goals
+The goal of an ideation workshop is to present the idea to a broader audience, get some input, detail it more, and decide whether it is worth proceeding with into the Proposal phase.
+Ideally, interested parties already sign up for the Proposal phase during the workshop.
 
 
 == Agenda Template
