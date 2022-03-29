@@ -17,7 +17,7 @@ Release candidate decisions are handled during the meeting via a three-step proc
 
 . Project leader presents the release candidate to the __{tsc}__ members.
 . __{tsc}__ members are given the opportunity to ask questions.
-. __{tsc}__ members discuss the proposal (without project leader's presence) and then proceed with casting their votes on the release.
+. __{tsc}__ members discuss the proposal (without Project Leader's presence) and then proceed with casting their votes on the release.
 
 The __{tsc}__ does not modify the content of the release candidate.
 If this is deemed to be necessary, then the release shall be rejected.
@@ -32,6 +32,6 @@ If the required rework has been implemented as defined by the __{tsc}__, then th
 // end::long[]
 
 //tag::short[]
- During the __{tsc}_ meeting, the project leader presents the release candidate to the members of the _{tsc}__ and answers their questions.
+ During the __{tsc}_ meeting, the Project Leader presents the release candidate to the members of the _{tsc}__ and answers their questions.
 The __{tsc}__ members then vote on whether or not to release the standard.
 //end::short[]

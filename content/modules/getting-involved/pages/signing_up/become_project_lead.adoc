@@ -1,5 +1,5 @@
 = Become Project Lead
-:description: Describes how to become a project lead and where to find more information.
+:description: Describes how to become a Project Lead and where to find more information.
 :keywords: project-lead, TODO
 
 include::partial$_attributes.adoc[]

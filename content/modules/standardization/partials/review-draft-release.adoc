@@ -15,7 +15,7 @@
 The draft standard shall be feature-complete, i.e. the specification or revision of all features of the standard has been finished.
 The project group members determine, whether the standard is ready for public review.
 
-The project leader is responsible for delivering the draft document(s) in a format, which is usable in the ASAM IT-infrastructure for document reviews.
+The Project Leader is responsible for delivering the draft document(s) in a format, which is usable in the ASAM IT-infrastructure for document reviews.
 Changes to the prior version shall be marked in the draft documents or documented in a separate change log with clear references to the draft documents.
 
 // end::long[]

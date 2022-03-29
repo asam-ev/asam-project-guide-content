@@ -34,7 +34,7 @@ See xref:compendium:Templates/asam_dco.adoc[].
 >mandatory, staffed by the ASAM office
 
 === Project coordinator
-- Assists and supports the <<Project Leader,project leader>> in coordinating the project
+- Assists and supports the <<Project Leader,Project Leader>> in coordinating the project
 - Moderation of meetings
 - Harmonisation with other ongoing projects in- and outside of __{asam}__
 - Technical & architectural support for the project

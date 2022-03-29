@@ -64,7 +64,7 @@ Each company has one vote.
 The release candidate is accepted by absolute two-thirds majority.
 The group's decision is documented in the meeting minutes.
 
-The project leader submits the following deliverables to ASAM:
+The Project Leader submits the following deliverables to ASAM:
 
 * the standard with all supplemental documents, files and examples that constitute the deliverables to members.
 * sources required to generate the deliverables, including written instructions how to generate them.
@@ -88,7 +88,7 @@ Sources are those digital work products, which can be modified or edited with st
 |===
 
 The TSC members review the release with special focus on the changes.
-They shall clarify open question with the project leader prior to the TSC meeting.
+They shall clarify open question with the Project Leader prior to the TSC meeting.
 TSC members shall make up their mind whether the release candidate is ready for publication.
 
 The minimum review period for release candidates is four weeks.
@@ -114,7 +114,7 @@ Release candidate decisions are handled during the meeting via a three-step proc
 
 . Project leader presents the release candidate to the TSC members.
 . TSC members are given the opportunity to ask questions.
-. TSC members discuss the proposal (without project leader's presence) and then proceed with casting their votes on the release.
+. TSC members discuss the proposal (without Project Leader's presence) and then proceed with casting their votes on the release.
 
 The TSC does not modify the content of the release candidate.
 If this is deemed to be necessary, then the release shall be rejected.
@@ -143,7 +143,7 @@ If the required rework has been implemented as defined by the TSC, then the rele
 |===
 
 The Office prepares new and updates existing marketing and training material for the new release.
-The project leader shall support this activity by contributing technical content and reviewing the new or updated marketing and training material, upon request.
+The Project Leader shall support this activity by contributing technical content and reviewing the new or updated marketing and training material, upon request.
 
 The publication of a new standard shall occur within 5 weeks after the effective release.
 The publication of a new version of an existing standard shall occur within 3 weeks after the effective release decision.

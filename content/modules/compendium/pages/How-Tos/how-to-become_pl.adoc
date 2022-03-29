@@ -1,5 +1,5 @@
 = How-To: Become Project Lead
-:description: Describes the steps to becoming the project lead of a project after having handed in the candidacy.
+:description: Describes the steps to becoming the Project Lead of a project after having handed in the candidacy.
 :keywords: project-lead
 
 include::compendium:partial$_attributes.adoc[]

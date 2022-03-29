@@ -13,7 +13,7 @@
 |===
 // end::table[]
 The __{tsc}__ members review the release with special focus on the changes.
-They shall clarify open question with the project leader prior to the __{tsc}__ meeting.
+They shall clarify open question with the Project Leader prior to the __{tsc}__ meeting.
 __{tsc}__ members shall make up their mind, whether the release candidate is ready for publication.
 
 The minimum review period for release candidates is four weeks.

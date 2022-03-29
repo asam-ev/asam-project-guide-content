@@ -36,7 +36,7 @@ Some further rules apply for study projects:
 * Participation in study projects is open for all ASAM members, e.g. also to members in a non "active"membership class.
 * Participation in a study project can be restricted to members of a specific region, e.g. Japan only.
 * The working language can be different than English.
-* The project members elect a project leader.
+* The project members elect a Project Leader.
 * Meetings are documented via meeting minutes in English language.
 The minutes may be translated into the working language of the study group.
 * The project members use the ASAM IT infrastructure.

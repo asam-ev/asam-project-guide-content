@@ -23,7 +23,7 @@ h| Step
 | Any time during the proposal phase
 
 h|TL;DR
-a| * Send an email to your {gtm} containing your candidacy for project lead
+a| * Send an email to your {gtm} containing your candidacy for Project Lead
 
 |===
 

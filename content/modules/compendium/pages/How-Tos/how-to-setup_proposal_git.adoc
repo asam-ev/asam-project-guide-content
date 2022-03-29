@@ -31,7 +31,7 @@ a| * Create new subgroup in https://code.asam.net/simulation[**Simulation**^] an
 
 == Context
 The basis for collaboration at ASAM is GitLab.
-In order for project members and the project lead to work on their respective project, a new repository has to be created.
+In order for project members and the Project Lead to work on their respective project, a new repository has to be created.
 
 == Result
 A new proposal repository has been created and the link been provided to all current project members.

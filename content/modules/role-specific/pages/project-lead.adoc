@@ -1,5 +1,5 @@
 = Project lead
-:description: Summary and landing page for project leads. Defines the responsibilities of a project lead at ASAM
+:description: Summary and landing page for Project Leads. Defines the responsibilities of a Project Lead at ASAM
 :keywords: role, role-landing-page, REVIEWED_TODO
 
 include::partial$_attributes.adoc[]

@@ -18,7 +18,7 @@ The governing documents, which shall be considered during the Development phase 
 - the Project Guide (this document).
 - the project proposal.
 
-The project leader is responsible that the project is managed in compliance with the documents.
+The Project Leader is responsible that the project is managed in compliance with the documents.
 Each project member shall be aware of the content of the documents.
 
 The project group has the additional task to review all open or incoming change requests (CR) and decide, whether they shall be resolved, declined or deferred to a later project.
@@ -28,15 +28,15 @@ ASAM work groups are given a lot of latitude to organize their work during the D
 Project groups can determine their own rules, processes and formats how to conduct meetings and how to carry out their work.
 __{asam}__ requires a minimum of rules to be followed:
 
-- each project must have an elected project leader
+- each project must have an elected Project Leader
 - each meeting is documented via minutes
 - members need to use the ASAM IT infrastructure
 - standards are written by using the ASAM document template for standards
 - the working language is English
 
-The Office will provisionally lead the project until the group has elected the project leader.
+The Office will provisionally lead the project until the group has elected the Project Leader.
 Upon request, the Office provides training to the project group members about ASAM guidelines and best practices.
-Furthermore, the Office assists the project leader upon his request to manage the meetings during the initial meetings.
+Furthermore, the Office assists the Project Leader upon his request to manage the meetings during the initial meetings.
 
 The ASAM IT infrastructure provides services for collaboration such as a version control system for documents and files, a change request tracking system and remote conferencing.
 The use of alternative IT services requires the approval from the ASAM Office.
@@ -52,7 +52,7 @@ This specifically means:
 - use, control and review the work of Service Providers
 - review the work of other authors
 
-The project leader is the elected manager and representative of the project group.
+The Project Leader is the elected manager and representative of the project group.
 They have the following tasks:
 
 - invite members to the next meeting(s)
@@ -65,7 +65,7 @@ They have the following tasks:
 - is responsible for the work group's progress and the final deliverables to ASAM
 - collect measures regarding project status and report the project status to the __{tsc}__
 
-The project leader can delegate some of the tasks to project members or Service Providers.
+The Project Leader can delegate some of the tasks to project members or Service Providers.
 However, they cannot delegate responsibilities.
 They remain the responsible person for each task listed above.
 
@@ -88,11 +88,11 @@ Their services may comprise, but are not limited to:
 - develop prototypes, tools or software as part of the standard
 - create the deliverables to ASAM
 
-A Service Provider can take over some of the tasks of the project leader.
-Service Providers and the project leader must originate from different companies.
+A Service Provider can take over some of the tasks of the Project Leader.
+Service Providers and the Project Leader must originate from different companies.
 
 The group shall strive to make all decisions in consensus.
-If this seems impossible in certain situations, then the project leader may call for a vote on a specific topic.
+If this seems impossible in certain situations, then the Project Leader may call for a vote on a specific topic.
 The meeting minutes shall clearly describe, what the members are voting on.
 Each company has one vote.
 At least 50% of all companies, which participate in the project, must cast their vote for the voting result to be valid.
@@ -101,7 +101,7 @@ Votes cannot be transferred to other companies.
 A decision is made by absolute majority.
 
 New companies may join the group after the beginning of the Development phase.
-Requests for new admissions are directed to the project leader.
+Requests for new admissions are directed to the Project Leader.
 They bring the request into the next group meeting.
 New admissions are accepted by absolute majority of the group members.
 Admission of new member companies shall be an exception and shall be handled with more restraint the more the project has advanced.
@@ -109,17 +109,17 @@ Admission of new member companies shall be an exception and shall be handled wit
 During the duration of the project, the project's progress is controlled by the __{tsc}__.
 Project controlling is carried out according to the following process:
 
-. The project leader submits a controlling report four weeks prior to the next __{tsc}__ meeting.
+. The Project Leader submits a controlling report four weeks prior to the next __{tsc}__ meeting.
 . __{tsc}__ members review the written project report prior to the _{tsc}__ meeting.
 . The __{tsc}_ meeting organizer creates a project list that includes the date of the last report of the project given to the _{tsc}__.
-. The project is put on the __{tsc}__ agenda, if either the project leader or a __{tsc}__ member request a live report.
+. The project is put on the __{tsc}__ agenda, if either the Project Leader or a __{tsc}__ member request a live report.
 
 The __{tsc}__ may draw its conclusions from the report.
 If a project does not work as expected, the __{tsc}__ may decide on corrective actions.
 
-The project leader can propose to the __{tsc}__ to expel a member from the work group.
+The Project Leader can propose to the __{tsc}__ to expel a member from the work group.
 One reason for expulsion can be, that a work group member has continually failed to meet his commitments, e.g. to participate at work group meetings.
-The project leader shall provide justification and evidence for his proposal.
+The Project Leader shall provide justification and evidence for his proposal.
 The __{tsc}__ then votes on the expulsion of the member.
 
 
@@ -133,7 +133,7 @@ In case that the project has no Service Provider who takes over the role of stan
 
 
 There are a few rules which must be followed in an ASAM project.
-Each project has an elected project leader, which has the task to organize and moderate project meetings and lead the overall development efforts.
+Each project has an elected Project Leader, which has the task to organize and moderate project meetings and lead the overall development efforts.
 Each meeting is documented via meeting minutes.
 The ASAM standards template and the IT infrastructure must be used.
 ASAM expects that all registered participants provide the work as committed in the project proposal.
@@ -141,7 +141,7 @@ Otherwise, ASAM project groups have a lot of latitude to organize their work as 
 
 
 Decision-making within the project group is consensus-driven.
-The project leader shall find on each topic a solution, which is agreeable for all members.
+The Project Leader shall find on each topic a solution, which is agreeable for all members.
 However, if consensus cannot be reached, then decisions are made by an absolute majority vote, where each participating company has one vote.
 
 

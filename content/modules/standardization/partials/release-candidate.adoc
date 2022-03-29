@@ -17,7 +17,7 @@ Each company has one vote.
 The release candidate is accepted by absolute two-thirds majority.
 The group's decision is documented in the meeting minutes.
 
-The project leader submits the following deliverables to __{asam}__:
+The Project Leader submits the following deliverables to __{asam}__:
 
 - the standard with all supplemental documents, files and examples that constitute the deliverables to members.
 - sources required to generate the deliverables, including written instructions how to generate them.

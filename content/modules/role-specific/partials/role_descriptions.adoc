@@ -12,13 +12,13 @@ Every project needs project members from at least three (3) different companies.
 See also xref:role-specific:wg-member.adoc[Workgroup Member]
 
 :project-lead-description: The person responsible for leading and coordinating all project activities. \
-Without an elected project lead, the project may not start. \
-The project members must elect a project lead at the beginning of the project.
+Without an elected Project Lead, the project may not start. \
+The project members must elect a Project Lead at the beginning of the project.
 
 :wg-member-description: A project member working in a particular workgroup, a subdivision of the overall project. \
 If the project is split up into smaller workgroups, a project member can join a workgroup to become a workgroup member.
 
-:wg-lead-description: If the project is split up into smaller workgroups, a project member can be elected to be the workgroup lead and will support the xref:role-specific:project-lead.adoc[project lead]. \
+:wg-lead-description: If the project is split up into smaller workgroups, a project member can be elected to be the workgroup lead and will support the xref:role-specific:project-lead.adoc[Project Lead]. \
 Each workgroup should have zero or one workgroup lead.
 
 :service-provider-description: Provides additional services necessary for the standard development. \
