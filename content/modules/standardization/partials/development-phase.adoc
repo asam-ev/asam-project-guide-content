@@ -49,7 +49,7 @@ This specifically means:
 - provide expertise on technical details
 - vote on the acceptance of individual proposals and the release candidate
 - potentially write parts of the standard or contribute to other works of authorship
-- use, control and review the work of service providers
+- use, control and review the work of Service Providers
 - review the work of other authors
 
 The project leader is the elected manager and representative of the project group.
@@ -59,13 +59,13 @@ They have the following tasks:
 - determine the meeting agenda
 - moderate project group meetings
 - writes the meeting minutes
-- manage the service provider(s)
+- manage the Service Provider(s)
 - coordinate the standard authors (if there is more than one)
 - represent the group towards the __{tsc}__, Office and ASAM members
 - is responsible for the work group's progress and the final deliverables to ASAM
 - collect measures regarding project status and report the project status to the __{tsc}__
 
-The project leader can delegate some of the tasks to project members or service providers.
+The project leader can delegate some of the tasks to project members or Service Providers.
 However, they cannot delegate responsibilities.
 They remain the responsible person for each task listed above.
 
@@ -78,7 +78,7 @@ The tasks of the host are:
 
 The ASAM Office takes over the role of meeting host, if video conferencing has been requested and budgeted as per approved project proposal.
 
-Project groups can have one or multiple service provider(s).
+Project groups can have one or multiple Service Provider(s).
 They are being paid from the approved project budget.
 Their services may comprise, but are not limited to:
 
@@ -88,8 +88,8 @@ Their services may comprise, but are not limited to:
 - develop prototypes, tools or software as part of the standard
 - create the deliverables to ASAM
 
-A service provider can take over some of the tasks of the project leader.
-Service providers and the project leader must originate from different companies.
+A Service Provider can take over some of the tasks of the project leader.
+Service Providers and the project leader must originate from different companies.
 
 The group shall strive to make all decisions in consensus.
 If this seems impossible in certain situations, then the project leader may call for a vote on a specific topic.
@@ -129,7 +129,7 @@ The __{tsc}__ then votes on the expulsion of the member.
 During the Development phase, the actual development work, as defined in the project proposal, is carried out by the members of the project group.
 This requires project group members, which are technical experts in the subject matter of the project.
 Their role is primarily to provide requirements, develop concepts for specific features of the standard and to review the work of the standard author.
-In case that the project has no service provider who takes over the role of standard author, then the project members also write the standard and produce all further artifacts that shall be delivered together with the standard.
+In case that the project has no Service Provider who takes over the role of standard author, then the project members also write the standard and produce all further artifacts that shall be delivered together with the standard.
 
 
 There are a few rules which must be followed in an ASAM project.

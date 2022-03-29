@@ -165,6 +165,7 @@ Here are some pages containing tips on doing a retrospective:
 * https://www.atlassian.com/team-playbook/plays/retrospective[window=_blank]
 * https://backlog.com/blog/three-ways-run-productive-retrospective/[window=_blank]
 * https://retromat.org/en/[Online generator for Retrospective activities^]
+
 ---
 
 === TSC Controlling Meeting

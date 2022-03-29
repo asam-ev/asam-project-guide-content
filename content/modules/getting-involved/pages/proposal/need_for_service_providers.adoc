@@ -1,5 +1,5 @@
 = Identify The Need For Service Providers
-:description: How to identify the need for service providers.
+:description: How to identify the need for Service Providers.
 :keywords: service-provider, proposal
 
 include::partial$_attributes.adoc[]

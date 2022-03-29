@@ -1,5 +1,5 @@
 = How-To: Identify The Need For Service Providers
-:description: How to identify the need for service providers.
+:description: How to identify the need for Service Providers.
 :keywords: service-provider, proposal
 
 
@@ -29,9 +29,9 @@ a| * TODO
 
 |===
 
-NOTE: This page covers identifying the need for service providers in a project. +
-If you are looking for how a service provider is selected, see xref:getting-involved:development/engage_service_provider.adoc[]. +
-If you are a service provider looking for information on your role, refer to the xref:role-specific:service-provider.adoc[Service Provider role description].
+NOTE: This page covers identifying the need for Service Providers in a project. +
+If you are looking for how a Service Provider is selected, see xref:getting-involved:development/engage_service_provider.adoc[]. +
+If you are a Service Provider looking for information on your role, refer to the xref:role-specific:service-provider.adoc[Service Provider role description].
 
 == Context
 
@@ -44,11 +44,11 @@ This may be
 * model creation.
 * the role of a technical writer and editor.
 
-In those cases, a project may decide to hire one or more service providers to fill these roles.
+In those cases, a project may decide to hire one or more Service Providers to fill these roles.
 
 == Result
-* The need for service providers is identified and quantified
-* If the project needs service providers, a list of requirements and job descriptions is created
+* The need for Service Providers is identified and quantified
+* If the project needs Service Providers, a list of requirements and job descriptions is created
 
 
 == How

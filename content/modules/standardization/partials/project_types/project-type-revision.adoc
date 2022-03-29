@@ -34,11 +34,11 @@ Only those ASAM members, who were actively involved in development of the preced
 
 Revision projects are limited to a life cycle of up to 18 months.
 
-Unlike other project types, the paid service provider for a revision project can be contracted without a public request for quotation.
+Unlike other project types, the paid Service Provider for a revision project can be contracted without a public request for quotation.
 
-The service provider is confirmed by the __{tsc}__ and is appointed before the project starts.
+The Service Provider is confirmed by the __{tsc}__ and is appointed before the project starts.
 
-The project leader and the service provider must be employees from different companies.
+The project leader and the Service Provider must be employees from different companies.
 
 The number of minor version releases meets the pattern: "?.?.X".
 X is an integer number starting with 1.

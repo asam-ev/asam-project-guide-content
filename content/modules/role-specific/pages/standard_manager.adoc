@@ -41,7 +41,7 @@ Their primary tasks are:
 By default, the Standard Manager is a staff member of the ASAM Office.
 ASAM members can voluntarily take over the role of Standard Manager for a standard.
 
-If there are no volunteers available among ASAM members and if the ASAM Office staff is either not qualified or the volume of work would be too high, then the office shall appoint a paid xref:role-specific:service-provider.adoc[service provider] for the job.
+If there are no volunteers available among ASAM members and if the ASAM Office staff is either not qualified or the volume of work would be too high, then the office shall appoint a paid xref:role-specific:service-provider.adoc[Service Provider] for the job.
 
 The minimum tenure for the Standard Manager shall be one year.
 //end::issue_resolution[]

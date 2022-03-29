@@ -6,6 +6,6 @@ include::compendium:partial$_attributes.adoc[]
 
 {role-service-provider}
 
-A "call for offers" is issued by __{asam}__ when a service provider is required.
+A "call for offers" is issued by __{asam}__ when a Service Provider is required.
 
 For current calls, see https://www.asam.net/active-projects/call-for-offers/.

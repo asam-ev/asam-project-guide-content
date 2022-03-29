@@ -5,7 +5,7 @@
 include::partial$_attributes.adoc[]
 
 == Development team
-> mandatory, staffed by members and paid service provider, roles are non-exclusive
+> mandatory, staffed by members and paid Service Provider, roles are non-exclusive
 
 === Contributors
 - Develop software, i.e. write source code and tests.
@@ -50,7 +50,7 @@ See xref:compendium:Templates/asam_dco.adoc[].
 - Responsibility does not include tools installed on project member's personal computers.
 
 === Business assistant
-- Carries out public calls for offer, commissioning and payment of service providers.
+- Carries out public calls for offer, commissioning and payment of Service Providers.
 - Other commercial and administrative tasks
 
 == Coordination group: Simulation

@@ -52,7 +52,7 @@ include::partial$_attributes.adoc[]
 ** Resolution of controversial topics requires a good feeling for the situation, creativity and technical competence to propose solutions. The key is to propose a resolution process or a solution that is acceptable for the majority.
 ** Frequently, controversial discussions are between a few group members, only. In this case, reduce the talk time of the opponents by re-activating the less involved group members. Ask them about their position or alternative proposals. There is a good chance that a neutral member has a proposal, which leads to a resolution that is acceptable by the majority.
 * In case the discussion and motivation to work on a topic dies down
-** Ask a member or the service provider to create a proposal, concept or chapter-draft​ for the next meeting. Then postpone and move on to next topic.
+** Ask a member or the Service Provider to create a proposal, concept or chapter-draft​ for the next meeting. Then postpone and move on to next topic.
 ** In case group members have a lack of knowledge: propose to invite an expert at the next​ meeting. Postpone and move on.
 ** Moderator takes the initiative and drives the discussion forward with his own proposals. This is typically a situation, where the moderator can give up neutrality a bit without doing damage to the meeting culture.
 
