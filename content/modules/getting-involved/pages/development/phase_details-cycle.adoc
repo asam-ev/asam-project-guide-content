@@ -27,7 +27,7 @@ Therefore, there is no standard Development phase timeline. +
 However, there are typical categories for project length.
 These are shown below.
 
-TODO
+image::compendium:asam/development_phase_timeline-development_phase.svg[]
 
 Additionally, a project may request additional time if the project's content turns out to be more complex than anticipated.
 // * 8-12 weeks for creating the draft
@@ -173,13 +173,13 @@ Here are some pages containing tips on doing a retrospective:
 |===
 .3+|image:compendium:asam/development_phase-customstep.svg[]
 >h|Purpose
-|TODO
+|To update the TSC on the current project status.
 
 >h|Responsible
-|TODO
+|{role-project-lead}
 
 >h|Involved
-|TODO
+|{role-tsc-member}
 
 |===
 
@@ -199,7 +199,7 @@ See xref:development/tsc_controlling_meeting.adoc[].
 |{role-project-lead}
 
 >h|Involved
-|{gtm}, CGSim
+|{role-gtm}, CGSim
 
 |===
 

@@ -4,10 +4,51 @@
 
 include::partial$_attributes.adoc[]
 
-TODO
 
-NOTES:
+[cols="1,5", grid = rows]
+|===
+h|Responsible
+| {role-wg-member}, {role-service-provider}, {role-technical-writer}
 
-- See xref:compendium:Guidelines/coordination-wg_meeting_guidelines.adoc[]
-- See xref:compendium:Guidelines/coordination-ccb_meeting_guidelines.adoc[]
-- See xref:compendium:Guidelines/coordination-wg-lead_meeting_guidelines.adoc[]
+h|Involved
+| {role-wg-lead}, {role-project-lead}, {role-ccb}
+
+h| Step
+| image:compendium:asam/development_phase-cycle_detail.svg[]
+
+h|TL;DR
+a| * TODO
+|===
+
+
+== Context
+This is where the development happens.
+
+After the goals for the cycle have been defined and the issues created, estimated, and assigned, all involved project members, technical writers and Service Providers contribute to development in accordance with the **xref:compendium:Guidelines/workflow-trunk.adoc[]**.
+
+
+== Development Cycle Structure
+A typical cycle lasts for two (2) months.
+During this period, each WG will schedule one or more xref:compendium:Guidelines/coordination-wg_meeting_guidelines.adoc[Work Group Meetings]. +
+Additionally, the Project Lead (and possibly the CCB) may meet with the WG Leads in one or more xref:compendium:Guidelines/coordination-wg-lead_meeting_guidelines.adoc[WG Lead Meetings]. +
+Finally, the CCB may schedule xref:compendium:Guidelines/coordination-ccb_meeting_guidelines.adoc[][CCB Meetings].
+
+Note that each project decides on the frequency of each of these meetings for themselves during the project's Kick-off Meeting.
+These intervals may be changed during the project if the group agrees to the suggested changes and the alterations are documented.
+
+
+== External Events
+A Development Cycle only consists of the project-internal activities, such as group meetings and content discussions.
+Topics that have an effect on the project or are affected by it are not included in the overall cycle structure. +
+However, the project must still accommodate for these events.
+Two typical examples for these external events are TSC meetings and CGSim meetings, which have their own project-independent schedules and intervals.
+
+The Project Lead must make sure that the mandatory external meetings are accounted for in each Development Cycle.
+If an external meeting requires preparations by the project (e.g. a status report), the Project Lead must ensure that these preparations are made in time.
+
+
+== Example Development Cycle
+
+image::compendium:asam/development_phase_timeline-cycle_example.svg[]
+
+related::development-cycle[]
