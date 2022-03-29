@@ -15,3 +15,5 @@ NOTE:
 - Status should contain project participation
 - Update the backlog and the milestone plan
 - Indicate whether project can transition to next phase (at the end of the timeline)
+
+Use xref:compendium:Guidelines/coordination-full-project_meeting_guidelines.adoc[]
