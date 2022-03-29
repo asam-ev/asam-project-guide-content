@@ -1,26 +1,42 @@
 = General Meeting Guidelines
-:description: TODO
-:keywords: TODO
+:description: Contains general meeting guidelines for ASAM projects.
+:keywords: guideline, meeting
 :navtitle: [Coordination] General Meeting Guidelines
 
 include::compendium:partial$_attributes.adoc[]
 
-== Whom To Invite?
-* While the project is still in the early phase, people will likely be moving around in groups
-* Send the invite to those emails registered for the group; additionally, CC the following:
-** The project lead and the ASAM representative.
-** The shared OpenX Calendar, openx@asam.net.
-** The Teams channel email; this will post the meeting in the channel for all to see.
+{role-project-lead}
+{role-wg-lead}
+{role-gtm}
+{role-ccb}
+
+This page contains general guidelines on meetings in projects.
+It is intended for meetings during the xref:getting-involved:development_phase.adoc[Development phase], but may be applied to meetings in other phases as well.
+
+
+== Whom To Invite
+* The target audience depends on your meeting type.
+* While a project is still in the early phase, people will likely be moving around in groups
+* For meetings within a group of a project, send the invite to those emails currently registered for the group
+* For full project meetings, send the invite to the project's mailing list
+* For all meeting types, add the following as CC (if not invited directly):
+** The Project Lead and the GTM.
+** The mailto:openx@asam.net[OpenX Calendar] (see xref:tooling:calendar.adoc[shared OpenX Calendar]).
+** The Teams channel email; this will post the meeting in the channel for all to see. +
 See xref:compendium:How-Tos/how-to-obtain_channel_email.adoc[].
 
-> To find the list of people registered for your group or WP, see the WP signup list.
+> To find the list of people registered for your group, see the group's Mailing List.
 Its location is described in the xref:compendium:Guidelines/coordination-teams-channel_file-structure.adoc[Teams&Sharepoint Overview].
+The full project Mailing List is maintained by ASAM, the group's Mailing List is maintained by the respective WG Lead.
 
-// TODO: find correct link and information supposed to go here.
-// TODO: write the full meaning of "WP"
 
 == Setting Up A Meeting
-- If you have a Teams license, you can setup a Teams meeting directly.
+* If you have a Teams license, you can setup a Teams meeting directly.
 See xref:compendium:How-Tos/how-to-meetings_in_teams.adoc[].
-- Otherwise, feel free to use whatever solution you or your company normally use.
-- If all else fails, send the details to your ASAM representative and they will assist (either Teams or Zoom).
+* Otherwise, feel free to use whatever solution you or your company normally use.
+* If all else fails, send the details to your ASAM representative and they will assist (either Teams or Zoom).
+
+
+== Related Topics
+* xref:compendium:Guidelines/coordination-hosting_workshops.adoc[].
+* xref:compendium:Guidelines/coordination-meeting_moderation.adoc[].
