@@ -36,6 +36,7 @@ a|
 [horizontal]
 Description:: Study projects provide members, an organizational structure to study or analyze specific aspects of ASAM standards in a collaborative way.
 Goal:: These projects have the overall goal to enhance the understanding of ASAM standards, to promote their application in member companies, and to create change requests for the further development of ASAM standards.
+Repository Suffix:: Study
 //end::summary[]
 
 

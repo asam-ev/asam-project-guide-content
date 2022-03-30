@@ -9,4 +9,4 @@
 :workflow-icon: image:https://cdn-icons-png.flaticon.com/512/3078/3078895.png[{compendium-icon-width}, role=right]
 :how-to-icon: image:{icon-uri}/how-to.jpg[{compendium-icon-width}, role=right]
 :template-icon: image:https://cdn-icons-png.flaticon.com/512/1375/1375170.png[{compendium-icon-width}, role=right]
-:terminology-icon: image:{icon-uri}/term.svg[{compendium-icon-width}, role=right]
+:term-icon: image:{icon-uri}/term.svg[{compendium-icon-width}, role=right]

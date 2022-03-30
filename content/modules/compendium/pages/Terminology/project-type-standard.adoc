@@ -13,6 +13,10 @@ include::compendium:partial$_attributes.adoc[]
 Description:: Standard development projects are the core of ASAM.
 In these, workgroup members define the content of an ASAM standard (new or updated).
 Goal:: The goal is to create new standards and to update existing standards in accordance with the demands of ASAM members and market requirements.
+Repository Suffix:: Standard
+
+NOTE: All variants use the same repository suffix.
+
 //end::summary[]
 
 

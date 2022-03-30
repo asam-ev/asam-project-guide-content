@@ -30,6 +30,7 @@ Standard Development Process except:
 Description:: An implementation project has the purpose to create a supplementary product to a standard that supports the implementation or application of an ASAM standard in the industry.
 Goal:: The result of an implementation project can be a tool or source code, such as checkers for file formats and __{api}__s, add-ons or plug-ins for commonly used __{ide}__s, importers, exporters or reference implementations.
 NOTE: Promoting specific commercial tools shall be avoided.
+Repository Suffix:: Implementation
 
 //end::summary[]
 
