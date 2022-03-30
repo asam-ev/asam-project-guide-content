@@ -1,8 +1,10 @@
-= Windows subsystem for linux (WSL)
+= Windows Subsystem For Linux (WSL)
 :description: A terminology page for WSL
 :keywords: terminology,term,wsl,docker, READYFORREVIEW
 
 include::compendium:partial$_attributes.adoc[]
+
+{term-icon}
 
 WSL is short for Windows Subsystem for Linux.
 From link:https://docs.microsoft.com/en-us/windows/wsl/about[ window=_blank]:

@@ -18,7 +18,7 @@ Here, the team decides on key topics of the project and also elects the Project 
 In parallel to that, the {gtm} sets up the repository and the mailing list for the project.
 After the workshop has happened, the repository is updated with the outcomes from it.
 
-If the project has requested budget for one or more Service Providers, a call for offer is issued, potential Service Providers present their offers, and the project decides on whom to contract.
+If the project has requested budget for one or more Service Providers, a xref:compendium:Terminology/call_for_offers.adoc[call for offer] is issued, potential Service Providers present their offers, and the project decides on whom to contract.
 After the Service Provider or Providers have been chosen, they receive an onboarding.
 
 
@@ -172,7 +172,7 @@ For more information on this step, see the xref:compendium:Guidelines/workflow-t
 
 NOTE: This is a multi-step task.
 
-In case the project requested budget for support through Service Providers, the project must issue a call for offer, review received offers, select one or more Service Providers, and introduce them to the project after the contracts have been signed. +
+In case the project requested budget for support through Service Providers, the project must issue a xref:compendium:Terminology/call_for_offers.adoc[call for offer], review received offers, select one or more Service Providers, and introduce them to the project after the contracts have been signed. +
 See xref:development/engage_service_provider.adoc[].
 
 ---

@@ -2,10 +2,11 @@
 :description: Summarizes the expected deliverables for ASAM projects.
 :keywords: deliverable,standardization, TODO
 
-//tag::body[]
-
 include::compendium:partial$_attributes.adoc[]
 
+{term-icon}
+
+//tag::body[]
 
 The deliverables of a standard package consist of standard documents and other files.
 A standard package consists of at least one base standard.

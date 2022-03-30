@@ -5,7 +5,7 @@
 :asciidoc-icon: image:{icon-uri}/asciidoc.png[{compendium-icon-width}, role=right]
 :coordination-icon: image:{icon-uri}/coordination.png[{compendium-icon-width}, role=right]
 :repo-icon: image:https://cdn-icons-png.flaticon.com/512/4727/4727488.png[{compendium-icon-width}, role=right]
-:vscode-icon: image:https://www.google.com/url?sa=i&url=https%3A%2F%2Fde.m.wikipedia.org%2Fwiki%2FDatei%3AVisual_Studio_Code_1.35_icon.svg&psig=AOvVaw3nx4HOU3ZLHU0mqRrF3qAE&ust=1648726798691000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCJCAkYvg7fYCFQAAAAAdAAAAABAD[{compendium-icon-width}, role=right]
+:vscode-icon: image:https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg[{compendium-icon-width}, role=right]
 :workflow-icon: image:https://cdn-icons-png.flaticon.com/512/3078/3078895.png[{compendium-icon-width}, role=right]
 :how-to-icon: image:{icon-uri}/how-to.jpg[{compendium-icon-width}, role=right]
 :template-icon: image:https://cdn-icons-png.flaticon.com/512/1375/1375170.png[{compendium-icon-width}, role=right]

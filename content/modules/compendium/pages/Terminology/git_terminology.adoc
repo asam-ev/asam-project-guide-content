@@ -1,8 +1,10 @@
-= Git terminology
+= Git Terminology
 :description: Lists terms and terminology for git
 :keywords: term, terminology, git, READYFORREVIEW
 
 include::compendium:partial$_attributes.adoc[]
+
+{term-icon}
 
 Git:: A version control system.
 Used by __{asam}__ in their projects.

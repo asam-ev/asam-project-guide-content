@@ -1,8 +1,10 @@
-= Base standard
+= Base Standard
 :description: Definition of a base standard.
 :keywords: definition,classification,base-standard, READYFORREVIEW
 
 include::compendium:partial$_attributes.adoc[]
+
+{term-icon}
 
 A base standard defines the syntax, abstract models, and functionality for general use.
 A base standard is defined in a technology-independent form.

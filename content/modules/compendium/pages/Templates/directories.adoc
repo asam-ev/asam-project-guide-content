@@ -4,6 +4,8 @@
 
 include::compendium:partial$_attributes.adoc[]
 
+{template-icon}
+
 Depending on the content, there is a
 
 * Figure directory

@@ -5,6 +5,8 @@
 
 include::compendium:partial$_attributes.adoc[]
 
+{term-icon}
+
 == Summary
 //tag::summary[]
 [horizontal]

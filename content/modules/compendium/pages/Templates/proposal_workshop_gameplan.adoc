@@ -5,6 +5,8 @@
 
 include::compendium:partial$_attributes.adoc[]
 
+{template-icon}
+
 [cols="1,5", grid = rows]
 |===
 h|Responsible

@@ -1,4 +1,4 @@
-= How-To: Cloning A Repository Using Visual Studio Code
+= How-To: Clone A Repository Using Visual Studio Code
 :description: Describes how to clone a repository with VSCode
 :keywords: vscode,how-to,clone,cloning,git,repository,repo, READYFORREVIEW
 

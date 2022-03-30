@@ -4,6 +4,8 @@
 
 include::compendium:partial$_attributes.adoc[]
 
+{term-icon}
+
 The term "Meeting Logistics" in the context of ASAM meetings refers to the following topics:
 
 * Sending meeting invites

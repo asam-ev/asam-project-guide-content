@@ -1,4 +1,4 @@
-= How-To: Cloning A Repository With Git
+= How-To: Cloning A Repository
 :description: Gives a tutorial on how to clone a repository using git
 :keywords: tutorial,git,clone,cloning, READYFORREVIEW
 
@@ -13,6 +13,6 @@ To do so, follow one of the cloning instructions below.
 IMPORTANT: If your project contains submodules, make sure to also update them.
  See xref:compendium:Guidelines/repo-submodules.adoc[] for more information.
 
-include::compendium:page$How-Tos/how-to-clone_a_repository_terminal.adoc[leveloffset=+1]
-
-// include::compendium:page$tools/powershell/cloning_a_repository.adoc[leveloffset=+1]
+* xref:compendium:How-Tos/how-to-clone_a_repository_terminal.adoc[]
+* xref:compendium:How-Tos/how-to-clone_a_repository_vscode.adoc[]
+* xref:compendium:How-Tos/how-to-clone_a_repository_gitlab-vscode.adoc[]

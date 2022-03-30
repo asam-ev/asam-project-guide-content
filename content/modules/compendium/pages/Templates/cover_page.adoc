@@ -5,6 +5,8 @@
 
 include::compendium:partial$_attributes.adoc[]
 
+{template-icon}
+
 The cover page uses field functions that can be modified via the document properties.
 
 .Cover page properties

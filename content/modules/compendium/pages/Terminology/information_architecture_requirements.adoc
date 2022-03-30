@@ -4,6 +4,8 @@
 
 include::compendium:partial$_attributes.adoc[]
 
+{term-icon}
+
 
 == Requirement categories
 

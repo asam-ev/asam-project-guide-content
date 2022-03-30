@@ -42,7 +42,7 @@ Once the project has been accepted, the project group sends out service requests
 Tasks can be bundled or offered separately. +
 Service Providers can apply for one or more bundles, or they can limit their offer to select parts of one or more bundles.
 
-. The project members write a call for offer.
+. The project members write a xref:compendium:Terminology/call_for_offers.adoc[call for offer].
 . Interested Service Providers apply for a presentation to present themselves and get more input on the tasks required from them
 . The group requests offers from interesting Service Providers
 . The Service Providers and the working group negotiate terms and conditions

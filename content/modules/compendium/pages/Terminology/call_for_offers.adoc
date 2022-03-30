@@ -4,6 +4,8 @@
 
 include::compendium:partial$_attributes.adoc[]
 
+{term-icon}
+
 {role-service-provider}
 
 A "call for offers" is issued by __{asam}__ when a Service Provider is required.

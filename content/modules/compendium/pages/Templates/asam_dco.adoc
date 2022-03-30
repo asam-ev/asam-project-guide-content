@@ -1,8 +1,10 @@
-= ASAM developer certification of origin for open source projects
+= ASAM Developer Certification Of Origin For Open Source Projects
 :description: Contains the ASAM DCO and describes its use.
 :keywords: TODO
 
 include::compendium:partial$_attributes.adoc[]
+
+{template-icon}
 
 
 == Developer certification of origin (DCO)

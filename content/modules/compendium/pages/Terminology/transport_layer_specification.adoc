@@ -5,6 +5,8 @@
 
 include::compendium:partial$_attributes.adoc[]
 
+{term-icon}
+
 A transport layer specification details, for example, how a generic protocol definition is to be interpreted using a concrete physical layer.
 The transport layer provides uniform access to the application-oriented layers, so that the application-oriented layers do not have to take the properties of the communication network into account.
 

@@ -1,8 +1,10 @@
-= Associated standard
+= Associated Standard
 :description: Definition of an associated standard.
 :keywords: definition,classification,associated-standard, READYFORREVIEW
 
 include::compendium:partial$_attributes.adoc[]
+
+{term-icon}
 
 An associated standard always refers to a base standard.
 These are examples of associated standards:

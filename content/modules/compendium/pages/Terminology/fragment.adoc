@@ -4,4 +4,6 @@
 
 include::compendium:partial$_attributes.adoc[]
 
+{term-icon}
+
 TODO - create definition of term fragment

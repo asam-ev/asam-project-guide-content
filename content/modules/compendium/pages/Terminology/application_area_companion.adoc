@@ -1,9 +1,11 @@
-= Application area companion
+= Application Area Companion
 :description: Definition of an application area companion.
 :keywords: definition,content-characterization,associated-standard, READYFORREVIEW
 
 
 include::compendium:partial$_attributes.adoc[]
+
+{term-icon}
 
 An application area companion is an associated extension of a base standard for a specific type of device or a specific application area.
 A companion uses the syntax and the abstract models of the base standard.

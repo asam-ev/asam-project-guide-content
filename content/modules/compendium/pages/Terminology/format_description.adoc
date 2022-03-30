@@ -5,6 +5,8 @@
 
 include::compendium:partial$_attributes.adoc[]
 
+{term-icon}
+
 A format description standard defines the syntax and semantics of a file format to exchange data.
 Currently these standards are defined in XML, but older standards, such as ASAM MCD-2 MC (ASAP2), still use proprietary ASCII formats.
 There are also binary description standards, for example, to store measurement data efficiently.

@@ -1,8 +1,10 @@
-= Git actions
+= Git Actions
 :description: Lists typical git actions and their meaning.
 :keywords: git,action,actions, READYFORREVIEW
 
 include::compendium:partial$_attributes.adoc[]
+
+{term-icon}
 
 Clone:: Done once to obtain a local copy of a remote repository.
 
