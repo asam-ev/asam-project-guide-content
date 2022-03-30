@@ -130,11 +130,12 @@ See xref:development/cycle_development.adoc[].
 
 |===
 
-NOTE: This is a multi-step task.
 
 Each cycle ends with a project meeting where the project process is assessed and the project status report is updated. +
 The project status is then presented at the next <<CGSim Controlling Meeting>>.
 See xref:development/cycle_review.adoc[].
+
+include::compendium:partial$full-meeting_guidelines.adoc[]
 
 ---
 
@@ -165,6 +166,8 @@ Here are some pages containing tips on doing a retrospective:
 * https://www.atlassian.com/team-playbook/plays/retrospective[window=_blank]
 * https://backlog.com/blog/three-ways-run-productive-retrospective/[window=_blank]
 * https://retromat.org/en/[Online generator for Retrospective activities^]
+
+include::compendium:partial$full-meeting_guidelines.adoc[]
 
 ---
 

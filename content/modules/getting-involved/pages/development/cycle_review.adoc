@@ -1,19 +1,10 @@
-= Development Cycle - Review
+= Development Cycle -- Review
 :description: Describes what happens during a cycle review during the development phase.
 :keywords: development-cycle, review, development
 
 include::partial$_attributes.adoc[]
 
-TODO
 
-NOTE:
+include::compendium:How-Tos/how-to-cycle_review.adoc[tag=body]
 
-- Must be at least 2 weeks prior to TSC (ideally: This is scheduled intentionally so)
-- Status must contain reasons for missed goals
-- Status must contain project health
-- Status must indicate risk for delays
-- Status should contain project participation
-- Update the backlog and the milestone plan
-- Indicate whether project can transition to next phase (at the end of the timeline)
 
-Use xref:compendium:Guidelines/coordination-full-project_meeting_guidelines.adoc[]

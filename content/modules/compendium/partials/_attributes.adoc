@@ -6,3 +6,5 @@
 include::{abb}[]
 
 include::compendium:partial$issue_labels.adoc[]
+
+include::compendium:partial$icons.adoc[]
