@@ -4,6 +4,9 @@
 
 include::compendium:partial$_attributes.adoc[]
 
+{how-to-icon}
+
+
 //tag::compendium[]
 {role-wg-member}
 {role-technical-writer}

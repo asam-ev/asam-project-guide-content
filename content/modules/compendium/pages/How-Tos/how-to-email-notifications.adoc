@@ -4,6 +4,9 @@
 
 include::compendium:partial$_attributes.adoc[]
 
+{how-to-icon}
+
+
 == Context
 Notifications in Microsoft Teams (MS Teams) can be easily overlooked.
 In order to be aware of all updates, the user can activate email notifications for the ASAM MS Teams.

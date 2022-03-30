@@ -5,6 +5,7 @@
 
 include::compendium:partial$_attributes.adoc[]
 
+{asciidoc-icon}
 //tag::body[]
 :drawio: xref:tooling:drawio.adoc[]
 For most cases, {drawio} shall be used.

@@ -3,7 +3,10 @@
 :keywords: ideation
 :compendium:
 
-include::partial$_attributes.adoc[]
+include::compendium:partial$_attributes.adoc[]
+
+{how-to-icon}
+
 
 //tag::body[]
 

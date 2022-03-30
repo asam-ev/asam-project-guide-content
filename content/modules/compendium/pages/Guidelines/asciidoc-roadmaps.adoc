@@ -5,6 +5,8 @@
 
 include::compendium:partial$_attributes.adoc[]
 
+{asciidoc-icon}
+
 //tag::body[]
 This section shows how to include roadmaps in an ASAM standard.
 

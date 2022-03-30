@@ -6,6 +6,8 @@
 
 include::compendium:partial$_attributes.adoc[]
 
+{asciidoc-icon}
+
 {role-technical-writer}
 {role-wg-member}
 

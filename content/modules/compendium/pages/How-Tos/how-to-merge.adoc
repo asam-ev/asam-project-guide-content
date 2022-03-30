@@ -4,6 +4,9 @@
 
 include::compendium:partial$_attributes.adoc[]
 
+{how-to-icon}
+
+
 Rebase interactively.
 Squash commits like "Fix whitespace" into one or a small number of valuable commit(s).
 Edit commit messages to reveal intent.

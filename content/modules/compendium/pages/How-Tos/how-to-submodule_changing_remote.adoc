@@ -4,6 +4,9 @@
 
 include::compendium:partial$_attributes.adoc[]
 
+{how-to-icon}
+
+
 In case the location of the submodule on remote (i.e. on GitLab) is changed, the url must also be changed manually in every repository that includes this as a submodule.
 To do this, follow these instructions:
 

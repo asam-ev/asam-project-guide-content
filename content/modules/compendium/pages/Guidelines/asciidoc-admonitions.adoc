@@ -3,6 +3,9 @@
 :keywords: asciidoc,admonitions,note,tip,warning,important,how-to, READYFORREVIEW
 :navtitle: [AsciiDoc] Admonitions For Highlighting Topics
 
+include::compendium:partial$_attributes.adoc[]
+
+{asciidoc-icon}
 //tag::body[]
 You might want to draw attention to certain statements by creating notes or tips - so-called https://docs.asciidoctor.org/asciidoc/latest/syntax-quick-reference/#admonitions[admonitions^].
 

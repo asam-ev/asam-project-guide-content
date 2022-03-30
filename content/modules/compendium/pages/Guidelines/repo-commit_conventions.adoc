@@ -5,6 +5,10 @@
 
 include::compendium:partial$_attributes.adoc[]
 
+{repo-icon}
+
+//tag::body[]
+
 == Convention
 .ASAM Commit Message Convention
 ----
@@ -53,3 +57,5 @@ lorem ipsum
 #131
 ----
 ====
+
+//end::body[]

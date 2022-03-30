@@ -1,8 +1,10 @@
 = How-To: Access Compiled Artifacts
 :description: Describes how to access compiled artifacts on GitLab.
-:keywords: artifact, pipeline, gitlab
+:keywords: pipeline, gitlab
 
 include::compendium:partial$_attributes.adoc[]
+
+{how-to-icon}
 
 //tag::compendium[]
 {role-wg-member}

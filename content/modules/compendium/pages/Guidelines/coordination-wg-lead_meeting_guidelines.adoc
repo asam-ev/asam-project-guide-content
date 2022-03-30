@@ -3,7 +3,11 @@
 :keywords: wg-lead, meeting, guideline
 :navtitle: [Coordination] Work Group Lead Meeting Guidelines
 
-include::partial$_attributes.adoc[]
+include::compendium:partial$_attributes.adoc[]
+
+{coordination-icon}
+
+//tag::body[]
 
 {role-project-lead}
 
@@ -20,3 +24,5 @@ NOTES:
 - Frequency/cadence: group decides
 - Voting: Moderator
 - Apply the xref:compendium:Guidelines/coordination-general_meeting_guidelines.adoc[].
+
+//end::body[]

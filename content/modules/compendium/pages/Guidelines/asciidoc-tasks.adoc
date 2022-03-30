@@ -3,6 +3,10 @@
 :keywords: asciidoc,tasks,how-to, READYFORREVIEW
 :navtitle: [AsciiDoc] Task Headings
 
+include::compendium:partial$_attributes.adoc[]
+
+{asciidoc-icon}
+
 //tag::body[]
 If you're explaining how to perform a task, you might include introductory information before you get to the steps.
 And you might need to say what to do after completing the steps.

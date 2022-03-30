@@ -5,6 +5,10 @@
 
 include::compendium:partial$_attributes.adoc[]
 
+{repo-icon}
+
+//tag::body[]
+
 == Convention
 
 ====
@@ -47,3 +51,5 @@ include::compendium:partial$group-name_examples.adoc[]
 ====
     fix/ge/index-specification-of-trace-files
 ====
+
+//end::body[]

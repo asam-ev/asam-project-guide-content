@@ -5,6 +5,10 @@
 
 include::compendium:partial$_attributes.adoc[]
 
+{repo-icon}
+
+//tag::body[]
+
 //tag::compendium[]
 {role-wg-member}
 {role-technical-writer}
@@ -43,3 +47,5 @@ For more information, see
 Git:: https://www.atlassian.com/git/tutorials/using-branches/merge-conflicts
 GitLab:: https://docs.gitlab.com/ee/user/project/merge_requests/conflicts.html
 GitHub:: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-on-github
+
+//end::body[]

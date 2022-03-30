@@ -4,6 +4,9 @@
 
 include::compendium:partial$_attributes.adoc[]
 
+{how-to-icon}
+
+
 A team member other than the author reviews the pull request.
 They follow Code Review guidelines to avoid miscommunication.
 

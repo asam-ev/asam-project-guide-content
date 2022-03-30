@@ -4,6 +4,9 @@
 
 include::compendium:partial$_attributes.adoc[]
 
+{how-to-icon}
+
+
 When a certain version of the submodule is needed, go into the submodule and checkout the needed version.
 
 .Full example for update versiono of a submodule (for asciidoc-resources)

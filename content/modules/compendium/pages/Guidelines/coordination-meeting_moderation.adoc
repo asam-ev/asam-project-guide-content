@@ -3,8 +3,11 @@
 :keywords: role,project-lead,training,meeting-moderation,READYFORREVIEW
 :navtitle: [Coordination] Meeting Moderation
 
-include::partial$_attributes.adoc[]
+include::compendium:partial$_attributes.adoc[]
 
+{coordination-icon}
+
+//tag::body[]
 {role-project-lead}
 {role-gtm}
 
@@ -69,3 +72,4 @@ Preferably, work with two projectors​
 Projector 1: technical presentation, diagram, code example or standard document.​
 Projector 2: minutes.
 ////
+//end::body[]

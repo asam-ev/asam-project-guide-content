@@ -3,8 +3,11 @@
 :keywords: guideline, ccb, meeting
 :navtitle: [Coordination] Change Control Board Meeting Guidelines
 
-include::partial$_attributes.adoc[]
+include::compendium:partial$_attributes.adoc[]
 
+{coordination-icon}
+
+//tag::body[]
 {role-project-lead}
 
 participates: ccb
@@ -22,3 +25,4 @@ NOTES:
 - Apply the xref:compendium:Guidelines/coordination-general_meeting_guidelines.adoc[].
 
 TODO: Unify with wg-lead-meeting-guidelines
+//end::body[]

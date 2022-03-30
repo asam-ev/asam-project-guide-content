@@ -4,6 +4,9 @@
 
 include::compendium:partial$_attributes.adoc[]
 
+{how-to-icon}
+
+
 Pulling a submodule can currently only be done through a terminal window.
 
 . To pull a submodule, you need to open a terminal in the folder of your git repository.

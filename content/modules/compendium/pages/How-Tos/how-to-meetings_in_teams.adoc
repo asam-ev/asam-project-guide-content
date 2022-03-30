@@ -1,8 +1,11 @@
-= How-To: Meetings in microsoft teams
+= How-To: Meetings In Microsoft Teams
 :description: Plan and participate in meetings directly through MS Teams
 :keywords: artifact,teams,meetings, READYFORREVIEW
 
 include::compendium:partial$_attributes.adoc[]
+
+{how-to-icon}
+
 
 == Context
 Virtual meetings can be created directly from MS Teams.

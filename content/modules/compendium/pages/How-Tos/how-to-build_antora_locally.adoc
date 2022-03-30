@@ -5,6 +5,9 @@
 include::tooling:partial$_attributes.adoc[]
 include::compendium:partial$_attributes.adoc[]
 
+{how-to-icon}
+
+
 == Context
 This guide explains how to build this Project Guide locally on your PC without having activated the ASAM build pipeline.
 The suggested method is to use the provided docker-compose.yml in this repository.

@@ -3,7 +3,11 @@
 :keywords: wg, meeting, guideline
 :navtitle: [Coordination] Work Group Meeting Guidelines
 
-include::partial$_attributes.adoc[]
+include::compendium:partial$_attributes.adoc[]
+
+{coordination-icon}
+
+//tag::body[]
 
 {role-wg-lead}
 
@@ -19,3 +23,5 @@ NOTES:
 - Logistics: Moderator (or delegate)
 - Frequency/cadence: group decides
 - Apply the xref:compendium:Guidelines/coordination-general_meeting_guidelines.adoc[].
+
+//end::body[]

@@ -4,6 +4,9 @@
 
 include::compendium:partial$_attributes.adoc[]
 
+{how-to-icon}
+
+
 If you want to work on a repository locally, you need to first check it out from remote (GitLab).
 To do so, follow one of the cloning instructions below.
 

@@ -5,6 +5,9 @@
 
 include::compendium:partial$_attributes.adoc[]
 
+{how-to-icon}
+
+
 :docker-download: https://docs.docker.com/get-docker/
 
 

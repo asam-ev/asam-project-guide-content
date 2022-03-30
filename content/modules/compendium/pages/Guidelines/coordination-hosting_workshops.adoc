@@ -5,6 +5,9 @@
 
 include::compendium:partial$_attributes.adoc[]
 
+{coordination-icon}
+
+
 {role-gtm}
 
 //tag::body[]
@@ -59,3 +62,4 @@ h|Location
 Due to the fact that online meetings are more straining than face-to-face meetings, experience shows that proposal workshops need to be streamlined to reduce the duration to a maximum of 4 hours.
 
 //end::body[]
+

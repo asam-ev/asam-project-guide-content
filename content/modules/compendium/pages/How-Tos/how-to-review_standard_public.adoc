@@ -2,7 +2,9 @@
 :description: Describes how to review a standard.
 :keywords: review, service-desk, REVIEWED_OK
 
-include::partial$_attributes.adoc[]
+include::compendium:partial$_attributes.adoc[]
+
+{how-to-icon}
 
 
 //tag::body[]

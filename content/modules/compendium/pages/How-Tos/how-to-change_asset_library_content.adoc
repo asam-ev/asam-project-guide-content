@@ -2,6 +2,12 @@
 :description: Describes how to edit the drawio asset library.
 :keywords: drawio, asset, library
 
+include::compendium:partial$_attributes.adoc[]
+
+{how-to-icon}
+
+
+
 == Context
 TODO
 

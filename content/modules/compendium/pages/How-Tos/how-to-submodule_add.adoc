@@ -4,6 +4,9 @@
 
 include::compendium:partial$_attributes.adoc[]
 
+{how-to-icon}
+
+
 To add a submodule to a repository, follow these steps.
 
 . Open a terminal of your choice window in your repositories root folder

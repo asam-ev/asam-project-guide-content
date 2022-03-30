@@ -4,6 +4,9 @@
 
 include::compendium:partial$_attributes.adoc[]
 
+{how-to-icon}
+
+
 == Context
 Some topics require a coordinated and structure poll.
 Micrsoft Teams offers a tool called "Polly" which is directly integrated and can be used within a Teams channel.

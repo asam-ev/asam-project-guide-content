@@ -4,6 +4,9 @@
 
 include::compendium:partial$_attributes.adoc[]
 
+{how-to-icon}
+
+
 == Input
 Proposal Generator:: https://code.asam.net/internal/proposal-generator
 

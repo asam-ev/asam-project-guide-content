@@ -4,6 +4,9 @@
 
 include::compendium:partial$_attributes.adoc[]
 
+{how-to-icon}
+
+
 Visual Studio Code can be adapted to each project's and the user's needs.
 This is done by installing and using extensions.
 This section shows how to install a new extension from the marketplace.

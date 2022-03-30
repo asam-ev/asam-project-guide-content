@@ -4,6 +4,9 @@
 
 include::compendium:partial$_attributes.adoc[]
 
+{how-to-icon}
+
+
 == Context
 Users can send mails to teams channels which are then automatically posted as messages in that channel.
 To do so, the user needs to know the channel mail provided by MS Teams.

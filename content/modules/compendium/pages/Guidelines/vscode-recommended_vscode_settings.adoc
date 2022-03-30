@@ -5,6 +5,8 @@
 
 include::compendium:partial$_attributes.adoc[]
 
+{vscode-icon}
+
 This is a summary of recommended __{vscode}__ settings to follow writing guidelines easier.
 
 

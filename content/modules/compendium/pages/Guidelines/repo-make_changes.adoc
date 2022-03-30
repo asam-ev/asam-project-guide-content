@@ -5,6 +5,10 @@
 
 include::compendium:partial$_attributes.adoc[]
 
+{repo-icon}
+
+//tag::body[]
+
 //tag::compendium[]
 {role-technical-writer}
 {role-wg-lead}
@@ -32,3 +36,5 @@ include::compendium:partial$commit_conventions_reminder.adoc[]
 
 == Further Read
 * https://git-scm.com/docs/gittutorial[window=_blank]
+
+//end::body[]

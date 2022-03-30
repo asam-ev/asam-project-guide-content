@@ -5,6 +5,10 @@
 
 include::compendium:partial$_attributes.adoc[]
 
+{coordination-icon}
+
+//tag::body[]
+
 [source]
 ----
 ├───General(Allgemein)
@@ -27,3 +31,5 @@ include::compendium:partial$_attributes.adoc[]
             └───meetings
                 └───YYYY-MM-DD_MeetingTitle // All WP meeting documents here
 ----
+
+//end::body[]

@@ -4,6 +4,9 @@
 
 include::compendium:partial$_attributes.adoc[]
 
+{how-to-icon}
+
+
 IMPORTANT: {docker-daemon-warning}
 
 You can run Docker-Compose directly from within Visual Studio Code if you have added the docker extensions.

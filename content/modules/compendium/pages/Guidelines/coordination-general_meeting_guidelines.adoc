@@ -5,6 +5,9 @@
 
 include::compendium:partial$_attributes.adoc[]
 
+{coordination-icon}
+
+//tag::body[]
 {role-project-lead}
 {role-wg-lead}
 {role-gtm}
@@ -40,3 +43,5 @@ See xref:compendium:How-Tos/how-to-meetings_in_teams.adoc[].
 == Related Topics
 * xref:compendium:Guidelines/coordination-hosting_workshops.adoc[].
 * xref:compendium:Guidelines/coordination-meeting_moderation.adoc[].
+
+//end::body[]

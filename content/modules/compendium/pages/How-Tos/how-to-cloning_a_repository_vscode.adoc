@@ -4,6 +4,9 @@
 
 include::compendium:partial$_attributes.adoc[]
 
+{how-to-icon}
+
+
 NOTE: This only needs to be done once to obtain a local copy.
 
 . Find the repository url on the website and copy the git url

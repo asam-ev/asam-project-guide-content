@@ -5,6 +5,9 @@
 
 include::compendium:partial$_attributes.adoc[]
 
+{workflow-icon}
+
+
 //tag::compendium[]
 {role-gtm}
 {role-project-lead}

@@ -3,7 +3,11 @@
 :keywords: guideline, project, meeting
 :navtitle: [Coordination] Full Project Meeting Guidelines
 
-include::partial$_attributes.adoc[]
+include::compendium:partial$_attributes.adoc[]
+
+{coordination-icon}
+
+//tag::body[]
 
 {role-project-lead}
 
@@ -27,28 +31,32 @@ Typically, each type of meeting occurs at least every 2 months during an active 
 
 == Roles And Responsibilities
 
+[cols="1h,2,1,2", frame=none]
 |===
-|Topic|Responsible|Can Be Delegated
+|Topic|Responsible 2+|Can Be Delegated
 
 |Moderation
 |{role-project-lead}
-|yes: {role-ccb}
+|yes
+|{role-ccb}
 
 |Agenda
 |{role-project-lead}
-|yes: {role-ccb}
+|yes
+|{role-ccb}
 
 |Minutes
 |{role-project-lead}
-|yes: {role-wg-member}
+|yes
+|{role-wg-member}
 
 |Logistics
 |{role-gtm}
-|no
+2+|no
 
 |Voting
 |{role-project-lead}
-|no
+2+|no
 
 |===
 
@@ -65,3 +73,5 @@ The **xref:compendium:Guidelines/coordination-general_meeting_guidelines.adoc[]*
 // -- Full project level votes on topics
 // - Review meeting (cycle and final project review before submission to TSC)
 // - Retrospectives (recommended!)
+
+//end::body[]

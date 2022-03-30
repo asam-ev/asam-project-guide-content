@@ -1,8 +1,12 @@
-= Add a custom feedback button to an Antora project
+= How-To: Add Feedback Button In Antora Project
 :description: Describes how to add a custom feedback button to an Antora project.
 :keywords: antora,gitlab,github,service-desk, feedback, feedback-button, READYFORREVIEW
 
 include::compendium:partial$_attributes.adoc[]
+
+{how-to-icon}
+
+
 
 {role-gtm}
 

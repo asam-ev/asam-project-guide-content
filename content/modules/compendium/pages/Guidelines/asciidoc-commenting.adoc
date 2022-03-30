@@ -5,6 +5,7 @@
 
 include::compendium:partial$_attributes.adoc[]
 
+{asciidoc-icon}
 //tag::body[]
 Once a document is written by the group/Service Provider, we want to review and comment on the document.
 Unfortunatelly, there is no native built-in comment feature in GitLab and/or __{vscode}__.

@@ -4,6 +4,9 @@
 
 include::compendium:partial$_attributes.adoc[]
 
+{how-to-icon}
+
+
 == Context
 If you are working with xref:compendium:How-Tos/how-to-mark_parts_as_draft.adoc[draft sections], they will not show in the preview of your writing tool by default (as intended!). +
 If you want to be able to see draft sections in your preview, follow these instructions.

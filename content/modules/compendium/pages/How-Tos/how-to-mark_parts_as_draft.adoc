@@ -4,6 +4,9 @@
 
 include::compendium:partial$_attributes.adoc[]
 
+{how-to-icon}
+
+
 == Context
 If a file contains content that will be merged although it is not completely ready yet, use the feature flag 'draft' to mark the section or instructions in draft mode. +
 This allows to have both a draft document and a reviewed document from the same source through just adding or removing the ``draft`` attribute in the build pipeline.

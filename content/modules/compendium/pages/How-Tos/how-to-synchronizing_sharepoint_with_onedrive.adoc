@@ -4,5 +4,8 @@
 
 include::compendium:partial$_attributes.adoc[]
 
+{how-to-icon}
+
+
 .Demo on synchronizing
 image::compendium:snychronizing_with_onedrive.gif[Demo on synchronizing]

@@ -4,6 +4,9 @@
 
 include::compendium:partial$_attributes.adoc[]
 
+{how-to-icon}
+
+
 
 :convention: xref:compendium:Guidelines/repo-branch_naming_conventions.adoc
 

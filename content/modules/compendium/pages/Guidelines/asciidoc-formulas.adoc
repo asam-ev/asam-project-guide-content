@@ -5,6 +5,7 @@
 
 include::compendium:partial$_attributes.adoc[]
 
+{asciidoc-icon}
 //tag::body[]
 This section shows how to include formulas in an ASAM standard.
 

@@ -5,6 +5,10 @@
 
 include::compendium:partial$_attributes.adoc[]
 
+{repo-icon}
+
+//tag::body[]
+
 // Label attributes are defined in the partial issue_labels.adoc and included through the _attributes.adoc partial
 
 //tag::compendium[]
@@ -305,3 +309,5 @@ Milestones are **mandatory** for the Development phase and **recommended** for t
 The following diagrams show examples for an issue with its labels, displaying the transitions the issue undergoes.
 
 image::compendium:asam/issue_label_examples-1.svg[]
+
+//end::body[]

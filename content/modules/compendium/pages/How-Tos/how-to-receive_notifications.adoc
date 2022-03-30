@@ -4,6 +4,9 @@
 
 include::compendium:partial$_attributes.adoc[]
 
+{how-to-icon}
+
+
 == Context
 Notifications for new posts to Teams channels are not always on by default.
 In order to be aware of all updates, the user can turn on the updates.

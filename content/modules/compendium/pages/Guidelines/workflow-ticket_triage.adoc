@@ -3,6 +3,10 @@
 :keywords: triage, remote, issue
 :navtitle: [Workflow] Ticket Triage
 
+include::compendium:partial$_attributes.adoc[]
+
+{workflow-icon}
+
 //tag::body[]
 
 In ASAM projects, tasks are divided into individual issues.
