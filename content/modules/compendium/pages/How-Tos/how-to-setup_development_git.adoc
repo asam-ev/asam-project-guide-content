@@ -54,6 +54,7 @@ In order for project members and the Project Lead to work on their respective pr
 .. xref:compendium:How-Tos/how-to-forking_repo.adoc[Fork] the latest version of the https://code.asam.net/common/templates/standard-template[**standard template repository**^] into the existing subgroup for the project.
 * The structure of the repository is explained in the included README
 .. Rename the forked project to "<project-name> <type-suffix>", where "<project-name>" is the name of the project (e.g. "OpenDRIVE") and "<type-suffix>" is the current xref:concepts:project_types.adoc[project type] (e.g. "Standard").
+.. Follow the instructions in the https://code.asam.net/common/templates/standard-template/-/blob/master/README.adoc[**template repository's README**^]
 . Update the assigned members of the subgroup according to the currently enrolled members.
 . Send a mail with the link to the new project to the proposal members, informing them that the repository is now ready for use.
 
