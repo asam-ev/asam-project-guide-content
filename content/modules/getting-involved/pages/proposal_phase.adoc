@@ -4,18 +4,16 @@
 
 include::partial$_attributes.adoc[]
 
-
-
-// == Getting Started Immediately
-
-// [horizontal]
-// xref:proposal/proposal_workshop_preparation.adoc[]:: Start here to learn how you prepare a Proposal Workshop.
-// xref:proposal/join_proposal_workshop.adoc[]:: Start here to learn how to join a scheduled Proposal Workshop.
-// xref:proposal/proposal_writing.adoc[]:: Start here to learn how to contribute as a participant of a project Proposal.
-// xref:proposal/submit_candidacy.adoc[]:: Start here to learn how you can submit a candidacy for Project Lead.
-// xref:proposal/submit_proposal.adoc[]:: Start here to learn what to do in order to submit a project Proposal for review by the __{tsc}__.
-// xref:tooling:working-without-software-installation.adoc#_minimum_required_setup[Minimum Required Setup]:: Check out the minimum required setup to get ready for participation and contribution.
-
+====
+[horizontal]
+Involved roles::
+{role-idea-giver} --
+{role-standard-user} --
+{role-gtm} --
+{role-tsc-member} --
+{role-member} --
+({role-proposal-submitter})
+====
 
 == Process Overview
 The purpose of the proposal phase is to transfer xref:ideation_phase.adoc[ideas for a standard development project] into an ASAM project proposal and to obtain a decision on it.
@@ -31,21 +29,4 @@ image::compendium:asam/proposal_phase_v2-simplified.svg[title="The simplified Pr
 
 The phase is explained in more detail on the xref:proposal/phase_details.adoc[next page].
 If you want to learn more about how to participate in this phase, check out the pages in this chapter or follow the links in the relevant section on this page.
-
-====
-[cols="1,5", frame=none, grid = rows]
-|===
-h|Involved roles
-a| * {role-idea-giver}
-* {role-standard-user}
-* {role-gtm}
-* {role-tsc-member}
-* {role-member}
-* ({role-proposal-submitter})
-
-h| Project phase
-| image:compendium:asam/project_lifecycle-proposal.svg[]
-
-|===
-====
 

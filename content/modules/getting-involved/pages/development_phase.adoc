@@ -6,16 +6,15 @@ include::partial$_attributes.adoc[]
 
 
 ====
-[cols=">1,5", frame=none, grid = cols]
-|===
-|Phase|Involved Roles
-
-|image:compendium:asam/project_lifecycle-development.svg[]
-a| {role-wg-member} -- {role-wg-lead} -- {role-project-lead} --
-{role-service-provider} -- {role-technical-writer} -- {role-ccb} --
+[horizontal]
+Involved Roles::
+{role-wg-member} --
+{role-wg-lead} --
+{role-project-lead} --
+{role-service-provider} --
+{role-technical-writer} --
+{role-ccb} --
 {role-gtm}
-
-|===
 ====
 
 

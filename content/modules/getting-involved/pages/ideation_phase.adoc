@@ -6,17 +6,11 @@ include::partial$_attributes.adoc[]
 
 
 ====
-[cols="1,5", frame=none, grid = rows]
-|===
-h|Involved roles
-a| * {role-standard-user} -> {role-idea-giver}
-* {role-gtm}
-* {role-member}
-
-h| Project phase
-| image:compendium:asam/project_lifecycle-ideation.svg[]
-
-|===
+[horizontal]
+Involved roles::
+{role-standard-user} -> {role-idea-giver} --
+{role-gtm} --
+{role-member}
 ====
 
 // == Getting Started Immediately
