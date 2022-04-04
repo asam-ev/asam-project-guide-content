@@ -179,36 +179,46 @@ image::scenario.png[an alternative text]
 
 ASAM Writing Guide: 5.2. Figures
 
-////
-[#sec-ASM-xx]
-== Write an alternative text for every figure (ASM-xx)
 
-// TODO: How does the alternative text comply with the image numbering?
+[#sec-ASM-118]
+== Write an alternative text for every figure with defined size (ASM-118)
 
-```
-image::images/uml_notation.drawio.svg[1100]
-```
- vs.
-```
-image::images/uml_notation.drawio.svg[alternative text, 1100]
-```
+* Add an alternative text to a figure to trigger the scaling of the figure in the rendering process.
+
+* If there is no specific alternative text available, use `img` as default.
+
+* Figures without alternative text will not be scaled.
+
+
+// TODO: What is the proper content for alternative text? Jana had a source...
+
 
 *Exceptions*
 
 There are no exceptions.
 
+
 *Example*
 
+With alternative text:
 ```
-[#fig-54f39ea2-f91f-4a20-bb13-7daec1800513]
+[#fig-fe4294ac-022d-4687-bc13-11798a9b4ce5]
+.The UML notification
+image::images/uml_notation.drawio.svg[UML notification, 1100]
+```
+
+With default text `img`:
+```
+[#fig-69e40be7-7a2a-439f-b1df-db19679675ad]
 .This is the caption of the figure
-image::scenario.png[an alternative text]
+image::images/uml_notation.drawio.svg[img, 1100]
 ```
 
 *Source*
 
+ASAM specific rule
 ASAM Writing Guide: 5.2. Figures
-////
+
 
 [#sec-ASM-59]
 == Write a description for each figure (ASM-59)

@@ -7,6 +7,10 @@ This section contains basic editorial rules on ASAM standards:
 * <<#sec-ASM-125>>
 * <<#sec-ASM-119>>
 * <<#sec-ASM-22>>
+* <<#sec-ASM-40>>
+* <<#sec-ASM-39>>
+* <<#sec-ASM-26>>
+* <<#sec-ASM-27>>
 * <<#sec-ASM-1>>
 * <<#sec-ASM-30>>
 * <<#sec-ASM-117>>
@@ -14,6 +18,12 @@ This section contains basic editorial rules on ASAM standards:
 * <<#sec-ASM-23>>
 * <<#sec-ASM-120>>
 * <<#sec-ASM-20>>
+* <<#sec-ASM-15>>
+* <<#sec-ASM-37>>
+* <<#sec-ASM-38>>
+* <<#sec-ASM-31>>
+* <<#sec-ASM-34>>
+* <<#sec-ASM-36>>
 
 
 * Consistent formatting
@@ -187,6 +197,81 @@ a|
 ASAM specific rule.
 
 
+[#sec-ASM-40]
+== Name the mapping file index.adoc (ASM-40)
+
+* The mapping file _index.adoc_ is in the root directory of the chapter structure.
+
+*Exceptions*
+
+There are no exceptions.
+
+*Example*
+
+There is no example.
+
+*Source*
+
+ASAM specific rule.
+
+
+
+[#sec-ASM-39]
+== Define the complete chapter structure in the mapping file (ASM-39)
+
+* Include all chapters of all levels of the chapter structure in the mapping file.
+
+*Exceptions*
+
+There are no exceptions.
+
+*Example*
+
+There is no example.
+
+*Source*
+
+ASAM specific rule.
+
+
+[#sec-ASM-26]
+== Do not include empty chapters (ASM-26)
+
+* Only include chapters with content beyond a heading in the chapter structure.
+* Remove chapters without content from the chapter structure.
+
+*Exceptions*
+
+There are no exceptions.
+
+*Example*
+
+There is no example.
+
+*Source*
+
+ASAM specific rule.
+
+
+[#sec-ASM-27]
+== Check to include all needed chapters (ASM-27)
+
+* Check to include all needed chapters in the chapter structure and the mapping file.
+* Remove chapters from the repository that are without use in the chapter structure and mapping file.
+
+*Exceptions*
+
+There are no exceptions.
+
+*Example*
+
+There is no example.
+
+*Source*
+
+ASAM specific rule.
+
+
 [#sec-ASM-1]
 == Do not include version information (ASM-1)
 
@@ -341,3 +426,144 @@ There are no exceptions.
 
 ASAM specific rule.
 
+
+[#sec-ASM-15]
+== Use short style for crossreferences (ASM-15)
+
+Cross references use the short style which contains of the fixed text "Sect. " and the chapter number of the target.
+
+*Exceptions*
+
+There are no exceptions.
+
+*Example*
+
+[#tab-fd9957af-2f23-41ef-bc8a-3a08ad5f93fd]
+.Use of short style for crossreferences.
+[%header]
+|===
+|No                                   |#Yes#
+|[.line-through]#``:xrefstyle: full``#            |``:xrefstyle: short``
+|[.line-through]#Sect. 2, “Normative references”#            |Sect. 2
+|===
+
+*Source*
+
+ASAM specific rule.
+
+
+[#sec-ASM-37]
+== Check for broken internal references (ASM-37)
+
+* Check if the references to sections of the document work.
+* Check the results of the production pipeline for reference errors.
+
+*Exceptions*
+
+There are no exceptions.
+
+*Example*
+
+There are no examples.
+
+*Source*
+
+ASAM specific rule.
+
+
+[#sec-ASM-38]
+== Check for broken external references (ASM-38)
+
+* Check if the references to external resources of the document work.
+* Check the results of the production pipeline for reference errors.
+
+*Exceptions*
+
+There are no exceptions.
+
+*Example*
+
+There are no examples.
+
+*Source*
+
+ASAM specific rule.
+
+
+[#sec-ASM-31]
+== Use the standard disclaimer (ASM-31)
+
+Include the following standard disclaimer:
+
+[IMPORTANT]
+
+.Disclaimer
+
+====
+
+This document is the copyrighted property of ASAM e.V.
+
+In alteration to the regular https://www.asam.net/license[license terms], ASAM allows unrestricted distribution of this standard. §2 (1) of ASAM's regular https://www.asam.net/license[license terms] is therefore substituted by the following clause: "The licensor grants everyone a basic, non-exclusive and unlimited license to use the standard {THIS_STANDARD}".
+
+====
+
+
+*Exceptions*
+
+There are no exceptions.
+
+*Example*
+
+```
+[IMPORTANT]
+
+.Disclaimer
+
+====
+
+This document is the copyrighted property of ASAM e.V.
+
+In alteration to the regular https://www.asam.net/license[license terms], ASAM allows unrestricted distribution of this standard. §2 (1) of ASAM's regular https://www.asam.net/license[license terms] is therefore substituted by the following clause: "The licensor grants everyone a basic, non-exclusive and unlimited license to use the standard {THIS_STANDARD}".
+
+====
+```
+
+*Source*
+
+ASAM specific rule.
+
+
+[#sec-ASM-34]
+== Check the license files (ASM-34)
+
+Check if the repository contains the needed license files.
+
+*Exceptions*
+
+There are no exceptions.
+
+*Example*
+
+There is no example.
+
+*Source*
+
+ASAM specific rule.
+
+
+[#sec-ASM-36]
+== Check the project roadmap file (ASM-36)
+
+Check if the repository contains the project roadmap file.
+
+*Exceptions*
+
+There are no exceptions.
+
+*Example*
+
+There is no example.
+
+*Source*
+
+ASAM specific rule.

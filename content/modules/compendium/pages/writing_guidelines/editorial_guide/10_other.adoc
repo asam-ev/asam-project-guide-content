@@ -6,8 +6,7 @@ This section contains rules that should be in other sections:
 
 * <<#sec-ASM-16>>
 * <<#sec-ASM-78>>
-* <<#sec-ASM-88>>
-* <<#sec-ASM-117>>
+
 
 * <<#sec-ASM-81>>
 

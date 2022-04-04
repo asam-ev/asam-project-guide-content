@@ -11,6 +11,7 @@ This section contains editorial rules on how to create lists:
 * <<#sec-ASM-5>>
 * <<#sec-ASM-6>>
 * <<#sec-ASM-11>>
+* <<#sec-ASM-7>>
 
 
 [#sec-ASM-8]
@@ -253,3 +254,44 @@ a|
 * ASD-STE100 (2021, issue 8): Rule 4.3 Use a vertical list for complex text, page 1-4-4
 * Microsoft Style Guide: https://docs.microsoft.com/en-us/style-guide/scannable-content/lists#punctuation
 * Google Developer Documentation Style Guide: https://developers.google.com/style/lists
+
+
+[#sec-ASM-7]
+== Check if a list is complete (ASM-7)
+
+Check if lists are complete:
+
+* All list items are present.
+* All list items use the correct markup.
+
+*Exceptions*
+
+There are no exceptions.
+
+*Example*
+
+[#tab-4a01fe25-76ca-4e88-a45f-ba1ffcc6a62a]
+.Incomplete lists
+[%header]
+|===
+|No |#Yes#
+
+a|
+* [.line-through]#Common junctions,#
+* [.line-through]#Direct junctions,#
+[.line-through]#Virtual junctions,#
+
+[.line-through]#Crossings.#
+
+a|
+* Common junctions
+* Direct junctions
+* Virtual junctions
+* Crossings
+|===
+
+*Source*
+
+ASAM specific rule.
+
+

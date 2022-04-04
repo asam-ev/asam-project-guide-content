@@ -1,10 +1,12 @@
 
+
 [#sec-language]
 = Language
 
 This section contains editorial rules on content and language:
 
 * <<#sec-ASM-49>>
+* <<#sec-ASM-17>>
 * <<#sec-ASM-62>>
 * <<#sec-ASM-63>>
 * <<#sec-ASM-33>>
@@ -51,6 +53,26 @@ There are no exceptions.
 *Source*
 
 ASAM Writing Guide: 1.1. Use american english (AE)
+
+ASM-17,General spellcheck
+
+[#sec-ASM-17]
+== Note the spell check results (ASM-17)
+
+* The production pipeline performs a general spell check on all files.
+* Check the results of the production pipeline for spelling errors.
+
+*Exceptions*
+
+There are no exceptions.
+
+*Example*
+
+https://code.asam.net/simulation/opendrive-group/opendrive-standard/-/jobs/20219
+
+*Source*
+
+ASAM specific rule
 
 
 [#sec-ASM-62]
@@ -313,6 +335,38 @@ Press the key again.
 *Source*
 
 ASAM Writing Guide: Do not use synonyms
+
+
+[#sec-ASM-21]
+== Include verbal forms for expressions of provisions (ASM-21)
+
+Use and update the following table of verbal forms for expressions of provisions in a standard document.
+
+[#tab-2c6c7726-0a24-493c-a645-9c38d4d2504d]
+.Meaning of modal verbs
+[%header]
+.Verbal forms for expressions of provisions
+[%header, cols="20, 15, 65"]
+|===
+|Provision                  |Verbal form        |Definition
+|Requirement                |shall, shall not   |A requirement conveys objectively verifiable criteria to be fulfilled and from which no deviation is permitted if conformance with the document is to be claimed.
+|Recommendation             |should, should not |A recommendation conveys a suggested possible choice or course of action deemed to be particularly suitable without necessarily mentioning or excluding others.
+|Permission                 |may                |A permission conveys consent or liberty (or opportunity) to do something.
+|Possibility and capability |can, cannot        |A possibility conveys expected or conceivable material, physical or causal outcome. +
+                                                 A capability conveys the ability, fitness, or quality necessary to do or achieve a specified thing.
+|External constraint        |must               |An external constraint or obligation on the user of the document, for example laws of nature or particular conditions existing in some countries or regions, that is not stated as a provision of the document.
+                                                 External constraints are not requirements of the document.
+                                                 They are given for the information of the user.
+|===
+
+
+*Exceptions*
+
+There are no exceptions.
+
+*Source*
+
+ASAM Writing Guide: Verbs with a special meaning (shall, should, may, can)
 
 
 [#sec-ASM-60]

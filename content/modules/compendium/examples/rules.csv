@@ -5,7 +5,7 @@ ASM-3,Heading punctuation,<<sec-ASM-3>>,-,approved
 ASM-4,Heading numbering,<<sec-ASM-4>>,-,draft
 ASM-5,List capitalization,<<sec-ASM-5>>,-,draft
 ASM-6,List punctuation,<<sec-ASM-6>>,-,draft
-??ASM-7,List completeness (...),-,-,draft
+++ASM-7,List completeness (...),-,-,draft
 ASM-8,List content,<<sec-ASM-8>>,-,draft
 ASM-9,List one sentence per line,<<sec-ASM-9>>,-,draft
 ASM-10,List type,<<sec-ASM-10>>,-,draft
@@ -13,32 +13,32 @@ ASM-11,List end of element,<<sec-ASM-11>>,-,draft
 ASM-12,Image anchor fig-,<<sec-ASM-12>>,-,approved
 ASM-13,Table anchor tab-,<<sec-ASM-13>>,-,approved
 ASM-14,Code anchor code-,<<sec-ASM-14>>,-,approved
-??ASM-15,xrefstyle short,-,-,draft
+++ASM-15,xrefstyle short,-,-,draft
 ASM-16,Anchor syntax [#anchor],<<sec-ASM-16>>,-,approved
-??ASM-17,General spellcheck,-,-,draft
+++ASM-17,General spellcheck,-,-,draft
 ASM-18,LOF created automatically,<<sec-ASM-18>>,-,approved
 ASM-19,LOT created automatically,<<sec-ASM-19>>,-,approved
 ASM-20,No Trailing whitespaces,<<sec-ASM-20>>,-,approved
-??ASM-21,Modal verbs,-,-,to be discussed
+++ASM-21,Modal verbs,-,-,to be discussed
 ASM-22,Standard ASAM Chapter structure,<<sec-ASM-22>>,-,draft
 ASM-23,Document extension .adoc,<<sec-ASM-23>>,-,approved
 ??ASM-24,Two blank lines,-,-,to be discussed
 ASM-25,One sentence per line,<<sec-ASM-25>>,-,approved
-??ASM-26,No empty chapters,-,-,draft
-??ASM-27,No unused chapters,-,-,draft
+++ASM-26,No empty chapters,-,-,draft
+++ASM-27,No unused chapters,-,-,draft
 ASM-28,Included images shown,<<sec-ASM-28>>,-,draft
 ASM-29,No unused images,<<sec-ASM-29>>,-,approved
 ASM-30,Filenames lowercase,<<sec-ASM-30>>,-,draft
-??ASM-31,Standard disclaimer,-,-,draft
+++ASM-31,Standard disclaimer,-,-,draft
 ??ASM-32,Standard License,-,-,draft
 ASM-33,Use Oxford commas,<<sec-ASM-33>>,-,approved
-??ASM-34,Repository contains LICENSE,-,-,draft
+++ASM-34,Repository contains LICENSE,-,-,draft
 ??ASM-35,Repository contains contact persons,-,-,draft
-??ASM-36,Repository contains roadmap,-,-,draft
-??ASM-37,No broken internal links,-,-,draft
-??ASM-38,No broken external links,-,-,draft
-??ASM-39,Mapping file defines structure,-,-,draft
-??ASM-40,Mapping file named index.adoc,-,-,change
+++ASM-36,Repository contains roadmap,-,-,draft
+++ASM-37,No broken internal links,-,-,draft
+++ASM-38,No broken external links,-,-,draft
+++ASM-39,Mapping file defines structure,-,-,draft
+++ASM-40,Mapping file named index.adoc,-,-,change
 ??ASM-41,Deliverable naming,-,-,draft
 ??ASM-42,List order,-,-,draft
 ASM-43,Backticks,<<sec-ASM-43>>,-,draft
@@ -115,7 +115,7 @@ ASM-114,Modal verb can,<<sec-ASM-114>>,-,draft
 ASM-115,Use 'which' correctly,<<sec-ASM-115>>,-,draft
 ASM-116,Use 'because' for a reason,<<sec-ASM-116>>,-,draft
 ASM-117,Underscore in file and folder names,<<sec-ASM-117>>,-,draft
-??ASM-118,Alternative text for every figure,-,-,draft
+ASM-118,Alternative text for every figure,-,-,draft
 ASM-119,Full standard names,<<sec-ASM-119>>,-,draft
 ASM-120,Standard name variable,<<sec-ASM-120>>,-,draft
 ASM-121,XML elements,<<sec-ASM-121>>,-,draft
