@@ -7,11 +7,11 @@
 include::partial$_attributes.adoc[]
 
 
-This section describes the structure of standards documents and the types of standards that are produced in projects.
+This page describes the structure of standards documents and the types of standards that are produced in projects.
 
 == Classification of standards
 
-There are two types of standards: <<Base standard,Base standards>> and <<Associated standard,associated standards>>.
+There are two types of standards: <<Base Standard,Base Standards>> and <<Associated Standard,Associated Standards>>.
 
 Standards can consist of several parts.
 These parts are independent (e.g. <<Technology reference,technology references>>) and must each individually comply with the <<Structure of standards,basic document structure for ASAM standards>>.
@@ -20,29 +20,9 @@ include::compendium:page$Terminology/base_standard.adoc[{sublevel}]
 
 include::compendium:page$Terminology/associated_standard.adoc[{sublevel}]
 
-== Content characterization
-The content characterization indicates the type of the part of the standard. These are:
+== Set Of Standards
+A "**set of standards**" is a special form comprising different elements in one standard.
 
-* <<Format description>>
-* <<Application programming interface,API>>
-* <<Protocol definitions>>
-* <<Technology reference>>
-* <<Application area companion>>
-* <<Transport layer specification>>.
-
-include::compendium:page$Terminology/set_of_standards.adoc[{sublevel}]
-
-include::compendium:page$Terminology/format_description.adoc[{sublevel}]
-
-include::compendium:page$Terminology/api.adoc[{sublevel}]
-
-include::compendium:page$Terminology/protocol_definition.adoc[{sublevel}]
-
-include::compendium:page$Terminology/technology_reference.adoc[{sublevel}]
-
-include::compendium:page$Terminology/application_area_companion.adoc[{sublevel}]
-
-include::compendium:page$Terminology/transport_layer_specification.adoc[{sublevel}]
 
 == Structure of standards
 ASAM provides a template for creating an ASAM specification, including a description of use and illustrated by examples.
@@ -50,8 +30,4 @@ The style sheet defines an identical look & feel for all ASAM standards.
 The main definitions are for the headers and footers, and for the cover page and directories.
 Rules for designing graphics, tables, source text, headings, etc. are included.
 
-include::compendium:page$Templates/cover_page.adoc[{sublevel}]
 
-include::compendium:page$Terminology/status_of_document.adoc[{sublevel}]
-
-include::compendium:page$Templates/directories.adoc[{sublevel}]

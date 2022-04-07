@@ -1,6 +1,6 @@
 = Associated Standard
 :description: Definition of an associated standard.
-:keywords: definition,classification,associated-standard, READYFORREVIEW
+:keywords: definition,classification, READYFORREVIEW
 
 include::compendium:partial$_attributes.adoc[]
 
@@ -9,9 +9,17 @@ include::compendium:partial$_attributes.adoc[]
 An associated standard always refers to a base standard.
 These are examples of associated standards:
 
-* xref:compendium:Terminology/application_area_companion.adoc[]
-* xref:compendium:Terminology/transport_layer_specification.adoc[]
+* <<Application Area Companion>>
+* <<Transport Layer Specification>>
 
-//tag::related[]
-related::associated-standard[]
-//end::related[]
+== Application Area Companion
+
+An Application Area Companion is an associated extension of a base standard for a specific type of device or a specific application area.
+A companion uses the syntax and the abstract models of the base standard. +
+Companion standards describe models for application fields (application-specific information) and are technology-independent.
+
+
+== Transport Layer Specification
+
+A transport layer specification details, for example, how a generic protocol definition is to be interpreted using a concrete physical layer.  +
+The transport layer provides uniform access to the application-oriented layers, so that the application-oriented layers do not have to take the properties of the communication network into account.
