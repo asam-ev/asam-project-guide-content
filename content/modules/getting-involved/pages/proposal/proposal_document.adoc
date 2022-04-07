@@ -57,7 +57,7 @@ include::getting-involved:partial$milestone_plan_duration.adoc[]
 == Project Deliverables
 The proposal must define the deliverables it intends to hand over to ASAM at the end of the project.
 
-include::compendium:page$Terminology/deliverables.adoc[leveloffset=+1, tag=body]
+include::compendium:page$TBD/deliverables.adoc[leveloffset=+1, tag=body]
 
 == Project Structure
 The proposal must specify the expected working groups and their designated leads. +

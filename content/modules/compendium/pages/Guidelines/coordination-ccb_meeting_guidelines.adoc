@@ -15,7 +15,7 @@ participates: ccb
 TODO
 
 NOTES:
-
+xref:compendium:Guidelines/coordination-meeting_logistics.adoc[Logistics]
 - Moderation: Project Lead
 - Participation: CCB representatives
 - Minutes: Moderator (or delegate)

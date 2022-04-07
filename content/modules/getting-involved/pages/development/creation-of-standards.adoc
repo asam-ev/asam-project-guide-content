@@ -16,9 +16,9 @@ There are two types of standards: <<Base Standard,Base Standards>> and <<Associa
 Standards can consist of several parts.
 These parts are independent (e.g. <<Technology reference,technology references>>) and must each individually comply with the <<Structure of standards,basic document structure for ASAM standards>>.
 
-include::compendium:page$Terminology/base_standard.adoc[{sublevel}]
+include::compendium:page$TBD/base_standard.adoc[{sublevel}]
 
-include::compendium:page$Terminology/associated_standard.adoc[{sublevel}]
+include::compendium:page$TBD/associated_standard.adoc[{sublevel}]
 
 == Set Of Standards
 A "**set of standards**" is a special form comprising different elements in one standard.

@@ -24,4 +24,5 @@ NOTES:
 - Frequency/cadence: group decides
 - Apply the xref:compendium:Guidelines/coordination-general_meeting_guidelines.adoc[].
 
+xref:compendium:Guidelines/coordination-meeting_logistics.adoc[Logistics]
 //end::body[]

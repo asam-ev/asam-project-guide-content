@@ -10,8 +10,10 @@ include::compendium:partial$_attributes.adoc[]
 
 {role-gtm}
 
+To host a workshop is part of the xref:compendium:Guidelines/coordination-meeting_logistics.adoc[].
+
 //tag::body[]
-== Face-to-face workshop
+== Face-to-Face Workshop
 
 [cols="1,3"]
 |===

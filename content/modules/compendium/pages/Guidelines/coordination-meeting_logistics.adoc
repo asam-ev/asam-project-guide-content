@@ -1,6 +1,7 @@
 = Meeting Logistics
 :description: Defines the term 'meeting logistics' in the context of ASAM meetings.
 :keywords: term
+:navtitle: [Coordination] Meeting Logistics
 
 include::compendium:partial$_attributes.adoc[]
 
