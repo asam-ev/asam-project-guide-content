@@ -15,7 +15,7 @@ Filestage is a webtool for reviewing documents online.
 
 
 == Filestage At ASAM
-__{asam}__ requires using Filestage for:
+ASAM requires using Filestage for:
 
 * All public reviews
 * ASAM member reviews in the Simulation domain

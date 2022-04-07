@@ -6,32 +6,32 @@
 |To approve or reject the release candidate.
 
 |Responsible
-|__{tsc}__
+|TSC
 
 |Involved
 |Project group
 |===
 // end::table[]
-Decisions on release candidates are put on the agenda of the next available __{tsc}__ meeting.
+Decisions on release candidates are put on the agenda of the next available TSC meeting.
 Release candidate decisions are handled during the meeting via a three-step process:
 
-. Project leader presents the release candidate to the __{tsc}__ members.
-. __{tsc}__ members are given the opportunity to ask questions.
-. __{tsc}__ members discuss the proposal (without Project Leader's presence) and then proceed with casting their votes on the release.
+. Project leader presents the release candidate to the TSC members.
+. TSC members are given the opportunity to ask questions.
+. TSC members discuss the proposal (without Project Leader's presence) and then proceed with casting their votes on the release.
 
-The __{tsc}__ does not modify the content of the release candidate.
+The TSC does not modify the content of the release candidate.
 If this is deemed to be necessary, then the release shall be rejected.
 
-The voting is carried out in accordance with the __{tsc}__ voting rules.
-The Board Representative for the __{tsc}_ has to confirm the _{tsc}__ decision.
+The voting is carried out in accordance with the TSC voting rules.
+The Board Representative for the TSC has to confirm the TSC decision.
 
-The __{tsc}__ may add requirements for rework of the release candidate and make the release contingent upon the completion of the required rework.
+The TSC may add requirements for rework of the release candidate and make the release contingent upon the completion of the required rework.
 The Office shall check the reworked release candidate submission.
-If the required rework has been implemented as defined by the __{tsc}__, then the release is effective and the release process continues.
+If the required rework has been implemented as defined by the TSC, then the release is effective and the release process continues.
 
 // end::long[]
 
 //tag::short[]
- During the __{tsc}_ meeting, the Project Leader presents the release candidate to the members of the _{tsc}__ and answers their questions.
-The __{tsc}__ members then vote on whether or not to release the standard.
+ During the TSC meeting, the Project Leader presents the release candidate to the members of the TSC and answers their questions.
+The TSC members then vote on whether or not to release the standard.
 //end::short[]

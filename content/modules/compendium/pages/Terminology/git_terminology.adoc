@@ -7,7 +7,7 @@ include::compendium:partial$_attributes.adoc[]
 {term-icon}
 
 Git:: A version control system.
-Used by __{asam}__ in their projects.
+Used by ASAM in their projects.
 
 GitLab:: Popular Open Source platform ASAM uses that leverages Git.
 

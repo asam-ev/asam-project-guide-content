@@ -18,7 +18,7 @@ The Office provides an IT-solution for carrying out the public draft review.
 The Office provides technical support for reviewers and ensures that review feedback is accessible to the project group members in a timely manner.
 
 In general, every ASAM member can download the draft standard and participate in the review.
-The Office may restrict the group of reviewers in agreement with the project group members or as per __{tsc}__ decision.
+The Office may restrict the group of reviewers in agreement with the project group members or as per TSC decision.
 
 Members of the project group are available to answer technical questions from reviewers.
 

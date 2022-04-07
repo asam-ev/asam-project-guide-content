@@ -10,7 +10,7 @@ include::compendium:partial$_attributes.adoc[]
 == Developer certification of origin (DCO)
 To make a good faith effort to ensure licensing criteria are met, ASAM open source projects require the Developer Certificate of Origin (DCO) process to be followed.
 
-The __{dco}__ is an attestation attached to every contribution made by every developer.
+The DCO is an attestation attached to every contribution made by every developer.
 In the commit message of the contribution, (described more fully later in this document), the developer simply adds a Signed-off-by statement and thereby agrees to the DCO.
 
 When a developer submits a patch, it is a commitment that the contributor has the right to submit the patch per the standard license.
@@ -44,7 +44,7 @@ The DCO agreement is shown below and online.
         involved.
 
 == DCO sign-Off Methods
-The __{dco}__ requires a sign-off message in the following format appear on each commit in the pull request:
+The DCO requires a sign-off message in the following format appear on each commit in the pull request:
 [source]
 ----
 Signed-off-by: Firstname Lastname <email@address.com>

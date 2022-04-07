@@ -216,7 +216,7 @@ See xref:proposal/proposal_writing.adoc[].
 |===
 .3+|image:compendium:asam/proposal_phase_v2-proposal_submission.svg[]
 >h|Purpose
-|To submit the finalized project proposal to __{asam}__
+|To submit the finalized project proposal to ASAM
 
 >h|Responsible
 |{role-proposal-submitter}
@@ -499,7 +499,7 @@ Submission::
 |===
 .3+|image:compendium:asam/proposal_phase_v2-proposal_submission.svg[]
 >h|Purpose
-|To submit the finalized project proposal to __{asam}__
+|To submit the finalized project proposal to ASAM
 
 >h|Responsible
 |{role-proposal-submitter}

@@ -14,7 +14,7 @@ include::tooling:partial$icon_reminder.adoc[tag=online-access]
 Draw.io is a free tool for creating diagrams.
 The tool can be downloaded and run locally (as {drawio-download}[Draw.io Desktop^]), accessed through a web browser (through {drawio-url}[Draw.io web link with ASAM library^]), or be used through the Visual Studio Code extension (id: hediet.vscode-drawio).
 
-**__{asam}__ recommends using the link:{drawio-url}[web app^].**
+**ASAM recommends using the link:{drawio-url}[web app^].**
 
 TIP: It is recommended to use the VS Code extension and Draw.io Desktop *only* for viewing diagrams and making small alterations, not creating them or making bigger changes.
 The reason is that the ASAM library cannot be integrated directly as of now into the extension solution.

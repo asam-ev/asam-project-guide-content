@@ -51,7 +51,7 @@ The idea has been submitted to ASAM.
 . Send an email with your concept, idea, question or feedback to ideation@asam.net
 .. If you are not an ASAM member, you must be sponsored by an ASAM member and the idea must be send in by your sponsor instead.
 See the https://www.asam.net/active-projects/ideation/how-it-works/[ASAM website^] for more details
-. The ASAM Office ({gtm}) will contact you to clarify the details (or answer your questions)
+. The ASAM Office (GTM) will contact you to clarify the details (or answer your questions)
 . The GTM investigates if there are any other standards or standardization projects in that area
 . Idea Giver and GTM detail the proposed idea further
 . The GTM will then post the mutually agreed concept

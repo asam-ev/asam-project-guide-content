@@ -33,7 +33,7 @@ Once the project has been accepted, the project group sends out service requests
 
 
 == Prerequisites
-* The project proposal has been accepted by the __{tsc}__.
+* The project proposal has been accepted by the TSC.
 * The project has planned budget for hiring Service Providers.
 * The total of the selected offers fits in the planned budget.
 

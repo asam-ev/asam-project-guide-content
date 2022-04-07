@@ -7,8 +7,8 @@ include::compendium:partial$_attributes.adoc[]
 
 {vscode-icon}
 
-__{vscode}__ is already without extensions very powerful and user friendly.
-One thing that can make the __{vscode}__ experience even better are the extensions.
+VSCode is already without extensions very powerful and user friendly.
+One thing that can make the VSCode experience even better are the extensions.
 There is a list of extensions we recommend that will make your life contributing to the ASAM standards way easier.
 
 Installing an extension is really easy, just enter the extension menu, search for the desired extension.
@@ -17,7 +17,7 @@ Then, click on the Install-Button.
 
 == AsciiDoc
 //tag::asciidoc[]
-The AsciiDoc extension will add the syntax the AsciiDoc interpreter to __{vscode}__ so you can use the preview feature and have syntax highlighting.
+The AsciiDoc extension will add the syntax the AsciiDoc interpreter to VSCode so you can use the preview feature and have syntax highlighting.
 
 .AsciiDoc (id: asciidoctor.asciidoctor-vscode)
 image::compendium:asciidoc_ext.png[]

@@ -17,6 +17,6 @@ git submodule update --init
 ----
 
 
-NOTE: After you have initialized your submodules for the first time, they will also show up in your Git window in __{vscode}_ where you can update them directly from _{vscode}__.
+NOTE: After you have initialized your submodules for the first time, they will also show up in your Git window in VSCode where you can update them directly from VSCode.
 
 related::submodule[]

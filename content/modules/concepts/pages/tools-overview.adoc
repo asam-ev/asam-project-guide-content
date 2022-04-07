@@ -7,7 +7,7 @@ include::partial$_attributes.adoc[]
 
 {doc-as-code-icon}
 
-For the development of standards, __{asam}__ provides <<collaborative_infrastructure,**collaborative infrastructure**>> and recommends the use of others (<<recommended_tools_table,**recommended tools**>>) to interact and more easily contribute to the standard development.
+For the development of standards, ASAM provides <<collaborative_infrastructure,**collaborative infrastructure**>> and recommends the use of others (<<recommended_tools_table,**recommended tools**>>) to interact and more easily contribute to the standard development.
 All of the listed infrastructure elements are required for the standard development.
 Depending on the personal role within a project, the frequency of usage may differ.
 Nevertheless, being familiar on how to use the given infrastructure will enable you to contribute to the standard development.

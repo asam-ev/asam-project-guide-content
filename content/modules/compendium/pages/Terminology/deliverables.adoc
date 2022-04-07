@@ -17,7 +17,7 @@ Base Standard:: A base standard contains all fundamental specifications such as 
 It uses a problem- or task-oriented notation, such as UML or BNF.
 A base standard is technology- and implementation-independent.
 Each ASAM standard consists of one base standard document.
-Some base standards at __{asam}__ are split-up into two documents, which is the Reference Guide, which contains all formal specifications of the standard in a reference-book style, and the User's Guide, which further specifies the application of the standard.
+Some base standards at ASAM are split-up into two documents, which is the Reference Guide, which contains all formal specifications of the standard in a reference-book style, and the User's Guide, which further specifies the application of the standard.
 
 All other standard documents within a standard package are associated to the base standard, and are of one of the following types:
 
@@ -45,7 +45,7 @@ Typical examples of schema files are XML definition files (.xsd) or Google proto
 
 
 Interface definition files::
-Interface definition files define programmatic interfaces, such as __{api}__s (Application Programming Interface).
+Interface definition files define programmatic interfaces, such as APIs (Application Programming Interface).
 They are used for automatic code generation of the standardized interface for specific programming languages.
 A typical example of an interface definition file is the Interface Description Language file (.idl).
 

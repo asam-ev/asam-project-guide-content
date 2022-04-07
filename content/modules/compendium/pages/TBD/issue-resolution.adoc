@@ -5,7 +5,7 @@
 include::partial$_attributes.adoc[]
 
 
-ASAM standards are used by companies, who are either members of __{asam}__ or buyers of the standards.
+ASAM standards are used by companies, who are either members of ASAM or buyers of the standards.
 If a standard has a known problem, then members generally have the expectation that the known problem is fixed within a reasonable time.
 Buyers of ASAM standards have, in accordance with the German civil code BGB, the right of supplementary performance (ger. Nacherfüllung) if the standard has a known problem.
 
@@ -95,7 +95,7 @@ image::compendium:issue-resolution-phase.png[]
 
 === Phase 3: Release
 [horizontal]
-3.1:: The Standard Manager submits the revised standard to the __{tsc}__ for public release.
+3.1:: The Standard Manager submits the revised standard to the TSC for public release.
 The release process is the same as described in chapter 1.4 "Release Phase".
 Correction sheets can be published immediately after the technical release from the Standard Expert Group.
-The __{tsc}__ confirms in its next meeting the release.
+The TSC confirms in its next meeting the release.

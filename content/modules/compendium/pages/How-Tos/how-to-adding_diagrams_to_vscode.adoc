@@ -40,7 +40,7 @@ To do this:
 . Enter ``asciidoc preview security`` .
 . Choose ``Allow insecure content``.
 
-NOTE: Access to this global setting is only available if you have currently are in an AsciiDoc file in __{vscode}__.
+NOTE: Access to this global setting is only available if you have currently are in an AsciiDoc file in VSCode.
 Otherwise, the setting will not show up.
 
 .Opening AsciiDoc preview security settings

@@ -25,10 +25,10 @@ The only exception is, that a new feature has been forgotten in an earlier relea
 A new revision version of an ASAM standard shall be backward-compatible to its immediate predecessor version.
 The only exception is, that the correction of an error or the removal of an ambiguity cannot be reasonably solved in any other way than breaking the backward-compatibility.
 
-An exception requires approval from the __{tsc}__ and must be documented in the standard.
+An exception requires approval from the TSC and must be documented in the standard.
 
 Revision development projects may be converted to a minor or major version development project during the course of the project term, if backward-compatibility issues turn out to be too severe or new features need to be added.
-The __{tsc}__ has to approve this change of project type.
+The TSC has to approve this change of project type.
 
 Only those ASAM members, who were actively involved in development of the preceding major or minor version, can participate in the revision development project.
 
@@ -36,7 +36,7 @@ Revision projects are limited to a life cycle of up to 18 months.
 
 Unlike other project types, the paid Service Provider for a revision project can be contracted without a public request for quotation.
 
-The Service Provider is confirmed by the __{tsc}__ and is appointed before the project starts.
+The Service Provider is confirmed by the TSC and is appointed before the project starts.
 
 The Project Leader and the Service Provider must be employees from different companies.
 
@@ -44,7 +44,7 @@ The number of minor version releases meets the pattern: "?.?.X".
 X is an integer number starting with 1.
 ? represents the current major and minor release number.
 
-The following process steps are not mandatory and are skipped by default, unless otherwise decided by the __{tsc}__ or the project group:
+The following process steps are not mandatory and are skipped by default, unless otherwise decided by the TSC or the project group:
 
 * P1: Proposal Workshop
 * C: Review Phase

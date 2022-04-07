@@ -55,11 +55,11 @@ The paper shall include the findings of the project group and proposals for ASAM
 Proposals for ASAM standards shall be as specific as possible.
 Ideally, the concept project documents their proposals in a copy & past ready format, as it could be taken over into the respective ASAM standard.
 Upon request, ASAM provides funding for concept projects up to 75% of the total required project budget.Concept projects are carried out via the standard development process.
-The following process steps are not mandatory and are skipped by default, unless otherwise decided by the __{tsc}__ or the project group:
+The following process steps are not mandatory and are skipped by default, unless otherwise decided by the TSC or the project group:
 
 * P1: Proposal Workshop
 * C: Review Phase
 * R: Release Phase
 
-The project group still caries out an R1 Technical Release and submits their deliverables to the __{tsc}__.
-The __{tsc}__ reviews the deliverables and determines, whether the project objectives have been reached and the project is closed.
+The project group still caries out an R1 Technical Release and submits their deliverables to the TSC.
+The TSC reviews the deliverables and determines, whether the project objectives have been reached and the project is closed.

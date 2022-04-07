@@ -13,7 +13,7 @@ Typically, a base standard is
 
 * A xref:compendium:Terminology/format_description.adoc[] (data structure) **or**
 * A xref:compendium:Terminology/protocol_definition.adoc[] **or**
-* An {api}
+* An API
 
 and has the following properties:
 

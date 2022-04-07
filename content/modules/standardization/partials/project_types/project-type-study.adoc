@@ -26,7 +26,7 @@ The process to request, approve and carrying out a study project is:
 
 . Member submits a study project information sheet to the ASAM Office for project approval.
 . ASAM Office checks the information and approves or rejects the project.
-. ASAM Office informs the __{tsc}__ about the project.
+. ASAM Office informs the TSC about the project.
 . ASAM Office publishes an announcement of the project.
 . The study project starts and is being carried out as described in the study project information sheet.
 . The ASAM Office monitors the project activities.
@@ -43,7 +43,7 @@ The minutes may be translated into the working language of the study group.
 
 Upon request, ASAM provides funding for study projects up to the limit for small budget projects.
 
-In case that a larger budget is required beyond the limit of a small budget project, then the project must be requested via the regular project proposal process, which consist of the process steps P2 Proposal Writing, P3 Proposal Submission, P4 Proposal Publication and P5 Proposal Decision by the __{tsc}__.
+In case that a larger budget is required beyond the limit of a small budget project, then the project must be requested via the regular project proposal process, which consist of the process steps P2 Proposal Writing, P3 Proposal Submission, P4 Proposal Publication and P5 Proposal Decision by the TSC.
 
 //tag::table[]
 .Summary

@@ -3,7 +3,7 @@
 [cols="1h,20"]
 |===
 |Purpose
-|To allow members and the __{tsc}__ to read and review the project proposal, to clarify open questions and to allow members to enroll for participation in the upcoming project.
+|To allow members and the TSC to read and review the project proposal, to clarify open questions and to allow members to enroll for participation in the upcoming project.
 
 |Responsible
 |{role-gtm}

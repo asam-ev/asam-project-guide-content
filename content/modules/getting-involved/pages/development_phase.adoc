@@ -54,7 +54,7 @@ The process steps are mandatory for the development of new standards and the dev
 For all other project types, some of the process steps are optional (see xref:concepts:project_types.adoc[]).
 
 This process description focuses on the ideal and best-case course of an ASAM project.
-Real projects may have iterations, loops and interventions by the __{tsc}__, Office, or Board of Directors. +
+Real projects may have iterations, loops and interventions by the TSC, Office, or Board of Directors. +
 Project groups may decide to re-start a project with an updated project proposal, upgrade to a higher release level, or to prematurely end the project.
 While those events can occur and need to be appropriately managed, they are out-of-scope for this Project Guide.
 

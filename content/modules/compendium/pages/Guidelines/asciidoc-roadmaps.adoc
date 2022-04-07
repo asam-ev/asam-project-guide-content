@@ -10,7 +10,7 @@ include::compendium:partial$_attributes.adoc[]
 //tag::body[]
 This section shows how to include roadmaps in an ASAM standard.
 
-CAUTION: Asciidoc preview in __{vscode}__ renders the roadmap but does not apply the correct theme ("neutral"). Reason is unclear.
+CAUTION: Asciidoc preview in VSCode renders the roadmap but does not apply the correct theme ("neutral"). Reason is unclear.
 
 CAUTION: Asciidoctor can render mermaid with '-r asciidoctor-diagram' when 'mmdc' is installed. But currently it is not possible to install 'mmdc' in the standard asciidoctor docker image (based on alpine)
 

@@ -158,7 +158,7 @@ Tips::
 
 ==== Change Control Board Review
 [horizontal]
-Who:: {ccb}
+Who:: CCB
 Steps::
 . If there are no unresolved comments or threads after two weeks, the CCB ends the review
 . The Merge/Pull Request is assigned to the Service Provider for <<Integration>>
@@ -186,7 +186,7 @@ In the case that questions lead to significant changes to the content, the MR is
 
 === Merge
 [horizontal]
-Who:: {ccb}
+Who:: CCB
 Steps::
 . CCB performs a final review of the integrated content
 * Is the original content still correctly represented?

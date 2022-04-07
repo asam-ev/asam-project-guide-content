@@ -28,7 +28,7 @@ Standard Development Process except:
 
 [horizontal]
 Description:: An implementation project has the purpose to create a supplementary product to a standard that supports the implementation or application of an ASAM standard in the industry.
-Goal:: The result of an implementation project can be a tool or source code, such as checkers for file formats and __{api}__s, add-ons or plug-ins for commonly used __{ide}__s, importers, exporters or reference implementations.
+Goal:: The result of an implementation project can be a tool or source code, such as checkers for file formats and APIs, add-ons or plug-ins for commonly used __{ide}__s, importers, exporters or reference implementations.
 NOTE: Promoting specific commercial tools shall be avoided.
 Repository Suffix:: Implementation
 
@@ -47,7 +47,7 @@ An ASAM product shall cover one of the following use-cases:
 
 Another auxiliary purpose of an implementation project can be to support the standard development by providing feedback from the implementers to the standard developers to improve the quality and maturity of the standard while it is still in development.
 
-For liability reasons, __{asam}__ shall develop and distribute source code only as a result of an implementation project.
+For liability reasons, ASAM shall develop and distribute source code only as a result of an implementation project.
 Members may use the source code to create tools or other executables from the source code.
 
 As an example, implementation projects may include the development of source code for one of the following products.
@@ -55,14 +55,14 @@ This list is not exhaustive and should only serve as a guideline of what might b
 
 * Checker tool for syntax checks of non-schema-based file formats
 * Checker tool for plausibility checks of schema-based file formats
-* Checker tool for __{api}__ checks
+* Checker tool for API checks
 * Add-on or plug-in for de-facto standard IDEs (e.g. MATLAB, Simulink, Eclipse etc.)
 * Importers or parsers
 * Exporters or generators
 * Reference implementations of tools or tool components
 * Behavioral software components
 * Additions to popular open-source projects (e.g. Eclipse, openMDM, Artop, etc.)
-* __{api}__ stubs and skeletons
+* API stubs and skeletons
 
 The deliverable(s) of an implementation project must have product-quality.
 Consequently, ASAM products are professionally developed in accordance to customary quality guidelines of the automotive or IT industries, whichever is applicable.
@@ -77,7 +77,7 @@ Excluded are expenses for meeting participation and travel.
 
 Implementation projects are carried out via the standard development process.
 
-The following process steps are not mandatory and are skipped by default, unless otherwise decided by the __{tsc}__ or the project group:
+The following process steps are not mandatory and are skipped by default, unless otherwise decided by the TSC or the project group:
 
 * P1: Proposal Workshop
 * C: Review Phase
@@ -89,9 +89,9 @@ ASAM products shall not compete with a member company's product business(non-com
 
 Members can object an implementation project proposal and shall provide a justification for their objection.
 
-The __{tsc}__ checks during P5 Project Approval, whether the objection is justified.
+The TSC checks during P5 Project Approval, whether the objection is justified.
 
-In case of a justified objection, the __{tsc}__ shall not approve the proposed project or decide on measures that would remove the member's objection.
+In case of a justified objection, the TSC shall not approve the proposed project or decide on measures that would remove the member's objection.
 
 Non-distributable source code files shall include the following comment text in the file header:
 

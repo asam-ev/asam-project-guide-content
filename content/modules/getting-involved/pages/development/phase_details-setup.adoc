@@ -15,7 +15,7 @@ image::compendium:asam/development_phase-setup.svg[title="The Development phase'
 
 At the beginning of the Development phase, the project team gets together for a <<Kick-off Workshop>>.
 Here, the team decides on key topics of the project and also elects the Project Lead. +
-In parallel to that, the {gtm} sets up the repository and the mailing list for the project.
+In parallel to that, the GTM sets up the repository and the mailing list for the project.
 After the workshop has happened, the repository is updated with the outcomes from it.
 
 If the project has requested budget for one or more Service Providers, a xref:compendium:Terminology/call_for_offers.adoc[call for offer] is issued, potential Service Providers present their offers, and the project decides on whom to contract.
@@ -148,7 +148,7 @@ The following topics need to be updated:
 * Update timeline in README in repository
 * Set up or update CI pipeline, if necessary
 
-After having assigned the correct roles, the Project Lead may delegate specific tasks to the WG Leads and/or the appointed {ccb} members. +
+After having assigned the correct roles, the Project Lead may delegate specific tasks to the WG Leads and/or the appointed CCB members. +
 For more information on this step, see the xref:compendium:Guidelines/workflow-trunk.adoc#_initial_setup[Initial Step] of the Trunk-based workflow in the Compendium.
 
 ---

@@ -17,7 +17,7 @@ This section contains information on documentation related GitLab issues.
 
 === Life-cycles for GitLab issues
 
-This section displays the GitLab issue life-cycles when creating documentation for __{asam}__ and explains labels used in GitLab for specific life-cycles.
+This section displays the GitLab issue life-cycles when creating documentation for ASAM and explains labels used in GitLab for specific life-cycles.
 
 * Every documentation related GitLab issue shall have a `isDocumentationRelated` label.
 * If a GitLab issue is ready for creating content for the documentation, the workgroup members assign the `isReadyForServiceProvider` label to the issue.

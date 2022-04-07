@@ -13,7 +13,7 @@ The cover page uses field functions that can be modified via the document proper
 image::compendium:cover-page-properties.png[]
 
 The official name is used for classification and is also used qualitatively in the portfolio and the Standards Collection (SVN), and on the https://www.asam.net/[ASAM website^].
-The official name typically be-gins with __{asam}__, and the actual name of the standard.
+The official name typically be-gins with ASAM, and the actual name of the standard.
 The standard name matches the subarea used in the logical structure of the SVN and the ASAM website.
 
 The market name can also be added in round parentheses.
@@ -33,7 +33,7 @@ The version always relates to the current document and not to the standard desig
 This means that all the parts of a standard and all associated standards can have their own versions.
 
 The ASAM portfolio lists only the base standards and the associated standards, but not independent parts. +
-Technical specifications in the base standard use the document name "Programmers' Guide", and documents describing an __{api}__ that is available as a model use the document name "Programmers' Reference Guide". +
+Technical specifications in the base standard use the document name "Programmers' Guide", and documents describing an API that is available as a model use the document name "Programmers' Reference Guide". +
 Technology references form parts and are not associated standards, but the portfolio does name them separately as available add-ons.
 
 The footer always contains official name, descriptive title and version.

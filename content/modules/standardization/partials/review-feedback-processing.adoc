@@ -22,7 +22,7 @@ They can implement changes as proposed by the reviewer, or decide for a differen
 
 If a reviewer's feedback is actually out-of-scope, since it contains a request to consider a new use-case, feature or requirement, then the feedback shall be rejected and transferred to the ASAM CR-system with status "new".
 
-__{asam}__ has the obligation to inform reviewers about the status of their review feedback, upon their request.
+ASAM has the obligation to inform reviewers about the status of their review feedback, upon their request.
 
 // end::long[]
 

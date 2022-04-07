@@ -13,7 +13,6 @@ include::ROOT:partial$_attributes.adoc[]
 
 include::partial$module-description.adoc[]
 
-You also find a page on all used xref:2_Abbreviations.adoc[].
 Additionally, you can look for pages on particular topics using the auto-generated xref:1_keywords.adoc[Keywords Overview Page].
 
 ---

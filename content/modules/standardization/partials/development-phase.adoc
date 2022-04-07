@@ -9,7 +9,7 @@
 |Project group
 
 |Involved
-|__{tsc}__, Office
+|TSC, Office
 |===
 // end::table[]
 
@@ -26,7 +26,7 @@ Upon technical release of the new standard, no CR shall be in an unviewed and un
 
 ASAM work groups are given a lot of latitude to organize their work during the Development phase of the project.
 Project groups can determine their own rules, processes and formats how to conduct meetings and how to carry out their work.
-__{asam}__ requires a minimum of rules to be followed:
+ASAM requires a minimum of rules to be followed:
 
 - each project must have an elected Project Leader
 - each meeting is documented via minutes
@@ -61,9 +61,9 @@ They have the following tasks:
 - writes the meeting minutes
 - manage the Service Provider(s)
 - coordinate the standard authors (if there is more than one)
-- represent the group towards the __{tsc}__, Office and ASAM members
+- represent the group towards the TSC, Office and ASAM members
 - is responsible for the work group's progress and the final deliverables to ASAM
-- collect measures regarding project status and report the project status to the __{tsc}__
+- collect measures regarding project status and report the project status to the TSC
 
 The Project Leader can delegate some of the tasks to project members or Service Providers.
 However, they cannot delegate responsibilities.
@@ -106,21 +106,21 @@ They bring the request into the next group meeting.
 New admissions are accepted by absolute majority of the group members.
 Admission of new member companies shall be an exception and shall be handled with more restraint the more the project has advanced.
 
-During the duration of the project, the project's progress is controlled by the __{tsc}__.
+During the duration of the project, the project's progress is controlled by the TSC.
 Project controlling is carried out according to the following process:
 
-. The Project Leader submits a controlling report four weeks prior to the next __{tsc}__ meeting.
-. __{tsc}__ members review the written project report prior to the _{tsc}__ meeting.
-. The __{tsc}_ meeting organizer creates a project list that includes the date of the last report of the project given to the _{tsc}__.
-. The project is put on the __{tsc}__ agenda, if either the Project Leader or a __{tsc}__ member request a live report.
+. The Project Leader submits a controlling report four weeks prior to the next TSC meeting.
+. TSC members review the written project report prior to the TSC meeting.
+. The TSC meeting organizer creates a project list that includes the date of the last report of the project given to the TSC.
+. The project is put on the TSC agenda, if either the Project Leader or a TSC member request a live report.
 
-The __{tsc}__ may draw its conclusions from the report.
-If a project does not work as expected, the __{tsc}__ may decide on corrective actions.
+The TSC may draw its conclusions from the report.
+If a project does not work as expected, the TSC may decide on corrective actions.
 
-The Project Leader can propose to the __{tsc}__ to expel a member from the work group.
+The Project Leader can propose to the TSC to expel a member from the work group.
 One reason for expulsion can be, that a work group member has continually failed to meet his commitments, e.g. to participate at work group meetings.
 The Project Leader shall provide justification and evidence for his proposal.
-The __{tsc}__ then votes on the expulsion of the member.
+The TSC then votes on the expulsion of the member.
 
 
 // end::long[]
@@ -146,6 +146,6 @@ However, if consensus cannot be reached, then decisions are made by an absolute 
 
 
 
-The project's progress is controlled by the __{tsc}__.
-If the project deviates too much from the original project proposal (e.g. increased budget, increased time, addition or cancellation of major features), then an additional __{tsc}__ approval is required.
+The project's progress is controlled by the TSC.
+If the project deviates too much from the original project proposal (e.g. increased budget, increased time, addition or cancellation of major features), then an additional TSC approval is required.
 //end::short[]

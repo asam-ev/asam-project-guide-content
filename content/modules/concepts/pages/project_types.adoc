@@ -5,12 +5,12 @@
 include::partial$_attributes.adoc[]
 
 
-WARNING: This section needs approval by {tsc}.
+WARNING: This section needs approval by TSC.
 
 {project-types-icon}
 
 == Overview
-__{asam}__ developes its products and results in projects.
+ASAM developes its products and results in projects.
 Different result types require different approaches and conditions.
 For this reason, ASAM defines three project types, which further characterize the work to be done within the projects. +
 They are:

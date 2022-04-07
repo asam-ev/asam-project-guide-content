@@ -1,10 +1,4 @@
 
-:gtm-short-name-replacement: {gtm}
-
-ifdef::is_abbreviations[]
-:gtm-short-name-replacement: GTM
-endif::[]
-
 :gtm-description: A {gtm-short-name-replacement} (Global Technology Manager) is an ASAM employee focussed on coordinating project processes and the background work behind a project.
 
 :project-member-description: An xref:role-specific:standard_user.adoc[ASAM User] that is involved directly in the development of an ASAM standard. \

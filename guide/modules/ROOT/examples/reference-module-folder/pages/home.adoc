@@ -4,7 +4,7 @@
 
 include::<module>:partial$_attributes.adoc[]
 include::ROOT:partial$_attributes.adoc[]
-include::{abb}[]
+
 
 
 {<module>-icon}

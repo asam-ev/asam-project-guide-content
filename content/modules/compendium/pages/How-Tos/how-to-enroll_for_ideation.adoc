@@ -49,7 +49,7 @@ You have signed up for updates and events around the idea.
 == How
 
 . Send an email to the address listed on the idea page
-. The ASAM Office ({gtm}) will send you a confirmation
+. The ASAM Office (GTM) will send you a confirmation
 
 Also see https://www.asam.net/active-projects/ideation/how-it-works/[the ASAM website^] for more information.
 //end::body[]

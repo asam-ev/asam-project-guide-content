@@ -46,7 +46,7 @@ h|Required for
 Whether a project idea was just accepted or an improvement or update on an existing standard was proposed, the project enters the Proposal Phase.
 During this phase, a Proposal document is generated, detailing the project's targets, participants, the budget, timeline, and other project-related information.
 The Project Type is also specified during this phase.
-With this document, the ASAM __{tsc}__ decides if the project may continue or not. +
+With this document, the ASAM TSC decides if the project may continue or not. +
 If the go-ahead is given, the project continues on to the <<Development Phase>>.
 
 

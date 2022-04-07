@@ -3,7 +3,7 @@
 :page-partial:
 :compendium:
 
-include::{abb}[]
+
 
 include::compendium:partial$issue_labels.adoc[]
 

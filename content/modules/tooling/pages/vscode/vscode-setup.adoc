@@ -19,9 +19,9 @@ The user has installed Visual Studio Code and configured it with the recommended
 none
 
 == How
-. Download Visual Studio Code (__{vscode}__) {vscode-download}[here]
+. Download Visual Studio Code (VSCode) {vscode-download}[here]
 . Follow the instructions during installation
-. After installation, start __{vscode}__ for further configuration
+. After installation, start VSCode for further configuration
 
 NOTE: For recommended settings and extensions, see the xref:vscode/vscode-guides.adoc#_install_extensions[guides on Visual Studio Code].
 

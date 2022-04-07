@@ -34,7 +34,7 @@ NOTE: Presenters *need not* be project or even ASAM members in case the topic is
 . Prepare the webinar outline
 . __OPTIONAL__: Create a presentation draft
 . __OPTIONAL__: Prepare a list of speakers
-. Propose your webinar to your __{gtm}__ contact for support
+. Propose your webinar to your GTM contact for support
 
 
 NOTE: All optional steps will have to be carried out before the event in any case.

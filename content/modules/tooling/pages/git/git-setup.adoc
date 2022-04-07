@@ -14,14 +14,14 @@ include::partial$_attributes.adoc[]
 
 == Context
 In order to work locally on the repositories and their content hosted at the {gitlab}, users can install and set up Git on their local computer.
-Git can also interface directly with __{vscode}__, making changing and updating files from within one tool an easy option.
+Git can also interface directly with VSCode, making changing and updating files from within one tool an easy option.
 
 == Result
 * Git is installed locally.
 * Git credentials (SSH) is configured
 
 == Prerequisites
-* For direct integration: {vscode} is installed
+* For direct integration: VSCode is installed
 
 == How
 Git requires a multi-step installation.

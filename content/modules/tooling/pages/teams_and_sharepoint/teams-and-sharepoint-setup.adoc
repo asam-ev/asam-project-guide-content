@@ -11,7 +11,7 @@ include::partial$_attributes.adoc[]
 // If you use a recurring image for similar artifacts, declare it as attribute in partials/_attributes.adoc and reference here.
 
 == Context
-MS Teams and sharepoint are used at __{asam}__ to allow for communication (both through text and audio/video) within project teams and exchange files and documents without direct impact on the standardization processes.
+MS Teams and sharepoint are used at ASAM to allow for communication (both through text and audio/video) within project teams and exchange files and documents without direct impact on the standardization processes.
 In order to use these tools, an initial setup is required.
 
 == Result

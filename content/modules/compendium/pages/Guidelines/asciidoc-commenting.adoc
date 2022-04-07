@@ -8,14 +8,14 @@ include::compendium:partial$_attributes.adoc[]
 {asciidoc-icon}
 //tag::body[]
 Once a document is written by the group/Service Provider, we want to review and comment on the document.
-Unfortunatelly, there is no native built-in comment feature in GitLab and/or __{vscode}__.
+Unfortunatelly, there is no native built-in comment feature in GitLab and/or VSCode.
 Also everyone / every  workgroup is working on their own branch.
 Those branches should be create by using the issues in GitLab.
 
 Once we have this branch, we can get started working on the content, during our work/review/... we recognize things we want to change, discuss, review, etc.
 There are now to possibilities how to handle his process, either use the comment feature in the issues and describe where and what you want to annotate.
 
-Another and quicker way to comment directly in the document can be used when installing the __{vscode}__ Extension "Comment Anchor".
+Another and quicker way to comment directly in the document can be used when installing the VSCode Extension "Comment Anchor".
 
 image::compendium:comment_anchor.jpg[comment_anchor, 1100]
 
@@ -29,7 +29,7 @@ There are several possiblities of comment types.
 . FIXME: you found a mistake in a document
 . STUB: t.b.d
 
-The list above looks like this in the __{vscode}__ Editor:
+The list above looks like this in the VSCode Editor:
 
 image::compendium:sim_anchors.png[sim_anchors, 800]
 
@@ -55,7 +55,7 @@ For detailed comments that relate to a section/image/chapter of your document us
 image::compendium:adoc_comment_workflow.png[workflow, 1100]
 
 Now we have all those anchors in our document, how to find them again?
-To solve this issue, you can open the "Comment Anchor" Menu via the __{vscode}__ sidebar (marked as `1`).
+To solve this issue, you can open the "Comment Anchor" Menu via the VSCode sidebar (marked as `1`).
 Now, the below window opens and we have two seperate possiblities to check our comments.
 First, we have an overview about the comments in the acitve file (marked as `2`) and we can scan the whole workspace for comments and get that overview (marked as `3`)
 

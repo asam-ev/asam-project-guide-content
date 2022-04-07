@@ -1,6 +1,6 @@
 
 //tag::summary[]
-Within projects at __{asam}__, participant have one or more roles.
+Within projects at ASAM, participant have one or more roles.
 Each of these roles has their own set of requirements, mandatory and/or optional tool, guidelines and how-tos, some of them shared between multiple roles.
 //end::summary[]
 
@@ -76,7 +76,7 @@ a| * xref:getting-involved:proposal_phase.adoc#_process_overview[Proposal phase]
 |
 | {standard-manager-description}
 
-// | __{tsc}__
+// | TSC
 | {role-tsc-member}
 | {role-member}
 a| * xref:getting-involved:proposal_phase.adoc#_process_overview[Proposal phase]

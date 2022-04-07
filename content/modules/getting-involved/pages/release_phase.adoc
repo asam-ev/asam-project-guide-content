@@ -29,7 +29,7 @@ TODO
 
 
 == Process Overview
-The purpose of the Release phase is to obtain a release decision at __{asam}__ and to publish the new standard.
+The purpose of the Release phase is to obtain a release decision at ASAM and to publish the new standard.
 
 image::asam-development-process-Release.svg[title="The Release Phase (simplified)",opts=interactive]
 
@@ -51,7 +51,7 @@ The Release phase consists of the following steps, which are explained in detail
 [cols="1h,20"]
 |===
 |Purpose
-|To decide upon technical readiness of the standard and submit the deliverables to the __{tsc}__.
+|To decide upon technical readiness of the standard and submit the deliverables to the TSC.
 
 |Responsible
 |{role-project-lead},

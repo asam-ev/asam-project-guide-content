@@ -14,7 +14,7 @@
 |===
 // end::table[]
 
-Submitted project proposals are put on the agenda of the next available __{tsc}__ meeting.
+Submitted project proposals are put on the agenda of the next available TSC meeting.
 Proposals are handled during the meeting via a three-step process:
 
 . Submitter presents the proposal to the TSC members.
@@ -33,13 +33,13 @@ The TSC might assign a mentor for each new standard or major version development
 The mentor shall be a member of the TSC.
 
 The voting is carried out in accordance with the TSC voting rules.
-The Board Representative for the __{tsc}_ has to confirm the _{tsc}__ decision.
+The Board Representative for the TSC has to confirm the TSC decision.
 The proposed project becomes effective with the given approval of both parties.
 The approved project proposals are regarded as the work order for the new project group.
 // end::long[]
 
 //tag::short[]
-The proposal is reviewed by the __{tsc}__ (Technical Steering Committee).
+The proposal is reviewed by the TSC (Technical Steering Committee).
 The proposal author presents his proposal to the members of the TSC and answers their questions.
 The TSC members then vote on whether or not to accept the proposal.
 //end::short[]

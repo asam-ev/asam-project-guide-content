@@ -21,7 +21,7 @@ The purpose of the proposal phase is to transfer xref:ideation_phase.adoc[ideas 
 In this phase, the idea is further analyzed, central requirements are formulated, the expected effort quantified, and the timeline defined.
 In addition to that, interested parties can sign up during this phase for project participation. +
 The proposal is released to attract more attention as well as for transparency.
-It is then submitted and presented to the {tsc} for approval.
+It is then submitted and presented to the TSC for approval.
 If the approval is not given, the proposal can be improved and updated before presenting it again, or the project is dropped by the Idea Giver. +
 If the Project Proposal is approved, it transitions to the xref:development_phase.adoc[Standard Development phase].
 

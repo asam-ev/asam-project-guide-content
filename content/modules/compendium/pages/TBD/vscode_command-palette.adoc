@@ -9,8 +9,8 @@ It also helps when looking for an option to change as it contains a search funct
 
 * `Ctrl`+`Shift`+`P` brings up the Command Palette.
 
-From here, you have access to all of the functionality of __{vscode}__, including keyboard shortcuts for the most common operations.
+From here, you have access to all of the functionality of VSCode, including keyboard shortcuts for the most common operations.
 
 image::compendium:vscode_command-palette.png[]
 
-NOTE: Many tutorials in this guide for __{vscode}__ make use of the Command Palette.
+NOTE: Many tutorials in this guide for VSCode make use of the Command Palette.
