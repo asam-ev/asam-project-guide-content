@@ -1,4 +1,4 @@
-= How-To: Project Proposal Setup
+= How-To: Setup Project Proposal Repository
 :description: Describes how to set up a new project proposal.
 :keywords: proposal, setup
 
@@ -48,6 +48,7 @@ A new Proposal repository has been created and the link been provided to all cur
 . In case of a new standard, https://docs.gitlab.com/ee/user/group/subgroups/#creating-a-subgroup[create a new subgroup^] in the group https://code.asam.net/simulation[**Simulation**^] with the target name of the standard (e.g. "OpenDRIVE").
 +
 NOTE: If this is an evolution of an existing standard, use the existing subgroup instead
++
 .. xref:compendium:How-Tos/how-to-forking_repo.adoc[Fork] the latest version of the https://code.asam.net/common/templates/proposal-template[**proposal template repository**^].
 * The structure of the repository is explained in the included README
 .. Rename the forked project to `<THIS_STANDARD> Proposal`, where `<THIS_STANDARD>` is the target name of the standard.
