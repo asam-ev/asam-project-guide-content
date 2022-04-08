@@ -4,6 +4,7 @@
 :library-repo: https://code.asam.net/common/asam-graphic-library/
 
 include::partial$_attributes.adoc[]
+include::tooling:partial$_attributes.adoc[]
 
 
 {drawio-icon-page}
@@ -19,7 +20,7 @@ To be able to access the {library-repo}[ASAM asset library], follow the instruct
 The user can access Draw.io with the ASAM asset library connected to create and edit diagrams.
 
 == Prerequisites
-* Local Setup (VSCode): xref:vscode.adoc[] is installed
+* Local Setup (VSCode): xref:compendium:Tools/vscode.adoc[] is installed
 
 == How
 Draw.io can be used either locally (through the dedicated app <<Draw.io App (Desktop),Draw.io Deskop>> or through the <<VSCode Extension,VS Code Extension>>) or with the <<Remote Setup, web app>>.

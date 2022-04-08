@@ -7,6 +7,7 @@
 
 
 include::partial$_attributes.adoc[]
+include::tooling:partial$_attributes.adoc[]
 
 
 {mandatory}
@@ -43,10 +44,10 @@ IMPORTANT: Project files such as chapters, specifications, or images intended fo
 [cols="^1h,4",frame=none, grid=rows, stripes=hover]
 |===
 
-|xref:teams_and_sharepoint/teams-and-sharepoint-setup.adoc[image:{setup-image}[width=120,title="Teams And Sharepoint Setup"]]
+|xref:compendium:Tools/teams_and_sharepoint/teams-and-sharepoint-setup.adoc[image:{setup-image}[width=120,title="Teams And Sharepoint Setup"]]
 |Teams And Sharepoint Setup
 
-|xref:teams_and_sharepoint/teams-and-sharepoint-guides.adoc[image:{guide-image}[width=120,title="Teams And Sharepoint Guides"]]
+|xref:compendium:Tools/teams_and_sharepoint/teams-and-sharepoint-guides.adoc[image:{guide-image}[width=120,title="Teams And Sharepoint Guides"]]
 |Teams And Sharepoint Guides
 
 |===

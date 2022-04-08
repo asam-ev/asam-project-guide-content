@@ -95,7 +95,7 @@ The list below contains the requirements ASAM places on graphic assets.
 //tag::tools[]
 == Tools
 
-ASAM supports the creation of images with xref:tooling:drawio.adoc[Draw.io].
+ASAM supports the creation of images with xref:compendium:Tools/drawio.adoc[Draw.io].
 Users can choose to use other tools instead.
 The rules described here, however, apply to any image that is to be used in an ASAM document, independent of the tool used to create it.
 //end::tools[]

@@ -85,7 +85,7 @@ These repositories also contain some files with information about the history an
 The repository information is updated and used by Git and usually needs not to be changed by users manually.
 
 TIP: If you want to learn more about Git itself, ASAM recommends online introductions and tutorials such as https://rogerdudler.github.io/git-guide/[**this one**^].
-Additionally, you can find more information on using Git and working with repositories at ASAM in the xref:tooling:git.adoc[tooling section].
+Additionally, you can find more information on using Git and working with repositories at ASAM in the xref:compendium:Tools/git.adoc[tooling section].
 
 
 [#sec-online-collaboration]

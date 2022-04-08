@@ -24,7 +24,7 @@ It is intended for meetings during the xref:getting-involved:development_phase.a
 * For full project meetings, send the invite to the project's mailing list
 * For all meeting types, add the following as CC (if not invited directly):
 ** The Project Lead and the GTM.
-** The mailto:openx@asam.net[OpenX Calendar] (see xref:tooling:calendar.adoc[shared OpenX Calendar]).
+** The mailto:openx@asam.net[OpenX Calendar] (see xref:compendium:Tools/calendar.adoc[shared OpenX Calendar]).
 ** The Teams channel email; this will post the meeting in the channel for all to see. +
 See xref:compendium:How-Tos/how-to-obtain_channel_email.adoc[].
 

@@ -3,6 +3,7 @@
 :keywords: docker,summary,tool,recommended,TODO
 
 include::partial$_attributes.adoc[]
+include::tooling:partial$_attributes.adoc[]
 
 
 {recommended}
@@ -30,7 +31,7 @@ For Asciidoc, docker can be used to run a pre-configured asciidoctor setup for c
 This removes the need to upload adoc files and use the build pipeline for every change you want to see.
 It also means you do not have to install and configure Asciidoctor first since this is already done in the pre-configured Docker image.
 
-If you do not have Docker installed, check out the xref:tooling:docker.adoc[] before continuing.
+If you do not have Docker installed, check out the xref:compendium:Tools/docker.adoc[] before continuing.
 
 If your project is currently missing the docker-compose.yml, see these xref:compendium:How-Tos/how-to-setup_standard_docker_config.adoc[] on how to set it up.
 
@@ -45,13 +46,13 @@ For information on what YAML/yml means, see https://de.wikipedia.org/wiki/YAML[Y
 [cols="^1h,4",frame=none, grid=rows, stripes=hover]
 |===
 
-|xref:docker/docker-setup.adoc[image:{setup-image}[width=120,title="Docker Setup"]]
+|xref:compendium:Tools/docker/docker-setup.adoc[image:{setup-image}[width=120,title="Docker Setup"]]
 |Docker Setup
 
-|xref:docker/docker-guides.adoc[image:{guide-image}[width=120,title="Docker Guides"]]
+|xref:compendium:Tools/docker/docker-guides.adoc[image:{guide-image}[width=120,title="Docker Guides"]]
 |Docker Guides
 
-|xref:docker/docker-best-practices.adoc[image:{best-practices-image}[width=120,title="Docker Best Practices"]]
+|xref:compendium:Tools/docker/docker-best-practices.adoc[image:{best-practices-image}[width=120,title="Docker Best Practices"]]
 |Docker Best Practices
 
 |===

@@ -1,5 +1,5 @@
 
-:gtm-description: A {gtm-short-name-replacement} (Global Technology Manager) is an ASAM employee focussed on coordinating project processes and the background work behind a project.
+:gtm-description: A GTM (Global Technology Manager) is an ASAM employee focussed on coordinating project processes and the background work behind a project.
 
 :project-member-description: An xref:role-specific:standard_user.adoc[ASAM User] that is involved directly in the development of an ASAM standard. \
 Every project needs project members from at least three (3) different companies. \

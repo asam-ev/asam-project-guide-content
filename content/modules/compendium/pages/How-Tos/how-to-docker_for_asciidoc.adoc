@@ -17,7 +17,7 @@ The xref:{vscode-extensions}#_asciidoc[VSCode extension for Asciidoc] provides a
 However, some styling and content will not look exactly as in the final result.
 If the layout and final look is important, you should create the HTMl output from the adoc files by using the asciidoctor docker container (configured in the xref:compendium:How-Tos/how-to-setup_standard_docker_config.adoc[standard docker-compose.yml]).
 
-For information on how to execute docker-compose, see the xref:tooling:docker.adoc[].
+For information on how to execute docker-compose, see the xref:compendium:Tools/docker.adoc[].
 
 IMPORTANT: Make sure to execute the asciidoctor service in the container as it may contain more than one service.
 

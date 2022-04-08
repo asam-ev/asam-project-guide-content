@@ -4,6 +4,7 @@
 :offset-value: leveloffset=+1
 
 include::partial$_attributes.adoc[]
+include::tooling:partial$_attributes.adoc[]
 
 
 {docker-icon-page}

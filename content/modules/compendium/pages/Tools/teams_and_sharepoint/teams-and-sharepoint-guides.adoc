@@ -4,6 +4,7 @@
 :offset_value: leveloffset=+2
 
 include::partial$_attributes.adoc[]
+include::tooling:partial$_attributes.adoc[]
 
 
 {sharepoint-icon-page}

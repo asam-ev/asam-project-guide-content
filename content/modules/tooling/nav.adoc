@@ -4,35 +4,3 @@ include::../ROOT/partials/_attributes.adoc[]
 ** xref:remote_repo.adoc[]
 *** xref:remote_repo/remote_repo_setup.adoc[]
 *** xref:remote_repo/remote_repo_guides.adoc[]
-** xref:calendar.adoc[]
-*** xref:calendar/calendar-setup.adoc[]
-*** xref:calendar/calendar-best-practices.adoc[]
-** xref:teams-and-sharepoint.adoc[]
-*** xref:teams_and_sharepoint/teams-and-sharepoint-setup.adoc[]
-*** xref:teams_and_sharepoint/teams-and-sharepoint-guides.adoc[]
-// ** xref:filestage.adoc[]
-// *** xref:filestage/filestage_guides.adoc[]
-** xref:recommended_tools.adoc[]
-** xref:vscode.adoc[]
-*** xref:vscode/vscode-setup.adoc[]
-*** xref:vscode/vscode-guides.adoc[]
-** xref:git.adoc[]
-*** xref:git/git-setup.adoc[]
-*** xref:git/git-guides.adoc[]
-*** xref:git/git_best_practices.adoc[]
-** xref:drawio.adoc[]
-*** xref:drawio/drawio-setup.adoc[]
-*** xref:drawio/drawio-guides.adoc[]
-** xref:docker.adoc[]
-*** xref:docker/docker-setup.adoc[]
-*** xref:docker/docker-guides.adoc[]
-*** xref:docker/docker-best-practices.adoc[]
-// ** Powershell
-// *** Guides
-
-
-// ** Toolname
-// *** Setup
-// *** Guides
-// *** Troubleshooting
-// *** Best Practices

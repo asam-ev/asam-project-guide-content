@@ -7,7 +7,7 @@ include::compendium:partial$_attributes.adoc[]
 
 {asciidoc-icon}
 //tag::body[]
-:drawio: xref:tooling:drawio.adoc[]
+:drawio: xref:compendium:Tools/drawio.adoc[]
 For most cases, {drawio} shall be used.
 It's a possibility to generate graphics with a powerful tool that can be included directly, without a intermediate image format.
 See <<top-drawio>> for usage.

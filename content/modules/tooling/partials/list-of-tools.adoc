@@ -25,21 +25,21 @@ Issues relevant to deliverables should be created here.
 |ASAM IT infrastructure
 
 |{git-icon-norole} +
-xref:tooling:git.adoc[]
+xref:compendium:Tools/git.adoc[]
 |The version control system ASAM uses. +
 |{recommended}
 |Local / web browser (remote)
 
 
 |{vscode-icon-norole} +
-xref:tooling:vscode.adoc[]
+xref:compendium:Tools/vscode.adoc[]
 |An all-in-one open-source text editor that makes life a lot easier.
 |{recommended}
 |Local
 
 
 |{drawio-icon-norole} +
-xref:tooling:drawio.adoc[]
+xref:compendium:Tools/drawio.adoc[]
 |An editor for diagrams.
 Can be downloaded or access through the browser.
 Also has a (limited) VS Code extension.
@@ -47,7 +47,7 @@ Also has a (limited) VS Code extension.
 |Local / https://app.diagrams.net/?splash=0&clibs=Uhttps%3A%2F%2Fcode.asam.net%2Fcommon%2Fasam-graphic-library%2F-%2Fraw%2Fmaster%2FASAM_graphics_library.xml[Web^]
 
 |{docker-icon-norole} +
-xref:tooling:docker.adoc[]
+xref:compendium:Tools/docker.adoc[]
 |(For local rendering of AsciiDoc) +
 A tool for hosting containers.
 |{optional}
@@ -64,20 +64,20 @@ Communication::
 h|Name|Description|Usage|Location
 
 |{calendar-icon-norole} +
-xref:tooling:calendar.adoc[]
+xref:compendium:Tools/calendar.adoc[]
 |Shared calendar for all OpenX projects.
 |{mandatory}
 |ASAM IT infrastructure
 
 
 |{teams-icon-norole} +
-xref:tooling:teams-and-sharepoint.adoc[]
+xref:compendium:Tools/teams-and-sharepoint.adoc[]
 |Chat, conferencing, document folder for sharing documents (e.g. research papers, notes, videos, anything that does not need to be versioned).
 |{mandatory}
 |ASAM IT infrastructure
 
 |{sharepoint-icon-norole} +
-xref:tooling:teams-and-sharepoint.adoc[]
+xref:compendium:Tools/teams-and-sharepoint.adoc[]
 |Sharepoint is a Microsoft service that is used in the background by Teams to manage files.
 It can be accessed directly or through Teams, which is why all files that have been added either way can be retrieved through both tools.
 |{mandatory}
@@ -113,23 +113,23 @@ Issues relevant to deliverables should be created here.
 |ASAM IT infrastructure
 
 |{calendar-icon-norole} +
-xref:tooling:calendar.adoc[]
+xref:compendium:Tools/calendar.adoc[]
 |Shared calendar for all OpenX projects.
 |ASAM IT infrastructure
 
 |{teams-icon-norole} +
-xref:tooling:teams-and-sharepoint.adoc[]
+xref:compendium:Tools/teams-and-sharepoint.adoc[]
 |Chat, conferencing, document folder for sharing documents (e.g. research papers, notes, videos, anything that does not need to be versioned).
 |ASAM IT infrastructure
 
 |{sharepoint-icon-norole} +
-xref:tooling:teams-and-sharepoint.adoc[]
+xref:compendium:Tools/teams-and-sharepoint.adoc[]
 |Sharepoint is a Microsoft service that is used in the background by Teams to manage files.
 It can be accessed directly or through Teams, which is why all files that have been added either way can be retrieved through both tools.
 |ASAM IT infrastructure
 
 // |{filestage-icon-norole} +
-// xref:tooling:filestage.adoc[]
+// xref:compendium:Tools/filestage.adoc[]
 // |Webhosted tool for reviewing content and leaving comments on screenshots.
 // |ASAM IT infrastructure
 
@@ -152,26 +152,26 @@ include::tooling:partial$icon_reminder.adoc[tag=info-page]
 h|Name|Description|Location
 
 |{git-icon-norole} +
-xref:tooling:git.adoc[]
+xref:compendium:Tools/git.adoc[]
 |The version control system ASAM uses. +
 |Local / web browser (remote)
 
 
 |{vscode-icon-norole} +
-xref:tooling:vscode.adoc[]
+xref:compendium:Tools/vscode.adoc[]
 |An all-in-one open-source text editor that makes life a lot easier.
 |Local
 
 
 |{drawio-icon-norole} +
-xref:tooling:drawio.adoc[]
+xref:compendium:Tools/drawio.adoc[]
 |An editor for diagrams.
 Can be downloaded or access through the browser.
 Also has a (limited) VS Code extension.
 |Local / https://app.diagrams.net/?splash=0&clibs=Uhttps%3A%2F%2Fcode.asam.net%2Fcommon%2Fasam-graphic-library%2F-%2Fraw%2Fmaster%2FASAM_graphics_library.xml[Web^]
 
 |{docker-icon-norole} +
-xref:tooling:docker.adoc[]
+xref:compendium:Tools/docker.adoc[]
 |(For local rendering of AsciiDoc) +
 A tool for hosting containers.
 |Local

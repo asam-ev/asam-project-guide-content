@@ -35,7 +35,7 @@ Once you create a merge request, your remote repository will tell you if there a
 It leads you through the conflicting parts and lets you choose if your new or the old content is to be merged.
 
 Another option is to merge locally.
-You can use xref:tooling:git.adoc[] or xref:tooling:vscode.adoc[] for this.
+You can use xref:compendium:Tools/git.adoc[] or xref:compendium:Tools/vscode.adoc[] for this.
 These tools also provide options to view conflicting changes and help you resolve them.
 
 After you have removed the conflicts, you can create a new commit to your branch that includes the fixes to resolve the conflict in the Merge/Pull Request.

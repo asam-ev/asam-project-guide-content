@@ -17,7 +17,7 @@ For Asciidoc, docker can be used to run a pre-configured asciidoctor setup for c
 This removes the need to upload adoc files and use the build pipeline for every change you want to see.
 It also means you do not have to install and configure Asciidoctor first since this is already done in the pre-configured Docker image.
 
-If you do not have Docker installed, check out the xref:tooling:docker.adoc[] before continuing.
+If you do not have Docker installed, check out the xref:compendium:Tools/docker.adoc[] before continuing.
 
 If your project is currently missing the docker-compose.yml, see these xref:compendium:How-Tos/how-to-setup_standard_docker_config.adoc[] on how to set it up.
 

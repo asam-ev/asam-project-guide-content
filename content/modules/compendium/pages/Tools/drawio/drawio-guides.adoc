@@ -3,6 +3,7 @@
 :keywords: drawio, guides,READYFORREVIEW
 
 include::partial$_attributes.adoc[]
+include::tooling:partial$_attributes.adoc[]
 
 
 {drawio-icon-page}
@@ -19,7 +20,7 @@ include::compendium:page$Guidelines/asciidoc-graphics.adoc[tag=drawio]
 
 
 == Accessing The ASAM Library
-This is described in the xref:drawio/drawio-setup.adoc[]. +
+This is described in the xref:compendium:Tools/drawio/drawio-setup.adoc[]. +
 To use assets from the library, drag and drop the required asset from the library on the left into your
 
 

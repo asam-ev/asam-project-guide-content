@@ -3,6 +3,7 @@
 :keywords: drawio,summary,tool,recommended,READYFORREVIEW
 
 include::partial$_attributes.adoc[]
+include::tooling:partial$_attributes.adoc[]
 
 
 {recommended}
@@ -29,10 +30,10 @@ ASAM uses Draw.io for creating custom diagrams for standards and documentation.
 [cols="^1h,4",frame=none, grid=rows, stripes=hover]
 |===
 
-|xref:drawio/drawio-setup.adoc[image:{setup-image}[width=120,title="Draw.io Setup"]]
+|xref:compendium:Tools/drawio/drawio-setup.adoc[image:{setup-image}[width=120,title="Draw.io Setup"]]
 |Draw.io Setup
 
-|xref:drawio/drawio-guides.adoc[image:{guide-image}[width=120,title="Draw.io Guides"]]
+|xref:compendium:Tools/drawio/drawio-guides.adoc[image:{guide-image}[width=120,title="Draw.io Guides"]]
 |Draw.io Guides
 
 |===

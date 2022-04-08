@@ -113,7 +113,7 @@ See xref:development/project_setup.adoc[].
 
 |===
 
-The GTM takes the list of enrolled members, creates a new xref:tooling:teams-and-sharepoint.adoc[MS Teams] channel for the project (if it does not exist yet), creates a related Sharepoint folder, and adds all participants to that channel and folder. +
+The GTM takes the list of enrolled members, creates a new xref:compendium:Tools/teams-and-sharepoint.adoc[MS Teams] channel for the project (if it does not exist yet), creates a related Sharepoint folder, and adds all participants to that channel and folder. +
 The channel can then also be used as a mailing list.
 
 ---

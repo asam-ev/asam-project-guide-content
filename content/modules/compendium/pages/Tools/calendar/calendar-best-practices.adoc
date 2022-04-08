@@ -4,6 +4,7 @@
 :page-partial:
 
 include::partial$_attributes.adoc[]
+include::tooling:partial$_attributes.adoc[]
 
 
 {calendar-icon-page}

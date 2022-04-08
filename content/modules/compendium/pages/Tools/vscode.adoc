@@ -4,6 +4,7 @@
 :gitlab: xref:remote_repo.adoc[]
 
 include::partial$_attributes.adoc[]
+include::tooling:partial$_attributes.adoc[]
 
 
 {recommended}
@@ -33,10 +34,10 @@ ASAM recommends using Visual Studio Code (VSCode) for local text document intera
 [cols="^1h,4",frame=none, grid=rows, stripes=hover]
 |===
 
-|xref:vscode/vscode-setup.adoc[image:{setup-image}[width=120,title="GitLab Setup"]]
+|xref:compendium:Tools/vscode/vscode-setup.adoc[image:{setup-image}[width=120,title="GitLab Setup"]]
 |Visual Studio Code Setup
 
-|xref:vscode/vscode-guides.adoc[image:{guide-image}[width=120,title="GitLab Guides"]]
+|xref:compendium:Tools/vscode/vscode-guides.adoc[image:{guide-image}[width=120,title="GitLab Guides"]]
 |Visual Studio Code Guides
 
 |===

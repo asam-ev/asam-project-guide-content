@@ -1,11 +1,12 @@
 = Setting Up Git
 :description: Contains a summary of how to set up git locally.
 :keywords: setup, git, task, fragment, git-setup,READYFORREVIEW
-:vscode: xref:vscode.adoc[]
+:vscode: xref:compendium:Tools/vscode.adoc[]
 :gitlab: ASAM {gitlab-url}[GitLab^]
 
 include::compendium:partial$_attributes.adoc[]
 include::partial$_attributes.adoc[]
+include::tooling:partial$_attributes.adoc[]
 
 
 

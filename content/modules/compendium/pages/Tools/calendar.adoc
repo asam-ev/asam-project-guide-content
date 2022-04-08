@@ -3,6 +3,7 @@
 :keywords: openx-calendar,summary,tool,mandatory,READYFORREVIEW
 
 include::partial$_attributes.adoc[]
+include::tooling:partial$_attributes.adoc[]
 
 
 {mandatory}
@@ -22,10 +23,10 @@ IMPORTANT: It is **mandatory** for all OpenX projects to invite the OpenX calend
 [cols="^1h,4",frame=none, grid=rows, stripes=hover]
 |===
 
-|xref:calendar/calendar-setup.adoc[image:{setup-image}[width=120,title="OpenX Calendar Setup"]]
+|xref:compendium:Tools/calendar/calendar-setup.adoc[image:{setup-image}[width=120,title="OpenX Calendar Setup"]]
 |OpenX Calendar Setup
 
-|xref:calendar/calendar-best-practices.adoc[image:{best-practices-image}[width=120,title="OpenX Calendar Best Practices"]]
+|xref:compendium:Tools/calendar/calendar-best-practices.adoc[image:{best-practices-image}[width=120,title="OpenX Calendar Best Practices"]]
 |OpenX Calendar Best Practices
 
 
