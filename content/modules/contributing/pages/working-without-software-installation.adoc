@@ -9,7 +9,7 @@ include::partial$_attributes.adoc[]
 
 == Overview
 
-{remote-xref}[Remote Repositories] provide an integrated working environment and text editor with which users can directly create and edit files without having to install xref:git.adoc[] or an editor like xref:vscode.adoc[]. +
+{remote-xref}[Remote Repositories] provide an integrated working environment and text editor with which users can directly create and edit files without having to install xref:compendium:Tools/git.adoc[] or an editor like xref:compendium:Tools/vscode.adoc[]. +
 The choice of remote repository depends on the project.
 ASAM recommends looking up specific questions on these platforms and their features in general on their respective online documentation.
 Topics related to ASAM rules in projects (e.g. for using issue templates) can be found in the {remote-xref}[Remote Repositories Info Page].
