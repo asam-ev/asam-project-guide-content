@@ -13,18 +13,6 @@ Each step is explained shortly under <<Proposal Phase Steps>>.
 image::compendium:asam/proposal_phase_v2-proposal_phase.svg[title="The Proposal phase in detail, using the xref:concepts:diagram_notations.adoc[ASAM Project Phase Notation]"]
 
 
-== Proposal Phase Timeline
-The typical proposal phase timeline consists of
-
-* 8-12 weeks for creating the draft
-* 1 day of Proposal Workshop (announced 4-6 weeks ahead of time)
-* 1-4 weeks of finalizing the draft and enrollment
-* proposal publication
-* proposal review, presentation, and project decision
-
-image::compendium:asam/proposal_phase_timeline.drawio.svg[title=Typical Proposal phase timeline]
-
-
 == Proposal Phase Steps
 The Proposal phase consists of the following steps, which are explained in detail in their own sections:
 
