@@ -9,6 +9,8 @@ include::compendium:partial$_attributes.adoc[]
 {role-wg-member}
 
 
+IMPORTANT: This has to be unified with the existing workflow/issue definitions
+
 == GitLab issues
 
 In ASAM projects, GitLab is used to manage the standard development processes.
@@ -42,6 +44,9 @@ Objections are communicated by the workgroup members and added as comments to th
 |needsClarification        |Assign the `needsClarification` label to a GitLab issue if a technical writer needs more information regarding an issue.             |
 |needsReview               |Assign the `needsReview` label to a GitLab issue when a technical writer finished working on an issue.                               |
 |===
+
+
+// Move this part to the editing part
 
 == Editorial rules
 

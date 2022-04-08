@@ -57,3 +57,5 @@ NOTE: If this is an evolution of an existing standard, use the existing subgroup
 . Send a mail with the link to the new project to the proposal members, informing them that the repository is now ready for use.
 
 //end::body[]
+
+// For the future: https://code.asam.net/internal/proposal-generator
