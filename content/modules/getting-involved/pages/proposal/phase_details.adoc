@@ -18,10 +18,9 @@ The Proposal phase consists of the following steps, which are explained in detai
 
 * <<Repository Setup>>
 * <<Draft Creation>>
-* <<Enrollment Process>>
 * <<Proposal Workshop Preparation>>
 * <<Proposal Workshop>>
-* <<Electing A Submitter>>
+* <<Enrollment Process>>
 * <<Finalizing The Proposal>>
 * <<Submission>>
 * <<Publication>>
@@ -67,29 +66,6 @@ See xref:proposal/setup.adoc[].
 Before the proposal is first presented to interested parties in the Proposal Workshop, an initial draft must be created that can be discussed properly.
 
 See xref:proposal/proposal_writing.adoc[].
-
----
-
-=== Enrollment Process
-[cols="3,1,10"]
-|===
-.3+|image:compendium:asam/proposal_phase_v2-enrollment.svg[]
->h|Purpose
-|To enroll participants in the planned project.
-
->h|Responsible
-|{role-member}
-
->h|Involved
-|{role-gtm}
-|===
-
-Interested parties can start to xref:compendium:How-Tos/how-to-enroll_for_development.adoc[enroll] for the proposed project in parallel to the other Proposal Phase activities. +
-See xref:signing_up.adoc[] for available options during this process and more detail information on it. +
-Additionally, you can xref:proposal/submit_candidacy.adoc[apply for the role of Project Lead].
-
-For more information on the enrollment list, see xref:compendium:How-Tos/how-to-enrollment_list.adoc[] in the Compendium. +
-For more information on how to enroll for the Development phase, see xref:compendium:How-Tos/how-to-enroll_for_development.adoc[] in the Compendium.
 
 ---
 
@@ -154,24 +130,26 @@ During the Workshop, the xref:proposal/need_for_service_providers.adoc[need for 
 
 ---
 
-=== Electing A Submitter
+=== Enrollment Process
 [cols="3,1,10"]
 |===
-.3+|image:compendium:asam/proposal_phase_v2-submitter_election.svg[]
+.3+|image:compendium:asam/proposal_phase_v2-enrollment.svg[]
 >h|Purpose
-|To (s)elect a Proposal Submitter.
+|To enroll participants in the planned project.
 
 >h|Responsible
-|{role-idea-giver}, {role-wg-member} -> {role-proposal-submitter}
+|{role-member}
 
 >h|Involved
 |{role-gtm}
 |===
 
-The project participants elect one of their midst to be responsible for submitting and presenting the Proposal to the TSC.
-If the group cannot decide, the GTM will select one participant to take over that role.
+Interested parties can start to xref:compendium:How-Tos/how-to-enroll_for_development.adoc[enroll] for the proposed project in parallel to the other Proposal Phase activities. +
+See xref:signing_up.adoc[] for available options during this process and more detail information on it. +
+Additionally, you can xref:proposal/submit_candidacy.adoc[apply for the role of Project Lead].
 
-The election of the submitter may happen during the Proposal Workshop.
+For more information on the enrollment list, see xref:compendium:How-Tos/how-to-enrollment_list.adoc[] in the Compendium. +
+For more information on how to enroll for the Development phase, see xref:compendium:How-Tos/how-to-enroll_for_development.adoc[] in the Compendium.
 
 ---
 

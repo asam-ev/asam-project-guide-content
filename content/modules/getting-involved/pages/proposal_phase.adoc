@@ -36,14 +36,14 @@ Submittal must occur at least two (2) weeks prior to the TSC meeting. +
 If the Project Proposal is approved, the project transitions to the xref:development_phase.adoc[Standard Development phase].
 Otherwise, the TSC outlines the aspects that need to be revised prior to another submission.
 
-The typical proposal phase timeline consists of
+The typical Proposal Phase timeline consists of
 
 * creating the draft
 * announcing the Proposal Workshop 4-6 weeks ahead of time
 * 1 day of Proposal Workshop
 * 6 weeks of finalizing the draft and enrollment
 * proposal publication and submission to TSC
-* 4 weeks of review by TSC
+* at least 2 weeks of review by TSC
 * proposal presentation by Proposal Submitter and project decision by TSC
 
 
