@@ -1,4 +1,4 @@
-= Tools Overview
+= Start Contributing
 :description: Gives an overview over the mandatory and recommended tools most commonly used in ASAM projects.
 :keywords: overview,tools,landing_page,tools-overview,READYFORREVIEW
 :no-installation: xref:working-without-software-installation.adoc[]
@@ -15,16 +15,12 @@ include::partial$module-description.adoc[]
 
 ---
 
-TIP: Most roles can contribute by **{no-installation}**.
+IMPORTANT: Most roles can contribute by **{no-installation}**.
 
-Tools in the Project Guide are separated into mandatory infrastructure and recommended tools. +
-**Mandatory infrastructure** contains everything that is mandatory for every project.
-These platforms and tools are often hosted by ASAM and always accessible online.
-Find out more about it in xref:working-without-software-installation.adoc[]. +
-<<Recommended Tools, **Recommended tools**>> are tools that in provide additional features beyond their online equivalent and can be beneficial for certain users.
-ASAM provides helpful guides and tips here.
+Contributing at ASAM is easy: you only need a web browser!
 
-It is also a central aspect of ASAM's concept of xref:concepts:doc-as-code.adoc[].
+All tools that are required for participating in ASAM projects are hosted online and can be accessed through any web browser.
+You only need to set up you account and can start right away.
 
 // == Content
 
