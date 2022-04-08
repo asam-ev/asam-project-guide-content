@@ -7,7 +7,7 @@ include::partial$_attributes.adoc[]
 
 {mandatory}
 
-include::tooling:partial$icon_reminder.adoc[tag=online-access]
+include::compendium:partial$icon_reminder.adoc[tag=online-access]
 
 {filestage-icon}
 

@@ -9,9 +9,6 @@ include::tooling:partial$_attributes.adoc[]
 
 {git-icon-page}
 
-include::compendium:page$TBD/git_terminology.adoc[{offset-value}]
-
-include::compendium:page$TBD/git_actions.adoc[{offset-value}]
 
 include::compendium:page$Guidelines/repo-make_changes.adoc[{offset-value}]
 
