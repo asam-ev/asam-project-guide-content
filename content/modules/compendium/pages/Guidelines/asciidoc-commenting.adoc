@@ -52,7 +52,6 @@ Now, the big question still open is when to use the issue comment section and wh
 As you can see in the image below, a new branch is create with an issue, the major progress you make should be documented in the ticket.
 For detailed comments that relate to a section/image/chapter of your document use the anchors.
 
-image::compendium:adoc_comment_workflow.png[workflow, 1100]
 
 Now we have all those anchors in our document, how to find them again?
 To solve this issue, you can open the "Comment Anchor" Menu via the VSCode sidebar (marked as `1`).

@@ -7,7 +7,7 @@
 :google-url: https://support.google.com/calendar/answer/37100?co=GENIE.Platform%3DDesktop&hl=en
 
 include::partial$_attributes.adoc[]
-include::tooling:partial$_attributes.adoc[]
+include::contributing:partial$_attributes.adoc[]
 
 
 {calendar-icon-page}

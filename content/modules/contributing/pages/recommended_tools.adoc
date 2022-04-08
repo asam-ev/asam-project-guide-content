@@ -16,7 +16,7 @@ Each user may choose their own favorite setup as long as it is compatible with t
 ASAM recommends the following list of tools directly.
 Users using other tools cannot expect support by an ASAM representative for these.
 
-include::tooling:partial$list-of-tools.adoc[tag=recommended]
+include::contributing:partial$list-of-tools.adoc[tag=recommended]
 
 == Project-specific Tools
 Some projects may require specific tools for specific tasks, such as a modelling tool for creating language models.

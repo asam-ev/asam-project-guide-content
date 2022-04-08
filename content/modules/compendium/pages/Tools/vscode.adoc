@@ -1,15 +1,15 @@
 = Visual Studio Code
 :description: A summary page describing what VSCode is and where to find related information, guides etc.
 :keywords: vscode,summary,tool,recommended,READYFORREVIEW
-:gitlab: xref:remote_repo.adoc[]
+:gitlab: xref:contributing:remote_repo.adoc[]
 
 include::partial$_attributes.adoc[]
-include::tooling:partial$_attributes.adoc[]
+include::contributing:partial$_attributes.adoc[]
 
 
 {recommended}
 
-include::tooling:partial$icon_reminder.adoc[tag=download-link]
+include::contributing:partial$icon_reminder.adoc[tag=download-link]
 
 {vscode-icon}
 
@@ -17,7 +17,7 @@ include::tooling:partial$icon_reminder.adoc[tag=download-link]
 Visual Studio Code is the suggested solution for checking out repositories and files from {gitlab}, adding and editing files, and pushing changes back to {gitlab}.
 However, users may choose any compatible program(s) instead, as long as {gitlab} stays the single point of truth for project files.
 
-Alternatively, users may also choose to work completly through {gitlab} by using the Web {ide} provided there.
+Alternatively, users may also choose to work completly through {gitlab} by using the Web IDE provided there.
 See {gitlab} for more information.
 
 == Visual Studio Code At ASAM

@@ -4,7 +4,7 @@
 :library-repo: https://code.asam.net/common/asam-graphic-library/
 
 include::partial$_attributes.adoc[]
-include::tooling:partial$_attributes.adoc[]
+include::contributing:partial$_attributes.adoc[]
 
 
 {drawio-icon-page}

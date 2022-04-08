@@ -3,12 +3,12 @@
 :keywords: docker,summary,tool,recommended,TODO
 
 include::partial$_attributes.adoc[]
-include::tooling:partial$_attributes.adoc[]
+include::contributing:partial$_attributes.adoc[]
 
 
 {recommended}
 
-include::tooling:partial$icon_reminder.adoc[tag=download-link]
+include::contributing:partial$icon_reminder.adoc[tag=download-link]
 
 {docker-icon}
 

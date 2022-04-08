@@ -13,7 +13,7 @@ Depending on the project, this may either be GitLab or GitHub.
 
 Select and follow the respective instructions in the tab view below.
 
-include::partial$icon_reminder.adoc[tag=online-access]
+include::contributing:partial$icon_reminder.adoc[tag=online-access]
 
 [tabs]
 ====

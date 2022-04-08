@@ -1,0 +1,3 @@
+
+**Find help on getting ready to contribute.** +
+This part gets you up and running for your project at ASAM.

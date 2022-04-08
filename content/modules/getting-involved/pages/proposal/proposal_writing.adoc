@@ -32,14 +32,14 @@ See **xref:getting-involved:proposal/proposal_document.adoc[]** for more informa
 
 
 == How To Contribute
-IMPORTANT: You must first complete the xref:tooling:working-without-software-installation.adoc#_minimum_required_setup[**Minimum Required Setup**] before you can participate in and contribute to any project. +
+IMPORTANT: You must first complete the xref:contributing:working-without-software-installation.adoc#_minimum_required_setup[**Minimum Required Setup**] before you can participate in and contribute to any project. +
 Participation in the creation of a Project Proposal follows the central xref:compendium:Guidelines/workflow-trunk.adoc[**Trunk-based Workflow**] at ASAM.
 If you want to learn more about this workflow, click the link.
 
 To contribute to a Project Proposal, project members can either <<Contributing Through Issues,contribute through GitLab issues>> or <<Contributing In AsciiDoc,contribute directly in AsciiDoc>>.
 However, at least one person must transfer all content to the AsciiDoc file eventually. +
-Both ways of contribution can be performed xref:tooling:working-without-software-installation.adoc[without software installation] directly through the respective web interface.
-If you prefer to work on your local computer, see the xref:tooling:main.adoc#_recommended_tools[list of recommended tools].
+Both ways of contribution can be performed xref:contributing:working-without-software-installation.adoc[without software installation] directly through the respective web interface.
+If you prefer to work on your local computer, see the xref:contributing:main.adoc#_recommended_tools[list of recommended tools].
 
 
 === Contributing Through Issues

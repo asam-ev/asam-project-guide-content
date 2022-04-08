@@ -3,12 +3,12 @@
 :keywords: openx-calendar,summary,tool,mandatory,READYFORREVIEW
 
 include::partial$_attributes.adoc[]
-include::tooling:partial$_attributes.adoc[]
+include::contributing:partial$_attributes.adoc[]
 
 
 {mandatory}
 
-include::tooling:partial$icon_reminder.adoc[tag=online-access]
+include::contributing:partial$icon_reminder.adoc[tag=online-access]
 
 {calendar-icon}
 

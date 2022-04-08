@@ -3,13 +3,13 @@
 :keywords: overview,tools,landing_page,tools-overview,READYFORREVIEW
 :no-installation: xref:working-without-software-installation.adoc[]
 :page-aliases: overview.adoc
-:tooling:
+:contributing:
 
-include::tooling:partial$_attributes.adoc[]
+include::contributing:partial$_attributes.adoc[]
 include::ROOT:partial$_attributes.adoc[]
 
 
-{tools-icon}
+{contributing-icon}
 
 include::partial$module-description.adoc[]
 

@@ -10,22 +10,10 @@ The figure <<fig-proposal-phase-diagram-detailed>> shows the Proposal phase in f
 Each step is explained shortly under <<Proposal Phase Steps>>.
 
 [#fig-proposal-phase-diagram-detailed]
-image::compendium:asam/proposal_phase_v2-proposal_phase.svg[title="The Proposal phase in detail, using the xref:concepts:diagram_notations.adoc[ASAM Project Phase Notation]", id="modal_image"]
+image::compendium:asam/proposal_phase_v2-proposal_phase.svg[title="The Proposal phase in detail, using the xref:concepts:diagram_notations.adoc[ASAM Project Phase Notation]"]
 
-++++
-<div id="myModal" class="modal">
 
-  <!-- The Close Button -->
-  <span class="close">&times;</span>
-
-  <!-- Modal Content (The Image) -->
-  <img class="modal-content" id="img01">
-
-  <!-- Modal Caption (Image Text) -->
-  <div id="caption"></div>
-</div>
-++++
-
+image::compendium:asam/proposal_phase_v2-proposal_setup.svg[]
 
 == Proposal Phase Steps
 The Proposal phase consists of the following steps, which are explained in detail in their own sections:
@@ -46,7 +34,7 @@ The Proposal phase consists of the following steps, which are explained in detai
 === Repository Setup
 [cols="3,1,10"]
 |===
-.3+|image:compendium:asam/proposal_phase_v2-proposal_setup.svg[]
+.3+|image:compendium:asam/proposal_phase_v2-proposal_setup.svg[id="modal_image"]
 >h|Purpose
 |To set up the proposal repository.
 

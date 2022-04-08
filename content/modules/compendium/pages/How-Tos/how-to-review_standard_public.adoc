@@ -62,7 +62,7 @@ NOTE: The sent email creates a new issue in the ASAM remote repository using the
 You can find more information on using GitLab Service Desk under xref:compendium:How-Tos/how-to-review_with_gitlab_service_desk.adoc[].
 
 // ASAM uses the following feedback tools:
-// include::tooling:partial$review_tools.adoc[]
+// include::contributing:partial$review_tools.adoc[]
 
 // == Troubleshooting / Known Issues
 //end::body[]

@@ -3,12 +3,12 @@
 :keywords: drawio,summary,tool,recommended,READYFORREVIEW
 
 include::partial$_attributes.adoc[]
-include::tooling:partial$_attributes.adoc[]
+include::contributing:partial$_attributes.adoc[]
 
 
 {recommended}
 
-include::tooling:partial$icon_reminder.adoc[tag=online-access]
+include::contributing:partial$icon_reminder.adoc[tag=online-access]
 
 {drawio-icon}
 

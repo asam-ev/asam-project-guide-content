@@ -1,5 +1,4 @@
-include::../ROOT/partials/_attributes.adoc[]
-* {tools-nav-icon}
+* xref:main.adoc[]
 ** xref:working-without-software-installation.adoc[]
 ** xref:remote_repo.adoc[]
 *** xref:remote_repo/remote_repo_setup.adoc[]

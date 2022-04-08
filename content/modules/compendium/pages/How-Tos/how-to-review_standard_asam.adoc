@@ -63,7 +63,7 @@ NOTE: This is *not* your GitHub/ASAM GitLab account!
 . Provide feedback on these through the integrated feedback tools
 
 ASAM uses the following feedback tools:
-include::tooling:partial$review_tools.adoc[]
+include::contributing:partial$review_tools.adoc[]
 
 // == Troubleshooting / Known Issues
 //end::body[]

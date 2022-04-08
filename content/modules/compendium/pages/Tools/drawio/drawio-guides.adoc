@@ -3,7 +3,7 @@
 :keywords: drawio, guides,READYFORREVIEW
 
 include::partial$_attributes.adoc[]
-include::tooling:partial$_attributes.adoc[]
+include::contributing:partial$_attributes.adoc[]
 
 
 {drawio-icon-page}

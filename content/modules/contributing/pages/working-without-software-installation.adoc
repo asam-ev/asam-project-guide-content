@@ -22,4 +22,4 @@ Whether you prefer to work online or with locally installed software, you must d
 To do so, go through the setup description for each of the platforms and tools listed in the table below.
 
 
-include::tooling:partial$list-of-tools.adoc[tag=mandatory]
+include::contributing:partial$list-of-tools.adoc[tag=mandatory]
