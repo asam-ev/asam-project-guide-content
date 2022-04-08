@@ -13,6 +13,7 @@
 * xref:changing_content.adoc[]
 ** xref:reviewing/create_issue_on_page.adoc[]
 ** xref:reviewing/editing_pages.adoc[]
+** xref:adding_content/editorial_rules.adoc[]
 ** Working with roles
 *** xref:adding_content/roles/add-new-role.adoc[]
 *** xref:adding_content/roles/use_roles.adoc[]
