@@ -4,28 +4,17 @@
 
 include::partial$_attributes.adoc[]
 
-
 ====
-[cols="1,5", frame=none, grid = rows]
-|===
-h|Involved roles
-a| * {role-project-lead}
-* {role-wg-member}
-* {role-wg-lead}
-* {role-gtm}
-* {role-tsc-member}
+[horizontal]
+Involved Roles::
+{role-wg-member} --
+{role-wg-lead} --
+{role-project-lead} --
+{role-gtm} --
+{role-tsc-member}
 
-h| Project phase
-| image:compendium:asam/project_lifecycle-release.svg[]
-
-|===
+include::partial$project_phases.adoc[tag=release]
 ====
-
-== Getting Started Immediately
-
-TODO
-// [horizontal]
-// xref:proposal/proposal_workshop_preparation.adoc[]:: Start here to learn how you prepare a Proposal Workshop.
 
 
 == Process Overview

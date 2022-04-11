@@ -13,6 +13,8 @@ Involved roles::
 {role-tsc-member} --
 {role-member} --
 ({role-proposal-submitter})
+
+include::partial$project_phases.adoc[tag=proposal]
 ====
 
 == Process Overview

@@ -15,38 +15,9 @@ Involved Roles::
 {role-technical-writer} --
 {role-ccb} --
 {role-gtm}
+
+include::partial$project_phases.adoc[tag=development]
 ====
-
-
-// Original Version
-
-// ====
-// [cols="1,5", frame=none, grid = rows]
-// |===
-// h|Involved roles
-// a| * {role-wg-member}
-// * {role-wg-lead}
-// * {role-project-lead}
-// * {role-service-provider}
-// * {role-technical-writer}
-// * {role-ccb}
-// * {role-gtm}
-
-// h| Project phase
-// | image:compendium:asam/project_lifecycle-development.svg[]
-
-// |===
-// ====
-
-// == Getting Started Immediately
-
-// TODO
-// [horizontal]
-// xref:contributing:working-without-software-installation.adoc#_minimum_required_setup[Minimum Required Setup]:: Check out the minimum required setup to get ready for participation and contribution.
-
-// xref:ideation/enter_new_idea.adoc[]:: Start here to learn how you can enter an idea at ASAM.
-// xref:ideation/developing_an_idea.adoc[]:: Start here if you want to further develop an idea you previously entered.
-// xref:ideation/raising_interest.adoc[]:: Start here for tips and tricks on finding enough project participants.
 
 == Process Overview
 The description of the ASAM standard development process in this section contains all formal process steps to develop an ASAM standard. +

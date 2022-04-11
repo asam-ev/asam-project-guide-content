@@ -11,15 +11,10 @@ Involved roles::
 {role-standard-user} -> {role-idea-giver} --
 {role-gtm} --
 {role-member}
+
+include::partial$project_phases.adoc[tag=ideation]
 ====
 
-// == Getting Started Immediately
-
-// [horizontal]
-// xref:ideation/enter_new_idea.adoc[]:: Start here to learn how you can enter an idea at ASAM.
-// xref:ideation/developing_an_idea.adoc[]:: Start here if you want to further develop an idea you previously entered.
-// xref:ideation/raising_interest.adoc[]:: Start here for tips and tricks on finding enough project participants.
-// xref:signing_up/enroll_for_ideation.adoc[]:: Start here to learn how to sign up for updates of a published idea
 
 == Process Overview
 New projects do not start themselves.
