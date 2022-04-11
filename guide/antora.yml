@@ -6,3 +6,8 @@ prerelease: -restructure
 start_page: ROOT:main.adoc
 nav:
 - modules/ROOT/nav.adoc
+asciidoc:
+  attributes:
+    gitlab-url: https://code.asam.net
+    github-url: https://github.com/asam-ev
+    abb: "latest@asamprojectguide:compendium:partial$abbreviations.adoc@"

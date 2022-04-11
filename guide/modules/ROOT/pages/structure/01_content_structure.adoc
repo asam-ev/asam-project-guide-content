@@ -28,7 +28,7 @@ include::{structure}[tags=standard;first_level]
 ----
 
 == Module "Introduction"
-{getting-started-icon-norole}
+// {getting-started-icon-norole}
 
 .Document Structure - Introduction
 [plantuml,mindmap2,svg]
@@ -37,7 +37,7 @@ include::{structure}[tags=standard;introductions;!comment]
 ----
 
 == Module "How to get involved"
-{getting-involved-icon-norole}
+// {getting-involved-icon-norole}
 
 .Document Structure - How to get involved
 [plantuml,mindmap2,svg]
@@ -46,7 +46,7 @@ include::{structure}[tags=standard;getting_involved;!comment]
 ----
 
 == Module "Role-specific instructions"
-{role-specific-icon-norole}
+// {role-specific-icon-norole}
 
 .Document Structure - Role-Specific Instructions
 [plantuml,mindmap2,svg]
@@ -55,7 +55,7 @@ include::{structure}[tags=standard;roles;!comment]
 ----
 
 == Module "ASAM standardization process"
-{standardization-icon-norole}
+// {standardization-icon-norole}
 
 .Document Structure - ASAM standardization process
 [plantuml,mindmap2,svg]
@@ -64,7 +64,7 @@ include::{structure}[tags=standard;general_project_processes;!comment]
 ----
 
 == Module "Compendium"
-{compendium-icon-norole}
+// {compendium-icon-norole}
 
 .Document Structure - Compendium
 [plantuml,mindmap2,svg]
@@ -73,7 +73,7 @@ include::{structure}[tags=standard;compendium;!comment]
 ----
 
 == Module "Tools"
-{tools-icon-norole}
+// {tools-icon-norole}
 
 .Document Structure - Tools
 [plantuml,mindmap2,svg]
@@ -82,7 +82,7 @@ include::{structure}[tags=standard;tools;!comment]
 ----
 
 == Module "Working on the Project Guide"
-{project-guide-icon-norole}
+// {project-guide-icon-norole}
 
 .Document Structure - Working on the Project Guide
 [plantuml,mindmap2,svg]

@@ -18,11 +18,11 @@ An issue with the described problem and suggested solution is created.
 None
 
 == How
-// include::compendium:partial$How-Tos/how-to__create_issue_service_desk.adoc[tag=steps]
+// include::latest@asamprojectguide:compendium:partial$How-Tos/how-to__create_issue_service_desk.adoc[tag=steps]
 
 . Click the button "Submit feedback"
 +
-image::compendium:submit_feedback_button.png[title='"Submit feedback" button in Antora project', role="thumb"]
+image::latest@asamprojectguide:compendium:submit_feedback_button.png[title='"Submit feedback" button in Antora project', role="thumb"]
 . Edit the title of the form
 . Select the relevant topics by replacing any `- [ ]` with `- [x]` in the "Prerequisites" section
 . Add a title of the topic to the secion "Summary"
@@ -31,5 +31,5 @@ image::compendium:submit_feedback_button.png[title='"Submit feedback" button in 
 Ideally, use screenshots to show what you mean more clearly
 . Add a suggested solution to the section "Suggestion"
 +
-image::compendium:submit_form_github.png[title="The issue form for submitting feedback in GitHub"]
+image::latest@asamprojectguide:compendium:submit_form_github.png[title="The issue form for submitting feedback in GitHub"]
 . Click "Submit new issue"

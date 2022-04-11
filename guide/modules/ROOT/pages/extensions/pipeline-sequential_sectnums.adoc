@@ -10,8 +10,8 @@ include::partial$_attributes.adoc[]
 == Description
 include::partial$pipeline-sequential_sectnums.adoc[tag=description]
 
-== Prerequisits
-include::partial$pipeline-sequential_sectnums.adoc[tag=prerequisits]
+== Prerequisites
+include::partial$pipeline-sequential_sectnums.adoc[tag=prerequisites]
 
 == Configuration
 include::partial$pipeline-sequential_sectnums.adoc[tag=configuration]
