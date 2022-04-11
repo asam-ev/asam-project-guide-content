@@ -16,8 +16,9 @@ If an editorial rule is missing in the ASAM Editorial Guide, follow the guidelin
 
 This document covers the following aspects:
 
-* <<#sec-basics>>,
-* <<#sec-language>>,
+* <<#sec-basics>>
+* <<#sec-structure>>
+* <<#sec-language>>
 * <<#sec-numbers>>
 * <<#sec-headings>>
 * <<#sec-paragraphs>>
@@ -38,13 +39,14 @@ include::../../examples/rules.csv[]
 
 
 include::editorial_guide/01_basics.adoc[leveloffset=+1]
-include::editorial_guide/02_language.adoc[leveloffset=+1]
-include::editorial_guide/03_numbers.adoc[leveloffset=+1]
-include::editorial_guide/04_headings.adoc[leveloffset=+1]
-include::editorial_guide/05_paragraphs.adoc[leveloffset=+1]
-include::editorial_guide/06_source_code.adoc[leveloffset=+1]
-include::editorial_guide/07_lists.adoc[leveloffset=+1]
-include::editorial_guide/08_tables.adoc[leveloffset=+1]
-include::editorial_guide/09_figures.adoc[leveloffset=+1]
-include::editorial_guide/10_other.adoc[leveloffset=+1]
+include::editorial_guide/02_structure.adoc[leveloffset=+1]
+include::editorial_guide/03_language.adoc[leveloffset=+1]
+include::editorial_guide/04_numbers.adoc[leveloffset=+1]
+include::editorial_guide/05_headings.adoc[leveloffset=+1]
+include::editorial_guide/06_paragraphs.adoc[leveloffset=+1]
+include::editorial_guide/07_source_code.adoc[leveloffset=+1]
+include::editorial_guide/08_lists.adoc[leveloffset=+1]
+include::editorial_guide/09_tables.adoc[leveloffset=+1]
+include::editorial_guide/10_figures.adoc[leveloffset=+1]
+include::editorial_guide/11_other.adoc[leveloffset=+1]other.adoc[leveloffset=+1]
 

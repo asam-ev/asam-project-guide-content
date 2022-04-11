@@ -17,6 +17,7 @@ This section contains editorial rules on content and language:
 * <<#sec-ASM-65>>
 * <<#sec-ASM-122>>
 * <<#sec-ASM-66>>
+* <<#sec-ASM-21>>
 * <<#sec-ASM-60>>
 * <<#sec-ASM-112>>
 * <<#sec-ASM-113>>
@@ -46,7 +47,7 @@ There are no exceptions.
 |No                         |#Yes#
 |[.line-through]#colour#    |color
 |[.line-through]#labelling# |labeling
-|[.line-through]#analyse#   |analyze
+|[.line-through]#analye#   |analyze
 |[.line-through]#centre#    |center
 |===
 
@@ -342,27 +343,86 @@ ASAM Writing Guide: Do not use synonyms
 
 Use and update the following table of verbal forms for expressions of provisions in a standard document.
 
+*Exceptions*
+
+There are no exceptions.
+
+*Example*
+
+[.underline]#Code#
+
+```
+[#tab-uid]
+.Meaning of modal verbs
+[%header]
+.Verbal forms for expressions of provisions
+[%header, cols="20, 15, 65"]
+|===
+|Provision
+|Verbal form
+|Definition
+
+|Requirement
+|shall, shall not
+|A requirement conveys objectively verifiable criteria to be fulfilled and from which no deviation is permitted if conformance with the document is to be claimed.
+
+|Recommendation
+|should, should not
+|A recommendation conveys a suggested possible choice or course of action deemed to be particularly suitable without necessarily mentioning or excluding others.
+
+|Permission
+|may
+|A permission conveys consent or liberty (or opportunity) to do something.
+
+|Possibility and capability
+|can, cannot
+|A possibility conveys expected or conceivable material, physical or causal outcome. +
+A capability conveys the ability, fitness, or quality necessary to do or achieve a specified thing.
+
+|External constraint
+|must
+|An external constraint or obligation on the user of the document, for example laws of nature or particular conditions existing in some countries or regions, that is not stated as a provision of the document.
+External constraints are not requirements of the document.
+They are given for the information of the user.
+|===
+```
+
+[.underline]#Result#
+
 [#tab-2c6c7726-0a24-493c-a645-9c38d4d2504d]
 .Meaning of modal verbs
 [%header]
 .Verbal forms for expressions of provisions
 [%header, cols="20, 15, 65"]
 |===
-|Provision                  |Verbal form        |Definition
-|Requirement                |shall, shall not   |A requirement conveys objectively verifiable criteria to be fulfilled and from which no deviation is permitted if conformance with the document is to be claimed.
-|Recommendation             |should, should not |A recommendation conveys a suggested possible choice or course of action deemed to be particularly suitable without necessarily mentioning or excluding others.
-|Permission                 |may                |A permission conveys consent or liberty (or opportunity) to do something.
-|Possibility and capability |can, cannot        |A possibility conveys expected or conceivable material, physical or causal outcome. +
-                                                 A capability conveys the ability, fitness, or quality necessary to do or achieve a specified thing.
-|External constraint        |must               |An external constraint or obligation on the user of the document, for example laws of nature or particular conditions existing in some countries or regions, that is not stated as a provision of the document.
-                                                 External constraints are not requirements of the document.
-                                                 They are given for the information of the user.
+|Provision
+|Verbal form
+|Definition
+
+|Requirement
+|shall, shall not
+|A requirement conveys objectively verifiable criteria to be fulfilled and from which no deviation is permitted if conformance with the document is to be claimed.
+
+|Recommendation
+|should, should not
+|A recommendation conveys a suggested possible choice or course of action deemed to be particularly suitable without necessarily mentioning or excluding others.
+
+|Permission
+|may
+|A permission conveys consent or liberty (or opportunity) to do something.
+
+|Possibility and capability
+|can, cannot
+|A possibility conveys expected or conceivable material, physical or causal outcome. +
+A capability conveys the ability, fitness, or quality necessary to do or achieve a specified thing.
+
+|External constraint
+|must
+|An external constraint or obligation on the user of the document, for example laws of nature or particular conditions existing in some countries or regions, that is not stated as a provision of the document.
+External constraints are not requirements of the document.
+They are given for the information of the user.
 |===
 
-
-*Exceptions*
-
-There are no exceptions.
 
 *Source*
 

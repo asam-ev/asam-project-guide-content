@@ -13,8 +13,6 @@ This section contains rules that should be in other sections:
 * <<#sec-ASM-93>>
 
 * <<#sec-ASM-84>>
-* <<#sec-ASM-18>>
-* <<#sec-ASM-19>>
 
 
 [#sec-ASM-16]
@@ -141,42 +139,7 @@ There are no exceptions.
 
 ASAM Writing Guide: Non-normative sections
 
-[#sec-ASM-18]
-== List of figures is created automatically (ASM-18)
 
-* The AsciiDoc pipeline renders automatically a complete _list of figures_.
-* Do not create a list of figures manually.
-
-*Exceptions*
-
-There are no exceptions.
-
-*Example*
-
-There is no example.
-
-*Source*
-
-ASAM specific rule.
-
-
-[#sec-ASM-19]
-== List of tables is created automatically (ASM-19)
-
-* The AsciiDoc pipeline renders automatically a complete _list of tables_.
-* Do not create a list of tables manually.
-
-*Exceptions*
-
-There are no exceptions.
-
-*Example*
-
-There is no example.
-
-*Source*
-
-ASAM specific rule.
 
 
 

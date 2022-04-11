@@ -6,8 +6,8 @@ This section contains editorial rules on how to create lists:
 
 * <<#sec-ASM-8>>
 * <<#sec-ASM-48>>
-* <<#sec-ASM-9>>
 * <<#sec-ASM-10>>
+* <<#sec-ASM-11>>
 * <<#sec-ASM-5>>
 * <<#sec-ASM-6>>
 * <<#sec-ASM-11>>
@@ -77,6 +77,51 @@ There are no exceptions.
 * https://docs.asciidoctor.org/asciidoc/latest/lists/ordered/
 
 
+[#sec-ASM-10]
+== Choose a suitable type of list (ASM-10)
+
+=== Use a bulleted list for things that have something in common but do not need to appear in a particular order
+
+*Exceptions*
+
+There are no exceptions.
+
+*Example*
+
+```
+The database owner can:
+
+* Create and delete a database
+* Add, delete, or modify a document
+* Add, delete, or modify any information in the database
+```
+
+*Source*
+
+Microsoft Style Guide: https://docs.microsoft.com/en-us/style-guide/scannable-content/lists#bulleted-lists
+
+
+=== Use a numbered list for sequential items (like a procedure) or prioritized items (like a top 10 list)
+
+*Exceptions*
+
+There are no exceptions.
+
+*Example*
+
+```
+To sign on to a database:
+
+. On the File menu, select Open database.
+. In Username, enter your name.
+. In Password, enter your password, and then select OK.
+```
+
+*Source*
+
+Microsoft Style Guide: https://docs.microsoft.com/en-us/style-guide/scannable-content/lists#numbered-lists
+
+
 [#sec-ASM-9]
 == Just add one sentence per line in lists (ASM-9)
 
@@ -112,51 +157,6 @@ This is the second sentence of the element.
 *Source*
 
 ASAM Writing Guide: 4.3. One sentence per line
-
-[#sec-ASM-10]
-== Choose a suitable type of list (ASM-10)
-
-
-== Use a bulleted list for things that have something in common but do not need to appear in a particular order
-
-*Exceptions*
-
-There are no exceptions.
-
-*Example*
-
-```
-The database owner can:
-
-* Create and delete a database
-* Add, delete, or modify a document
-* Add, delete, or modify any information in the database
-```
-
-*Source*
-
-Microsoft Style Guide: https://docs.microsoft.com/en-us/style-guide/scannable-content/lists#bulleted-lists
-
-
-== Use a numbered list for sequential items (like a procedure) or prioritized items (like a top 10 list)
-
-*Exceptions*
-
-There are no exceptions.
-
-*Example*
-
-```
-To sign on to a database:
-
-. On the File menu, select Open database.
-. In Username, enter your name.
-. In Password, enter your password, and then select OK.
-```
-
-*Source*
-
-Microsoft Style Guide: https://docs.microsoft.com/en-us/style-guide/scannable-content/lists#numbered-lists
 
 
 [#sec-ASM-5]
@@ -288,6 +288,35 @@ a|
 * Direct junctions
 * Virtual junctions
 * Crossings
+|===
+
+*Source*
+
+ASAM specific rule.
+
+
+[#sec-ASM-42]
+== Put the list items in a logical order (ASM-42)
+
+*Exceptions*
+
+There are no exceptions.
+
+*Example*
+
+[#tab-c275d6be-703e-4eaa-8588-6a39d58e148a]
+.Logical order of list items
+[%header]
+|===
+|No |#Yes#
+
+a|
+* [.line-through]#set @type attribute on the `<lane>` element#
+* [.line-through]#create `<lane>` element#
+
+a|
+. Create `<lane>` element.
+. Set @type attribute on the `<lane>` element.
 |===
 
 *Source*

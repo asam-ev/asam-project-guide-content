@@ -1,0 +1,410 @@
+[#sec-structure]
+= Structure
+
+This section contains editorial rules on the structure and fixed content of the document and repository:
+
+* <<#sec-ASM-22>>
+* <<#sec-ASM-40>>
+* <<#sec-ASM-39>>
+* <<#sec-ASM-26>>
+* <<#sec-ASM-27>>
+* <<#sec-ASM-34>>
+* <<#sec-ASM-36>>
+* <<#sec-ASM-31>>
+* <<#sec-ASM-18>>
+* <<#sec-ASM-19>>
+
+
+[#sec-ASM-22]
+== Use generic ASAM standard chapter structure (ASM-22)
+
+The chapter structure of ASAM standards always follows the same pattern.
+
+The sequence, headings and the numbering of the first and last chapters are fixed.
+
+The first chapter with standard specific heading and content is chapter 6.
+
+The amount of annexes is also standard specific.
+
+The generic chapter structure and headings are as follows, the brackets comment on the content:
+
+```
+Foreword (fixed content)
+Introduction (standard specific content)
+    Overview (standard specific content)
+    Conventions and notations (fixed content)
+    Deliverables (standard specific content)
+1. Scope (standard specific content)
+2. Normative references (standard specific content)
+3. Terms and definitions (standard specific content)
+4. Abbreviations (standard specific content)
+5. Backward compatibility (standard specific content)
+6. (First standard specific heading and content)
+Annexes (optional standard specific content)
+    Annex A: (standard specific heading) (optional standard specific content)
+    Annex B: (standard specific heading) (optional standard specific content)
+Bibliography (standard specific content)
+List of figures (automatically generated content)
+List of tables (automatically generated content)
+```
+
+*Exceptions*
+
+There are no exceptions.
+
+*Example*
+
+----
+Foreword
+Introduction
+    Overview
+    Conventions and notations
+    Deliverables
+1. Scope
+2. Normative references
+3. Terms and definitions
+4. Abbreviations
+5. Backward compatibility
+6. General architecture
+    6.1. File Structure
+    6.2. Combining Files
+    6.3. Overview of elements
+    6.4. Attributes used in the file
+    6.5. General rules and assumptions
+7. Additional data
+    7.1. User Data
+    7.2. Including Data
+    7.3. Using different layout types
+    7.4. Description of the data quality
+8. Coordinate systems
+    8.1. Coordinate systems overview
+    8.2. Inertial coordinate systems
+    8.3. Reference line coordinate systems
+    8.4. Local coordinate systems
+    8.5. Summary of all available coordinate systems
+    8.6. Georeferencing in ASAM OpenDRIVE
+9. Geometry
+    9.1. Road reference line
+    9.2. Straight line
+    9.3. Spiral
+    9.4. Arc
+    9.5. Generating arbitrary road courses from geometry elements
+    9.6. Cubic polynom (deprecated)
+    9.7. Parametric cubic curve
+10. Roads
+    10.1. Properties for road sections and cross section
+    10.2. Road linkage
+    10.3. Road type
+    10.4. Methods of elevation
+    10.5. Road surface
+    10.6. Use cases for roads
+11. Lanes
+    11.1. Lane grouping within lane sections
+    11.2. Lane sections
+    11.3. Lane offset
+    11.4. Lane linkage
+    11.5. Lane properties
+    11.6. Road markings
+    11.7. Specific lane rules
+12. Junctions
+    12.1. Common junctions
+    12.2. Incoming roads
+    12.3. Connecting roads
+    12.4. Direct junctions
+    12.5. Virtual junctions
+    12.6. Road surface within junctions
+    12.7. Junction groups
+    12.8. Controllers for junctions
+13. Objects
+    13.1. Repeating objects
+    13.2. Object outline
+    13.3. Object material
+    13.4. Lane validity for objects
+    13.5. Access rules to parking spaces
+    13.6. Object marking
+    13.7. Object borders
+    13.8. Object reference
+    13.9. Tunnels
+    13.10. Bridges
+    13.11. Object surface
+14. Signals
+    14.1. Lane validity for signals
+    14.2. Signal dependency
+    14.3. Links between signals and objects
+    14.4. Signal positioning
+    14.5. Reuse of signal information
+    14.6. Controllers
+15. Railroads
+    15.1. Railroad tracks
+    15.2. Switches
+    15.3. Stations
+Annexes
+    Appendix A: Enumerations
+    Appendix B: Data types
+Bibliography
+List of figures
+List of tables
+----
+
+*Source*
+
+ASAM specific rule.
+
+
+[#sec-ASM-83]
+== Use generic ASAM standard directory structure (ASM-83)
+
+The directory structure of a repository of an ASAM standard always follows the same pattern.
+
+The `content` folder in the repository contains the core files for the standard.
+
+Each main chapter has a separate folder which contains the AsciiDoc file with the content of the main chapter and optional AsciiDoc files with the content of the subchapters.
+
+
+*Exceptions*
+
+There are no exceptions.
+
+*Example*
+
+----
+content/
+    00_preface/
+        00_foreword.adoc
+        00_introduction.adoc
+    01_scope/
+        01_scope.adoc
+    02_normative_references/
+        02_normative_references.adoc
+    03_terms_and_definitions/
+        03_terms_and_definitions.adoc
+    04_abbreviations/
+        04_abbreviations.adoc
+    05_backward_compatibility/
+        05_backward_compatibility.adoc
+    06_[first standard specific main chapter]/
+        06_00_[first standard specific main chapter].adoc
+        06_01_[first standard specific sub chapter].adoc
+        06_01_[first standard specific sub chapter].adoc
+        ...
+    07_[second standard specific main chapter]/
+        07_00_[second standard specific main chapter].adoc
+        ...
+    ...
+    XX_annexes/
+        [first standard specific annex]/
+            [first standard specific annex].adoc
+        ...
+    bibliography.bib
+    index.adoc
+    list_of_figures.adoc
+    list_of_tables.adoc
+----
+
+*Source*
+
+ASAM specific rule.
+
+
+[#sec-ASM-40]
+== Name the mapping file index.adoc (ASM-40)
+
+* The mapping file _index.adoc_ is in the root directory of the chapter structure.
+
+*Exceptions*
+
+There are no exceptions.
+
+*Example*
+
+There is no example.
+
+*Source*
+
+ASAM specific rule.
+
+
+
+[#sec-ASM-39]
+== Define the complete chapter structure in the mapping file (ASM-39)
+
+* Include all chapters of all levels of the chapter structure in the mapping file.
+* Subchapters shall not have separate mapping files.
+
+*Exceptions*
+
+There are no exceptions.
+
+*Example*
+
+The following example is the complete include section of a chapter and its subchapters in the mapping file.
+
+[source]
+----
+\include::08_coordinate_systems/08_00_coordinate_systems.adoc[leveloffset=+1]
+\include::08_coordinate_systems/08_01_coordinate_systems_overview.adoc[leveloffset=+2]
+\include::08_coordinate_systems/08_02_inertial_coordinate_system.adoc[leveloffset=+2]
+\include::08_coordinate_systems/08_03_reference_line_coordinate_system.adoc[leveloffset=+2]
+\include::08_coordinate_systems/08_04_local_coordinate_system.adoc[leveloffset=+2]
+\include::08_coordinate_systems/08_05_summary_coordinate_systems.adoc[leveloffset=+2]
+\include::08_coordinate_systems/08_06_geo_referencing.adoc[leveloffset=+2]
+----
+
+*Source*
+
+ASAM specific rule.
+
+
+[#sec-ASM-26]
+== Do not include empty chapters (ASM-26)
+
+* Only include chapters with content beyond a heading in the chapter structure.
+* Remove chapters without content from the chapter structure.
+
+*Exceptions*
+
+There are no exceptions.
+
+*Example*
+
+There is no example.
+
+*Source*
+
+ASAM specific rule.
+
+
+[#sec-ASM-27]
+== Check to include all needed chapters (ASM-27)
+
+* Check to include all needed chapters in the chapter structure and the mapping file.
+* Remove chapters from the repository that are without use in the chapter structure and mapping file.
+
+*Exceptions*
+
+There are no exceptions.
+
+*Example*
+
+There is no example.
+
+*Source*
+
+ASAM specific rule.
+
+
+[#sec-ASM-34]
+== Check the license files (ASM-34)
+
+Check if the repository contains the needed license files.
+
+*Exceptions*
+
+There are no exceptions.
+
+*Example*
+
+There is no example.
+
+*Source*
+
+ASAM specific rule.
+
+
+[#sec-ASM-36]
+== Check the project roadmap file (ASM-36)
+
+Check if the repository contains the project roadmap file.
+
+*Exceptions*
+
+There are no exceptions.
+
+*Example*
+
+There is no example.
+
+*Source*
+
+ASAM specific rule.
+
+
+[#sec-ASM-31]
+== Use the standard disclaimer (ASM-31)
+
+Include the following standard disclaimer:
+
+[IMPORTANT]
+
+.Disclaimer
+
+====
+
+This document is the copyrighted property of ASAM e.V.
+
+In alteration to the regular https://www.asam.net/license[license terms], ASAM allows unrestricted distribution of this standard. §2 (1) of ASAM's regular https://www.asam.net/license[license terms] is therefore substituted by the following clause: "The licensor grants everyone a basic, non-exclusive and unlimited license to use the standard {THIS_STANDARD}".
+
+====
+
+
+*Exceptions*
+
+There are no exceptions.
+
+*Example*
+
+```
+[IMPORTANT]
+
+.Disclaimer
+
+====
+
+This document is the copyrighted property of ASAM e.V.
+
+In alteration to the regular https://www.asam.net/license[license terms], ASAM allows unrestricted distribution of this standard. §2 (1) of ASAM's regular https://www.asam.net/license[license terms] is therefore substituted by the following clause: "The licensor grants everyone a basic, non-exclusive and unlimited license to use the standard {THIS_STANDARD}".
+
+====
+```
+
+*Source*
+
+ASAM specific rule.
+
+
+[#sec-ASM-18]
+== List of figures is created automatically (ASM-18)
+
+* The AsciiDoc pipeline renders automatically a complete _list of figures_.
+* Do not create a list of figures manually.
+
+*Exceptions*
+
+There are no exceptions.
+
+*Example*
+
+There is no example.
+
+*Source*
+
+ASAM specific rule.
+
+
+[#sec-ASM-19]
+== List of tables is created automatically (ASM-19)
+
+* The AsciiDoc pipeline renders automatically a complete _list of tables_.
+* Do not create a list of tables manually.
+
+*Exceptions*
+
+There are no exceptions.
+
+*Example*
+
+There is no example.
+
+*Source*
+
+ASAM specific rule.
