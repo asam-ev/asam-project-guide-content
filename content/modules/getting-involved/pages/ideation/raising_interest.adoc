@@ -3,7 +3,7 @@
 :keywords: ideation, proposal
 
 include::partial$_attributes.adoc[]
-include::{abb}[]
+
 
 [cols="1,5", grid = rows]
 |===
@@ -17,7 +17,7 @@ h| Step
 
 h| TL;DR
 a| * Use your network
-* {gtm} can support with ASAM network, if required
+* GTM can support with ASAM network, if required
 * Provide the list of participants to the GTM
 |===
 
@@ -26,7 +26,7 @@ If the idea is for a new standard, the Ideation Workshop will often get the Idea
 If the project idea concerns new features and updates to an existing standard, the Idea Giver can contact the project team from the previous Development phase.
 
 In most cases, either way will likely provide enough interested parties for the Proposal phase already.
-However, if this is not the case, the {gtm} can support the Idea Giver by getting them in contact with possibly interested parties within the ASAM network.
+However, if this is not the case, the GTM can support the Idea Giver by getting them in contact with possibly interested parties within the ASAM network.
 Alternatively or additionally, the Idea Giver may utilize their own network to raise enough interest.
 
 

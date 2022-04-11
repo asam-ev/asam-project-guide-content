@@ -4,7 +4,7 @@
 :page-aliases: adding_content/add-a-partial.adoc
 
 include::partial$_attributes.adoc[]
-include::{abb}[]
+
 
 {add-file-icon}
 

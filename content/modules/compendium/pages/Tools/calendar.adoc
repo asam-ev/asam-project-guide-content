@@ -1,0 +1,35 @@
+= OpenX Calendar
+:description: A summary page describing what the OpenX calendar is and where to find related information, guides etc.
+:keywords: openx-calendar,summary,tool,mandatory,READYFORREVIEW
+
+include::partial$_attributes.adoc[]
+include::contributing:partial$_attributes.adoc[]
+
+
+{mandatory}
+
+include::contributing:partial$icon_reminder.adoc[tag=online-access]
+
+{calendar-icon}
+
+ASAM has a shared calendar for all OpenX projects: the OpenX calendar ({openx-calendar-mail}).
+Members can subscribe to it and invite it to automatically keep track of all meetings related to any OpenX project.
+
+IMPORTANT: It is **mandatory** for all OpenX projects to invite the OpenX calendar!
+
+== Content
+
+
+[cols="^1h,4",frame=none, grid=rows, stripes=hover]
+|===
+
+|xref:compendium:Tools/calendar/calendar-setup.adoc[image:{setup-image}[width=120,title="OpenX Calendar Setup"]]
+|OpenX Calendar Setup
+
+|xref:compendium:Tools/calendar/calendar-best-practices.adoc[image:{best-practices-image}[width=120,title="OpenX Calendar Best Practices"]]
+|OpenX Calendar Best Practices
+
+
+|===
+
+related::openx-calendar,!summary[]

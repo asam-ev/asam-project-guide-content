@@ -1,0 +1,71 @@
+= How-To: Build Antora Locally
+:description: Describes how to build antora locally on you pc without needing to run the CI/CD on GitLab.
+:keywords: antora,guide,docker, TODO
+
+include::contributing:partial$_attributes.adoc[]
+include::compendium:partial$_attributes.adoc[]
+
+{how-to-icon}
+
+
+== Context
+This guide explains how to build this Project Guide locally on your PC without having activated the ASAM build pipeline.
+The suggested method is to use the provided docker-compose.yml in this repository.
+
+== Result
+The Project Guide is built locally and the content can be accessed from the "site" folder.
+
+== Prerequisites
+* {docker-icon-norole} {docker-url}[Docker^] shall be installed and running.
+* https://www.python.org/downloads/[Python^] shall be installed (during installation, check the box "Add Python [version] to PATH").
+* All browser or file explorer windows shall be closed. Errors may occur when overwriting existing files.
+
+
+== How
+. In a terminal, open the _ASAM Project Guide_ repository.
+. Pull the current version of the repository: `git pull`
+. Check out the branch you want to build (default: use the _master_ branch): `git checkout <branch name>`
+. [[only-required-once]]Only required once:
++
+--
+** Make sure that the folder with _docker-compose.yml_ is active.
+** Run the following build process: `docker-compose build antora`
+--
++
+. Run the _scripts/build.py_ Python script: `python scripts/build.py`
++
+-> The generated page automatically opens in the browser (Chrome).
+
+
+== Troubleshooting / Known Issues
+=== The python script does not execute all the steps
+The script must be executed from the correct folder.
+
+. Navigate to the folder where the script is located.
+. Open a terminal window
+. Execute 'python build.py'
+
+=== I don't want to/cannot use python
+Unfortunately, there are some features that will not be available without python (i.e. the custom macros and summary features).
+If you cannot use python for whatever reason, you may use a python docker container and run everything from within there.
+
+=== The Antora generator does not work anymore
+If you had already set up the Antora image with the one-time step `docker-compose build antora` before and it stopped working, there is a chance that some technical changes have been made.
+To switch to the newest setup,
+
+. run 'docker-compose down' to stop any currently running docker-compose,
+. delete the image related to the project-guide antora setup (e.g. "asam-project-guide_antora") with the `docker rmi` command (see `docker rmi --help` for more information) +
++
+NOTE: You might need to force the deletion!
+
+. prune the volume used by antora
+. re-do the "<<only-required-once,only required once>>" steps
+
+=== I changed my content but I do not see it in Antora
+Any program that blocks the site folder will stop Antora from generating the new pages.
+The reason is that it needs to delete the existing folder first before the new content is then written into it.
+Make sure that no program is currently accessing and blocking files or folders from the "./site" path.
+Tools that are unproblematic:
+
+* Windows Explorer
+* Google Chrome

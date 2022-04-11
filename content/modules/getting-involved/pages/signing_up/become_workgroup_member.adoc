@@ -3,6 +3,6 @@
 :keywords: workgroup-member, TODO
 
 include::partial$_attributes.adoc[]
-include::{abb}[]
 
-include::compendium:page$ASAM/roles/how-to_become_wg_member.adoc[tag=body]
+
+include::compendium:page$How-Tos/how-to-become_wg_member.adoc[tag=body]

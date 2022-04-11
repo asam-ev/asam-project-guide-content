@@ -3,7 +3,7 @@
 :keywords: project-guide, structure, TODO
 
 include::partial$_attributes.adoc[]
-include::{abb}[]
+
 
 {structure-icon}
 

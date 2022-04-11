@@ -1,0 +1,47 @@
+= Visual Studio Code
+:description: A summary page describing what VSCode is and where to find related information, guides etc.
+:keywords: vscode,summary,tool,recommended,READYFORREVIEW
+:gitlab: xref:contributing:remote_repo.adoc[]
+
+include::partial$_attributes.adoc[]
+include::contributing:partial$_attributes.adoc[]
+
+
+{recommended}
+
+include::contributing:partial$icon_reminder.adoc[tag=download-link]
+
+{vscode-icon}
+
+
+Visual Studio Code is the suggested solution for checking out repositories and files from {gitlab}, adding and editing files, and pushing changes back to {gitlab}.
+However, users may choose any compatible program(s) instead, as long as {gitlab} stays the single point of truth for project files.
+
+Alternatively, users may also choose to work completly through {gitlab} by using the Web IDE provided there.
+See {gitlab} for more information.
+
+== Visual Studio Code At ASAM
+ASAM recommends using Visual Studio Code (VSCode) for local text document interaction, such as:
+
+* Writing and editing AsciiDoc content
+* Managing complex structures in a single workspace
+* Instant preview for asciidoc, plantuml, draw.io and more
+
+
+== Content
+
+
+[cols="^1h,4",frame=none, grid=rows, stripes=hover]
+|===
+
+|xref:compendium:Tools/vscode/vscode-setup.adoc[image:{setup-image}[width=120,title="GitLab Setup"]]
+|Visual Studio Code Setup
+
+|xref:compendium:Tools/vscode/vscode-guides.adoc[image:{guide-image}[width=120,title="GitLab Guides"]]
+|Visual Studio Code Guides
+
+|===
+
+related::vscode,!summary[]
+
+* {gitlab}

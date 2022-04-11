@@ -3,7 +3,7 @@
 [cols="1h,20"]
 |===
 |Purpose
-|To submit the finalized project proposal to __{asam}__
+|To submit the finalized project proposal to ASAM
 
 |Responsible
 |{role-idea-giver}

@@ -1,3 +1,0 @@
-
-**Find help on setting up your work environment for ASAM projects.** +
-This part contains setup instructions and guides for all mandatory and recommended tools.

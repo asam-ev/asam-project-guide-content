@@ -1,0 +1,92 @@
+
+
+
+// Icon sizes
+:icon-width-large: 120
+:icon-width-small: 60
+:icon-width-medium: 80
+
+// Other
+:openx-calendar-mail: openx@asam.net
+:return-info: ->Home<-
+
+// Internal links
+:basic-tooling-xref: xref:contributing:
+:standard-tooling-xref: xref:compendium:Tools/
+:drawio-xref: {standard-tooling-xref}drawio.adoc
+:calendar-xref: {standard-tooling-xref}calendar.adoc
+:sharepoint-xref: {standard-tooling-xref}teams-and-sharepoint.adoc
+:vscode-xref: {standard-tooling-xref}vscode.adoc
+:docker-xref: {standard-tooling-xref}docker.adoc
+:teams-xref: {standard-tooling-xref}teams-and-sharepoint.adoc
+:git-xref: {standard-tooling-xref}git.adoc
+:filestage-xref: {standard-tooling-xref}filestage.adoc
+:remote-xref: {basic-tooling-xref}remote_repo.adoc
+
+// External links
+//--Access--
+:drawio-url: https://app.diagrams.net/?splash=0&clibs=Uhttps%3A%2F%2Fcode.asam.net%2Fcommon%2Fasam-graphic-library%2F-%2Fraw%2Fmaster%2FASAM_graphics_library.xml
+:calendar-url: https://outlook.office365.com/calendar/published/1e9807ec9a8f420fb5b010cd17f4ef0b@asam.net/dd82caebcf5a4c51b22c5eb9a0b220ea3378152309461979582/calendar.html
+:sharepoint-url: https://asamev.sharepoint.com/Freigegebene%20Dokumente/Forms/AllItems.aspx
+
+//--Downloads--
+:vscode-url: https://code.visualstudio.com/download
+:docker-url: https://docs.docker.com/get-docker/
+:drawio-download: https://github.com/jgraph/drawio-desktop/releases
+:teams-url: https://www.microsoft.com/en-us/microsoft-teams/download-app
+:git-url: https://git-scm.com/download/win
+:filestage-url: https://filestage.io/de/
+
+// Images
+:setup-image: https://cdn-icons-png.flaticon.com/128/4411/4411634.png
+:guide-image: https://cdn-icons-png.flaticon.com/512/2618/2618595.png
+:troubleshooting-image: https://cdn-icons-png.flaticon.com/512/868/868834.png
+:best-practices-image: https://cdn-icons-png.flaticon.com/512/2996/2996987.png
+:docker-image: https://www.docker.com/sites/default/files/d8/2019-07/Moby-logo.png
+:calendar-image: https://cdn-icons-png.flaticon.com/512/860/860794.png
+:vscode-image: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/240px-Visual_Studio_Code_1.35_icon.svg.png
+:drawio-image: https://dashboard.snapcraft.io/site_media/appmedia/2019/08/android-chrome-512x512.png
+:teams-image: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Microsoft_Office_Teams_%282018%E2%80%93present%29.svg/1200px-Microsoft_Office_Teams_%282018%E2%80%93present%29.svg.png
+:sharepoint-image: https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Microsoft_Office_SharePoint_%282019%E2%80%93present%29.svg/2000px-Microsoft_Office_SharePoint_%282019%E2%80%93present%29.svg.png
+:git-image: https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/240px-Git_icon.svg.png
+:filestage-image: https://gdm-catalog-fmapi-prod.imgix.net/ProductLogo/bece1180-03e3-4373-a2d5-aeb7385297cc.png?auto=format&q=50&w=80&h=80&fit=max&dpr=3
+
+// Icons (combined information)
+//--Tool icons--
+:remote-icon: image:contributing:remote.png[alt="Remote Repository Icon", title="Remote Repository Page", width={icon-width-large},role=right]
+:github-icon: {github-url}[image:contributing:github-icon.png[alt="GitHub Icon", title="Github Page", width={icon-width-large},role=right] ,window=_blank]
+:gitlab-icon: {gitlab-url}[image:contributing:gitlab-icon.png[alt="GitLab Icon", title="GitLab Page", width={icon-width-large},role=right] ,window=_blank]
+:calendar-icon: {calendar-url}[image:{calendar-image}[alt="OpenX Calendar Icon",title="OpenX Calendar Page",width={icon-width-large},role=right] ,window=_blank]
+:git-icon: {git-url}[image:{git-image}[alt=Git,title="Git Page", width={icon-width-large}, role=right] ,window=_blank]
+:vscode-icon: {vscode-url}[image:{vscode-image}[alt=Visual Studio Code, title="Visual Studio Code Page", width={icon-width-large}, role=right] ,window=_blank]
+:docker-icon: {docker-url}[image:{docker-image}[alt=Docker, title="Docker Page", width={icon-width-large}, role=right] ,window=_blank]
+:drawio-icon: {drawio-url}[image:{drawio-image}[alt=Draw.io, title="Draw.io Page", width={icon-width-large}, role=right] ,window=_blank]
+:teams-icon: {teams-url}[image:{teams-image}[alt=Microsoft Teams, title="Microsoft Teams Page", width={icon-width-large}, role=right] ,window=_blank]
+:sharepoint-icon: {sharepoint-url}[image:{sharepoint-image}[alt=Microsoft Sharepoint, title="Microsoft Sharepoint Page", width={icon-width-large}, role=right] ,window=_blank]
+:filestage-icon: {filestage-url}[image:{filestage-image}[alt=Filestage, title="Filestage Page", width={icon-width-large}, role=right] ,window=_blank]
+
+//--Tool page icons--
+:remote-icon-page: {remote-xref}[image:contributing:remote.png[alt="Remote Repository Icon", title={return-info}, width={icon-width-medium},role=right]]
+:github-icon-page: {remote-xref}[image:contributing:github-icon.png[alt="GitHub Icon", title={return-info}, width={icon-width-medium},role=right]]
+:gitlab-icon-page: {remote-xref}[image:contributing:gitlab-icon.png[alt="GitLab Icon", title={return-info}, width={icon-width-medium},role=right]]
+:calendar-icon-page: {calendar-xref}[image:{calendar-image}[alt="OpenX Calendar Icon", title={return-info},width={icon-width-medium},role=right]]
+:git-icon-page: {git-xref}[image:{git-image}[alt=Git, title={return-info}, width={icon-width-medium}, role=right]]
+:vscode-icon-page: {vscode-xref}[image:{vscode-image}[alt=Visual Studio Code, title={return-info}, width={icon-width-medium}, role=right]]
+:docker-icon-page: {docker-xref}[image:{docker-image}[alt=Docker, title={return-info}, width={icon-width-medium}, role=right]]
+:drawio-icon-page: {drawio-xref}[image:{drawio-image}[alt=Draw.io, title={return-info}, width={icon-width-medium}, role=right]]
+:teams-icon-page: {teams-xref}[image:{teams-image}[alt=Microsoft Teams, title={return-info}, width={icon-width-medium}, role=right]]
+:sharepoint-icon-page: {sharepoint-xref}[image:{sharepoint-image}[alt=Microsoft Sharepoint, title={return-info}, width={icon-width-medium}, role=right]]
+:filestage-icon-page: {filestage-xref}[image:{filestage-image}[alt=Filestage, title={return-info}, width={icon-width-medium}, role=right]]
+
+//--Icons for tables and references--
+:remote-icon-norole: {remote-xref}[image:contributing:remote.png[alt="Remote Repository Icon", width={icon-width-small}]]
+:github-icon-norole: {remote-xref}[image:contributing:github-icon.png[alt="GitHub Icon",width={icon-width-small}]]
+:gitlab-icon-norole: {remote-xref}[image:contributing:gitlab-icon.png[alt="GitLab Icon", width={icon-width-small}]]
+:calendar-icon-norole: {calendar-xref}[image:{calendar-image}[alt="OpenX Calendar Icon",width={icon-width-small}]]
+:git-icon-norole: {git-xref}[image:{git-image}[alt=Git, width={icon-width-small}]]
+:vscode-icon-norole: {vscode-xref}[image:{vscode-image}[alt=Visual Studio Code, width={icon-width-small}]]
+:docker-icon-norole: {docker-xref}[image:{docker-image}[alt=Docker, width={icon-width-small}]]
+:drawio-icon-norole: {drawio-xref}[image:{drawio-image}[alt=Draw.io, width={icon-width-small}]]
+:teams-icon-norole: {teams-xref}[image:{teams-image}[alt=Microsoft Teams, width={icon-width-small}]]
+:sharepoint-icon-norole: {sharepoint-xref}[image:{sharepoint-image}[alt=Microsoft Sharepoint, width={icon-width-small}]]
+:filestage-icon-norole: {filestage-xref}[image:{filestage-image}[alt=Filestage, width={icon-width-small}]]

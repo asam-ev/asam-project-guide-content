@@ -1,0 +1,10 @@
+= Development Cycle -- Review
+:description: Describes what happens during a cycle review during the development phase.
+:keywords: development-cycle, review, development
+
+include::partial$_attributes.adoc[]
+
+
+include::compendium:How-Tos/how-to-cycle_review.adoc[tag=body]
+
+

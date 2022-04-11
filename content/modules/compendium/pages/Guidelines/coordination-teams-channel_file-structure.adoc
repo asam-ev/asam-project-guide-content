@@ -1,0 +1,35 @@
+= Teams Channels File Structure
+:description: Describes the standard teams channel structure at ASAM.
+:keywords: teams,channel,file-structure, READYFORREVIEW
+:navtitle: [Coordination] Teams Channels File Structure
+
+include::compendium:partial$_attributes.adoc[]
+
+{coordination-icon}
+
+//tag::body[]
+
+[source]
+----
+├───General(Allgemein)
+│   ├───admin
+│   │       Project_Participants.csv // list of all project participants + emails
+│   │       WP_Signups.xlsx // signup sheet for the WPs
+│   │
+│   └───meetings
+│       └───YYYY-MM-DD_MeetingTitle // All project meeting documents here
+│
+└───GroupName
+    ├───meetings
+    │   └───YYYY-MM-DD_MeetingTitle // All group meeting documents here
+    │
+    └───WorkPackage
+        └───WPXX_WPNAME
+            ├───development // Anything being worked on goes here
+            │               // (that doesnt yet belong on git)
+            │
+            └───meetings
+                └───YYYY-MM-DD_MeetingTitle // All WP meeting documents here
+----
+
+//end::body[]

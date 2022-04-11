@@ -1,0 +1,23 @@
+= Ticket Triage
+:description: Describes the process of ticket or issue triage.
+:keywords: triage, remote, issue
+:navtitle: [Workflow] Ticket Triage
+
+include::compendium:partial$_attributes.adoc[]
+
+{workflow-icon}
+
+//tag::body[]
+
+In ASAM projects, tasks are divided into individual issues.
+These can be distinguished by the xref:compendium:Guidelines/repo-issue_and_mr_labels.adoc[assigned labels].
+This enables a simpler and clearer processing of task packages. +
+These issues have to be maintained to keep an overview and to get a benefit from the use of issues.
+Experience has shown that unmaintained issues result in an unclear repository and therefore the open tasks cannot be clearly identified.
+Therefore, a process has been defined to get rid of unprocessed issues.
+
+include::compendium:partial$clean_issue.adoc[]
+
+image::compendium:ticket_triage.drawio.svg[]
+
+//end::body[]

@@ -3,7 +3,7 @@
 :keywords: linking,generated,project-guide,structure
 
 include::partial$_attributes.adoc[]
-include::{abb}[]
+
 
 {structure-icon}
 

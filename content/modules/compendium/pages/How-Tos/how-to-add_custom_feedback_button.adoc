@@ -1,0 +1,116 @@
+= How-To: Add Feedback Button In Antora Project
+:description: Describes how to add a custom feedback button to an Antora project.
+:keywords: antora,gitlab,github,service-desk, feedback, feedback-button, READYFORREVIEW
+
+include::compendium:partial$_attributes.adoc[]
+
+{how-to-icon}
+
+
+
+{role-gtm}
+
+:any-button:
+
+//Use :any-button: on page to display both gitlab and github solutions.
+//Use :gitlab-button: on page to only display gitlab solution.
+//Use :github-button: on page to only display github solution.
+
+//Use tag=short to show the default solution.
+//Use tag=long to show the full custom solution.
+
+
+//tag::short[]
+//Describes how to use the pre-defined button in a project.
+
+== Context
+If a review is carried out in an Antora-based project, a button for submitting feedback needs to be integrated in the Antora UI.
+
+ifdef::any-button[]
+This guide describes how to add the standard feedback button for both <<GitLab>> and <<GitHub>>.
+endif::[]
+ifdef::gitlab-button[]
+This guide only describes how to add the standard feedback button for GitLab Service Desk.
+endif::[]
+ifdef::github-button[]
+This guide only describes how to add the standard feedback button for GitHub.
+endif::[]
+
+== Result
+A feedback button that is accessible on every page is added to the Antora topbar and linked to the respective repository.
+
+== Prerequisites
+ifdef::any-button[]
+* (Only for GitLab) https://docs.gitlab.com/ee/user/project/service_desk.html[Service Desk^] must be set up
+endif::[]
+ifdef::gitlab-button[]
+* https://docs.gitlab.com/ee/user/project/service_desk.html[Service Desk^] must be set up
+endif::[]
+
+== How
+ifdef::any-button[]
+:button-attributes: tag=button, leveloffset=+1
+endif::[]
+ifdef::gitlab-button[]
+:button-attributes: tag=gitlab
+endif::[]
+ifdef::github-button[]
+:button-attributes: tag=github
+endif::[]
+
+include::compendium:partial$feedback_template_button.adoc[{button-attributes}]
+
+== Troubleshooting / Known Issues
+=== I want to add more features or a different template to my button
+See xref:compendium:How-Tos/how-to-add_custom_feedback_button.adoc[].
+
+//end::short[]
+
+
+//tag::long[]
+
+This guide describes how to create a button for sending reviews with a custom body using the "supplemental_ui/partials/header-content.hbs" file.
+It also explains the basic syntax of a button and links to external references for available attributes.
+
+The outline of the idea is:
+
+* Add a button to the header supplemental
+* Point the href to your target url (email or page)
+* Add the required parameters like title and body after a `?`
+
+What parameters are available depends on your target.
+For example, for the https://docs.gitlab.com/ee/user/project/service_desk.html[GitLab Service Desk^], you must add the issue template in text-form as https://css-tricks.com/snippets/html/mailto-links/#aa-adding-body-text[body^] here.
+For the https://docs.github.com/en/enterprise-server@3.1/issues/tracking-your-work-with-issues/creating-an-issue#creating-an-issue-from-a-url-query[GitHub URL query^], you can choose to either append a `template` file (markdown) or add the it directly as `body`.
+
+TIP: The href attribute value must be a valid url, i.e. be https://www.w3schools.com/tags/ref_urlencode.ASP[url encoded^].
+You can use an encoder like https://www.url-encode-decode.com/[this one^] to encode your body.
+
+== Syntax of a button
+Each UI button follows this syntax:
+
+include::compendium:partial$feedback_template_button.adoc[tag=syntax]
+
+== Create an email button
+TIP: This is usually used for GitLab.
+
+To create an email button, the `href` attribute must start with:
+
+include::compendium:partial$feedback_template_button.adoc[tag=mailto]
+
+. Add any number of supported https://css-tricks.com/snippets/html/mailto-links/[mailto attributes^], separated by `&`
+. Optional: Add the `text` attribute to the element for tooltips or other supported https://www.w3schools.com/tags/tag_a.asp[<a>-tag attributes^]
+. Add the label of the button (see <<Syntax of a button>>)
+
+== Create a GitHub issue link
+To create a page link, the `href` attribute must start with:
+
+include::compendium:partial$feedback_template_button.adoc[tag=page-link]
+
+. Add any number of supported https://docs.github.com/en/enterprise-server@3.1/issues/tracking-your-work-with-issues/creating-an-issue#creating-an-issue-from-a-url-query[GitHub URL attributes^]
+. Optional: Add the `text` attribute to the element for tooltips or other supported https://www.w3schools.com/tags/tag_a.asp[<a>-tag attributes^]
+. Add the label of the button (see <<Syntax of a button>>)
+
+//end::long[]
+
+
+related::feedback-button[]

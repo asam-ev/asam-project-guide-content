@@ -3,7 +3,7 @@
 :keywords: webinar, REVIEWED_OK
 
 include::partial$_attributes.adoc[]
-include::{abb}[]
+
 
 {role-standard-user}
 

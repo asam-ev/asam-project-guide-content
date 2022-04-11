@@ -1,0 +1,41 @@
+= Draw.io
+:description: A summary page describing what Draw.io is and where to find related information, guides etc.
+:keywords: drawio,summary,tool,recommended,READYFORREVIEW
+
+include::partial$_attributes.adoc[]
+include::contributing:partial$_attributes.adoc[]
+
+
+{recommended}
+
+include::contributing:partial$icon_reminder.adoc[tag=online-access]
+
+{drawio-icon}
+
+Draw.io is a free tool for creating diagrams.
+The tool can be downloaded and run locally (as {drawio-download}[Draw.io Desktop^]), accessed through a web browser (through {drawio-url}[Draw.io web link with ASAM library^]), or be used through the Visual Studio Code extension (id: hediet.vscode-drawio).
+
+**ASAM recommends using the link:{drawio-url}[web app^].**
+
+TIP: It is recommended to use the VS Code extension and Draw.io Desktop *only* for viewing diagrams and making small alterations, not creating them or making bigger changes.
+The reason is that the ASAM library cannot be integrated directly as of now into the extension solution.
+
+
+== Draw.io At ASAM
+ASAM uses Draw.io for creating custom diagrams for standards and documentation.
+
+== Content
+
+
+[cols="^1h,4",frame=none, grid=rows, stripes=hover]
+|===
+
+|xref:compendium:Tools/drawio/drawio-setup.adoc[image:{setup-image}[width=120,title="Draw.io Setup"]]
+|Draw.io Setup
+
+|xref:compendium:Tools/drawio/drawio-guides.adoc[image:{guide-image}[width=120,title="Draw.io Guides"]]
+|Draw.io Guides
+
+|===
+
+related::docker,!summary[]

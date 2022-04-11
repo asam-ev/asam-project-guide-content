@@ -3,6 +3,6 @@
 :keywords: proposal, setup
 
 include::partial$_attributes.adoc[]
-include::{abb}[]
 
-include::compendium:page$ASAM/phase-02_proposal/how-to__setup_proposal_git.adoc[tag=body]
+
+include::compendium:page$How-Tos/how-to-setup_proposal_git.adoc[tag=body]

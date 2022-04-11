@@ -1,0 +1,33 @@
+
+// TYPE LABELS
+:feature-label: pass:[<label style="background: #428BCA; color: white">Feature</label>]
+:bug-label: pass:[<label style="background: #8E44AD; color:white">Bug</label>]
+:generalquestion-label: pass:[<label style="background: #D1D100; color:black">GeneralQuestion</label>]
+:build-label: pass:[<label style="background: #A295D6; color:black">Build</label>]
+:concept-label: pass:[<label style="background: #A8D695; color:black">Concept</label>]
+
+// VARIANT LABELS
+:major-label: pass:[<label style="background: Red; color: white">MAJOR</label>]
+:minor-label: pass:[<label style="background: #F0AD4E; color: white">MINOR</label>]
+:patch-label: pass:[<label style="background: #69D100; color: white">PATCH</label>]
+
+// STATUS LABELS
+:analysis-label: pass:[<label style="background: Purple; color: white">Analysis</label>]
+:implementation-label: pass:[<label style="background: #AD8D43; color:white">Implementation</label>]
+:internalreview-label: pass:[<label style="background: #009966; color:white">InternalReview</label>]
+:needccbreview-label: pass:[<label style="background: Red; color:white">NeedsCCBReview</label>]
+:documentation-label: pass:[<label style="background: SteelBlue; color:white">Documentation (Editorial Changes)</label>]
+:readytomerge-label: pass:[<label style="background: #D10069; color:white">ReadyToMerge</label>]
+:duplicate-label: pass:[<label style="background: Blue; color:white">Duplicate</label>]
+:wontfix-label: pass:[<label style="background: #FFECDB; color:black">WontFix</label>]
+
+
+// RELEVANCE LABELS
+:activeissue-label: pass:[<label style="background: Green; color: white">ACTIVE_ISSUE</label>]
+:backlog-label: pass:[<label style="background: Grey; color: white">BACKLOG</label>]
+
+// PROPOSAL PHASE LABELS
+:proposal-label: pass:[<label style="background: Grey; color: white">PROPOSAL</label>]
+
+// REVIEW PHASE LABELS
+:review-label: pass:[<label style="background: Red; color: white">Review</label>]

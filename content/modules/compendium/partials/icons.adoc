@@ -1,0 +1,12 @@
+
+:compendium-icon-width: width=80
+:icon-uri: compendium:icons
+
+:asciidoc-icon: image:{icon-uri}/asciidoc.png[{compendium-icon-width}, role=right]
+:coordination-icon: image:{icon-uri}/coordination.png[{compendium-icon-width}, role=right]
+:repo-icon: image:https://cdn-icons-png.flaticon.com/512/4727/4727488.png[{compendium-icon-width}, role=right]
+:vscode-icon: image:https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg[{compendium-icon-width}, role=right]
+:workflow-icon: image:https://cdn-icons-png.flaticon.com/512/3078/3078895.png[{compendium-icon-width}, role=right]
+:how-to-icon: image:{icon-uri}/how-to.jpg[{compendium-icon-width}, role=right]
+:template-icon: image:https://cdn-icons-png.flaticon.com/512/1375/1375170.png[{compendium-icon-width}, role=right]
+:term-icon: image:{icon-uri}/term.svg[{compendium-icon-width}, role=right]

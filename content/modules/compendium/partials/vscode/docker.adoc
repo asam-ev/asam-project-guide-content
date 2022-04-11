@@ -1,6 +1,0 @@
-
-The Docker extension lets you directly interact with Docker through Visual Studio Code.
-You can run, for example, the docker-compose.yml directly without having to open a console or using Docker Desktop.
-
-.Docker (id: ms-azuretools.vscode-docker)
-image::compendium:docker_ext.png[alt=Search and find the extension 'Docker']

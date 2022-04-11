@@ -4,7 +4,7 @@
 :processes:
 
 include::partial$_attributes.adoc[]
-include::{abb}[]
+
 include::ROOT:partial$_attributes.adoc[]
 
 {getting-involved-icon}

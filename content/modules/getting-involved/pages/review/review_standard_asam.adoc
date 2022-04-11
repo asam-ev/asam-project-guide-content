@@ -3,6 +3,6 @@
 :keywords: review, REVIEWED_OK
 
 include::partial$_attributes.adoc[]
-include::{abb}[]
 
-include::compendium:page$ASAM/phase-04_review/how-to__review_standard_asam.adoc[tag=body]
+
+include::compendium:page$How-Tos/how-to-review_standard_asam.adoc[tag=body]

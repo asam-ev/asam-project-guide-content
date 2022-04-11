@@ -1,0 +1,29 @@
+= Start Contributing
+:description: Gives an overview over the mandatory and recommended tools most commonly used in ASAM projects.
+:keywords: overview,tools,landing_page,tools-overview,READYFORREVIEW
+:no-installation: xref:working-without-software-installation.adoc[]
+:page-aliases: overview.adoc
+:contributing:
+
+include::contributing:partial$_attributes.adoc[]
+include::ROOT:partial$_attributes.adoc[]
+
+
+{contributing-icon}
+
+include::partial$module-description.adoc[]
+
+---
+
+IMPORTANT: Most roles can contribute by **{no-installation}**.
+
+Contributing at ASAM is easy: you only need a web browser!
+
+All tools that are required for participating in ASAM projects are hosted online and can be accessed through any web browser.
+You only need to set up you account and can start right away.
+
+// == Content
+
+// include::../nav.adoc[lines=2..-1]
+
+include::ROOT:partial$landing_page_referral.adoc[]

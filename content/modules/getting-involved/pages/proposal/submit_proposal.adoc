@@ -3,6 +3,6 @@
 :keywords: proposal
 
 include::partial$_attributes.adoc[]
-include::{abb}[]
 
-include::compendium:page$ASAM/phase-02_proposal/how-to__submit_proposal.adoc[tag=body]
+
+include::compendium:page$How-Tos/how-to-submit_proposal.adoc[tag=body]

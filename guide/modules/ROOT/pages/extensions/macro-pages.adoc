@@ -4,7 +4,7 @@
 :page-aliases: macros/macro-pages.adoc
 
 include::partial$_attributes.adoc[]
-include::{abb}[]
+
 
 {special-macros-icon}
 

@@ -107,6 +107,21 @@ a| image::https://cdn-icons-png.flaticon.com/512/681/681443.png[width=40]
 <a href="https://www.flaticon.com/free-icons/people" title="people icons">People icons created by Freepik - Flaticon</a>
 +++
 
+a| image::https://cdn-icons-png.flaticon.com/512/3078/3078895.png[width=40]
+|+++
+<a href="https://www.flaticon.com/free-icons/process" title="process icons">Process icons created by Becris - Flaticon</a>
++++
+
+a| image::https://cdn-icons-png.flaticon.com/512/1375/1375170.png[width=40]
+|+++
+<a href="https://www.flaticon.com/free-icons/stamp" title="stamp icons">Stamp icons created by Freepik - Flaticon</a>
++++
+
+a| image::https://cdn-icons-png.flaticon.com/512/4727/4727488.png[width=40]
+|+++
+<a href="https://www.flaticon.com/free-icons/repository" title="repository icons">Repository icons created by Flat Icons - Flaticon</a>
++++
+
 |===
 
 // Template

@@ -16,13 +16,13 @@ The ASAM Antora extension, in combination with the sectnumsoffset_antora extensi
 To use this feature, add `numbered_titles: true` to the Antora extension configuration.
 
 The extension only considers images and tables if they are anchored with the correct anchor type (`[#fig-...]`, `[#tab-...]`).
-See the xref:latest@asamprojectguide:compendium:writing_guidelines/editorial_guide.adoc[] for detailed requirements on each anchor type.
+See the xref:latest@asamprojectguide:compendium:Guidelines/editorial_guide.adoc[] for detailed requirements on each anchor type.
 
 //end::how[]
 
-//tag::prerequisites[]
-* All relevant figures must have an xref:latest@asamprojectguide:compendium:writing_guidelines/editorial_guide.adoc[ASAM-type anchor]
-* All relevant tables must have an xref:latest@asamprojectguide:compendium:writing_guidelines/editorial_guide.adoc[ASAM-type anchor]
+//tag::prerequisits[]
+* All relevant figures must have an xref:latest@asamprojectguide:compendium:Guidelines/editorial_guide.adoc[ASAM-type anchor]
+* All relevant tables must have an xref:latest@asamprojectguide:compendium:Guidelines/editorial_guide.adoc[ASAM-type anchor]
 * All irrelevant figures and tables must not have a title
 * All relevant pages are in the navigation tree
 //end::prerequisites[]

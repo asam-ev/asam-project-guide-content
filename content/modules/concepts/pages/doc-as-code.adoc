@@ -3,7 +3,7 @@
 :keywords: concept
 
 include::partial$_attributes.adoc[]
-include::{abb}[]
+
 
 {doc-as-code-icon}
 
@@ -60,7 +60,7 @@ image::asciidoc_example-output.png[title=The same Foreword section rendered by A
 ====
 
 TIP: If you want to learn more about AsciiDoc and how to use its powers in writing technical documents, see the official https://docs.asciidoctor.org/asciidoc/latest/[**AsciiDoc Language Documentation**^] and the https://asciidoctor.org/docs/asciidoc-writers-guide/[Asciidoctor Writers Guide]. +
-Specific ASAM writing styles and rules can be found in the xref:compendium:writing_guidelines/editorial_guide.adoc[**Editorial Guide**].
+Specific ASAM writing styles and rules can be found in the xref:compendium:Guidelines/editorial_guide.adoc[**Editorial Guide**].
 
 
 [#sec-versioning-repo]
@@ -79,13 +79,13 @@ This is done through a so-called Merge Request (MR), sometimes called a Pull Req
 
 image::example-repo-workflow.drawio.svg[title=Repository workflow and branching example.]
 
-NOTE: The strategy of having one main branch (trunk) and develop changes in separate branches is called trunk-based development and the quasi-standard of modern software development.
+NOTE: The strategy of having one main branch (trunk) and develop changes in separate branches is called xref:compendium:Guidelines/workflow-trunk.adoc[**trunk-based development**] and the quasi-standard of modern software development.
 
 These repositories also contain some files with information about the history and current state of the content.
 The repository information is updated and used by Git and usually needs not to be changed by users manually.
 
 TIP: If you want to learn more about Git itself, ASAM recommends online introductions and tutorials such as https://rogerdudler.github.io/git-guide/[**this one**^].
-Additionally, you can find more information on using Git and working with repositories at ASAM in the xref:tooling:git.adoc[tooling section].
+Additionally, you can find more information on using Git and working with repositories at ASAM in the xref:compendium:Tools/git.adoc[tooling section].
 
 
 [#sec-online-collaboration]
@@ -98,7 +98,7 @@ In addition to that, they also integrate the same versioning and repository aspe
 
 Using online collabartion platforms with repository support provide multiple benefits:
 
-* They typically provide online editors for content, so users can choose to participate in projects xref:tooling:working-without-software-installation.adoc[without having to install software] (besides any standard web browser)
+* They typically provide online editors for content, so users can choose to participate in projects xref:contributing:working-without-software-installation.adoc[without having to install software] (besides any standard web browser)
 * Merge Requests (Pull Requests) can be reviewed and commented on with a side-by-side preview in the browser (diff view)
 * They act as central repository location for the project(s) that can be accessed from anywhere (provided the user has sufficient rights), so all involved people always have access to the latest submitted changes
 * They enable central automation steps through xref:pipeline_details.adoc[CI/CD pipelines], for example automated writing rules checks on a document after it was updated

@@ -3,7 +3,7 @@
 :keywords: project-guide, TODO
 
 include::partial$_attributes.adoc[]
-include::{abb}[]
+
 
 {changes-icon}
 

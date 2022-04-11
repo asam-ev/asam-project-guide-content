@@ -1,0 +1,3 @@
+
+NOTE: This is a Full Project Meeting.
+The xref:compendium:Guidelines/coordination-full-project_meeting_guidelines.adoc[] apply.

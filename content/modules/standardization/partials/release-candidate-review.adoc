@@ -6,21 +6,21 @@
 |To review the deliverables, to clarify open questions, and to come to an individual conclusion about the release-worthiness of the release candidate.
 
 |Responsible
-|__{tsc}__
+|TSC
 
 |Involved
 |Office
 |===
 // end::table[]
-The __{tsc}__ members review the release with special focus on the changes.
-They shall clarify open question with the project leader prior to the __{tsc}__ meeting.
-__{tsc}__ members shall make up their mind, whether the release candidate is ready for publication.
+The TSC members review the release with special focus on the changes.
+They shall clarify open question with the Project Leader prior to the TSC meeting.
+TSC members shall make up their mind, whether the release candidate is ready for publication.
 
 The minimum review period for release candidates is four weeks.
 
 // end::long[]
 
 //tag::short[]
-The __{tsc}__ reviews the release candidate.
+The TSC reviews the release candidate.
 The minimum review period is four weeks.
 //end::short[]

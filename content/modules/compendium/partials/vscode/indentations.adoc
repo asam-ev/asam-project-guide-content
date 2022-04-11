@@ -1,7 +1,0 @@
-
-image::compendium:vscode-settings-indent.png[]
-. Open the xref:compendium:tools/vscode/vscode_command-palette.adoc[][]
-. Type "user settings" and confirm with Enter
-. Search for "indent" in the user settings
-. Enable "Insert Spaces"
-. Set "Tab Size" to 4

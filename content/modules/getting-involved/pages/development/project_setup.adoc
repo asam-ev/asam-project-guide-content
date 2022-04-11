@@ -1,0 +1,7 @@
+= Project Setup
+:description: Describes how to set up a (new) project repository for the Development phase.
+:keywords: setup, development
+
+include::partial$_attributes.adoc[]
+
+include::compendium:page$How-Tos/how-to-setup_development_git.adoc[tag=body]

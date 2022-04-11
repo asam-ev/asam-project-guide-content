@@ -1,5 +1,5 @@
-= Service provider
-:description: Summary and landing page for service providers.
+= Service Provider
+:description: Summary and landing page for Service Providers.
 :keywords: role, role-landing-page, TODO
 
 include::partial$_attributes.adoc[]
@@ -18,7 +18,7 @@ Label:: {role-service-provider}
 == Responsibilities
 * TODO
 
-== Typical roles as a service provider
+== Typical roles as a Service Provider
 TODO
 
 === Act as technical writer
