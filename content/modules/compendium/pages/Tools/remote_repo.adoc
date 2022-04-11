@@ -62,12 +62,12 @@ a|* Document control during standard development
 [cols="^1h,4",frame=none, grid=rows, stripes=hover]
 |===
 
-|xref:compendium:Tools/remote_repo/compendium:Tools/remote_repo_setup.adoc[image:{setup-image}[width=120,title="Remote Repository Account Setup"]] +
-xref:compendium:Tools/remote_repo/compendium:Tools/remote_repo_setup.adoc[Setup]
+|xref:compendium:Tools/remote_repo/remote_repo_setup.adoc[image:{setup-image}[width=120,title="Remote Repository Account Setup"]] +
+xref:compendium:Tools/remote_repo/remote_repo_setup.adoc[Setup]
 |Contains instructions on how to set up your account for the respective remote repository.
 
-|xref:compendium:Tools/remote_repo/compendium:Tools/remote_repo_guides.adoc[image:{guide-image}[width=120,title="Remote Repository Guides"]] +
-xref:compendium:Tools/remote_repo/compendium:Tools/remote_repo_guides.adoc[Guides]
+|xref:compendium:Tools/remote_repo/remote_repo_guides.adoc[image:{guide-image}[width=120,title="Remote Repository Guides"]] +
+xref:compendium:Tools/remote_repo/remote_repo_guides.adoc[Guides]
 |Contains guides and instructions for using the respective remote repository.
 
 |===
