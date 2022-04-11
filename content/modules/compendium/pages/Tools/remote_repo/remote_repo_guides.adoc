@@ -2,7 +2,11 @@
 :description: Collects all types of important GitLab guides
 :keywords: guides,gitlab
 
-include::partial$_attributes.adoc[]
+
+//tag::body[]
+include::compendium:partial$_attributes.adoc[]
+include::contributing:partial$_attributes.adoc[]
+
 
 
 {remote-icon-page}
@@ -54,3 +58,5 @@ include::compendium:page$How-Tos/how-to-forking_repo.adoc[leveloffset=+2, tag=!c
 
 == Conventions
 reference::repo_convention[]
+
+//end::body[]

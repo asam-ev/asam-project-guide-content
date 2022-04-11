@@ -98,7 +98,7 @@ In addition to that, they also integrate the same versioning and repository aspe
 
 Using online collabartion platforms with repository support provide multiple benefits:
 
-* They typically provide online editors for content, so users can choose to participate in projects xref:contributing:working-without-software-installation.adoc[without having to install software] (besides any standard web browser)
+* They typically provide online editors for content, so users can choose to participate in projects xref:contributing:main.adoc[without having to install software] (besides any standard web browser)
 * Merge Requests (Pull Requests) can be reviewed and commented on with a side-by-side preview in the browser (diff view)
 * They act as central repository location for the project(s) that can be accessed from anywhere (provided the user has sufficient rights), so all involved people always have access to the latest submitted changes
 * They enable central automation steps through xref:pipeline_details.adoc[CI/CD pipelines], for example automated writing rules checks on a document after it was updated

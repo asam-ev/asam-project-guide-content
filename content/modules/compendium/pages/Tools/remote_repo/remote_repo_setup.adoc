@@ -2,7 +2,11 @@
 :description: How to setup your ASAM account.
 :keywords: task,fragment,setup,gitlab, github,account
 
-include::partial$_attributes.adoc[]
+//tag::body[]
+
+include::compendium:partial$_attributes.adoc[]
+include::contributing:partial$_attributes.adoc[]
+
 
 
 {remote-icon-page}
@@ -38,3 +42,5 @@ a|include::compendium:page$How-Tos/how-to-github-setup.adoc[tag=body]
 |===
 --
 ====
+
+//end::body[]

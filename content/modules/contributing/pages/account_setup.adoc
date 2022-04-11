@@ -4,4 +4,4 @@
 
 include::partial$_attributes.adoc[]
 
-include::compendium:Tools/remote_repo/remote_repo_setup.adoc[leveloffset=+1]
+include::compendium:Tools/remote_repo/remote_repo_setup.adoc[tag=body]

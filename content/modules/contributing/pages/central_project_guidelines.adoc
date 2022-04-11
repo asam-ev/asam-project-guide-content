@@ -3,3 +3,5 @@
 :keywords: any
 
 include::partial$_attributes.adoc[]
+
+include::compendium:Tools/remote_repo/remote_repo_guides.adoc[tag=body]

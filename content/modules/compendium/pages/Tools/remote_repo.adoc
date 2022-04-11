@@ -2,7 +2,9 @@
 :description: A summary page describing what online repository platforms are, which are supported by ASAM, and where to find related information, guides etc.
 :keywords: gitlab, github,summary,tool,mandatory
 
-include::partial$_attributes.adoc[]
+include::compendium:partial$_attributes.adoc[]
+include::contributing:partial$_attributes.adoc[]
+
 
 
 {mandatory}

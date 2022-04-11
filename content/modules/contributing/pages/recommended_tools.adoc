@@ -12,7 +12,7 @@ Some people may prefer to work on project content locally, using docker images o
 Every project member may decide to do so as long as this does not prevent the other project members from having the most recent content changes and topic discussions available to them.
 
 For many tasks, multiple different tools may be available.
-Each user may choose their own favorite setup as long as it is compatible with the xref:working-without-software-installation.adoc[Default Online Setup]. +
+Each user may choose their own favorite setup as long as it is compatible with the xref:main.adoc[Default Online Setup]. +
 ASAM recommends the following list of tools directly.
 Users using other tools cannot expect support by an ASAM representative for these.
 
