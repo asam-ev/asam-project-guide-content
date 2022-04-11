@@ -1,0 +1,5 @@
+= Central Project Guidelines
+:description: any
+:keywords: any
+
+include::partial$_attributes.adoc[]

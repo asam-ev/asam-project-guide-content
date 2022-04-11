@@ -11,7 +11,6 @@
 :return-info: ->Home<-
 
 // Internal links
-:basic-tooling-xref: xref:contributing:
 :standard-tooling-xref: xref:compendium:Tools/
 :drawio-xref: {standard-tooling-xref}drawio.adoc
 :calendar-xref: {standard-tooling-xref}calendar.adoc
@@ -21,7 +20,7 @@
 :teams-xref: {standard-tooling-xref}teams-and-sharepoint.adoc
 :git-xref: {standard-tooling-xref}git.adoc
 :filestage-xref: {standard-tooling-xref}filestage.adoc
-:remote-xref: {basic-tooling-xref}remote_repo.adoc
+:remote-xref: {standard-tooling-xref}remote_repo.adoc
 
 // External links
 //--Access--
@@ -53,9 +52,9 @@
 
 // Icons (combined information)
 //--Tool icons--
-:remote-icon: image:contributing:remote.png[alt="Remote Repository Icon", title="Remote Repository Page", width={icon-width-large},role=right]
-:github-icon: {github-url}[image:contributing:github-icon.png[alt="GitHub Icon", title="Github Page", width={icon-width-large},role=right] ,window=_blank]
-:gitlab-icon: {gitlab-url}[image:contributing:gitlab-icon.png[alt="GitLab Icon", title="GitLab Page", width={icon-width-large},role=right] ,window=_blank]
+:remote-icon: image:compendium:remote.png[alt="Remote Repository Icon", title="Remote Repository Page", width={icon-width-large},role=right]
+:github-icon: {github-url}[image:compendium:github-icon.png[alt="GitHub Icon", title="Github Page", width={icon-width-large},role=right] ,window=_blank]
+:gitlab-icon: {gitlab-url}[image:compendium:gitlab-icon.png[alt="GitLab Icon", title="GitLab Page", width={icon-width-large},role=right] ,window=_blank]
 :calendar-icon: {calendar-url}[image:{calendar-image}[alt="OpenX Calendar Icon",title="OpenX Calendar Page",width={icon-width-large},role=right] ,window=_blank]
 :git-icon: {git-url}[image:{git-image}[alt=Git,title="Git Page", width={icon-width-large}, role=right] ,window=_blank]
 :vscode-icon: {vscode-url}[image:{vscode-image}[alt=Visual Studio Code, title="Visual Studio Code Page", width={icon-width-large}, role=right] ,window=_blank]
@@ -66,9 +65,9 @@
 :filestage-icon: {filestage-url}[image:{filestage-image}[alt=Filestage, title="Filestage Page", width={icon-width-large}, role=right] ,window=_blank]
 
 //--Tool page icons--
-:remote-icon-page: {remote-xref}[image:contributing:remote.png[alt="Remote Repository Icon", title={return-info}, width={icon-width-medium},role=right]]
-:github-icon-page: {remote-xref}[image:contributing:github-icon.png[alt="GitHub Icon", title={return-info}, width={icon-width-medium},role=right]]
-:gitlab-icon-page: {remote-xref}[image:contributing:gitlab-icon.png[alt="GitLab Icon", title={return-info}, width={icon-width-medium},role=right]]
+:remote-icon-page: {remote-xref}[image:compendium:remote.png[alt="Remote Repository Icon", title={return-info}, width={icon-width-medium},role=right]]
+:github-icon-page: {remote-xref}[image:compendium:github-icon.png[alt="GitHub Icon", title={return-info}, width={icon-width-medium},role=right]]
+:gitlab-icon-page: {remote-xref}[image:compendium:gitlab-icon.png[alt="GitLab Icon", title={return-info}, width={icon-width-medium},role=right]]
 :calendar-icon-page: {calendar-xref}[image:{calendar-image}[alt="OpenX Calendar Icon", title={return-info},width={icon-width-medium},role=right]]
 :git-icon-page: {git-xref}[image:{git-image}[alt=Git, title={return-info}, width={icon-width-medium}, role=right]]
 :vscode-icon-page: {vscode-xref}[image:{vscode-image}[alt=Visual Studio Code, title={return-info}, width={icon-width-medium}, role=right]]
@@ -79,9 +78,9 @@
 :filestage-icon-page: {filestage-xref}[image:{filestage-image}[alt=Filestage, title={return-info}, width={icon-width-medium}, role=right]]
 
 //--Icons for tables and references--
-:remote-icon-norole: {remote-xref}[image:contributing:remote.png[alt="Remote Repository Icon", width={icon-width-small}]]
-:github-icon-norole: {remote-xref}[image:contributing:github-icon.png[alt="GitHub Icon",width={icon-width-small}]]
-:gitlab-icon-norole: {remote-xref}[image:contributing:gitlab-icon.png[alt="GitLab Icon", width={icon-width-small}]]
+:remote-icon-norole: {remote-xref}[image:compendium:remote.png[alt="Remote Repository Icon", width={icon-width-small}]]
+:github-icon-norole: {remote-xref}[image:compendium:github-icon.png[alt="GitHub Icon",width={icon-width-small}]]
+:gitlab-icon-norole: {remote-xref}[image:compendium:gitlab-icon.png[alt="GitLab Icon", width={icon-width-small}]]
 :calendar-icon-norole: {calendar-xref}[image:{calendar-image}[alt="OpenX Calendar Icon",width={icon-width-small}]]
 :git-icon-norole: {git-xref}[image:{git-image}[alt=Git, width={icon-width-small}]]
 :vscode-icon-norole: {vscode-xref}[image:{vscode-image}[alt=Visual Studio Code, width={icon-width-small}]]

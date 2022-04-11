@@ -1,0 +1,7 @@
+= Remote Repository Account Setup
+:description: any
+:keywords: any
+
+include::partial$_attributes.adoc[]
+
+include::compendium:Tools/remote_repo/remote_repo_setup.adoc[leveloffset=+1]

@@ -18,7 +18,7 @@ Project Work::
 h|Name|Description|Usage|Location
 
 |{remote-icon-norole} +
-xref:contributing:remote_repo.adoc[]
+xref:compendium:Tools/remote_repo.adoc[]
 |All source code and standard relevant documentation.
 Issues relevant to deliverables should be created here.
 |{mandatory}
@@ -107,7 +107,7 @@ include::contributing:partial$icon_reminder.adoc[tag=info-page]
 h|Name|Description|Location
 
 |{remote-icon-norole} +
-xref:contributing:remote_repo.adoc[]
+xref:compendium:Tools/remote_repo.adoc[]
 |All source code and standard relevant documentation.
 Issues relevant to deliverables should be created here.
 |ASAM IT infrastructure
