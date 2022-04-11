@@ -52,4 +52,4 @@ Child pages then detail some aspects of the concept.
 
 |===
 
-include::ROOT:partial$landing_page_referral.adoc[]
+// include::ROOT:partial$landing_page_referral.adoc[]

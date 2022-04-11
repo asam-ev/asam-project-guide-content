@@ -74,4 +74,4 @@ Here, the TSC makes a final review and decides whether the deliverables can be r
 If the project is released and it was a Standard Development project, it now enters its Public phase.
 |===
 
-include::ROOT:partial$landing_page_referral.adoc[]
+// include::ROOT:partial$landing_page_referral.adoc[]
