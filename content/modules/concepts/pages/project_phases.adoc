@@ -30,8 +30,6 @@ During this phase, the idea is evaluated and fleshed out a bit until it is eithe
 In case the idea is accepted, the project moves on to the xref:getting-involved:proposal_phase.adoc[].
 
 Additional Information:: xref:getting-involved:ideation_phase.adoc[]
-
-
 --
 Proposal::
 +
@@ -46,7 +44,6 @@ With this document, the ASAM TSC decides if the project may continue or not. +
 If the go-ahead is given, the project continues on to the <<Development Phase>>.
 
 Additional Information:: xref:getting-involved:proposal_phase.adoc[]
-
 --
 Development::
 +
@@ -59,8 +56,6 @@ In the beginning, the project team organizes a workshop to specify their modus o
 This is followed by specifying, writing, and reviewing content internally until the document or documents are ready for a ASAM-internal or public review in the <<Review Phase>>.
 
 Additional Information:: xref:getting-involved:development_phase.adoc[]
-
-
 --
 Review::
 +
@@ -73,7 +68,6 @@ Any problems that are identified during any of these reviews are then analyzed a
 Important fixes have to be made before the deliverables are released, whilst improvements beyond the initial scope or minute details may be put off for future iterations.
 
 Additional Information:: xref:getting-involved:review_phase.adoc[]
-
 --
 Release::
 +
@@ -85,7 +79,6 @@ The project has now concluded.
 Developed and updated standards, however, will receive and process feedback afterwards in the <<Public Phase>>.
 
 Additional Information:: xref:getting-involved:release_phase.adoc[]
-
 --
 Public::
 +
@@ -97,8 +90,6 @@ There is no active development on the standard itself.
 However, feedback from users may still be gathered in order to start a follow-up project down the line to improve the standard.
 In this case, a new Project Proposal would be created and the process started anew. +
 If, however, the standard at some point becomes obsolete or deprecated, it enters its final phase: the <<Retirement Phase>>.
-
-
 --
 Retirement::
 +
@@ -108,7 +99,7 @@ include::getting-involved:partial$project_phases.adoc[tag=retirement]
 This phase is the final phase for every standard eventually.
 The standard has become obsolete and is retired.
 With this, it will no longer be supported and propagated by ASAM.
-
+--
 ====
 
 // == Ideation Phase

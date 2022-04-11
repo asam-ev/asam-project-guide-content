@@ -73,7 +73,11 @@ You may also want to check out ASAM's xref:compendium:Guidelines/repo-issue_and_
 
 ---
 
-=== Initial Setup
+[tabs]
+====
+Initial Setup::
++
+--
 [horizontal]
 Who:: {role-wg-lead}
 Steps::
@@ -87,10 +91,10 @@ Tips::
 * Create sub-issues in case an issue contains too much content for a short-lived implementation
 * It may be necessary to create new issues during development as well, as new knowledge and information comes up.
 These have the same requirements and steps as those created at the beginning
-
----
-
-=== Analysis
+--
+Analysis::
++
+--
 [horizontal]
 Who:: Assignee
 Steps::
@@ -102,10 +106,10 @@ Do this either directly via comments or in further meetings, adding the results 
 .. The WG Lead reviews the issue and either closes it (if it is a duplicate) or changes the status back to {analysis-label} and the assignee back to the original issue assignee
 Tips::
 * If analysis shows an issue to contain too many steps, create sub-issues to split the topic up further for faster content implementation
-
----
-
-=== Implementation
+--
+Implementation::
++
+--
 [horizontal]
 Who:: Assignee
 Steps::
@@ -132,13 +136,13 @@ This way, the Merge/Pull Request (and its branch) are already accessible through
 ** Adding "DRAFT: " in front of a Merge/Pull Request's name marks it as not ready for merge and disables the "Merge" button.
 This way, the Merge/Pull Request (and its branch) cannot be concluded by accident.
 * Mark passages which are not ready for viewing in the final output as draft (see xref:compendium:How-Tos/how-to-mark_parts_as_draft.adoc[])
-
----
-
-=== Review
+--
+Review::
++
+--
 The Review stage consists of the <<Internal Review>> and the <<Change Control Board Review>>
 
-==== Internal Review
+**Internal Review** +
 [horizontal]
 Who:: All {role-wg-member} & Implementers Forum
 Steps::
@@ -156,16 +160,17 @@ Tips::
 // .A demo of a review
 // image::ReviewExample.gif[]
 
-==== Change Control Board Review
+**Change Control Board Review** +
 [horizontal]
 Who:: CCB
 Steps::
 . If there are no unresolved comments or threads after two weeks, the CCB ends the review
 . The Merge/Pull Request is assigned to the Service Provider for <<Integration>>
 
----
-
-=== Integration
+--
+Integration::
++
+--
 [horizontal]
 Who:: {role-service-provider}
 Steps::
@@ -182,9 +187,10 @@ In the case that questions lead to significant changes to the content, the MR is
 * Set to squash commits with https://www.tutorialspoint.com/what-is-a-fast-forward-merge-in-git[fast-forward merging^] (default).
 * Squash commit message MUST adhere to the xref:compendium:Guidelines/repo-commit_conventions.adoc[**Commit Message Conventions**]
 
----
-
-=== Merge
+--
+Merge::
++
+--
 [horizontal]
 Who:: CCB
 Steps::
@@ -200,6 +206,10 @@ Steps::
 Tips::
 - Use a https://help.github.com/articles/using-pull-requests/[pull request^] for code reviews.
 - Delete local and remote feature branches after merging.
+--
+====
+
+
 
 //end::body[]
 
