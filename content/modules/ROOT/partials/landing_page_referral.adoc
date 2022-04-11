@@ -12,6 +12,13 @@ xref:concepts:main.adoc[]
 include::concepts:partial$module-description.adoc[]
 
 endif::[]
+ifndef::tooling[]
+|{contributing-icon-norole} +
+xref:contributing:main.adoc[]
+|
+include::contributing:partial$module-description.adoc[]
+
+endif::[]
 ifndef::processes[]
 |{getting-involved-icon-norole} +
 xref:getting-involved:main.adoc[]
@@ -24,13 +31,6 @@ ifndef::role-specific[]
 xref:role-specific:main.adoc[]
 |
 include::role-specific:partial$module-description.adoc[]
-
-endif::[]
-ifndef::tooling[]
-|{tools-icon-norole} +
-xref:tooling:main.adoc[]
-|
-include::tooling:partial$module-description.adoc[]
 
 endif::[]
 ifndef::compendium[]

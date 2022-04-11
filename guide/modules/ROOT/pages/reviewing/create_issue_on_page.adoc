@@ -3,7 +3,7 @@
 :keywords: gitlab, review, project-guide, service-desk, READYFORREVIEW
 
 include::partial$_attributes.adoc[]
-include::{abb}[]
+
 
 {changes-icon}
 
@@ -18,7 +18,7 @@ An issue with the described problem and suggested solution is created.
 None
 
 == How
-// include::latest@asamprojectguide:compendium:partial$tools/gitlab/create_issue_service_desk.adoc[tag=steps]
+// include::latest@asamprojectguide:compendium:partial$How-Tos/how-to__create_issue_service_desk.adoc[tag=steps]
 
 . Click the button "Submit feedback"
 +

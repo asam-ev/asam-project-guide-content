@@ -1,6 +1,6 @@
 
 //tag::summary[]
-Within projects at __{asam}__, participant have one or more roles.
+Within projects at ASAM, participant have one or more roles.
 Each of these roles has their own set of requirements, mandatory and/or optional tool, guidelines and how-tos, some of them shared between multiple roles.
 //end::summary[]
 
@@ -22,48 +22,48 @@ TIP: Click on a role's label to navigate directly to the role's summary page.
 
 |{role-member}
 | nA
-a| * xref:getting-involved:ideation_phase.adoc#_the_ideation_phase[Ideation phase]
-* xref:getting-involved:proposal_phase.adoc#_the_proposal_phase[Proposal phase]
-* xref:getting-involved:review_phase.adoc#_the_review_phase[Review phase]
+a| * xref:getting-involved:ideation_phase.adoc#_process_overview[Ideation phase]
+* xref:getting-involved:proposal_phase.adoc#_process_overview[Proposal phase]
+* xref:getting-involved:review_phase.adoc#_process_overview[Review phase]
 | A member of ASAM
 
 |{role-idea-giver}
 | {role-standard-user}
-a|* xref:getting-involved:ideation_phase.adoc#_the_ideation_phase[Ideation phase]
-* xref:getting-involved:proposal_phase.adoc#_the_proposal_phase[Proposal phase]
+a|* xref:getting-involved:ideation_phase.adoc#_process_overview[Ideation phase]
+* xref:getting-involved:proposal_phase.adoc#_process_overview[Proposal phase]
 | The submitter of an idea for a new ASAM project.
 Must become an ASAM member (if not) before the project starts to continue participation.
 
 |{role-proposal-submitter}
 | nA
-|xref:getting-involved:proposal_phase.adoc#_the_proposal_phase[Proposal phase]
+|xref:getting-involved:proposal_phase.adoc#_process_overview[Proposal phase]
 | A member of ASAM
 
 | {role-wg-member}
 | {role-member}
-a| * xref:getting-involved:proposal_phase.adoc#_the_proposal_phase[Proposal phase]
-* xref:getting-involved:development_phase.adoc#_the_development_phase[Development phase]
+a| * xref:getting-involved:proposal_phase.adoc#_process_overview[Proposal phase]
+* xref:getting-involved:development_phase.adoc#_process_overview[Development phase]
 | {wg-member-description}
 
 
 | {role-project-lead}
 | {role-wg-member}
-| xref:getting-involved:development_phase.adoc#_the_development_phase[Development phase]
+| xref:getting-involved:development_phase.adoc#_process_overview[Development phase]
 | {project-lead-description}
 
 | {role-wg-lead}
 | {role-wg-member}
-| xref:getting-involved:development_phase.adoc#_the_development_phase[Development phase]
+| xref:getting-involved:development_phase.adoc#_process_overview[Development phase]
 | {wg-lead-description}
 
 | {role-service-provider}
 | nA
-| xref:getting-involved:development_phase.adoc#_the_development_phase[Development phase]
+| xref:getting-involved:development_phase.adoc#_process_overview[Development phase]
 | {service-provider-description}
 
 | {role-technical-writer}
 | nA
-| xref:getting-involved:development_phase.adoc#_the_development_phase[Development phase]
+| xref:getting-involved:development_phase.adoc#_process_overview[Development phase]
 | {technical-writer-description}
 
 | {role-standard-user}
@@ -76,16 +76,16 @@ a| * xref:getting-involved:proposal_phase.adoc#_the_proposal_phase[Proposal phas
 |
 | {standard-manager-description}
 
-// | __{tsc}__
+// | TSC
 | {role-tsc-member}
 | {role-member}
-a| * xref:getting-involved:proposal_phase.adoc#_the_proposal_phase[Proposal phase]
-* xref:getting-involved:review_phase.adoc#_the_review_phase[Review phase]
+a| * xref:getting-involved:proposal_phase.adoc#_process_overview[Proposal phase]
+* xref:getting-involved:review_phase.adoc#_process_overview[Review phase]
 | {tsc-description}
 
 | {role-reviewer}
 | {role-standard-user} / {role-member}
-| xref:getting-involved:review_phase.adoc#_the_review_phase[Review phase]
+| xref:getting-involved:review_phase.adoc#_process_overview[Review phase]
 | {reviewer-description}
 
 |===
@@ -111,15 +111,15 @@ Ideation::
 
 |{role-member}
 | nA
-a| * xref:getting-involved:ideation_phase.adoc#_the_ideation_phase[Ideation phase]
-* xref:getting-involved:proposal_phase.adoc#_the_proposal_phase[Proposal phase]
-* xref:getting-involved:review_phase.adoc#_the_review_phase[Review phase]
+a| * xref:getting-involved:ideation_phase.adoc#_process_overview[Ideation phase]
+* xref:getting-involved:proposal_phase.adoc#_process_overview[Proposal phase]
+* xref:getting-involved:review_phase.adoc#_process_overview[Review phase]
 | A member of ASAM
 
 |{role-idea-giver}
 | {role-standard-user}
-a|* xref:getting-involved:ideation_phase.adoc#_the_ideation_phase[Ideation phase]
-* xref:getting-involved:proposal_phase.adoc#_the_proposal_phase[Proposal phase]
+a|* xref:getting-involved:ideation_phase.adoc#_process_overview[Ideation phase]
+* xref:getting-involved:proposal_phase.adoc#_process_overview[Proposal phase]
 | The submitter of an idea for a new ASAM project.
 Must become an ASAM member (if not) before the project starts to continue participation.
 
@@ -139,27 +139,27 @@ Proposal::
 
 |{role-member}
 | nA
-a| * xref:getting-involved:ideation_phase.adoc#_the_ideation_phase[Ideation phase]
-* xref:getting-involved:proposal_phase.adoc#_the_proposal_phase[Proposal phase]
-* xref:getting-involved:review_phase.adoc#_the_review_phase[Review phase]
+a| * xref:getting-involved:ideation_phase.adoc#_process_overview[Ideation phase]
+* xref:getting-involved:proposal_phase.adoc#_process_overview[Proposal phase]
+* xref:getting-involved:review_phase.adoc#_process_overview[Review phase]
 | A member of ASAM
 
 |{role-idea-giver}
 | {role-standard-user}
-a|* xref:getting-involved:ideation_phase.adoc#_the_ideation_phase[Ideation phase]
-* xref:getting-involved:proposal_phase.adoc#_the_proposal_phase[Proposal phase]
+a|* xref:getting-involved:ideation_phase.adoc#_process_overview[Ideation phase]
+* xref:getting-involved:proposal_phase.adoc#_process_overview[Proposal phase]
 | The submitter of an idea for a new ASAM project.
 Must become an ASAM member (if not) before the project starts to continue participation.
 
 |{role-proposal-submitter}
 | nA
-|xref:getting-involved:proposal_phase.adoc#_the_proposal_phase[Proposal phase]
+|xref:getting-involved:proposal_phase.adoc#_process_overview[Proposal phase]
 | A member of ASAM
 
 | {role-wg-member}
 | {role-member}
-a| * xref:getting-involved:proposal_phase.adoc#_the_proposal_phase[Proposal phase]
-* xref:getting-involved:development_phase.adoc#_the_development_phase[Development phase]
+a| * xref:getting-involved:proposal_phase.adoc#_process_overview[Proposal phase]
+* xref:getting-involved:development_phase.adoc#_process_overview[Development phase]
 | {wg-member-description}
 
 
@@ -178,29 +178,29 @@ Development::
 
 | {role-wg-member}
 | {role-member}
-a| * xref:getting-involved:proposal_phase.adoc#_the_proposal_phase[Proposal phase]
-* xref:getting-involved:development_phase.adoc#_the_development_phase[Development phase]
+a| * xref:getting-involved:proposal_phase.adoc#_process_overview[Proposal phase]
+* xref:getting-involved:development_phase.adoc#_process_overview[Development phase]
 | {wg-member-description}
 
 
 | {role-project-lead}
 | {role-wg-member}
-| xref:getting-involved:development_phase.adoc#_the_development_phase[Development phase]
+| xref:getting-involved:development_phase.adoc#_process_overview[Development phase]
 | {project-lead-description}
 
 | {role-wg-lead}
 | {role-wg-member}
-| xref:getting-involved:development_phase.adoc#_the_development_phase[Development phase]
+| xref:getting-involved:development_phase.adoc#_process_overview[Development phase]
 | {wg-lead-description}
 
 | {role-service-provider}
 | nA
-| xref:getting-involved:development_phase.adoc#_the_development_phase[Development phase]
+| xref:getting-involved:development_phase.adoc#_process_overview[Development phase]
 | {service-provider-description}
 
 | {role-technical-writer}
 | nA
-| xref:getting-involved:development_phase.adoc#_the_development_phase[Development phase]
+| xref:getting-involved:development_phase.adoc#_process_overview[Development phase]
 | {technical-writer-description}
 
 |===
@@ -214,36 +214,36 @@ Review::
 
 |{role-member}
 | nA
-a| * xref:getting-involved:ideation_phase.adoc#_the_ideation_phase[Ideation phase]
-* xref:getting-involved:proposal_phase.adoc#_the_proposal_phase[Proposal phase]
-* xref:getting-involved:review_phase.adoc#_the_review_phase[Review phase]
+a| * xref:getting-involved:ideation_phase.adoc#_process_overview[Ideation phase]
+* xref:getting-involved:proposal_phase.adoc#_process_overview[Proposal phase]
+* xref:getting-involved:review_phase.adoc#_process_overview[Review phase]
 | A member of ASAM
 
 | {role-wg-member}
 | {role-member}
-a| * xref:getting-involved:proposal_phase.adoc#_the_proposal_phase[Proposal phase]
-* xref:getting-involved:development_phase.adoc#_the_development_phase[Development phase]
+a| * xref:getting-involved:proposal_phase.adoc#_process_overview[Proposal phase]
+* xref:getting-involved:development_phase.adoc#_process_overview[Development phase]
 | {wg-member-description}
 
 
 | {role-project-lead}
 | {role-wg-member}
-| xref:getting-involved:development_phase.adoc#_the_development_phase[Development phase]
+| xref:getting-involved:development_phase.adoc#_process_overview[Development phase]
 | {project-lead-description}
 
 | {role-wg-lead}
 | {role-wg-member}
-| xref:getting-involved:development_phase.adoc#_the_development_phase[Development phase]
+| xref:getting-involved:development_phase.adoc#_process_overview[Development phase]
 | {wg-lead-description}
 
 | {role-service-provider}
 | nA
-| xref:getting-involved:development_phase.adoc#_the_development_phase[Development phase]
+| xref:getting-involved:development_phase.adoc#_process_overview[Development phase]
 | {service-provider-description}
 
 | {role-technical-writer}
 | nA
-| xref:getting-involved:development_phase.adoc#_the_development_phase[Development phase]
+| xref:getting-involved:development_phase.adoc#_process_overview[Development phase]
 | {technical-writer-description}
 
 | {role-standard-user}
@@ -253,7 +253,7 @@ a| * xref:getting-involved:proposal_phase.adoc#_the_proposal_phase[Proposal phas
 
 | {role-reviewer}
 | {role-standard-user} / {role-member}
-| xref:getting-involved:review_phase.adoc#_the_review_phase[Review phase]
+| xref:getting-involved:review_phase.adoc#_process_overview[Review phase]
 | {reviewer-description}
 
 |===
@@ -267,7 +267,7 @@ Release::
 
 | {role-project-lead}
 | {role-wg-member}
-| xref:getting-involved:development_phase.adoc#_the_development_phase[Development phase]
+| xref:getting-involved:development_phase.adoc#_process_overview[Development phase]
 | {project-lead-description}
 
 | {role-standard-manager}
@@ -286,9 +286,9 @@ Public::
 
 |{role-member}
 | nA
-a| * xref:getting-involved:ideation_phase.adoc#_the_ideation_phase[Ideation phase]
-* xref:getting-involved:proposal_phase.adoc#_the_proposal_phase[Proposal phase]
-* xref:getting-involved:review_phase.adoc#_the_review_phase[Review phase]
+a| * xref:getting-involved:ideation_phase.adoc#_process_overview[Ideation phase]
+* xref:getting-involved:proposal_phase.adoc#_process_overview[Proposal phase]
+* xref:getting-involved:review_phase.adoc#_process_overview[Review phase]
 | A member of ASAM
 
 | {role-standard-user}
@@ -317,8 +317,8 @@ ASAM internal::
 
 | {role-tsc-member}
 | {role-member}
-a| * xref:getting-involved:proposal_phase.adoc#_the_proposal_phase[Proposal phase]
-* xref:getting-involved:review_phase.adoc#_the_review_phase[Review phase]
+a| * xref:getting-involved:proposal_phase.adoc#_process_overview[Proposal phase]
+* xref:getting-involved:review_phase.adoc#_process_overview[Review phase]
 | {tsc-description}
 
 |===

@@ -1,5 +1,5 @@
 = Project lead
-:description: Summary and landing page for project leads. Defines the responsibilities of a project lead at ASAM
+:description: Summary and landing page for Project Leads. Defines the responsibilities of a Project Lead at ASAM
 :keywords: role, role-landing-page, REVIEWED_TODO
 
 include::partial$_attributes.adoc[]
@@ -15,7 +15,7 @@ Label:: {role-project-lead}
 
 == Requirements
 * Must be a project member
-* Must have completed the xref:compendium:ASAM/roles/project_lead_training.adoc[]
+* Must have completed the xref:compendium:Guidelines/project_lead_training.adoc[]
 
 == Responsibilities
 === Supervises the compliance with the ASAM processes
@@ -23,7 +23,7 @@ Label:: {role-project-lead}
 Interface to ASAM office::
 * Reporting of project status to ASAM office and commitees
 * Responsible for presentation at TSC
-* Escalaton of issues to ASAM office + 
+* Escalaton of issues to ASAM office +
 To identifiy additional risks or critical issues early
 
 Content structuring of project::
@@ -33,7 +33,7 @@ Define a working mode:::
 * Responsible for a clean preparation of workshops
 * Responsible for leading or passing on the leadership of meetings
 * Responsible for the documentation of meetings
-* See also xref:ASAM/Meeting_moderation_best_practices.adoc[meeting moderation best practices]
+* See also xref:compendium:Guidelines/coordination-meeting_moderation.adoc[meeting moderation best practices]
 Leading of change control board:::
 * Refining and ensuring a change management process
 * Organisation of the topics to be implemented
@@ -45,11 +45,11 @@ Defining and monitoring milestones::
 * Controlling project timeline and milestones
 
 Budget controlling::
-* Controlling of service provider
-* Coordination of technical service provider
+* Controlling of Service Provider
+* Coordination of technical Service Provider
 
 == Instructional pages for this role
-* xref:compendium:ASAM/roles/project_lead_training.adoc[Project Lead Training]
+* xref:compendium:Guidelines/project_lead_training.adoc[Project Lead Training]
 
 === Proposal phase
 role_related::project-lead[proposal]

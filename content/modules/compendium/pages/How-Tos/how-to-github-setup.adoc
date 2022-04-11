@@ -1,0 +1,49 @@
+= How-To: Setting Up Your GitHub Account
+:description: How to setup your ASAM account.
+:keywords: task,fragment,setup, github,account
+
+include::compendium:partial$_attributes.adoc[]
+
+{how-to-icon}
+
+
+//tag::body[]
+
+== Context
+All specification-related documents are stored and updated in the project's remote (or online) repository. +
+This GitHub instance is an online service that ASAM uses.
+The user must create an account or use an existing one they have and set it up.
+The GTM will then add the account the to respective group or project.
+
+== Result
+The user has created and set up their repository account and can access the correct project repositories.
+
+== Prerequisites
+None
+
+== How
+//tag::how[]
+
+. Follow the online instructions on https://docs.github.com/en/get-started/signing-up-for-github/signing-up-for-a-new-github-account[signing up for a new GitHub account^]
+. Send your account name to your GTM. +
+You will receive a response from them when your account has been granted the rights to access and contribute to the project
+//end::how[]
+
+// == Troubleshooting / Known Issues
+// //tag::troubleshooting[]
+// === I have not received a mail from "GitLab"
+// Ask the ASAM office to support you by creating your GitLab account.
+
+// === I forgot my password and cannot use the login anymore
+// Click the "Forgot your password?" button and follow the instructions.
+
+// [#no-access]
+// === I cannot access my project's repository
+// Ask the ASAM office to grant you the correct rights according to your role in the project.
+
+// === I cannot access the "Common" group
+// See <<no-access,I cannot access my project's repository>>.
+
+// //end::troubleshooting[]
+//end::body[]
+// related::gitlab,git-setup,!gitlab-setup[]

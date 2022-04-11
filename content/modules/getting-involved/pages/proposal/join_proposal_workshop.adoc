@@ -3,8 +3,8 @@
 :keywords: proposal-workshop, proposal
 
 include::partial$_attributes.adoc[]
-include::{abb}[]
 
-include::compendium:page$ASAM/phase-02_proposal/how-to__join_proposal_workshop.adoc[tag=body]
+
+include::compendium:page$How-Tos/how-to-join_proposal_workshop.adoc[tag=body]
 
 related::proposal-workshop[]

@@ -1,0 +1,33 @@
+= Admonitions For Highlighting Topics
+:description: How-To for using admonitions in ASAM documents (standards).
+:keywords: asciidoc,admonitions,note,tip,warning,important,how-to, READYFORREVIEW
+:navtitle: [AsciiDoc] Admonitions For Highlighting Topics
+
+include::compendium:partial$_attributes.adoc[]
+
+{asciidoc-icon}
+//tag::body[]
+You might want to draw attention to certain statements by creating notes or tips - so-called https://docs.asciidoctor.org/asciidoc/latest/syntax-quick-reference/#admonitions[admonitions^].
+
+Use each of these sparingly.
+You don't want to create pages that are full of notes and tips.
+They become less meaningful if you do.
+
+Here's what each of these looks like when the AsciiDoc content is turned into HTML:
+
+NOTE: This is a note.
+It includes extra info that a reader might need to know.
+
+TIP: Here's a tip.
+A tip provides useful information that can help a user do something or understand something.
+
+IMPORTANT: This is important information that the reader must be aware of so they don't do something that they shouldn't.
+
+CAUTION: A caution advises the reader to act carefully.
+Use this in rare circumstances.
+
+WARNING: And this is a warning that informs of danger or harm.
+This one should be used very rarely, as well.
+
+If you're authoring new content, you'll want to review this section for some nitty-gritty details.
+//end::body[]

@@ -3,7 +3,7 @@
 :keywords: pipeline,asam,antora,asciidoctor,custom, REVIEWED_OK
 
 include::partial$_attributes.adoc[]
-include::{abb}[]
+
 
 {special-macros-icon}
 

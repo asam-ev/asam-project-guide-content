@@ -3,7 +3,7 @@
 :keywords: diagrams, phase, concept
 
 include::partial$_attributes.adoc[]
-include::{abb}[]
+
 
 {diagram-notation-icon}
 

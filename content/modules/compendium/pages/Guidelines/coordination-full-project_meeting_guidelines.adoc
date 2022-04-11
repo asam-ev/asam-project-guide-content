@@ -1,0 +1,77 @@
+= Full Project Meeting/Workshop Guidelines
+:description: TODO
+:keywords: guideline, project, meeting
+:navtitle: [Coordination] Full Project Meeting Guidelines
+
+include::compendium:partial$_attributes.adoc[]
+
+{coordination-icon}
+
+//tag::body[]
+
+{role-project-lead}
+
+== Context
+Full Project Meetings are meetings where the whole project meets for topics that concern the project in general. +
+There are four common instances of Full Project Meetings:
+
+* xref:getting-involved:development/phase_details-setup.adoc#_kick_off_workshop[Kick-off Workshop]
+* Development Workshops
+* Cycle or Development Review Meetings
+* Retrospectives
+
+The Kick-off Workshop follows slightly different rules (particularly because the Project Lead has not been elected yet at this point), so it is not covered here.
+However, many aspects of these guidelines still apply there as well.
+
+
+== Typical Frequency
+The frequency of these meetings (except for the Kick-off Workshop) is at least quarterly.
+Typically, each type of meeting occurs at least every 2 months during an active development cycle.
+
+
+== Roles And Responsibilities
+
+[cols="1h,2,1,2", frame=none]
+|===
+|Topic|Responsible 2+|Can Be Delegated
+
+|Moderation
+|{role-project-lead}
+|yes
+|{role-ccb}
+
+|Agenda
+|{role-project-lead}
+|yes
+|{role-ccb}
+
+|Minutes
+|{role-project-lead}
+|yes
+|{role-wg-member}
+
+|xref:compendium:Guidelines/coordination-meeting_logistics.adoc[Logistics]
+|{role-gtm}
+2+|no
+
+|Voting
+|{role-project-lead}
+2+|no
+
+|===
+
+
+== Invitations
+The **xref:compendium:Guidelines/coordination-general_meeting_guidelines.adoc[]** apply.
+
+// - Participation: CCB representatives
+// - Frequency/cadence: at least quaterly (typically: every 2 months during active cycles)
+// - Kick-off
+// - Development Face-to-Face or Workshops (when requested)
+// -- Status update from WGs
+// -- Targeted development activities, often intra WG
+// -- Full project level votes on topics
+// - Review meeting (cycle and final project review before submission to TSC)
+// - Retrospectives (recommended!)
+
+//end::body[]

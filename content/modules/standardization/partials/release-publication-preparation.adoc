@@ -13,7 +13,7 @@
 |===
 // end::table[]
 The Office prepares new and updates existing marketing and training material for the new release.
-The project leader shall support this activity by contributing technical content and reviewing the new or updated marketing and training material, upon request.
+The Project Leader shall support this activity by contributing technical content and reviewing the new or updated marketing and training material, upon request.
 
 The publication of a new standard shall occur within 5 weeks after the effective release.
 The publication of a new version of an existing standard shall occur within 3 weeks after the effective release decision.

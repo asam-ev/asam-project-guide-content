@@ -2,6 +2,9 @@
 :keywords: proposal
 :description: proposal phase details
 
+include::partial$_attributes.adoc[]
+
+
 == Phase Diagram
 The figure <<fig-proposal-phase-diagram-detailed>> shows the Proposal phase in full detail.
 Each step is explained shortly under <<Proposal Phase Steps>>.
@@ -10,27 +13,16 @@ Each step is explained shortly under <<Proposal Phase Steps>>.
 image::compendium:asam/proposal_phase_v2-proposal_phase.svg[title="The Proposal phase in detail, using the xref:concepts:diagram_notations.adoc[ASAM Project Phase Notation]"]
 
 
-== Proposal Phase Timeline
-The typical proposal phase timeline consists of
-
-* 8-12 weeks for creating the draft
-* 1 day of Proposal Workshop (announced 4-6 weeks ahead of time)
-* 1-4 weeks of finalizing the draft and enrollment
-* proposal publication
-* proposal review, presentation, and project decision
-
-image::compendium:asam/proposal_phase_timeline.drawio.svg[title=Typical Proposal phase timeline]
-
+image::compendium:asam/proposal_phase_v2-proposal_setup.svg[]
 
 == Proposal Phase Steps
 The Proposal phase consists of the following steps, which are explained in detail in their own sections:
 
 * <<Repository Setup>>
 * <<Draft Creation>>
-* <<Enrollment Process>>
 * <<Proposal Workshop Preparation>>
 * <<Proposal Workshop>>
-* <<Electing A Submitter>>
+* <<Enrollment Process>>
 * <<Finalizing The Proposal>>
 * <<Submission>>
 * <<Publication>>
@@ -42,7 +34,7 @@ The Proposal phase consists of the following steps, which are explained in detai
 === Repository Setup
 [cols="3,1,10"]
 |===
-.3+|image:compendium:asam/proposal_phase_v2-proposal_setup.svg[]
+.3+|image:compendium:asam/proposal_phase_v2-proposal_setup.svg[id="modal_image"]
 >h|Purpose
 |To set up the proposal repository.
 
@@ -76,28 +68,6 @@ See xref:proposal/setup.adoc[].
 Before the proposal is first presented to interested parties in the Proposal Workshop, an initial draft must be created that can be discussed properly.
 
 See xref:proposal/proposal_writing.adoc[].
-
----
-
-=== Enrollment Process
-[cols="3,1,10"]
-|===
-.3+|image:compendium:asam/proposal_phase_v2-enrollment.svg[]
->h|Purpose
-|To enroll participants in the planned project.
-
->h|Responsible
-|{role-member}
-
->h|Involved
-|{role-gtm}
-|===
-
-Interested parties can start to enroll for the proposed project in parallel to the other Proposal Phase activities. +
-See xref:signing_up.adoc[] for available options during this process and more detail information on it. +
-Additionally, you can xref:proposal/submit_candidacy.adoc[apply for the role of Project Lead].
-
-For more information on the enrollment list, see xref:compendium:ASAM/phase-02_proposal/how-to__enrollment_list.adoc[].
 
 ---
 
@@ -162,24 +132,26 @@ During the Workshop, the xref:proposal/need_for_service_providers.adoc[need for 
 
 ---
 
-=== Electing A Submitter
+=== Enrollment Process
 [cols="3,1,10"]
 |===
-.3+|image:compendium:asam/proposal_phase_v2-submitter_election.svg[]
+.3+|image:compendium:asam/proposal_phase_v2-enrollment.svg[]
 >h|Purpose
-|To (s)elect a Proposal Submitter.
+|To enroll participants in the planned project.
 
 >h|Responsible
-|{role-idea-giver}, {role-wg-member} -> {role-proposal-submitter}
+|{role-member}
 
 >h|Involved
 |{role-gtm}
 |===
 
-The project participants elect one of their midst to be responsible for submitting and presenting the Proposal to the TSC.
-If the group cannot decide, the GTM will select one participant to take over that role.
+Interested parties can start to xref:compendium:How-Tos/how-to-enroll_for_development.adoc[enroll] for the proposed project in parallel to the other Proposal Phase activities. +
+See xref:signing_up.adoc[] for available options during this process and more detail information on it. +
+Additionally, you can xref:proposal/submit_candidacy.adoc[apply for the role of Project Lead].
 
-The election of the submitter may happen during the Proposal Workshop.
+For more information on the enrollment list, see xref:compendium:How-Tos/how-to-enrollment_list.adoc[] in the Compendium. +
+For more information on how to enroll for the Development phase, see xref:compendium:How-Tos/how-to-enroll_for_development.adoc[] in the Compendium.
 
 ---
 
@@ -212,7 +184,7 @@ See xref:proposal/proposal_writing.adoc[].
 |===
 .3+|image:compendium:asam/proposal_phase_v2-proposal_submission.svg[]
 >h|Purpose
-|To submit the finalized project proposal to __{asam}__
+|To submit the finalized project proposal to ASAM
 
 >h|Responsible
 |{role-proposal-submitter}
@@ -379,7 +351,7 @@ Interested parties can start to enroll for the proposed project in parallel to t
 See xref:signing_up.adoc[] for available options during this process and more detail information on it. +
 Additionally, you can xref:proposal/submit_candidacy.adoc[apply for the role of Project Lead].
 
-For more information on the enrollment list, see xref:compendium:ASAM/phase-02_proposal/how-to__enrollment_list.adoc[].
+For more information on the enrollment list, see xref:compendium:How-Tos/how-to-enrollment_list.adoc[].
 --
 Proposal Workshop Preparation::
 +
@@ -495,7 +467,7 @@ Submission::
 |===
 .3+|image:compendium:asam/proposal_phase_v2-proposal_submission.svg[]
 >h|Purpose
-|To submit the finalized project proposal to __{asam}__
+|To submit the finalized project proposal to ASAM
 
 >h|Responsible
 |{role-proposal-submitter}

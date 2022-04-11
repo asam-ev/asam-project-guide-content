@@ -1,0 +1,28 @@
+
+//tag::intro[]
+Docker is a platform where you use so-called containers to run applications in an encapsulated environment.
+With this, you do not need to install and configure software, programming languages etc: just download and use a pre-configured container that has all the relevant configuration already built in.
+From the docker homepage:
+
+> Docker is an open platform for developing, shipping, and running applications.
+Docker enables you to separate your applications from your infrastructure so you can deliver software quickly.
+With Docker, you can manage your infrastructure in the same ways you manage your applications.
+By taking advantage of Docker’s methodologies for shipping, testing, and deploying code quickly, you can significantly reduce the delay between writing code and running it in production.
+
+image::https://docs.docker.com/engine/images/architecture.svg[title="The Docker link:https://docs.docker.com/get-started/overview/#docker-architecture[architecture]", link="https://docs.docker.com/get-started/overview/#docker-architecture", window=_blank]
+
+//end::intro[]
+
+For Asciidoc, docker can be used to run a pre-configured asciidoctor setup for creating html output locally.
+This removes the need to upload adoc files and use the build pipeline for every change you want to see.
+It also means you do not have to install and configure Asciidoctor first since this is already done in the pre-configured Docker image.
+
+If you do not have Docker installed, check out the xref:compendium:Tools/docker.adoc[] before continuing.
+
+If your project is currently missing the docker-compose.yml, see these xref:compendium:How-Tos/how-to-setup_standard_docker_config.adoc[] on how to set it up.
+
+A project's final specification document is created as HTML file.
+However, having to run it through the pipeline every time before being able to see the final result after having made changes is neither efficient nor friendly to the other workgroup members.
+To render a project's documentation without having to upload it, use Docker Compose with a correctly defined docker-compose.yml file.
+
+For information on what YAML/yml means, see https://de.wikipedia.org/wiki/YAML[YAML on Wikipedia^]

@@ -1,0 +1,11 @@
+
+[NOTE]
+====
+A clean issue contains the following things:
+
+- active milestone
+- `BACKLOG` or `ACTIVE_ISSUE` label
+- assignee
+- workgroup label
+
+====

@@ -1,0 +1,97 @@
+= Recommended Visual Studio Code Extensions
+:description: A collection of recommended VSCode extensions
+:keywords: vscode,extensions,gitlab,asciidoc,drawio,docker, READYFORREVIEW
+:navtitle: [VSCode] Recommended Visual Studio Code Extensions
+
+include::compendium:partial$_attributes.adoc[]
+
+{vscode-icon}
+
+VSCode is already without extensions very powerful and user friendly.
+One thing that can make the VSCode experience even better are the extensions.
+There is a list of extensions we recommend that will make your life contributing to the ASAM standards way easier.
+
+Installing an extension is really easy, just enter the extension menu, search for the desired extension.
+Then, click on the Install-Button.
+
+
+== AsciiDoc
+//tag::asciidoc[]
+The AsciiDoc extension will add the syntax the AsciiDoc interpreter to VSCode so you can use the preview feature and have syntax highlighting.
+
+.AsciiDoc (id: asciidoctor.asciidoctor-vscode)
+image::compendium:asciidoc_ext.png[]
+//end::asciidoc[]
+
+
+== Comment anchors
+The Comment Anchor extension provides you with the ability of adding highlighted keywords to the raw text.
+
+.Comment Anchors examples
+image::compendium:comment_anchor_example.PNG[]
+
+The extension also lets you search for all available anchors in the repository or current file and offers a jump-to option.
+
+.Comment Anchors (id: exodiusstudios.comment-anchors)
+image::compendium:commentanchor_ext.PNG[]
+
+
+== Draw.io
+//tag::drawio[]
+The Draw.io extension for Visual Sudio Code allows for easy creation and assisted editing of drawio and other files supported by Draw.io within Visual Studio Code.
+For shortcuts and tips, see the documentation of the extension.
+You can access that documentation when you click on the extension in the marketplace.
+
+.Draw.io Integration (id: hediet.vscode-drawio)
+image::compendium:drawio_ext.png[alt=Search and find the extension 'Draw.io Integration']
+
+NOTE: The Draw.io extension does not support remote custom libraries as of now.
+For this reason, it is recommended to create and make larger edits to drawio files through the web app.
+
+//end::drawio[]
+
+== Code Spell Checker
+The Code Spell Checker extension provides you with the ability of spell checking in Visual Studio Code.
+
+.Code Spell Checker example 1
+image::compendium:code-spell-checker-example-1.png[alt="Example 1 for Code Spell Checker"]
+.Code Spell Checker example 2
+image::compendium:code-spell-checker-example-2.png[alt="Example 2 for Code Spell Checker"]
+.Code Spell Checker example 3
+image::compendium:code-spell-checker-example-3.png[alt="Example 3 for Code Spell Checker"]
+
+
+The spell checker handles standard text as well as CamelCase.
+
+.Code Spell Checker (id: streetsidesoftware.code-spell-checker)
+image::compendium:code-spell-checker.png[]
+
+
+== Git graph
+The Git Graph extension is a great tool navigating the branches in the git repository and provides a great overview.
+
+.Git Graph (id: mhutchie.git-graph)
+image::compendium:gitgraph_ext.PNG[]
+
+
+== GitLens
+The GitLens Extension is a great extension to follow up on all the changes made to the documents within the repository.
+Gitlens provides:
+
+* Repository Overview
+* File History
+* Line History
+* Commit Comparison
+
+.GitLens -- Git supercharged (id: eamodio.gitlens)
+image::compendium:gitlens_ext.PNG[]
+
+
+== Docker
+//tag::docker[]
+The Docker extension lets you directly interact with Docker through Visual Studio Code.
+You can run, for example, the docker-compose.yml directly without having to open a console or using Docker Desktop.
+
+.Docker (id: ms-azuretools.vscode-docker)
+image::compendium:docker_ext.png[alt=Search and find the extension 'Docker']
+//end::docker[]

@@ -1,31 +1,25 @@
 
-:gtm-short-name-replacement: {gtm}
-
-ifdef::is_abbreviations[]
-:gtm-short-name-replacement: GTM
-endif::[]
-
-:gtm-description: A {gtm-short-name-replacement} (Global Technology Manager) is an ASAM employee focussed on coordinating project processes and the background work behind a project.
+:gtm-description: A GTM (Global Technology Manager) is an ASAM employee focussed on coordinating project processes and the background work behind a project.
 
 :project-member-description: An xref:role-specific:standard_user.adoc[ASAM User] that is involved directly in the development of an ASAM standard. \
 Every project needs project members from at least three (3) different companies. \
 See also xref:role-specific:wg-member.adoc[Workgroup Member]
 
 :project-lead-description: The person responsible for leading and coordinating all project activities. \
-Without an elected project lead, the project may not start. \
-The project members must elect a project lead at the beginning of the project.
+Without an elected Project Lead, the project may not start. \
+The project members must elect a Project Lead at the beginning of the project.
 
 :wg-member-description: A project member working in a particular workgroup, a subdivision of the overall project. \
 If the project is split up into smaller workgroups, a project member can join a workgroup to become a workgroup member.
 
-:wg-lead-description: If the project is split up into smaller workgroups, a project member can be elected to be the workgroup lead and will support the xref:role-specific:project-lead.adoc[project lead]. \
+:wg-lead-description: If the project is split up into smaller workgroups, a project member can be elected to be the workgroup lead and will support the xref:role-specific:project-lead.adoc[Project Lead]. \
 Each workgroup should have zero or one workgroup lead.
 
 :service-provider-description: Provides additional services necessary for the standard development. \
-If the project needs additional resources, a service provider can be hired, which requires an approved budget by the xref:role-specific:tsc.adoc[TSC].
+If the project needs additional resources, a Service Provider can be hired, which requires an approved budget by the xref:role-specific:tsc.adoc[TSC].
 
 :technical-writer-description: Formats and writes the document(s) of the standard based on the provided input from the xref:role-specific:wg-member.adoc[WG members] in a formalized and standard-conform way. \
-If the project requires a technical writer, either the ASAM technical writer will fill this role or a xref:role-specific:service-provider.adoc[service provider] can be hired to fill that role.
+If the project requires a technical writer, either the ASAM technical writer will fill this role or a xref:role-specific:service-provider.adoc[Service Provider] can be hired to fill that role.
 
 :standard-user-description: An ASAM Standard user is someone that is part of the ASAM community but not involved in the project development at hand.
 

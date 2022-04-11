@@ -1,0 +1,68 @@
+= How-To: Prepare A Proposal Workshop
+:description: Describes how to prepare a Proposal Workshop.
+:keywords: proposal, proposal-workshop
+
+include::compendium:partial$_attributes.adoc[]
+
+{how-to-icon}
+
+
+//tag::body[]
+
+[cols="1,5", grid = rows]
+|===
+h|Responsible
+| {role-gtm}
+
+h|Involved
+| {role-idea-giver}, {role-wg-member}
+
+ifdef::compendium[]
+h| Phase
+| xref:getting-involved:proposal_phase.adoc#_process_overview[image:compendium:asam/project_lifecycle-proposal.svg[]]
+endif::[]
+
+h| Step
+| image:compendium:asam/proposal_phase_v2-organize_proposal_workshop.svg[]
+
+h|TL;DR
+a| * Use the xref:compendium:Templates/proposal_workshop_gameplan.adoc[**Proposal Workshop Gameplan**]
+* Schedule the meeting >=4 weeks ahead of time
+* Add event to website
+* Reserve room/online meeting
+|===
+
+NOTE: This page covers how to set up a proposal workshop.
+If you are interested in joining a listed workshop, check out xref:getting-involved:proposal/join_proposal_workshop.adoc[] instead.
+
+== Context
+
+include::compendium:page$Templates/proposal_workshop_gameplan.adoc[tag=context]
+
+The Idea Giver needs to prepare the event for it to be efficient and effective.
+ASAM provides a standard xref:compendium:Templates/proposal_workshop_gameplan.adoc[**Proposal Workshop Gameplan**] to help with the preparation.
+
+
+== Goals Of The Proposal Workshop
+include::compendium:page$Templates/proposal_workshop_gameplan.adoc[tag=goals]
+
+
+== Result
+* The Proposal Workshop is prepared at least 4 weeks ahead of time and listed on the https://www.asam.net/conferences-events/upcoming-events/[ASAM website^].
+* For an onsite workshop, a sufficient meeting room has been booked at the ASAM office (max. duration: 8h).
+* For an online workshop, an online event has been set up (max. duration: 4h).
+* The agenda covers the following targets:
+** Problem statement to the participants
+** Presentation and discussion of proposed content
+** Blocks for receiving feedback/input from participants
+** Next steps with ASAM
+
+== How
+TODO
+
+
+== Example Agenda
+include::compendium:page$Templates/proposal_workshop_gameplan.adoc[tag=agenda_example]
+//end::body[]
+
+related::proposal-workshop[]

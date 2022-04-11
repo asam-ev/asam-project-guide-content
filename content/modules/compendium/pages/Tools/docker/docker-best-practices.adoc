@@ -1,0 +1,14 @@
+= Docker Best Practices
+:description: A collection of best practices regarding Docker at ASAM.
+:keywords: docker, best-practices
+
+include::partial$_attributes.adoc[]
+include::contributing:partial$_attributes.adoc[]
+
+
+{docker-icon-page}
+
+
+* For more general information on how to use Docker, see the https://docs.docker.com/get-started/[official guides, window=_blank] from Docker.
+
+* https://dockerlabs.collabnix.com/beginners/components/container-vs-image.html[Page by Dockerlabs, window=_blank] for an explanation on the definitions of and the differences between images and containers.

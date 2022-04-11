@@ -3,7 +3,7 @@
 :keywords: pipeline
 
 include::partial$_attributes.adoc[]
-include::{abb}[]
+
 
 {doc-as-code-icon}
 
@@ -13,6 +13,6 @@ TODO
 ASAM projects typically automate the following steps:
 
 * Convert AsciiDoc files to html and pdf using https://asciidoctor.org/[Asciidoctor^]
-* https://en.wikipedia.org/wiki/Lint_(software)[Linting^] and testing documents for rules defined in the xref:compendium:writing_guidelines/editorial_guide.adoc[] and returning found errors
+* https://en.wikipedia.org/wiki/Lint_(software)[Linting^] and testing documents for rules defined in the xref:compendium:Guidelines/editorial_guide.adoc[] and returning found errors
 * Publishing results as pipeline artifacts for downloads or distribution
 * Running project-specific scripts for additional features, such as converting uml diagrams to AsciiDoc files

@@ -3,11 +3,11 @@
 :keywords: participate
 
 include::partial$_attributes.adoc[]
-include::{abb}[]
+
 
 
 IMPORTANT: If a member intends to commit a work effort of less than 50% of the average of the work efforts committed by all other project group members, then the Office can deny the registration.
-The member or the office can escalate the issue to the {tsc}.
+The member or the office can escalate the issue to the TSC.
 
 == Who Can Sign Up
 include::partial$asam_membership.adoc[]
@@ -32,4 +32,4 @@ The following table summarizes the main points from this page.
 |===
 
 
-include::compendium:page$guides/proposal_writing/how-to__enrollment_list.adoc[leveloffset=+2]
+include::compendium:page$How-Tos/how-to-enrollment_list.adoc[leveloffset=+2]

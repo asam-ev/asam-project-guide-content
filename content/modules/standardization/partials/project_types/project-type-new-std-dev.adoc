@@ -6,7 +6,7 @@ A new ASAM standard can be a transfer from another organization or an extension 
 //end::short[]
 
 //tag::long[]
-Start the development of a completely new standard within __{asam}__.
+Start the development of a completely new standard within ASAM.
 
 The development project meets one of the following criteria:
 

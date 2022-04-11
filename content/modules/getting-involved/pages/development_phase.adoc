@@ -3,28 +3,46 @@
 :keywords: development, phase
 
 include::partial$_attributes.adoc[]
-include::{abb}[]
 
 
 ====
-[cols="1,5", frame=none, grid = rows]
-|===
-h|Involved roles
-a| * {role-wg-member}
-* {role-wg-lead}
-* {role-project-lead}
-
-h| Project phase
-| image:compendium:asam/project_lifecycle-development.svg[]
-
-|===
-====
-
-== Getting Started Immediately
-
-TODO
 [horizontal]
-xref:tooling:working-without-software-installation.adoc#_minimum_required_setup[Minimum Required Setup]:: Check out the minimum required setup to get ready for participation and contribution.
+Involved Roles::
+{role-wg-member} --
+{role-wg-lead} --
+{role-project-lead} --
+{role-service-provider} --
+{role-technical-writer} --
+{role-ccb} --
+{role-gtm}
+====
+
+
+// Original Version
+
+// ====
+// [cols="1,5", frame=none, grid = rows]
+// |===
+// h|Involved roles
+// a| * {role-wg-member}
+// * {role-wg-lead}
+// * {role-project-lead}
+// * {role-service-provider}
+// * {role-technical-writer}
+// * {role-ccb}
+// * {role-gtm}
+
+// h| Project phase
+// | image:compendium:asam/project_lifecycle-development.svg[]
+
+// |===
+// ====
+
+// == Getting Started Immediately
+
+// TODO
+// [horizontal]
+// xref:contributing:working-without-software-installation.adoc#_minimum_required_setup[Minimum Required Setup]:: Check out the minimum required setup to get ready for participation and contribution.
 
 // xref:ideation/enter_new_idea.adoc[]:: Start here to learn how you can enter an idea at ASAM.
 // xref:ideation/developing_an_idea.adoc[]:: Start here if you want to further develop an idea you previously entered.
@@ -36,13 +54,8 @@ The process steps are mandatory for the development of new standards and the dev
 For all other project types, some of the process steps are optional (see xref:concepts:project_types.adoc[]).
 
 This process description focuses on the ideal and best-case course of an ASAM project.
-Real projects may have iterations, loops and interventions by the __{tsc}__, Office, or Board of Directors. +
+Real projects may have iterations, loops and interventions by the TSC, Office, or Board of Directors. +
 Project groups may decide to re-start a project with an updated project proposal, upgrade to a higher release level, or to prematurely end the project.
 While those events can occur and need to be appropriately managed, they are out-of-scope for this Project Guide.
 
-image::compendium:asam/development_phase.drawio.svg[title="The development phase in detail, using the xref:concepts:diagram_notations.adoc[ASAM Project Phase Notation]"]
-
-
-
-
-TODO
+image::compendium:asam/development_phase-summary.svg[title="The development phase overview, using the xref:concepts:diagram_notations.adoc[ASAM Project Phase Notation]"]

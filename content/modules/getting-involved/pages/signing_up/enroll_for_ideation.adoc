@@ -3,7 +3,7 @@
 :keywords: ideation
 
 include::partial$_attributes.adoc[]
-include::{abb}[]
 
 
-include::compendium:page$ASAM/phase-01_ideation/how-to__enroll_for_ideation.adoc[tag=body]
+
+include::compendium:page$How-Tos/how-to-enroll_for_ideation.adoc[tag=body]

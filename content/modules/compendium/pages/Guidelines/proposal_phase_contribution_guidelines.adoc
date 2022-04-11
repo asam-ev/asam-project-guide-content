@@ -1,0 +1,29 @@
+= Proposal Phase Contribution Guidelines
+:description: Contains a list of guidelines for contributing with issues that project members need to follow.
+:keywords: guideline, issue, proposal
+:navtitle: [] Proposal Phase Contribution Guidelines
+:numbered:
+
+include::compendium:partial$_attributes.adoc[]
+
+//tag::body[]
+
+//tag::roles[]
+[cols="1,5", grid = rows]
+|===
+h|Involved roles
+a| * {role-wg-member}
+* {role-project-lead}
+
+ifdef::compendium[]
+h| Phase
+| xref:getting-involved:proposal_phase.adoc#_process_overview[image:compendium:asam/project_lifecycle-proposal.svg[]]
+endif::[]
+
+h| Step
+| image:compendium:asam/proposal_phase_v2-proposal_writing.svg[]
+
+|===
+//end::roles[]
+
+include::compendium:page$Guidelines/workflow-contribute_with_issues.adoc[tags=body;proposal]

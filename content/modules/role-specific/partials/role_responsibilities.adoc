@@ -14,7 +14,7 @@ The Project Lead is responsible for:
 
 * Coordinating all project activities
 * Organizing project-wide events
-* Presenting the current status to ASAM (__{tsc}__, __{gtm}s__)
+* Presenting the current status to ASAM (TSC, __GTMs__)
 * Ensure the project stays on track
 
 === Expectations

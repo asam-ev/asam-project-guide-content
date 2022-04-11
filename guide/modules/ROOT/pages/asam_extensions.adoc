@@ -4,12 +4,12 @@
 :page-aliases: special-macros.adoc
 
 include::partial$_attributes.adoc[]
-include::{abb}[]
+
 
 {special-macros-icon}
 
 Antora and Asciidoctor already provide a rich set of features and macros.
-However, not all functions that __{asam}__ requires for an efficient and partially automated content structuring are present by default.
+However, not all functions that ASAM requires for an efficient and partially automated content structuring are present by default.
 For this reason, an Antora extension and an Asciidoctor extension were created.
 
 This page collects all the features of this extension, such as the custom macros, and explains what they do and how to use them.
