@@ -19,10 +19,13 @@ Involved roles::
 include::partial$project_phases.adoc[tag=review]
 ====
 
-The purpose of the Review phase is to involve members of ASAM outside the project group to give their review feedback and to increase the overall quality and acceptance of the standard prior to its release.
+== Overview
+The purpose of the Review phase is to gather feedback and review the created document(s) by people outside the project group.
+The goal is to increase the overall quality and acceptance of the standard prior to its release.
 
+image::compendium:asam/review_phase.drawio.svg[title="The Review phase"]
 
-== C1 - Draft Release
+== Draft Release
 [cols="1h,20"]
 |===
 |Purpose
@@ -45,7 +48,7 @@ Changes to the prior version shall be marked in the draft documents or documente
 Public reviews are mandatory for new standards and major versions of existing standards.
 The project group releases a draft of the standard, which is feature-complete and has undergone an internal review.
 
-== C2 - Public Draft Review
+== Public Draft Review
 [cols="1h,20"]
 |===
 |Purpose
@@ -80,7 +83,7 @@ Members are given a minimum period of six weeks for the review (eight weeks for 
 
 
 
-== C3 - Feedback Deadline
+== Feedback Deadline
 [cols="1h,20"]
 |===
 |Purpose
@@ -101,7 +104,7 @@ The Office terminates the public draft review process by:
 Once the review period is over, the ASAM office removes the draft standard from public access and makes the review comments available to the project group.
 
 
-== C4 - Feedback Processing
+== Feedback Processing
 [cols="1h,20"]
 |===
 |Purpose
