@@ -18,39 +18,12 @@ include::partial$module-description.adoc[]
 > **Contributing at ASAM is easy: you only need a web browser!**
 
 All the tools that are required for participating in ASAM projects are hosted online and can be accessed through any web browser.
-You only need to set up you account and can start right away.
+All you need to do is xref:account_setup.adoc[set up your repository account] and can start right away.
+Also, make sure to familiarize yourself with the xref:project_guidelines_intro.adoc[ASAM Project Guidelines].
 
-However, note that you will still need to set up an account.
 If you prefer, you may also choose to work with compatible tools on your local computer.
 For recommendations for advanced users, check out the xref:compendium:Tools.adoc[] section in the Compendium.
 
-== Working With Remote Repositories
 
-{remote-xref}[Remote Repositories] provide an integrated working environment and text editor.
-With these, users can directly create and edit files without having to install xref:compendium:Tools/git.adoc[] or an editor like xref:compendium:Tools/vscode.adoc[]. +
-The choice of remote repository depends on the project.
-Most ASAM projects use https://code.asam.net/[ASAM's GitLab instance^].
-Alternatively, ASAM also supports projects on https://github.com/asam-ev[GitHub^]. +
-ASAM recommends looking up specific questions on these platforms and their features in general on their respective online documentation.
-Topics related to ASAM rules in projects (e.g. for using issue templates) can be found in the {remote-xref}[Remote Repositories Info Page].
-
-== Minimum Required Setup
-{mandatory}
-
-Whether you prefer to work online or not, you must do a minimum setup before you can participate in and contribute to any project.
-This includes:
-
-* xref:account_setup.adoc[Setting up your account] for the project's remote repository
-* Read and apply the xref:project_guidelines_intro.adoc[ASAM Project Guidelines]
-
-
-== Recommended Setup
-{recommended}
-
-In addition to the <<Minimum Required Setup>>, ASAM recommends checking out the following pages.
-These describe the provided infrastructure for ASAM projects.
-These infrastructure tools may be utilized in your project as well.
-
-include::contributing:partial$list-of-tools.adoc[tag=mandatory]
 
 // include::ROOT:partial$landing_page_referral.adoc[]

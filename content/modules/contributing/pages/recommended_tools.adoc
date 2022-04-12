@@ -1,4 +1,4 @@
-= Recommended Tools
+= Recommendations
 :description: Lists all tools recommended by ASAM.
 :keywords: recommended, tools
 
@@ -7,18 +7,8 @@ include::partial$_attributes.adoc[]
 
 {recommended}
 
-== Overview
-Some people may prefer to work on project content locally, using docker images or installed tools.
-Every project member may decide to do so as long as this does not prevent the other project members from having the most recent content changes and topic discussions available to them.
+In addition to the <<Minimum Required Setup>>, ASAM recommends checking out the following pages.
+These describe the provided infrastructure for ASAM projects.
+These infrastructure tools may be utilized in your project as well.
 
-For many tasks, multiple different tools may be available.
-Each user may choose their own favorite setup as long as it is compatible with the xref:main.adoc[Default Online Setup]. +
-ASAM recommends the following list of tools directly.
-Users using other tools cannot expect support by an ASAM representative for these.
-
-include::contributing:partial$list-of-tools.adoc[tag=recommended]
-
-== Project-specific Tools
-Some projects may require specific tools for specific tasks, such as a modelling tool for creating language models.
-These are specified by the project and may have project-internal support and description pages.
-However, this it out-of-scope for the Project Guide.
+include::contributing:partial$list-of-tools.adoc[tag=mandatory]
