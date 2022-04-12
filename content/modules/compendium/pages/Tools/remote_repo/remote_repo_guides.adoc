@@ -11,12 +11,11 @@ include::contributing:partial$_attributes.adoc[]
 
 {remote-icon-page}
 
-== General Workflows
-include::compendium:page$Guidelines/workflow-trunk.adoc[leveloffset=+2, tag=!compendium]
+include::compendium:page$Guidelines/workflow-trunk.adoc[leveloffset=+1, tags=!compendium]
 
 ---
 
-=== Contributing Through Issues
+== Contributing Through Issues
 You can contribute to ASAM projects directly through issues.
 These issues can be created and managed in the respective Remote Repository of the project.
 
@@ -25,7 +24,7 @@ For more information, see xref:compendium:page$Guidelines/workflow-contribute_wi
 ---
 
 
-=== Ticket Triage
+== Ticket Triage
 Projects may get so big, that issues are created and forgotten without ever being finished.
 To prevent unnecessary and obsolete issues bogging up the repository, ASAM employs a Ticket Triage workflow.
 
@@ -34,27 +33,16 @@ For more information, see xref:compendium:page$Guidelines/workflow-ticket_triage
 
 == Specific Guidelines
 
-include::compendium:page$Guidelines/repo-make_changes.adoc[leveloffset=+2, tag=!compendium]
-
----
-
-include::compendium:page$Guidelines/repo-merge-pull_requests.adoc[leveloffset=+2, tag=!compendium]
-
----
-
-include::compendium:page$Guidelines/repo-merge_conflicts.adoc[leveloffset=+2, tag=!compendium]
-
----
-
-include::compendium:page$Guidelines/repo-submodules.adoc[leveloffset=+2, tag=!compendium]
-
----
-
-include::compendium:page$How-Tos/how-to-access_compiled_artifacts.adoc[leveloffset=+2, tag=!compendium]
-
----
-
-include::compendium:page$How-Tos/how-to-forking_repo.adoc[leveloffset=+2, tag=!compendium]
+* xref:compendium:Guidelines/repo-make_changes.adoc[]
+// include::compendium:page$Guidelines/repo-make_changes.adoc[leveloffset=+2, tag=!compendium]
+* xref:compendium:Guidelines/repo-merge-pull_requests.adoc[]
+// include::compendium:page$Guidelines/repo-merge-pull_requests.adoc[leveloffset=+2, tag=!compendium]
+* xref:compendium:Guidelines/repo-merge_conflicts.adoc[]
+// include::compendium:page$Guidelines/repo-merge_conflicts.adoc[leveloffset=+2, tag=!compendium]
+* xref:compendium:Guidelines/repo-submodules.adoc[]
+// include::compendium:page$Guidelines/repo-submodules.adoc[leveloffset=+2, tag=!compendium]
+* xref:compendium:How-Tos/how-to-access_compiled_artifacts.adoc[]
+// include::compendium:page$How-Tos/how-to-access_compiled_artifacts.adoc[leveloffset=+2, tag=!compendium]
 
 == Conventions
 reference::repo_convention[]

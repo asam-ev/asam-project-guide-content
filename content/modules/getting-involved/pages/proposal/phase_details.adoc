@@ -13,8 +13,6 @@ Each step is explained shortly under <<Proposal Phase Steps>>.
 image::compendium:asam/proposal_phase_v2-proposal_phase.svg[title="The Proposal phase in detail, using the xref:concepts:diagram_notations.adoc[ASAM Project Phase Notation]"]
 
 
-image::compendium:asam/proposal_phase_v2-proposal_setup.svg[]
-
 == Proposal Phase Steps
 The Proposal phase consists of the following steps, which are explained in detail in their own sections:
 

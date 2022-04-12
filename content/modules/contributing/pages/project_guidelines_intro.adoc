@@ -1,4 +1,4 @@
-= Central Project Guidelines
+= Project Guidelines Introduction
 :description: any
 :keywords: any
 

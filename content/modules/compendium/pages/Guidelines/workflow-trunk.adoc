@@ -22,22 +22,19 @@ include::compendium:partial$_attributes.adoc[]
 IMPORTANT: Never work on the trunk directly -- always create your own <<Create development branch,development branch>>!
 
 == Introduction
-The trunk-based workflow is an established development approach.
-Its central idea is that there is a single central branch (also known as "trunk") that contains the official and reviewed state of a project. +
-Usually, this trunk is protected so that users cannot directly commit and push changes to it.
+A trunk-based repository is a repository that has a single central branch (the "trunk").
+This trunk contains the official and reviewed state of a project. +
+Users cannot commit and push changes to this specific branch directly.
 Instead, all changes on the repository's content are made in development or feature branches.
 These can either be branched off of the trunk or from another feature branch.
+Once ready, a branch is merged back into its parent branch (which may be the trunk or another feature branch).
 
-Once all changes are ready, the branch is merged back into either its parent branch (which may be the trunk or another feature branch) or directly to the trunk (if its parent is another feature branch).
-ASAM recommends always merging back to the parent branch.
-
-The benefit of this approach is that each repository's trunk contains the latest reviewed (and possibly released) version.
-Mistakes and unfinished changes to parts of it only have an impact on the branch where they happen. +
-The approach also relies on xref:compendium:Guidelines/repo-merge-pull_requests.adoc[Merge/Pull Request] which provide better tools and options for reviews than a direct push to the trunk would.
+The benefit of this approach is that each repository's trunk contains the latest official state or version.
+Mistakes and unfinished changes to parts of it only have an impact on the branch where they happen.
 
 
 == The Trunk
-This branch can only be merged to by the ASAM office or the project's Change Control Board (CCB).
+The central branch ("trunk") can only be merged to by the ASAM office, the Project Lead, or the project's Change Control Board (CCB).
 Unless indicated by a clear git tag, all commits are considered to be part of a release candidate.
 
 Users **MAY** branch off the trunk for more focused development work. +

@@ -41,7 +41,7 @@ Whether you prefer to work online or not, you must do a minimum setup before you
 This includes:
 
 * xref:account_setup.adoc[Setting up your account] for the project's remote repository
-* Read and apply the xref:central_project_guidelines.adoc[ASAM Project Guidelines]
+* Read and apply the xref:project_guidelines_intro.adoc[ASAM Project Guidelines]
 
 
 == Recommended Setup
