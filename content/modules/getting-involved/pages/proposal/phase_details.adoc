@@ -44,7 +44,7 @@ The Proposal phase consists of the following steps, which are explained in detai
 
 |===
 
-At the beginning of the Proposal phase, ASAM sets up the repository where the proposal content is kept and discussed. +
+The environment and proposal document are setup by the ASAM office with clear indicators where content is expected by contributors. +
 See xref:proposal/setup.adoc[].
 
 ---
@@ -63,35 +63,11 @@ See xref:proposal/setup.adoc[].
 |{role-wg-member}
 |===
 
-Before the proposal is first presented to interested parties in the Proposal Workshop, an initial draft must be created that can be discussed properly.
 
+In advance of the Proposal Workshop, the executive summary and motivation in the proposal document must be filled out. 
+An initial outline of the use cases of the idea givers should also be defined in the document. 
+All further content is optional. +
 See xref:proposal/proposal_writing.adoc[].
-
----
-
-=== Proposal Workshop Preparation
-[cols="3,1,10"]
-|===
-.3+|image:compendium:asam/proposal_phase_v2-organize_proposal_workshop.svg[]
->h|Purpose
-a|* To prepare and announce the upcoming Proposal Workshop
-
->h|Responsible
-|{role-gtm}
-
->h|Involved
-|{role-member} and enrolled {role-member}, {role-tsc-member}
-|===
-
-The Office is responsible for the preparation of the Proposal Workshop.
-This is done in close cooperation with the member(s), who initiated the process and are the major drivers of the idea.
-
-If there is significant interest in the proposed project in different regions (primarily in North America, Europe, East Asia), then the Office organizes meetings in a way that equally allows all members from those regions to influence the results of the Proposal Workshop.
-
-The Office sends out a public invitation for the Proposal Workshop at least four weeks prior to the event with a brief description of the goals and content of the proposed project.
-The Office also informs the TSC.
-
-See xref:proposal/proposal_workshop_preparation.adoc[].
 
 ---
 
@@ -117,13 +93,9 @@ Results of an optional concept project shall be included.
 |{role-member} and {role-standard-user}, particularly technical domain experts, internal end-user support experts, product managers, development managers
 |===
 
-The Office is responsible for carrying out of the Proposal Workshop.
-This is done in close cooperation with the member(s), who initiated the process and are the major drivers of the idea.
+Preparation and moderation of the workshop is performed by the ASAM office in close cooperation with the idea givers.
 
-Proposal Workshops are open to all ASAM members.
-Non-members can participate upon invitation by the Office. +
-By default, the Office moderates the workshop.
-This task can be passed to a member, if appropriate.
+Proposal Workshops are open to everyone.
 
 See xref:proposal/join_proposal_workshop.adoc[] for infos on how to join. +
 During the Workshop, the xref:proposal/need_for_service_providers.adoc[need for Service Providers is assessed] as well.
@@ -144,12 +116,16 @@ During the Workshop, the xref:proposal/need_for_service_providers.adoc[need for 
 |{role-gtm}
 |===
 
-Interested parties can start to xref:compendium:How-Tos/how-to-enroll_for_development.adoc[enroll] for the proposed project in parallel to the other Proposal Phase activities. +
-See xref:signing_up.adoc[] for available options during this process and more detail information on it. +
-Additionally, you can xref:proposal/submit_candidacy.adoc[apply for the role of Project Lead].
+xref:compendium:How-Tos/how-to-enroll_for_development.adoc[Enrollment] for the proposed project is opened by ASAM from the Proposal Workshop onwards.
 
-For more information on the enrollment list, see xref:compendium:How-Tos/how-to-enrollment_list.adoc[] in the Compendium. +
-For more information on how to enroll for the Development phase, see xref:compendium:How-Tos/how-to-enroll_for_development.adoc[] in the Compendium.
+Enrollment to a project takes place on the ASAM website. +
+An enrollment consists of one or more named inviduals that will actively contribute to the project's development. +
+For each named individual a clear resource comittment in the form of many days of effort being comitted over the project's runtime is required- see xref:signing_up.adoc[comittment requirements].
+
+Applicants for xref:proposal/submit_candidacy.adoc[the role of Project Lead] are also welcomed.
+
+// For more information on the enrollment list, see xref:compendium:How-Tos/how-to-enrollment_list.adoc[] in the Compendium. +
+// For more information on how to enroll for the Development phase, see xref:compendium:How-Tos/how-to-enroll_for_development.adoc[] in the Compendium.
 
 ---
 
