@@ -26,7 +26,7 @@ image::compendium:asam/asam_phases_legend-example.svg[title=Example diagram base
 <2> The first activity in the phase is the person with the idea (the "Idea Giver") sending an email with their project idea to the ASAM Office
 <3> This is where the path branches: if the idea is a new standard, it will continue with event **4**, otherwise with event **5**
 <4> In case this is a new standard, the ASAM Office will initiate an Ideation Workshop together with the Idea Giver to add further details to the idea before deciding on whether to progress to the Proposal phase or disregard the idea.
-The Workshop is created using the provided (**4a**) Ideation Workshop gameplan, and its outcome (**4b**) is the basis for a new proposal.
+The Workshop is created using the provided (**4a**) Ideation Workshop gameplan.
 <5> Whether the idea is a new standard or not, the Idea Giver has to raise enough interest to gather the required amount of participants for the Proposal phase, which is at least 3.
 He keeps the ASAM Office informed about the status, and the ASAM Office may support by bringing the Idea Giver in contact with potentially interested parties at ASAM.
 <6> Once the requirements for entering the next phase have been fulfilled, the project may enter the Proposal phase.
