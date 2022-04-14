@@ -9,7 +9,9 @@ include::contributing:partial$_attributes.adoc[]
 
 
 
+//tag::icon[]
 {remote-icon-page}
+//end::icon[]
 
 include::compendium:page$Guidelines/workflow-trunk.adoc[leveloffset=+1, tags=!compendium]
 

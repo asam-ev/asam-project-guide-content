@@ -1,16 +1,8 @@
-= Remote Repository Account Setup
+= Setup
 :description: any
 :keywords: any
 
 include::partial$_attributes.adoc[]
 
-== Background
-{remote-xref}[Remote Repositories] provide an integrated working environment and text editor.
-With these, users can directly create and edit files without having to install xref:compendium:Tools/git.adoc[] or an editor like xref:compendium:Tools/vscode.adoc[]. +
-The choice of remote repository depends on the project.
-Most ASAM projects use https://code.asam.net/[ASAM's GitLab instance^].
-Alternatively, ASAM also supports projects on https://github.com/asam-ev[GitHub^]. +
-ASAM recommends looking up specific questions on these platforms and their features in general on their respective online documentation.
-Topics related to ASAM rules in projects (e.g. for using issue templates) can be found in the {remote-xref}[Remote Repositories Info Page].
 
-include::compendium:Tools/remote_repo/remote_repo_setup.adoc[tag=body]
+include::compendium:Tools/remote_repo/remote_repo_setup.adoc[tags=body;!icon]
