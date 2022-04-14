@@ -32,7 +32,7 @@ Note that project participation also requires ASAM membership!
 
 h|xref:role-specific:reviewer.adoc[(2) Reviewer]
 a|An ASAM member outside the project that participates in the review of one or more documents. +
-When a project's deliverable are reviewed, ASAM members that were not involved in the project directly can participate in the Review phase by becoming a __Reviewer__ and providing feedback.
+When a project's deliverables are reviewed, ASAM members that were not involved in the project directly can participate in the Review phase by becoming a __Reviewer__ and providing feedback.
 
 2+s|[.underline]#Project roles#
 h|xref:role-specific:wg-member.adoc[(3) Project Participant]
