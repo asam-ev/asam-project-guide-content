@@ -5,5 +5,4 @@
 ** xref:creation-of-standards.adoc[]
 ** xref:roles-overview.adoc[]
 ** xref:doc-as-code.adoc[]
-*** xref:tools-overview.adoc[]
 *** xref:pipeline_details.adoc[]

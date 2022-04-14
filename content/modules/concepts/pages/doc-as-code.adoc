@@ -12,17 +12,17 @@ Many newer projects at ASAM follow the concept of Documentation as Code (Doc-as-
 This concept refers to using the same tools and methods for documentation (or standardization) as for writing (software) code.
 The main benefit of this concept is the separation of content and text in documents from its layout rules and publishing.
 
-[IMPORTANT]
-====
-NOT to be confused with the Dog-as-Code concept!!!
-----
-           __
-  \ ______/ V`-,
-   }        /~~
-  /_)^ --,r'
- |b      |b
-----
-====
+// [IMPORTANT]
+// ====
+// NOT to be confused with the Dog-as-Code concept!!!
+// ----
+//            __
+//   \ ______/ V`-,
+//    }        /~~
+//   /_)^ --,r'
+//  |b      |b
+// ----
+// ====
 
 == Concept
 As described in the introduction, the general concept is to use established tools and processes from software development and apply them in the creation of documents.
@@ -90,13 +90,15 @@ Additionally, you can find more information on using Git and working with reposi
 
 [#sec-online-collaboration]
 === Online Collaboration
+include::contributing:partial$simple_contribution.adoc[]
+
 The work on standards, particularly at ASAM, is of collaborative nature:
 People from different companies companies join in a project to develope something together.
 The idea is to create something that will be adapted and used not just by a single company but a majority of the target industry. +
 Online repository platforms like GitLab and GitHub support the collaboration by providing features for commenting and reviewing content changes as well as issue boards for creating and tracking topics.
 In addition to that, they also integrate the same versioning and repository aspects described in the <<sec-versioning-repo,section above>>.
 
-Using online collabartion platforms with repository support provide multiple benefits:
+Using online collaboration platforms with repository support provide multiple benefits:
 
 * They typically provide online editors for content, so users can choose to participate in projects xref:contributing:main.adoc[without having to install software] (besides any standard web browser)
 * Merge Requests (Pull Requests) can be reviewed and commented on with a side-by-side preview in the browser (diff view)

@@ -3,7 +3,7 @@
 
 include::contributing:partial$_attributes.adoc[]
 
-The following tabulated table lists the tools used at ASAM projects, separated by intended use.
+The following tabulated table lists the tools used in ASAM projects, separated by intended use.
 
 include::contributing:partial$icon_reminder.adoc[tag=info-page]
 

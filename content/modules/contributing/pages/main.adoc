@@ -15,15 +15,17 @@ include::partial$module-description.adoc[]
 
 ---
 
-> **Contributing at ASAM is easy: you only need a web browser!**
+include::contributing:partial$simple_contribution.adoc[]
 
-All the tools that are required for participating in ASAM projects are hosted online and can be accessed through any web browser.
-All you need to do is xref:account_setup.adoc[set up your repository account] and can start right away.
-Also, make sure to familiarize yourself with the xref:project_guidelines_intro.adoc[ASAM Project Guidelines].
+All the tools that are required for participating in ASAM projects are hosted online and can be accessed through any web browser. +
+All you need to do is xref:account_setup.adoc[set up your repository account] and can start right away - no installation required!
+Just make sure to familiarize yourself with the xref:project_guidelines_intro.adoc[ASAM Project Guidelines] before you start contributing.
 
 If you prefer, you may also choose to work with compatible tools on your local computer.
 For recommendations for advanced users, check out the xref:compendium:Tools.adoc[] section in the Compendium.
 
+
+include::contributing:partial$list-of-tools.adoc[tag=tabs]
 
 
 // include::ROOT:partial$landing_page_referral.adoc[]
