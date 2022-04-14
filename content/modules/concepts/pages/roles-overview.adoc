@@ -24,10 +24,11 @@ The following table contains a list of the most prominent roles at ASAM and a sh
 |===
 2+s|[.underline]#External roles#
 h|xref:role-specific:standard_user.adoc[(1) Standard User]
-a|Someone who has access to and possible is an active user of any ASAM standard. +
+a|Someone who has access to and possibly is an active user of any ASAM standard. +
 Some standards require https://www.asam.net/about-asam/join-asam/[ASAM membership^] in order to access the documents, whilst other standards are available to anyone online. +
 The role __Standard User__ is not directly involved in the creation of a standard.
-However, a __Standard User__ may take over other (active) roles in a project by enrolling in it.
+However, a __Standard User__ may take over other (active) roles in a project by enrolling in it. +
+Note that project participation also requires ASAM membership!
 
 h|xref:role-specific:reviewer.adoc[(2) Reviewer]
 a|An ASAM member outside the project that participates in the review of one or more documents. +
