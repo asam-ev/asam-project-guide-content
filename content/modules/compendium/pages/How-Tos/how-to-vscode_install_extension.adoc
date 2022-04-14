@@ -14,7 +14,7 @@ As an example, we will use the xref:{vscode-extensions}#_asciidoc[AsciiDoc] exte
 
 The AsciiDoc extension for VSCode allows for easy creation and supported editing of AsciiDoc or adoc files within VSCode.
 For shortcuts and tips, see the documentation of the extension.
-You can access that documentation when you click on the extension in the marketplace.
+You can access this documentation when you click on the extension in the marketplace.
 
 . Access the extensions window through the VSCode menu bar -> View -> Extensions.
 +

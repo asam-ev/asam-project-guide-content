@@ -27,7 +27,7 @@ For more information, see xref:compendium:page$Guidelines/workflow-contribute_wi
 
 
 == Ticket Triage
-Projects may get so big, that issues are created and forgotten without ever being finished.
+Projects may get so big that issues are created and forgotten without ever being finished.
 To prevent unnecessary and obsolete issues bogging up the repository, ASAM employs a Ticket Triage workflow.
 
 For more information, see xref:compendium:page$Guidelines/workflow-ticket_triage.adoc[] in the Compendium.

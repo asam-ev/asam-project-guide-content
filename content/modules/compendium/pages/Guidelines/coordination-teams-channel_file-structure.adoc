@@ -26,7 +26,7 @@ include::compendium:partial$_attributes.adoc[]
     └───WorkPackage
         └───WPXX_WPNAME
             ├───development // Anything being worked on goes here
-            │               // (that doesnt yet belong on git)
+            │               // (that doesn't yet belong on git)
             │
             └───meetings
                 └───YYYY-MM-DD_MeetingTitle // All WP meeting documents here

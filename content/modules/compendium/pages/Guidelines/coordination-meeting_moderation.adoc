@@ -31,7 +31,7 @@ include::compendium:partial$_attributes.adoc[]
 *** Moderator must still remain neutral when managing the meeting. Give other opinions and proposals the same attention than yours.​
 *** Moderator should send a second employee, who can openly represent the company's opinion and proposals. Moderator must treat him like everyone else.​
 * Moderator must have technical competence in the standard's subject matter
-* In case the number of people that come to meetings drop
+* In case the number of people who come to meetings drop
 ** A small decline in participation is normal and shall be accepted.
 ** If the number drops significantly, openly talk about meeting efficiency and meeting style, and what can be improved. Typically, the reasons for low participation lies here.
 ** Remind people about their man-day commitments, too.
@@ -41,7 +41,7 @@ include::compendium:partial$_attributes.adoc[]
 * Keep the discussion focused on topic
 ** Point out to the panelists that they are off-topic
 ** But let the discussion go for a while
-** Drive discussion towars results/decisions
+** Drive discussion towards results/decisions
    (not towards own/right results/decisions)
 * Ask less involved people about their opinion/contribution
 * Do not let the discussion become repetitive

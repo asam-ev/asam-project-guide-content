@@ -40,7 +40,7 @@ image::compendium:commentanchor_ext.PNG[]
 //tag::drawio[]
 The Draw.io extension for Visual Sudio Code allows for easy creation and assisted editing of drawio and other files supported by Draw.io within Visual Studio Code.
 For shortcuts and tips, see the documentation of the extension.
-You can access that documentation when you click on the extension in the marketplace.
+You can access this documentation when you click on the extension in the marketplace.
 
 .Draw.io Integration (id: hediet.vscode-drawio)
 image::compendium:drawio_ext.png[alt=Search and find the extension 'Draw.io Integration']

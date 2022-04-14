@@ -77,8 +77,8 @@ Enrollment Process::
 xref:compendium:How-Tos/how-to-enroll_for_development.adoc[Enrollment] for the proposed project is opened by ASAM from the Proposal Workshop onwards.
 
 Enrollment to a project takes place on the ASAM website. +
-An enrollment consists of one or more named inviduals that will actively contribute to the project's development. +
-For each named individual a clear resource comittment in the form of many days of effort being comitted over the project's runtime is required- see xref:signing_up.adoc[comittment requirements].
+An enrollment consists of one or more named individuals who will actively contribute to the project's development. +
+For each named individual a clear resource commitment in the form of many days of effort being committed over the project's runtime is required -- see xref:signing_up.adoc[commitment requirements].
 
 Applicants for xref:proposal/submit_candidacy.adoc[the role of Project Lead] are also welcomed.
 --
@@ -353,8 +353,8 @@ During the Workshop, the xref:proposal/need_for_service_providers.adoc[need for 
 xref:compendium:How-Tos/how-to-enroll_for_development.adoc[Enrollment] for the proposed project is opened by ASAM from the Proposal Workshop onwards.
 
 Enrollment to a project takes place on the ASAM website. +
-An enrollment consists of one or more named inviduals that will actively contribute to the project's development. +
-For each named individual a clear resource comittment in the form of many days of effort being comitted over the project's runtime is required- see xref:signing_up.adoc[comittment requirements].
+An enrollment consists of one or more named individuals who will actively contribute to the project's development. +
+For each named individual a clear resource commitment in the form of many days of effort being committed over the project's runtime is required- see xref:signing_up.adoc[commitment requirements].
 
 Applicants for xref:proposal/submit_candidacy.adoc[the role of Project Lead] are also welcomed.
 
