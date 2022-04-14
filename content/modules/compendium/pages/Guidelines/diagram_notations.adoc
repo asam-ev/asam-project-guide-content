@@ -1,11 +1,10 @@
 = Notation In Project Phase Diagrams
 :description: An explanatory page for the project phase diagrams.
 :keywords: diagrams, phase, concept
+:navtitle: [] Notation In Project Phase Diagrams
 
-include::partial$_attributes.adoc[]
+include::compendium:partial$_attributes.adoc[]
 
-
-{diagram-notation-icon}
 
 == Introduction
 This Project Guide uses a variation of https://www.omg.org/spec/BPMN/2.0/[BPMN 2.0^] diagrams to describe the ASAM Project Phases.

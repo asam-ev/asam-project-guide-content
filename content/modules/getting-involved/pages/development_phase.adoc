@@ -29,4 +29,4 @@ Real projects may have iterations, loops and interventions by the TSC, Office, o
 Project groups may decide to re-start a project with an updated project proposal, upgrade to a higher release level, or to prematurely end the project.
 While those events can occur and need to be appropriately managed, they are out-of-scope for this Project Guide.
 
-image::compendium:asam/development_phase-summary.svg[title="The development phase overview, using the xref:concepts:diagram_notations.adoc[ASAM Project Phase Notation]"]
+image::compendium:asam/development_phase-summary.svg[title="The development phase overview, using the xref:compendium:Guidelines/diagram_notations.adoc[ASAM Project Phase Notation]"]

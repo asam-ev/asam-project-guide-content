@@ -12,7 +12,7 @@ Each sub-step is further detailed on its respective page.
 
 
 [#fig-development-main-cycle-diagram]
-image::compendium:asam/development_phase-main.svg[title="The Development phase's main cycle in detail, using the xref:concepts:diagram_notations.adoc[ASAM Project Phase Notation]"]
+image::compendium:asam/development_phase-main.svg[title="The Development phase's main cycle in detail, using the xref:compendium:Guidelines/diagram_notations.adoc[ASAM Project Phase Notation]"]
 
 While the project is actively being developed, it follows the main development cycle of planning, developing, and reviewing.
 Occasionally, there are project-independent events happening, such as "Controlling Meetings", where each project may or must participate in.

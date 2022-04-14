@@ -11,7 +11,7 @@ This page covers the Setup step and all its sub-steps.
 Each sub-step is then further detailed on its respective page.
 
 [#fig-development-setup-step-diagram]
-image::compendium:asam/development_phase-setup.svg[title="The Development phase's setup step in detail, using the xref:concepts:diagram_notations.adoc[ASAM Project Phase Notation]"]
+image::compendium:asam/development_phase-setup.svg[title="The Development phase's setup step in detail, using the xref:compendium:Guidelines/diagram_notations.adoc[ASAM Project Phase Notation]"]
 
 At the beginning of the Development phase, the project team gets together for a <<Kick-off Workshop>>.
 Here, the team decides on key topics of the project and also elects the Project Lead. +

@@ -22,7 +22,7 @@ They get initiated by someone entering an idea for a new project. +
 The Ideation phase specifies the process of how an idea for a new topic can be entered and is then analyzed at ASAM.
 For more information, see the https://www.asam.net/active-projects/ideation/how-it-works/[**info page**^] on the ASAM website.
 
-image::compendium:asam/ideation_phase-ideation_phase.svg[title="The ideation phase in detail, using the xref:concepts:diagram_notations.adoc[ASAM Project Phase Notation]"]
+image::compendium:asam/ideation_phase-ideation_phase.svg[title="The ideation phase in detail, using the xref:compendium:Guidelines/diagram_notations.adoc[ASAM Project Phase Notation]"]
 
 == Ideation Phase Steps
 The Ideation phase consists of the following steps, which are explained in detail in their own sections:

@@ -36,12 +36,6 @@ xref:roles-overview.adoc[Roles]
 a|There are different roles for people working at or with ASAM.
 A person can have one or more roles, and most roles only apply within a given project.
 
-
-h|{diagram-notation-icon-norole} +
-xref:diagram_notations.adoc[]
-a|This Project Guide uses a BPMN-variant notation for normative Project Phase diagrams.
-The general notation is explained with an example.
-
 h|{doc-as-code-icon-norole} +
 xref:doc-as-code.adoc[]
 a|The central concept throughout the Project Guide is the concept of Documentation-as-Code (or Doc-as-Code).

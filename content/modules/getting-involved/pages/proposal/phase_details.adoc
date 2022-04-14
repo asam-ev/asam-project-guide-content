@@ -10,7 +10,7 @@ The figure <<fig-proposal-phase-diagram-detailed>> shows the Proposal phase in f
 Each step is explained shortly under <<Proposal Phase Steps>>.
 
 [#fig-proposal-phase-diagram-detailed]
-image::compendium:asam/proposal_phase_v2-proposal_phase.svg[title="The Proposal phase in detail, using the xref:concepts:diagram_notations.adoc[ASAM Project Phase Notation]"]
+image::compendium:asam/proposal_phase_v2-proposal_phase.svg[title="The Proposal phase in detail, using the xref:compendium:Guidelines/diagram_notations.adoc[ASAM Project Phase Notation]"]
 
 
 == Proposal Phase Steps
@@ -64,8 +64,8 @@ See xref:proposal/setup.adoc[].
 |===
 
 
-In advance of the Proposal Workshop, the executive summary and motivation in the proposal document must be filled out. 
-An initial outline of the use cases of the idea givers should also be defined in the document. 
+In advance of the Proposal Workshop, the executive summary and motivation in the proposal document must be filled out.
+An initial outline of the use cases of the idea givers should also be defined in the document.
 All further content is optional. +
 See xref:proposal/proposal_writing.adoc[].
 
