@@ -18,7 +18,6 @@ The Proposal phase consists of the following steps, which are explained in detai
 
 * <<Repository Setup>>
 * <<Draft Creation>>
-* <<Proposal Workshop Preparation>>
 * <<Proposal Workshop>>
 * <<Enrollment Process>>
 * <<Finalizing The Proposal>>
