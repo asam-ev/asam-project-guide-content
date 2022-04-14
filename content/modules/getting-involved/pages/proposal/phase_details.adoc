@@ -150,7 +150,7 @@ Submission::
 |{role-proposal-submitter}
 
 >h|Involved
-|{role-gtm} plus at least two {role-wg-member}
+|{role-gtm} plus at least two {role-wg-member}, [role-tsc-member]
 |===
 
 The Proposal Submitter sends the Proposal document to the Office and declares this to be his official proposal submission. +
@@ -186,7 +186,7 @@ Members of the TSC review the content of the proposal and clarify open questions
 
 The minimum publication period for project proposals is four weeks and shall not exceed eight weeks.
 --
-Decision::
+TSC Presentation::
 +
 --
 [cols="3,1,10"]
@@ -199,7 +199,7 @@ Decision::
 |{role-tsc-member}
 
 >h|Involved
-|{role-proposal-submitter}
+|{role-proposal-submitter}, {role-gtm}
 |===
 
 Submitted Project Proposals are put on the agenda of the next available TSC meeting.
