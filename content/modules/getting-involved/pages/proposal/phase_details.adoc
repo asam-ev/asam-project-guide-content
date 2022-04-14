@@ -436,7 +436,7 @@ The minimum publication period for project proposals is four weeks and shall not
 
 ---
 
-=== Decision
+=== TSC Presentation
 // [cols="3,1,10"]
 // |===
 // .3+|image:compendium:asam/proposal_phase_v2-decision.svg[]
@@ -453,9 +453,9 @@ The minimum publication period for project proposals is four weeks and shall not
 Submitted Project Proposals are put on the agenda of the next available TSC meeting.
 Proposals are handled during the meeting via a three-step process:
 
-. Submitter presents the proposal to the TSC members.
-. TSC members are given the opportunity to ask questions.
-. TSC members discuss the proposal (without submitter's presence) and then proceed with casting their votes on the proposal.
+. Submitter presents the proposal to the TSC members (10 to 15min).
+. TSC members are given the opportunity to ask questions (5 to 10min).
+. TSC members discuss the proposal (without submitter's presence) and then proceed with casting their votes on the proposal (10min).
 
 The TSC does not modify the content of the proposal.
 If this is deemed to be necessary, then the proposal shall be rejected.
