@@ -1,4 +1,4 @@
-= Project Guide versioning concept
+= Project Guide Versioning Concept
 :description: Describes the versioning concept of the Project Guide.
 :keywords: antora,structure,project-guide,versioning, TODO
 :page-aliases: structure/versioning_concept.adoc
@@ -6,6 +6,29 @@
 include::partial$_attributes.adoc[]
 
 
-.The Project Guide versioning concept
-image::versioning_concept.drawio.svg[alt="Versioning concept"]
+== Overview
+The Project Guide will change over time.
+To account for that and make tracking changes easier, this versioning concept is applied.
 
+The main idea of this concept is to have all officially released versions on main with a tag.
+Only tagged versions on this branch are displayed - with the exception of this Editing Guide. +
+The current development happens on a branch named "dev".
+This branch is regularly merged back into main.
+The dev branch is **never** tagged.
+
+If a project, upon request, is granted to create a specific Project Guide variant, the variant's latest commit is hosted.
+Project-specific guide variants are separated from the standard Project Guide into a collective Antora component.
+Each project is displayed as an Antora version.
+
+== Branching And Tagging
+image::versioning_concept-git.svg[]
+
+== Mapping In Antora
+
+image::versioning_concept-mapping.svg[]
+
+== Repositories
+To generate the Project Guide, two repositories are used: a https://github.com/asam-ev/asam-project-guide/[generator repository^] and a https://github.com/asam-ev/asam-project-guide-content[content repository^].
+This is displayed in the figure below.
+
+image::versioning_concept-structure.svg[title="Involved repositories in the Project Guide generation", alt="Repositories' structure"]
