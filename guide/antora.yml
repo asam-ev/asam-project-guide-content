@@ -1,8 +1,10 @@
 name: asamprojectguide-editing
 title: Editing the ASAM Project Guide
-version: master
-display_version: latest
-prerelease: -restructure
+version:
+  v(?<version>+({0..9}).+({0..9}).+({0..9})): $<version>
+  open-(*): 'open-$1'
+  dev: ~
+# prerelease: dev
 start_page: ROOT:main.adoc
 nav:
 - modules/ROOT/nav.adoc

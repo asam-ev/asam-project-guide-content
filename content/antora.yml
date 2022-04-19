@@ -1,9 +1,10 @@
 name: asamprojectguide
 title: ASAM Project Guide
 version:
-  main: 'latest'
+  v(?<version>+({0..9}).+({0..9}).+({0..9})): $<version>
   open-(*): 'open-$1'
-prerelease: -dev
+  dev: ~
+# prerelease: dev
 start_page: ROOT:index.adoc
 nav:
 - modules/concepts/nav.adoc
