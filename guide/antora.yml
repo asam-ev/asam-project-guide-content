@@ -1,9 +1,7 @@
 name: asamprojectguide-editing
 title: Editing the ASAM Project Guide
 version:
-  v(?<version>+({0..9}).+({0..9}).+({0..9})): $<version>
-  open-(*): 'open-$1'
-  dev: ~
+  main: latest
 # prerelease: dev
 start_page: ROOT:main.adoc
 nav:
