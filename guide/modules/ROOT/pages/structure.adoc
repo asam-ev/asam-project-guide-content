@@ -9,4 +9,4 @@ include::partial$_attributes.adoc[]
 
 Here you find all pages related to the structure of the Project Guide as well as navigating it.
 
-pages::[path=structure]
+include::../nav.adoc[tag=structure]
