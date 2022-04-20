@@ -10,7 +10,6 @@ Welcome to the **ASAM Project Guide**!
 
 ****
 IMPORTANT: This guide is a work in progress and subject to change!
-This is the restructuring branch.
 ****
 
 
