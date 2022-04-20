@@ -4,32 +4,50 @@
 
 include::partial$_attributes.adoc[]
 
+include::partial$asam_membership.adoc[]
+
+== Where you can participate
+You can participate in the Ideation phase to discuss a proposed idea. +
+If you are interested in a proposed project, you can participate there as well.
+
+
+== Who can sign up
+You can join any Ideation topic whether you are an ASAM member or not. +
+To actively participate in any ASAM project, you must be or become an ASAM member first.
+
+
+== When to sign up
+If you want to discuss a proposed idea, you can join the discussion any time as long as the ideation phase is going on.
+
+Signing up for a project happens during the xref:proposal/phase_details.adoc[Proposal Phase] of a project.
+The enrollment process starts with the xref:proposal/join_proposal_workshop.adoc[Proposal Workshop].
+
+
+== How to sign up
+[tabs]
+====
+Ideation::
++
+--
+include::compendium:page$How-Tos/how-to-enroll_for_ideation.adoc[tag=body]
+--
+Proposal and Development::
++
+--
+include::compendium:page$How-Tos/how-to-enroll_for_development.adoc[tag=body]
 
 
 IMPORTANT: If a member intends to commit a work effort of less than 50% of the average of the work efforts committed by all other project group members, then the Office can deny the registration.
 The member or the office can escalate the issue to the TSC.
 
-== Who can sign up
-include::partial$asam_membership.adoc[]
+--
+====
 
+== Special roles
+If you want to, you can also submit your candidacy for leader roles in a project you want to participate in.
+Candidates are elected during the xref:development/kick-off_workshop.adoc[] of a project.
 
-== When to sign up
-Typically, signing up for a project happens during the xref:proposal_phase.adoc#_process_overview[Proposal Phase] of a project.
-However, there are some exceptions:
+Interested people can submit their candidacy for the following roles:
 
-== How to sign up
-TODO
-
-== Contributing to a project
-TODO
-
-== Overview
-The following table summarizes the main points from this page.
-
-|===
-|Role|Description|When|Requirements
-
-|===
-
-
-include::compendium:page$How-Tos/how-to-enrollment_list.adoc[leveloffset=+2]
+* xref:signing_up/become_project_lead.adoc[Project Lead]
+* xref:signing_up/become_workgroup_lead.adoc[Workgroup Lead]

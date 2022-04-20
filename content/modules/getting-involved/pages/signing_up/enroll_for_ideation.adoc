@@ -1,9 +1,0 @@
-= Enroll during Ideation phase
-:description: Describes how to enroll for an idea during the Ideation phase.
-:keywords: ideation
-
-include::partial$_attributes.adoc[]
-
-
-
-include::compendium:page$How-Tos/how-to-enroll_for_ideation.adoc[tag=body]

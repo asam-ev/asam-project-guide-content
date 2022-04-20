@@ -1,7 +1,0 @@
-= Enroll for Development phase
-:description: Describes how to enroll for the Development phase of a project.
-:keywords: development, enroll
-
-include::partial$_attributes.adoc[]
-
-include::compendium:page$How-Tos/how-to-enroll_for_development.adoc[tag=body]
