@@ -1,4 +1,4 @@
-= Project Guide Versioning Concept
+= Project Guide versioning concept
 :description: Describes the versioning concept of the Project Guide.
 :keywords: antora,structure,project-guide,versioning, TODO
 :page-aliases: structure/versioning_concept.adoc
@@ -20,7 +20,7 @@ If a project, upon request, is granted to create a specific Project Guide varian
 Project-specific guide variants are separated from the standard Project Guide into a collective Antora component.
 Each project is displayed as an Antora version.
 
-== Branching And Tagging
+== Branching and tagging
 image::versioning_concept-git.svg[]
 
 All released versions exist on the branch 'main'.
@@ -45,7 +45,7 @@ Likewise, if a project concludes, its content is reviewed and approved updates f
 
 
 
-== Mapping In Antora
+== Mapping in Antora
 Antora can take content from different repositories, branches, and/or tags, and combine them in one single generate.
 In case of the ASAM Project Guide, the generator takes a single content repository and uses its two main folders to generate its content.
 However, the generator selects only a single branch+version combination from the 'guide' folder.
@@ -90,7 +90,7 @@ This is displayed in the figure below.
 image::versioning_concept-structure.svg[title="Involved repositories in the Project Guide generation", alt="Repositories' structure"]
 
 
-=== Content Repository
+=== Content repository
 The content repository contains, as the name suggests, the content of the Project Guide.
 The repository mainly consists of two folders, 'content' and 'guide'.
 

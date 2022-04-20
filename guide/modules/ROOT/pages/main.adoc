@@ -1,4 +1,4 @@
-= Working On The Project Guide
+= Working on the Project Guide
 :description: Landing page for information on how to work on the ASAM Project Guide using Asciidoctor and Antora.
 :keywords: landing_page,project-guide, REVIEWED_TODO
 :page-aliases: home.adoc

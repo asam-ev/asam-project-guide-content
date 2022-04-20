@@ -10,3 +10,5 @@ include::partial$_attributes.adoc[]
 The following pages describe how to include or link other files as content.
 
 NOTE: How to add or change content directly in a file is described in xref:changing_content.adoc[].
+
+pages::[path=ref-include]
