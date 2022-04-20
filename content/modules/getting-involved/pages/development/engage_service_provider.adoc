@@ -58,6 +58,6 @@ Talk to your GTM to figure out a solution.
 === There have been no offers
 Talk to your GTM to figure out a solution.
 
-== What Happens Next
+== What happens next
 The contracted Service Provider or providers receive a kickoff workshop for their project and tasks.
 If they have not worked with ASAM before, the ideal starting place for general topics is this Project Guide, particularly the xref:role-specific:service-provider.adoc[Service Provider topics page].

@@ -10,7 +10,7 @@ include::compendium:partial$_attributes.adoc[]
 {how-to-icon}
 
 
-== Standard Docker-Compose Instructions
+== Standard docker-compose instructions
 
 . Create a new `docker-compose.yml` file in the root directory of the project.
 . Add the following content to the created file:
@@ -28,7 +28,7 @@ NOTE: Usually, the only adaption that may be required is to change the input fil
 TIP: It is also possible to include the running of scripts into this (e.g. adoc2LOFT)
 
 
-== Typical Configuration Options
+== Typical configuration options
 
 Each project may have slightly different requirements, and at different stages of the project different features are available or not.
 To accommodate for that, the docker-compose.yml can be configured with options in the `entrypoint`.

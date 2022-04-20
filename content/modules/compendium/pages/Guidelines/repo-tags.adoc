@@ -1,4 +1,4 @@
-= Tags In Repositories
+= Tags in repositories
 :description: Describes the tags used in ASAM repositories and their syntax as well as how and when to use them.
 :keywords: git-workflow
 :navtitle: [Repository] Tags In Repositories
@@ -11,7 +11,7 @@ include::compendium:partial$_attributes.adoc[]
 {role-ccb}
 //end::compendium[]
 
-== What Are Tags?
+== What are tags?
 Tags mark a specific state of a repository in its timeline.
 They are most commonly used to demark versions (draft, release candidates, or full releases).
 
@@ -21,7 +21,7 @@ Git does not specify any particular syntax.
 ASAM and the CI pipelines in the remote repositories, however, require one, depending on the current xref:concepts:project_phases.adoc[project phase].
 
 
-== When Tags Are Required
+== When tags are required
 A project **MUST** create a tag in the following instances:
 
 * Any time a document has to be shared outside the project, i.e.
@@ -119,7 +119,7 @@ Version for TSC submission
 ====
 
 
-== Creating Tags
+== Creating tags
 Git::
 See https://git-scm.com/book/en/v2/Git-Basics-Tagging
 

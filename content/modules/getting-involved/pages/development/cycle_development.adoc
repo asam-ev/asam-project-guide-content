@@ -1,4 +1,4 @@
-= Development Cycle -- Development
+= Development cycle -- Development
 :description: Describes what happens during the cycle development part of the development phase.
 :keywords: development-cycle, development
 
@@ -27,7 +27,7 @@ This is where the development happens.
 After the goals for the cycle have been defined and the issues created, estimated, and assigned, all involved project members, technical writers and Service Providers contribute to development in accordance with the **xref:compendium:Guidelines/workflow-trunk.adoc[]**.
 
 
-== Development Cycle Structure
+== Development cycle structure
 A typical cycle lasts for two (2) months.
 During this period, each WG will schedule one or more xref:compendium:Guidelines/coordination-wg_meeting_guidelines.adoc[Work Group Meetings]. +
 Additionally, the Project Lead (and possibly the CCB) may meet with the WG Leads in one or more xref:compendium:Guidelines/coordination-wg-lead_meeting_guidelines.adoc[WG Lead Meetings]. +
@@ -37,7 +37,7 @@ Note that each project decides on the frequency of each of these meetings for th
 These intervals may be changed during the project if the group agrees to the suggested changes and the alterations are documented.
 
 
-== External Events
+== External events
 A Development Cycle only consists of the project-internal activities, such as group meetings and content discussions.
 Topics that have an effect on the project or are affected by it are not included in the overall cycle structure. +
 However, the project must still accommodate for these events.
@@ -47,7 +47,7 @@ The Project Lead must make sure that the mandatory external meetings are account
 If an external meeting requires preparations by the project (e.g. a status report), the Project Lead must ensure that these preparations are made in time.
 
 
-== Example Development Cycle
+== Example development cycle
 
 image::compendium:asam/development_phase_timeline-cycle_example.svg[]
 

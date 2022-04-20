@@ -1,4 +1,4 @@
-= Enroll During Ideation Phase
+= Enroll during Ideation phase
 :description: Describes how to enroll for an idea during the Ideation phase.
 :keywords: ideation
 

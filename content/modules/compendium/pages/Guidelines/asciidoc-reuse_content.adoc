@@ -1,4 +1,4 @@
-= Reuse Content
+= Reuse content
 :description: How-To for reusing content from other files.
 :keywords: asciidoc,reuse,include,how-to, READYFORREVIEW
 :navtitle: [AsciiDoc] Reuse Content

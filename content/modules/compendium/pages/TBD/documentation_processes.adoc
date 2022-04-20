@@ -1,4 +1,4 @@
-= Documentation Processes
+= Documentation processes
 :description: Documentation processes for technical writers
 :keywords: writing_guide
 :numbered:

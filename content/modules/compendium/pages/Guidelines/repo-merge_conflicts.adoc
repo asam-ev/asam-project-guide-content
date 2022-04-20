@@ -1,4 +1,4 @@
-= Merge Conflicts: Preventing And Resolving
+= Merge conflicts: preventing and resolving
 :description: Describes how merge conflicts can be resolved with git and how to avoid them ahead of time.
 :keywords: git-workflow,merge,conflict, TODO
 :navtitle: [Repository] Merge Conflicts: Preventing And Resolving
@@ -20,7 +20,7 @@ A merge conflict occurs when multiple different changes (usually made by differe
 For example, if user A deletes a section in their copy and user B adds a new paragraph to it instead, the merging tool does not know whether to keep the section and add the changes made by user B or to delete it like user A did.
 
 
-== Avoiding Merge Conflicts
+== Avoiding merge conflicts
 One way of avoiding merge conflicts is to keep the TTL (time to live) of branches short.
 ASAM recommends a TTL of <= 2 weeks. +
 If the branch lives longer than expected, merge the parent branch (the trunk or original feature branch) into your branch once in a while.
@@ -30,7 +30,7 @@ This way you can solve the conflicts in your branch.
 For more information on the differences between merging and rebasing, see https://www.atlassian.com/git/tutorials/merging-vs-rebasing[Merging vs. Rebasing^].
 
 
-== Resolving Merge Conflicts
+== Resolving merge conflicts
 Once you create a merge request, your remote repository will tell you if there are merge conflicts.
 It leads you through the conflicting parts and lets you choose if your new or the old content is to be merged.
 

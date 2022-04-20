@@ -1,4 +1,4 @@
-= Change Control Board Meeting Guidelines
+= Change Control Board meeting guidelines
 :description: TODO
 :keywords: guideline, ccb, meeting
 :navtitle: [Coordination] Change Control Board Meeting Guidelines

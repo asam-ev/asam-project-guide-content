@@ -1,4 +1,4 @@
-= Guides For Remote Repositories
+= Guides for remote repositories
 :description: Collects all types of important GitLab guides
 :keywords: guides,gitlab
 
@@ -17,7 +17,7 @@ include::compendium:page$Guidelines/workflow-trunk.adoc[leveloffset=+1, tags=!co
 
 ---
 
-== Contributing Through Issues
+== Contributing through issues
 You can contribute to ASAM projects directly through issues.
 These issues can be created and managed in the respective Remote Repository of the project.
 
@@ -26,14 +26,14 @@ For more information, see xref:compendium:page$Guidelines/workflow-contribute_wi
 ---
 
 
-== Ticket Triage
+== Ticket triage
 Projects may get so big that issues are created and forgotten without ever being finished.
 To prevent unnecessary and obsolete issues bogging up the repository, ASAM employs a Ticket Triage workflow.
 
 For more information, see xref:compendium:page$Guidelines/workflow-ticket_triage.adoc[] in the Compendium.
 
 
-== Specific Guidelines
+== Specific guidelines
 
 * xref:compendium:Guidelines/repo-make_changes.adoc[]
 // include::compendium:page$Guidelines/repo-make_changes.adoc[leveloffset=+2, tag=!compendium]

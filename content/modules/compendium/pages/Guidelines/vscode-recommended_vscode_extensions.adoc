@@ -1,4 +1,4 @@
-= Recommended Visual Studio Code Extensions
+= Recommended Visual Studio Code extensions
 :description: A collection of recommended VSCode extensions
 :keywords: vscode,extensions,gitlab,asciidoc,drawio,docker, READYFORREVIEW
 :navtitle: [VSCode] Recommended Visual Studio Code Extensions

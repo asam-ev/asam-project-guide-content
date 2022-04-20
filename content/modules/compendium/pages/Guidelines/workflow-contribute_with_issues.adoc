@@ -1,4 +1,4 @@
-= Contributing Through Issues
+= Contributing through issues
 :description: Describes how to contribute through issues.
 :keywords: proposal, gitlab, issue, TODO
 :navtitle: [Workflow] Contributing Through Issues
@@ -31,14 +31,14 @@ TIP: If you want to contribute more directly, see xref:compendium:Guidelines/wor
 
 //tag::body[]
 
-== Make Discussions Accessible
+== Make discussions accessible
 {mandatory}
 
 It must be possible for every project member to contribute to and give feedback on the content of a Proposal document directly.
 For this purpose, all content discussions shall happen through issues in a project's issue board.
 
 
-== Gather Topics In Issues
+== Gather topics in issues
 {mandatory}
 
 If your project is on ASAM GitLab, see the https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#create-an-issue[GitLab instructions^] for creating issues. +
@@ -68,7 +68,7 @@ Every topic shall have its own issue.
 If a topic is too complex for a single issue, sub-issues shall be created.
 
 
-=== Closing Issues And Sub-issues
+=== Closing issues and sub-issues
 //end::development[]
 **DEVELOPMENT only**
 //tag::development[]
@@ -83,7 +83,7 @@ If an issue has a branch, the issue shall not be closed before the branch has be
 
 //tag::body[]
 
-== Use Issue Templates
+== Use issue templates
 {mandatory}
 
 Issues shall be created using the provided issue templates in the repository.
@@ -92,7 +92,7 @@ TIP: Each issue template contains a description (as comments) on when to use the
 
 image::compendium:asam/issue_template_example.png[title=Creating an issue from a template]
 
-== Define Issue Name
+== Define issue name
 {mandatory}
 
 //end::body[]
@@ -112,7 +112,7 @@ The name of the issue shall follow the xref:compendium:Guidelines/repo-branch_na
 //tag::body[]
 
 
-== Label Issues Correctly
+== Label issues correctly
 {mandatory}
 
 The use of issue labels is required for filtering and sorting issues more efficiently.
@@ -120,7 +120,7 @@ Each issue and merge/pull request must apply labels as defined in xref:compendiu
 A project may also have project-specific labels in addition to the official ones, specified directly in the project group.
 
 
-== Discuss Issue
+== Discuss issue
 The <<Content>> of issues is discussed and resolved through <<Comments,comments>> and <<Replies,replies>> to previous comments.
 
 === Content
@@ -155,7 +155,7 @@ GitHub:: https://docs.github.com/en/issues/tracking-your-work-with-issues/quicks
 IMPORTANT: If you want to reply to a previous comment, make sure to create a reply, not a new comment!
 
 
-== Close Issues
+== Close issues
 An issues shall be closed once its discussion is resolved.
 Possible reasons:
 
@@ -172,13 +172,13 @@ Additionally, an issue may also be closed without resolution if
 * it has not been worked on for a long period of time (see <<The Issue Triage>>)
 
 
-== The Issue Triage
+== The issue triage
 ASAM has defined a process for closing outdated issues.
 This is called the "Issue Triage" or "Ticket Triage". +
 See xref:compendium:Guidelines/workflow-ticket_triage.adoc[] for more details.
 
 
-== Reopening Issues
+== Reopening issues
 Closed issues can be reopened if they have become relevant again, there have been new developments directly impacting this specific issue, or the issue has been closed by accident and has not actually been finished yet.
 
 //end::body[]

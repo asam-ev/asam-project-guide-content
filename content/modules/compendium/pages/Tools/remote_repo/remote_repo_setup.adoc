@@ -1,4 +1,4 @@
-= Setting Up Your Repository Account
+= Setting up your repository account
 :description: How to setup your ASAM account.
 :keywords: task,fragment,setup,gitlab, github,account
 

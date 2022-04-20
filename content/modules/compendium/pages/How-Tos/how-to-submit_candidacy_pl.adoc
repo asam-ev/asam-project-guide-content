@@ -55,7 +55,7 @@ You have submitted your candidacy for the role of Project Lead.
 * Send an email to your GTM with your candidacy for the role of Project Lead
 
 
-== What Happens Next
+== What happens next
 The Project Lead is officially decided at the beginning of the project, if the Proposal has been approved by the TSC. +
 If there is more than one candidate, the project will then decide on the Project Lead.
 Otherwise, the single candidate is just confirmed formally by the project.

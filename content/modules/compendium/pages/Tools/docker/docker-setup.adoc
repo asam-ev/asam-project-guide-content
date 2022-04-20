@@ -1,4 +1,4 @@
-= Setting Up Docker
+= Setting up Docker
 :description: A summary page describing how to set up docker
 :keywords: docker,setup,task,fragment,docker-setup,READYFORREVIEW
 :page-partial:
@@ -28,13 +28,13 @@ If this is not possible for you, you can follow the instructions on how to set u
 * https://docs.docker.com/desktop/windows/install/#system-requirements[Official system requirements, window=_blank] are met
 
 == How
-=== Standard Docker-Desktop Installation
+=== Standard Docker-Desktop installation
 . {docker-url}[Download, window=_blank] the latest Docker version.
 . Follow the https://docs.docker.com/desktop/windows/install/[official installation instructions, window=_blank].
 . __OPTIONAL: Add xref:{vscode-extensions}#_docker[docker extensions] in xref:compendium:Tools/vscode.adoc[]__.
 . RECOMMENDED: After setup, you can try the example project to get to know basic Docker commands.
 
-=== Build From Binaries
+=== Build from binaries
 Alternatively to getting <<Standard Docker-Desktop Installation,Docker Desktop>>, you can also download and install docker engine from binaries.
 This is free of charge but requires many more steps for setup.
 

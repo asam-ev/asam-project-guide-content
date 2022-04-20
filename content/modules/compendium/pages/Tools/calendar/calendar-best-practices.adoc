@@ -9,7 +9,7 @@ include::contributing:partial$_attributes.adoc[]
 
 {calendar-icon-page}
 
-== General Tips
+== General tips
 include::partial$calendar-include-mail.adoc[]
 
 include::compendium:page$Guidelines/coordination-general_meeting_guidelines.adoc[leveloffset=+1]

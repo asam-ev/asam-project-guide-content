@@ -1,11 +1,11 @@
-= Proposal Phase Details
+= Proposal phase details
 :keywords: proposal
 :description: proposal phase details
 
 include::partial$_attributes.adoc[]
 
 
-== Phase Diagram
+== Phase diagram
 The figure <<fig-proposal-phase-diagram-detailed>> shows the Proposal phase in full detail.
 Each step is explained shortly under <<Proposal Phase Steps>>.
 
@@ -13,7 +13,7 @@ Each step is explained shortly under <<Proposal Phase Steps>>.
 image::compendium:asam/proposal_phase_v2-proposal_phase.svg[title="The Proposal phase in detail, using the xref:compendium:Guidelines/diagram_notations.adoc[ASAM Project Phase Notation]"]
 
 
-== Alternate Version
+== Alternate version
 
 [tabs]
 ====
@@ -246,7 +246,7 @@ TODO
 --
 ====
 
-== Proposal Phase Steps
+== Proposal phase steps
 
 
 The Proposal phase consists of the following steps, which are explained in detail in their own sections:
@@ -263,7 +263,7 @@ The Proposal phase consists of the following steps, which are explained in detai
 
 ---
 
-=== Repository Setup
+=== Repository setup
 // [cols="3,1,10"]
 // |===
 // .3+|image:compendium:asam/proposal_phase_v2-proposal_setup.svg[id="modal_image"]
@@ -283,7 +283,7 @@ See xref:proposal/setup.adoc[].
 
 ---
 
-=== Draft Creation
+=== Draft creation
 // [cols="3,1,10"]
 // |===
 // .3+|image:compendium:asam/proposal_phase_v2-proposal_draft.svg[]
@@ -336,7 +336,7 @@ During the Workshop, the xref:proposal/need_for_service_providers.adoc[need for 
 
 ---
 
-=== Enrollment Process
+=== Enrollment process
 // [cols="3,1,10"]
 // |===
 // .3+|image:compendium:asam/proposal_phase_v2-enrollment.svg[]
@@ -363,7 +363,7 @@ Applicants for xref:proposal/submit_candidacy.adoc[the role of Project Lead] are
 
 ---
 
-=== Finalizing The Proposal
+=== Finalizing the Proposal
 // [cols="3,1,10"]
 // |===
 // .3+|image:compendium:asam/proposal_phase_v2-proposal_writing_finalization.svg[]

@@ -1,4 +1,4 @@
-= Ticket Triage
+= Ticket triage
 :description: Describes the process of ticket or issue triage.
 :keywords: triage, remote, issue
 :navtitle: [Workflow] Ticket Triage

@@ -20,7 +20,7 @@ Use branches to do so (xref:compendium:How-Tos/how-to-create_branch_from_issue.a
 
 TIP: The procedure is the same on https://code.asam.net[GitLab^] and on GitHub.
 
-== Forking Steps
+== Forking steps
 
 image::compendium:forking-a-repo.gif[title="Forking a repo"]
 
@@ -30,7 +30,7 @@ image::compendium:forking-a-repo.gif[title="Forking a repo"]
 
 Once you see your name in the url of the repository, the forking is complete.
 
-== Creating A Pull Request From A Fork
+== Creating a pull request from a fork
 
 To submit the changes you make in your fork back to the original repository, submit a xref:compendium:Guidelines/repo-merge-pull_requests.adoc[Merge/Pull Request] as normal in the main repository, making sure to select your fork.
 

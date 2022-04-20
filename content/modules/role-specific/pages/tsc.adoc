@@ -1,4 +1,4 @@
-= Technical Steering Committee Member
+= Technical Steering Committee member
 :description: Summary and landing page for tsc member.
 :keywords: role, role-landing-page, READYFORREVIEW
 :page-partial:

@@ -1,4 +1,4 @@
-= Development Cycle -- Review
+= Development cycle -- Review
 :description: Describes what happens during a cycle review during the development phase.
 :keywords: development-cycle, review, development
 

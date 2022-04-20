@@ -1,4 +1,4 @@
-= Prepare A Kick-off Workshop
+= Prepare a Kick-off Workshop
 :description: What to prepare for a development kick-off workshop.
 :keywords: kick-off-workshop, development
 

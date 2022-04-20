@@ -39,7 +39,7 @@ include::compendium:page$Templates/kick-off_workshop_gameplan.adoc[tag=context]
 ASAM provides a standard xref:compendium:Templates/kick-off_workshop_gameplan.adoc[**Kick-off Workshop Gameplan**] to help with the preparation.
 
 
-== Goals Of The Kick-off Workshop
+== Goals of the Kick-off Workshop
 include::compendium:page$Templates/kick-off_workshop_gameplan.adoc[tag=goals]
 
 
@@ -64,7 +64,7 @@ NOTE: ASAM strongly recommends an onsite workshop for the Kick-off.
 . Send the agenda to all enrolled people, using the enrollment list or, if already available, the MS Teams mailing list
 
 
-== Example Agenda
+== Example agenda
 include::compendium:page$Templates/kick-off_workshop_gameplan.adoc[tag=agenda_example]
 //end::body[]
 

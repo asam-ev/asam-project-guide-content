@@ -14,7 +14,7 @@ The deliverables of a standard package consist of standard documents and other f
 A standard package consists of at least one base standard.
 Other deliverable items, as listed on this page, are optional.
 
-== Standard Documents
+== Standard documents
 Base Standard:: A base standard contains all fundamental specifications such as abstract object models, syntax definitions and functional behavior descriptions.
 It uses a problem- or task-oriented notation, such as UML or BNF.
 A base standard is technology- and implementation-independent.
@@ -35,7 +35,7 @@ The notion of transport layer specification is used in the area of communication
 They provide a mapping of the base standard to specific protocol- or bus-technologies.
 The transport layer abstracts access of higher application layers to the lower layers of the communication system.
 
-== Other Files
+== Other files
 Model Files::
 Model files typically contain the object model of the standard.
 A typical example of a model file in ASAM standards are UML models created with the tool "Enterprise Architect" (.ea).

@@ -1,4 +1,4 @@
-= Project Proposal Setup
+= Project Proposal setup
 :description: Describes how to set up a new project proposal.
 :keywords: proposal, setup
 

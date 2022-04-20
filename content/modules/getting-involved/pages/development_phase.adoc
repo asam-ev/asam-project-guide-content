@@ -1,4 +1,4 @@
-= Development Phase
+= Development phase
 :description: Describes the development phase
 :keywords: development, phase
 
@@ -19,7 +19,7 @@ Involved Roles::
 include::partial$project_phases.adoc[tag=development]
 ====
 
-== Process Overview
+== Process overview
 The description of the ASAM standard development process in this section contains all formal process steps to develop an ASAM standard. +
 The process steps are mandatory for the development of new standards and the development of a major version of an existing ASAM standard.
 For all other project types, some of the process steps are optional (see xref:concepts:project_types.adoc[]).

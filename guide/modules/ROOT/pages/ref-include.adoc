@@ -11,4 +11,5 @@ The following pages describe how to include or link other files as content.
 
 NOTE: How to add or change content directly in a file is described in xref:changing_content.adoc[].
 
+== Pages
 include::../nav.adoc[tag=ref-include]

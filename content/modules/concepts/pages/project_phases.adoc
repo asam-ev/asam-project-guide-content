@@ -1,4 +1,4 @@
-= Project Phases
+= Project phases
 :description: An overview over the ASAM Project Phases.
 :keywords: phase, concept
 
@@ -102,7 +102,7 @@ With this, it will no longer be supported and propagated by ASAM.
 --
 ====
 
-// == Ideation Phase
+// == Ideation phase
 // include::getting-involved:partial$project_phases.adoc[tag=ideation]
 
 // If someone has an idea for a new standard, it triggers the ideation phase for a new project. +
@@ -112,7 +112,7 @@ With this, it will no longer be supported and propagated by ASAM.
 // Additional Information:: xref:getting-involved:ideation_phase.adoc[]
 
 
-// == Proposal Phase
+// == Proposal phase
 // include::getting-involved:partial$project_phases.adoc[tag=proposal]
 
 
@@ -124,7 +124,7 @@ With this, it will no longer be supported and propagated by ASAM.
 
 // Additional Information:: xref:getting-involved:proposal_phase.adoc[]
 
-// == Development Phase
+// == Development phase
 // include::getting-involved:partial$project_phases.adoc[tag=development]
 
 // **This is the main phase of each project.** +
@@ -135,7 +135,7 @@ With this, it will no longer be supported and propagated by ASAM.
 // Additional Information:: xref:getting-involved:development_phase.adoc[]
 
 
-// == Review Phase
+// == Review phase
 // include::getting-involved:partial$project_phases.adoc[tag=review]
 
 // Before they are officially released, the created deliverables are to be reviewed.
@@ -145,7 +145,7 @@ With this, it will no longer be supported and propagated by ASAM.
 
 // Additional Information:: xref:getting-involved:review_phase.adoc[]
 
-// == Release Phase
+// == Release phase
 // include::getting-involved:partial$project_phases.adoc[tag=release]
 
 // After the deliverables have been developed and (optionally) successfully reviewed by the TSC, they are released to the public. +
@@ -154,7 +154,7 @@ With this, it will no longer be supported and propagated by ASAM.
 
 // Additional Information:: xref:getting-involved:release_phase.adoc[]
 
-// == Public Phase
+// == Public phase
 // include::getting-involved:partial$project_phases.adoc[tag=public]
 
 // During this phase, the released standard is publicly available and officially supported.
@@ -164,7 +164,7 @@ With this, it will no longer be supported and propagated by ASAM.
 // If, however, the standard at some point becomes obsolete or deprecated, it enters its final phase: the <<Retirement Phase>>.
 
 
-// == Retirement Phase
+// == Retirement phase
 // include::getting-involved:partial$project_phases.adoc[tag=retirement]
 
 // This phase is the final phase for every standard eventually.

@@ -1,4 +1,4 @@
-= Remote Repository Platforms
+= Remote repository platforms
 :description: A summary page describing what online repository platforms are, which are supported by ASAM, and where to find related information, guides etc.
 :keywords: gitlab, github,summary,tool,mandatory
 
@@ -14,7 +14,7 @@ include::contributing:partial$_attributes.adoc[]
 A remote repository platform is a web-based DevOps lifecycle tool that provides a xref:compendium:Tools/git.adoc[] repository manager.
 It can host wikis, has issue-tracking, continuous integration, and deployment pipeline features, using an open-source license.
 
-== Remote Repository Platforms At ASAM
+== Remote repository platforms at ASAM
 ASAM supports repositories both on its GitLab instance and on GitHub (public).
 
 NOTE: All Proposal repositories are hosted on GitLab.

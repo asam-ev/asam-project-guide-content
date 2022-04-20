@@ -1,4 +1,4 @@
-= Comment And Review adoc Files
+= Comment and review adoc files
 :description: A how-to for commenting AsciiDoc files
 :keywords: asciidoc,comment,gitlab,vscode, READYFORREVIEW
 :navtitle: [AsciiDoc] Comment And Review adoc Files

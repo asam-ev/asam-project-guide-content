@@ -1,11 +1,11 @@
-= Development Phase Details -- Development Cycle
+= Development phase details -- Development Cycle
 :keywords: development
 :description: Development phase details
 
 include::partial$_attributes.adoc[]
 
 
-== Phase Diagram
+== Phase diagram
 The development phase consists of the xref:development/phase_details-setup.adoc[Setup Step], followed by the main development loop (<<fig-development-main-cycle-diagram,Main Cycle>>).
 This page covers the Development Cycle and all its sub-steps as well as participating in relevant Controlling Meetings.
 Each sub-step is further detailed on its respective page.
@@ -21,7 +21,7 @@ Typically, projects present their current (i.e. the latest updated) status repor
 
 
 
-== Development Phase Timeline
+== Development phase timeline
 Each project defines their own timeline during the Proposal phase.
 Therefore, there is no standard Development phase timeline. +
 However, there are typical categories for project length.
@@ -39,7 +39,7 @@ Additionally, a project may request additional time if the project's content tur
 // image::compendium:asam/proposal_phase_timeline.drawio.svg[title=Typical Proposal phase timeline]
 
 
-== Development Phase Steps
+== Development phase steps
 The Development phase consists of the following steps, which are explained in detail in their own sections:
 
 * <<Cycle Planning>>
@@ -52,7 +52,7 @@ The Development phase consists of the following steps, which are explained in de
 
 ---
 
-=== Cycle Planning
+=== Cycle planning
 [cols="3,1,10"]
 |===
 .3+|image:compendium:asam/development_phase-planning.svg[]
@@ -80,7 +80,7 @@ See xref:development/cycle_planning.adoc[].
 
 ---
 
-=== Cycle Development
+=== Cycle development
 [cols="3,1,10"]
 |===
 .3+|image:compendium:asam/development_phase-cycle.svg[]
@@ -113,7 +113,7 @@ See xref:development/cycle_development.adoc[].
 
 ---
 
-=== Cycle Review
+=== Cycle review
 [cols="3,1,10"]
 |===
 .3+|image:compendium:asam/development_phase-review.svg[]
@@ -139,7 +139,7 @@ include::compendium:partial$full-meeting_guidelines.adoc[]
 
 ---
 
-=== Cycle Retrospective
+=== Cycle retrospective
 [cols="3,1,10"]
 |===
 .3+|image:compendium:asam/development_phase-retro.svg[]

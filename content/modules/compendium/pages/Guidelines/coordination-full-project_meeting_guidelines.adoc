@@ -1,4 +1,4 @@
-= Full Project Meeting/Workshop Guidelines
+= Full project meeting/workshop guidelines
 :description: TODO
 :keywords: guideline, project, meeting
 :navtitle: [Coordination] Full Project Meeting Guidelines
@@ -24,12 +24,12 @@ The Kick-off Workshop follows slightly different rules (particularly because the
 However, many aspects of these guidelines still apply there as well.
 
 
-== Typical Frequency
+== Typical frequency
 The frequency of these meetings (except for the Kick-off Workshop) is at least quarterly.
 Typically, each type of meeting occurs at least every 2 months during an active development cycle.
 
 
-== Roles And Responsibilities
+== Roles and responsibilities
 
 [cols="1h,2,1,2", frame=none]
 |===

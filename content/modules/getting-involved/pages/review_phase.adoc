@@ -1,4 +1,4 @@
-= The Review phase
+= Review phase
 :description: Describes the Review phase in the ASAM development process for standards.
 :keywords: review,phase,standard,process, TODO
 
@@ -25,7 +25,7 @@ The goal is to increase the overall quality and acceptance of the standard prior
 
 image::compendium:asam/review_phase.drawio.svg[title="The Review phase"]
 
-== Draft Release
+== Draft release
 [cols="1h,20"]
 |===
 |Purpose
@@ -48,7 +48,7 @@ Changes to the prior version shall be marked in the draft documents or documente
 Public reviews are mandatory for new standards and major versions of existing standards.
 The project group releases a draft of the standard, which is feature-complete and has undergone an internal review.
 
-== Public Draft Review
+== Public draft review
 [cols="1h,20"]
 |===
 |Purpose
@@ -83,7 +83,7 @@ Members are given a minimum period of six weeks for the review (eight weeks for 
 
 
 
-== Feedback Deadline
+== Feedback deadline
 [cols="1h,20"]
 |===
 |Purpose
@@ -104,7 +104,7 @@ The Office terminates the public draft review process by:
 Once the review period is over, the ASAM office removes the draft standard from public access and makes the review comments available to the project group.
 
 
-== Feedback Processing
+== Feedback processing
 [cols="1h,20"]
 |===
 |Purpose

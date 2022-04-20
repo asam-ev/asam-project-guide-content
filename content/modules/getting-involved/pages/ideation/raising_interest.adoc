@@ -1,4 +1,4 @@
-= Gathering Participants For A Project Proposal
+= Gathering participants for a Project Proposal
 :description: Contains tips and tricks on how to gather participants for a project proposal.
 :keywords: ideation, proposal
 
@@ -30,7 +30,7 @@ However, if this is not the case, the GTM can support the Idea Giver by getting 
 Alternatively or additionally, the Idea Giver may utilize their own network to raise enough interest.
 
 
-== Requirements For Transitioning To Proposal Phase
+== Requirements for transitioning to Proposal phase
 * A first draft of the proposed idea has been set up ("Basis for Proposal")
 * The minimum number of required participants has been reached or
 surpassed
@@ -43,7 +43,7 @@ include::partial$minimum_required_participants_proposal.adoc[]
 ====
 
 
-== What Happens Next?
+== What happens next?
 Once all <<Requirements For Transitioning To Proposal Phase,requirements>> have been met, the Idea Giver communicates the list of participants to the GTM.
 The project then transitions to the xref:getting-involved:proposal_phase.adoc[proposal phase]. +
 The final goal is to transfer the idea into the regular xref:development_phase.adoc[Standard Development Process].

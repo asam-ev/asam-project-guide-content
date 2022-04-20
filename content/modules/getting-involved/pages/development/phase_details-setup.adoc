@@ -1,11 +1,11 @@
-= Development Phase Details -- Setup Step
+= Development phase details -- Setup Step
 :keywords: development
 :description: Development phase details
 
 include::partial$_attributes.adoc[]
 
 
-== Phase Diagram
+== Phase diagram
 The development phase consists of the <<fig-development-setup-step-diagram,Project Setup Step>>, followed by the xref:development/phase_details-cycle.adoc[main development loop].
 This page covers the Setup step and all its sub-steps.
 Each sub-step is then further detailed on its respective page.
@@ -22,7 +22,7 @@ If the project has requested budget for one or more Service Providers, a call fo
 After the Service Provider or Providers have been chosen, they receive an onboarding.
 
 
-== Development Phase Setup Sub-Steps
+== Development phase setup sub-Steps
 The Development phase consists of the following steps, which are explained in detail in their own sections:
 
 * <<Prepare Kick-off Workshop>>
@@ -77,7 +77,7 @@ See xref:development/kick-off_workshop.adoc[].
 
 ---
 
-=== Set Up Project Repository
+=== Set up project repository
 [cols="3,1,10"]
 |===
 .3+|image:compendium:asam/development_phase-repo_setup.svg[]
@@ -98,7 +98,7 @@ See xref:development/project_setup.adoc[].
 
 ---
 
-=== Set Up Mailing Lists
+=== Set up mailing lists
 [cols="3,1,10"]
 |===
 .3+|image:compendium:asam/development_phase-mailing_list.svg[]
@@ -118,7 +118,7 @@ The channel can then also be used as a mailing list.
 
 ---
 
-=== Update Repository After Kick-off Workshop
+=== Update repository after Kick-off Workshop
 [cols="3,1,10"]
 |===
 .3+|image:compendium:asam/development_phase-repo_update.svg[]

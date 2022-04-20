@@ -1,4 +1,4 @@
-= Project Types
+= Project types
 :description: Describes the different project types at ASAM for new members and interested parties.
 :keywords: projects, type, asam, concept
 
@@ -43,7 +43,7 @@ include::compendium:page$TBD/project-type-concept.adoc[tag=summary]
 For more details, see xref:compendium:TBD/project-type-concept.adoc[] in the Compendium.
 
 
-== Standard Development
+== Standard development
 [tabs]
 ====
 New Standard::

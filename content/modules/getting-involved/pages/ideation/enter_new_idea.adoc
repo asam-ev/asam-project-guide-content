@@ -1,4 +1,4 @@
-= Entering An Idea
+= Entering an idea
 :description: Describes how to enter an idea at ASAM.
 :keywords: ideation
 

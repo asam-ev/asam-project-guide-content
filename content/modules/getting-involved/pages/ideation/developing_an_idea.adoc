@@ -49,6 +49,6 @@ The goal of an Ideation Workshop is to investigate and develope the proposed ide
 . The GTM creates a protocol of the event and sends it to all people who had signed up
 
 
-== Typical Workshop Agenda
+== Typical workshop agenda
 include::compendium:Templates/ideation_workshop_gameplan.adoc[tag=agenda_example]
 

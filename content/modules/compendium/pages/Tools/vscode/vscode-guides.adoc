@@ -1,4 +1,4 @@
-= Visual Studio Code Guides
+= Visual Studio Code guides
 :description: A guide for VSCode explaining basic ui and usability topics.
 :keywords: guide, vscode,READYFORREVIEW
 

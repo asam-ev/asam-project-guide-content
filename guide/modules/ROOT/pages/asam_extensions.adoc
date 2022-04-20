@@ -149,4 +149,5 @@ include::example$site.yml[]
 
 Source file in repository: {guide-repo-url}blob/main/site.yml[site.yml on GitHub]
 
+== Pages
 include::../nav.adoc[tag=asam_extensions]

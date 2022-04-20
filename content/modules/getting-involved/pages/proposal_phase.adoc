@@ -1,4 +1,4 @@
-= Proposal Phase
+= Proposal phase
 :description: Describes the Proposal phase in the ASAM development process for standards.
 :keywords: proposal,phase,standard,process,proposal-workshop
 
@@ -17,7 +17,7 @@ Involved roles::
 include::partial$project_phases.adoc[tag=proposal]
 ====
 
-== Process Overview
+== Process overview
 The purpose of the Proposal Phase is to attain the approval for a new project at ASAM. +
 During the Proposal Phase, a xref:proposal/proposal_document.adoc[Proposal document] is created.
 This document is submitted to the ASAM Technical Steering Committee (TSC) for approval.

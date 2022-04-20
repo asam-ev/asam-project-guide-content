@@ -1,4 +1,4 @@
-= Make Changes In A Repository
+= Make changes in a repository
 :description: Describes the standard way of working with git.
 :keywords: git-workflow,TODO
 :navtitle: [Repository] Make Changes In A Repository
@@ -17,7 +17,7 @@ include::compendium:partial$_attributes.adoc[]
 {role-gtm}
 //end::compendium[]
 
-== Git Workflow
+== Git workflow
 
 TIP: It is best practice to check for changes on remote before changing files locally and before pushing changes to remote.
 
@@ -34,7 +34,7 @@ include::compendium:partial$commit_conventions_reminder.adoc[]
 +
 . Push to a remote repository (`git push`).
 
-== Further Read
+== Further read
 * https://git-scm.com/docs/gittutorial[window=_blank]
 
 //end::body[]

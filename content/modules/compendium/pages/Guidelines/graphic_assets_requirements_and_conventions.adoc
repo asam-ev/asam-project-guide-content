@@ -1,4 +1,4 @@
-= Graphic Assets Requirements And Conventions
+= Graphic assets requirements and conventions
 :description: Contains the requirements for graphic assets in the ASAM graphics library.
 :keywords: image, graphic, asset, requirement, openx, drawio
 :navtitle: [] Graphic Assets Requirements And Conventions
@@ -10,7 +10,7 @@ include::compendium:partial$_attributes.adoc[]
 This page contains all requirements and conventions that apply to the creation and usage of images in ASAM documents.
 
 
-== List Of Requirements
+== List of requirements
 The list below contains the requirements ASAM places on graphic assets.
 
 |===
@@ -101,7 +101,7 @@ The rules described here, however, apply to any image that is to be used in an A
 //end::tools[]
 
 //tag::general[]
-== File Formats
+== File formats
 
 Images in ASAM documents shall use one of the following file formats:
 
@@ -110,7 +110,7 @@ Images in ASAM documents shall use one of the following file formats:
 * Portable Network Graphics (`.png`)
 
 
-== Naming Image Files
+== Naming image files
 
 [.underline]#Rules#
 
@@ -138,7 +138,7 @@ The color pallet can be found in the Draw.io asset library (https://code.asam.ne
 If your image contains text, use 'Helvetica' as font in your images.
 
 
-== Asset Library
+== Asset library
 
 Use the provided https://code.asam.net/common/asam-graphic-library[asset library^] to create your images.
 If you need a one-time asset, create or add it directly.

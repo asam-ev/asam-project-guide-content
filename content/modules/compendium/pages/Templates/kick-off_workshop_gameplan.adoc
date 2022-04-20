@@ -46,13 +46,13 @@ Here, the project decides on its set of rules and guidelines, defines meeting in
 . At least three parties are enrolled for the project
 
 
-== Hosting A Kick-off Workshop
+== Hosting a Kick-off Workshop
 include::compendium:page$Guidelines/coordination-hosting_workshops.adoc[leveloffset=+1,tag=body]
 
 NOTE: The Kick-off Workshop typically is a face-to-face event (onsite) at the ASAM offices.
 
 
-== Workshop Goals
+== Workshop goals
 //tag::goals[]
 The goals of a Kick-off Workshop are:
 
@@ -77,7 +77,7 @@ The results for these goals must be documented in the meeting notes.
 They shall be used later to update the content of the repository accordingly.
 //end::goals[]
 
-== Agenda Template
+== Agenda template
 
 
 //tag::agenda_example[]
@@ -155,5 +155,5 @@ TODO
 
 //end::agenda_example[]
 
-== Invite Participants
+== Invite participants
 . Send invites to the scheduled event containing the agenda (see <<Agenda Template>>) to all enrolled participants

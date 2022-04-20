@@ -1,4 +1,4 @@
-= Setting Up Microsoft Teams And Sharepoint
+= Setting up Microsoft Teams and Sharepoint
 :description: Setup of MS Teams and sharepoint
 :keywords: setup,teams,sharepoint,TODO
 

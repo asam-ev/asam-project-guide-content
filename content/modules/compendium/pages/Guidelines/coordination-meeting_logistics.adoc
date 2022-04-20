@@ -1,4 +1,4 @@
-= Meeting Logistics
+= Meeting logistics
 :description: Defines the term 'meeting logistics' in the context of ASAM meetings.
 :keywords: term
 :navtitle: [Coordination] Meeting Logistics

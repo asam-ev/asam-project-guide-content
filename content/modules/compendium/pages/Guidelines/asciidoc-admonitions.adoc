@@ -1,4 +1,4 @@
-= Admonitions For Highlighting Topics
+= Admonitions for highlighting topics
 :description: How-To for using admonitions in ASAM documents (standards).
 :keywords: asciidoc,admonitions,note,tip,warning,important,how-to, READYFORREVIEW
 :navtitle: [AsciiDoc] Admonitions For Highlighting Topics

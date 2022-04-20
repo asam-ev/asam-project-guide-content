@@ -1,4 +1,4 @@
-= Notation In Project Phase Diagrams
+= Notation in Project Phase Diagrams
 :description: An explanatory page for the project phase diagrams.
 :keywords: diagrams, phase, concept
 :navtitle: [] Notation In Project Phase Diagrams

@@ -1,4 +1,4 @@
-= The Proposal Document
+= The Proposal document
 :description: Describes the Proposal document and its requirements
 :keywords: proposal
 
@@ -32,13 +32,13 @@ There are different types of commitments possible:
 
 Each type comes with requirements that are explained in their respective section.
 
-=== Content Commitment
+=== Content commitment
 TODO
 
-=== Review Commitment
+=== Review commitment
 TODO
 
-== Project Timeline
+== Project timeline
 Each project must plan its own timeline ahead of time.
 Since things change, the timeline may be altered later.
 However, the timeline should still be realistic with the knowledge available during the proposal phase.
@@ -54,25 +54,25 @@ The Project Timeline must contain milestones for each <<Project Deliverables,Pro
 
 include::getting-involved:partial$milestone_plan_duration.adoc[]
 
-== Project Deliverables
+== Project deliverables
 The proposal must define the deliverables it intends to hand over to ASAM at the end of the project.
 
 include::compendium:page$Guidelines/deliverables.adoc[leveloffset=+1, tag=body]
 
-== Project Structure
+== Project structure
 The proposal must specify the expected working groups and their designated leads. +
 The proposal must also define the expected roles (see xref:role-specific:main.adoc[] for typical role specifications) in the project.
 
-== Additional Project Funding
+== Additional project funding
 The proposal must define whether additional funding beyond the standard budget calculation is required.
 
-== Market Analysis/Relevance
+== Market analysis/relevance
 The proposal must provide an initial market analysis and show the relevance for it. +
 A standard without merit is not to be supported by ASAM.
 Similarly, a standard with (nearly) identical content as another standard is obsolete.
 
-== Relevance To ASAM
+== Relevance to ASAM
 TODO
 
-== Project Type
+== Project type
 The proposal must specify the xref:concepts:project_types.adoc[type of project] it wants to start.

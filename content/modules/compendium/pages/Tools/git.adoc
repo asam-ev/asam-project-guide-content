@@ -20,7 +20,7 @@ It is typically used for coordinating collaborative development (programming) of
 
 NOTE: xref:compendium:Tools/remote_repo.adoc[] is the webhosted tool that provides a central hub and storage space (repository) and functions as remote for Git.
 
-== Git At ASAM
+== Git at ASAM
 ASAM recommends using Git for working on a repository locally:
 
 * Checking out a remote repository

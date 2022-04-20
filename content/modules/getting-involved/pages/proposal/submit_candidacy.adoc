@@ -1,4 +1,4 @@
-= Submit Your Candidacy As A Project Lead
+= Submit your candidacy as a Project Lead
 :description: Describes how to submit candidacy for the role of Project Lead.
 :keywords: project-lead, proposal
 

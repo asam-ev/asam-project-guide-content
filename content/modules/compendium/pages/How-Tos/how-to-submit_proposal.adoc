@@ -38,7 +38,7 @@ Once the proposal description is complete, the proposal is submitted to ASAM for
 == How
 TODO
 
-== Next Steps
+== Next steps
 After the proposal has been submitted to ASAM Office, it is released on the https://www.asam.net/active-projects/proposals/[ASAM website^].
 
 //end::body[]

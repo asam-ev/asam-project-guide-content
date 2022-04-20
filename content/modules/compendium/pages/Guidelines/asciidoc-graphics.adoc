@@ -48,7 +48,7 @@ image::compendium:examplegraphic.drawio.svg[image]
 
 PlantUML can be defined in the AsciiDoc file directly or included as a separate file.
 
-=== Defined In AsciiDoc
+=== Defined in AsciiDoc
 [tabs]
 ====
 AsciiDoc::
@@ -137,7 +137,7 @@ TrafficParticipant -- dynamicLimits
 --
 ====
 
-=== Included From File
+=== Included from file
 [tabs]
 ====
 AsciiDoc::
@@ -169,7 +169,7 @@ include::compendium:example$ExamplePlantUML.plantuml[]
 ====
 
 
-== Images With Links
+== Images with links
 
 You can add a link to an image so it acts like a "button."
 

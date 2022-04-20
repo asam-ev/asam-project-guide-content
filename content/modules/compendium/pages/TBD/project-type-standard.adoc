@@ -1,4 +1,4 @@
-= Standard Development Project
+= Standard Development project
 :description:
 :keywords:
 :navtitle: [Project Type] Standard Development
@@ -20,7 +20,7 @@ NOTE: All variants use the same repository suffix.
 //end::summary[]
 
 
-== Project Type Description
+== Project type description
 The core of ASAM is to carry out standard development projects with the goal to create new standards and to update existing standards in accordance with the demands of ASAM members and market requirements.
 ASAM defines four types of standard development projects, depending on the expected magnitude of changes to the standard:
 
@@ -33,7 +33,7 @@ They all have in common that the primary output of the project is a standard.
 The upper limit for subsidiary funding from ASAM is 25% of the total required project budget.
 
 
-== New Standard
+== New standard
 === Summary
 //tag::new-summary[]
 .Summary
@@ -64,7 +64,7 @@ There is no predecessor in the ASAM standard portfolio, or the predecessor has b
 A new ASAM standard can be a transfer from another organization or an extension of a standard from another standardization organization.
 //end::new-summary[]
 
-=== Project Type Description
+=== Project type description
 
 Start the development of a completely new standard within ASAM.
 
@@ -78,7 +78,7 @@ A new ASAM standard gets the version number "1.0.0".
 If a new standard replaces a deprecated standard, then the new standard cannot have the same name than the deprecated standard.
 
 
-== Major Version Update
+== Major version update
 === Summary
 //tag::major-summary[]
 .Summary
@@ -112,7 +112,7 @@ A new major version of an ASAM standard does not have to be backward-compatible 
 //end::major-summary[]
 
 
-=== Project Type Description
+=== Project type description
 Major version developments of ASAM standards introduce significant changes to the standard.
 
 Major version development projects meet one or more of the following criteria:
@@ -129,7 +129,7 @@ The number of major version releases meets the pattern:
 X is an integer number starting with 2.
 
 
-== Minor Version Update
+== Minor version update
 === Summary
 //tag::minor-summary[]
 .Summary
@@ -167,7 +167,7 @@ Exceptions are allowed, require approval from the TSC and must be documented in 
 //end::minor-summary[]
 
 
-=== Project Type Description
+=== Project type description
 Minor version developments of ASAM standards introduce changes t existing features on a smaller scale or introduce new features that are rather small relative to the rest of the standard.
 
 Minor version development projects meet one or more of the following criteria:
@@ -233,7 +233,7 @@ A new revision version of an ASAM standard is always backward-compatible.
 //end::revision-summary[]
 
 
-=== Project Type Description
+=== Project type description
 Revision version developments of ASAM standards resolve technical issues with the currently released version of the standard.
 
 Revision version development projects meet one or more of the following criteria:

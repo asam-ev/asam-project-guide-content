@@ -1,4 +1,4 @@
-= Proposal Workshop Gameplan
+= Proposal Workshop gameplan
 :description: Contains the default gameplan for a proposal workshop.
 :keywords: proposal-workshop, proposal, gameplan
 :compendium:
@@ -31,7 +31,7 @@ a| * Ensure the <<Prerequisites>> are met
 |===
 
 
-// == Roles In The Proposal Process
+// == Roles in the Proposal process
 
 // [cols="1,3"]
 // |===
@@ -61,11 +61,11 @@ Here, the project idea is presented to a broader audience for the first time and
 . At least three companies committing to the project
 
 
-== Hosting A Proposal Workshop
+== Hosting a Proposal Workshop
 include::compendium:page$Guidelines/coordination-hosting_workshops.adoc[leveloffset=+1,tag=body]
 
 
-== Workshop Goals
+== Workshop goals
 //tag::goals[]
 Participants of the Proposal Workshop focus on the following topics, which are the technical core of the intended project proposal:
 
@@ -82,7 +82,7 @@ Further items shall be discussed, which cover the proposal justification and pro
 The participants of the Proposal Workshop shall determine the proposal submitter.
 //end::goals[]
 
-== Agenda Template
+== Agenda template
 
 //tag::agenda_example[]
 
@@ -157,6 +157,6 @@ a| The ASAM moderator starts the following information and estimates with the gr
 
 //end::agenda_example[]
 
-== Invite Participants
+== Invite participants
 . Send invites to the scheduled event containing the agenda (see <<Agenda Template>>) to all enrolled participants
 . If more participants sign up after the event has been sent out, send them the meeting invite as well

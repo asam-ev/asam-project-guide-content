@@ -1,4 +1,4 @@
-= Recommended Visual Studio Code Settings
+= Recommended Visual Studio Code settings
 :description: Summarizes the recommended VSCode settings.
 :keywords: vscode,settings, READYFORREVIEW
 :navtitle: [VSCode] Recommended Visual Studio Code Settings
@@ -20,7 +20,7 @@ image::compendium:vscode-settings-indent.png[]
 . Set "Tab Size" to 4
 
 
-== Automatic Removal Of Spaces After Periods
+== Automatic removal of spaces after periods
 
 image::compendium:VSCodeSettingsWhiteSpace.png[]
 . Open the Command Pallette
@@ -29,7 +29,7 @@ image::compendium:VSCodeSettingsWhiteSpace.png[]
 . Enable "Trim Trailing Whitespace"
 
 
-== Enabling Kroki Support In AsciiDoc
+== Enabling Kroki support in AsciiDoc
 //tag::kroki[]
 The AsciiDoc extension for Visual Studio Code (see xref:{vscode-extensions}#_asciidoc[Recommended Visual Studio Code Extensions]) comes with the ability to include Kroki diagrams.
 However, it is deactivated by default and must be configured before first use.

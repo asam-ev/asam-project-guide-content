@@ -1,4 +1,4 @@
-= Identify The Need For Service Providers
+= Identify the need for Service Providers
 :description: How to identify the need for Service Providers.
 :keywords: service-provider, proposal
 

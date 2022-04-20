@@ -1,4 +1,4 @@
-= Merge/Pull Requests
+= Merge/pull requests
 :description: Summarizes how merge requests work and how to best approach them.
 :keywords: merge,review, git-workflow
 :navtitle: [Repository] Merge/Pull Requests
@@ -20,7 +20,7 @@ A Merge or Pull Requests (MRs) are the way you merge content changes from a deve
 They provide the project team the opportunity to review changes before they are applied and made public/official.
 
 
-== Merge Commit Strategy
+== Merge commit strategy
 - History of commits in a MR must be https://medium.com/@catalinaturlea/clean-git-history-a-step-by-step-guide-eefc0ad8696d[clean^] prior to merge
 - Commit messages to a protected branch or the trunk must adhere to the xref:compendium:Guidelines/repo-commit_conventions.adoc[]
 
@@ -37,7 +37,7 @@ Squash commits is enabled by default but can be turned off.
 This is to make sure that in case multiple unrelated changes occurred in one branch, they can still be all added to the history.
 
 
-== Dealing With Merge Conflicts
+== Dealing with merge conflicts
 See xref:compendium:Guidelines/repo-merge_conflicts.adoc[].
 
 

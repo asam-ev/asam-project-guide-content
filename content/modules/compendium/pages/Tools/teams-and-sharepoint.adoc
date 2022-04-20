@@ -1,4 +1,4 @@
-= Microsoft Teams And Sharepoint
+= Microsoft Teams and Sharepoint
 :description: A summary page describing what MS Teams and Sharepoint are and where to find related information, guides etc.
 :keywords: teams,sharepoint,summary,tool,mandatory,TODO
 :page-layout: responsible

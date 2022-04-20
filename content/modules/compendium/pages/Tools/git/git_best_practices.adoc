@@ -1,4 +1,4 @@
-= Git Best Practices
+= Git best practices
 :description: Contains best practices for using git.
 :keywords: git, best-practices,repository,repo,feature,commit,TODO
 :offset-value: leveloffset=+1

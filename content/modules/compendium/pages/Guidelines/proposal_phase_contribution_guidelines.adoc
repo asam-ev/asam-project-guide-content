@@ -1,4 +1,4 @@
-= Proposal Phase Contribution Guidelines
+= Proposal phase contribution guidelines
 :description: Contains a list of guidelines for contributing with issues that project members need to follow.
 :keywords: guideline, issue, proposal
 :navtitle: [] Proposal Phase Contribution Guidelines

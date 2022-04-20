@@ -1,4 +1,4 @@
-= Project Lead Training
+= Project Lead training
 :description: TODO
 :keywords: role,project-lead,training,meeting-moderation
 :navtitle: [] Project Lead Training
@@ -8,7 +8,7 @@ include::partial$_attributes.adoc[]
 {role-project-lead}
 
 
-== How to be a good Interface to ASAM office
+== How to be a good interface to ASAM office
 * TODO
 
 == How to structure content of a project

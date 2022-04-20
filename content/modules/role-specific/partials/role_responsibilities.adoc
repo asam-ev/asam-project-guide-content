@@ -1,6 +1,6 @@
 //tag::project-lead[]
 
-== Role Description
+== Role description
 The Project Lead is the main responsible for a project.
 They coordinate general activities, track the progression, decide on changes and the project direction, and are the main contact point for ASAM for that project.
 

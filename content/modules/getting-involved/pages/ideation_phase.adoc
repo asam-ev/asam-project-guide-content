@@ -1,4 +1,4 @@
-= Ideation Phase
+= Ideation phase
 :description: Describes how to enter a new idea into the ideation process.
 :keywords: ideation, idea
 
@@ -16,7 +16,7 @@ include::partial$project_phases.adoc[tag=ideation]
 ====
 
 
-== Process Overview
+== Process overview
 New projects do not start themselves.
 They get initiated by someone entering an idea for a new project. +
 The Ideation phase specifies the process of how an idea for a new topic can be entered and is then analyzed at ASAM.
@@ -24,14 +24,14 @@ For more information, see the https://www.asam.net/active-projects/ideation/how-
 
 image::compendium:asam/ideation_phase-ideation_phase.svg[title="The ideation phase in detail, using the xref:compendium:Guidelines/diagram_notations.adoc[ASAM Project Phase Notation]"]
 
-== Ideation Phase Steps
+== Ideation phase steps
 The Ideation phase consists of the following steps, which are explained in detail in their own sections:
 
 * <<Entering An Idea>>
 * OPTIONAL: <<Ideation Workshop>>
 * <<Gathering Participants>>
 
-=== Entering An Idea
+=== Entering an idea
 [cols="1h,20"]
 |===
 |Purpose
@@ -69,7 +69,7 @@ This task can be passed to a member, if appropriate.
 If there is significant interest in the proposed project in different regions (primarily in North America, Europe, East Asia), then the Office organizes meetings in a way that equally allows all members from those regions to influence the results of the Ideation Workshop.
 
 
-=== Gathering Participants
+=== Gathering participants
 [cols="1h,20"]
 |===
 |Purpose

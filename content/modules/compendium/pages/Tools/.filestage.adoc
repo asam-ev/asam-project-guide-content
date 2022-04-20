@@ -14,7 +14,7 @@ include::compendium:partial$icon_reminder.adoc[tag=online-access]
 Filestage is a webtool for reviewing documents online.
 
 
-== Filestage At ASAM
+== Filestage at ASAM
 ASAM requires using Filestage for:
 
 * All public reviews

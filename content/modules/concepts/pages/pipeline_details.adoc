@@ -1,4 +1,4 @@
-= Automation Pipelines At ASAM
+= Automation pipelines at ASAM
 :description: Describes the standard automation pipeline and links to external sources for documentation.
 :keywords: pipeline
 
@@ -9,7 +9,7 @@ include::partial$_attributes.adoc[]
 
 TODO
 
-== Process Automation
+== Process automation
 ASAM projects typically automate the following steps:
 
 * Convert AsciiDoc files to html and pdf using https://asciidoctor.org/[Asciidoctor^]

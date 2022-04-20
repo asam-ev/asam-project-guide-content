@@ -1,4 +1,4 @@
-= Task Headings
+= Task headings
 :description: How-To for using task headings in ASAM documents (standards).
 :keywords: asciidoc,tasks,how-to, READYFORREVIEW
 :navtitle: [AsciiDoc] Task Headings

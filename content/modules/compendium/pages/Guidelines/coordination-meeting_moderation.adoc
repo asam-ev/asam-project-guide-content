@@ -1,4 +1,4 @@
-= Meeting Moderation
+= Meeting moderation
 :description: Change when the page changes. Leads a few tips for leading meetings, which is one of the main tasks of the project manager.
 :keywords: role,project-lead,training,meeting-moderation,READYFORREVIEW
 :navtitle: [Coordination] Meeting Moderation

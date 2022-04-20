@@ -1,4 +1,4 @@
-= Work Group Meeting Guidelines
+= Work Group meeting guidelines
 :description: TODO
 :keywords: wg, meeting, guideline
 :navtitle: [Coordination] Work Group Meeting Guidelines

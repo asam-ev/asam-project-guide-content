@@ -1,5 +1,5 @@
 
-== Other Starting Pages
+== Other starting pages
 
 //tag::body[]
 [cols="^1h,4",frame=none, grid=rows, stripes=hover]

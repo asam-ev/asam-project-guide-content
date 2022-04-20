@@ -1,4 +1,4 @@
-= Git Guides
+= Git guides
 :description: Collection of guidelines for git.
 :keywords: git, guides,READYFORREVIEW
 :offset-value: leveloffset=+1

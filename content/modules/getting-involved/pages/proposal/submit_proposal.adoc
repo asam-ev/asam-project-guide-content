@@ -1,4 +1,4 @@
-= Submit A Proposal
+= Submit a Proposal
 :description: Describes the steps necessary to submit a proposal to ASAM TSC for release and review.
 :keywords: proposal
 

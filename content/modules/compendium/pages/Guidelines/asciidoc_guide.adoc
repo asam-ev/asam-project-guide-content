@@ -55,7 +55,7 @@ include::compendium:page$Guidelines/asciidoc-admonitions.adoc[leveloffset=+1, ta
 == Tasks
 include::compendium:page$Guidelines/asciidoc-tasks.adoc[leveloffset=+1, tag=body]
 
-== Include Code
+== Include code
 include::compendium:page$Guidelines/asciidoc-include_code.adoc[leveloffset=+1, tag=body]
 
 == Formulas
@@ -64,5 +64,5 @@ include::compendium:page$Guidelines/asciidoc-formulas.adoc[leveloffset=+1, tag=b
 == Roadmaps
 include::compendium:page$Guidelines/asciidoc-roadmaps.adoc[leveloffset=+1, tag=body]
 
-== Reuse Content
+== Reuse content
 include::compendium:page$Guidelines/asciidoc-reuse_content.adoc[leveloffset=+1, tag=body]

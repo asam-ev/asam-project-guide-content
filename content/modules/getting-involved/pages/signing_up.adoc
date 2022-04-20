@@ -1,4 +1,4 @@
-= Signing Up For Projects
+= Signing up for projects
 :description: Describes general topics about signing up to participate in a project.
 :keywords: participate
 
@@ -9,18 +9,18 @@ include::partial$_attributes.adoc[]
 IMPORTANT: If a member intends to commit a work effort of less than 50% of the average of the work efforts committed by all other project group members, then the Office can deny the registration.
 The member or the office can escalate the issue to the TSC.
 
-== Who Can Sign Up
+== Who can sign up
 include::partial$asam_membership.adoc[]
 
 
-== When To Sign Up
+== When to sign up
 Typically, signing up for a project happens during the xref:proposal_phase.adoc#_process_overview[Proposal Phase] of a project.
 However, there are some exceptions:
 
-== How To Sign Up
+== How to sign up
 TODO
 
-== Contributing To A Project
+== Contributing to a project
 TODO
 
 == Overview

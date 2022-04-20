@@ -1,4 +1,4 @@
-= Study Project
+= Study project
 :description: A detailed description of the Project Type "Study".
 :keywords: type, project
 :navtitle: [Project Type] Study
@@ -40,7 +40,7 @@ Repository Suffix:: Study
 //end::summary[]
 
 
-== Project Type Description
+== Project type description
 Study projects provide members an organizational structure to study or analyze specific aspects of ASAM standards in a collaborative way.
 
 Study projects have the overall goal to enhance the understanding of ASAM standards among the participants, to promote their application in member companies and to create change requests for the further development of ASAM standards.

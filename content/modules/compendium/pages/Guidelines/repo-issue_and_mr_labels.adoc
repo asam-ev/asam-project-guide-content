@@ -1,4 +1,4 @@
-= Issue And Merge Request Labels
+= Issue and merge request labels
 :description: Contains a list of mandatory labels each project shall use.
 :keywords: label, gitlab, github, naming, issue, merge_request, repo_convention
 :navtitle: [Repository] Issue And Merge Request Labels
@@ -34,12 +34,12 @@ All labels apply to both issues and merge/pull requests.
 NOTE: The label color and the depiction on this page do not have to correspond to the label color or form in the repository.
 
 
-== Applying Labels
+== Applying labels
 If your project is on ASAM GitLab, see the https://docs.gitlab.com/ee/user/project/labels.html#assign-and-unassign-labels[GitLab instructions^] for assigning labels. +
 If your project is on GitHub, see the https://docs.github.com/en/issues/using-labels-and-milestones-to-track-work/managing-labels#applying-a-label[GitHub instructions^] for assigning labels.
 
 
-== Label Overview
+== Label overview
 The following table contains links to the available general labels at ASAM, separated by platform.
 
 [horizontal]
@@ -54,14 +54,14 @@ TODO - Must be defined by organization owners
 
 ---
 
-== General Labels
+== General labels
 {mandatory}
 
 The General Labels are defined on organization or top group level.
 These can be accessed by any project in this organization or group.
 
 
-=== Type Labels
+=== Type labels
 __(automatically assigned in issue templates)__
 
 These labels state the issue type. +
@@ -90,7 +90,7 @@ Each issue shall be assigned **ONE** of:
 
 ---
 
-=== Variant Labels
+=== Variant labels
 Add these when using the {feature-label} label to denote the type of Feature. +
 Each Feature issue shall be assigned **ONE** of:
 
@@ -111,7 +111,7 @@ Each Feature issue shall be assigned **ONE** of:
 
 ---
 
-=== Status Labels
+=== Status labels
 These labels state the current status of the issue. +
 Each issue shall be assigned **ONE** of:
 
@@ -147,7 +147,7 @@ Each issue shall be assigned **ONE** of:
 
 ---
 
-=== Relevance Labels
+=== Relevance labels
 These labels state the relevance of the issue for the current phase. +
 Each issue **that has not been resolved yet** shall be assigned **ONE** of:
 
@@ -171,7 +171,7 @@ The following sections contain some suggestions for project-specific labels.
 If a project wants to use additional custom labels for extra filter options, each label must be documented in the project documentation and be accessible to each project member.
 
 
-=== Type Labels
+=== Type labels
 Projects typically do not need to define additional type labels.
 However, if the need arises, ASAM suggests the following naming schema and rules for custom type labels:
 
@@ -190,7 +190,7 @@ A new type 'Hardware Questions' would be `T-HardwareQuestions`.
 
 ---
 
-=== Status Labels
+=== Status labels
 Projects typically do not need to define additional status labels.
 However, if the need arises, ASAM suggests the following naming schema and rules for custom status labels:
 
@@ -233,7 +233,7 @@ An issue label for the group Domain Model Experts (DME) concerning the definitio
 
 ---
 
-=== Work Package Labels
+=== Work package labels
 All ASAM projects have work items assigned to smaller work packages (that are then also assigned to a group or category).
 These labels are defined individually for each project and should be used to further categorize issues.
 
@@ -256,7 +256,7 @@ An issue label for the work package Domain Model (DM) concerning the definition 
 
 ---
 
-== Proposal Phase Labels
+== Proposal phase labels
 {mandatory}
 
 This part contains all labels specific to the Proposal phase. +
@@ -275,7 +275,7 @@ Each issue targeting the Proposal document shall be assigned:
 
 ---
 
-== Review Phase Labels
+== Review phase labels
 {mandatory}
 
 This part contains all labels specific to the Review phase.

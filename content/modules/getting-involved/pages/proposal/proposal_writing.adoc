@@ -1,4 +1,4 @@
-= Writing A Project Proposal
+= Writing a Project Proposal
 :description: Summarizes steps for contributing to a project proposal
 :keywords: proposal
 
@@ -25,13 +25,13 @@ a| * All participants contribute content through issues
 |===
 
 
-== The Proposal Document
+== The proposal document
 The Project Proposal is a written document that is submitted to the TSC for project approval before any project at ASAM may start. +
 All committed participants (the Idea Giver, the Proposal Submitter, and all prospective Workgroup Members) can participate in writing the proposal document (the Proposal Submitter actually has to participate in the <<Finalizing The Proposal,finalization step>>). +
 See **xref:getting-involved:proposal/proposal_document.adoc[]** for more information on the document and its intended contents.
 
 
-== How To Contribute
+== How to contribute
 IMPORTANT: You must first complete the xref:contributing:main.adoc#_minimum_required_setup[**Minimum Required Setup**] before you can participate in and contribute to any project. +
 Participation in the creation of a Project Proposal follows the central xref:compendium:Guidelines/workflow-trunk.adoc[**Trunk-based Workflow**] at ASAM.
 If you want to learn more about this workflow, click the link.
@@ -42,14 +42,14 @@ Both ways of contribution can be performed xref:contributing:main.adoc[without s
 If you prefer to work on your local computer, see the xref:contributing:main.adoc#_recommended_tools[list of recommended tools].
 
 
-=== Contributing Through Issues
+=== Contributing through issues
 {mandatory}
 
 The content of a Proposal document shall be drafted and discussed through issues in the project's issue board. +
 ASAM provides guidelines on how to contribute through issues on the page **xref:compendium:Guidelines/proposal_phase_contribution_guidelines.adoc[]**.
 All participants must follow these guidelines.
 
-=== Contributing Directly In AsciiDoc
+=== Contributing directly in AsciiDoc
 {optional}
 
 The project may decide to contribute directly in AsciiDoc as well.
@@ -57,7 +57,7 @@ However, content shall still be discussed and updated in issues as described in 
 
 When writing AsciiDoc, writers must follow the guidelines described in **xref:compendium:Guidelines/workflow-contribute_in_asciidoc.adoc[]** as well as the <<ASAM Editorial Guide>>.
 
-=== Transferring Content To AsciiDoc
+=== Transferring content to AsciiDoc
 {mandatory}
 
 The content that is defined in the project's issues must be transferred to AsciiDoc eventually.
@@ -72,17 +72,17 @@ The current version of the Editorial Guide is located in the xref:compendium:Gui
 
 The Editorial Guide is **mandatory** for all Technical Writers and **recommended** for users contributing content through issues.
 
-// == Creating The Executive Summary
+// == Creating the executive summary
 
 // include::compendium:page$How-Tos/how-to-executive_draft.adoc[leveloffset=+1, tags=body]
 
 
-== Writing The Proposal Draft
+== Writing the Proposal draft
 
 include::compendium:page$How-Tos/how-to-proposal_writing.adoc[leveloffset=+1, tags=body]
 
 
-== Finalizing The Proposal
+== Finalizing the Proposal
 
 [cols="1,5", grid = rows]
 |===

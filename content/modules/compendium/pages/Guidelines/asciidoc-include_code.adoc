@@ -1,4 +1,4 @@
-= Include Code Blocks
+= Include code blocks
 :description: How-To for including code blocks in ASAM documents (standards).
 :keywords: asciidoc,code,how-to, READYFORREVIEW
 :navtitle: [AsciiDoc] Include Code Blocks
@@ -12,7 +12,7 @@ This section shows how to include code blocks in an ASAM standard. In the standa
 
 In some cases, e.g. examples, it is also possible to direcly include code in the documentation. This is shown in chapter <<Code as snippet in document>>.
 
-== Use Code Fragments From File
+== Use code fragments from file
 [tabs]
 ====
 Source file::
@@ -68,7 +68,7 @@ include::compendium:example$/examplecode.js[tags=exampleInclude]
 --
 ====
 
-== Code As Snippet In Document
+== Code as snippet in document
 [tabs]
 ====
 AsciiDoc::

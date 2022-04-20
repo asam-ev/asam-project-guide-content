@@ -17,7 +17,7 @@ Standards can consist of several parts.
 These parts are independent (e.g. <<Technology reference,technology references>>) and must each individually comply with the <<Structure of standards,basic document structure for ASAM standards>>.
 
 
-== Base Standard
+== Base standard
 
 A base standard defines the syntax, abstract models, and functionality for general use.
 A base standard is defined in a technology-independent form.
@@ -38,23 +38,23 @@ and has the following properties:
 There are platform- and technology-specific mapping rules for each base standard.
 These are defined in a Technology Reference as independent parts of the base standard.
 
-=== Format Description
+=== Format description
 
 A Format Description standard defines the syntax and semantics of a file format to exchange data.
 Currently, these standards are defined in XML, but older standards, such as ASAM MCD-2 MC (ASAP2), still use proprietary ASCII formats.
 There are also binary description standards, for example, to store measurement data efficiently.
 
-=== Protocol Definition
+=== Protocol definition
 A Protocol Definition defines the syntax, semantics, and synchronization of communication.
 A communications protocol is a system of digital message formats and rules for exchanging the messages in or between computer systems.
 A protocol may have a formal description.
 
-=== Technology Reference
+=== Technology reference
 A Technology Reference specifies the technology-dependent interpretation of the generic standard as mapping rules.
 If these mapping rules are complied with, the deliverables are technology-specific implementations of standards that are suitable for a specific implementation platform and native programming languages.
 These Technology References are typically available for base standards and companion standards.
 
-== Associated Standard
+== Associated standard
 
 An associated standard always refers to a base standard.
 These are examples of associated standards:
@@ -75,7 +75,7 @@ A transport layer specification details, for example, how a generic protocol def
 The transport layer provides uniform access to the application-oriented layers, so that the application-oriented layers do not have to take the properties of the communication network into account.
 
 
-== Set Of Standards
+== Set of standards
 A "**set of standards**" is a special form comprising different elements in one standard.
 
 

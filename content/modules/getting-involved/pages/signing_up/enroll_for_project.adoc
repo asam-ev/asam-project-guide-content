@@ -1,4 +1,4 @@
-= Enroll For Development Phase
+= Enroll for Development phase
 :description: Describes how to enroll for the Development phase of a project.
 :keywords: development, enroll
 

@@ -1,4 +1,4 @@
-= Standard Review Template
+= Standard Review template
 :description: Contains the review feedback template used for GitLab and GitHub
 :keywords: review, feedback, service-desk, READYFORREVIEW
 
@@ -6,7 +6,7 @@ include::compendium:partial$_attributes.adoc[]
 
 {template-icon}
 
-== Template For Manual Use
+== Template for manual use
 TIP: Use this if you want to add manually add a template to an email.
 
 //tag::body[]

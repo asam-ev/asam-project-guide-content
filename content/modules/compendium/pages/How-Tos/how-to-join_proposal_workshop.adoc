@@ -46,7 +46,7 @@ If you are interested in doing so, contact the mailto:info@asam.net[ASAM Office]
 
 You can also xref:getting-involved:signing_up.adoc[sign up for a project participation], both for the Proposal and the xref:getting-involved:development_phase.adoc[Standard Development phase] (if the project is agreed upon by the TSC).
 
-== Goals Of The Proposal Workshop
+== Goals of the Proposal Workshop
 include::compendium:page$Templates/proposal_workshop_gameplan.adoc[tag=goals]
 
 == Result

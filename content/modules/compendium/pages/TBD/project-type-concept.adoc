@@ -1,4 +1,4 @@
-= Concept Project
+= Concept project
 :description:
 :keywords:
 :navtitle: [Project Type] Concept
@@ -34,7 +34,7 @@ Repository Suffix:: Concept
 //end::summary[]
 
 
-== Project Type Description
+== Project type description
 Concept projects have the purpose to prepare the further development of existing ASAM standards or to prepare the development of new ASAM standards.
 
 The goals of concept projects are:

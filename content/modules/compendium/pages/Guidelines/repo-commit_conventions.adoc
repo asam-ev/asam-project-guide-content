@@ -1,4 +1,4 @@
-= Commit Message Conventions
+= Commit message conventions
 :description: Git and GitLab commit conventions
 :keywords: commit,repo_convention,naming,git-workflow
 :navtitle: [Repository] Commit Message Conventions

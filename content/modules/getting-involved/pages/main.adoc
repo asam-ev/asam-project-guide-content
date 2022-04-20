@@ -17,7 +17,7 @@ include::partial$asam_membership.adoc[]
 
 ---
 
-== Phases Overview
+== Phases overview
 
 image::compendium:asam/project_lifecycle-v2.svg[alt=The project phases at ASAM, title=The project phases at ASAM with transitions]
 

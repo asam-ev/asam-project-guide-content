@@ -1,4 +1,4 @@
-= Project Setup
+= Project setup
 :description: Describes how to set up a (new) project repository for the Development phase.
 :keywords: setup, development
 

@@ -1,4 +1,4 @@
-= Implementation Project
+= Implementation project
 :description:
 :keywords:
 :navtitle: [Project Type] Implementation
@@ -35,7 +35,7 @@ Repository Suffix:: Implementation
 //end::summary[]
 
 
-== Project Type Description
+== Project type description
 An implementation project has the purpose to create a supplementary product that supports the ap-plication of an ASAM standard in the industry.
 
 An ASAM product shall cover one of the following use-cases:

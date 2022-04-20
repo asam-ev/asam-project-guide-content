@@ -1,4 +1,4 @@
-= Tools For Advanced Users
+= Tools for advanced users
 :description: Contains pages on tools supported by ASAM. These can be used by advanced users in ASAM projects.
 :keyywords: tools
 

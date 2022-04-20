@@ -1,4 +1,4 @@
-= Development Cycle -- Planning
+= Development cycle -- Planning
 :description: Describes what happens during a cycle planning during the development phase.
 :keywords: development-cycle, planning, development
 

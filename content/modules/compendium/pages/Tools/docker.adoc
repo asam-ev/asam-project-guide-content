@@ -26,7 +26,7 @@ image::https://docs.docker.com/engine/images/architecture.svg[title="The Docker 
 //end::summary[]
 
 
-== Docker At ASAM
+== Docker at ASAM
 For Asciidoc, docker can be used to run a pre-configured asciidoctor setup for creating html output locally.
 This removes the need to upload adoc files and use the build pipeline for every change you want to see.
 It also means you do not have to install and configure Asciidoctor first since this is already done in the pre-configured Docker image.
