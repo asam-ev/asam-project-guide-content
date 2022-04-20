@@ -103,7 +103,7 @@ Results of an optional concept project shall be included.
 |{role-gtm}, in collaboration with initiating member(s) ({role-idea-giver}).
 
 >h|Involved
-|{role-member} and {role-standard-user}, particularly technical domain experts, internal end-user support experts, product managers, development managers
+|{role-member} and {role-standard-user}, particularly experts in related domains
 |===
 
 Preparation and moderation of the workshop is performed by the ASAM office in close cooperation with the idea givers.
