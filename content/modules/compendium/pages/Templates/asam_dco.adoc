@@ -61,7 +61,7 @@ If you want to be reminded to add the sign-off for commits in your repository, y
 ----
     #!/bin/sh
     #
-    = Check for dCO/Signed-off-by in message
+    = Check for DCO/Signed-off-by in message
     #
 
     if ! grep -q "^Signed-off-by: " "$1"

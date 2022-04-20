@@ -10,7 +10,7 @@ include::compendium:partial$_attributes.adoc[]
 //tag::body[]
 
 == Convention
-.ASAM Commit Message Convention
+.ASAM commit message convention
 ----
 <GroupName>: <description>
 

@@ -46,7 +46,7 @@ These branches **MAY** be squashed and **MUST** be merged via fast-forward merge
 Developing content for ASAM standards is focussed around the concept of xref:compendium:Guidelines/workflow-contribute_with_issues.adoc[contributing through issues].
 The following sections describe this workflow in more detail.
 
-.Workflow Stages
+.Workflow stages
 [mermaid]
 ....
 graph LR

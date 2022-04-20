@@ -41,7 +41,7 @@ This is to make sure that in case multiple unrelated changes occurred in one bra
 See xref:compendium:Guidelines/repo-merge_conflicts.adoc[].
 
 
-== Merge/Pull Request Review
+== Merge/pull request review
 Merge/Pull Requests are reviewed by the project team in sequential steps.
 See the xref:compendium:Guidelines/workflow-trunk.adoc#_review[Trunk Workflow] page for more information on these reviews
 

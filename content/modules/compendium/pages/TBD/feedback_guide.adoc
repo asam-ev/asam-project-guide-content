@@ -62,7 +62,7 @@ But please be spare with such issues and also try to put connected topics into t
 https://code.asam.net/simulation/standard/openscenario-2.0/-/issues?label_name%5B%5D=GeneralFeedback[Link to the list of issues for general feedback^].
 
 
-== Feedback to OSC2 Feature List (Excel Table)
+== Feedback to OSC2 feature list (Excel Table)
 Add your feedback as comment to the respective gitLab issue https://code.asam.net/simulation/standard/openscenario-2.0/-/issues/245[Collect feedback to OSC2.0 feature list^].
 
 
@@ -81,7 +81,7 @@ Add your feedback as comment to the respective gitLab issue https://code.asam.ne
 **_General request: Feedback should be constructive and specific not only complains, but also reasons and proposals for improvements if possible._**
 
 
-=== What are the implementers forum members planning/Expecting To Provide (Subgroup A, Subgroup B)?
+=== What are the implementers forum members planning/expecting to provide (subgroup A, subgroup B)?
 - Which features were intensively used during specification of different case-studies? => Priority to be contained in 2.0
 - For which abstraction level which features were used? => Feature Sets, Usage & Pragmatics Group
 - For which use-case which features where used? => Feature Sets, Priorities, Usage & Pragmatics Group

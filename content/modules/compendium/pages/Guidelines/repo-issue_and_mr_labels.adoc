@@ -175,7 +175,7 @@ If a project wants to use additional custom labels for extra filter options, eac
 Projects typically do not need to define additional type labels.
 However, if the need arises, ASAM suggests the following naming schema and rules for custom type labels:
 
-.Suggested Type Label Schema
+.Suggested type label schema
 [source]
 ----
 T-'Type'
@@ -194,7 +194,7 @@ A new type 'Hardware Questions' would be `T-HardwareQuestions`.
 Projects typically do not need to define additional status labels.
 However, if the need arises, ASAM suggests the following naming schema and rules for custom status labels:
 
-.Suggested Status Label Schema
+.Suggested status label schema
 [source]
 ----
 S-'Status'
@@ -209,7 +209,7 @@ A new type 'Waiting For Clarification' would be `S-WaitingForClarification`.
 
 ---
 
-=== Group/Category Labels
+=== Group/category labels
 
 All ASAM projects have their individual work packages clustered into groups or categories.
 These labels are defined individually for each project and should be used to categorize issues.
@@ -219,7 +219,7 @@ These labels are defined individually for each project and should be used to cat
 
 ASAM suggest the following naming schema for group/category labels:
 
-.Suggested Group Label Schema
+.Suggested group label schema
 [source]
 ----
 'group-name'-'topic'
@@ -241,7 +241,7 @@ These labels are defined individually for each project and should be used to fur
 
 ASAM suggest the following naming schema for work package labels:
 
-.Suggested Work Package Label Schema
+.Suggested work package label schema
 [source]
 ----
 'work-package'-'topic'
