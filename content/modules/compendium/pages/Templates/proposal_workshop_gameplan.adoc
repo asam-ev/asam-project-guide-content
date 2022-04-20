@@ -26,7 +26,7 @@ h| Step
 h|TL;DR
 a| * Ensure the <<Prerequisites>> are met
 * Book a room or schedule an online meeting
-* Create agenda (use <<Agenda Template>> to do so)
+* Create agenda (use <<Agenda template>> to do so)
 * Send invites to all participants
 |===
 
@@ -158,5 +158,5 @@ a| The ASAM moderator starts the following information and estimates with the gr
 //end::agenda_example[]
 
 == Invite participants
-. Send invites to the scheduled event containing the agenda (see <<Agenda Template>>) to all enrolled participants
+. Send invites to the scheduled event containing the agenda (see <<Agenda template>>) to all enrolled participants
 . If more participants sign up after the event has been sent out, send them the meeting invite as well

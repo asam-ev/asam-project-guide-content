@@ -16,7 +16,7 @@ For this reason, ASAM defines three project types, which further characterize th
 They are:
 
 * <<Concept>>
-* <<Standard Development>>
+* <<Standard development>>
 * <<Study>>
 
 

@@ -28,7 +28,7 @@ Typically, a new project will come with these already set up.
 If not, the project group shall ensure that they are created at the beginning of the project.
 
 Some labels only apply to certain phases.
-These are listed after the <<General Labels>> section. +
+These are listed after the <<General labels>> section. +
 All labels apply to both issues and merge/pull requests.
 
 NOTE: The label color and the depiction on this page do not have to correspond to the label color or form in the repository.

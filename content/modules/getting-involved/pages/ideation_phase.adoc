@@ -27,9 +27,9 @@ image::compendium:asam/ideation_phase-ideation_phase.svg[title="The ideation pha
 == Ideation phase steps
 The Ideation phase consists of the following steps, which are explained in detail in their own sections:
 
-* <<Entering An Idea>>
+* <<Entering an idea>>
 * OPTIONAL: <<Ideation Workshop>>
-* <<Gathering Participants>>
+* <<Gathering participants>>
 
 === Entering an idea
 [cols="1h,20"]

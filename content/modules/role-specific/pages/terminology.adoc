@@ -26,7 +26,7 @@ See xref:compendium:Templates/asam_dco.adoc[].
 - Review contributions
 - Merge source code, documentation and tests into the main branches.
 - Named in the project proposal and extendable by majority vote of existing committers
-- **Does not merge content where third-party content or libraries are included prior to approval by the <<Project Coordinator,project coordinator>>**
+- **Does not merge content where third-party content or libraries are included prior to approval by the <<Project coordinator,project coordinator>>**
 - Should no project be running, the CCB can submit a proposal to the CG:Sim for a patch/minor/major project addressing a set amount of issues
 
 
@@ -34,7 +34,7 @@ See xref:compendium:Templates/asam_dco.adoc[].
 >mandatory, staffed by the ASAM office
 
 === Project coordinator
-- Assists and supports the <<Project Leader,Project Leader>> in coordinating the project
+- Assists and supports the <<Project Leader>> in coordinating the project
 - Moderation of meetings
 - Harmonisation with other ongoing projects in- and outside of ASAM
 - Technical & architectural support for the project

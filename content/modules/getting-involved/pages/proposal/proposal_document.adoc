@@ -15,20 +15,20 @@ The https://code.asam.net/common/templates/proposal-template[**Project Proposal 
 Each proposal must cover the following topics:
 
 * <<Commitments>>
-* <<Project Timeline>>
-* <<Project Deliverables>>
-* <<Project Structure>>
-* <<Additional Project Funding>>
-* <<Market Analysis/Relevance>>
-* <<Relevance To ASAM>>
-* <<Project Type>>
+* <<Project timeline>>
+* <<Project deliverables>>
+* <<Project structure>>
+* <<Additional project funding>>
+* <<Market analysis/relevance>>
+* <<Relevance to ASAM>>
+* <<Project type>>
 
 == Commitments
 Prospect participants of the project must commit to it ahead of time. +
 There are different types of commitments possible:
 
-* <<Content Commitment>>
-* <<Review Commitment>>
+* <<Content commitment>>
+* <<Review commitment>>
 
 Each type comes with requirements that are explained in their respective section.
 
@@ -43,7 +43,7 @@ Each project must plan its own timeline ahead of time.
 Since things change, the timeline may be altered later.
 However, the timeline should still be realistic with the knowledge available during the proposal phase.
 
-The Project Timeline must contain milestones for each <<Project Deliverables,Project Deliverable>> and account for
+The Project Timeline must contain milestones for each <<Project deliverables,Project Deliverable>> and account for
 
 * Kickoff
 * Start of review

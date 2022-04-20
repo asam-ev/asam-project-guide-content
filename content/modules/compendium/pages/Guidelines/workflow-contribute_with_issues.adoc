@@ -169,7 +169,7 @@ Additionally, an issue may also be closed without resolution if
 
 * it has become obsolete
 * it is a duplicate (i.e. another issue deals with the same topic already)
-* it has not been worked on for a long period of time (see <<The Issue Triage>>)
+* it has not been worked on for a long period of time (see <<The issue triage>>)
 
 
 == The issue triage

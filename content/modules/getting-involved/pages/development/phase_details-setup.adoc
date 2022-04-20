@@ -27,9 +27,9 @@ The Development phase consists of the following steps, which are explained in de
 
 * <<Prepare Kick-off Workshop>>
 * <<Kick-off Workshop>>
-* <<Set Up Project Repository>>
-* <<Set Up Mailing Lists>>
-* <<Update Repository After Kick-off Workshop>>
+* <<Set up project repository>>
+* <<Set up mailing lists>>
+* <<Update repository after Kick-off Workshop>>
 * <<Engage Service Providers>>
 
 

@@ -29,10 +29,10 @@ TODO
 == Release phase steps
 The Release phase consists of the following steps, which are explained in detail in their own sections:
 
-* <<Candidate Release>>
-* <<Release Candidate Review>>
-* <<Release Decision>>
-* <<Publication Preparation>>
+* <<Candidate release>>
+* <<Release candidate review>>
+* <<Release decision>>
+* <<Publication preparation>>
 * <<Publication>>
 
 

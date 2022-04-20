@@ -7,7 +7,7 @@ include::partial$_attributes.adoc[]
 
 == Phase diagram
 The figure <<fig-proposal-phase-diagram-detailed>> shows the Proposal phase in full detail.
-Each step is explained shortly under <<Proposal Phase Steps>>.
+Each step is explained shortly under <<Proposal phase steps>>.
 
 [#fig-proposal-phase-diagram-detailed]
 image::compendium:asam/proposal_phase_v2-proposal_phase.svg[title="The Proposal phase in detail, using the xref:compendium:Guidelines/diagram_notations.adoc[ASAM Project Phase Notation]"]
@@ -251,11 +251,11 @@ TODO
 
 The Proposal phase consists of the following steps, which are explained in detail in their own sections:
 
-* <<Repository Setup>>
-* <<Draft Creation>>
+* <<Repository setup>>
+* <<Draft creation>>
 * <<Proposal Workshop>>
-* <<Enrollment Process>>
-* <<Finalizing The Proposal>>
+* <<Enrollment process>>
+* <<Finalizing the Proposal>>
 * <<Submission>>
 * <<Publication>>
 * <<Decision>>

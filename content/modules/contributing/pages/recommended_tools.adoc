@@ -7,7 +7,7 @@ include::partial$_attributes.adoc[]
 
 {recommended}
 
-In addition to the <<Minimum Required Setup>>, ASAM recommends checking out the following pages.
+In addition to the <<Minimum required setup>>, ASAM recommends checking out the following pages.
 These describe the provided infrastructure for ASAM projects.
 These infrastructure tools may be utilized in your project as well.
 

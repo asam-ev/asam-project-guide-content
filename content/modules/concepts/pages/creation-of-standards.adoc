@@ -11,7 +11,7 @@ This page describes the structure of standards documents and the types of standa
 
 == Classification of standards
 
-There are two types of standards: <<Base Standard,Base Standards>> and <<Associated Standard,Associated Standards>>.
+There are two types of standards: <<Base standard,base standards>> and <<Associated standard,associated standards>>.
 
 Standards can consist of several parts.
 These parts are independent (e.g. <<Technology reference,technology references>>) and must each individually comply with the <<Structure of standards,basic document structure for ASAM standards>>.
@@ -24,8 +24,8 @@ A base standard is defined in a technology-independent form.
 It can use a problem-/task-related notation, e.g., UML for an object model, or any suitable description for protocols.
 Typically, a base standard is
 
-* A <<Format Description>> (data structure) **or**
-* A <<Protocol Definition>> **or**
+* A <<Format description>> (data structure) **or**
+* A <<Protocol definition>> **or**
 * An API
 
 and has the following properties:

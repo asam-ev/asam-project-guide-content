@@ -35,7 +35,7 @@ If this is not possible for you, you can follow the instructions on how to set u
 . RECOMMENDED: After setup, you can try the example project to get to know basic Docker commands.
 
 === Build from binaries
-Alternatively to getting <<Standard Docker-Desktop Installation,Docker Desktop>>, you can also download and install docker engine from binaries.
+Alternatively to getting <<Standard Docker-Desktop installation,Docker Desktop>>, you can also download and install docker engine from binaries.
 This is free of charge but requires many more steps for setup.
 
 See link:https://docs.docker.com/engine/install/binaries/[instructions for installing docker binaries, window=_blank] for more information on this.

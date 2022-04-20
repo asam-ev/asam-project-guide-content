@@ -37,7 +37,7 @@ include::compendium:partial$group-name_examples.adoc[]
 
 == Branch title
 . Should be descriptive and make the change clear, i.e. not "update-sensor-model-x", but rather "initial-radarsensorviewconfig-support"
-. If based on an issue, the title shall use the issue-title (i.e. the issue name minus the (optional) work group prefix), applying the <<General Guidelines>>
+. If based on an issue, the title shall use the issue-title (i.e. the issue name minus the (optional) work group prefix), applying the <<General guidelines>>
 
 
 == Examples

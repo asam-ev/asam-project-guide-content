@@ -20,7 +20,7 @@ include::compendium:partial$_attributes.adoc[]
 //end::compendium[]
 
 The most direct way of contributing to a project is by creating and editing the AsciiDoc files.
-However, in order for a consistent workflow and optimal use of the automation steps set up by ASAM, users must be familiar with the xref:compendium:Guidelines/workflow-trunk.adoc[] and <<Writing AsciiDoc Files,AsciiDoc>>.
+However, in order for a consistent workflow and optimal use of the automation steps set up by ASAM, users must be familiar with the xref:compendium:Guidelines/workflow-trunk.adoc[] and <<Write AsciiDoc files,AsciiDoc>>.
 This ensures that all projects work the same way and deliver the same high level of quality that is expected of an ASAM standard.
 
 

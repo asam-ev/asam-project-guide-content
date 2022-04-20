@@ -42,9 +42,9 @@ Additionally, a project may request additional time if the project's content tur
 == Development phase steps
 The Development phase consists of the following steps, which are explained in detail in their own sections:
 
-* <<Cycle Planning>>
-* <<Cycle Development>>
-* <<Cycle Review>>
+* <<Cycle planning>>
+* <<Cycle development>>
+* <<Cycle review>>
 * Controlling Meetings
 ** <<TSC Controlling Meeting>>
 ** <<CGSim Controlling Meeting>>
@@ -206,7 +206,7 @@ See xref:development/tsc_controlling_meeting.adoc[].
 
 |===
 
-The Project Lead regularly updates the CGSim about the current project status (updated at the latest <<Cycle Review>>).
+The Project Lead regularly updates the CGSim about the current project status (updated at the latest <<Cycle review>>).
 In case there is need to find a solution to a problem with the project with direct involvement of ASAM e.V. (e.g. there is a high risk of a delay), the CGSim speaker escalates the topic at the next ASAM TSC meeting. +
 See xref:development/cgsim_controlling_meeting.adoc[CGSim Controlling Meeting]
 

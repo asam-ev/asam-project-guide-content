@@ -137,9 +137,9 @@ This way, the Merge/Pull Request (and its branch) cannot be concluded by acciden
 Review::
 +
 --
-The Review stage consists of the <<Internal Review>> and the <<Change Control Board Review>>
+The Review stage consists of the **Internal review** and the **Change Control Board review**
 
-**Internal Review** +
+**Internal review** +
 [horizontal]
 Who:: All {role-wg-member} & Implementers Forum
 Steps::
@@ -157,7 +157,7 @@ Tips::
 // .A demo of a review
 // image::ReviewExample.gif[]
 
-**Change Control Board Review** +
+**Change Control Board review** +
 [horizontal]
 Who:: CCB
 Steps::

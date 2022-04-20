@@ -44,6 +44,6 @@ include::partial$minimum_required_participants_proposal.adoc[]
 
 
 == What happens next?
-Once all <<Requirements For Transitioning To Proposal Phase,requirements>> have been met, the Idea Giver communicates the list of participants to the GTM.
+Once all <<Requirements for transitioning to Proposal phase,requirements>> have been met, the Idea Giver communicates the list of participants to the GTM.
 The project then transitions to the xref:getting-involved:proposal_phase.adoc[proposal phase]. +
 The final goal is to transfer the idea into the regular xref:development_phase.adoc[Standard Development Process].
