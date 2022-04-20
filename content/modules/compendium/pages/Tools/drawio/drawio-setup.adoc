@@ -23,12 +23,19 @@ The user can access Draw.io with the ASAM asset library connected to create and 
 * Local Setup (VSCode): xref:compendium:Tools/vscode.adoc[] is installed
 
 == How
-Draw.io can be used either locally (through the dedicated app <<Draw.io App (Desktop),Draw.io Deskop>> or through the <<VSCode Extension,VS Code Extension>>) or with the <<Remote Setup, web app>>.
+Draw.io can be used either locally (through the dedicated app 'Draw.io Desktop' or through the 'Visual Studio Code Extension') or online through the Draw.io web app.
 
-=== Local Setup
-
-==== Draw.io App (Desktop)
-
+[tabs]
+====
+Remote Setup::
++
+--
+**The use of Draw.io through the web browser does not require any setup.** +
+Just use the provided {drawio-url}[**link**^].
+--
+Draw.io Desktop App::
++
+--
 . Download the app from {drawio-download}[here^].
 . Check out the {library-repo}[asset library repository^]
 . Open the draw.io app and either create a new diagram or open any existing one
@@ -36,9 +43,10 @@ Draw.io can be used either locally (through the dedicated app <<Draw.io App (Des
 . Select the xml file from the asset library repository (local) and click _Open_.
 
 image::drawio-import-library.gif[title=Import ASAM Draw.io library into Desktop.]
-
-==== Draw.io VSCode Extension
-
+--
+Draw.io VSCode Extension::
++
+--
 include::compendium:page$Guidelines/vscode-recommended_vscode_extensions.adoc[tag=drawio]
 
 NOTE: At this time, the VS Code extension does not provide url links to libraries.
@@ -65,8 +73,5 @@ NOTE: Remove the comma after the last braket ("]") if there is no other line bef
 
 
 image::drawio-import-library-vscode.gif[title=Import ASAM Draw.io library into VSCode extension.]
-
-=== Remote Setup
-
-The use of Draw.io through the web browser does not require any setup.
-Just use the provided {drawio-url}[link^].
+--
+====

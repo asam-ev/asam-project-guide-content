@@ -143,7 +143,7 @@ If your image contains text, use 'Helvetica' as font in your images.
 Use the provided https://code.asam.net/common/asam-graphic-library[asset library^] to create your images.
 If you need a one-time asset, create or add it directly.
 
-If you need a reusable asset that is not contained in the asset library yet, see xref:compendium:How-Tos/how-to-change_asset_library_content.adoc[].
+If you need a reusable asset that is not contained in the asset library yet, see xref:compendium:How-Tos/how-to-edit_asam_graphics_library.adoc[].
 
 
 // == Visual language
