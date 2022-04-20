@@ -46,17 +46,17 @@ For more details, see xref:compendium:TBD/project-type-concept.adoc[] in the Com
 == Standard development
 [tabs]
 ====
-New Standard::
+New standard::
 +
 --
 include::compendium:page$TBD/project-type-standard.adoc[tag=new-summary]
 --
-Major Version Update::
+Major version update::
 +
 --
 include::compendium:page$TBD/project-type-standard.adoc[tag=major-summary]
 --
-Minor Version Update::
+Minor version update::
 +
 --
 include::compendium:page$TBD/project-type-standard.adoc[tag=minor-summary]

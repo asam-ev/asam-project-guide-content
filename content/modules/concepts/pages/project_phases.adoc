@@ -29,7 +29,7 @@ If someone has an idea for a new standard, it triggers the ideation phase for a 
 During this phase, the idea is evaluated and fleshed out a bit until it is either discarded (e.g. it is not feasible or a duplicate of sorts) or accepted.
 In case the idea is accepted, the project moves on to the xref:getting-involved:proposal_phase.adoc[].
 
-Additional Information:: xref:getting-involved:ideation_phase.adoc[]
+Additional information:: xref:getting-involved:ideation_phase.adoc[]
 --
 Proposal::
 +
@@ -43,7 +43,7 @@ The Project Type is also specified during this phase.
 With this document, the ASAM TSC decides if the project may continue or not. +
 If the go-ahead is given, the project continues on to the <<Development phase>>.
 
-Additional Information:: xref:getting-involved:proposal_phase.adoc[]
+Additional information:: xref:getting-involved:proposal_phase.adoc[]
 --
 Development::
 +
@@ -55,7 +55,7 @@ During this phase, the project-type specific deliverables are developed by the p
 In the beginning, the project team organizes a workshop to specify their modus operandi and set up all technical aspects of the project.
 This is followed by specifying, writing, and reviewing content internally until the document or documents are ready for a ASAM-internal or public review in the <<Review phase>>.
 
-Additional Information:: xref:getting-involved:development_phase.adoc[]
+Additional information:: xref:getting-involved:development_phase.adoc[]
 --
 Review::
 +
@@ -67,7 +67,7 @@ Depending on the project, these reviews may be available to ASAM members only, f
 Any problems that are identified during any of these reviews are then analyzed and categorized.
 Important fixes have to be made before the deliverables are released, whilst improvements beyond the initial scope or minute details may be put off for future iterations.
 
-Additional Information:: xref:getting-involved:review_phase.adoc[]
+Additional information:: xref:getting-involved:review_phase.adoc[]
 --
 Release::
 +
@@ -78,7 +78,7 @@ After the deliverables have been developed and (optionally) successfully reviewe
 The project has now concluded.
 Developed and updated standards, however, will receive and process feedback afterwards in the <<Public phase>>.
 
-Additional Information:: xref:getting-involved:release_phase.adoc[]
+Additional information:: xref:getting-involved:release_phase.adoc[]
 --
 Public::
 +
@@ -109,7 +109,7 @@ With this, it will no longer be supported and propagated by ASAM.
 // During this phase, the idea is evaluated and fleshed out a bit until it is either discarded (e.g. it is not feasible or a duplicate of sorts) or accepted.
 // In case the idea is accepted, the project moves on to the xref:getting-involved:proposal_phase.adoc[].
 
-// Additional Information:: xref:getting-involved:ideation_phase.adoc[]
+// Additional information:: xref:getting-involved:ideation_phase.adoc[]
 
 
 // == Proposal phase
@@ -122,7 +122,7 @@ With this, it will no longer be supported and propagated by ASAM.
 // With this document, the ASAM TSC decides if the project may continue or not. +
 // If the go-ahead is given, the project continues on to the <<Development phase>>.
 
-// Additional Information:: xref:getting-involved:proposal_phase.adoc[]
+// Additional information:: xref:getting-involved:proposal_phase.adoc[]
 
 // == Development phase
 // include::getting-involved:partial$project_phases.adoc[tag=development]
@@ -132,7 +132,7 @@ With this, it will no longer be supported and propagated by ASAM.
 // In the beginning, the project team organizes a workshop to specify their modus operandi and set up all technical aspects of the project.
 // This is followed by specifying, writing, and reviewing content internally until the document or documents are ready for a ASAM-internal or public review in the <<Review phase>>.
 
-// Additional Information:: xref:getting-involved:development_phase.adoc[]
+// Additional information:: xref:getting-involved:development_phase.adoc[]
 
 
 // == Review phase
@@ -143,7 +143,7 @@ With this, it will no longer be supported and propagated by ASAM.
 // Any problems that are identified during any of these reviews are then analyzed and categorized.
 // Important fixes have to be made before the deliverables are released, whilst improvements beyond the initial scope or minute details may be put off for future iterations.
 
-// Additional Information:: xref:getting-involved:review_phase.adoc[]
+// Additional information:: xref:getting-involved:review_phase.adoc[]
 
 // == Release phase
 // include::getting-involved:partial$project_phases.adoc[tag=release]
@@ -152,7 +152,7 @@ With this, it will no longer be supported and propagated by ASAM.
 // The project has now concluded.
 // Developed and updated standards, however, will receive and process feedback afterwards in the <<Public phase>>.
 
-// Additional Information:: xref:getting-involved:release_phase.adoc[]
+// Additional information:: xref:getting-involved:release_phase.adoc[]
 
 // == Public phase
 // include::getting-involved:partial$project_phases.adoc[tag=public]

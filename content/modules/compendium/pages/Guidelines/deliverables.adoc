@@ -15,7 +15,7 @@ A standard package consists of at least one base standard.
 Other deliverable items, as listed on this page, are optional.
 
 == Standard documents
-Base Standard:: A base standard contains all fundamental specifications such as abstract object models, syntax definitions and functional behavior descriptions.
+Base standard:: A base standard contains all fundamental specifications such as abstract object models, syntax definitions and functional behavior descriptions.
 It uses a problem- or task-oriented notation, such as UML or BNF.
 A base standard is technology- and implementation-independent.
 Each ASAM standard consists of one base standard document.
@@ -23,10 +23,10 @@ Some base standards at ASAM are split-up into two documents, which is the Refere
 
 All other standard documents within a standard package are associated to the base standard, and are of one of the following types:
 
-Companion Standard::
+Companion standard::
 The notion of companion standard is typically used for application- or device-specific extensions of a base standard.
 
-Technology Reference::
+Technology reference::
 Technology references map the abstract specifications of the base standard to specific technologies, e.g. programming langages or data-base implementations.
 
 Transport Layer Specification::
@@ -36,7 +36,7 @@ They provide a mapping of the base standard to specific protocol- or bus-technol
 The transport layer abstracts access of higher application layers to the lower layers of the communication system.
 
 == Other files
-Model Files::
+Model files::
 Model files typically contain the object model of the standard.
 A typical example of a model file in ASAM standards are UML models created with the tool "Enterprise Architect" (.ea).
 

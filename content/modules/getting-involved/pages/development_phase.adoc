@@ -7,7 +7,7 @@ include::partial$_attributes.adoc[]
 
 ====
 [horizontal]
-Involved Roles::
+Involved roles::
 {role-wg-member} --
 {role-wg-lead} --
 {role-project-lead} --

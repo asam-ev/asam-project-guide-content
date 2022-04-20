@@ -43,7 +43,7 @@ image::compendium:open_drawio_library.png[]
 . Stage, commit, and push the changes to remote.
 The commit message should describe the changes that were made
 --
-Without Local Installation::
+Without local installation::
 +
 --
 

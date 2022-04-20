@@ -72,7 +72,7 @@ You may also want to check out ASAM's xref:compendium:Guidelines/repo-issue_and_
 
 [tabs]
 ====
-Initial Setup::
+Initial setup::
 +
 --
 [horizontal]

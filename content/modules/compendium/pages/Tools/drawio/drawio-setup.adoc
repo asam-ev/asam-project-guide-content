@@ -27,13 +27,13 @@ Draw.io can be used either locally (through the dedicated app 'Draw.io Desktop' 
 
 [tabs]
 ====
-Remote Setup::
+Remote setup::
 +
 --
 **The use of Draw.io through the web browser does not require any setup.** +
 Just use the provided {drawio-url}[**link**^].
 --
-Draw.io Desktop App::
+Draw.io Desktop app::
 +
 --
 . Download the app from {drawio-download}[here^].
@@ -44,7 +44,7 @@ Draw.io Desktop App::
 
 image::drawio-import-library.gif[title=Import ASAM Draw.io library into Desktop.]
 --
-Draw.io VSCode Extension::
+Draw.io VSCode extension::
 +
 --
 include::compendium:page$Guidelines/vscode-recommended_vscode_extensions.adoc[tag=drawio]

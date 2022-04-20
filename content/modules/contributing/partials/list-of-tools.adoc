@@ -9,7 +9,7 @@ include::contributing:partial$icon_reminder.adoc[tag=info-page]
 
 [tabs, subs="attributes"]
 ====
-Project Work::
+Project work::
 +
 --
 

@@ -17,7 +17,7 @@ image::compendium:asam/proposal_phase_v2-proposal_phase.svg[title="The Proposal 
 
 [tabs]
 ====
-Repository Setup::
+Repository setup::
 +
 --
 [cols="3,1,10"]
@@ -37,7 +37,7 @@ Repository Setup::
 The environment and proposal document are setup by the ASAM office with clear indicators where content is expected by contributors. +
 See xref:proposal/setup.adoc[].
 --
-Draft Creation::
+Draft creation::
 +
 --
 [cols="3,1,10"]
@@ -58,7 +58,7 @@ An initial outline of the use cases of the idea givers should also be defined in
 All further content is optional. +
 See xref:proposal/proposal_writing.adoc[].
 --
-Enrollment Process::
+Enrollment process::
 +
 --
 [cols="3,1,10"]
@@ -113,7 +113,7 @@ Proposal Workshops are open to everyone.
 See xref:proposal/join_proposal_workshop.adoc[] for infos on how to join. +
 During the Workshop, the xref:proposal/need_for_service_providers.adoc[need for Service Providers is assessed] as well.
 --
-Finalizing The Proposal::
+Finalizing the Proposal::
 +
 --
 [cols="3,1,10"]
@@ -186,7 +186,7 @@ Members of the TSC review the content of the proposal and clarify open questions
 
 The minimum publication period for project proposals is four weeks and shall not exceed eight weeks.
 --
-TSC Presentation::
+TSC presentation::
 +
 --
 [cols="3,1,10"]
