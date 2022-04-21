@@ -1,0 +1,622 @@
+
+
+[#sec-language]
+= Language
+
+This section contains editorial rules on content and language:
+
+* <<#sec-ASM-49>>
+* <<#sec-ASM-17>>
+* <<#sec-ASM-62>>
+* <<#sec-ASM-63>>
+* <<#sec-ASM-33>>
+* <<#sec-ASM-123>>
+* <<#sec-ASM-64>>
+* <<#sec-ASM-67>>
+* <<#sec-ASM-61>>
+* <<#sec-ASM-65>>
+* <<#sec-ASM-122>>
+* <<#sec-ASM-66>>
+* <<#sec-ASM-21>>
+* <<#sec-ASM-60>>
+* <<#sec-ASM-112>>
+* <<#sec-ASM-113>>
+* <<#sec-ASM-114>>
+* <<#sec-ASM-68>>
+* <<#sec-ASM-115>>
+* <<#sec-ASM-69>>
+* <<#sec-ASM-116>>
+
+
+[#sec-ASM-49]
+== Use American English (ASM-49)
+
+* The default language is American English.
+* Use the https://www.merriam-webster.com/[Merriam Webster Dictionary] to check for correct spelling.
+
+*Exceptions*
+
+There are no exceptions.
+
+*Example*
+
+[#tab-155e4338-6dba-4a1e-a04d-8863228bf22f]
+.Use of American English
+[%header]
+|===
+|No                         |#Yes#
+|[.line-through]#colour#    |color
+|[.line-through]#labelling# |labeling
+|[.line-through]#analye#   |analyze
+|[.line-through]#centre#    |center
+|===
+
+*Source*
+
+ASAM Writing Guide: 1.1. Use american english (AE)
+
+ASM-17,General spellcheck
+
+[#sec-ASM-17]
+== Note the spell check results (ASM-17)
+
+* The production pipeline performs a general spell check on all files.
+* Check the results of the production pipeline for spelling errors.
+
+*Exceptions*
+
+There are no exceptions.
+
+*Example*
+
+https://code.asam.net/simulation/opendrive-group/opendrive-standard/-/jobs/20219
+
+*Source*
+
+ASAM specific rule
+
+
+[#sec-ASM-62]
+== Use present tense (ASM-62)
+
+*Exceptions*
+
+There are no exceptions.
+
+*Example*
+
+[#tab-9f708405-0e00-4c78-8d25-60913e1ca382]
+.Use of present tense
+[%header]
+|===
+|No                                                  |#Yes#
+|[.line-through]#Variable x will contain the value.# |Variable x contains the value.
+|===
+
+*Source*
+
+ASAM Writing Guide: Use present tense
+
+
+[#sec-ASM-63]
+== Use active voice (ASM-63)
+
+Use the acting object as the subject of a sentence.
+
+*Exceptions*
+
+There are no exceptions.
+
+*Example*
+
+[#tab-4b87ef05-4461-4a27-8a68-b559b011b3ad]
+.Use of active voice
+[%header]
+|===
+|No                                                |#Yes#
+|[.line-through]#The variable is set by the user.# |The user sets the variable.
+|===
+
+*Source*
+
+ASAM Writing Guide: Use active voice
+
+
+[#sec-ASM-33]
+== Use an Oxford comma (ASM-33)
+
+* Use a comma before a conjunction in an enumeration.
+* Separate also the last noun in a list from the rest of the list using a comma.
+
+*Exceptions*
+
+There are no exceptions.
+
+*Example*
+
+[#tab-f9a4e619-dca7-4d5e-bd65-500de2cb261e]
+.Use an Oxford comma
+[%header]
+|===
+|No |#Yes#
+|[.line-through]#Unless stated otherwise, all examples, figures and descriptions in this specification assume there is right-hand traffic.#
+|Unless stated otherwise, all examples, figures, and descriptions in this specification assume there is right-hand traffic.
+
+|[.line-through]#Pages, colors, traces are all copied from the display.#
+|Pages, colors, and traces are all copied from the display.
+|===
+
+*Source*
+
+tekom English for Non-Native Writers, 2. updated edition, Rule EN_S 610, S. 76, Place a Comma in Front of Conjunctions in Enumerations
+
+
+[#sec-ASM-123]
+== Add a comma after introductory phrases (ASM-123)
+
+Add a comma after introductory phrases, for example, prepositional phrases and infinitive phrases.
+This improves the readability and understandability of sentences.
+
+*Exceptions*
+
+There are no exceptions.
+
+*Example*
+
+[#tab-a4d8a86e-b5a6-4593-94ea-656bff21b8d2]
+.Add a comma after introductory phrases
+[%header]
+|===
+|No|#Yes#
+|[.line-through]#In the ASAM OpenSCENARIO data model these types are used:#
+|In the ASAM OpenSCENARIO data model, these types are used:
+
+|[.line-through]#To find the mismatches we propagate the expected type backwards through the expression.#
+|To find the mismatches, we propagate the expected type backwards through the expression.
+|===
+
+*Source*
+
+-
+
+
+[#sec-ASM-64]
+== Use simple phrases (ASM-64)
+
+Leave out paraphrases.
+
+*Exceptions*
+
+There are no exceptions.
+
+*Example*
+
+[#tab-04f8b906-00ea-4672-991b-c343ce3d9580]
+.Use of simple phrases
+[%header]
+|===
+|No                                      |#Yes#
+|[.line-through]#in order to#            |to
+|[.line-through]#has the possibility to# |can
+|===
+
+*Source*
+
+ASAM Writing Guide: Use simple constructs
+
+
+[#sec-ASM-67]
+== Use concise phrases (ASM-67)
+
+Leave out filler words.
+
+*Exceptions*
+
+There are no exceptions.
+
+*Example*
+
+[#tab-59ab0c65-c030-4472-b5e4-b9c191207bb6]
+.Use of concise phrases without unnecessary words
+[%header]
+|===
+|No |#Yes#
+|[.line-through]#This is basically a good rule that actually helps very often.#
+|This is a good rule that helps.
+|===
+
+*Source*
+
+ASAM Writing Guide: Avoid words that are not precise
+
+
+[#sec-ASM-61]
+== Write short sentences (ASM-61)
+
+Split long sentences into shorter sentences.
+
+*Exceptions*
+
+There are no exceptions.
+
+*Example*
+
+[#tab-74bad49b-c014-45b0-8ca6-acf1388c0d25]
+.Use of short sentences
+[%header]
+|===
+|No |#Yes#
+|[.line-through]#Due to the fact that they were able to come to an agreement, a name changing of the file took place.#
+|They agree and rename the file.
+|===
+
+*Source*
+
+ASAM Writing Guide: Keep it short
+
+
+[#sec-ASM-65]
+== Use complete expressions instead of abbreviations (ASM-65)
+
+*Exceptions*
+
+There are no exceptions.
+
+*Example*
+
+[#tab-e6df5db5-49dd-4800-abbf-4f700490e784]
+.Use of complete expressions instead of abbreviations
+[%header]
+|===
+|No                    |#Yes#
+|[.line-through]#e.g.# |for example
+|[.line-through]#i.e.# |meaning
+|===
+
+*Source*
+
+ASAM Writing Guide: Do not use abbreviations
+
+
+[#sec-ASM-122]
+== Write out conjunctions (ASM-122)
+
+* Write out conjunctions.
+This improves the understandability.
+* Do not use a slash (`++/++`) for two or more conjunctions.
+
+*Exceptions*
+
+There are no exceptions.
+
+*Example*
+
+[#tab-2d0a6c5b-7cdf-478a-b94d-157f22d8e950]
+.Write out conjunctions
+[%header]
+|===
+|No |#Yes#
+|[.line-through]lateral and/or longitudinal#
+|lateral, longitudinal, or both
+
+|[.line-through]#segment continuity, tangent and/or curvature continuity#
+|segment continuity, tangent, curvature continuity, or all of them
+|===
+
+*Source*
+
+-
+
+
+[#sec-ASM-66]
+== Do not use synonyms (ASM-66)
+
+Use the same word for the same object or concept.
+
+*Exceptions*
+
+There are no exceptions.
+
+*Example*
+
+[#tab-3c5f2d52-ac68-4bd4-bd16-dff352ff32a3]
+.Use of the same word for the same object or concept
+[%header]
+|===
+|No |#Yes#
+|[.line-through]#Press and hold the key.
+Wait 2 seconds. Release the button.
+Push the button again.#
+|Press and hold the key.
+Wait 2 seconds.
+Release the key.
+Press the key again.
+|===
+
+*Source*
+
+ASAM Writing Guide: Do not use synonyms
+
+
+[#sec-ASM-21]
+== Include verbal forms for expressions of provisions (ASM-21)
+
+Use and update the following table of verbal forms for expressions of provisions in a standard document.
+
+*Exceptions*
+
+There are no exceptions.
+
+*Example*
+
+[.underline]#Code#
+
+```
+[#tab-uid]
+.Meaning of modal verbs
+[%header]
+.Verbal forms for expressions of provisions
+[%header, cols="20, 15, 65"]
+|===
+|Provision
+|Verbal form
+|Definition
+
+|Requirement
+|shall, shall not
+|A requirement conveys objectively verifiable criteria to be fulfilled and from which no deviation is permitted if conformance with the document is to be claimed.
+
+|Recommendation
+|should, should not
+|A recommendation conveys a suggested possible choice or course of action deemed to be particularly suitable without necessarily mentioning or excluding others.
+
+|Permission
+|may
+|A permission conveys consent or liberty (or opportunity) to do something.
+
+|Possibility and capability
+|can, cannot
+|A possibility conveys expected or conceivable material, physical or causal outcome. +
+A capability conveys the ability, fitness, or quality necessary to do or achieve a specified thing.
+
+|External constraint
+|must
+|An external constraint or obligation on the user of the document, for example laws of nature or particular conditions existing in some countries or regions, that is not stated as a provision of the document.
+External constraints are not requirements of the document.
+They are given for the information of the user.
+|===
+```
+
+[.underline]#Result#
+
+[#tab-2c6c7726-0a24-493c-a645-9c38d4d2504d]
+.Meaning of modal verbs
+[%header]
+.Verbal forms for expressions of provisions
+[%header, cols="20, 15, 65"]
+|===
+|Provision
+|Verbal form
+|Definition
+
+|Requirement
+|shall, shall not
+|A requirement conveys objectively verifiable criteria to be fulfilled and from which no deviation is permitted if conformance with the document is to be claimed.
+
+|Recommendation
+|should, should not
+|A recommendation conveys a suggested possible choice or course of action deemed to be particularly suitable without necessarily mentioning or excluding others.
+
+|Permission
+|may
+|A permission conveys consent or liberty (or opportunity) to do something.
+
+|Possibility and capability
+|can, cannot
+|A possibility conveys expected or conceivable material, physical or causal outcome. +
+A capability conveys the ability, fitness, or quality necessary to do or achieve a specified thing.
+
+|External constraint
+|must
+|An external constraint or obligation on the user of the document, for example laws of nature or particular conditions existing in some countries or regions, that is not stated as a provision of the document.
+External constraints are not requirements of the document.
+They are given for the information of the user.
+|===
+
+
+*Source*
+
+ASAM Writing Guide: Verbs with a special meaning (shall, should, may, can)
+
+
+[#sec-ASM-60]
+== Use the modal verb _shall (not)_ to express a requirement (ASM-60)
+
+*Exceptions*
+
+There are no exceptions.
+
+*Example*
+
+[#tab-11fd8302-7bd7-473a-b076-6c94aed47578]
+.Use of modal verb _shall_
+[%header]
+|===
+|No                                         |#Yes#
+|[.line-through]#"it must have"#            |it shall have
+|[.line-through]#"it is not allowed to do"# |it shall not do
+|===
+
+*Source*
+
+ASAM Writing Guide: Verbs with a special meaning (shall, should, may, can)
+
+
+[#sec-ASM-112]
+== Use the modal verb _should (not)_ to express a recommendation (ASM-112)
+
+*Exceptions*
+
+There are no exceptions.
+
+*Example*
+
+[#tab-284c4ade-9cf1-45b8-a096-085d510df2eb]
+.Use of modal verb _should_
+[%header]
+|===
+|No                                           |#Yes#
+|[.line-through]#it is good practice to have# |it should have
+|===
+
+*Source*
+
+ASAM Writing Guide: Verbs with a special meaning (shall, should, may, can)
+
+
+[#sec-ASM-113]
+== Use the modal verb _may_ to express a permission (ASM-113)
+
+Do not use _may not_ because the meaning does not match in the context of a permission.
+
+*Exceptions*
+
+There are no exceptions.
+
+*Example*
+
+[#tab-39ae0c0b-7b71-4d35-8ac9-e84435677e6f]
+.Use of modal verb _may_
+[%header]
+|===
+|No                                     |#Yes#
+|[.line-through]#it is allowed to have# |it may have
+|[.line-through]#it may not have#       |it shall not have
+|===
+
+*Source*
+
+ASAM Writing Guide: Verbs with a special meaning (shall, should, may, can)
+
+
+[#sec-ASM-114]
+== Use the modal verb _can(not)_ to express a possibility (ASM-114)
+
+*Exceptions*
+
+There are no exceptions.
+
+*Example*
+
+[#tab-d046a235-7015-4155-a773-560b17a14689]
+.Use of modal verb _can_
+[%header]
+|===
+|No                                                |#Yes#
+|[.line-through]#it depends on some circumstances# |it can
+|===
+
+*Source*
+
+ASAM Writing Guide: Verbs with a special meaning (shall, should, may, can)
+
+
+[#sec-ASM-68]
+== Use 'that' for essential information (ASM-68)
+
+* Use 'that' to insert essential information.
+* Do not use commas.
+
+*Exceptions*
+
+There are no exceptions.
+
+*Example*
+
+[#tab-2b4c349e-b23d-44df-a91e-72b8514fde2a]
+.Use of 'that' for essential information
+[%header]
+|===
+|No                                               |#Yes#
+|[.line-through]#The car they own is old.#        |The car that they own is old.
+|[.line-through]#The car which they own is old.#  |The car that they own is old.
+|[.line-through]#The car, that they own, is old.# |The car that they own is old.
+|===
+
+*Source*
+
+ASAM Writing Guide: Use 'that' and 'which' correctly
+
+
+[#sec-ASM-115]
+== Use 'which' for additional information (ASM-115)
+
+* Use 'which' to insert additional information that can be left out.
+* Use commas.
+
+*Exceptions*
+
+There are no exceptions.
+
+*Example*
+
+[#tab-118074b9-ecad-420f-9e56-c1b9b573f008]
+.Use of 'which' for unessential color information
+[%header]
+|===
+|No |#Yes#
+|[.line-through]#The car that is red drives down the road.#
+|The car, which is red, drives down the road.
+
+|[.line-through]#The car which is red drives down the road.#
+|The car, which is red, drives down the road.
+|===
+
+*Source*
+
+ASAM Writing Guide: Use 'that' and 'which' correctly
+
+
+[#sec-ASM-69]
+== Use 'since' to refer to a point in time (ASM-69)
+
+*Exceptions*
+
+There are no exceptions.
+
+*Example*
+
+[#tab-d291de3e-ec7a-4008-a5bf-601f10853292]
+.Use of 'since' to refer to a point in time
+[%header]
+|===
+|No |#Yes#
+|[.line-through]#The system cannot calculate a result because of yesterday's events.#
+|The system cannot calculate a result since yesterday.
+|===
+
+*Source*
+
+ASAM Writing Guide: XIL: Use 'since' and 'because' correctly
+
+
+[#sec-ASM-116]
+== Use 'because' to express a reason (ASM-116)
+
+*Exceptions*
+
+There are no exceptions.
+
+*Example*
+
+[#tab-6f38a8a5-43ec-477c-a7dc-7d796a0556c0]
+.Use of 'because' to refer to a reason
+[%header]
+|===
+|No                                                                     |#Yes#
+|[.line-through]#The system cannot calculate a result since yesterday.# |The system cannot calculate a result because of yesterday's events.
+|===
+
+*Source*
+
+ASAM Writing Guide: XIL: Use 'since' and 'because' correctly

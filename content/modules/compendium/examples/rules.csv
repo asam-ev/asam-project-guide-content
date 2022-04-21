@@ -1,8 +1,8 @@
 ID,Short_Description,Link_to_Project_Guide,Link_to_Test,Status
-ASM-1,No fixed versioning,-,-,approved
+ASM-1,No fixed versioning,<<sec-ASM-1>>,-,approved
 ASM-2,Heading case,<<sec-ASM-2>>,-,approved
-ASM-3,Heading punctuation,-,-,approved
-ASM-4,Heading numbering,-,-,draft
+ASM-3,Heading punctuation,<<sec-ASM-3>>,-,approved
+ASM-4,Heading numbering,<<sec-ASM-4>>,-,draft
 ASM-5,List capitalization,<<sec-ASM-5>>,-,draft
 ASM-6,List punctuation,<<sec-ASM-6>>,-,draft
 ASM-7,List completeness (...),-,-,draft
@@ -10,54 +10,52 @@ ASM-8,List content,<<sec-ASM-8>>,-,draft
 ASM-9,List one sentence per line,<<sec-ASM-9>>,-,draft
 ASM-10,List type,<<sec-ASM-10>>,-,draft
 ASM-11,List end of element,<<sec-ASM-11>>,-,draft
-ASM-12,Image anchor fig-,-,-,approved
-ASM-13,Table anchor tab-,-,-,approved
-ASM-14,Code anchor code-,-,-,approved
-ASM-15,xrefstyle short,-,-,draft
-ASM-16,Anchor syntax [#anchor],-,-,approved
-ASM-17,General spellcheck,-,-,draft
-ASM-18,LOF created automatically,-,-,approved
-ASM-19,LOT created automatically,-,-,approved
-ASM-20,No Trailing whitespaces,-,-,approved
-ASM-21,Modal verbs,-,-,to be discussed
-ASM-22,Standard ASAM Chapter structure,-,-,draft
-ASM-23,Document extension .adoc,-,-,approved
-ASM-24,Two blank lines,-,-,to be discussed
-ASM-25,One sentence per line,-,-,approved
-ASM-26,No empty chapters,-,-,draft
-ASM-27,No unused chapters,-,-,draft
-ASM-28,Included images shown,-,-,draft
-ASM-29,No unused images,-,-,approved
-ASM-30,Filenames lowercase,-,-,draft
-ASM-31,Standard disclaimer,-,-,draft
-ASM-32,Standard License,-,-,draft
-ASM-33,Use Oxford commas ,-,-,approved
-ASM-34,Repository contains LICENSE,-,-,draft
-ASM-35,Repository contains contact persons,-,-,draft
-ASM-36,Repository contains roadmap,-,-,draft
-ASM-37,No broken internal links,-,-,draft
-ASM-38,No broken external links,-,-,draft
+ASM-12,Image anchor fig-,<<sec-ASM-12>>,-,approved
+ASM-13,Table anchor tab-,<<sec-ASM-13>>,-,approved
+ASM-14,Code anchor code-,<<sec-ASM-14>>,-,approved
+ASM-15,xrefstyle short,<<sec-ASM-15>>,-,draft
+ASM-16,Anchor syntax [#anchor],<<sec-ASM-16>>,-,approved
+ASM-17,General spellcheck,<<sec-ASM-17>>,-,draft
+ASM-18,LOF created automatically,<<sec-ASM-18>>,-,approved
+ASM-19,LOT created automatically,<<sec-ASM-19>>,-,approved
+ASM-20,No Trailing whitespaces,<<sec-ASM-20>>,-,approved
+ASM-21,Modal verbs,<<sec-ASM-21>>,-,to be discussed
+ASM-22,Standard ASAM Chapter structure,<<sec-ASM-22>>,-,draft
+ASM-23,Document extension .adoc,<<sec-ASM-23>>,-,approved
+??ASM-24,Two blank lines,-,-,to be discussed
+ASM-25,One sentence per line,<<sec-ASM-25>>,-,approved
+ASM-26,No empty chapters,<<sec-ASM-26>>,-,draft
+ASM-27,No unused chapters,<<sec-ASM-27>>,-,draft
+ASM-28,Included images shown,<<sec-ASM-28>>,-,draft
+ASM-29,No unused images,<<sec-ASM-29>>,-,approved
+ASM-31,Standard disclaimer,<<sec-ASM-31>>,-,draft
+??ASM-32,Standard License,-,-,draft
+ASM-33,Use Oxford commas,<<sec-ASM-33>>,-,approved
+ASM-34,Repository contains LICENSE,<<sec-ASM-34>>,-,draft
+??ASM-35,Repository contains contact persons,-,-,draft
+ASM-36,Repository contains roadmap,<<sec-ASM-36>>,-,draft
+ASM-37,No broken internal links,<<sec-ASM-37>>,-,draft
+ASM-38,No broken external links,<<sec-ASM-38>>,-,draft
 ASM-39,Mapping file defines structure,-,-,draft
-ASM-40,Mapping file named index.adoc,-,-,change
-ASM-41,Deliverable naming,-,-,draft
-ASM-42,List order,-,-,draft
+ASM-40,Mapping file named index.adoc,<<sec-ASM-40>>,-,change
+ASM-41,Deliverable naming,<<sec-ASM-41>>,-,draft
+ASM-42,List order,<<sec-ASM-42>>,-,draft
 ASM-43,Backticks,<<sec-ASM-43>>,-,draft
-ASM-44,Tables,-,-,draft
-ASM-45,Tables AsciiDoc syntax,-,-,draft
-ASM-46,Tables IDs,-,-,draft
-ASM-47,Create a title/caption for every table,-,-,draft
-ASM-48,List use asciidoc syntax,-,-,draft
-ASM-49,American English,-,-,approved
-ASM-50,Tables capitalization in header,-,-,draft
-ASM-51,Use point as decimal separator,-,-,approved
-ASM-52,Leading zero,-,-,approved
-ASM-53,Tables ,-,-,draft
-ASM-54,Tables ,-,-,draft
-ASM-55,Tables ,-,-,draft
-ASM-56,Illustrate complex facts with figures,-,-,draft
-ASM-57,Use figures with the file type SVG,-,-,draft
-ASM-58,Create a caption for every figure,-,-,draft
-ASM-59,Write a description for each figure,-,-,draft
+ASM-44,Tables,<<sec-ASM-44>>,-,draft
+ASM-45,Tables AsciiDoc syntax,<<sec-ASM-45>>,-,draft
+??ASM-46,Tables IDs,-,-,draft
+ASM-47,Create a title/caption for every table,<<sec-ASM-47>>,-,draft
+ASM-48,List use asciidoc syntax,<<sec-ASM-48>>,-,draft
+ASM-49,American English,<<sec-ASM-49>>,-,approved
+ASM-50,Tables capitalization in header,<<sec-ASM-50>>,-,draft
+ASM-51,Use point as decimal separator,<<sec-ASM-51>>,-,approved
+ASM-52,Leading zero,<<sec-ASM-52>>,-,approved
+ASM-53,Indent XML attributes,<<sec-ASM-53>>,-,draft
+ASM-54,Use AsciiDoc syntax for text documents,<<sec-ASM-54>>,-,draft
+ASM-56,Illustrate complex facts with figures,<<sec-ASM-56>>,-,draft
+ASM-57,Use figures with the file type SVG,<<sec-ASM-57>>,-,draft
+ASM-58,Create a caption for every figure,<<sec-ASM-58>>,-,draft
+ASM-59,Write a description for each figure,<<sec-ASM-59>>,-,draft
 ASM-60,Modal verb shall,<<sec-ASM-60>>,-,draft
 ASM-61,Short sentences,<<sec-ASM-61>>,-,draft
 ASM-62,Present tense,<<sec-ASM-62>>,-,draft
@@ -69,57 +67,58 @@ ASM-67,Avoid words that are not precise,<<sec-ASM-67>>,-,draft
 ASM-68,Use 'that' and 'which' correctly,<<sec-ASM-68>>,-,draft
 ASM-69,Use 'since' for a point in time,<<sec-ASM-69>>,-,draft
 ??ASM-70,Consistent formatting,<<sec-ASM-70>>,-,draft
-??ASM-71,XIL: Typographic conventions for XiL,<<sec-ASM-71>>,-,draft
-??ASM-72,Use templates,<<sec-ASM-72>>,-,draft
---ASM-73,One sentence per line,<<sec-ASM-73>>,-,draft
+ASM-71,Use of italic markup,<<sec-ASM-71>>,-,draft
+ASM-72,Use of bold markup,<<sec-ASM-72>>,-,draft
+ASM-73,Use of code markup,<<sec-ASM-73>>,-,draft
 ASM-74,Use paragraphs for structure,<<sec-ASM-74>>,-,draft
-ASM-75,Use manual line breaks sparingly,<<sec-ASM-75>>,-,draft
---ASM-76,Uppercase and lowercase,<<sec-ASM-76>>,-,draft
-ASM-77,XIL: IDs (aka anchors),<<sec-ASM-77>>,-,draft
+??ASM-75,Use manual line breaks sparingly,-,-,draft
+??ASM-76,Uppercase and lowercase,-,-,draft
+??ASM-77,XIL: IDs (aka anchors),-,-,draft
 ASM-78,IDs,<<sec-ASM-78>>,-,draft
 ASM-79,Indentation with four spaces,<<sec-ASM-79>>,-,draft
 ASM-80,Lowercase for file and folder names,<<sec-ASM-80>>,-,draft
 ASM-81,Caption as file name for figures,<<sec-ASM-81>>,-,draft
-ASM-82,File formats,<<sec-ASM-82>>,-,draft
+??ASM-82,File formats,-,-,draft
 ASM-83,Directory structure,<<sec-ASM-83>>,-,draft
-ASM-84,Non-normative sections,<<sec-ASM-84>>,-,draft
+??ASM-84,Non-normative sections,-,-,draft
 ASM-85,Use AsciiDoc syntax for Headings,<<sec-ASM-85>>,-,draft
 ASM-86,Use maximum level 4 for headings,<<sec-ASM-86>>,-,draft
-ASM-87,XIL: Bullet point lists,<<sec-ASM-87>>,-,draft
-ASM-88,XIL: Lists inside lists,<<sec-ASM-88>>,-,draft
-ASM-89,XIL: List formatting conventions,<<sec-ASM-89>>,-,draft
-ASM-90,Figures,<<sec-ASM-90>>,-,draft
-ASM-91,XIL: Images,<<sec-ASM-91>>,-,draft
+ASM-87,AsciiDoc syntax for figures,<<sec-ASM-87>>,-,draft
+ASM-88,AsciiDoc syntax for source code,<<sec-ASM-88>>,-,draft
+??ASM-89,XIL: List formatting conventions,-,-,draft
+??ASM-90,Figures,-,-,draft
+??ASM-91,XIL: Images,-,-,draft
 ASM-92,Use one folder 'images' per chapter,<<sec-ASM-92>>,-,draft
-ASM-93,XIL: PlantUML diagrams,<<sec-ASM-93>>,-,draft
-ASM-94,XIL: Attribute 'plantuml-format',<<sec-ASM-94>>,-,draft
-ASM-95,Tables,<<sec-ASM-95>>,-,draft
-ASM-96,Special characters,<<sec-ASM-96>>,-,draft
-ASM-97,Source code,<<sec-ASM-97>>,-,draft
-ASM-98,Inline literals,<<sec-ASM-98>>,-,draft
-ASM-99,Source code fragments,<<sec-ASM-99>>,-,draft
-ASM-100,Source code snippets,<<sec-ASM-100>>,-,draft
-ASM-101,Source code type 'osc2',<<sec-ASM-101>>,-,draft
-ASM-102,XIL: Line numbers and references,<<sec-ASM-102>>,-,draft
-ASM-103,XIL: References to single lines,<<sec-ASM-103>>,-,draft
-ASM-104,XIL: Automatic line numbering,<<sec-ASM-104>>,-,draft
-ASM-105,Review process and draft-attribute,<<sec-ASM-105>>,-,draft
-ASM-106,Purpose of the draft-attribute,<<sec-ASM-106>>,-,draft
-ASM-107,Preview configuration,<<sec-ASM-107>>,-,draft
-ASM-108,VisualStudioCode with asciidoc extension,<<sec-ASM-108>>,-,draft
-ASM-109,AsciidocFX preview,<<sec-ASM-109>>,-,draft
-ASM-110,Gitlab preview,<<sec-ASM-110>>,-,draft
-ASM-111,Pipeline artifacts as reference,<<sec-ASM-111>>,-,draft
+ASM-93,Use PlantUML for UML diagrams,<<sec-ASM-93>>,-,draft
+??ASM-94,XIL: Attribute 'plantuml-format',-,-,draft
+??ASM-95,Tables,-,-,draft
+??ASM-96,Special characters,-,-,draft
+??ASM-97,Source code,-,-,draft
+??ASM-98,Inline literals,-,-,draft
+??ASM-99,Source code fragments,-,-,draft
+??ASM-100,Source code snippets,-,-,draft
+??ASM-101,Source code type 'osc2',-,-,draft
+??ASM-102,XIL: Line numbers and references,-,-,draft
+??ASM-103,XIL: References to single lines,-,-,draft
+??ASM-104,XIL: Automatic line numbering,-,-,draft
+??ASM-105,Review process and draft-attribute,-,-,draft
+??ASM-106,Purpose of the draft-attribute,-,-,draft
+??ASM-107,Preview configuration,-,-,draft
+??ASM-108,VisualStudioCode with asciidoc extension,-,-,draft
+??ASM-109,AsciidocFX preview,-,-,draft
+??ASM-110,Gitlab preview,-,-,draft
+??ASM-111,Pipeline artifacts as reference,-,-,draft
 ASM-112,Modal verb should,<<sec-ASM-112>>,-,draft
 ASM-113,Modal verb may,<<sec-ASM-113>>,-,draft
 ASM-114,Modal verb can,<<sec-ASM-114>>,-,draft
 ASM-115,Use 'which' correctly,<<sec-ASM-115>>,-,draft
 ASM-116,Use 'because' for a reason,<<sec-ASM-116>>,-,draft
 ASM-117,Underscore in file and folder names,<<sec-ASM-117>>,-,draft
-ASM-118,Alternative text for every figure,<<sec-ASM-118>>,-,draft
-ASM-119,Standard names,<<sec-ASM-119>>,-,draft
+ASM-118,Alternative text for every figure,-,-,draft
+ASM-119,Full standard names,<<sec-ASM-119>>,-,draft
 ASM-120,Standard name variable,<<sec-ASM-120>>,-,draft
 ASM-121,XML elements,<<sec-ASM-121>>,-,draft
 ASM-122,conjunctions,<<sec-ASM-122>>,-,draft
 ASM-123,comma after introductory phrases,<<sec-ASM-123>>,-,draft
-ASM-124,Folder
+??ASM-124,Folder,-,-,draft
+ASM-125,Names of ASAM standards,<<sec-ASM-125>>,-,draft

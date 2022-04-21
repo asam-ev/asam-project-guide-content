@@ -1,0 +1,146 @@
+
+[#sec-other]
+= Other
+
+This section contains rules that should be in other sections:
+
+* <<#sec-ASM-16>>
+* <<#sec-ASM-78>>
+
+
+* <<#sec-ASM-81>>
+
+* <<#sec-ASM-93>>
+
+* <<#sec-ASM-84>>
+
+
+[#sec-ASM-16]
+== Anchor syntax [#anchor] (ASM-16)
+
+Every anchor consists of `[#`, the string for the anchor type, a following UUID, and `]`.
+
+*Exceptions*
+
+If you do not know how to use unique IDs, insert `uid` as a placeholder.
+The placeholder will trigger a pipeline warning so that the technical writer can help with creating a unique ID.
+
+*Source*
+
+ASAM Writing Guide: Tags
+
+
+[#sec-ASM-78]
+== Insert a unique ID in the anchors for topics, figures, tables, source code, and sections (ASM-78)
+
+Insert a unique ID according to the following patterns:
+
+[#tab-a0bf23cc-3f35-4f3a-9788-6436c90d29b3]
+.List of patterns for unique IDs
+[%header]
+|===
+|Pattern         |Usage                                 |Optional/required |Comment
+|`[#code-<uid>]` |source code blocks                    |optional          |Only use if source code is referenced.
+|`[#fig-<uid>]`  |figures (images, diagrams, and so on) |required          |-
+|`[#map-<uid>]`  |map files                             |optional          |Only use for map_[...].adoc files.
+|`[#sec-<uid>]`  |sections                              |optional          |Only use if section is referenced.
+|`[#tab-<uid>]`  |tables                                |required          |-
+|`[#top-<uid>]`  |topics                                |required          |-
+|===
+
+*Exceptions*
+
+If you do not know how to use unique IDs, insert `[#tag-uid]` as a placeholder.
+The placeholder will trigger a pipeline warning so that the technical writer can help with creating a unique ID.
+
+// TODO: Where to use a semantic ID and where a UUID? What are allowed characters in IDs anyway? How about a Regex for a valid ID production: [a-zA-Z0-9_-]
+
+*Example*
+
+[#tab-682fa239-bf8f-4531-a825-e9485372479b]
+.Use of a semantic ID for a section
+[%header]
+|===
+|No                                                            |#Yes#
+|[.line-through]#`[#sec-682fa239-bf8f-4531-a825-e9486372479b]`#|`[#sec-ASM-78]`
+|===
+
+*Source*
+
+ASAM Writing Guide: Tags
+
+
+
+
+
+
+[#sec-ASM-81]
+== Use the caption as file name for figures (ASM-81)
+
+Apply the rules for file names on the caption.
+
+// NOTE: Name all images according to the naming convention: fig_[name_of_image].drawio.svg (not "fig-[...]" as previously planned).
+
+*Exceptions*
+
+There are no exceptions.
+
+*Example*
+
+[#tab-5e5fce22-64a4-4adb-9653-4658b1966198]
+.Use of a caption as file name
+[%header]
+|===
+|No                                               |#Yes#
+|[.line-through]#Use of caption as file name.svg# |use_of_a_caption_as_file_name.svg
+|===
+
+*Source*
+
+ASAM Writing Guide: XIL: File names for figures
+
+
+
+
+[#sec-ASM-93]
+== Use PlantUML (*.puml) for UML diagrams (ASM-93)
+
+*Exceptions*
+
+There are no exceptions.
+
+*Source*
+
+ASAM Writing Guide: File formats
+
+
+[#sec-ASM-84]
+== Non-normative sections (ASM-84)
+
+* _description_
+
+*Exceptions*
+
+There are no exceptions.
+
+*Example*
+
+[#tab-65a63cb0-e39c-4459-9551-2ca7ebb79ffd]
+.caption
+[%header]
+|===
+|No|#Yes#
+|[.line-through]#false#|correct
+|[.line-through]#false#|correct
+|[.line-through]#false#|correct
+|===
+
+*Source*
+
+ASAM Writing Guide: Non-normative sections
+
+
+
+
+
+

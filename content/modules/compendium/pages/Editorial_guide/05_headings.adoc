@@ -1,0 +1,148 @@
+
+[#sec-headings]
+= Headings
+
+This section contains editorial rules on how to create headings:
+
+* <<#sec-ASM-85>>
+* <<#sec-ASM-86>>
+* <<#sec-ASM-2>>
+* <<#sec-ASM-3>>
+* <<#sec-ASM-4>>
+
+
+////
+TODO: When to use a heading?
+////
+
+
+[#sec-ASM-85]
+== Use AsciiDoc syntax for Headings (ASM-85)
+
+*Exceptions*
+
+There are no exceptions.
+
+*Example*
+
+[#tab-c31c8b36-520d-448a-9ffd-024bcd2fe035]
+.Use of AsciiDoc syntax for headings
+[%header]
+|===
+|No                                         |#Yes#
+|[.line-through]#`+++*1 Heading*+++`#       |`+++= Heading (level 1)+++`
+|[.line-through]#`+++*1.1 Heading*+++`#     |`+++== Heading (level 2)+++`
+|[.line-through]#`+++*1.1.1 Heading*+++`#   |`+++== Heading (level 3)+++`
+|[.line-through]#`+++*1.1.1.1 Heading*+++`# |`+++=== Heading (level 4)+++`
+|===
+
+*Source*
+
+https://docs.asciidoctor.org/asciidoc/latest/sections/titles-and-levels/
+
+
+[#sec-ASM-86]
+== Use maximum level 4 for headings (ASM-86)
+
+Restructure the document to avoid headings with levels greater than 4.
+
+*Exceptions*
+
+There are no exceptions.
+
+*Example*
+
+[#tab-cb041007-e95a-4b35-b47d-6c8b088cf6e2]
+.Use of maximum level 4 for headings
+[%header]
+|===
+|No |#Yes#
+|[.line-through]#`+++==== Heading (level 5)+++`#
+|`+++=== Heading (level 4)+++`
+
+`+++=== Heading (level 4)+++`
+|===
+
+*Source*
+
+ASAM specific rule.
+
+[#sec-ASM-2]
+== Start headings with a capital letter (ASM-2)
+
+* In headings and captions, only the _first word_ begins with an uppercase letter (sentence-style capitalization).
+
+*Exceptions*
+
+_Acronyms_ and _proper names_ are spelled as is.
+
+*Example*
+
+[#tab-07cd91ec-32d0-4890-8276-cbadc0efc6b0]
+.Use of uppercase in headings and captions
+[%header]
+|===
+|No                                             |#Yes#
+|[.line-through]#Wrong Formatting of a Heading# |Correct formatting of a heading
+|[.line-through]#Asam rules to follow#          |ASAM rules to follow
+|[.line-through]#Scope of OpenScenario#         |Scope of ASAM OpenSCENARIO
+|===
+
+*Source*
+
+ASAM Writing Guide: 4.5. Uppercase and lowercase
+
+
+[#sec-ASM-3]
+== End headings without punctuation (ASM-3)
+
+* Do not use any punctuation at the end of a heading.
+
+*Exceptions*
+
+*Example*
+
+[#tab-9c6af567-6781-43f5-a1c9-42175582879e]
+.Use of punctuation in headings
+[%header]
+|===
+|No                                                    |#Yes#
+|[.line-through]#Wrong punctuation in a heading.#      |Correct heading without punctuation
+|[.line-through]#Is punctuation allowed in a heading?# |Headings shall not use punctuation
+|===
+
+*Source*
+
+ASAM specific rule.
+
+
+[#sec-ASM-4]
+== Use the automatic numbering (ASM-3)
+
+* Do not use any manual numbering in combination with a heading.
+* Headings are numbered automatically.
+
+*Exceptions*
+
+There are no exceptions.
+
+*Example*
+
+[#tab-170721a6-1e06-419e-8716-a51eda20c774]
+.Use of numbering in headings
+[%header]
+|===
+|No |#Yes#
+|[.line-through]#``+++== 13. Wrong numbering in a heading+++``#
+|``+++== Correct heading without numbering+++``
+
+|[.line-through]#``+++== 14.3 Wrong numbering in a heading+++``#
+|``+++== Correct heading without numbering+++``
+
+|[.line-through]#``+++=== 14.3.a) Wrong numbering in a heading+++``#
+|``+++=== Correct heading without numbering+++``
+|===
+
+*Source*
+
+ASAM specific rule.
