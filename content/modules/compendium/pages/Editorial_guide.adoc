@@ -34,7 +34,7 @@ This section contains a list of the entire editorial rules.
 
 [format=csv]
 |===
-include::../../examples/rules.csv[]
+include::example$rules.csv[]
 |===
 
 
