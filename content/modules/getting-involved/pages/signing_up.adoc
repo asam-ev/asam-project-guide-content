@@ -7,8 +7,9 @@ include::partial$_attributes.adoc[]
 include::partial$asam_membership.adoc[]
 
 == Where you can participate
-You can participate in the Ideation phase to discuss a proposed idea. +
+You can participate in the **Ideation phase** to discuss a proposed idea. +
 If you are interested in a proposed project, you can participate there as well.
+You can start as early as during the **Proposal phase** or join up for the following **Development phase**.
 
 
 == Who can sign up
