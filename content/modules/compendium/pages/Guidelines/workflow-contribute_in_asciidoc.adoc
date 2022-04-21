@@ -41,7 +41,7 @@ Click the link for more information on the workflow.
 {mandatory}
 
 When writing AsciiDoc files, the writers shall follow the **xref:compendium:Guidelines/asciidoc_guide.adoc[]**. +
-Technical Writers and advanced users shall also follow the **xref:compendium:Guidelines/editorial_guide.adoc[]**.
+Technical Writers and advanced users shall also follow the **xref:compendium:Editorial_guide.adoc[]**.
 
 
 Asciidoctor itself also provides a general https://asciidoctor.org/docs/asciidoc-writers-guide/[**AsciiDoc Writer's Guide**^] with an introduction to AsciiDoc. +

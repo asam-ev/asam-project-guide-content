@@ -7,7 +7,7 @@ include::partial$_attributes.adoc[]
 {changes-icon}
 
 
-In the xref:asamprojectguide:compendium:Guidelines/editorial_guide.adoc[ASAM Editorial Guide], editorial rules exist.
+In the xref:asamprojectguide:compendium:Editorial_guide.adoc[ASAM Editorial Guide], editorial rules exist.
 Workgroup members and Technical Writers shall apply the rules when creating documentation for ASAM.
 This section contains information on how to create and apply editorial rules.
 

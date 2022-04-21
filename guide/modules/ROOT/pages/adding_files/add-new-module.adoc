@@ -51,6 +51,5 @@ TIP: The position in the list reflects the order of the modules in Antora's side
 . Add the module structure to the plantuml file "structure.puml" in the examles of the project-guide module
 //TODO: Automate this process step!
 
-. Update the xref:structure/content_structure.adoc[] file accordingly
 
 related::new-content-guide[]

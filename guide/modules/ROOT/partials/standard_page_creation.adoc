@@ -19,14 +19,13 @@ A {page_reason} is created that follows the ASAM {page_template_alt_name}.
 none
 
 == How
-IMPORTANT: These instructions already include the requirements of https://docs.antora.org/antora/latest/page/standard-page/[Creating A Standard Page^] by Antora implicitely.
+IMPORTANT: These instructions already include the requirements of https://docs.antora.org/antora/latest/page/standard-page/[Creating A Standard Page^] by Antora implicitly.
 However, if one deviates from this guide here, the Antora restrictions and requirements still apply!
 
 . Find the module you want your page to be located in.
 +
 TIP: This should be the module which it relates to most closely.
 See other pages in the modules in question for reference.
-You can also look at the xref:structure/content_structure.adoc[] for the Project Guide.
 
 . Create your file in the "pages" folder or move it there
 .. Alternatively, create a new folder and/or add your file to an existing folder within the "pages" folder if you want to add a structure within the module.

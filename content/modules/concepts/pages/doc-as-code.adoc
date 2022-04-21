@@ -60,7 +60,7 @@ image::asciidoc_example-output.png[title=The same Foreword section rendered by A
 ====
 
 TIP: If you want to learn more about AsciiDoc and how to use its powers in writing technical documents, see the official https://docs.asciidoctor.org/asciidoc/latest/[**AsciiDoc Language Documentation**^] and the https://asciidoctor.org/docs/asciidoc-writers-guide/[Asciidoctor Writers Guide]. +
-Specific ASAM writing styles and rules can be found in the xref:compendium:Guidelines/editorial_guide.adoc[**Editorial Guide**].
+Specific ASAM writing styles and rules can be found in the xref:compendium:Editorial_guide.adoc[**Editorial Guide**].
 
 
 [#sec-versioning-repo]

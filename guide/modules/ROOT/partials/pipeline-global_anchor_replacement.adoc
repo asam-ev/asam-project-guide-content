@@ -20,7 +20,7 @@ Add unique (i.e. unique over all pages in the project!) anchors to all pages, se
 The extension will then automatically replace all local references (`\<<link, text>>`) that point to anchors on other pages with global references (`\xref:path/to/file[text]`).
 If multiple files contain the same anchor (e.g. included partials), pages in the navigation tree are prioritized over xref:extensions/pipeline-orphan_pages.adoc[orphan pages].
 
-TIP: It is recommended to use xref:latest@asamprojectguide:compendium:Guidelines/editorial_guide.adoc[ASAM-type anchors].
+TIP: It is recommended to use xref:latest@asamprojectguide:compendium:Editorial_guide.adoc[ASAM-type anchors].
 
 //end::how[]
 

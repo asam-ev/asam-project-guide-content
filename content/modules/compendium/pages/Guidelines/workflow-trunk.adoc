@@ -173,7 +173,7 @@ Who:: {role-service-provider}
 Steps::
 . The Service Provider changes the status label to {documentation-label}
 . The Service Provider refines the content in the xref:compendium:Guidelines/repo-merge-pull_requests.adoc[Merge/Pull Request]
-.. The content is adjusted to adhere to xref:compendium:Guidelines/editorial_guide.adoc[ASAM style and writing conventions]
+.. The content is adjusted to adhere to xref:compendium:Editorial_guide.adoc[ASAM style and writing conventions]
 .. General editorial rewrites to ensure homogeneity of content
 +
 IMPORTANT: Questions on content should be addressed to the original issue assignee who will be responsible for ensuring a satisfactory resolution.
