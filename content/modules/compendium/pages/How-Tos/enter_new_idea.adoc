@@ -1,0 +1,63 @@
+  = Enter an idea
+:description: Describes the steps for submitting an idea for a new project at ASAM.
+:keywords: ideation, idea
+
+include::compendium:partial$_attributes.adoc[]
+
+{how-to-icon}
+
+
+//tag::body[]
+
+[cols="1,5", grid = rows]
+|===
+h|Responsible
+|{role-standard-user} -> {role-idea-giver}
+
+h|Involved
+| {role-gtm}, {role-standard-user}
+
+ifdef::compendium[]
+h| Phase
+| xref:getting-involved:ideation_phase.adoc#_process_overview[image:compendium:asam/project_lifecycle-ideation.svg[]]
+endif::[]
+
+h| Step
+| image:compendium:asam/ideation_phase-ideation_propose.svg[]
+
+h| TL;DR
+a| * Send idea to ideation@asam.net
+* Wait for response from ASAM
+* Create concept together with ASAM Office
+|===
+
+== Context
+You have an idea and want to submit it to ASAM?
+Follow the steps below.
+To enter an idea, make sure to prepare all the <<Prerequisites,required submission content>> first.
+
+== Result
+The idea has been submitted to ASAM.
+
+
+[#prerequisites-idea-submittal]
+== Prerequisites
+* The basic idea is well and precisely articulated
+* The market need has been identified
+
+
+== How
+
+. Send an email with your concept, idea, question or feedback to ideation@asam.net
+.. If you are not an ASAM member, you must be sponsored by an ASAM member and the idea must be send in by your sponsor instead.
+See the https://www.asam.net/active-projects/ideation/how-it-works/[ASAM website^] for more details
+. The ASAM Office (GTM) will contact you to clarify the details (or answer your questions)
+. The GTM investigates if there are any other standards or standardization projects in that area
+. Idea Giver and GTM detail the proposed idea further
+. The GTM will then post the mutually agreed concept
+. Interested companies world-wide can comment on the idea and xref:getting-involved:signing_up.adoc[enroll for updates on the proposed idea]
+
+* If the proposed topic is a new standard, the next step is to organize an xref:getting-involved:ideation/developing_an_idea.adoc[Ideation Workshop].
+* If the proposed topic intends to update or extend an existing standard, the Idea Giver continues to xref:getting-involved:ideation/raising_interest.adoc[gather enough participants] for the Proposal phase.
+
+//end::body[]

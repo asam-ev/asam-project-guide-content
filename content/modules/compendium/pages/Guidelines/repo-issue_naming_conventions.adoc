@@ -1,0 +1,44 @@
+= Issue naming conventions
+:description: Contains the conventions for naming issues that ASAM applies.
+:keywords: issue, naming, repo_convention, git-workflow
+:navtitle: [Repository] Issue Naming Conventions
+
+include::compendium:partial$_attributes.adoc[]
+
+{repo-icon}
+
+//tag::body[]
+
+== Convention
+
+====
+`[green]#group-name#: [yellow]#issue-title#`
+====
+
+
+== General guidelines
+. Applies to all issues EXCEPT during Proposal phase
+. If applicable, use the group-name (uppercase)
+
+
+== Group names
+include::compendium:partial$group-name_examples.adoc[]
+
+
+== Issue title
+. Should be descriptive and make the topic clear, i.e. not "Update chapter", but rather "Pedestrian to pedestrian interaction"
+
+
+== Examples
+
+====
+    TP: Lane subtype
+====
+====
+    PP: Support for flatbuffer
+====
+====
+    GE: Index specification of trace files
+====
+
+//end::body[]

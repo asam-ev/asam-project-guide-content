@@ -1,0 +1,189 @@
+
+//tag::tabs[]
+
+include::contributing:partial$_attributes.adoc[]
+
+The following tabulated table lists the tools used in ASAM projects, separated by intended use.
+
+include::contributing:partial$icon_reminder.adoc[tag=info-page]
+
+[tabs, subs="attributes"]
+====
+Project work::
++
+--
+
+[cols="^3s,8,^1,^1", stripes=hover]
+|===
+h|Name|Description|Usage|Location
+
+|{remote-icon-norole} +
+xref:compendium:Tools/remote_repo.adoc[]
+|All source code and standard relevant documentation.
+Issues relevant to deliverables should be created here. +
+**This is relevant for everybody involved in ASAM projects!**
+|{mandatory}
+|ASAM IT infrastructure
+
+|{git-icon-norole} +
+xref:compendium:Tools/git.adoc[]
+|The version control system ASAM uses. +
+Relevant for users that want to check out the project repository to work locally.
+|{recommended}
+|Local / web browser (remote)
+
+
+|{vscode-icon-norole} +
+xref:compendium:Tools/vscode.adoc[]
+|An all-in-one open-source text editor that makes life a lot easier. +
+Relevant for users that want to edit AsciiDoc and other content files locally.
+|{recommended}
+|Local
+
+
+|{drawio-icon-norole} +
+xref:compendium:Tools/drawio.adoc[]
+|An editor for diagrams.
+Can be downloaded or access through the browser.
+Also has a (limited) VS Code extension. +
+Relevant for users that want to create new diagrams and images for their project.
+|{optional}
+|Local / https://app.diagrams.net/?splash=0&clibs=Uhttps%3A%2F%2Fcode.asam.net%2Fcommon%2Fasam-graphic-library%2F-%2Fraw%2Fmaster%2FASAM_graphics_library.xml[Web^]
+
+|{docker-icon-norole} +
+xref:compendium:Tools/docker.adoc[]
+|(For local rendering of AsciiDoc) +
+A tool for hosting containers. +
+Relevant for users that want to run the build tools locally in order to create preview documents without the repository's pipeline.
+|{optional}
+|Local
+|===
+
+--
+Communication::
++
+--
+
+[cols="^3s,8,^1,^1", stripes=hover]
+|===
+h|Name|Description|Usage|Location
+
+|{calendar-icon-norole} +
+xref:compendium:Tools/calendar.adoc[]
+|Shared calendar for all OpenX projects. +
+Relevant for users that want to stay informed about upcoming events and meetings in the Simulation domain.
+|{recommended}
+|ASAM IT infrastructure
+
+
+|{teams-icon-norole} +
+xref:compendium:Tools/teams-and-sharepoint.adoc[]
+|Chat, conferencing, document folder for sharing documents (e.g. research papers, notes, videos, anything that does not need to be versioned). +
+Relevant for users that want to discuss and chat about information that do not fit into the project's repositories.
+|{mandatory}
+|ASAM IT infrastructure
+
+|{sharepoint-icon-norole} +
+xref:compendium:Tools/teams-and-sharepoint.adoc[]
+|Sharepoint is a Microsoft service that is used in the background by Teams to manage files.
+It can be accessed directly or through Teams, which is why all files that have been added either way can be retrieved through both tools. +
+Relevant for users that want to exchange information that do not fit into the project's repositories.
+|{mandatory}
+|ASAM IT infrastructure
+
+|===
+
+--
+
+====
+
+
+//end::tabs[]
+
+// tag::mandatory[]
+
+include::contributing:partial$_attributes.adoc[]
+
+include::contributing:partial$icon_reminder.adoc[tag=info-page]
+
+[#collaborative_infrastructure]
+.Infrastructure to enable collaborative standard development
+[cols="^3s,8,^1"]
+[frame=none,grid=rows, stripes=hover]
+
+|===
+h|Name|Description|Location
+
+|{remote-icon-norole} +
+xref:compendium:Tools/remote_repo.adoc[]
+|All source code and standard relevant documentation.
+Issues relevant to deliverables should be created here.
+|ASAM IT infrastructure
+
+|{calendar-icon-norole} +
+xref:compendium:Tools/calendar.adoc[]
+|Shared calendar for all OpenX projects.
+|ASAM IT infrastructure
+
+|{teams-icon-norole} +
+xref:compendium:Tools/teams-and-sharepoint.adoc[]
+|Chat, conferencing, document folder for sharing documents (e.g. research papers, notes, videos, anything that does not need to be versioned).
+|ASAM IT infrastructure
+
+|{sharepoint-icon-norole} +
+xref:compendium:Tools/teams-and-sharepoint.adoc[]
+|Sharepoint is a Microsoft service that is used in the background by Teams to manage files.
+It can be accessed directly or through Teams, which is why all files that have been added either way can be retrieved through both tools.
+|ASAM IT infrastructure
+
+// |{filestage-icon-norole} +
+// xref:compendium:Tools/filestage.adoc[]
+// |Webhosted tool for reviewing content and leaving comments on screenshots.
+// |ASAM IT infrastructure
+
+
+|===
+
+// end::mandatory[]
+
+// tag::recommended[]
+
+include::contributing:partial$_attributes.adoc[]
+
+include::contributing:partial$icon_reminder.adoc[tag=info-page]
+
+[#recommended_tools_table]
+.Recommended tools
+[cols="^3s,8,^1"]
+[frame=none,grid=rows, stripes=hover]
+|===
+h|Name|Description|Location
+
+|{git-icon-norole} +
+xref:compendium:Tools/git.adoc[]
+|The version control system ASAM uses. +
+|Local / web browser (remote)
+
+
+|{vscode-icon-norole} +
+xref:compendium:Tools/vscode.adoc[]
+|An all-in-one open-source text editor that makes life a lot easier.
+|Local
+
+
+|{drawio-icon-norole} +
+xref:compendium:Tools/drawio.adoc[]
+|An editor for diagrams.
+Can be downloaded or access through the browser.
+Also has a (limited) VS Code extension.
+|Local / https://app.diagrams.net/?splash=0&clibs=Uhttps%3A%2F%2Fcode.asam.net%2Fcommon%2Fasam-graphic-library%2F-%2Fraw%2Fmaster%2FASAM_graphics_library.xml[Web^]
+
+|{docker-icon-norole} +
+xref:compendium:Tools/docker.adoc[]
+|(For local rendering of AsciiDoc) +
+A tool for hosting containers.
+|Local
+|===
+
+// end::recommended[]
+

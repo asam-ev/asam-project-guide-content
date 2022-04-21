@@ -1,0 +1,23 @@
+ = Clone a repository using Visual Studio Code
+:description: Describes how to clone a repository with VSCode
+:keywords: vscode,how-to,clone,cloning,git,repository,repo, READYFORREVIEW
+
+include::compendium:partial$_attributes.adoc[]
+
+{how-to-icon}
+
+
+NOTE: This only needs to be done once to obtain a local copy.
+
+. Find the repository url on the website and copy the git url
+
+. Open the Command Pallette, type `Git: Clone`, then press Enter
+
+. Paste the copied git url and press Enter
+
+. Select the folder on your PC where you want to save the repository
+
+image::compendium:gitlab-clone-ssh.gif[]
+
+TIP: If you encounter an error that the host key verification failed, you need to add GitLab to your known_host file. +
+image:compendium:git_error_host-key-verification-failed.PNG[]

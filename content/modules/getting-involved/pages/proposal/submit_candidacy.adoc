@@ -1,8 +1,8 @@
-= Submit Your Candidacy As A Project Lead
+= Submit your candidacy as a Project Lead
 :description: Describes how to submit candidacy for the role of Project Lead.
 :keywords: project-lead, proposal
 
 include::partial$_attributes.adoc[]
-include::{abb}[]
 
-include::compendium:page$ASAM/roles/how-to_submit_candidacy_pl.adoc[tag=body]
+
+include::compendium:page$How-Tos/submit_candidacy_pl.adoc[tag=body]

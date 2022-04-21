@@ -1,0 +1,25 @@
+     = Removing a submodule from a repository
+:description: Describes how to delete a submodule in a repository.
+:keywords: git,gitlab,submodule,delete, READYFORREVIEW
+
+include::compendium:partial$_attributes.adoc[]
+
+{how-to-icon}
+
+
+
+To delete a submodule:
+
+[source,console]
+----
+> git rm .gitmodules // <1>
+> git rm asciidoc-resources
+----
+* After that `> git commit` & `> git push`.
+
+include::compendium:partial$commit_conventions_reminder.adoc[]
+
+<1> This deletes all submodules in a repository.
+If there is another submodule that should be kept, just delete the corresponding lines from the `.gitmodules` instead.
+
+related::submodule[]

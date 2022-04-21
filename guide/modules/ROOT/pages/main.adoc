@@ -4,14 +4,15 @@
 :page-aliases: home.adoc
 :page-credits:
 
+include::latest@asamprojectguide:ROOT:partial$_attributes.adoc[]
 include::partial$_attributes.adoc[]
-include::{abb}[]
+
 include::asamprojectguide:ROOT:partial$_attributes.adoc[]
 
 {project-guide-icon}
 
 This module collects information on how to work on the ASAM Project Guide.
-In particular, it contains specific configurations and attributes to use as well as custom macros specific to __{asam}__.
+In particular, it contains specific configurations and attributes to use as well as custom macros specific to ASAM.
 It also references particularities of Antora and links to important information pages for Asciidoctor and Antora.
 
 == Content
@@ -49,6 +50,3 @@ xref:asam_extensions.adoc[]
 |Contains a summary of the Antora and Asciidoctor extensions by ASAM and covers how to use each of them.
 
 |===
-
-
-related::landing_page[]

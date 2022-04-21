@@ -1,0 +1,8 @@
+= Review a standard (public release candidate)
+:description: Describes how to review a standard.
+:keywords: review, service-desk, REVIEWED_OK
+
+include::partial$_attributes.adoc[]
+
+
+include::compendium:page$How-Tos/review_standard_public.adoc[tag=body]

@@ -1,0 +1,63 @@
+= Engaging Service Providers
+:description: Describes how to engage one or more Service Providers for a project.
+:keywords: service-provider
+
+include::partial$_attributes.adoc[]
+
+
+====
+[cols="1,5", frame=none, grid = rows]
+|===
+h|Involved roles
+a| * {role-project-lead}
+* {role-gtm}
+* {role-member}
+* {role-service-provider}
+
+h| Project phase
+| xref:getting-involved:development_phase.adoc#_process_overview[image:compendium:asam/project_lifecycle-development.svg[]]
+
+|===
+====
+
+
+== Context
+Some projects require more or different capabilities than the participating companies can provide.
+In these cases, the project will determine the need for Service Providers during the proposal phase.
+Once the project has been accepted, the project group sends out service requests for the open topics and starts the Service Provider selection process described below.
+
+
+== Result
+* Options for Service Providers have been vetted
+* One or more Service Providers have been hired
+
+
+== Prerequisites
+* The project proposal has been accepted by the TSC.
+* The project has planned budget for hiring Service Providers.
+* The total of the selected offers fits in the planned budget.
+
+
+== How
+Tasks can be bundled or offered separately. +
+Service Providers can apply for one or more bundles, or they can limit their offer to select parts of one or more bundles.
+
+. The project members write a call for offer.
+. Interested Service Providers apply for a presentation to present themselves and get more input on the tasks required from them
+. The group requests offers from interesting Service Providers
+. The Service Providers and the working group negotiate terms and conditions
+. The working group decides on a Service Provider
+. The contract is signed and an onboarding process is set up
+
+
+== Troubleshooting
+=== The current budget does not cover even the smallest offer available
+Talk to your GTM to figure out a solution.
+
+
+=== There have been no offers
+Talk to your GTM to figure out a solution.
+
+== What happens next
+The contracted Service Provider or providers receive a kickoff workshop for their project and tasks.
+If they have not worked with ASAM before, the ideal starting place for general topics is this Project Guide, particularly the xref:role-specific:service-provider.adoc[Service Provider topics page].

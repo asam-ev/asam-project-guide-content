@@ -1,10 +1,8 @@
-include::../ROOT/partials/_attributes.adoc[]
-* {getting-started-nav-icon}
+* xref:main.adoc[]
 ** xref:project_types.adoc[]
 ** xref:project_phases.adoc[]
 ** xref:project_lifecycle.adoc[]
+** xref:creation-of-standards.adoc[]
 ** xref:roles-overview.adoc[]
-** xref:diagram_notations.adoc[]
 ** xref:doc-as-code.adoc[]
-*** xref:tools-overview.adoc[]
 *** xref:pipeline_details.adoc[]

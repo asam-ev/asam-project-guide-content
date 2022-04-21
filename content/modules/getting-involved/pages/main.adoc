@@ -1,10 +1,10 @@
-= ASAM's Project Processes
+= ASAM's project processes
 :description: Landing page for information on how to get involved in ASAM projects.
 :keywords: landing_page,get-involved
-:lifecylce:
+:processes:
 
 include::partial$_attributes.adoc[]
-include::{abb}[]
+
 include::ROOT:partial$_attributes.adoc[]
 
 {getting-involved-icon}
@@ -13,41 +13,33 @@ include::partial$module-description.adoc[]
 It presents a process-oriented view on ASAM projects and tasks therein.
 Topics are sorted in a chronological order from the perspective of the ASAM standard lifecycle.
 
-include::ROOT:partial$landing_page_referral.adoc[]
+include::partial$asam_membership.adoc[]
+
+---
+
+== Phases overview
+
+image::compendium:asam/project_lifecycle-v2.svg[alt=The project phases at ASAM, title=The project phases at ASAM with transitions]
+
+
+The following table contains descriptions of and links to each of these.
+An entry in the table corresponds to either a project phase or a transcendent topic applicable to multiple phases. +
+Click the respective link (the icon) to learn more about each topic.
 
 [NOTE]
 ====
 Some of the following pages are mainly intended for particular xref:concepts:roles-overview.adoc[roles at ASAM].
 These pages have the relevant role labels at the top.
-However, the labels do not act as prerequisites or requirements.
 If restrictions apply, they are listed separately.
 ====
 
-include::partial$asam_membership.adoc[]
-
-image::compendium:asam/project_lifecycle-v2.svg[alt=The project lifecycle at ASAM, title=The project lifecycle at ASAM]
-
-The ASAM project lifecycle consists of six main phases:
-
-* xref:ideation_phase.adoc[**Ideation**]
-* xref:proposal_phase.adoc[**Proposal**]
-* xref:development_phase.adoc[**Development**]
-* xref:review_phase.adoc[**Review**]
-* xref:release_phase.adoc[**Release**]
-* xref:public_phase.adoc[**Public**]
-
-== Content
-The following table contains links to the content of this part.
-An entry in the table corresponds to either a phase of the project lifecycle or a transcendent topic applicable to multiple phases.
-Click the respective link to learn more about each topic.
-
-[cols="^1,5", frame=none, grid=rows]
+[cols="^1,5", frame=none, grid=rows, stripes=hover]
 |===
-|Phase|Description
+|Topic|Description
 
 h| xref:ideation_phase.adoc[image:compendium:asam/project_lifecycle-ideation.svg[]] +
 xref:ideation_phase.adoc[Ideation]
-a| Each new project must be proposed first.
+a| Each brand new project must be proposed first.
 To do so, members and non-members can hand in ideas for new standards or updates to released ones. +
 Click the icon to learn more about the ideation phase and how to enter a new idea.
 
@@ -63,16 +55,23 @@ a|To participate in a Standard Development project, you must first enroll for th
 Project commitment has to be announced in the Proposal Phase and is specified explicitly in the xref:proposal/proposal_document.adoc#_commitments[Proposal Document]. +
 Click the icon to learn about how to join a project and take over specific roles.
 
-h|xref:development_phase.adoc[image:compendium:asam/project_lifecycle-standard.svg[]] +
+h|xref:development_phase.adoc[image:compendium:asam/project_lifecycle-development.svg[]] +
 xref:development_phase.adoc[Development]
 a|If a proposal is accepted, the project enters the development phase.
 This is where the content and specifications of a standard and its (optional) supplemental documents are created, refined, and discussed. +
 Click the icon to learn about how to participate in developing a standard at ASAM.
 Note that you must xref:signing_up.adoc[**sign up**] first in order to join a project.
 
+h|xref:review_phase.adoc[image:compendium:asam/project_lifecycle-review.svg[]] +
+xref:review_phase.adoc[Review]
+a|Before any project's deliverables are released, they are reviewed at ASAM first.
+This happens during the Review phase.
+
+h|xref:release_phase.adoc[image:compendium:asam/project_lifecycle-release.svg[]] +
+xref:release_phase.adoc[Release]
+a|Once a project has passed its Review phase, it enters the Release phase.
+Here, the TSC makes a final review and decides whether the deliverables can be released.
+If the project is released and it was a Standard Development project, it now enters its Public phase.
 |===
 
-
-NOTE: Not all phases must necessarily apply to all projects.
-Some projects may even stir away from the standard development path by developing a variation on the standard set of rules layed out here. +
-These can be found in their respective versions in the dropdown menu at the bottom-left of this guide.
+// include::ROOT:partial$landing_page_referral.adoc[]

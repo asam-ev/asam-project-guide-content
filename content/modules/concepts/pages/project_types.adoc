@@ -1,33 +1,35 @@
-= ASAM Project Types
+= Project types
 :description: Describes the different project types at ASAM for new members and interested parties.
 :keywords: projects, type, asam, concept
 
 include::partial$_attributes.adoc[]
-include::{abb}[]
 
-WARNING: This section needs approval by {tsc}.
 
+WARNING: This section needs approval by TSC.
+
+{project-types-icon}
 
 == Overview
-__{asam}__ developes its products and results in projects.
+ASAM developes its products and results in projects.
 Different result types require different approaches and conditions.
 For this reason, ASAM defines three project types, which further characterize the work to be done within the projects. +
 They are:
 
-* <<Standard Development>>
 * <<Concept>>
+* <<Standard development>>
 * <<Study>>
+
+
+image::project_types_overview.drawio.svg[title="ASAM project types overview", width= 800]
 
 A new project can be triggered by either a new idea, a previous Concept Paper, or a previously released Standard.
 The intended output of each project type is a document.
 
-* For a Concept project, the output is a Concept Paper (which can be the basis for a follow-up project)
-* For a Standard Development project, the output is the standard + optional supplemental documents
-* For a Study project, the output is a Study Report that details the findings of the project.
+* For a **Concept project**, the output is a Concept Paper (which can be the basis for a follow-up project)
+* For a **Standard Development project**, the output is the standard + optional supplemental documents
+* For a **Study project**, the output is a Study Report that details the findings of the project.
 
-image::project_types_overview.drawio.svg[title="ASAM project types overview"]
-
-// image::compendium:asam/project_types.png[title="ASAM project types"]
+Note that a new concept project is usually not triggered by a previous one.
 
 // TBD: Implementation Project still valid?
 // TODO: Update image
@@ -36,52 +38,51 @@ image::project_types_overview.drawio.svg[title="ASAM project types overview"]
 
 
 == Concept
-include::compendium:partial$project_types/project-type-concept.adoc[tag=table]
+include::compendium:page$TBD/project-type-concept.adoc[tag=summary]
 
-include::compendium:partial$project_types/project-type-concept.adoc[tag=short]
+For more details, see xref:compendium:TBD/project-type-concept.adoc[] in the Compendium.
 
 
-
-== Standard Development
-include::compendium:partial$project_types/project-type-standard.adoc[tag=short]
-
+== Standard development
 [tabs]
 ====
-New Standard::
+New standard::
 +
 --
-include::compendium:partial$project_types/project-type-new-std-dev.adoc[tag=table]
-
-include::compendium:partial$project_types/project-type-new-std-dev.adoc[tag=short]
+include::compendium:page$TBD/project-type-standard.adoc[tag=new-summary]
 --
-Major Version Update::
+Major version update::
 +
 --
-include::compendium:partial$project_types/project-type-major.adoc[tag=table]
-
-include::compendium:partial$project_types/project-type-major.adoc[tag=short]
+include::compendium:page$TBD/project-type-standard.adoc[tag=major-summary]
 --
-Minor Version Update::
+Minor version update::
 +
 --
-include::compendium:partial$project_types/project-type-minor.adoc[tag=table]
-
-include::compendium:partial$project_types/project-type-minor.adoc[tag=short]
+include::compendium:page$TBD/project-type-standard.adoc[tag=minor-summary]
+--
+Revision::
++
+--
+include::compendium:page$TBD/project-type-standard.adoc[tag=revision-summary]
 --
 ====
 
+include::compendium:page$TBD/project-type-standard.adoc[tag=summary]
+
+For more details, see xref:compendium:TBD/project-type-standard.adoc[] in the Compendium.
 
 == Study
-include::compendium:partial$project_types/project-type-study.adoc[tag=table]
+include::compendium:page$TBD/project-type-study.adoc[tag=summary]
 
-include::compendium:partial$project_types/project-type-study.adoc[tag=short]
+For more details, see xref:compendium:TBD/project-type-study.adoc[] in the Compendium.
 
 
 
 // == Implementation
-// include::compendium:partial$project_types/project-type-implementation.adoc[tag=table]
+// include::compendium:page$TBD/project-type-implementation.adoc[tag=summary]
 
-// include::compendium:partial$project_types/project-type-implementation.adoc[tag=short]
+// For more details, see xref:compendium:TBD/project-type-implementation.adoc[] in the Compendium.
 
 
 

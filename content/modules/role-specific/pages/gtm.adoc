@@ -1,4 +1,4 @@
-=  ASAM global technology manager
+=  ASAM Global Technology Manager
 :description: Summary and landing page for GTMs.
 :keywords: role, role-landing-page, READYFORREVIEW
 

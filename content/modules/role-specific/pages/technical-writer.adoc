@@ -1,4 +1,4 @@
-= Technical writer
+= Technical Writer
 :description: Summary and landing page for technical writers.
 :keywords: role, role-landing-page, TODO
 

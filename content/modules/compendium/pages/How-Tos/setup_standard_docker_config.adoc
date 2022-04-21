@@ -1,0 +1,80 @@
+= Standard Docker-Compose YAML
+:description: Contains the standard docker-compose.yml description with the specification on how to use it.
+:keywords: docker,compose,yml,yaml, TODO
+
+:docker-compose-download: compendium:{attachmentsdir}/docker-compose.yml
+:docker-compose-include: compendium:example$docker-compose.yml
+
+include::compendium:partial$_attributes.adoc[]
+
+{how-to-icon}
+
+
+== Standard docker-compose instructions
+
+. Create a new `docker-compose.yml` file in the root directory of the project.
+. Add the following content to the created file:
++
+[source,yaml]
+----
+include::{docker-compose-include}[]
+
+----
++
+. Run docker-compose with `docker-compose run asciidoctor`
+
+NOTE: Usually, the only adaption that may be required is to change the input file (`standard/main.adoc`).All the other configuration required is in the docker-compose.yml.
+
+TIP: It is also possible to include the running of scripts into this (e.g. adoc2LOFT)
+
+
+== Typical configuration options
+
+Each project may have slightly different requirements, and at different stages of the project different features are available or not.
+To accommodate for that, the docker-compose.yml can be configured with options in the `entrypoint`.
+
+
+== Asciidoctor Diagram
+
+If Asciidoctor Diagram is to be used, make sure that the option `-r asciidoctor-diagram` is set.
+
+
+== Mathjax
+
+Mathjax is a JavaScript display engine intended for displaying mathmatical expressions in browsers.
+This can be activated by adding `-a mathjax` to the entrypoint.
+
+
+== Asciidoctor bibtex
+
+If Asciidoctor Bibtex is to be used, make sure that the option `-r asciidoctor-bibtex` is set.
+
+NOTE: The use of asciidoctor-bibtex requires that a bibtex configuration for the project is present.
+If the project does not have such a configuration (yet), remove this option.
+Otherwise, the container will fail to create any output!
+
+
+== Single input file
+
+You can define the input file by using `path-to-file/filename.format`.
+In the standard version above, this is set to `standard/main.adoc`.
+Replace this, if necessary.
+
+
+== Multiple input files
+
+If you want to process more than one file in one go, you can replace `path-to-file`, `filename` or both with `*`, so that it searches through all paths, files or both respectively.
+
+
+== Output file
+
+You can define the output file by using `-o path-to-file/filename.format`.
+By default, HTML is created, so use ".html" as your format.
+In the standard version above, this is set to `HTML_standard_local_build.html`.
+
+
+== Output path
+
+If you only want to specifiy the output path but leave the naming convention of the input files, use the option `-D path` instead of
+
+related::docker[]

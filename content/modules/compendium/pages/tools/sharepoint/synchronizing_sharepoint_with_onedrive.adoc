@@ -1,8 +1,0 @@
-= Synchronizing sharepoint with oneDrive
-:description:
-:keywords: sharepoint,synchronization,synch,onedrive, READYFORREVIEW
-
-include::compendium:partial$_attributes.adoc[]
-
-.Demo on synchronizing
-image::compendium:snychronizing_with_onedrive.gif[Demo on synchronizing]

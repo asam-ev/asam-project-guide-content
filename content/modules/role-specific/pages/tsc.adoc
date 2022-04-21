@@ -1,4 +1,4 @@
-= Technical Steering Committee Member
+= Technical Steering Committee member
 :description: Summary and landing page for tsc member.
 :keywords: role, role-landing-page, READYFORREVIEW
 :page-partial:
@@ -25,10 +25,10 @@ See also https://www.asam.net/active-projects/technical-steering/[window=_blank]
 ifndef::draft[]
 === Issue resolution
 //tag::issue_resolution[]
-The Technical Steering Committee (__{tsc}__) remains the ultimate authority for making the final release decision.
+The Technical Steering Committee (TSC) remains the ultimate authority for making the final release decision.
 Once a new revision of the standard is ready and got the technical release from the Standard Expert Group, the Standard Manager submits the standard to the TSC.
 
-The Release Process is carried out as described in xref:standardization:release-phase.adoc[Release Phase].
+The Release Process is carried out as described in xref:getting-involved:release_phase.adoc[Release Phase].
 //end::issue_resolution[]
 endif::[]
 

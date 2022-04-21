@@ -1,0 +1,86 @@
+ = Cycle review
+:description: A how-to for doing a Cycle Review for a development cycle.
+:keywords: development-cycle, review
+:compendium:
+
+include::compendium:partial$_attributes.adoc[]
+
+{how-to-icon}
+
+
+//tag::body[]
+
+[cols="1,5", grid = rows]
+|===
+h|Responsible
+|{role-project-lead}
+
+h|Involved
+| {role-wg-member},
+{role-service-provider},
+{role-technical-writer},
+{role-ccb},
+{role-wg-lead}
+
+ifdef::compendium[]
+h| Phase
+| xref:getting-involved:development_phase.adoc#_process_overview[image:compendium:asam/project_lifecycle-development.svg[]]
+endif::[]
+
+h| Step
+| image:compendium:asam/development_phase-review.svg[]
+
+
+h| TL;DR
+a| * TODO
+|===
+
+== Context
+At the end of each Development Cycle, the project must review the progress made within the cycle.
+These are measured by the corresponding milestone. +
+
+TODO!
+
+
+== Results
+* The related milestone and issues have been updated
+* A new status report is prepared, containing
+** Overall project progress
+** Status per goal of the cycle/milestone
+** Project health
+** Risk for delay
+** Optional: Project participation stats
+* Each missed goal is documented with a reason
+
+
+== Prerequisites
+* The cycle has concluded.
+* The Cycle Review meeting is scheduled at least two (2) weeks prior to the next TSC Controlling Meeting
+
+
+== How
+
+include::compendium:partial$full-meeting_guidelines.adoc[]
+
+TODO
+// NOTE: The following is a suggestion by ASAM.
+// Feel free to define your own guidelines and rules for these meetings if they work better with your group members.
+
+// . Set up a meeting (follow the xref:compendium:Guidelines/coordination-general_meeting_guidelines.adoc[]) with the WG Members
+// . Prepare an agenda for the meeting that covers
+// * The project-level goals of the milestone
+// * Finding existing issues related to these goals and defining missing ones
+// * A slot for discussing requirements and restrictions and to ask and answer questions
+// * Estimating these issues and assigning them to WG Members
+// . Designate one participant to write the meeting notes
+// . Have the meeting (recommended: apply the xref:compendium:Guidelines/coordination-meeting_moderation.adoc[Meeting Moderation Guidelines])
+// . Update the issues in the remote repository accordingly
+// +
+// TIP: This could be done during the meeting as well.
+// +
+// . Send the meeting notes to the participants
+
+
+// == Troubleshooting
+// TODO
+//end::body[]

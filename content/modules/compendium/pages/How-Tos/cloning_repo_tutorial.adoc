@@ -1,0 +1,18 @@
+  = Cloning a repository
+:description: Gives a tutorial on how to clone a repository using git
+:keywords: tutorial,git,clone,cloning, READYFORREVIEW
+
+include::compendium:partial$_attributes.adoc[]
+
+{how-to-icon}
+
+
+If you want to work on a repository locally, you need to first check it out from remote (GitLab).
+To do so, follow one of the cloning instructions below.
+
+IMPORTANT: If your project contains submodules, make sure to also update them.
+ See xref:compendium:Guidelines/repo-submodules.adoc[] for more information.
+
+* xref:compendium:How-Tos/clone_a_repository_terminal.adoc[]
+* xref:compendium:How-Tos/clone_a_repository_vscode.adoc[]
+* xref:compendium:How-Tos/clone_a_repository_gitlab-vscode.adoc[]

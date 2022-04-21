@@ -5,14 +5,14 @@
 include::partial$_attributes.adoc[]
 
 == Development team
-> mandatory, staffed by members and paid service provider, roles are non-exclusive
+> mandatory, staffed by members and paid Service Provider, roles are non-exclusive
 
 === Contributors
 - Develop software, i.e. write source code and tests.
 - For open-source projects hosted under the ASAM organization on Github.com, all commits **must** include a sign-off message. +
-See xref:compendium:open-source/asam_dco.adoc[].
+See xref:compendium:Templates/asam_dco.adoc[].
 
-=== ASAM change control board
+=== ASAM Change Control Board
 
 ==== Requirements
 - Minimum of three representatives from 3 different companies
@@ -26,7 +26,7 @@ See xref:compendium:open-source/asam_dco.adoc[].
 - Review contributions
 - Merge source code, documentation and tests into the main branches.
 - Named in the project proposal and extendable by majority vote of existing committers
-- **Does not merge content where third-party content or libraries are included prior to approval by the <<Project Coordinator,project coordinator>>**
+- **Does not merge content where third-party content or libraries are included prior to approval by the <<Project coordinator,project coordinator>>**
 - Should no project be running, the CCB can submit a proposal to the CG:Sim for a patch/minor/major project addressing a set amount of issues
 
 
@@ -34,9 +34,9 @@ See xref:compendium:open-source/asam_dco.adoc[].
 >mandatory, staffed by the ASAM office
 
 === Project coordinator
-- Assists and supports the <<Project Leader,project leader>> in coordinating the project
+- Assists and supports the <<Project Leader>> in coordinating the project
 - Moderation of meetings
-- Harmonisation with other ongoing projects in- and outside of __{asam}__
+- Harmonisation with other ongoing projects in- and outside of ASAM
 - Technical & architectural support for the project
 
 === Legal reviewer
@@ -50,7 +50,7 @@ See xref:compendium:open-source/asam_dco.adoc[].
 - Responsibility does not include tools installed on project member's personal computers.
 
 === Business assistant
-- Carries out public calls for offer, commissioning and payment of service providers.
+- Carries out public calls for offer, commissioning and payment of Service Providers.
 - Other commercial and administrative tasks
 
 == Coordination group: Simulation
@@ -63,7 +63,7 @@ See xref:compendium:open-source/asam_dco.adoc[].
   - Ensure alignment with external activities
 
 - Accelerate the ASAM decision making process
-  - Pre-approval, final approval stays with __{tsc}__
+  - Pre-approval, final approval stays with TSC
 
 - Review and refine relevant processes
   - e.g. development and release process, collaborative software development, etc.

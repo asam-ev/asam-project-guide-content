@@ -1,0 +1,52 @@
+[#top-cf80501d-bcfb-4014-82b7-ee21314f52d9]
+= Editorial guide
+:description: Editorial guide for technical writers
+:keywords: writing_guide
+:numbered:
+
+include::compendium:partial$_attributes.adoc[]
+
+{role-technical-writer}
+{role-wg-member}
+
+This document contains the ASAM Editorial Guide for technical writers and workgroup members.
+It contains editorial rules for contributing content to a project in written form.
+
+If an editorial rule is missing in the ASAM Editorial Guide, follow the guidelines in the xref:compendium:Guidelines/documentation_processes.adoc#sec-18931c78-0dc9-46a5-9e4d-e00c39c7ce8b[Creating new editorial rules] section to add a missing rule.
+
+This document covers the following aspects:
+
+* <<#sec-basics>>
+* <<#sec-structure>>
+* <<#sec-language>>
+* <<#sec-numbers>>
+* <<#sec-headings>>
+* <<#sec-paragraphs>>
+* <<#sec-source-code>>
+* <<#sec-lists>>
+* <<#sec-tables>>
+* <<#sec-figures>>
+* <<#sec-other>>
+
+== List of editorial rules
+//NOTE: Why do we need this section?
+This section contains a list of the entire editorial rules.
+
+[format=csv]
+|===
+include::../../examples/rules.csv[]
+|===
+
+
+include::editorial_guide/01_basics.adoc[leveloffset=+1]
+include::editorial_guide/02_structure.adoc[leveloffset=+1]
+include::editorial_guide/03_language.adoc[leveloffset=+1]
+include::editorial_guide/04_numbers.adoc[leveloffset=+1]
+include::editorial_guide/05_headings.adoc[leveloffset=+1]
+include::editorial_guide/06_paragraphs.adoc[leveloffset=+1]
+include::editorial_guide/07_source_code.adoc[leveloffset=+1]
+include::editorial_guide/08_lists.adoc[leveloffset=+1]
+include::editorial_guide/09_tables.adoc[leveloffset=+1]
+include::editorial_guide/10_figures.adoc[leveloffset=+1]
+include::editorial_guide/11_other.adoc[leveloffset=+1]other.adoc[leveloffset=+1]
+

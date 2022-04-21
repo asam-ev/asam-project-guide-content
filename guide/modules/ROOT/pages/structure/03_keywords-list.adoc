@@ -2,11 +2,12 @@
 :page-aliases: structure/keywords-list.adoc
 
 include::partial$_attributes.adoc[]
-include::{abb}[]
+
 
 {structure-icon}
 
-The list of used keywords is now located in the compendium.
+== Project Guide
+* xref:asamprojectguide:compendium:1_keywords.adoc[]
 
-Link:
+== The Editing component (here)
 reference::keyword-overview-page[]

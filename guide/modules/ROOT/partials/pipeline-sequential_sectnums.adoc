@@ -10,7 +10,7 @@ These consist of an Antora part (responsible for the navigation structure and se
 
 [NOTE]
 ====
-Due to the similarity in its topics, the Asciidoctor extension is also responsible for xref:project-guide:extensions/pipeline-sequential_figs_tables.adoc[sequential figure and table numbers].
+Due to the similarity in its topics, the Asciidoctor extension is also responsible for xref:extensions/pipeline-sequential_figs_tables.adoc[sequential figure and table numbers].
 ====
 
 //end::description[]
@@ -45,7 +45,7 @@ Page titles get a prefix of `\{appendix-caption} \{appendix-letter}: `, where `\
 //tag::prerequisites[]
 * Only pages with the attribute `sectnums` are considered: set it per page or apply globally/per component
 * All relevant pages are in the navigation tree
-//end::prerequisits[]
+//end::prerequisites[]
 
 //tag::configuration[]
 The following table lists the supported attributes as well as their default values:

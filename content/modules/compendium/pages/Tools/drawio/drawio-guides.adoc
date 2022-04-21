@@ -1,0 +1,26 @@
+= Draw.io guides
+:description: Collection of guidelines for drawio.
+:keywords: drawio, guides,READYFORREVIEW
+
+include::partial$_attributes.adoc[]
+include::contributing:partial$_attributes.adoc[]
+
+
+{drawio-icon-page}
+
+== Basics
+Click the link to access the https://drawio-app.com/tutorials/[official Draw.io guides^].
+Here, you can learn more about the basics of Draw.io as well as advanced techniques like creating custom shapes.
+
+
+== Including Draw.io in AsciiDoc
+If you have a drawio diagram (must be a .drawio.svg file!), you can add it to your document the following way.
+
+include::compendium:page$Guidelines/asciidoc-graphics.adoc[tag=drawio]
+
+
+== Accessing the ASAM Library
+This is described in the xref:compendium:Tools/drawio/drawio-setup.adoc[]. +
+To use assets from the library, drag and drop the required asset from the library on the left into your
+
+include::compendium:page$How-Tos/edit_asam_graphics_library.adoc[leveloffset=+1]

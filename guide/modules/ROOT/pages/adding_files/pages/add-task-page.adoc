@@ -1,4 +1,4 @@
-= Adding a Task page
+= Adding a task page
 :description: Explains how to add a new page for a task to the Project Guide and what to look out for.
 :keywords: task,page,project-guide,new-content-guide, READYFORREVIEW
 :page_reason: tasks

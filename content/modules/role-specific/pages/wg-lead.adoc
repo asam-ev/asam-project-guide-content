@@ -1,4 +1,4 @@
-= Workgroup lead
+= Workgroup Lead
 :description: Summary and landing page for workgroup leads.
 :keywords: role, role-landing-page, TODO
 

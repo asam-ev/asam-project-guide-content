@@ -1,0 +1,45 @@
+= Formulas
+:description: How-To for including formulas in ASAM documents (standards).
+:keywords: asciidoc,formula,how-to, READYFORREVIEW
+:navtitle: [AsciiDoc] Formulas
+
+include::compendium:partial$_attributes.adoc[]
+
+{asciidoc-icon}
+//tag::body[]
+This section shows how to include formulas in an ASAM standard.
+
+CAUTION: This is not final. The anchor does not work as expected.
+
+[tabs]
+====
+AsciiDoc::
++
+--
+....
+[[example-formula]] // <1>
+.ASAM example formula // <2>
+[latexmath] // <3>
+++++ // <4>
+T(t_{d}) = ((C_{11}(t_{d}) \wedge C_{12}(t_{d})) \vee (C_{21}(t_{d}) \wedge C_{22}(t_{d}) \wedge C_{23}(t_{d})) \vee (C_{31}(t_{d}))) // <5>
+++++ // <6>
+....
+<1> Anchor for formula. Reference this anchor using \<<example-formula>>
+<2> Caption for formula
+<3> Option for definition of formual. We use ``latexmath``
+<4> Code block delimiter
+<5> Actual formula as latexmath
+<6> Code block delimiter
+--
+Result::
++
+--
+[[example-formula]]
+.ASAM example formula
+[latexmath]
+++++
+T(t_{d}) = ((C_{11}(t_{d}) \wedge C_{12}(t_{d})) \vee (C_{21}(t_{d}) \wedge C_{22}(t_{d}) \wedge C_{23}(t_{d})) \vee (C_{31}(t_{d})))
+++++
+--
+====
+//end::body[]

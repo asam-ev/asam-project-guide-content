@@ -1,8 +1,0 @@
-= Project Proposal Setup
-:description: Describes how to set up a new project proposal.
-:keywords: proposal, setup
-
-include::partial$_attributes.adoc[]
-include::{abb}[]
-
-include::compendium:page$ASAM/phase-02_proposal/how_to_setup_proposal_git.adoc[tag=body]

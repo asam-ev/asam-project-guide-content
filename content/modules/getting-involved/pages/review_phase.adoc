@@ -1,25 +1,137 @@
-= The Review phase
+= Review phase
 :description: Describes the Review phase in the ASAM development process for standards.
 :keywords: review,phase,standard,process, TODO
 
 include::partial$_attributes.adoc[]
-include::{abb}[]
 
-The purpose of the Review phase is to involve members of __{asam}__ outside the project group to give their review feedback and to increase the overall quality and acceptance of the standard prior to its release.
 
-// image::review_phase.png[title="The Review Phase"]
-image::asam-development-process-Review.svg[title="The Review Phase (simplified)",opts=interactive]
+====
+[horizontal]
+Involved roles::
+{role-standard-user} --
+{role-member} --
+{role-wg-member} --
+{role-wg-lead} --
+{role-project-lead} --
+{role-gtm}
 
-== C1 - Draft Release
-include::partial$review-draft-release.adoc[tag=long]
 
-== C2 - Public Draft Review
-include::partial$review-public-draft.adoc[tag=long]
+include::partial$project_phases.adoc[tag=review]
+====
 
-== C3 - Feedback Deadline
-include::partial$review-feedback-deadline.adoc[tag=long]
+== Overview
+The purpose of the Review phase is to gather feedback and review the created document(s) by people outside the project group.
+The goal is to increase the overall quality and acceptance of the standard prior to its release.
 
-== C4 - Feedback Processing
-include::partial$review-feedback-processing.adoc[tag=long]
+image::compendium:asam/review_phase.drawio.svg[title="The Review phase"]
+
+== Draft release
+[cols="1h,20"]
+|===
+|Purpose
+|To create a preliminary version of the standard for carrying out a public review.
+
+|Responsible
+|Project group
+
+|Involved
+|none
+|===
+
+The draft standard shall be feature-complete, i.e. the specification or revision of all features of the standard has been finished.
+The project group members determine, whether the standard is ready for public review.
+
+The Project Leader is responsible for delivering the draft document(s) in a format, which is usable in the ASAM IT-infrastructure for document reviews.
+Changes to the prior version shall be marked in the draft documents or documented in a separate change log with clear references to the draft documents.
+
+
+Public reviews are mandatory for new standards and major versions of existing standards.
+The project group releases a draft of the standard, which is feature-complete and has undergone an internal review.
+
+== Public draft review
+[cols="1h,20"]
+|===
+|Purpose
+|To obtain technical review feedback from members.
+
+|Responsible
+|Office
+
+|Involved
+|Members, project group
+|===
+
+The Office publishes the start of the public review process via newsletter and https://www.asam.net/active-projects/public-review/[ASAM website], and provides additional information, such as a brief description of the changes in the standard, review process steps and the review deadline.
+
+The Office provides an IT-solution for carrying out the public draft review.
+The Office provides technical support for reviewers and ensures that review feedback is accessible to the project group members in a timely manner.
+
+In general, every ASAM member can download the draft standard and participate in the review.
+The Office may restrict the group of reviewers in agreement with the project group members or as per TSC decision.
+
+Members of the project group are available to answer technical questions from reviewers.
+
+Reviewers shall not submit new use-cases, features or requirements as part of their review feedback.
+The Office asks the reviewers to submit such requests via the regular ASAM CR system.
+
+The minimum review period for a new standard is 8 weeks and shall not exceed 16 weeks.
+The minimum review period for a major version is 6 weeks and shall not exceed 12 weeks.
+
+The ASAM office publishes the draft and provides an IT environment in which members can provide their comments.
+Members are given a minimum period of six weeks for the review (eight weeks for a new standard).
+
+
+
+
+== Feedback deadline
+[cols="1h,20"]
+|===
+|Purpose
+|To end the public review and have all feedback ready for the next process step.
+
+|Responsible
+|Office
+
+|Involved
+|none
+|===
+
+The Office terminates the public draft review process by:
+
+- removing the draft standard download from the https://www.asam.net/active-projects/public-review/[ASAM website^].
+- closing the IT-solution to accept further review feedback.
+
+Once the review period is over, the ASAM office removes the draft standard from public access and makes the review comments available to the project group.
+
+
+== Feedback processing
+[cols="1h,20"]
+|===
+|Purpose
+|To review and decide upon the reviewers' feedback and to incorporate corresponding changes to the draft standard.
+
+|Responsible
+|Project group
+
+|Involved
+|Members
+|===
+
+The project group has the obligation to review each review feedback and make a decision on how to further work on it.
+The decision includes as a minimum the status "accepted", "rejected" or "deferred".
+The decision must be documented.
+
+Accepted feedback shall be implemented.
+The project group has full authority how to implement the reviewers' feedback into the standard.
+They can implement changes as proposed by the reviewer, or decide for a different implementation.
+
+If a reviewer's feedback is actually out-of-scope, since it contains a request to consider a new use-case, feature or requirement, then the feedback shall be rejected and transferred to the ASAM CR-system with status "new".
+
+ASAM has the obligation to inform reviewers about the status of their review feedback, upon their request.
+
+
+The project group members have the obligation to review each comment and make a decision.
+The project group has full authority to decide, how to handle a comment, e.g. to accept, modify, defer or reject comments, and to make corresponding changes to the standard at their own discretion.
 
 related::review[]
+

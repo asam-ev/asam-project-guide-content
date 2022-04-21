@@ -3,8 +3,11 @@
 :keywords: project-guide, TODO
 
 include::partial$_attributes.adoc[]
-include::{abb}[]
+
 
 {add-file-icon}
 
 The following pages contain information on how to add new files to the Project Guide.
+
+== Pages
+include::../nav.adoc[tag=add_files]

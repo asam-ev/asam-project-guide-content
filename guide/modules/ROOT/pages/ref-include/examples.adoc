@@ -1,0 +1,10 @@
+= Using examples
+:description: Provides information on using examples in Antora.
+:keywords: project-guide, antora, example, TODO
+
+include::partial$_attributes.adoc[]
+
+
+{ref-include-icon}
+
+TODO

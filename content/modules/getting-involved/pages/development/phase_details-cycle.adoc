@@ -1,0 +1,212 @@
+= Development phase details -- Development Cycle
+:keywords: development
+:description: Development phase details
+
+include::partial$_attributes.adoc[]
+
+
+== Phase diagram
+The development phase consists of the xref:development/phase_details-setup.adoc[Setup Step], followed by the main development loop (<<fig-development-main-cycle-diagram,Main Cycle>>).
+This page covers the Development Cycle and all its sub-steps as well as participating in relevant Controlling Meetings.
+Each sub-step is further detailed on its respective page.
+
+
+[#fig-development-main-cycle-diagram]
+image::compendium:asam/development_phase-main.svg[title="The Development phase's main cycle in detail, using the xref:compendium:Guidelines/diagram_notations.adoc[ASAM Project Phase Notation]"]
+
+While the project is actively being developed, it follows the main development cycle of planning, developing, and reviewing.
+Occasionally, there are project-independent events happening, such as "Controlling Meetings", where each project may or must participate in.
+In particular, there are the __CGSim Controlling Meetings__ (mandatory for all Simulation Domain projects during the Development phase) and the __TSC Controlling Meetings__. +
+Typically, projects present their current (i.e. the latest updated) status report to allow the respective panel to monitor and intervene, if necessary.
+
+
+
+== Development phase timeline
+Each project defines their own timeline during the Proposal phase.
+Therefore, there is no standard Development phase timeline. +
+However, there are typical categories for project length.
+These are shown below.
+
+image::compendium:asam/development_phase_timeline-development_phase.svg[]
+
+Additionally, a project may request additional time if the project's content turns out to be more complex than anticipated.
+// * 8-12 weeks for creating the draft
+// * 1 day of Proposal Workshop (announced 4-6 weeks ahead of time)
+// * 1-4 weeks of finalizing the draft and enrollment
+// * proposal publication
+// * proposal review, presentation, and project decision
+
+// image::compendium:asam/proposal_phase_timeline.drawio.svg[title=Typical Proposal phase timeline]
+
+
+== Development phase steps
+The Development phase consists of the following steps, which are explained in detail in their own sections:
+
+* <<Cycle planning>>
+* <<Cycle development>>
+* <<Cycle review>>
+* Controlling Meetings
+** <<TSC Controlling Meeting>>
+** <<CGSim Controlling Meeting>>
+
+
+---
+
+=== Cycle planning
+[cols="3,1,10"]
+|===
+.3+|image:compendium:asam/development_phase-planning.svg[]
+>h|Purpose
+|To plan the next development cycle on both a high and a low level in form of a milestone
+
+>h|Responsible
+|{role-project-lead} + {role-ccb}; +
+{role-wg-lead}
+
+>h|Involved
+|{role-wg-lead}; +
+{role-wg-member}, {role-service-provider}, {role-technical-writer}
+
+|===
+
+NOTE: This is a multi-step task.
+
+The Project Lead, together with the CCB, specifies the high level goals for the project's next development cycle.
+They then present and discuss the created milestone with the WG Leads. +
+After the overall goals have been specified and communicated, the WG Leads specify the detailed goals for the respective involved Working Groups.
+They then present and discuss both the global and the detailed goals of the milestone with the WG members, the involved Service Providers, and the Technical Writers.
+
+See xref:development/cycle_planning.adoc[].
+
+---
+
+=== Cycle development
+[cols="3,1,10"]
+|===
+.3+|image:compendium:asam/development_phase-cycle.svg[]
+>h|Purpose
+|To develope the content for the planned milestone.
+
+>h|Responsible
+|{role-wg-member},
+{role-service-provider},
+{role-technical-writer}
+
+>h|Involved
+|{role-project-lead},
+{role-wg-lead}
+
+|===
+
+NOTE: This is a multi-step task.
+
+During the development cycle, each work group individually works on their respective topics (if any).
+Each work group will also meet regularly in its Work Group Meetings. +
+Note that each work group may define the intervals and modalities of their meetings for themselves.
+
+To coordinate activities between different Work Groups, ASAM recommends that all WG Leads meet regularly during each cycle.
+Each project may define their own intervals for WG Lead meetings. +
+In addition to that, the CCB may meet regularly or triggered by specific events to review and merge urgent topics as well as discuss other project-related topics.
+Similarly to the Work Group Meetings, each project may define their own intervals for CCB meetings.
+
+See xref:development/cycle_development.adoc[].
+
+---
+
+=== Cycle review
+[cols="3,1,10"]
+|===
+.3+|image:compendium:asam/development_phase-review.svg[]
+>h|Purpose
+|To review the achievements for the planned milestone and to create a project status report.
+
+>h|Responsible
+|{role-project-lead} + {role-ccb}; +
+{role-wg-lead}
+
+>h|Involved
+|{role-wg-lead}; +
+{role-wg-member}, {role-service-provider}, {role-technical-writer}
+
+|===
+
+
+Each cycle ends with a project meeting where the project process is assessed and the project status report is updated. +
+The project status is then presented at the next <<CGSim Controlling Meeting>>.
+See xref:development/cycle_review.adoc[].
+
+include::compendium:partial$full-meeting_guidelines.adoc[]
+
+---
+
+=== Cycle retrospective
+[cols="3,1,10"]
+|===
+.3+|image:compendium:asam/development_phase-retro.svg[]
+>h|Purpose
+|To discuss how the latest cycle went and find out, whether processes can and must be improved or not.
+
+>h|Responsible
+|{role-project-lead}
+
+>h|Involved
+|{role-wg-member}, {role-service-provider}, {role-technical-writer}
+
+|===
+
+No process is perfect, and every initial assumption and definition may be imperfect.
+For this reason, ASAM recommends doing a Cycle Retrospective meeting after every cycle.
+
+The idea is to identify methods, processes, and topics that proved to work great and should be kept as well as topics that turned out to be inefficient or problematic and should be changed or improved.
+This way, each project can improve not only its content, but also its way of working together to become more efficient and increase their work quality over time.
+Ideally, these lessons learned are documented and, if generally applicable, used to improve this Project Guide around the project's conclusion.
+
+Here are some pages containing tips on doing a retrospective:
+
+* https://www.atlassian.com/team-playbook/plays/retrospective[window=_blank]
+* https://backlog.com/blog/three-ways-run-productive-retrospective/[window=_blank]
+* https://retromat.org/en/[Online generator for Retrospective activities^]
+
+include::compendium:partial$full-meeting_guidelines.adoc[]
+
+---
+
+=== TSC Controlling Meeting
+[cols="3,1,10"]
+|===
+.3+|image:compendium:asam/development_phase-customstep.svg[]
+>h|Purpose
+|To update the TSC on the current project status.
+
+>h|Responsible
+|{role-project-lead}
+
+>h|Involved
+|{role-tsc-member}
+
+|===
+
+TODO +
+See xref:development/tsc_controlling_meeting.adoc[].
+
+---
+
+=== CGSim Controlling Meeting
+[cols="3,1,10"]
+|===
+.3+|image:compendium:asam/development_phase-customstep.svg[]
+>h|Purpose
+|To present the current project status and update the CGSim and optionally escalate problems to the TSC.
+
+>h|Responsible
+|{role-project-lead}
+
+>h|Involved
+|{role-gtm}, CGSim
+
+|===
+
+The Project Lead regularly updates the CGSim about the current project status (updated at the latest <<Cycle review>>).
+In case there is need to find a solution to a problem with the project with direct involvement of ASAM e.V. (e.g. there is a high risk of a delay), the CGSim speaker escalates the topic at the next ASAM TSC meeting. +
+See xref:development/cgsim_controlling_meeting.adoc[CGSim Controlling Meeting]
+

@@ -1,9 +1,0 @@
-= Git commit guidelines
-:description: Referal page to GitLab Commit Guidelines
-:keywords: git,commit,guidelines, TODO
-
-include::compendium:partial$_attributes.adoc[]
-
-See xref:compendium:tools/gitlab/commit_guidelines.adoc[]
-
-related::git[]

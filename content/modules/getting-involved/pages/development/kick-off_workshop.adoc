@@ -1,0 +1,38 @@
+= Kick-off Workshop
+:description: Describes a typical Kick-off Workshop for the Development phase.
+:keywords: kick-off-workshop, development
+
+include::partial$_attributes.adoc[]
+
+[cols="1,5", grid = rows]
+|===
+h|Responsible
+| {role-gtm}
+
+h|Involved
+| {role-wg-member} +
+-> {role-project-lead} +
+-> {role-wg-lead}
+
+h| Step
+| image:compendium:asam/development_phase-kick-off.svg[]
+
+h|TL;DR
+a| * Define working model
+* Elect Project Lead and Work Group Leads
+* Assign participants to work groups
+* Add more details to project
+* Optional: Plan first development cycle
+|===
+
+== Context
+include::compendium:page$Templates/kick-off_workshop_gameplan.adoc[tag=context]
+
+== Goals
+include::compendium:page$Templates/kick-off_workshop_gameplan.adoc[tag=goals]
+
+== Joining
+To join the Kick-off Workshop of a project, you have to enroll in the project prior to the event.
+See xref:compendium:How-Tos/enroll_for_development.adoc[] in the Compendium.
+
+related::kick-off-workshop[]

@@ -1,6 +1,0 @@
-
-image::compendium:VSCodeSettingsWhiteSpace.png[]
-. Open the xref:compendium:tools/vscode/vscode_command-palette.adoc[]
-. Type "user settings" and confirm with Enter
-. Search for "whitespace" in the user settings
-. Enable "Trim Trailing Whitespace"

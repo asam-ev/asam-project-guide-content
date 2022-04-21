@@ -1,0 +1,10 @@
+= Prepare a Kick-off Workshop
+:description: What to prepare for a development kick-off workshop.
+:keywords: kick-off-workshop, development
+
+include::partial$_attributes.adoc[]
+
+
+include::compendium:page$How-Tos/prepare_kick-off_workshop.adoc[tag=body]
+
+related::kick-off-workshop[]

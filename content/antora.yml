@@ -1,13 +1,21 @@
 name: asamprojectguide
 title: ASAM Project Guide
 version:
-  main: 'latest'
-  open-(*): 'open-$1'
-prerelease: -dev
+  v(?<version>+({0..9}).+({0..9}).+({0..9})): $<version>
+  open-(*): 'open$1'
+  main: latest # Remove for first release!!!
+  dev: dev
+# prerelease: true
 start_page: ROOT:index.adoc
 nav:
 - modules/concepts/nav.adoc
+- modules/contributing/nav.adoc
 - modules/getting-involved/nav.adoc
 - modules/role-specific/nav.adoc
-- modules/tooling/nav.adoc
 - modules/compendium/nav.adoc
+- modules/ROOT/nav.adoc
+asciidoc:
+  attributes:
+    gitlab-url: https://code.asam.net
+    github-url: https://github.com/asam-ev
+    abb: "compendium:partial$abbreviations.adoc@"

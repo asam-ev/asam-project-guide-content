@@ -1,0 +1,162 @@
+= Proposal Workshop gameplan
+:description: Contains the default gameplan for a proposal workshop.
+:keywords: proposal-workshop, proposal, gameplan
+:compendium:
+
+include::compendium:partial$_attributes.adoc[]
+
+{template-icon}
+
+[cols="1,5", grid = rows]
+|===
+h|Responsible
+| {role-gtm}
+
+h|Involved
+| {role-idea-giver}, {role-wg-member}
+
+ifdef::compendium[]
+h| Phase
+| xref:getting-involved:proposal_phase.adoc#_process_overview[image:compendium:asam/project_lifecycle-proposal.svg[]]
+endif::[]
+
+h| Step
+| image:compendium:asam/proposal_phase_v2-organize_proposal_workshop.svg[]
+
+h|TL;DR
+a| * Ensure the <<Prerequisites>> are met
+* Book a room or schedule an online meeting
+* Create agenda (use <<Agenda template>> to do so)
+* Send invites to all participants
+|===
+
+
+// == Roles in the Proposal process
+
+// [cols="1,3"]
+// |===
+// h| Proposal submitter
+// | The person who is responsible to drive the proposal.
+
+// h| Proposal writing team
+// | A small group of persons writing the project proposal.
+
+// h| Proposal workshop member
+// | An attendee of the proposal workshop.
+
+// h| ASAM office
+// | The employees of ASAM.
+// |===
+
+== Context
+//tag::context[]
+The first major event in the xref:getting-involved:proposal_phase.adoc#_process_overview[Proposal phase] is the Proposal Workshop.
+Here, the project idea is presented to a broader audience for the first time and discussed.
+//end::context[]
+
+== Prerequisites
+
+. Written proposal
+. Proposal submitter is declared
+. At least three companies committing to the project
+
+
+== Hosting a Proposal Workshop
+include::compendium:page$Guidelines/coordination-hosting_workshops.adoc[leveloffset=+1,tag=body]
+
+
+== Workshop goals
+//tag::goals[]
+Participants of the Proposal Workshop focus on the following topics, which are the technical core of the intended project proposal:
+
+. Use-cases, from the view-point of end-users.
+. Features, which shall be standardized.
+. Requirements, to be considered during the development of the standard.
+
+Further items shall be discussed, which cover the proposal justification and project planning:
+
+- a justification of market relevance for the proposed changes or the new standard.
+- prioritization of features and requirements.
+- statement about backward-compatibility, in case of the further development of an existing standard.
+
+The participants of the Proposal Workshop shall determine the proposal submitter.
+//end::goals[]
+
+== Agenda template
+
+//tag::agenda_example[]
+
+[cols="10,10,20,25,35"]
+|===
+| Time    | Duration    | Title                     | Responsible           | Comment
+
+| 9:00 am
+| 05 - 15 min
+| Arrival & introduction
+| ASAM
+| In the introduction, the moderator welcomes the attendees and introduces the agenda.
+
+| 9:15 am
+| 20 - 35 min
+| ASAM introduction
+| Managing Director ASAM
+| The Managing Director of ASAM gives an overview about ASAM and how ASAM works.
+
+| 9:45 am
+| 20 - 45 min
+| Problem statement
+| Proposal submitter
+| The proposal submitter presents the problem statement the project should solve, including use cases where the problem occurs.
+
+|10:30 am
+| 05 - 15 min
+| Break
+| All
+|
+
+|10:45 am
+| 60 - 90 min
+| Presentation block 1/2
+| Workshop member
+| In this block, Proposal workshop members can present their take on the problem statement and how they would or do handle the issue in their company.
+
+|12:15 pm
+| 45 - 60 min
+| Lunch break
+| All
+|
+
+| 1:00 pm
+| 30 - 60 min
+| Presentation block 2/2
+| Workshop member
+| In this block, Proposal workshop members can present their take on the problem statement and how they would or do handle the issue in their company.
+
+| 2:00 pm
+| 30 - 60 min
+| Proposal Content
+| Proposal submitter
+| The proposal submitter or a member of the writing team presents the technical content of the project proposal.
+
+| 3:00 pm
+| 30 - 60 min
+| Discussion
+| All
+| Discuss the technical content of the project proposal and collect feedback that can be incorporated into the proposal.
+
+| 4:00 pm
+| 15 - 30 min
+| Next Steps and Wrap up
+| ASAM
+a| The ASAM moderator starts the following information and estimates with the group
+
+* the minimum required commitment in days
+* the duration of the project in months
+* the xref:concepts:project_types.adoc[project type]
+|===
+
+//end::agenda_example[]
+
+== Invite participants
+. Send invites to the scheduled event containing the agenda (see <<Agenda template>>) to all enrolled participants
+. If more participants sign up after the event has been sent out, send them the meeting invite as well

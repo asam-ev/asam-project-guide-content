@@ -4,8 +4,100 @@
 :page-aliases: structure/versioning_concept.adoc
 
 include::partial$_attributes.adoc[]
-include::{abb}[]
 
-.The Project Guide versioning concept
-image::versioning_concept.drawio.svg[alt="Versioning concept"]
 
+== Overview
+The Project Guide will change over time.
+To account for that and make tracking changes easier, this versioning concept is applied.
+
+The main idea of this concept is to have all officially released versions on main with a tag.
+Only tagged versions on this branch are displayed - with the exception of this Editing Guide. +
+The current development happens on a branch named "dev".
+This branch is regularly merged back into main.
+The dev branch is **never** tagged.
+
+If a project, upon request, is granted to create a specific Project Guide variant, the variant's latest commit is hosted.
+Project-specific guide variants are separated from the standard Project Guide into a collective Antora component.
+Each project is displayed as an Antora version.
+
+== Branching and tagging
+image::versioning_concept-git.svg[]
+
+All released versions exist on the branch 'main'.
+Each new release must be tagged with `v<x>.<y>.<z>`, where `<x>`, `<y>`, and `<z>` are numbers.
+Version numbers follow the https://semver.org/[Semantic Versioning rules^].
+
+Development happens on the branch 'dev'.
+This branch must be marked as "prerelease" during development.
+No tags may be created on the 'dev' branch.
+
+IMPORTANT: Make sure to remove the `prerelease` attribute in the antora.yml before merging the dev changes back to main.
+Alternatively, do not merge the antora.yml.
+
+In case project-specific guides are required, a project may request a specific branch for content on the Project Guide.
+If the request is accepted, the project's branch name will be 'open-x', where 'x' is the name of the project. +
+Example: project 'OpenNEWSTANDARD' -> branch name: 'open-newstandard'.
+
+No tags may be created on any project-specific branch.
+
+If important changes happen on the main branch that should impact the project as well, these changes shall be cherry-picked.
+Likewise, if a project concludes, its content is reviewed and approved updates from it shall be cherry-picked onto the 'dev' branch (and later be merged onto the 'main' branch).
+
+
+
+== Mapping in Antora
+Antora can take content from different repositories, branches, and/or tags, and combine them in one single generate.
+In case of the ASAM Project Guide, the generator takes a single content repository and uses its two main folders to generate its content.
+However, the generator selects only a single branch+version combination from the 'guide' folder.
+In contrast to that, it takes multiple branches and tags from the 'content' folder.
+
+image::versioning_concept-mapping.svg[]
+
+The figure above illustrates the applied mapping:
+
+. The latest tagged version (in the example: v1.2.1) on the main branch gets the reference name 'latest' automatically
+. All other tagged versions on main are displayed with their tag name
+. The latest commit on main is also used for the "Editing the ASAM Project Guide" component
+. The latest commit on the dev branch is used as pre-release version named "dev"
+. The latest commit on any open-x branch is used for the corresponding "version" of the Specific Project Guide component
+. All content on the branches 'main' and 'dev' use the component `asamprojectguide`
+. All project-specific branches shall use the component `specificguides`
+
+[NOTE]
+====
+The following rules are applied using git information:
+
+* tag with 'v<x>.<y>.<z>' -> version: x.y.z
+* branch == 'open-\*' -> version: open*
+* branch == 'dev' -> version: dev
+
+The following must be specified by the branch maintainer:
+
+* prerelease for 'dev'-branch (set to `true`)
+* component name for open* branches (set to `specificguides`)
+====
+
+Branches are not added automatically in Antora.
+Every branch that the Guide officially supports has to be added in the https://github.com/asam-ev/asam-project-guide/blob/main/site.yml[site.yml^].
+Tags, however, are applied automatically as long as they follow the specified syntax: `v<x>.<y>.<z>`, where `<x>`, `<y>`, and `<z>` are numbers. +
+Example: v1.0.0
+
+
+== Repositories
+To generate the Project Guide, two repositories are used: a https://github.com/asam-ev/asam-project-guide/[generator repository^] and a https://github.com/asam-ev/asam-project-guide-content[content repository^].
+This is displayed in the figure below.
+
+image::versioning_concept-structure.svg[title="Involved repositories in the Project Guide generation", alt="Repositories' structure"]
+
+
+=== Content repository
+The content repository contains, as the name suggests, the content of the Project Guide.
+The repository mainly consists of two folders, 'content' and 'guide'.
+
+'content':: This folder contains all the ASAM Project Guide content.
+This is where everything intended for project participants and interested ASAM members is located.
+The generator takes this folder and, depending on the git reference (tag or branch), labels its version automatically.
+Note that, according to the <<Mapping In Antora>>, the component for project-specific branches has to be `specificguides`, whereas the standard Guide content is `asamprojectguide`.
+
+'guide':: This folder contains all instructions and information on how to edit and maintain the Project Guide itself, including this page.
+Only one version of it may ever be available: the latest commit on the branch main or on dev (main by default)!

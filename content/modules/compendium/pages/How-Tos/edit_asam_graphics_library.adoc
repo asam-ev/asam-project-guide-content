@@ -1,0 +1,72 @@
+= Edit The ASAM Graphics Library
+:description: Describes how to edit the ASAM Graphics Library.
+:keywords: drawio, asset, library
+
+include::compendium:partial$_attributes.adoc[]
+
+{how-to-icon}
+
+
+== Context
+The ASAM Graphics Library for Draw.io consists of custom-made reusable graphics.
+During projects, new such graphics may be created.
+These should be added to the library to ensure they can be reused easily in other projects.
+
+== Result
+The changes to the ASAM Graphics Library are applied and public.
+
+== Prerequisites
+* User has editing rights for the https://code.asam.net/common/asam-graphic-library[ASAM Graphics Library repository^]
+* All new assets fulfill the xref:compendium:Guidelines/graphic_assets_requirements_and_conventions.adoc[]
+
+
+== How
+[tabs]
+====
+Using Git::
++
+--
+
+. Check out the https://code.asam.net/common/asam-graphic-library[ASAM Graphics Library repository^] (https://code.asam.net/common/asam-graphic-library.git)
+. Open Draw.io (online or locally)
+. Click "Open Library from/Device..." and select the library file (.xml)
++
+image::compendium:open_drawio_library.png[]
++
+. Create or load your new shapes or images
+. Drag & drop all relevant shapes or images into the library section on the left
+. Click the edit button (the pencil) next to the library name
+. Add descriptive names to all added elements
+. Click "Export" and select "Device" to save it on your computer
+. Locate the saved/exported library file
+. Move it to the checked out repository to replace the previous version
+. Stage, commit, and push the changes to remote.
+The commit message should describe the changes that were made
+--
+Without local installation::
++
+--
+
+. Download the https://code.asam.net/common/asam-graphic-library/-/raw/master/ASAM_graphics_library.xml?inline=false[raw ASAM Graphics Library file] to you computer
+. Open Draw.io (online or locally)
+. Click "Open Library from/Device..." and select the library file (.xml)
++
+image::compendium:open_drawio_library.png[]
++
+. Create or load your new shapes or images
+. Drag & drop all relevant shapes or images into the library section on the left
+. Click the edit button (the pencil) next to the library name
+. Add descriptive names to all added elements
+. Click "Export" and select "Device" to save it on your computer
+. Locate the saved/exported library file
+. Open the library file https://code.asam.net/common/asam-graphic-library/-/blob/master/ASAM_graphics_library.xml[in your browser^] and click "Replace"
++
+image::compendium:asset_library_replace_file.png[]
++
+. Select the updated library file and drag & drop it into the upload window.
+Alternatively, use the "click to upload" button
+. Add a commit message describing the changes that were made
+. Create a new commit by clicking on "Replace file"
+
+--
+====

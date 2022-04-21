@@ -3,15 +3,15 @@
 :keywords: pipeline,asam,antora,asciidoctor,custom, TODO
 
 include::partial$_attributes.adoc[]
-include::{abb}[]
+
 
 {special-macros-icon}
 
 == Description
 include::partial$pipeline-sequential_figs_tables.adoc[tag=description]
 
-== Prerequisits
-include::partial$pipeline-sequential_figs_tables.adoc[tag=prerequisits]
+== Prerequisites
+include::partial$pipeline-sequential_figs_tables.adoc[tag=prerequisites]
 
 == Configuration
 include::partial$pipeline-sequential_figs_tables.adoc[tag=configuration]

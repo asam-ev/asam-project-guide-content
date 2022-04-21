@@ -1,0 +1,34 @@
+= Filestage
+:description: A summary page describing what Filestage is and where to find related information, guides etc.
+:keywords: filestage,summary,tool,mandatory, TODO
+
+include::partial$_attributes.adoc[]
+
+
+{mandatory}
+
+include::compendium:partial$icon_reminder.adoc[tag=online-access]
+
+{filestage-icon}
+
+Filestage is a webtool for reviewing documents online.
+
+
+== Filestage at ASAM
+ASAM requires using Filestage for:
+
+* All public reviews
+* ASAM member reviews in the Simulation domain
+
+== Content
+
+
+[cols="^1h,4",frame=none, grid=rows, stripes=hover]
+|===
+
+|xref:filestage/filestage_guides.adoc[image:{guide-image}[width=120,title="Filestage Guides"]]
+|Filestage Guides
+
+|===
+
+related::filestage,!summary[]

@@ -1,7 +1,0 @@
-= How to archive a project on GitLab
-:description: TODO
-:keywords: TODO, gitlab
-
-include::compendium:partial$_attributes.adoc[]
-
-TODO

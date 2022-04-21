@@ -1,0 +1,51 @@
+= Setting up Docker
+:description: A summary page describing how to set up docker
+:keywords: docker,setup,task,fragment,docker-setup,READYFORREVIEW
+:page-partial:
+
+include::partial$_attributes.adoc[]
+include::contributing:partial$_attributes.adoc[]
+include::compendium:partial$_attributes.adoc[]
+
+
+{docker-icon-page}
+
+// If you use a recurring image for similar artifacts, declare it as attribute in partials/_attributes.adoc and reference here.
+
+== Context
+Docker is a powerful tool for using containerized software.
+Images and containers remove the need to install and configure software or tools.
+However, docker support is not natively integrated and must be installed and set up first.
+
+== Result
+* Computer is configured with WSL2 for Linux containers.
+* Docker is set up and ready.
+
+== Prerequisites
+NOTE: It is recommended to use the WSL2 backend.
+If this is not possible for you, you can follow the instructions on how to set up for Hyper-V.
+
+* https://docs.docker.com/desktop/windows/install/#system-requirements[Official system requirements, window=_blank] are met
+
+== How
+=== Standard Docker-Desktop installation
+. {docker-url}[Download, window=_blank] the latest Docker version.
+. Follow the https://docs.docker.com/desktop/windows/install/[official installation instructions, window=_blank].
+. __OPTIONAL: Add xref:{vscode-extensions}#_docker[docker extensions] in xref:compendium:Tools/vscode.adoc[]__.
+. RECOMMENDED: After setup, you can try the example project to get to know basic Docker commands.
+
+=== Build from binaries
+Alternatively to getting <<Standard Docker-Desktop installation,Docker Desktop>>, you can also download and install docker engine from binaries.
+This is free of charge but requires many more steps for setup.
+
+See link:https://docs.docker.com/engine/install/binaries/[instructions for installing docker binaries, window=_blank] for more information on this.
+
+
+== Troubleshooting / Known Issues
+=== Docker-Desktop License
+IMPORTANT: Professional use of Docker Desktop in large organizations (more than 250 employees or more than $10 million in annual revenue) *requires users to have a paid Docker subscription*.
+See link:https://www.docker.com/blog/updating-product-subscriptions/[window=_blank].
+
+If your company does not provide docker licenses, you can check the docker website what type of license applies to your company.
+Note that only Docker Desktop (Windows and Mac) requires license fees.
+Docker for Linux is (currently) still free under the Apache License, version 2.0.

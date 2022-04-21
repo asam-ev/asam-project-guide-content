@@ -1,11 +1,11 @@
-= Pages VS Partials
+= Pages vs partials
 :description: Describes the differences between pages and partials and when to use which.
 :keywords: page,partial,project-guide, READYFORREVIEW
 :page-aliases: adding_content/pages-vs-partials.adoc
 
 
 include::partial$_attributes.adoc[]
-include::{abb}[]
+
 
 {add-file-icon}
 

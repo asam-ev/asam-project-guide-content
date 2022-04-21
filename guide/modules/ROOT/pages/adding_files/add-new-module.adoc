@@ -1,10 +1,10 @@
-= Adding A New Module
+= Adding new module
 :description: Describes how to add a new module to the ASAM Project Guide so that it contains all importantn infos and structures by default for Antora to build correctly.
 :keywords: antora,guide,module,new-content-guide, READYFORREVIEW
 :page-aliases: adding_content/add-new-module.adoc
 
 include::partial$_attributes.adoc[]
-include::{abb}[]
+
 
 {add-file-icon}
 

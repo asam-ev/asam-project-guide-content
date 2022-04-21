@@ -1,15 +1,17 @@
 
+
+
 :width-large: 120
 :width-small: 80
 :width-nav-icon: 25
 
 //tools
-:tools-image: https://cdn-icons-png.flaticon.com/512/1077/1077198.png
-:tools-xref: tooling:overview.adoc
-:tools-icon: xref:{tools-xref}[image:{tools-image}[alt= Tools, width={width-large}, role=right]]
-:tools-icon-norole: xref:{tools-xref}[image:{tools-image}[alt= Tools, width={width-small}]]
-:tools-nav-icon: xref:{tools-xref}[]
-// :tools-nav-icon: xref:{tools-xref}[image:{tools-image}[width={width-nav-icon}] Tools Overview]
+:contributing-image: https://cdn-icons-png.flaticon.com/512/1077/1077198.png
+:contributing-xref: contributing:overview.adoc
+:contributing-icon: xref:{contributing-xref}[image:{contributing-image}[alt= Tools, width={width-large}, role=right]]
+:contributing-icon-norole: xref:{contributing-xref}[image:{contributing-image}[alt= Tools, width={width-small}]]
+:contributing-nav-icon: xref:{contributing-xref}[]
+// :contributing-nav-icon: xref:{contributing-xref}[image:{contributing-image}[width={width-nav-icon}] Tools Overview]
 
 //getting-started
 // :getting-started-image: https://cdn-icons-png.flaticon.com/512/495/495499.png
@@ -41,15 +43,6 @@
 :role-specific-nav-icon: xref:{role-specific-xref}[]
 // :role-specific-nav-icon: xref:{role-specific-xref}[image:{role-specific-image}[width={width-nav-icon}] ASAM Roles]
 
-//standardization
-:standardization-image: https://cdn-icons-png.flaticon.com/512/1375/1375136.png
-:standardization-xref: standardization:home.adoc
-:standardization-icon: xref:{standardization-xref}[image:{standardization-image}[alt= Standardization, width={width-large}, role=right]]
-:standardization-icon-norole: xref:{standardization-xref}[image:{standardization-image}[alt= Standardization, width={width-small}]]
-:standardization-nav-icon: xref:{standardization-xref}[]
-// :standardization-nav-icon: xref:{standardization-xref}[image:{standardization-image}[width={width-nav-icon}] Standardization]
-
-
 //compendium
 :compendium-image: https://cdn-icons-png.flaticon.com/512/1945/1945958.png
 :compendium-xref: compendium:home.adoc
@@ -60,7 +53,7 @@
 
 //project-guide
 :project-guide-image: https://cdn-icons-png.flaticon.com/512/1705/1705243.png
-:project-guide-xref: project-guide:home.adoc
+:project-guide-xref: asamprojectguide-editing:ROOT:home.adoc
 :project-guide-icon: xref:{project-guide-xref}[image:{project-guide-image}[alt= Project Guide, width={width-large}, role=right]]
 :project-guide-icon-norole: xref:{project-guide-xref}[image:{project-guide-image}[alt= Project Guide, width={width-small}]]
 :project-guide-nav-icon: xref:{project-guide-xref}[]
