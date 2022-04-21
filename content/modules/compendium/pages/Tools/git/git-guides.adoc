@@ -12,4 +12,4 @@ include::contributing:partial$_attributes.adoc[]
 
 include::compendium:page$Guidelines/repo-make_changes.adoc[{offset-value}]
 
-include::compendium:page$How-Tos/how-to-cloning_repo_tutorial.adoc[{offset-value}]
+include::compendium:page$How-Tos/cloning_repo_tutorial.adoc[{offset-value}]

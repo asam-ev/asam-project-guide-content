@@ -43,8 +43,8 @@ For more information, see xref:compendium:page$Guidelines/workflow-ticket_triage
 // include::compendium:page$Guidelines/repo-merge_conflicts.adoc[leveloffset=+2, tag=!compendium]
 * xref:compendium:Guidelines/repo-submodules.adoc[]
 // include::compendium:page$Guidelines/repo-submodules.adoc[leveloffset=+2, tag=!compendium]
-* xref:compendium:How-Tos/how-to-access_compiled_artifacts.adoc[]
-// include::compendium:page$How-Tos/how-to-access_compiled_artifacts.adoc[leveloffset=+2, tag=!compendium]
+* xref:compendium:How-Tos/access_compiled_artifacts.adoc[]
+// include::compendium:page$How-Tos/access_compiled_artifacts.adoc[leveloffset=+2, tag=!compendium]
 
 == Conventions
 reference::repo_convention[]

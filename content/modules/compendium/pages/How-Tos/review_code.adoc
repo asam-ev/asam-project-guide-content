@@ -1,0 +1,28 @@
+= Review code
+:description: Describes how to review code and documents from GitLab using Git.
+:keywords: git,gitlab,review,code,TODO
+
+include::compendium:partial$_attributes.adoc[]
+
+{how-to-icon}
+
+
+A team member other than the author reviews the pull request.
+They follow Code Review guidelines to avoid miscommunication.
+
+They make comments and ask questions directly on lines of code in the GitHub web interface or in the project's chat room.
+
+For changes which they can make themselves, they check out the branch.
+
+[source,console]
+----
+git checkout <branch-name>
+./bin/setup
+git diff staging/main..HEAD
+----
+
+
+They make small changes right in the branch, test the feature on their machine, run tests, commit, and push.
+include::compendium:partial$commit_conventions_reminder.adoc[]
+
+When satisfied, they comment on the pull request `Ready to merge.`

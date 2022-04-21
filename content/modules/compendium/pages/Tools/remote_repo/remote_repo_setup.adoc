@@ -37,7 +37,7 @@ GitLab::
 |===
 |{gitlab-icon-norole} +
 {gitlab-url}[ASAM GitLab^]
-a|include::compendium:page$How-Tos/how-to-gitlab-setup.adoc[tag=body]
+a|include::compendium:page$How-Tos/gitlab-setup.adoc[tag=body]
 |===
 --
 GitHub::
@@ -47,7 +47,7 @@ GitHub::
 |===
 |{github-icon-norole} +
 {github-url}[ASAM e.V. on GitHub^]
-a|include::compendium:page$How-Tos/how-to-github-setup.adoc[tag=body]
+a|include::compendium:page$How-Tos/github-setup.adoc[tag=body]
 |===
 --
 ====

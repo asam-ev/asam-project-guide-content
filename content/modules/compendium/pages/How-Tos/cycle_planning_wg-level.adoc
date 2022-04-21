@@ -1,0 +1,85 @@
+= Work-group-level Planning
+:description: A how-to for doing a work-group-level planning for a development cycle.
+:keywords: development-cycle, planning
+:compendium:
+
+include::compendium:partial$_attributes.adoc[]
+
+{how-to-icon}
+
+
+//tag::body[]
+
+[cols="1,5", grid = rows]
+|===
+h|Responsible
+|{role-wg-lead}
+
+h|Involved
+| {role-wg-member},
+{role-service-provider},
+{role-technical-writer}
+
+ifdef::compendium[]
+h| Phase
+| xref:getting-involved:development_phase.adoc#_process_overview[image:compendium:asam/project_lifecycle-development.svg[]]
+
+h| Step
+| image:compendium:asam/development_phase-planning_detail.svg[]
+endif::[]
+
+h| Sub-Step
+| image:compendium:asam/development_phase-planning-wg.svg[]
+
+h| TL;DR
+a| * TODO
+|===
+
+
+== Context
+Each development cycle requires a set of low-level goals that are based on a high-level milestone.
+
+This planning step is done once at the beginning of each cycle.
+Each project may decide when and how to do them, but ASAM recommends to keep the delay between high-level planning and WG-level planning short.
+
+
+== Goals
+* Define target results based on the project-level milestone for the new development cycle
+* Give a detailed estimate of required time per topic
+* Estimated time required and available manpower must overlap (realistic targets)
+* The milestone goals shall be met as closely and completely as possible (ambitious targets)
+* Ensure all WG Members are on the same level
+
+
+== Results
+* The related milestone has been updated
+* Each relevant issue has been created and/or assigned to the milestone
+* Each relevant issue has an assignee
+
+
+== Prerequisites
+The high-level planning for this milestone has been concluded
+
+
+== How
+NOTE: The following is a suggestion by ASAM.
+Feel free to define your own guidelines and rules for these meetings if they work better with your group members.
+
+. Set up a meeting (follow the xref:compendium:Guidelines/coordination-general_meeting_guidelines.adoc[]) with the WG Members
+. Prepare an agenda for the meeting that covers
+* The project-level goals of the milestone
+* Finding existing issues related to these goals and defining missing ones
+* A slot for discussing requirements and restrictions and to ask and answer questions
+* Estimating these issues and assigning them to WG Members
+. Designate one participant to write the meeting notes
+. Have the meeting (recommended: apply the xref:compendium:Guidelines/coordination-meeting_moderation.adoc[Meeting Moderation Guidelines])
+. Update the issues in the remote repository accordingly
++
+TIP: This could be done during the meeting as well.
++
+. Send the meeting notes to the participants
+
+
+// == Troubleshooting
+// TODO
+//end::body[]

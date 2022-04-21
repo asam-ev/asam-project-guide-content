@@ -74,7 +74,7 @@ Enrollment process::
 |{role-gtm}
 |===
 
-xref:compendium:How-Tos/how-to-enroll_for_development.adoc[Enrollment] for the proposed project is opened by ASAM from the Proposal Workshop onwards.
+xref:compendium:How-Tos/enroll_for_development.adoc[Enrollment] for the proposed project is opened by ASAM from the Proposal Workshop onwards.
 
 Enrollment to a project takes place on the ASAM website. +
 An enrollment consists of one or more named individuals who will actively contribute to the project's development. +
@@ -350,7 +350,7 @@ During the Workshop, the xref:proposal/need_for_service_providers.adoc[need for 
 // |{role-gtm}
 // |===
 
-xref:compendium:How-Tos/how-to-enroll_for_development.adoc[Enrollment] for the proposed project is opened by ASAM from the Proposal Workshop onwards.
+xref:compendium:How-Tos/enroll_for_development.adoc[Enrollment] for the proposed project is opened by ASAM from the Proposal Workshop onwards.
 
 Enrollment to a project takes place on the ASAM website. +
 An enrollment consists of one or more named individuals who will actively contribute to the project's development. +
@@ -358,8 +358,8 @@ For each named individual, a clear resource commitment in the form of working da
 
 Applicants for xref:proposal/submit_candidacy.adoc[the role of Project Lead] are also welcomed.
 
-// For more information on the enrollment list, see xref:compendium:How-Tos/how-to-enrollment_list.adoc[] in the Compendium. +
-// For more information on how to enroll for the Development phase, see xref:compendium:How-Tos/how-to-enroll_for_development.adoc[] in the Compendium.
+// For more information on the enrollment list, see xref:compendium:How-Tos/enrollment_list.adoc[] in the Compendium. +
+// For more information on how to enroll for the Development phase, see xref:compendium:How-Tos/enroll_for_development.adoc[] in the Compendium.
 
 ---
 

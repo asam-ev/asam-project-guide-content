@@ -1,0 +1,28 @@
+= Polls & Surveys
+:description: Use polls and surveys with MS Teams
+:keywords: artifact,teams,email,polls,surveys, READYFORREVIEW
+
+include::compendium:partial$_attributes.adoc[]
+
+{how-to-icon}
+
+
+== Context
+Some topics require a coordinated and structure poll.
+Micrsoft Teams offers a tool called "Polly" which is directly integrated and can be used within a Teams channel.
+
+== Result
+* User has created a poll for a topic in a selected channel
+
+== Prerequisites
+* Polly must be activated for the teams channel
+* User must have access to the teams channel
+
+== How
+* You can create a poll to vote or find good meeting slots with either https://www.doodle.com[Doodle^] or Polly
+** Polly is a tool directly in Teams that can be used to create quick polls:
+
+image::compendium:polly-teams.gif[Using Polly]
+
+// == Troubleshooting / Known Issues
+// OPTIONAL

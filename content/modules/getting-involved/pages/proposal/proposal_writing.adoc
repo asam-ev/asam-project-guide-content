@@ -74,12 +74,12 @@ The Editorial Guide is **mandatory** for all Technical Writers and **recommended
 
 // == Creating the executive summary
 
-// include::compendium:page$How-Tos/how-to-executive_draft.adoc[leveloffset=+1, tags=body]
+// include::compendium:page$How-Tos/executive_draft.adoc[leveloffset=+1, tags=body]
 
 
 == Writing the Proposal draft
 
-include::compendium:page$How-Tos/how-to-proposal_writing.adoc[leveloffset=+1, tags=body]
+include::compendium:page$How-Tos/proposal_writing.adoc[leveloffset=+1, tags=body]
 
 
 == Finalizing the Proposal

@@ -26,7 +26,7 @@ It is intended for meetings during the xref:getting-involved:development_phase.a
 ** The Project Lead and the GTM.
 ** The mailto:openx@asam.net[OpenX Calendar] (see xref:compendium:Tools/calendar.adoc[shared OpenX Calendar]).
 ** The Teams channel email; this will post the meeting in the channel for all to see. +
-See xref:compendium:How-Tos/how-to-obtain_channel_email.adoc[].
+See xref:compendium:How-Tos/obtain_channel_email.adoc[].
 
 > To find the list of people registered for your group, see the group's Mailing List.
 Its location is described in the xref:compendium:Guidelines/coordination-teams-channel_file-structure.adoc[Teams&Sharepoint Overview].
@@ -35,7 +35,7 @@ The full project Mailing List is maintained by ASAM, the group's Mailing List is
 
 == Setting up a meeting
 * If you have a Teams license, you can setup a Teams meeting directly.
-See xref:compendium:How-Tos/how-to-meetings_in_teams.adoc[].
+See xref:compendium:How-Tos/meetings_in_teams.adoc[].
 * Otherwise, feel free to use whatever solution you or your company normally use.
 * If all else fails, send the details to your ASAM representative and they will assist (either Teams or Zoom).
 

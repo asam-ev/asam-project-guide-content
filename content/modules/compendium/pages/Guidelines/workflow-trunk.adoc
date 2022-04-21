@@ -117,7 +117,7 @@ Steps::
 . Review implementation progress of issue with {role-wg-lead} and the other {role-wg-member} in Work Group meetings
 . Once the group agrees that the feature is complete:
 .. Change the issue status label to {internalreview-label}
-.. If changes were developed in xref:compendium:How-Tos/how-to-mark_parts_as_draft.adoc[draft sections], remove the encapsulating draft feature flag from the content (make sure that all other content remains within the draft flag) and commit the change.
+.. If changes were developed in xref:compendium:How-Tos/mark_parts_as_draft.adoc[draft sections], remove the encapsulating draft feature flag from the content (make sure that all other content remains within the draft flag) and commit the change.
 .. If there is no xref:compendium:Guidelines/repo-merge-pull_requests.adoc[Merge/Pull Request] for this branch yet, create one
 .. If a Merge/Pull Request exists and is set to "Draft:", remove the draft flag from the Merge/Pull Request name
 .. Add a comment to the Merge/Pull Request to ask for a review by the whole project and the implementers forum: ``/request_review @all``.
@@ -127,12 +127,12 @@ Tips::
 * Issue branches SHOULD be short-lived (no more than 2 weeks) to ensure progress and direction are visible to project members and that it is not too out of sync with other activities.
 * If a branch cannot be short-lived, rebase frequently to incorporate upstream changes.
 Both tips reduce the chance for xref:compendium:Guidelines/repo-merge_conflicts.adoc[**Merge Conflicts**].
-* Create branches xref:compendium:How-Tos/how-to-create_branch_from_issue.adoc[directly from the issue] to ensure the branch is linked to the issue.
+* Create branches xref:compendium:How-Tos/create_branch_from_issue.adoc[directly from the issue] to ensure the branch is linked to the issue.
 ** This also provides the option to set up the related Merge/Pull Request right away.
 This way, the Merge/Pull Request (and its branch) are already accessible through the parent issue.
 ** Adding "DRAFT: " in front of a Merge/Pull Request's name marks it as not ready for merge and disables the "Merge" button.
 This way, the Merge/Pull Request (and its branch) cannot be concluded by accident.
-* Mark passages which are not ready for viewing in the final output as draft (see xref:compendium:How-Tos/how-to-mark_parts_as_draft.adoc[])
+* Mark passages which are not ready for viewing in the final output as draft (see xref:compendium:How-Tos/mark_parts_as_draft.adoc[])
 --
 Review::
 +

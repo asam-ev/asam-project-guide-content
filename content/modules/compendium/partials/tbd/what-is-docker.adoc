@@ -19,7 +19,7 @@ It also means you do not have to install and configure Asciidoctor first since t
 
 If you do not have Docker installed, check out the xref:compendium:Tools/docker.adoc[] before continuing.
 
-If your project is currently missing the docker-compose.yml, see these xref:compendium:How-Tos/how-to-setup_standard_docker_config.adoc[] on how to set it up.
+If your project is currently missing the docker-compose.yml, see these xref:compendium:How-Tos/setup_standard_docker_config.adoc[] on how to set it up.
 
 A project's final specification document is created as HTML file.
 However, having to run it through the pipeline every time before being able to see the final result after having made changes is neither efficient nor friendly to the other workgroup members.

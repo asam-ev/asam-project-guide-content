@@ -5,4 +5,4 @@
 include::partial$_attributes.adoc[]
 
 
-include::compendium:page$How-Tos/how-to-submit_proposal.adoc[tag=body]
+include::compendium:page$How-Tos/submit_proposal.adoc[tag=body]

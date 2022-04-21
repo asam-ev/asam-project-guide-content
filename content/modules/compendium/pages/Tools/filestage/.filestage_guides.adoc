@@ -9,4 +9,4 @@ include::contributing:partial$_attributes.adoc[]
 
 {filestage-icon-page}
 
-include::compendium:page$How-Tos/how-to-filestage_review.adoc[{offset-value}]
+include::compendium:page$How-Tos/filestage_review.adoc[{offset-value}]

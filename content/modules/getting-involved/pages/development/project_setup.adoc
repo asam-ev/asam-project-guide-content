@@ -4,4 +4,4 @@
 
 include::partial$_attributes.adoc[]
 
-include::compendium:page$How-Tos/how-to-setup_development_git.adoc[tag=body]
+include::compendium:page$How-Tos/setup_development_git.adoc[tag=body]

@@ -5,6 +5,6 @@
 include::partial$_attributes.adoc[]
 
 
-include::compendium:page$How-Tos/how-to-prepare_proposal_workshop.adoc[tag=body]
+include::compendium:page$How-Tos/prepare_proposal_workshop.adoc[tag=body]
 
 related::proposal-workshop[]

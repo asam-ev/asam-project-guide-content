@@ -33,12 +33,12 @@ Since the latter depend on the former, the <<Project-level Planning>> must occur
 
 
 == Project-level Planning
-include::compendium:How-Tos/how-to-cycle_planning_project-level.adoc[tag=body, leveloffset=+1]
+include::compendium:How-Tos/cycle_planning_project-level.adoc[tag=body, leveloffset=+1]
 
 ---
 
 == Work-group-level Planning
-include::compendium:How-Tos/how-to-cycle_planning_wg-level.adoc[tag=body, leveloffset=+1]
+include::compendium:How-Tos/cycle_planning_wg-level.adoc[tag=body, leveloffset=+1]
 
 
 related::development-cycle[]

@@ -1,0 +1,61 @@
+   = Setup project proposal repository
+:description: Describes how to set up a new project proposal.
+:keywords: proposal, setup
+
+include::compendium:partial$_attributes.adoc[]
+
+{how-to-icon}
+
+
+//tag::body[]
+//tag::roles[]
+[cols="1,5", grid = rows]
+|===
+h|Responsible
+| {role-gtm}
+
+h|Involved
+| {role-idea-giver}, {role-wg-member}
+
+ifdef::compendium[]
+h| Phase
+| xref:getting-involved:proposal_phase.adoc#_process_overview[image:compendium:asam/project_lifecycle-proposal.svg[]]
+endif::[]
+
+h| Step
+| image:compendium:asam/proposal_phase_v2-proposal_setup.svg[]
+
+h|TL;DR
+a| * If completely new, create new subgroup with the proposed project name in https://code.asam.net/simulation[**Simulation**^] and add members
+* If not new, update the assigned members
+* Fork the https://code.asam.net/common/templates/proposal-template[**proposal template repository**^] into this proposal subgroup as "<project-name> Proposal"
+* Inform members
+|===
+//end::roles[]
+
+== Context
+The basis for collaboration on Proposals at ASAM is GitLab.
+In order for project members and the Proposal Submitter to work on their respective project, a new Proposal repository has to be created.
+
+== Result
+A new Proposal repository has been created and the link been provided to all current project members.
+
+== Prerequisites
+* The idea has been proposed and approved in the xref:getting-involved:ideation_phase.adoc#_process_overview[Ideation Phase].
+
+== How
+
+. In case of a new standard, https://docs.gitlab.com/ee/user/group/subgroups/#creating-a-subgroup[create a new subgroup^] in the group https://code.asam.net/simulation[**Simulation**^] with the target name of the standard (e.g. "OpenDRIVE").
++
+NOTE: If this is an evolution of an existing standard, use the existing subgroup instead
++
+.. xref:compendium:How-Tos/forking_repo.adoc[Fork] the latest version of the https://code.asam.net/common/templates/proposal-template[**proposal template repository**^].
+* The structure of the repository is explained in the included README
+.. Rename the forked project to `<THIS_STANDARD> Proposal`, where `<THIS_STANDARD>` is the target name of the standard.
+.. Follow the instructions in the https://code.asam.net/common/templates/proposal-template/-/blob/master/README.adoc[**template repository's README**^]
+. Add all current proposal members to the subgroup (the one directly in "Simulation").
+. Send a mail with the link to the new project to the proposal members, informing them that the repository is now ready for use.
+
+//end::body[]
+
+// For the future: https://code.asam.net/internal/proposal-generator

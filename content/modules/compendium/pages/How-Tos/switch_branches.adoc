@@ -1,0 +1,31 @@
+ = Switch branches
+:description: A how-to for switching branches with git
+:keywords: git,gitlab,branch,vscode, TODO
+:page-aliases: guides/switch_branches.adoc
+
+include::compendium:partial$_attributes.adoc[]
+
+{how-to-icon}
+
+
+
+== Switch to a other branch on your local copy
+
+IMPORTANT: Please make sure to use pull the latest updates from the repository before switching branches, otherwise you could run into trouble on your local system due to file conflicts.
+
+=== Switch branch using the git bash
+
+    git fetch origin # update your local copy with all changes in the remote version
+    git checkout -b "BRANCH_NAME" "origin/BRANCHNAME" # switch to the branch
+
+=== Switch branch using git graph
+
+To use Git Graph switch to the integrated Source Control of VS-Code and activate Git Graph (top left side, marked in the image below). +
+Now select a desired branch and open the Context Menu to use the "Checkout Branch" command, now your local repository is changed to that branch.
+
+image::git_graph.png[img62, 900, title="using Git Graph"]
+
+
+TODO
+image::compendium:workflow_tut_switch_branch.png[img3, 1100,title="select branch"]
+

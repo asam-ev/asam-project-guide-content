@@ -5,4 +5,4 @@
 include::partial$_attributes.adoc[]
 
 
-include::compendium:page$How-Tos/how-to-submit_candidacy_pl.adoc[tag=body]
+include::compendium:page$How-Tos/submit_candidacy_pl.adoc[tag=body]
