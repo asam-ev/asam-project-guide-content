@@ -1,4 +1,4 @@
-= Standard expert group
+= Standard Expert Group
 :description: Describes a standard expert group (member) from ASAM project view.
 :keywords: role, READYFORREVIEW
 :page-partial:

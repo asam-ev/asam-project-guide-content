@@ -1,4 +1,4 @@
-= Standard user
+= Standard User
 :description: Summary and landing page for standad users.
 :keywords: role, role-landing-page, REVIEWED_TODO
 :page-partial:
