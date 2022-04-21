@@ -3,7 +3,9 @@
 :keywords: enroll, development, proposal
 :compendium:
 
+//tag::body[]
 include::compendium:partial$_attributes.adoc[]
+//end::body[]
 
 {how-to-icon}
 

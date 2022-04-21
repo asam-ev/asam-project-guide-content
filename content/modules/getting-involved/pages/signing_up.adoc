@@ -29,16 +29,19 @@ The enrollment process starts with the xref:proposal/join_proposal_workshop.adoc
 Ideation::
 +
 --
-
-include::compendium:page$How-Tos/enroll_for_ideation.adoc[tag=body, leveloffset=+1]
+[grid=none, frame=none]
+|===
+a|include::compendium:page$How-Tos/enroll_for_ideation.adoc[tag=body, leveloffset=+1]
+|===
 
 --
 Proposal and Development::
 +
 --
-
-include::compendium:page$How-Tos/enroll_for_development.adoc[tag=body, leveloffset=+1]
-
+[grid=none, frame=none]
+|===
+a|include::compendium:page$How-Tos/enroll_for_development.adoc[tag=body, leveloffset=+1]
+|===
 
 IMPORTANT: If a member intends to commit a work effort of less than 50% of the average of the work efforts committed by all other project group members, then the Office can deny the registration.
 The member or the office can escalate the issue to the TSC.

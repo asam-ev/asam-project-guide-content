@@ -55,7 +55,7 @@ See the https://www.asam.net/active-projects/ideation/how-it-works/[ASAM website
 . The GTM investigates if there are any other standards or standardization projects in that area
 . Idea Giver and GTM detail the proposed idea further
 . The GTM will then post the mutually agreed concept
-. Interested companies world-wide can comment on the idea and xref:getting-involved:signing_up/enroll_for_ideation.adoc[enroll for updates on the proposed idea]
+. Interested companies world-wide can comment on the idea and xref:getting-involved:signing_up.adoc[enroll for updates on the proposed idea]
 
 * If the proposed topic is a new standard, the next step is to organize an xref:getting-involved:ideation/developing_an_idea.adoc[Ideation Workshop].
 * If the proposed topic intends to update or extend an existing standard, the Idea Giver continues to xref:getting-involved:ideation/raising_interest.adoc[gather enough participants] for the Proposal phase.
