@@ -10,8 +10,6 @@ include::compendium:partial$_attributes.adoc[]
 {how-to-icon}
 
 
-//tag::body[]
-
 [cols="1,5", grid = rows]
 |===
 h|Responsible
@@ -30,8 +28,10 @@ h|Involved
 
 h| TL;DR
 a| * TODO
+
 |===
 
+//tag::body[]
 
 == Context
 You are interested in joining an ASAM project for active development?
