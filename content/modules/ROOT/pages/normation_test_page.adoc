@@ -72,9 +72,21 @@ Note that the output depends on the provided css!
 If no css changes have been made, this will look like any normal paragraph.
 
 [.non-normative]
+.Non-normative
 --
 This text is non-normative.
 It is marked as such and can be easily identified.
 
 This uses a custom class "non-normative" that can be assigned specific css rules.
 --
+
+
+:note-caption: NON-NORMATIVE
+[NOTE]
+====
+This text is non-normative.
+It is marked as such and can be easily identified.
+
+This uses a custom class "non-normative" that can be assigned specific css rules.
+====
+:note-caption: NOTE
