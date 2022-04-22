@@ -208,7 +208,7 @@ ASAM Writing Guide: File names
 
 * Eliminate any spaces or tabs at each end of line.
 * Check the settings of the text editor to automatically remove trailing whitespace characters:
-** https://asam-ev.github.io/asam-project-guide/asamprojectguide/latest/tooling/vscode/vscode-guides.html#_automatic_removal_of_spaces_after_periods[Settings for Visual Studio Code]
+** xref:compendium:Guidelines/vscode-recommended_vscode_settings.adoc#_automatic_removal_of_spaces_after_periods[Settings for Visual Studio Code]
 
 *Exceptions*
 
