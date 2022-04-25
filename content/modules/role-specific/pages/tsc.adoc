@@ -8,7 +8,8 @@ include::partial$_attributes.adoc[]
 
 {tsc-description}
 
-NOTE: This role is not explicitely covered in this Project Guide.
+[horizontal,role=right]
+Label:: {role-tsc-member}
 
 == Description
 * TODO
