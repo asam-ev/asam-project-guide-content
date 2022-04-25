@@ -1,6 +1,6 @@
 = Review code
 :description: Describes how to review code and documents from GitLab using Git.
-:keywords: git,gitlab,review,code,TODO
+:keywords: git,gitlab,review,code
 
 include::compendium:partial$_attributes.adoc[]
 

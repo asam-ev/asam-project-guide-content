@@ -1,6 +1,6 @@
 = Using roles
 :description: Describes how to link a page to a role.
-:keywords: how-to, role, READYFORREVIEW
+:keywords: how-to, role
 
 include::partial$_attributes.adoc[]
 

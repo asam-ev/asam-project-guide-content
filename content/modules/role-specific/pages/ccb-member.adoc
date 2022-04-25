@@ -1,0 +1,6 @@
+= Change Control Board member
+:description: A summary page describing the role of CCB member.
+
+include::partial$_attributes.adoc[]
+
+TODO

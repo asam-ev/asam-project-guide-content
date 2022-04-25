@@ -11,7 +11,7 @@ h|Responsible
 | {role-project-lead}, {role-ccb}
 
 h|Involved
-| {role-wg-lead}, {role-wg-member}, {role-service-provider}, {role-technical-writer}
+| {role-wg-lead}, {role-project-participant}, {role-service-provider}, {role-technical-writer}
 
 h| Step
 | image:compendium:asam/development_phase-planning_detail.svg[]

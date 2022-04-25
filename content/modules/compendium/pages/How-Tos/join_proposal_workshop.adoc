@@ -1,4 +1,4 @@
- = Join a Proposal Workshop
+= Join a Proposal Workshop
 :description: Describes how to join a Proposal Workshop.
 :keywords: proposal, proposal-workshop
 
@@ -12,7 +12,7 @@ include::compendium:partial$_attributes.adoc[]
 [cols="1,5", grid = rows]
 |===
 h|Responsible
-| {role-member} / {role-standard-user}
+| {role-member} / {role-standard-user} -> {role-project-participant}
 
 h|Involved
 | {role-gtm}

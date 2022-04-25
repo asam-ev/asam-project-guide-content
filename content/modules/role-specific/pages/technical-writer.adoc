@@ -1,6 +1,6 @@
 = Technical Writer
 :description: Summary and landing page for technical writers.
-:keywords: role, role-landing-page, TODO
+:keywords: role, role-landing-page
 
 include::partial$_attributes.adoc[]
 

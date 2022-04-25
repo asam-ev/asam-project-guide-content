@@ -1,6 +1,6 @@
 = Workgroup Lead
 :description: Summary and landing page for workgroup leads.
-:keywords: role, role-landing-page, TODO
+:keywords: role, role-landing-page
 
 include::partial$_attributes.adoc[]
 

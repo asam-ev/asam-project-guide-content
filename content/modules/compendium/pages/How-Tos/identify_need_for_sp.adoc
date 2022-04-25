@@ -1,4 +1,4 @@
-   = Identify the need for Service Providers
+= Identify the need for Service Providers
 :description: How to identify the need for Service Providers.
 :keywords: service-provider, proposal
 
@@ -14,18 +14,15 @@ include::compendium:partial$_attributes.adoc[]
 [cols="1,5", grid = rows]
 |===
 h|Responsible
-| {role-proposal-submitter}
+| {role-idea-giver}
 
 h|Involved
-| {role-wg-member}
+| {role-project-participant}
 
 ifdef::compendium[]
 h| Phase
 | xref:getting-involved:proposal_phase.adoc#_process_overview[image:compendium:asam/project_lifecycle-proposal.svg[]]
 endif::[]
-
-h| Step
-| TODO
 
 h|TL;DR
 a| * TODO

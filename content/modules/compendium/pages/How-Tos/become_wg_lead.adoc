@@ -17,7 +17,7 @@ h|Target Role
 |{role-wg-lead}
 
 h|Eligible
-|{role-wg-member}
+|{role-project-participant}
 
 h|Requirements
 a|* Commitment to project declared

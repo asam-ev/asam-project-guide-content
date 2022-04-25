@@ -1,7 +1,9 @@
 = Contribution workflow
-:description: any
-:keywords: any
+:description: Explains the basic contribution workflows.
+:keywords: basics
 
 include::partial$_attributes.adoc[]
+
+{role-project-participant}
 
 include::compendium:Tools/remote_repo/remote_repo_guides.adoc[tags=body;!icon]

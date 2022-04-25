@@ -1,6 +1,6 @@
 = Adding a task page
 :description: Explains how to add a new page for a task to the Project Guide and what to look out for.
-:keywords: task,page,project-guide,new-content-guide, READYFORREVIEW
+:keywords: task,page,project-guide,new-content-guide
 :page_reason: tasks
 :page_template_name: template-artifact-page.adoc
 :page_template_alt_name: artifact template

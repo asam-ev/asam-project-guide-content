@@ -1,6 +1,6 @@
 = AsciiDoc Guide
 :description: An overview over AsciiDoc and how it works.
-:keywords: asciidoc, guide
+:keywords: asciidoc, guide, doc-as-code
 :navtitle: [AsciiDoc] AsciiDoc Guide
 
 include::compendium:partial$_attributes.adoc[]
@@ -9,7 +9,7 @@ include::compendium:partial$_attributes.adoc[]
 
 {role-technical-writer}
 {role-project-lead}
-{role-wg-member}
+{role-project-participant}
 
 TIP: See xref:compendium:Guidelines/asciidoc-writing_guide.adoc[] for ASAM-specific writing style guidelines.
 

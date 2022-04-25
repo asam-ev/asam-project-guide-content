@@ -1,6 +1,6 @@
 = Referencing/including
 :description: Collects all pages on including or referencing content in Antora.
-:keywords: project-guide, TODO
+:keywords: project-guide
 
 include::partial$_attributes.adoc[]
 

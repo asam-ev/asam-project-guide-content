@@ -1,6 +1,6 @@
 = Docker
 :description: A summary page describing what Docker is and where to find related information, guides etc.
-:keywords: docker,summary,tool,recommended,TODO
+:keywords: docker,summary,tool,recommended, doc-as-code
 
 include::partial$_attributes.adoc[]
 include::contributing:partial$_attributes.adoc[]
@@ -11,6 +11,9 @@ include::contributing:partial$_attributes.adoc[]
 include::contributing:partial$icon_reminder.adoc[tag=download-link]
 
 {docker-icon}
+
+{role-technical-writer}
+{role-service-provider}
 
 //tag::summary[]
 Docker is a platform where you use so-called containers to run applications in an encapsulated environment.

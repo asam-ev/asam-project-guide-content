@@ -1,6 +1,6 @@
 = Draw.io
 :description: A summary page describing what Draw.io is and where to find related information, guides etc.
-:keywords: drawio,summary,tool,recommended,READYFORREVIEW
+:keywords: drawio,summary,tool,recommended
 
 include::partial$_attributes.adoc[]
 include::contributing:partial$_attributes.adoc[]
@@ -11,6 +11,10 @@ include::contributing:partial$_attributes.adoc[]
 include::contributing:partial$icon_reminder.adoc[tag=online-access]
 
 {drawio-icon}
+
+{role-project-participant}
+{role-technical-writer}
+{role-service-provider}
 
 Draw.io is a free tool for creating diagrams.
 The tool can be downloaded and run locally (as {drawio-download}[Draw.io Desktop^]), accessed through a web browser (through {drawio-url}[Draw.io web link with ASAM library^]), or be used through the Visual Studio Code extension (id: hediet.vscode-drawio).

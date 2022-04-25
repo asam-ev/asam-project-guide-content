@@ -1,6 +1,6 @@
 = Submodules
 :description: Describes submodules and their usage in Git.
-:keywords: git,gitlab,submodule, READYFORREVIEW
+:keywords: git,gitlab,submodule
 :navtitle: [Repository] Submodules
 
 include::compendium:partial$_attributes.adoc[]
@@ -10,7 +10,7 @@ include::compendium:partial$_attributes.adoc[]
 //tag::body[]
 
 //tag::compendium[]
-{role-wg-member}
+{role-project-participant}
 {role-technical-writer}
 {role-gtm}
 //end::compendium[]

@@ -7,7 +7,7 @@
 include::compendium:partial$_attributes.adoc[]
 
 {role-technical-writer}
-{role-wg-member}
+{role-project-participant}
 
 This document contains the ASAM Editorial Guide for technical writers and workgroup members.
 It contains editorial rules for contributing content to a project in written form.

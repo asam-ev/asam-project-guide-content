@@ -1,6 +1,6 @@
 = Setting up Draw.io
 :description: How to set up drawio for ASAM projects.
-:keywords: task,fragment,setup,drawio,READYFORREVIEW
+:keywords: setup,drawio
 :library-repo: https://code.asam.net/common/asam-graphic-library/
 
 include::partial$_attributes.adoc[]

@@ -1,6 +1,6 @@
 = Macro: role_related
 :description: Describes the use of the macro "role_related" in detail.
-:keywords: macro,asam,antora,custom, REVIEWED_OK
+:keywords: macro,asam,antora,custom
 :page-aliases: macros/macro-role_related.adoc
 
 include::partial$_attributes.adoc[]

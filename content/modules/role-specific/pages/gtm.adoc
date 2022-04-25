@@ -1,6 +1,6 @@
 =  ASAM Global Technology Manager
 :description: Summary and landing page for GTMs.
-:keywords: role, role-landing-page, READYFORREVIEW
+:keywords: role, role-landing-page
 
 include::partial$_attributes.adoc[]
 

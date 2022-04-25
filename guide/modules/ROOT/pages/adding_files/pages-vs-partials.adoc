@@ -1,6 +1,6 @@
 = Pages vs partials
 :description: Describes the differences between pages and partials and when to use which.
-:keywords: page,partial,project-guide, READYFORREVIEW
+:keywords: page,partial,project-guide
 :page-aliases: adding_content/pages-vs-partials.adoc
 
 

@@ -1,6 +1,6 @@
 = Project Guide versioning concept
 :description: Describes the versioning concept of the Project Guide.
-:keywords: antora,structure,project-guide,versioning, TODO
+:keywords: antora,structure,project-guide,versioning
 :page-aliases: structure/versioning_concept.adoc
 
 include::partial$_attributes.adoc[]

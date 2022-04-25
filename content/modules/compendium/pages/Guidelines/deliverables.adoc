@@ -1,6 +1,6 @@
 = ASAM Deliverables
 :description: Summarizes the expected deliverables for ASAM projects.
-:keywords: deliverable,standardization, TODO
+:keywords: deliverable,standardization
 :navtitle: [] ASAM Deliverables
 
 

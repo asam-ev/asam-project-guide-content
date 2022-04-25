@@ -1,6 +1,6 @@
 = Setting up your repository account
 :description: How to setup your ASAM account.
-:keywords: task,fragment,setup,gitlab, github,account
+:keywords: setup,gitlab, github,account
 
 //tag::body[]
 

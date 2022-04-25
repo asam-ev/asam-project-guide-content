@@ -1,6 +1,6 @@
 = Contributing through issues
 :description: Describes how to contribute through issues.
-:keywords: proposal, gitlab, issue, TODO
+:keywords: proposal, gitlab, issue, doc-as-code
 :navtitle: [Workflow] Contributing Through Issues
 //tag::compendium[]
 //tag::numbered[]
@@ -14,7 +14,7 @@ include::compendium:partial$_attributes.adoc[]
 
 //tag::compendium[]
 //tag::roles[]
-{role-wg-member}
+{role-project-participant}
 {role-wg-lead}
 {role-project-lead}
 {role-idea-giver}

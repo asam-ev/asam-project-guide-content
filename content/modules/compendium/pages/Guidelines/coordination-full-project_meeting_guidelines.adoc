@@ -48,7 +48,7 @@ Typically, each type of meeting occurs at least every 2 months during an active 
 |Minutes
 |{role-project-lead}
 |yes
-|{role-wg-member}
+|{role-project-participant}
 
 |xref:compendium:Guidelines/coordination-meeting_logistics.adoc[Logistics]
 |{role-gtm}

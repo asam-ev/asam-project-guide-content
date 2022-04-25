@@ -34,25 +34,20 @@ a|* xref:getting-involved:ideation_phase.adoc#_process_overview[Ideation phase]
 | The submitter of an idea for a new ASAM project.
 Must become an ASAM member (if not) before the project starts to continue participation.
 
-|{role-proposal-submitter}
-| nA
-|xref:getting-involved:proposal_phase.adoc#_process_overview[Proposal phase]
-| A member of ASAM
-
-| {role-wg-member}
+| {role-project-participant}
 | {role-member}
 a| * xref:getting-involved:proposal_phase.adoc#_process_overview[Proposal phase]
 * xref:getting-involved:development_phase.adoc#_process_overview[Development phase]
-| {wg-member-description}
+| {project-participant-description}
 
 
 | {role-project-lead}
-| {role-wg-member}
+| {role-project-participant}
 | xref:getting-involved:development_phase.adoc#_process_overview[Development phase]
 | {project-lead-description}
 
 | {role-wg-lead}
-| {role-wg-member}
+| {role-project-participant}
 | xref:getting-involved:development_phase.adoc#_process_overview[Development phase]
 | {wg-lead-description}
 
@@ -72,7 +67,7 @@ a| * xref:getting-involved:proposal_phase.adoc#_process_overview[Proposal phase]
 | {standard-user-description}
 
 | {role-standard-manager}
-| {role-wg-member}
+| {role-project-participant}
 |
 | {standard-manager-description}
 
@@ -151,16 +146,16 @@ a|* xref:getting-involved:ideation_phase.adoc#_process_overview[Ideation phase]
 | The submitter of an idea for a new ASAM project.
 Must become an ASAM member (if not) before the project starts to continue participation.
 
-|{role-proposal-submitter}
+|
 | nA
 |xref:getting-involved:proposal_phase.adoc#_process_overview[Proposal phase]
 | A member of ASAM
 
-| {role-wg-member}
+| {role-project-participant}
 | {role-member}
 a| * xref:getting-involved:proposal_phase.adoc#_process_overview[Proposal phase]
 * xref:getting-involved:development_phase.adoc#_process_overview[Development phase]
-| {wg-member-description}
+| {project-participant-description}
 
 
 | {role-standard-user}
@@ -176,20 +171,20 @@ Development::
 |===
 |Role |Parent Role |Involved in  | Description
 
-| {role-wg-member}
+| {role-project-participant}
 | {role-member}
 a| * xref:getting-involved:proposal_phase.adoc#_process_overview[Proposal phase]
 * xref:getting-involved:development_phase.adoc#_process_overview[Development phase]
-| {wg-member-description}
+| {project-participant-description}
 
 
 | {role-project-lead}
-| {role-wg-member}
+| {role-project-participant}
 | xref:getting-involved:development_phase.adoc#_process_overview[Development phase]
 | {project-lead-description}
 
 | {role-wg-lead}
-| {role-wg-member}
+| {role-project-participant}
 | xref:getting-involved:development_phase.adoc#_process_overview[Development phase]
 | {wg-lead-description}
 
@@ -219,20 +214,20 @@ a| * xref:getting-involved:ideation_phase.adoc#_process_overview[Ideation phase]
 * xref:getting-involved:review_phase.adoc#_process_overview[Review phase]
 | A member of ASAM
 
-| {role-wg-member}
+| {role-project-participant}
 | {role-member}
 a| * xref:getting-involved:proposal_phase.adoc#_process_overview[Proposal phase]
 * xref:getting-involved:development_phase.adoc#_process_overview[Development phase]
-| {wg-member-description}
+| {project-participant-description}
 
 
 | {role-project-lead}
-| {role-wg-member}
+| {role-project-participant}
 | xref:getting-involved:development_phase.adoc#_process_overview[Development phase]
 | {project-lead-description}
 
 | {role-wg-lead}
-| {role-wg-member}
+| {role-project-participant}
 | xref:getting-involved:development_phase.adoc#_process_overview[Development phase]
 | {wg-lead-description}
 
@@ -266,12 +261,12 @@ Release::
 |Role |Parent Role |Involved in  | Description
 
 | {role-project-lead}
-| {role-wg-member}
+| {role-project-participant}
 | xref:getting-involved:development_phase.adoc#_process_overview[Development phase]
 | {project-lead-description}
 
 | {role-standard-manager}
-| {role-wg-member}
+| {role-project-participant}
 |
 | {standard-manager-description}
 
@@ -297,7 +292,7 @@ a| * xref:getting-involved:ideation_phase.adoc#_process_overview[Ideation phase]
 | {standard-user-description}
 
 | {role-standard-manager}
-| {role-wg-member}
+| {role-project-participant}
 |
 | {standard-manager-description}
 

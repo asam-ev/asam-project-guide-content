@@ -1,6 +1,6 @@
 = Install VScode Extensions
 :description: Explains how to install extensions for VSCode.
-:keywords: vscode,extensions, READYFORREVIEW
+:keywords: vscode,extensions
 
 include::compendium:partial$_attributes.adoc[]
 

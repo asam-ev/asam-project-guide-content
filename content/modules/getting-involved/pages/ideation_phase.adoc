@@ -1,6 +1,6 @@
 = Ideation phase
 :description: Describes how to enter a new idea into the ideation process.
-:keywords: ideation, idea
+:keywords: ideation, standardization
 
 include::partial$_attributes.adoc[]
 

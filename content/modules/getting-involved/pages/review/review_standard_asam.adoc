@@ -1,6 +1,6 @@
 = Review a standard (ASAM member review)
 :description: Describes how to review a standard between ASAM members.
-:keywords: review, REVIEWED_OK
+:keywords: review
 
 include::partial$_attributes.adoc[]
 

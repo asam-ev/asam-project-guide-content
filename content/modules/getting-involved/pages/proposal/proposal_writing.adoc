@@ -8,10 +8,10 @@ include::partial$_attributes.adoc[]
 [cols="1,5", grid = rows]
 |===
 h|Responsible
-| {role-idea-giver}, {role-proposal-submitter}
+| {role-idea-giver}, {role-project-participant}
 
 h|Involved
-a| {role-wg-member}, {role-gtm}
+a| {role-gtm}
 
 h| Steps
 | image:compendium:asam/proposal_phase_v2-proposal_writing.svg[]
@@ -87,9 +87,9 @@ include::compendium:page$How-Tos/proposal_writing.adoc[leveloffset=+1, tags=body
 [cols="1,5", grid = rows]
 |===
 h|Responsible
-|{role-proposal-submitter}
+|
 h|Involved
-| {role-wg-member}, {role-gtm}
+| {role-project-participant}, {role-gtm}
 
 h| Step
 | image:compendium:asam/proposal_phase_v2-proposal_writing_finalization.svg[]

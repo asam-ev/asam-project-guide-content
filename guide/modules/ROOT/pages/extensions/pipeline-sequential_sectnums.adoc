@@ -1,6 +1,6 @@
 = Pipeline: Sequential numbering
 :description: Describes the use of the pipeline extension "Sequential numbering" in detail.
-:keywords: pipeline,asam,antora,asciidoctor,custom, REVIEWED_OK
+:keywords: pipeline,asam,antora,asciidoctor,custom
 
 include::partial$_attributes.adoc[]
 

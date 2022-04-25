@@ -1,6 +1,6 @@
-  = Setting up your GitLab account
+= Setting up your GitLab account
 :description: How to setup your ASAM account.
-:keywords: task,fragment,setup,gitlab, github,account
+:keywords: setup,gitlab, github,account
 
 include::compendium:partial$_attributes.adoc[]
 

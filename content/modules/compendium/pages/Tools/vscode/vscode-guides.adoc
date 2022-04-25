@@ -1,6 +1,6 @@
 = Visual Studio Code guides
 :description: A guide for VSCode explaining basic ui and usability topics.
-:keywords: guide, vscode,READYFORREVIEW
+:keywords: guide, vscode
 
 :level-main: 1
 :level-sub: 2

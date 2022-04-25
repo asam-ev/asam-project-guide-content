@@ -1,6 +1,6 @@
-  = Forking from repositories
+= Forking from repositories
 :description: Describes how and when to fork from another repository.
-:keywords: fork, git, repo
+:keywords: git, repo
 
 include::compendium:partial$_attributes.adoc[]
 
@@ -8,7 +8,7 @@ include::compendium:partial$_attributes.adoc[]
 
 
 //tag::compendium[]
-{role-wg-member}
+{role-project-participant}
 {role-technical-writer}
 {role-gtm}
 //end::compendium[]

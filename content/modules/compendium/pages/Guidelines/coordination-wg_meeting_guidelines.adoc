@@ -1,6 +1,6 @@
 = Work Group meeting guidelines
 :description: TODO
-:keywords: wg, meeting, guideline
+:keywords: meeting, guideline
 :navtitle: [Coordination] Work Group Meeting Guidelines
 
 include::compendium:partial$_attributes.adoc[]
@@ -11,7 +11,7 @@ include::compendium:partial$_attributes.adoc[]
 
 {role-wg-lead}
 
-participates: {role-wg-member}
+participates: {role-project-participant}
 
 TODO
 

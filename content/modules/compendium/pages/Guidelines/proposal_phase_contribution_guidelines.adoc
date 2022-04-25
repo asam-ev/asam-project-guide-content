@@ -12,7 +12,7 @@ include::compendium:partial$_attributes.adoc[]
 [cols="1,5", grid = rows]
 |===
 h|Involved roles
-a| * {role-wg-member}
+a| * {role-project-participant}
 * {role-project-lead}
 
 ifdef::compendium[]

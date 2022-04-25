@@ -1,6 +1,6 @@
 = Microsoft Teams and Sharepoint
 :description: A summary page describing what MS Teams and Sharepoint are and where to find related information, guides etc.
-:keywords: teams,sharepoint,summary,tool,mandatory,TODO
+:keywords: teams,sharepoint,summary,tool,mandatory
 :page-layout: responsible
 :page-responsible-name: Benjamin Engel
 :page-responsible-contact: benjamin.engel(at)asam.net
@@ -11,6 +11,9 @@ include::contributing:partial$_attributes.adoc[]
 
 
 {mandatory}
+
+{role-wg-lead}
+{role-project-lead}
 
 TIP: Click the Sharepoint icon on the right to directly access ASAM's sharepoint, or click the Team icon to access the MS Teams download page.
 
@@ -44,10 +47,10 @@ IMPORTANT: Project files such as chapters, specifications, or images intended fo
 [cols="^1h,4",frame=none, grid=rows, stripes=hover]
 |===
 
-|xref:compendium:Tools/teams_and_sharepoint/teams-and-sharepoint-setup.adoc[image:{setup-image}[width=120,title="Teams And Sharepoint Setup"]]
+|xref:compendium:Tools/teams_and_sharepoint/teams_and_sharepoint-setup.adoc[image:{setup-image}[width=120,title="Teams And Sharepoint Setup"]]
 |Teams And Sharepoint Setup
 
-|xref:compendium:Tools/teams_and_sharepoint/teams-and-sharepoint-guides.adoc[image:{guide-image}[width=120,title="Teams And Sharepoint Guides"]]
+|xref:compendium:Tools/teams_and_sharepoint/teams_and_sharepoint-guides.adoc[image:{guide-image}[width=120,title="Teams And Sharepoint Guides"]]
 |Teams And Sharepoint Guides
 
 |===

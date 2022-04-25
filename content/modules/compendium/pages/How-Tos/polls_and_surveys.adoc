@@ -1,6 +1,6 @@
 = Polls & Surveys
 :description: Use polls and surveys with MS Teams
-:keywords: artifact,teams,email,polls,surveys, READYFORREVIEW
+:keywords: teams,email,surveys
 
 include::compendium:partial$_attributes.adoc[]
 

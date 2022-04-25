@@ -1,6 +1,6 @@
 = Formulas
 :description: How-To for including formulas in ASAM documents (standards).
-:keywords: asciidoc,formula,how-to, READYFORREVIEW
+:keywords: asciidoc
 :navtitle: [AsciiDoc] Formulas
 
 include::compendium:partial$_attributes.adoc[]

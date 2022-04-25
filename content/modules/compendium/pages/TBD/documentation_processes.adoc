@@ -6,7 +6,7 @@
 include::compendium:partial$_attributes.adoc[]
 
 {role-technical-writer}
-{role-wg-member}
+{role-project-participant}
 
 
 IMPORTANT: This has to be unified with the existing workflow/issue definitions

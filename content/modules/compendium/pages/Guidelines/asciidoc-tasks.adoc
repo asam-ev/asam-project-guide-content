@@ -1,6 +1,6 @@
 = Task headings
 :description: How-To for using task headings in ASAM documents (standards).
-:keywords: asciidoc,tasks,how-to, READYFORREVIEW
+:keywords: asciidoc,tasks
 :navtitle: [AsciiDoc] Task Headings
 
 include::compendium:partial$_attributes.adoc[]

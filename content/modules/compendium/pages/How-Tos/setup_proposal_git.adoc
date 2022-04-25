@@ -1,4 +1,4 @@
-   = Setup project proposal repository
+= Setup project proposal repository
 :description: Describes how to set up a new project proposal.
 :keywords: proposal, setup
 
@@ -15,7 +15,7 @@ h|Responsible
 | {role-gtm}
 
 h|Involved
-| {role-idea-giver}, {role-wg-member}
+| {role-idea-giver}, {role-project-participant}
 
 ifdef::compendium[]
 h| Phase

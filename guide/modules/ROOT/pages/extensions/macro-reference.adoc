@@ -1,6 +1,6 @@
 = Macro: reference
 :description: Describes the use of the macro "reference" in detail.
-:keywords: macro,asam,antora,custom, REVIEWED_OK
+:keywords: macro,asam,antora,custom
 :page-aliases: macros/macro-reference.adoc
 
 include::partial$_attributes.adoc[]

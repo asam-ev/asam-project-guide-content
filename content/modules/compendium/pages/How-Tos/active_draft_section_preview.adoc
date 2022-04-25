@@ -1,4 +1,4 @@
-   = Activate draft section preview
+= Activate draft section preview
 :description: Explains how to activate the draft section preview.
 :keywords: draft
 

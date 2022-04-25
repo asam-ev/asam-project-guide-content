@@ -1,6 +1,6 @@
-= Adding VSCode Support For Diagrams With Kroki
+= Adding VSCode support for diagrams with Kroki
 :description: Describes how to add support for diagrams with kroki in VSCode.
-:keywords: vscode,kroki,diagrams, READYFORREVIEW
+:keywords: vscode,diagrams
 
 include::compendium:partial$_attributes.adoc[]
 

@@ -14,10 +14,10 @@
 :standard-tooling-xref: xref:compendium:Tools/
 :drawio-xref: {standard-tooling-xref}drawio.adoc
 :calendar-xref: {standard-tooling-xref}calendar.adoc
-:sharepoint-xref: {standard-tooling-xref}teams-and-sharepoint.adoc
+:sharepoint-xref: {standard-tooling-xref}teams_and_sharepoint.adoc
 :vscode-xref: {standard-tooling-xref}vscode.adoc
 :docker-xref: {standard-tooling-xref}docker.adoc
-:teams-xref: {standard-tooling-xref}teams-and-sharepoint.adoc
+:teams-xref: {standard-tooling-xref}teams_and_sharepoint.adoc
 :git-xref: {standard-tooling-xref}git.adoc
 :filestage-xref: {standard-tooling-xref}filestage.adoc
 :remote-xref: {standard-tooling-xref}remote_repo.adoc

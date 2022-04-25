@@ -1,6 +1,6 @@
 = Git
 :description: A summary page describing what Git is and where to find related information, guides etc.
-:keywords: git,summary,tool,recommended,READYFORREVIEW
+:keywords: git,summary,tool,recommended, doc-as-code
 :page-layout: responsible
 :page-responsible-name: Stefan Cyliax
 :page-responsible-contact: stefan.cyliax(at)asam.net
@@ -14,6 +14,9 @@ include::contributing:partial$_attributes.adoc[]
 include::contributing:partial$icon_reminder.adoc[tag=download-link]
 
 {git-icon}
+
+{role-technical-writer}
+{role-service-provider}
 
 Git is a free software for tracking changes in a set of files (versioning).
 It is typically used for coordinating collaborative development (programming) of source code or other text-based content.

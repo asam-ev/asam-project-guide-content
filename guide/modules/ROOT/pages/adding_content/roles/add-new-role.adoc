@@ -1,6 +1,6 @@
 = How to add a new role
 :description: Describes necessary steps to add a new role and its label.
-:keywords: how-to, role, READYFORREVIEW
+:keywords: how-to, role
 
 include::partial$_attributes.adoc[]
 

@@ -1,6 +1,6 @@
 = Development phase
 :description: Describes the development phase
-:keywords: development, phase
+:keywords: development, phase, standardization
 
 include::partial$_attributes.adoc[]
 
@@ -8,7 +8,7 @@ include::partial$_attributes.adoc[]
 ====
 [horizontal]
 Involved roles::
-{role-wg-member} --
+{role-project-participant} --
 {role-wg-lead} --
 {role-project-lead} --
 {role-service-provider} --

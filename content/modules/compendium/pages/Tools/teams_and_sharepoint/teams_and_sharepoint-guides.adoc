@@ -1,6 +1,6 @@
 = Microsoft Teams and Sharepoint guides
 :description:
-:keywords: teams,sharepoint,guide,READYFORREVIEW
+:keywords: teams,sharepoint,guide
 :offset_value: leveloffset=+2
 
 include::partial$_attributes.adoc[]

@@ -1,6 +1,6 @@
 = Adding files
 :description: Collects all pages on adding new files in Antora.
-:keywords: project-guide, TODO
+:keywords: project-guide
 
 include::partial$_attributes.adoc[]
 

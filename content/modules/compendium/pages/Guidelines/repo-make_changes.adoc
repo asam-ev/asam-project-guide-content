@@ -1,6 +1,6 @@
 = Make changes in a repository
 :description: Describes the standard way of working with git.
-:keywords: git-workflow,TODO
+:keywords: git-workflow
 :navtitle: [Repository] Make Changes In A Repository
 
 include::compendium:partial$_attributes.adoc[]
@@ -13,7 +13,6 @@ include::compendium:partial$_attributes.adoc[]
 {role-technical-writer}
 {role-wg-lead}
 {role-project-lead}
-{role-proposal-submitter}
 {role-gtm}
 //end::compendium[]
 

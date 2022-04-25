@@ -1,11 +1,11 @@
 = Initiate a webinar
 :description: Describes how to prepare an ASAM webinar.
-:keywords: webinar, REVIEWED_OK
+:keywords: webinar
 
 include::partial$_attributes.adoc[]
 
 
-{role-wg-member}
+{role-project-participant}
 
 NOTE: This page describes how project members can initiate a webinar.
 If you are looking to join a scheduled webinar, see xref:getting-involved:tbd/join_webinar.adoc[] instead.

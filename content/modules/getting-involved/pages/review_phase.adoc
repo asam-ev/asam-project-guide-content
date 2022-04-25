@@ -1,6 +1,6 @@
 = Review phase
 :description: Describes the Review phase in the ASAM development process for standards.
-:keywords: review,phase,standard,process, TODO
+:keywords: review,phase,standardization,process
 
 include::partial$_attributes.adoc[]
 
@@ -10,7 +10,7 @@ include::partial$_attributes.adoc[]
 Involved roles::
 {role-standard-user} --
 {role-member} --
-{role-wg-member} --
+{role-project-participant} --
 {role-wg-lead} --
 {role-project-lead} --
 {role-gtm}

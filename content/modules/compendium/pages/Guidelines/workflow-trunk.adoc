@@ -1,6 +1,6 @@
 = Trunk-based Remote Repositories
 :description: A guide on the trunk workflow for projects.
-:keywords: trunk,workflow,doc-as-code, git-workflow,TODO
+:keywords: trunk,workflow,doc-as-code, git-workflow
 :navtitle: [Workflow] Trunk-based Remote Repositories
 
 include::compendium:partial$_attributes.adoc[]
@@ -11,7 +11,7 @@ include::compendium:partial$_attributes.adoc[]
 //tag::compendium[]
 {role-gtm}
 {role-project-lead}
-{role-wg-member}
+{role-project-participant}
 {role-wg-lead}
 {role-technical-writer}
 {role-service-provider}
@@ -114,7 +114,7 @@ Steps::
 * Each branch must have a parent issue and each issue may have zero or one child branches
 . Change the issue status label to {implementation-label} to indicate that a proposal is being implemented for this issue
 . Begin submitting work via commits to the develop branch, adhering to the xref:compendium:Guidelines/repo-commit_conventions.adoc[**Commit Message Conventions**]
-. Review implementation progress of issue with {role-wg-lead} and the other {role-wg-member} in Work Group meetings
+. Review implementation progress of issue with {role-wg-lead} and the other {role-project-participant} in Work Group meetings
 . Once the group agrees that the feature is complete:
 .. Change the issue status label to {internalreview-label}
 .. If changes were developed in xref:compendium:How-Tos/mark_parts_as_draft.adoc[draft sections], remove the encapsulating draft feature flag from the content (make sure that all other content remains within the draft flag) and commit the change.
@@ -141,7 +141,7 @@ The Review stage consists of the **Internal review** and the **Change Control Bo
 
 **Internal review** +
 [horizontal]
-Who:: All {role-wg-member} & Implementers Forum
+Who:: All {role-project-participant} & Implementers Forum
 Steps::
 . Submit feedback on the changes directly in the Merge/Pull Request
 * General feedback: Submit a comment on the Merge/Pull Request
