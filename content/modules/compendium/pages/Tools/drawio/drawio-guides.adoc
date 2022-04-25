@@ -1,6 +1,6 @@
 = Draw.io guides
 :description: Collection of guidelines for drawio.
-:keywords: drawio, guides,READYFORREVIEW
+:keywords: drawio, guide
 
 include::partial$_attributes.adoc[]
 include::contributing:partial$_attributes.adoc[]

@@ -1,6 +1,6 @@
 = Setting up the OpenX calendar
 :description: How to import the shared OpenX calendar.
-:keywords: task,fragment,setup,openx-calendar, calendar-setup,READYFORREVIEW
+:keywords: setup,openx-calendar
 
 :calendar-ics: https://outlook.office365.com/owa/calendar/1e9807ec9a8f420fb5b010cd17f4ef0b@asam.net/dd82caebcf5a4c51b22c5eb9a0b220ea3378152309461979582/calendar.ics
 :outlook-url: https://support.microsoft.com/en-us/office/import-or-subscribe-to-a-calendar-in-outlook-com-cff1429c-5af6-41ec-a5b4-74f2c278e98c

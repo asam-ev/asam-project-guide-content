@@ -1,6 +1,6 @@
 = Change Control Board meeting guidelines
 :description: TODO
-:keywords: guideline, ccb, meeting
+:keywords: guideline, meeting
 :navtitle: [Coordination] Change Control Board Meeting Guidelines
 
 include::compendium:partial$_attributes.adoc[]

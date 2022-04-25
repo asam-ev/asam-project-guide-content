@@ -1,6 +1,6 @@
 = Creation of standards
 :description: Summarizes how standards are created at ASAM.
-:keywords: standard,READYFORREVIEW
+:keywords: standardization
 :level: leveloffset=+1
 :sublevel: leveloffset=+2,tag=!related
 

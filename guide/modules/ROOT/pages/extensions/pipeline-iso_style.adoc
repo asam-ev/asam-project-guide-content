@@ -1,6 +1,6 @@
 = Pipeline: ISO-2145 style section and page numbering
 :description: Describes the use of the pipeline extension "ISO-2145 style section and page numbering" in detail.
-:keywords: pipeline,asam,antora,asciidoctor,custom, TODO
+:keywords: pipeline,asam,antora,asciidoctor,custom
 
 include::partial$_attributes.adoc[]
 

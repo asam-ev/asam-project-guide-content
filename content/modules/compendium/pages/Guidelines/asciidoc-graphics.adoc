@@ -1,6 +1,6 @@
 = Graphics
 :description: How-To for including graphics in ASAM documents (standards).
-:keywords: asciidoc,graphic,drawio,figure,how-to, READYFORREVIEW
+:keywords: asciidoc,graphic,drawio
 :navtitle: [AsciiDoc] Graphics
 
 include::compendium:partial$_attributes.adoc[]

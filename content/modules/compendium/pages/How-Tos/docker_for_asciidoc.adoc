@@ -1,6 +1,6 @@
 = Use Docker for Asciidoctor
-:description: A how-to on using docker for asciidoctor
-:keywords: docker,asciidoc,asciidoctor, TODO
+:description: A how-to on using Docker for Asciidoctor
+:keywords: docker,asciidoc
 
 
 include::compendium:partial$_attributes.adoc[]

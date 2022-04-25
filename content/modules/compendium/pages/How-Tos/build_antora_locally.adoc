@@ -1,6 +1,6 @@
 = Build Antora locally
 :description: Describes how to build antora locally on you pc without needing to run the CI/CD on GitLab.
-:keywords: antora,guide,docker, TODO
+:keywords: antora,guide,docker
 
 include::contributing:partial$_attributes.adoc[]
 include::compendium:partial$_attributes.adoc[]

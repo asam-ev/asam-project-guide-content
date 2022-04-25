@@ -1,6 +1,6 @@
 = Contribution workflow
-:description: any
-:keywords: any
+:description: Explains the basic contribution workflows.
+:keywords: basics
 
 include::partial$_attributes.adoc[]
 

@@ -1,6 +1,6 @@
 = Documentation as Code
 :description: Gives an introduction for the concept of documentation-as-code.
-:keywords: concept
+:keywords: concept, doc-as-code
 
 include::partial$_attributes.adoc[]
 

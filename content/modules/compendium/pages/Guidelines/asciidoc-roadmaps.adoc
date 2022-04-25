@@ -1,6 +1,6 @@
 = Roadmaps
 :description: How-To for creating roadmaps in ASAM documents (standards).
-:keywords: asciidoc,roadmap,how-to, READYFORREVIEW
+:keywords: asciidoc
 :navtitle: [AsciiDoc] Roadmaps
 
 include::compendium:partial$_attributes.adoc[]

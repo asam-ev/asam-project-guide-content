@@ -1,6 +1,6 @@
 = Start contributing
 :description: Gives an overview over the mandatory and recommended tools most commonly used in ASAM projects.
-:keywords: overview,tools,landing_page,tools-overview,READYFORREVIEW
+:keywords: tools
 :no-installation: xref:main.adoc[]
 :page-aliases: overview.adoc
 :contributing:

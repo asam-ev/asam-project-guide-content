@@ -1,6 +1,6 @@
 = Guides for remote repositories
 :description: Collects all types of important GitLab guides
-:keywords: guides,gitlab
+:keywords: guide,gitlab
 
 
 //tag::body[]

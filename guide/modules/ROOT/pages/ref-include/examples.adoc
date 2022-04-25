@@ -1,6 +1,6 @@
 = Using examples
 :description: Provides information on using examples in Antora.
-:keywords: project-guide, antora, example, TODO
+:keywords: project-guide, antora, example
 
 include::partial$_attributes.adoc[]
 

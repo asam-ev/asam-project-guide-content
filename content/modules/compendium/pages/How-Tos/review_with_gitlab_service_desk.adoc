@@ -1,6 +1,6 @@
 = Use GitLab service desk for reviews
 :description: Describes how to use the service desk in GitLab for reviews.
-:keywords: gitlab, service-desk, review, READYFORREVIEW
+:keywords: gitlab, service-desk, review
 
 include::compendium:partial$_attributes.adoc[]
 

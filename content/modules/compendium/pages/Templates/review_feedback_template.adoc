@@ -1,6 +1,6 @@
 = Standard Review template
 :description: Contains the review feedback template used for GitLab and GitHub
-:keywords: review, feedback, service-desk, READYFORREVIEW
+:keywords: review, feedback, service-desk
 
 include::compendium:partial$_attributes.adoc[]
 

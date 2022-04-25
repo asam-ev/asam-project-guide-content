@@ -1,6 +1,6 @@
 = Development phase
 :description: Describes the development phase
-:keywords: development, phase
+:keywords: development, phase, standardization
 
 include::partial$_attributes.adoc[]
 

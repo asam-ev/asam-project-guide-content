@@ -1,6 +1,6 @@
 = Trunk-based Remote Repositories
 :description: A guide on the trunk workflow for projects.
-:keywords: trunk,workflow,doc-as-code, git-workflow,TODO
+:keywords: trunk,workflow,doc-as-code, git-workflow
 :navtitle: [Workflow] Trunk-based Remote Repositories
 
 include::compendium:partial$_attributes.adoc[]

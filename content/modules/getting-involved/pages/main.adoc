@@ -1,6 +1,5 @@
 = ASAM's project processes
 :description: Landing page for information on how to get involved in ASAM projects.
-:keywords: landing_page,get-involved
 :processes:
 
 include::partial$_attributes.adoc[]

@@ -1,6 +1,6 @@
 = Filestage
 :description: A summary page describing what Filestage is and where to find related information, guides etc.
-:keywords: filestage,summary,tool,mandatory, TODO
+:keywords: filestage,summary,tool,mandatory
 
 include::partial$_attributes.adoc[]
 

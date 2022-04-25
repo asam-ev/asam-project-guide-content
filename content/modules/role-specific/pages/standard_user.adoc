@@ -1,6 +1,6 @@
 = Standard User
 :description: Summary and landing page for standad users.
-:keywords: role, role-landing-page, REVIEWED_TODO
+:keywords: role, role-landing-page
 :page-partial:
 :draft:
 

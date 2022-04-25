@@ -1,6 +1,6 @@
 = Merge conflicts: preventing and resolving
 :description: Describes how merge conflicts can be resolved with git and how to avoid them ahead of time.
-:keywords: git-workflow,merge,conflict, TODO
+:keywords: git-workflow,merge
 :navtitle: [Repository] Merge Conflicts: Preventing And Resolving
 
 include::compendium:partial$_attributes.adoc[]

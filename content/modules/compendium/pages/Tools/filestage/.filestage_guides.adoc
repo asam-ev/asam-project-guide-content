@@ -1,6 +1,6 @@
 = Filestage guides
 :description: Collection of guidelines for Filestage.
-:keywords: filestage, guides, TODO
+:keywords: filestage, guide
 :offset-value: leveloffset=+1
 
 include::partial$_attributes.adoc[]

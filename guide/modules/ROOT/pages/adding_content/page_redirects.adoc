@@ -1,6 +1,6 @@
 = Moving, renaming and deleting a page
 :description: Describes what to do when a page is to be moved, renamed or deleted.
-:keywords: antora,guide,page, READYFORREVIEW
+:keywords: antora,guide,page
 
 include::partial$_attributes.adoc[]
 

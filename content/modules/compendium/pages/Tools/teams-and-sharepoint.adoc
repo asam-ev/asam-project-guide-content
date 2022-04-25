@@ -1,6 +1,6 @@
 = Microsoft Teams and Sharepoint
 :description: A summary page describing what MS Teams and Sharepoint are and where to find related information, guides etc.
-:keywords: teams,sharepoint,summary,tool,mandatory,TODO
+:keywords: teams,sharepoint,summary,tool,mandatory
 :page-layout: responsible
 :page-responsible-name: Benjamin Engel
 :page-responsible-contact: benjamin.engel(at)asam.net

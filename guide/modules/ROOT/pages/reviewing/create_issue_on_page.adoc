@@ -1,6 +1,6 @@
 = Create an issue for a page
 :description: Describes how to directly create an issue from the respective Project Guide page.
-:keywords: gitlab, review, project-guide, service-desk, READYFORREVIEW
+:keywords: gitlab, review, project-guide, service-desk
 
 include::partial$_attributes.adoc[]
 

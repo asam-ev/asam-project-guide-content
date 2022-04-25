@@ -1,6 +1,6 @@
 = Project types
 :description: Describes the different project types at ASAM for new members and interested parties.
-:keywords: projects, type, asam, concept
+:keywords: project, type, asam, concept
 
 include::partial$_attributes.adoc[]
 

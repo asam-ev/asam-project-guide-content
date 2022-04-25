@@ -1,6 +1,6 @@
 = Running docker-Compose From VSCode
 :description: Run docker-compose from VSCode
-:keywords: docker,vscode, READYFORREVIEW
+:keywords: docker,vscode
 
 include::compendium:partial$_attributes.adoc[]
 

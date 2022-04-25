@@ -1,6 +1,6 @@
 = Creating interactive diagrams
 :description: Provides information on how to create interactive diagrams in Antora.
-:keywords: project-guide, antora, interactive, diagram, TODO
+:keywords: project-guide, antora, interactive, diagram
 
 include::partial$_attributes.adoc[]
 

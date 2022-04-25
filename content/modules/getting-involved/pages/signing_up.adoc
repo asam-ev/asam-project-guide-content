@@ -1,6 +1,5 @@
 = Signing up for projects
 :description: Describes general topics about signing up to participate in a project.
-:keywords: participate
 
 include::partial$_attributes.adoc[]
 

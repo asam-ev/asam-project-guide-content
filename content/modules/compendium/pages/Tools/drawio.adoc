@@ -1,6 +1,6 @@
 = Draw.io
 :description: A summary page describing what Draw.io is and where to find related information, guides etc.
-:keywords: drawio,summary,tool,recommended,READYFORREVIEW
+:keywords: drawio,summary,tool,recommended
 
 include::partial$_attributes.adoc[]
 include::contributing:partial$_attributes.adoc[]

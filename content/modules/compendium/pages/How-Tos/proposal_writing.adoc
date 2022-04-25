@@ -1,6 +1,6 @@
 = Create a project's Proposal document
 :description: How-to for creating a new project proposal from an executive draft
-:keywords: proposal, writing
+:keywords: proposal
 
 include::compendium:partial$_attributes.adoc[]
 

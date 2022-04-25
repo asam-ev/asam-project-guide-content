@@ -1,6 +1,6 @@
 = Remote repository platforms
 :description: A summary page describing what online repository platforms are, which are supported by ASAM, and where to find related information, guides etc.
-:keywords: gitlab, github,summary,tool,mandatory
+:keywords: gitlab, github,summary,tool,mandatory, doc-as-code
 
 include::compendium:partial$_attributes.adoc[]
 include::contributing:partial$_attributes.adoc[]

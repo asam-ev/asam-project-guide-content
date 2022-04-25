@@ -1,6 +1,6 @@
 = AsciiDoc Guide
 :description: An overview over AsciiDoc and how it works.
-:keywords: asciidoc, guide
+:keywords: asciidoc, guide, doc-as-code
 :navtitle: [AsciiDoc] AsciiDoc Guide
 
 include::compendium:partial$_attributes.adoc[]

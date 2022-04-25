@@ -1,6 +1,6 @@
 = Structure
 :description: Collects all pages on the ASAM Project Guide structure.
-:keywords: project-guide, structure, TODO
+:keywords: project-guide, structure
 
 include::partial$_attributes.adoc[]
 

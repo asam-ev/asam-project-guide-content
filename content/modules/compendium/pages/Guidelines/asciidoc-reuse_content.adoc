@@ -1,6 +1,6 @@
 = Reuse content
 :description: How-To for reusing content from other files.
-:keywords: asciidoc,reuse,include,how-to, READYFORREVIEW
+:keywords: asciidoc,reuse
 :navtitle: [AsciiDoc] Reuse Content
 
 include::compendium:partial$_attributes.adoc[]

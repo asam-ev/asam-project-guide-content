@@ -1,6 +1,6 @@
 = Pipeline: Orphan pages
 :description: Describes the use of the pipeline extension "Orphan pages" in detail.
-:keywords: pipeline,asam,antora,custom, REVIEWED_OK
+:keywords: pipeline,asam,antora,custom
 
 include::partial$_attributes.adoc[]
 

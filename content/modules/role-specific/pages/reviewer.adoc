@@ -1,6 +1,6 @@
 = Reviewer
 :description: Summary and landing page for reviwers.
-:keywords: role, role-landing-page, TODO
+:keywords: role, role-landing-page
 
 include::partial$_attributes.adoc[]
 

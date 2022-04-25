@@ -1,6 +1,6 @@
   = Create a branch
 :description: Describes branching in git and gitlab
-:keywords: git,gitlab,branching,branch,TODO
+:keywords: git,gitlab,branch
 
 include::compendium:partial$_attributes.adoc[]
 

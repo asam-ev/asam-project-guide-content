@@ -1,6 +1,6 @@
 = Git
 :description: A summary page describing what Git is and where to find related information, guides etc.
-:keywords: git,summary,tool,recommended,READYFORREVIEW
+:keywords: git,summary,tool,recommended, doc-as-code
 :page-layout: responsible
 :page-responsible-name: Stefan Cyliax
 :page-responsible-contact: stefan.cyliax(at)asam.net

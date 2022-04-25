@@ -1,6 +1,6 @@
 = Initiate a webinar
 :description: Describes how to prepare an ASAM webinar.
-:keywords: webinar, REVIEWED_OK
+:keywords: webinar
 
 include::partial$_attributes.adoc[]
 

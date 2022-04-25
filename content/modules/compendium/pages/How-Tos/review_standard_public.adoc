@@ -1,6 +1,6 @@
 = Review a standard (public release candidate)
 :description: Describes how to review a standard.
-:keywords: review, service-desk, REVIEWED_OK
+:keywords: review, service-desk
 
 include::compendium:partial$_attributes.adoc[]
 

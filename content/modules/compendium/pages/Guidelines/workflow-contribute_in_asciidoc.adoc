@@ -1,6 +1,6 @@
 = Contributing in AsciiDoc files
 :description: Describes how one can participate in the creation of a proposal through directly entering content in the appropriate AsciiDoc files.
-:keywords: proposal, asciidoc, READYFORREVIEW
+:keywords: proposal, asciidoc, doc-as-code
 :navtitle: [Workflow] Contributing In AsciiDoc Files
 //tag::compendium[]
 :numbered:

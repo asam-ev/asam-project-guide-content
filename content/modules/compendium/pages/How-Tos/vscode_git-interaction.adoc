@@ -1,6 +1,6 @@
 = Interacting with git through Visual Studio Code
 :description: Describes how to interact with git through vscode
-:keywords: vscode,git, READYFORREVIEW
+:keywords: vscode,git
 
 include::compendium:partial$_attributes.adoc[]
 

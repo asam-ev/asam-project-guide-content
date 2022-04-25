@@ -1,6 +1,6 @@
 = Edit The ASAM Graphics Library
 :description: Describes how to edit the ASAM Graphics Library.
-:keywords: drawio, asset, library
+:keywords: drawio, asset
 
 include::compendium:partial$_attributes.adoc[]
 

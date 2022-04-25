@@ -1,6 +1,6 @@
 = Comment and review adoc files
 :description: A how-to for commenting AsciiDoc files
-:keywords: asciidoc,comment,gitlab,vscode, READYFORREVIEW
+:keywords: asciidoc,gitlab,vscode
 :navtitle: [AsciiDoc] Comment And Review adoc Files
 
 include::compendium:partial$_attributes.adoc[]

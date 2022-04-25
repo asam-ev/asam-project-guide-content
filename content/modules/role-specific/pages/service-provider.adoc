@@ -1,6 +1,6 @@
 = Service Provider
 :description: Summary and landing page for Service Providers.
-:keywords: role, role-landing-page, TODO
+:keywords: role, role-landing-page
 
 include::partial$_attributes.adoc[]
 

@@ -1,6 +1,6 @@
-= ClonE A Repository Using Git Bash / Powershell
+= Clone a repository using Git bash / Powershell
 :description: Describes how to clone a repository with git Bash or PowerShell
-:keywords: powershell,how-to,clone,cloning,git,bash,repository,repo, READYFORREVIEW
+:keywords: cloning,git,repository,repo
 
 include::compendium:partial$_attributes.adoc[]
 

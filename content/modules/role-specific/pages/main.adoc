@@ -1,6 +1,6 @@
 = ASAM roles
 :description: The landing page for the ASAM Roles
-:keywords: landing_page,roles,asam, READYFORREVIEW
+:keywords: roles,asam
 :page-aliases: home.adoc
 :role-specific:
 

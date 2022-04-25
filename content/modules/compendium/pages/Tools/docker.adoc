@@ -1,6 +1,6 @@
 = Docker
 :description: A summary page describing what Docker is and where to find related information, guides etc.
-:keywords: docker,summary,tool,recommended,TODO
+:keywords: docker,summary,tool,recommended, doc-as-code
 
 include::partial$_attributes.adoc[]
 include::contributing:partial$_attributes.adoc[]

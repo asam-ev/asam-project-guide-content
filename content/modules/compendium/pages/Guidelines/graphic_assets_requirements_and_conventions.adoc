@@ -1,6 +1,6 @@
 = Graphic assets requirements and conventions
 :description: Contains the requirements for graphic assets in the ASAM graphics library.
-:keywords: image, graphic, asset, requirement, openx, drawio
+:keywords: graphic, asset, drawio
 :navtitle: [] Graphic Assets Requirements And Conventions
 
 include::compendium:partial$_attributes.adoc[]

@@ -1,6 +1,6 @@
   = Cloning a repository
 :description: Gives a tutorial on how to clone a repository using git
-:keywords: tutorial,git,clone,cloning, READYFORREVIEW
+:keywords: tutorial,git,cloning
 
 include::compendium:partial$_attributes.adoc[]
 

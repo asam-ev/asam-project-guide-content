@@ -1,7 +1,6 @@
 = Standard Docker-Compose YAML
 :description: Contains the standard docker-compose.yml description with the specification on how to use it.
-:keywords: docker,compose,yml,yaml, TODO
-
+:keywords: docker
 :docker-compose-download: compendium:{attachmentsdir}/docker-compose.yml
 :docker-compose-include: compendium:example$docker-compose.yml
 

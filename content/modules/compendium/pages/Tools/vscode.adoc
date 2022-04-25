@@ -1,6 +1,6 @@
 = Visual Studio Code
 :description: A summary page describing what VSCode is and where to find related information, guides etc.
-:keywords: vscode,summary,tool,recommended,READYFORREVIEW
+:keywords: vscode,summary,tool,recommended, doc-as-code
 :gitlab: xref:compendium:Tools/remote_repo.adoc[]
 
 include::partial$_attributes.adoc[]

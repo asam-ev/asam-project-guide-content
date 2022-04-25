@@ -1,6 +1,6 @@
   = Setting up your GitHub account
 :description: How to setup your ASAM account.
-:keywords: task,fragment,setup, github,account
+:keywords: setup, github,account
 
 include::compendium:partial$_attributes.adoc[]
 

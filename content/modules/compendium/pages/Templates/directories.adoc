@@ -1,6 +1,6 @@
 = Directories
 :description: Describes the use of directories within a standard.
-:keywords: template, TODO
+:keywords: template
 
 include::compendium:partial$_attributes.adoc[]
 

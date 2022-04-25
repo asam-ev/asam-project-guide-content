@@ -1,6 +1,6 @@
 = Setup
-:description: any
-:keywords: any
+:description: Contains the minimum necessary setup before one can start contributing.
+:keywords: basics
 
 include::partial$_attributes.adoc[]
 
