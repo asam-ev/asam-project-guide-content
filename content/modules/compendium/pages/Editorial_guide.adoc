@@ -26,7 +26,7 @@ This document covers the following aspects:
 * <<#sec-lists>>
 * <<#sec-tables>>
 * <<#sec-figures>>
-* <<#sec-other>>
+* <<#sec-undefined>>
 
 == List of editorial rules
 //NOTE: Why do we need this section?
@@ -48,5 +48,5 @@ include::Editorial_guide/07_source_code.adoc[leveloffset=+1]
 include::Editorial_guide/08_lists.adoc[leveloffset=+1]
 include::Editorial_guide/09_tables.adoc[leveloffset=+1]
 include::Editorial_guide/10_figures.adoc[leveloffset=+1]
-include::Editorial_guide/11_other.adoc[leveloffset=+1]other.adoc[leveloffset=+1]
+include::Editorial_guide/11_undefined.adoc[leveloffset=+1]other.adoc[leveloffset=+1]
 

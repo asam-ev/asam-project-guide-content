@@ -14,7 +14,7 @@ This section contains editorial rules on how to create paragraphs:
 [#sec-ASM-74]
 == Use paragraphs to structure the text (ASM-74)
 
-* Use a a new paragraph for each new thought or statement.
+* Use a new paragraph for each new thought or statement.
 * Insert an empty line in between to create a new paragraph.
 
 *Exceptions*
@@ -79,7 +79,7 @@ ASAM Writing Guide: 4.3. One sentence per line
 [#sec-ASM-71]
 == Use of italic markup (ASM-71)
 
-Use italic in the following cases:
+Use italic markup in the following cases:
 
 * For glossary terms
 * For new terms
@@ -109,7 +109,7 @@ ASAM Writing Guide: Typographic conventions for XiL
 [#sec-ASM-72]
 == Use of bold markup (ASM-72)
 
-Use bold in the following cases:
+Use bold markup in the following cases:
 
 * sub-headings that shall not appear in the table of contents
 * single characters in formulae or tables
@@ -140,7 +140,7 @@ ASAM Writing Guide: Typographic conventions for XiL
 [#sec-ASM-73]
 == Use of code markup (ASM-73)
 
-Use code in the following cases:
+Use code markup in the following cases:
 
 * elements
 * attributes

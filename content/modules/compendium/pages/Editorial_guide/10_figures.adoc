@@ -54,7 +54,7 @@ ASAM Writing Guide: 5.2. Figures
 
 
 [#sec-ASM-28]
-== Make sure that all figures included in the User Guide are shown correctly (ASM-28)
+== Make sure that all included figures are shown correctly (ASM-28)
 
 *Exceptions*
 
@@ -115,7 +115,7 @@ ASAM specific rule.
 [#sec-ASM-87]
 == Use AsciiDoc syntax for figures (ASM-87)
 
-Use the AsciiDoc syntax for figures for images, diagrams, and so on.
+Use the AsciiDoc syntax for figures to include images, diagrams, and other graphics.
 
 *Exceptions*
 
@@ -217,6 +217,7 @@ image::images/uml_notation.drawio.svg[img, 1100]
 *Source*
 
 ASAM specific rule
+
 ASAM Writing Guide: 5.2. Figures
 
 
@@ -248,3 +249,5 @@ Decorative figures shall not have a description; for example, the ASAM logo.
 * The text "Figure 58" is shown as a link to the figure.
 
 *Source*
+
+ASAM specific rule

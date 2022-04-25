@@ -57,10 +57,10 @@ There are no exceptions.
 [%header]
 |===
 |No |#Yes#
-|[.line-through]#`+++==== Heading (level 5)+++`#
-|`+++=== Heading (level 4)+++`
+|[.line-through]#`+++===== Heading (level 5)+++`#
+|`+++==== Heading (level 4)+++`
 
-`+++=== Heading (level 4)+++`
+`+++==== Heading (level 4)+++`
 |===
 
 *Source*

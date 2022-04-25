@@ -1,8 +1,8 @@
 
-[#sec-other]
-= Other
+[#sec-undefined]
+= Undefined
 
-This section contains rules that should be in other sections:
+This section contains rules with work in progress that will be in other sections later on:
 
 * <<#sec-ASM-16>>
 * <<#sec-ASM-78>>
@@ -42,7 +42,6 @@ Insert a unique ID according to the following patterns:
 |Pattern         |Usage                                 |Optional/required |Comment
 |`[#code-<uid>]` |source code blocks                    |optional          |Only use if source code is referenced.
 |`[#fig-<uid>]`  |figures (images, diagrams, and so on) |required          |-
-|`[#map-<uid>]`  |map files                             |optional          |Only use for map_[...].adoc files.
 |`[#sec-<uid>]`  |sections                              |optional          |Only use if section is referenced.
 |`[#tab-<uid>]`  |tables                                |required          |-
 |`[#top-<uid>]`  |topics                                |required          |-
@@ -75,10 +74,8 @@ ASAM Writing Guide: Tags
 
 
 [#sec-ASM-81]
-== Use the caption as file name for figures (ASM-81)
-
-Apply the rules for file names on the caption.
-
+== File names for figures (ASM-81)
+TODO: Has to be defined.
 // NOTE: Name all images according to the naming convention: fig_[name_of_image].drawio.svg (not "fig-[...]" as previously planned).
 
 *Exceptions*
@@ -87,35 +84,17 @@ There are no exceptions.
 
 *Example*
 
-[#tab-5e5fce22-64a4-4adb-9653-4658b1966198]
-.Use of a caption as file name
-[%header]
-|===
-|No                                               |#Yes#
-|[.line-through]#Use of caption as file name.svg# |use_of_a_caption_as_file_name.svg
-|===
 
 *Source*
 
-ASAM Writing Guide: XIL: File names for figures
-
-
-
-
-[#sec-ASM-93]
-== Use PlantUML (*.puml) for UML diagrams (ASM-93)
-
-*Exceptions*
-
-There are no exceptions.
-
-*Source*
-
-ASAM Writing Guide: File formats
+ASAM specific rule
+//NOTE: Rule in XIL used the caption.
 
 
 [#sec-ASM-84]
 == Non-normative sections (ASM-84)
+
+TODO: Has to be defined.
 
 * _description_
 

@@ -53,7 +53,7 @@ To add source code snippets:
 . Copy the part of source code you want to use as a snippet.
 . Paste the snippet into your AsciiDoc file.
 . Insert the following information:
-    * an ID (refer to <<#sec-ASM-78>>)
+    * an ID (refer to <<#sec-ASM-14>>)
     * a caption
     * additional information as comma-separated values with spaces
     * delimiters
@@ -233,7 +233,8 @@ Optional: Use the words "attribute" or "attributes".
 
 *Exceptions*
 
-In ASAM OpenSCENARIO, use the following highlighting:
+This exception reflects the current implementation in ASAM OpenSCENARIO.
+The documentation of ASAM OpenSCENARIO shall be aligned with the definition in the ASAM Editorial Guide in a future project.
 
 * For XML elements, use the name of the element in backticks (`++``++`).
 Optional: Use the words "instance" or "instances".

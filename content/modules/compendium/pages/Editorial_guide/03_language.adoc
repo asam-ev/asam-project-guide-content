@@ -296,7 +296,7 @@ There are no exceptions.
 [%header]
 |===
 |No |#Yes#
-|[.line-through]lateral and/or longitudinal#
+|[.line-through]#lateral and/or longitudinal#
 |lateral, longitudinal, or both
 
 |[.line-through]#segment continuity, tangent and/or curvature continuity#
@@ -613,8 +613,9 @@ There are no exceptions.
 .Use of 'because' to refer to a reason
 [%header]
 |===
-|No                                                                     |#Yes#
-|[.line-through]#The system cannot calculate a result since yesterday.# |The system cannot calculate a result because of yesterday's events.
+|No |#Yes#
+|[.line-through]#The system cannot calculate a result since yesterday.#
+|The system cannot calculate a result because of yesterday's events.
 |===
 
 *Source*
