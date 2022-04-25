@@ -7,7 +7,7 @@ include::partial$_attributes.adoc[]
 ====
 [horizontal]
 Involved roles::
-{role-wg-member} --
+{role-project-participant} --
 {role-wg-lead} --
 {role-project-lead} --
 {role-gtm} --
@@ -44,7 +44,7 @@ The Release phase consists of the following steps, which are explained in detail
 
 |Responsible
 |{role-project-lead},
-{role-wg-member},
+{role-project-participant},
 {role-wg-lead}
 |===
 
@@ -94,7 +94,7 @@ The minimum review period for release candidates is four weeks.
 
 |Involved
 |{role-project-lead},
-{role-wg-member},
+{role-project-participant},
 {role-wg-lead}
 |===
 
@@ -127,7 +127,7 @@ If the required rework has been implemented as defined by the TSC, then the rele
 
 |Involved
 |{role-project-lead},
-{role-wg-member},
+{role-project-participant},
 {role-wg-lead}
 |===
 

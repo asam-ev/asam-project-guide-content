@@ -9,7 +9,7 @@ include::compendium:partial$_attributes.adoc[]
 {asciidoc-icon}
 
 {role-technical-writer}
-{role-wg-member}
+{role-project-participant}
 
 
 This guide is intended to help you writing content for ASAM projects.
@@ -609,7 +609,7 @@ A typical adoc topic looks like this:
 [source]
 ----
   [#top-an-example-topic]
-  = Topic heading
+= Topic heading
 
   ifdef::draft[]
 

@@ -14,7 +14,7 @@ h|Responsible
 | {role-proposal-submitter}
 
 h|Involved
-| {role-wg-member}, {role-gtm}
+| {role-project-participant}, {role-gtm}
 
 ifdef::compendium[]
 h| Phase

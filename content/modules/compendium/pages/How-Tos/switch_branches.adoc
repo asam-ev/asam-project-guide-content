@@ -1,4 +1,4 @@
- = Switch branches
+= Switch branches
 :description: A how-to for switching branches with git
 :keywords: git,gitlab,branch,vscode
 :page-aliases: guides/switch_branches.adoc

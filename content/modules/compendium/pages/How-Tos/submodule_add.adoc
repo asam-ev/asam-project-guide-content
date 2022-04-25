@@ -1,4 +1,4 @@
-      = Adding a new submodule to a repository
+= Adding a new submodule to a repository
 :description: Describes how to add a new submodule in a repository.
 :keywords: git,gitlab,submodule
 

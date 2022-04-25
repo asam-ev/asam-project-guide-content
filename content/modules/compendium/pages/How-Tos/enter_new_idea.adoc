@@ -1,4 +1,4 @@
-  = Enter an idea
+= Enter an idea
 :description: Describes the steps for submitting an idea for a new project at ASAM.
 :keywords: ideation
 

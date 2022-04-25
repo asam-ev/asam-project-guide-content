@@ -9,7 +9,7 @@ include::compendium:partial$_attributes.adoc[]
 
 {role-technical-writer}
 {role-project-lead}
-{role-wg-member}
+{role-project-participant}
 
 TIP: See xref:compendium:Guidelines/asciidoc-writing_guide.adoc[] for ASAM-specific writing style guidelines.
 

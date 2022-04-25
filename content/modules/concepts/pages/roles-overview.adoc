@@ -35,7 +35,7 @@ a|An ASAM member outside the project that participates in the review of one or m
 When a project's deliverables are reviewed, ASAM members who were not involved in the project directly can participate in the Review phase by becoming a __Reviewer__ and providing feedback.
 
 2+s|[.underline]#Project roles#
-h|xref:role-specific:wg-member.adoc[(3) Project Participant]
+h|xref:role-specific:project-participant.adoc[(3) Project Participant]
 a|An ASAM member active in an ASAM project. +
 Each project consists of many different __Project Participants__ who directly contribute to the project's development.
 Most participants typically enroll during the xref:getting-involved:proposal_phase.adoc[], but it also possible to already participate during the xref:getting-involved:ideation_phase.adoc[]. +

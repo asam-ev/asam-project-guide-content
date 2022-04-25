@@ -1,4 +1,4 @@
-  = Create a branch
+= Create a branch
 :description: Describes branching in git and gitlab
 :keywords: git,gitlab,branch
 

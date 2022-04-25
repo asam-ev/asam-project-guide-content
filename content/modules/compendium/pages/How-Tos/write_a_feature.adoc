@@ -1,4 +1,4 @@
-  = Write a feature
+= Write a feature
 :description: Describes how to write a feature for a project with git.
 :keywords: git,gitlab,feature
 

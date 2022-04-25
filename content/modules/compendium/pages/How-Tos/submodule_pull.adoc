@@ -1,4 +1,4 @@
-  = Pulling a submodule
+= Pulling a submodule
 :description: Describes how a submodule can be pulled.
 :keywords: git,gitlab,submodule
 

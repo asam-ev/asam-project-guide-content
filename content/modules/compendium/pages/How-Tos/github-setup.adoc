@@ -1,4 +1,4 @@
-  = Setting up your GitHub account
+= Setting up your GitHub account
 :description: How to setup your ASAM account.
 :keywords: setup, github,account
 

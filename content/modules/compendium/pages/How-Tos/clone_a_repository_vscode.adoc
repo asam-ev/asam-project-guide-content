@@ -1,4 +1,4 @@
- = Clone a repository using Visual Studio Code
+= Clone a repository using Visual Studio Code
 :description: Describes how to clone a repository with VSCode
 :keywords: vscode,cloning,git,repository,repo
 

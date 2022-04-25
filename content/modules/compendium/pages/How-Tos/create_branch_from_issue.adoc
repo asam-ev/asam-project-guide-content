@@ -1,4 +1,4 @@
-    = Create development branch from issues
+= Create development branch from issues
 :description: Describes how to create a (development) branch from an issue
 :keywords: branch,issue,gitlab
 

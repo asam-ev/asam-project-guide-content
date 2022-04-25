@@ -1,4 +1,4 @@
-  = Cloning a repository
+= Cloning a repository
 :description: Gives a tutorial on how to clone a repository using git
 :keywords: tutorial,git,cloning
 

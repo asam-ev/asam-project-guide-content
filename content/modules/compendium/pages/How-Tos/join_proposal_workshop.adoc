@@ -1,4 +1,4 @@
- = Join a Proposal Workshop
+= Join a Proposal Workshop
 :description: Describes how to join a Proposal Workshop.
 :keywords: proposal, proposal-workshop
 

@@ -30,7 +30,7 @@ Repository setup::
 |{role-gtm}
 
 >h|Involved
-|{role-idea-giver}, {role-wg-member}
+|{role-idea-giver}, {role-project-participant}
 
 |===
 
@@ -50,7 +50,7 @@ Draft creation::
 |{role-idea-giver}
 
 >h|Involved
-|{role-wg-member}, {role-gtm}
+|{role-project-participant}, {role-gtm}
 |===
 
 In advance of the Proposal Workshop, the executive summary and motivation in the proposal document must be filled out.
@@ -126,7 +126,7 @@ Finalizing the Proposal::
 |{role-proposal-submitter}
 
 >h|Involved
-|{role-gtm}, {role-wg-member}
+|{role-gtm}, {role-project-participant}
 |===
 
 The Proposal Submitter finalizes the concept based on the output from the <<Proposal Workshop>> and prepares it for <<Submission>>. +
@@ -150,7 +150,7 @@ Submission::
 |{role-proposal-submitter}
 
 >h|Involved
-|{role-gtm} plus at least two {role-wg-member}, [role-tsc-member]
+|{role-gtm} plus at least two {role-project-participant}, [role-tsc-member]
 |===
 
 The Proposal Submitter sends the Proposal document to the Office and declares this to be his official proposal submission. +
@@ -236,7 +236,7 @@ Archiving::
 |{role-gtm}
 
 >h|Involved
-|{role-wg-member}
+|{role-project-participant}
 |===
 
 The Proposal is archived by the GTM if the project has been accepted or the Proposal has been rejected or dropped completely.
@@ -274,7 +274,7 @@ The Proposal phase consists of the following steps, which are explained in detai
 // |{role-gtm}
 
 // >h|Involved
-// |{role-idea-giver}, {role-wg-member}
+// |{role-idea-giver}, {role-project-participant}
 
 // |===
 
@@ -294,7 +294,7 @@ See xref:proposal/setup.adoc[].
 // |{role-idea-giver}
 
 // >h|Involved
-// |{role-wg-member}, {role-gtm}
+// |{role-project-participant}, {role-gtm}
 // |===
 
 
@@ -374,7 +374,7 @@ Applicants for xref:proposal/submit_candidacy.adoc[the role of Project Lead] are
 // |{role-proposal-submitter}
 
 // >h|Involved
-// |{role-gtm}, {role-wg-member}
+// |{role-gtm}, {role-project-participant}
 // |===
 
 The Proposal Submitter finalizes the concept based on the output from the <<Proposal Workshop>> and prepares it for <<Submission>>. +
@@ -398,7 +398,7 @@ See xref:proposal/proposal_writing.adoc[].
 // |{role-proposal-submitter}
 
 // >h|Involved
-// |{role-gtm} plus at least two {role-wg-member}
+// |{role-gtm} plus at least two {role-project-participant}
 // |===
 
 The Proposal Submitter sends the Proposal document to the Office and declares this to be his official proposal submission. +
@@ -484,7 +484,7 @@ The approved project proposals are regarded as the work order for the new projec
 // |{role-gtm}
 
 // >h|Involved
-// |{role-wg-member}
+// |{role-project-participant}
 // |===
 
 The Proposal is archived by the GTM if the project has been accepted or the Proposal has been rejected or dropped completely.

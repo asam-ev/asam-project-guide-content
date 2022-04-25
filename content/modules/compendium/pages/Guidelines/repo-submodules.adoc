@@ -10,7 +10,7 @@ include::compendium:partial$_attributes.adoc[]
 //tag::body[]
 
 //tag::compendium[]
-{role-wg-member}
+{role-project-participant}
 {role-technical-writer}
 {role-gtm}
 //end::compendium[]

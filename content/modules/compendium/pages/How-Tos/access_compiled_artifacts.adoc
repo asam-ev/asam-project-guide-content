@@ -7,7 +7,7 @@ include::compendium:partial$_attributes.adoc[]
 {how-to-icon}
 
 //tag::compendium[]
-{role-wg-member}
+{role-project-participant}
 {role-wg-lead}
 {role-project-lead}
 {role-proposal-submitter}

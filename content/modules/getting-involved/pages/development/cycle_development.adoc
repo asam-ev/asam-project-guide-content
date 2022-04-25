@@ -8,7 +8,7 @@ include::partial$_attributes.adoc[]
 [cols="1,5", grid = rows]
 |===
 h|Responsible
-| {role-wg-member}, {role-service-provider}, {role-technical-writer}
+| {role-project-participant}, {role-service-provider}, {role-technical-writer}
 
 h|Involved
 | {role-wg-lead}, {role-project-lead}, {role-ccb}

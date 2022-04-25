@@ -1,4 +1,4 @@
- = Meetings in Microsoft Teams
+= Meetings in Microsoft Teams
 :description: Plan and participate in meetings directly through MS Teams
 :keywords: teams,meeting
 

@@ -1,4 +1,4 @@
-   = Mark passages as draft
+= Mark passages as draft
 :description: Describes how to mark passages as draft so that they are not rendered in the final output.
 :keywords: draft
 

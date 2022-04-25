@@ -8,7 +8,7 @@ include::compendium:partial$_attributes.adoc[]
 
 
 {role-standard-user}
-{role-wg-member}
+{role-project-participant}
 
 
 == Create issue through service desk

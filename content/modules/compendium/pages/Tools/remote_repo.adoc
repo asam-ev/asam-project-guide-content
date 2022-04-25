@@ -10,7 +10,7 @@ include::contributing:partial$_attributes.adoc[]
 
 {remote-icon}
 
-{role-wg-member}
+{role-project-participant}
 {role-service-provider}
 
 A remote repository platform is a web-based DevOps lifecycle tool that provides a xref:compendium:Tools/git.adoc[] repository manager.

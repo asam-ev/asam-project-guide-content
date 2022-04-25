@@ -1,4 +1,4 @@
-   = Add the enrollment list
+= Add the enrollment list
 :description: How-to for adding and including the enrollment list in a project proposal.
 :keywords: proposal, enrollment
 

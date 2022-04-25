@@ -65,7 +65,7 @@ The Development phase consists of the following steps, which are explained in de
 
 >h|Involved
 |{role-wg-lead}; +
-{role-wg-member}, {role-service-provider}, {role-technical-writer}
+{role-project-participant}, {role-service-provider}, {role-technical-writer}
 
 |===
 
@@ -88,7 +88,7 @@ See xref:development/cycle_planning.adoc[].
 |To develope the content for the planned milestone.
 
 >h|Responsible
-|{role-wg-member},
+|{role-project-participant},
 {role-service-provider},
 {role-technical-writer}
 
@@ -126,7 +126,7 @@ See xref:development/cycle_development.adoc[].
 
 >h|Involved
 |{role-wg-lead}; +
-{role-wg-member}, {role-service-provider}, {role-technical-writer}
+{role-project-participant}, {role-service-provider}, {role-technical-writer}
 
 |===
 
@@ -150,7 +150,7 @@ include::compendium:partial$full-meeting_guidelines.adoc[]
 |{role-project-lead}
 
 >h|Involved
-|{role-wg-member}, {role-service-provider}, {role-technical-writer}
+|{role-project-participant}, {role-service-provider}, {role-technical-writer}
 
 |===
 

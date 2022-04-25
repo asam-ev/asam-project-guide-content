@@ -11,7 +11,7 @@ include::compendium:partial$_attributes.adoc[]
 
 {role-wg-lead}
 
-participates: {role-wg-member}
+participates: {role-project-participant}
 
 TODO
 

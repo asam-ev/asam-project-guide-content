@@ -1,4 +1,4 @@
-  = Submit candidacy for Project Lead
+= Submit candidacy for Project Lead
 :description: Describes how to submit a candidacy for Project Lead.
 :keywords: proposal, project-lead
 
@@ -12,7 +12,7 @@ include::compendium:partial$_attributes.adoc[]
 [cols="1,5", grid = rows]
 |===
 h|Responsible
-|{role-wg-member} -> {role-project-lead}
+|{role-project-participant} -> {role-project-lead}
 
 h|Involved
 |{role-gtm}

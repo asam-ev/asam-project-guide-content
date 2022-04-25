@@ -1,4 +1,4 @@
- = Synchronizing sharepoint with oneDrive
+= Synchronizing sharepoint with oneDrive
 :description:
 :keywords: sharepoint,synchronization,synch
 
