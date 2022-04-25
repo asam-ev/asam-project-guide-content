@@ -9,12 +9,17 @@ include::partial$_attributes.adoc[]
 [horizontal,role=right]
 Label:: {role-project-participant}
 
+
 == Description
 A Project Participant is someone participating in an ASAM project.
 They have signed up to represent their company and contribute to the project.
 
 Each project's contribution team is made up of Project Members.
-Project Participants can take on additional roles, such as **xref:role-specific:project-lead.adoc[]**, **xref:role-specific:wg-lead.adoc[]**, or become a **xref:role-specific:ccb-member.adoc[]**.
+Project Participants can take on additional roles, such as:
+
+* **xref:role-specific:project-lead.adoc[]**
+* **xref:role-specific:wg-lead.adoc[]**
+* **xref:role-specific:ccb-member.adoc[]**
 
 Other external roles, such as xref:role-specific:gtm.adoc[] or xref:role-specific:service-provider.adoc[], may support during the current project phase.
 
@@ -34,11 +39,29 @@ Typically, participants commit to one or more of the following:
 
 
 == Instructional pages for this role
+[tabs]
+====
+General::
++
+--
 * xref:contributing:main.adoc[]
 * xref:compendium:Guidelines/workflow-contribute_with_issues.adoc[]
+--
+Proposal phase::
++
+--
+role_related::project-participant[proposal]
+--
+Development phase::
++
+--
+role_related::project-participant[development]
+--
+Tools::
++
+--
+role_related::project-participant[tool]
+--
+====
 
-
-=== Proposal phase
-role_related::wg-member[proposal]
-
-role_related::wg-member[]
+role_related::project-participant[]

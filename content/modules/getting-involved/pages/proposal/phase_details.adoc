@@ -123,7 +123,7 @@ Finalizing the Proposal::
 |To finalize the project proposal and to create the project milestone plan.
 
 >h|Responsible
-|{role-proposal-submitter}
+| {role-idea-giver}
 
 >h|Involved
 |{role-gtm}, {role-project-participant}
@@ -147,7 +147,7 @@ Submission::
 |To submit the finalized project proposal to ASAM
 
 >h|Responsible
-|{role-proposal-submitter}
+|
 
 >h|Involved
 |{role-gtm} plus at least two {role-project-participant}, [role-tsc-member]
@@ -199,7 +199,7 @@ TSC presentation::
 |{role-tsc-member}
 
 >h|Involved
-|{role-proposal-submitter}, {role-gtm}
+|, {role-gtm}
 |===
 
 Submitted Project Proposals are put on the agenda of the next available TSC meeting.
@@ -371,7 +371,7 @@ Applicants for xref:proposal/submit_candidacy.adoc[the role of Project Lead] are
 // |To finalize the project proposal and to create the project milestone plan.
 
 // >h|Responsible
-// |{role-proposal-submitter}
+// |
 
 // >h|Involved
 // |{role-gtm}, {role-project-participant}
@@ -395,7 +395,7 @@ See xref:proposal/proposal_writing.adoc[].
 // |To submit the finalized project proposal to ASAM
 
 // >h|Responsible
-// |{role-proposal-submitter}
+// |
 
 // >h|Involved
 // |{role-gtm} plus at least two {role-project-participant}
@@ -447,7 +447,7 @@ The minimum publication period for project proposals is four weeks and shall not
 // |{role-tsc-member}
 
 // >h|Involved
-// |{role-proposal-submitter}
+// |
 // |===
 
 Submitted Project Proposals are put on the agenda of the next available TSC meeting.

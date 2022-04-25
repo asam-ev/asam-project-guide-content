@@ -10,7 +10,6 @@ include::compendium:partial$_attributes.adoc[]
 {role-project-participant}
 {role-wg-lead}
 {role-project-lead}
-{role-proposal-submitter}
 {role-technical-writer}
 {role-gtm}
 //end::compendium[]

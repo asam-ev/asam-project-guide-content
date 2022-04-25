@@ -8,11 +8,10 @@ include::partial$_attributes.adoc[]
 [horizontal]
 Involved roles::
 {role-idea-giver} --
-{role-standard-user} --
+{role-project-participant} --
 {role-gtm} --
 {role-tsc-member} --
 {role-member} --
-({role-proposal-submitter})
 
 include::partial$project_phases.adoc[tag=proposal]
 ====

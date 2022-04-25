@@ -34,11 +34,6 @@ a|* xref:getting-involved:ideation_phase.adoc#_process_overview[Ideation phase]
 | The submitter of an idea for a new ASAM project.
 Must become an ASAM member (if not) before the project starts to continue participation.
 
-|{role-proposal-submitter}
-| nA
-|xref:getting-involved:proposal_phase.adoc#_process_overview[Proposal phase]
-| A member of ASAM
-
 | {role-project-participant}
 | {role-member}
 a| * xref:getting-involved:proposal_phase.adoc#_process_overview[Proposal phase]
@@ -151,7 +146,7 @@ a|* xref:getting-involved:ideation_phase.adoc#_process_overview[Ideation phase]
 | The submitter of an idea for a new ASAM project.
 Must become an ASAM member (if not) before the project starts to continue participation.
 
-|{role-proposal-submitter}
+|
 | nA
 |xref:getting-involved:proposal_phase.adoc#_process_overview[Proposal phase]
 | A member of ASAM
