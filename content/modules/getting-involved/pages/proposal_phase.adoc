@@ -11,7 +11,7 @@ Involved roles::
 {role-project-participant} --
 {role-gtm} --
 {role-tsc-member} --
-{role-member} --
+{role-member}
 
 include::partial$project_phases.adoc[tag=proposal]
 ====

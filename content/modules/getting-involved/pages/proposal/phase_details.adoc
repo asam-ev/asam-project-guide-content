@@ -258,7 +258,7 @@ The Proposal phase consists of the following steps, which are explained in detai
 * <<Finalizing the Proposal>>
 * <<Submission>>
 * <<Publication>>
-* <<Decision>>
+* <<TSC presentation>>
 * <<Archiving>>
 
 ---
