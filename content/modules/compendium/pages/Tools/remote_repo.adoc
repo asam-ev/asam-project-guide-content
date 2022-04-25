@@ -6,10 +6,12 @@ include::compendium:partial$_attributes.adoc[]
 include::contributing:partial$_attributes.adoc[]
 
 
-
 {mandatory}
 
 {remote-icon}
+
+{role-wg-member}
+{role-service-provider}
 
 A remote repository platform is a web-based DevOps lifecycle tool that provides a xref:compendium:Tools/git.adoc[] repository manager.
 It can host wikis, has issue-tracking, continuous integration, and deployment pipeline features, using an open-source license.

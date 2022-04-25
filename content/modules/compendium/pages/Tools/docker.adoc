@@ -12,6 +12,9 @@ include::contributing:partial$icon_reminder.adoc[tag=download-link]
 
 {docker-icon}
 
+{role-technical-writer}
+{role-service-provider}
+
 //tag::summary[]
 Docker is a platform where you use so-called containers to run applications in an encapsulated environment.
 With this, you do not need to install and configure software, programming languages etc: just download and use a pre-configured container that has all the relevant configuration already built in.

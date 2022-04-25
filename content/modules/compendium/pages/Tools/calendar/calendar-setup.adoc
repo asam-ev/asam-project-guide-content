@@ -12,7 +12,8 @@ include::contributing:partial$_attributes.adoc[]
 
 {calendar-icon-page}
 
-
+{role-wg-lead}
+{role-project-lead}
 
 == Context
 include::partial$calendar-include-mail.adoc[]

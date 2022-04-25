@@ -12,6 +12,9 @@ include::contributing:partial$_attributes.adoc[]
 
 {mandatory}
 
+{role-wg-lead}
+{role-project-lead}
+
 TIP: Click the Sharepoint icon on the right to directly access ASAM's sharepoint, or click the Team icon to access the MS Teams download page.
 
 {sharepoint-icon}

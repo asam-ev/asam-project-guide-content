@@ -13,6 +13,9 @@ include::contributing:partial$icon_reminder.adoc[tag=download-link]
 
 {vscode-icon}
 
+{role-technical-writer}
+{role-service-provider}
+
 
 Visual Studio Code is the suggested solution for checking out repositories and files from {gitlab}, adding and editing files, and pushing changes back to {gitlab}.
 However, users may choose any compatible program(s) instead, as long as {gitlab} stays the single point of truth for project files.

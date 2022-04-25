@@ -12,6 +12,9 @@ include::contributing:partial$icon_reminder.adoc[tag=online-access]
 
 {calendar-icon}
 
+{role-wg-lead}
+{role-project-lead}
+
 ASAM has a shared calendar for all OpenX projects: the OpenX calendar ({openx-calendar-mail}).
 Members can subscribe to it and invite it to automatically keep track of all meetings related to any OpenX project.
 

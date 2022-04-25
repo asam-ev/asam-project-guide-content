@@ -4,4 +4,6 @@
 
 include::partial$_attributes.adoc[]
 
+{role-wg-member}
+
 include::compendium:Tools/remote_repo/remote_repo_guides.adoc[tags=body;!icon]
