@@ -1,0 +1,35 @@
+= Build the Project Guide locally
+:description: Describes recommended steps to build the ASAM Project Guide locally.
+
+include::partial$_attributes.adoc[]
+
+== Context
+When editing the Project Guide, it may be beneficial to run the build process locally.
+This way, changes can be inspected before they are made public.
+
+== Result
+A local setup is created to build the Project Guide locally using Antora.
+
+== Prerequisites
+* User can access both the https://github.com/asam-ev/asam-project-guide/[generator^] and the https://github.com/asam-ev/asam-project-guide-content[content^] repository
+* The prerequisites of xref:latest@asamprojectguide:compendium:How-Tos/build_antora_locally.adoc#_prerequisites[Build Antora locally] in the Project Guide are fulfilled
+
+== How
+. Check out the https://github.com/asam-ev/asam-project-guide.git[generator repository^]
+. Next, check out the https://github.com/asam-ev/asam-project-guide-content.git[content repository^] inside the checked out generator repository
+* This guide assumes the content is checked out into the folder 'asam-project-guide-content' directly on root of the generator repository.
+If this is not the case, update the paths in the site.yml accordingly!
+. If you are using Visual Studio Code and would like to add both repositories to the integrated source control, follow these steps as well
+.. If one or both of the repositories above have already been added to source control, remove them from there
+.. Next, add the content repository to VSCode first
+.. Finally, add the generator repository to VSCode.
+This way, VSCode's source control should now contain both repositories
+. To build, follow the instructions from xref:latest@asamprojectguide:compendium:How-Tos/build_antora_locally.adoc#_how[Build Antora locally] in the Project Guide
+
+IMPORTANT: Remember to revert changes made to the site.yml for local building before checking in other changes to that file.
+Otherwise, the GitHub pipeline will not be able to build the site!
+
+== Troubleshooting
+=== In VSCode, my folder structure keeps closing randomly or when I switch windows
+This, unfortunately, is a side effect of the workaround for adding a nested repository to VSCode's source control.
+If you do not need the source control for the content repository or the generator repository, only add the relevant one to source control.

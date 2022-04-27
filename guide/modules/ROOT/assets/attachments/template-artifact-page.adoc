@@ -16,7 +16,7 @@ Describe the context (why) for this artifact.
 Describe the expected results of this artifact.
 
 == Prerequisites
-List all preqrequisits for this artifact.
+List all prerequisites for this artifact.
 
 == How
 Describe the steps to perform this artifact.

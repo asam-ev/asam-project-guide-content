@@ -9,35 +9,79 @@ include::compendium:partial$_attributes.adoc[]
 
 
 == Context
-This guide explains how to build this Project Guide locally on your PC without having activated the ASAM build pipeline.
-The suggested method is to use the provided docker-compose.yml in this repository.
+This guide explains how to build Antora projects locally on your PC without having activated the ASAM build pipeline.
 
 == Result
-The Project Guide is built locally and the content can be accessed from the "site" folder.
+The Antora output has been built locally.
 
 == Prerequisites
-* {docker-icon-norole} {docker-url}[Docker^] shall be installed and running.
-* https://www.python.org/downloads/[Python^] shall be installed (during installation, check the box "Add Python [version] to PATH").
-* All browser or file explorer windows shall be closed. Errors may occur when overwriting existing files.
-
+* {docker-icon-norole} {docker-url}[Docker^] must be installed and running.
+* To use the provided script, https://www.python.org/downloads/[Python^] must be installed (during installation, check the box "Add Python [version] to PATH").
+* The generator repository for your project has been checked out.
+For development projects, the generator repository is located here: https://code.asam.net/internal/examples/antora-base-repo-example[window=_blank]
 
 == How
-. In a terminal, open the _ASAM Project Guide_ repository.
-. Pull the current version of the repository: `git pull`
-. Check out the branch you want to build (default: use the _master_ branch): `git checkout <branch name>`
-. [[only-required-once]]Only required once:
-+
---
-** Make sure that the folder with _docker-compose.yml_ is active.
-** Run the following build process: `docker-compose build antora`
---
-+
+. Check the generator's 'site.yml' configuration
+* For local builds, the url under content/sources must be local.
+Typically, this is "./foldername", where "foldername" is the name of the folder the content was checked out into
+* Ensure that you use the branches and/or tags you want to build
 . Run the _scripts/build.py_ Python script: `python scripts/build.py`
 +
 -> The generated page automatically opens in the browser (Chrome).
++
+* To build the content without opening it automatically, add `-s` after "build.py"
+* To reopen the last build, add `-f` after "build.py"
+* To get more information on possible options, type `-h` after "build.py"
 
+== Example
+[tabs]
+====
+Remote build::
++
+--
+Build using the GitHub repository, the branches "main" and "pre-restructuring", and all tagged versions starting with "v".
+Use the folder "content" in the repository for this content source.
+
+[source, yaml]
+----
+content:
+  sources:
+    - url: https://github.com/asam-ev/asam-project-guide-content.git
+    # - url: ./asam-project-guide-content
+      branches: main, pre-restructuring
+      # branches: main
+      tags: v*
+      start_path: content
+----
+--
+Local build::
++
+--
+Build using the local folder "asam-project-guide-content" and only the branch "main".
+Use the folder "content" in the repository for this content source.
+
+[source, yaml]
+----
+content:
+  sources:
+    # - url: https://github.com/asam-ev/asam-project-guide-content.git
+    - url: ./asam-project-guide-content
+      # branches: main, pre-restructuring
+      branches: main
+      # tags: v*
+      start_path: content
+----
+--
+====
 
 == Troubleshooting / Known Issues
+=== Antora tells me there are duplicate files
+The most likely reason here is that you are trying to build two separate branches or tags that have identical component descriptors (typically, these are named "antora.yml").
+The default component descriptor applies automatic versioning based on git values.
+However, some configuration may lead to two separate branches or tags getting the same version in Antora.
+In this case, update at least one of the impacted component descriptors so that its version is different from the other.
+To do so, you can either set a manual value or update the rules that are applied the refname.
+
 === The python script does not execute all the steps
 The script must be executed from the correct folder.
 

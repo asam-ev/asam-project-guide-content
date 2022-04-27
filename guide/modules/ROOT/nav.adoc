@@ -4,6 +4,7 @@
 ** xref:structure/keywords-list.adoc[]
 ** xref:compendium:1_keywords.adoc[]
 //end::structure[]
+* xref:local_setup.adoc[]
 * xref:add_files.adoc[]
 //tag::add_files[]
 ** xref:adding_files/add-new-module.adoc[]
