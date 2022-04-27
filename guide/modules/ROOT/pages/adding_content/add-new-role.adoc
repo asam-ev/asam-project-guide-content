@@ -1,6 +1,6 @@
 = How to add a new role
 :description: Describes necessary steps to add a new role and its label.
-:keywords: how-to, role
+:keywords: role, custom
 
 include::partial$_attributes.adoc[]
 
@@ -15,7 +15,7 @@ The use of role labels with automatic linking helps keep the effort of managing 
 
 If a new role needs to be created, several steps are needed to set it up correctly so that it utilizes this system most efficiently.
 
-TIP: If you are looking for how to use an existing role on a page, see xref:adding_content/roles/use_roles.adoc[].
+TIP: If you are looking for how to use an existing role on a page, see xref:adding_content/use_roles.adoc[].
 
 == Result
 A new role main page has been defined, an interactive role label created and linked.

@@ -1,6 +1,6 @@
 = Using roles
 :description: Describes how to link a page to a role.
-:keywords: how-to, role
+:keywords: role, custom
 
 include::partial$_attributes.adoc[]
 
@@ -16,7 +16,7 @@ The benefit of these role labels is that
 . they can be listed on any page with the xref:extensions/macro-role_related.adoc[].
 
 TIP: All available roles are defined in the file `site.yml` at root level of the repository.
-If you need to define a new role first, see xref:adding_content/roles/add-new-role.adoc[].
+If you need to define a new role first, see xref:adding_content/add-new-role.adoc[].
 
 In order to work with roles, just add the attribute of that role to that page:
 

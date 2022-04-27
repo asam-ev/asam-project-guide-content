@@ -1,0 +1,12 @@
+= Gathering feedback
+:description: Collects all pages on how to gather feedback on the Project Guide.
+:keywords: project-guide
+
+include::partial$_attributes.adoc[]
+
+
+The following pages describe how to gather feedback on the Project Guide as well as quickly making small updates directly.
+
+
+== Pages
+include::../nav.adoc[tag=gather_feedback]
