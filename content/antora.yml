@@ -19,3 +19,4 @@ asciidoc:
     gitlab-url: https://code.asam.net
     github-url: https://github.com/asam-ev
     abb: "compendium:partial$abbreviations.adoc@"
+    experimental: ""

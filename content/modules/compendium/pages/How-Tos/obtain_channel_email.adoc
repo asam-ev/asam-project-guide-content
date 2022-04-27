@@ -20,7 +20,7 @@ To do so, the user needs to know the channel mail provided by MS Teams.
 == How
 
 . Select the channel you are interested in
-. Click on "..." and select "Get email address"
+. Select menu:...[Get email address]
 . Copy the selected address to clipboard
 
 .How to obtain the email address of a Teams channel

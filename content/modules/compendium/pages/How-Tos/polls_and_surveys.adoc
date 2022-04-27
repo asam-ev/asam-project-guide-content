@@ -1,4 +1,4 @@
-= Polls & Surveys
+= Polls & surveys with Microsoft Teams
 :description: Use polls and surveys with MS Teams
 :keywords: teams,email,surveys
 
@@ -9,7 +9,7 @@ include::compendium:partial$_attributes.adoc[]
 
 == Context
 Some topics require a coordinated and structure poll.
-Micrsoft Teams offers a tool called "Polly" which is directly integrated and can be used within a Teams channel.
+Microsoft Teams offers a tool called "Polly" which is directly integrated and can be used within a Teams channel.
 
 == Result
 * User has created a poll for a topic in a selected channel

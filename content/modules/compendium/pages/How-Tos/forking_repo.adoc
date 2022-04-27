@@ -37,8 +37,8 @@ To submit the changes you make in your fork back to the original repository, sub
 image::compendium:creating-a-pr-from-a-fork.gif[title="Creating a PR from a fork"]
 
 . Access the original repository
-. Click on "Pull requests"
-. Click on "New pull request"
-. Click "compare across forks"
+. Click on btn:[Pull requests]
+. Click on btn:[New pull request]
+. Click btn:[compare across forks]
 . Select your fork from the list
-. Click on "Create pull request"
+. Click on btn:[Create pull request]

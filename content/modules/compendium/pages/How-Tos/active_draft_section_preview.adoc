@@ -35,8 +35,8 @@ Visual Studio Code::
 AsciidocFX::
 +
 --
-. Go to `Settings` on the right hand side of the preview
-. Go to the `Preview settings` tab
+. Go to btn:[Settings] on the right hand side of the preview
+. Go to the btn:[Preview settings] tab
 . Add an `Asciidoctor Attribute` by double-clicking an empty attribute line
 . Add attribute `draft` with value `true`
 . Save the settings (small button on the lower left of the tab!)

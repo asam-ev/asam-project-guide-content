@@ -14,7 +14,7 @@ include::compendium:partial$_attributes.adoc[]
 . Open the Git Bash from the Context Menu (right-click -> Select "Git Bash Here")
 
 . Type `git clone --recurse-submodules` and then press the middle mouse button to paste the copied url.
-Confirm with Enter
+Confirm with kbd:[Enter]
 +
 NOTE: With this command, you do not need to manually initialize the submodules after checkout!
 

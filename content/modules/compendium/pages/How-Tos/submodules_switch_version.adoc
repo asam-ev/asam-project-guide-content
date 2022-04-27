@@ -9,7 +9,7 @@ include::compendium:partial$_attributes.adoc[]
 
 When a certain version of the submodule is needed, go into the submodule and checkout the needed version.
 
-.Full example for update versiono of a submodule (for asciidoc-resources)
+.Full example for update version of a submodule (for asciidoc-resources)
 ====
 [source,console]
 ----

@@ -20,16 +20,16 @@ None
 == How
 // include::latest@asamprojectguide:compendium:partial$How-Tos/how-to__create_issue_service_desk.adoc[tag=steps]
 
-. Click the button "Submit feedback"
+. Click btn:[Submit feedback]
 +
 image::latest@asamprojectguide:compendium:submit_feedback_button.png[title='"Submit feedback" button in Antora project', role="thumb"]
 . Edit the title of the form
 . Select the relevant topics by replacing any `- [ ]` with `- [x]` in the "Prerequisites" section
-. Add a title of the topic to the secion "Summary"
+. Add a title of the topic to the section "Summary"
 . If relevant, add the section name on that page to the section "Section"
 . Add a comprehensive and comprehensible description to the section "Description".
 Ideally, use screenshots to show what you mean more clearly
 . Add a suggested solution to the section "Suggestion"
 +
 image::latest@asamprojectguide:compendium:submit_form_github.png[title="The issue form for submitting feedback in GitHub"]
-. Click "Submit new issue"
+. Click btn:[Submit new issue]

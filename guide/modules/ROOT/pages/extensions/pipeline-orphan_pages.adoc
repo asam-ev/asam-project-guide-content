@@ -7,7 +7,6 @@ include::partial$_attributes.adoc[]
 
 {special-macros-icon}
 
-== Description
 include::partial$pipeline-orphan_pages.adoc[tag=description]
 
 == Configuration

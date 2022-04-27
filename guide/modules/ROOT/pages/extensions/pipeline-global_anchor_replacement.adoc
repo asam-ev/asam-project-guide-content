@@ -7,7 +7,6 @@ include::partial$_attributes.adoc[]
 
 {special-macros-icon}
 
-== Description
 include::partial$pipeline-global_anchor_replacement.adoc[tag=description]
 
 == Prerequisites

@@ -9,6 +9,5 @@ include::compendium:partial$_attributes.adoc[]
 
 You can find a very helpful overview at https://code.visualstudio.com/docs/editor/versioncontrol#_git-support[window=_blank].
 
-//TODO: Add extensive explanation and content
 
 related::git[]

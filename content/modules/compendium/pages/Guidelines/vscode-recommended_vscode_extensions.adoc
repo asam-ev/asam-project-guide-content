@@ -12,7 +12,7 @@ One thing that can make the VSCode experience even better are the extensions.
 There is a list of extensions we recommend that will make your life contributing to the ASAM standards way easier.
 
 Installing an extension is really easy, just enter the extension menu, search for the desired extension.
-Then, click on the Install-Button.
+Then, click on the btn:[Install] button.
 
 
 == AsciiDoc
@@ -38,7 +38,7 @@ image::compendium:commentanchor_ext.PNG[]
 
 == Draw.io
 //tag::drawio[]
-The Draw.io extension for Visual Sudio Code allows for easy creation and assisted editing of drawio and other files supported by Draw.io within Visual Studio Code.
+The Draw.io extension for Visual Studio Code allows for easy creation and assisted editing of drawio and other files supported by Draw.io within Visual Studio Code.
 For shortcuts and tips, see the documentation of the extension.
 You can access this documentation when you click on the extension in the marketplace.
 

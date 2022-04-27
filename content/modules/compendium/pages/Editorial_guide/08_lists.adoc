@@ -112,9 +112,9 @@ There are no exceptions.
 ```
 To sign on to a database:
 
-. On the File menu, select Open database.
-. In Username, enter your name.
-. In Password, enter your password, and then select OK.
+. Select menu:File[Open database].
+. Under 'Username', enter your name.
+. Under 'Password', enter your password, and then select btn:[OK].
 ```
 
 *Source*

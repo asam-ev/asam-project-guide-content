@@ -75,8 +75,13 @@ pages/
 ----
 , the example below shows the result for applying the macro in this module.
 
+
+[tabs]
 .Create automatic navigation file content
 ====
+Source::
++
+--
 [source,asciidoc]
 ----
 * Test
@@ -84,10 +89,10 @@ pages/
 
 // autonav::[]
 ----
-====
-
-Output:
-====
+--
+Result::
++
+--
 [source,asciidoc]
 ----
 * xref::index.adoc[]
@@ -103,7 +108,7 @@ Output:
 **** xref::content_folder/additional_content/special_content_FILE.adoc[]
 ** xref::second_file.adoc[]
 ----
+--
 ====
-
 
 //end::example[]

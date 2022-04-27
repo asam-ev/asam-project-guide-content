@@ -10,7 +10,7 @@ include::compendium:partial$_attributes.adoc[]
 In case the location of the submodule on remote (i.e. on GitLab) is changed, the url must also be changed manually in every repository that includes this as a submodule.
 To do this, follow these instructions:
 
-. Open a terminal and type in the following command (replacing the placeholders) and confirm with Enter:
+. Open a terminal and type in the following command (replacing the placeholders) and confirm with kbd:[Enter]:
 +
 [source,git]
 ----

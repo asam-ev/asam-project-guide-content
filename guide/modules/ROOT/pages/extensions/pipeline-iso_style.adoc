@@ -7,7 +7,6 @@ include::partial$_attributes.adoc[]
 
 {special-macros-icon}
 
-== Description
 include::partial$pipeline-iso_style.adoc[tag=description]
 
 == Prerequisites

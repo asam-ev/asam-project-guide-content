@@ -7,7 +7,6 @@ include::partial$_attributes.adoc[]
 
 {special-macros-icon}
 
-== Description
 include::partial$pipeline-sequential_sectnums.adoc[tag=description]
 
 == Prerequisites
@@ -18,7 +17,7 @@ include::partial$pipeline-sequential_sectnums.adoc[tag=configuration]
 
 
 == Usage
-include::partial$pipeline-sequential_sectnums.adoc[tag=how]
+include::partial$pipeline-sequential_sectnums.adoc[tag=how,leveloffset=+1]
 
 == Example
 include::partial$pipeline-sequential_sectnums.adoc[tag="example"]

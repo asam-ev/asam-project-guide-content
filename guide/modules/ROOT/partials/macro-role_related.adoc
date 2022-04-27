@@ -40,6 +40,7 @@ Add `role_related::<attributes>[<parameters>]` in an empty line and replace `<at
 //tag::example[]
 In this example, all pages in the documentation that contain both the role label "gtm" and the keyword "proposal" are listed.
 
+
 .List all pages with the role "gtm" that also contain the keyword "proposal"
 ====
 [source,asciidoc]

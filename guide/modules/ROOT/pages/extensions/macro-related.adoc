@@ -8,7 +8,6 @@ include::partial$_attributes.adoc[]
 
 {special-macros-icon}
 
-== Description
 include::partial$macro-related.adoc[tag=description]
 
 == Prerequisites

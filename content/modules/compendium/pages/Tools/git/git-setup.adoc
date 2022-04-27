@@ -88,23 +88,23 @@ TIP: Entering a passphrase is optional and leads to additional steps every time 
 
 
 == Troubleshooting / Known Issues
-=== I cannot click "Next" after selecting Visual Studio Code as Git's default editor during installation
-If you cannot click "Next", make sure Visual Studio Code is already installed.
+=== I cannot click btn:[Next] after selecting 'Visual Studio Code' as Git's default editor during installation
+If you cannot click btn:[Next], make sure Visual Studio Code is already installed.
 Return to the previous step and continue again.
-Now, the "next" button should be active.
+Now, the btn:[Next] button should be active.
 
 === My SSH keys are not working
 Make sure that the ssh-agent is running:
 
 . Open a shell or terminal window
-. Type the following command, hit Enter, and check the status:
+. Type the following command, hit kbd:[Enter], and check the status:
 +
 [source,Shell]
 ----
 Get-Service ssh-agent
 ----
 +
-.. If the status is "Stopped", type the following, hit Enter, and check the StartType.
+.. If the status is "Stopped", type the following, hit kbd:[Enter], and check the StartType.
 +
 [source,Shell]
 ----
@@ -115,7 +115,7 @@ Get-Service ssh-agent | Select StartType
 See <<My SSH agent is deactivated>>. +
 Continue here after your SSH agent has bee activated.
 
-. Enter the following command and hit Enter
+. Enter the following command and hit kbd:[Enter]
 +
 [source,Shell]
 ----
@@ -127,7 +127,7 @@ NOTE: This requires administration rights.
 If you do not have these, request support from your IT department.
 
 . Open a shell or terminal window with **Administration** rights
-. Set the SSH Agent to start manually by typing the following command and hitting Enter:
+. Set the SSH Agent to start manually by typing the following command and hitting kbd:[Enter]:
 +
 [source,Shell]
 ----

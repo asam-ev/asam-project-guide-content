@@ -24,7 +24,7 @@ Download from pipeline::
 --
 image::compendium:artifact_download_ci.png[]
 
-. Access _Repository_ -> _Branches_
+. Access menu:Repository[Branches]
 . Select the pipeline for the branch that you'd like to access
 . Retrieve the compiled artifacts
 * The example shows how to retrieve the uml2adoc artifacts
@@ -34,7 +34,7 @@ Download From merge/pull request::
 --
 image::compendium:artifact_download_mr.png[]
 
-. Access _Repository_ -> _Merge requests_
+. Access menu:Repository[Merge requests]
 . Select the Merge/Pull Request that you'd like to access
 . Retrieve the compiled artifacts
 * The example shows how to retrieve the uml2adoc artifacts

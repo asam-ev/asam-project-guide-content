@@ -19,7 +19,7 @@ In order to be aware of all updates, the user can activate email notifications f
 
 == How
 * Turn these to receive an email when you receive a notification
-** We recommend at least personal, channel and team mentions
+** ASAM recommends at least personal, channel, and team mentions
 
 image::compendium:email-notifications-teams.gif[Email Notifications]
 
