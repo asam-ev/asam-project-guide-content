@@ -96,7 +96,7 @@ Instead, use partials.
 
 For more information on page requirements, see xref:adding_content/add-a-page.adoc[].
 
-For more information on how Antora handles pages in general, see https://docs.antora.org/antora/2.1/page/#standard[Standard Pages In Antora^].
+For more information on how Antora handles pages in general, see https://docs.antora.org/antora/latest/page/standard-page/[Standard Pages In Antora^].
 
 == When to use a partial
 A partial is located in the "partials" folder (or a subfolder therein) of a module.
@@ -114,4 +114,4 @@ Partials also do not support all macros, particularly the xref:special-macros.ad
 
 For more information on partials requirements, see xref:adding_content/add-a-partial.adoc[].
 
-For more information on how Antora handles partials in general, see https://docs.antora.org/antora/2.1/page/#partial[Reusable Partial Pages In Antora^].
+For more information on how Antora handles partials in general, see https://docs.antora.org/antora/latest/page/include-a-page/[Include a Page In Antora^].

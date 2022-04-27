@@ -1,4 +1,4 @@
-= Custom ASAM Antora/Asciidoctor extensions
+= Custom ASAM features
 :description: Lists all custom macros used throughout the Project Guide that require special scripts by ASAM to be processed correctly.
 :keywords: macro,custom,project-guide
 :page-aliases: special-macros.adoc

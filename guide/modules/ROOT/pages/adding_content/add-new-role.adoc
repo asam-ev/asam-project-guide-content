@@ -33,22 +33,13 @@ none
 ----
 +
 , where `<role-name>` is the role name chosen as the filename and `<description text>` contains the short description of this role
-. Add the new role to the table in the partial "roles.adoc" in the "role-specific" module, using the following syntax:
-+
-[source,adoc]
-----
-| {role-<role-name>}
-| {<role-name>-description}
-----
-+
-, where `<role-name>` is the role name chosen as the filename
-
+. Add the new role to the table in the partial "roles.adoc" in the "role-specific" module
 . Add a new role label to the Project Guide's "site.yml" under '## Defined role attributes', using the following syntax:
 +
 [source, yaml]
 ----
-role-<role-name>: 'xref:role-specific:<role-name>.adoc[<role style="color:black;font-weight: bold;width:500px;height:100px;border-radius: 25px;margin:10px 2px;padding:5px 15px;border:2px solid #000;background:<role-color>;" ><FULL-ROLE-NAME></role>]'
+role-<role-name>: 'xref:role-specific:<role-name>.adoc[<role style="background:#role-color;" >FULL-ROLE-NAME</role>]'
 ----
 +
-, where `<role-name>` is the role name chosen as the filename, `<role-color>` is the hex-code for the intended color of the label and `<FULL-ROLE-NAME>` is the full name of the role in capital letters.
+, where `<role-name>` is the role name chosen as the filename, `role-color` is the hex-code for the intended color of the label and `FULL-ROLE-NAME` is the full name of the role in capital letters.
 

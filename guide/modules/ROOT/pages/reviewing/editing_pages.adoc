@@ -1,4 +1,4 @@
-= Artifact page name
+= Editing a page directly
 :description: The artefact's description
 :page-partial:
 

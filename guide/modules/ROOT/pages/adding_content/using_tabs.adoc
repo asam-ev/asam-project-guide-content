@@ -1,0 +1,53 @@
+= Using tabulated content
+:description: Describes how to create a tabulated content block.
+:keywords: custom
+
+include::partial$_attributes.adoc[]
+
+NOTE: This is built on https://gitlab.com/antora/antora-asciidoctor-extensions/-/tree/main/tabs-block[window=_blank].
+
+To organize content on a page more compactly, you can use tabs.
+
+== How to use
+
+=== Source code
+
+[source]
+----
+[tabs]
+====
+Tab 1::
++
+--
+Some text here.
+--
+Tab 2::
++
+--
+Another text there.
+--
+====
+----
+
+=== Result
+
+[tabs]
+====
+Tab 1::
++
+--
+Some text here.
+--
+Tab 2::
++
+--
+Another text there.
+--
+====
+
+== Limitations
+* This implementation uses open blocks ("--").
+You cannot nest open blocks within open blocks!
+* You cannot directly define sections within tabs.
+However, you can use a table with the explicit asciidoctor command (a|) to include content with full asciidoctor substitutions
+* You cannot reference sections in tabs directly and the table-of-content will not list any sections in tabs
