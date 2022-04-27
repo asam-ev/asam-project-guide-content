@@ -5,7 +5,7 @@
 include::partial$_attributes.adoc[]
 
 
-{changes-icon}
+{gather_feedback-icon}
 
 == Context
 If a page is not correct, the easiest way is to directly write the feedback from the page itself.

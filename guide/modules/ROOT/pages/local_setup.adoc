@@ -3,6 +3,8 @@
 
 include::partial$_attributes.adoc[]
 
+{local_build-icon}
+
 == Context
 When editing the Project Guide, it may be beneficial to run the build process locally.
 This way, changes can be inspected before they are made public.

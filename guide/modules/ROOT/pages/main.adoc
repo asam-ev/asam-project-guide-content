@@ -25,6 +25,9 @@ It also references particularities of Antora and links to important information 
 xref:structure.adoc[]
 |Contains information on structural concepts and content in the Project Guide.
 
+|{local_build-icon-norole} +
+xref:local_setup.adoc[]
+|Describes how to build the Project Guide locally.
 
 |{add-file-icon-norole} +
 xref:add_files.adoc[]
@@ -43,6 +46,10 @@ xref:ref-include.adoc[]
 |Contains an overview over Antora features and Project Guide specifics on how to include or reference content.
 This covers both internal and external links (xref, link etc.) as well as using non-AsciiDoc files in Antora and the Project Guide in particular.
 It also defines how pages and partials can be included and why pages are handled differently in Antora.
+
+|{gather_feedback-icon-norole} +
+xref:gather_feedback.adoc[]
+|Contains information on how gathering and utilizing feedback in the Project Guide works.
 
 |{special-macros-icon-norole} +
 xref:asam_extensions.adoc[]

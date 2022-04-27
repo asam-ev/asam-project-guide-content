@@ -122,6 +122,16 @@ a| image::https://cdn-icons-png.flaticon.com/512/4727/4727488.png[width=40]
 <a href="https://www.flaticon.com/free-icons/repository" title="repository icons">Repository icons created by Flat Icons - Flaticon</a>
 +++
 
+a|https://cdn-icons-png.flaticon.com/512/2482/2482695.png[width=40]
+|+++
+<a href="https://www.flaticon.com/free-icons/build" title="build icons">Build icons created by Freepik - Flaticon</a>
++++
+
+a|https://cdn-icons-png.flaticon.com/512/3039/3039564.png[width=40]
+|+++
+<a href="https://www.flaticon.com/free-icons/review" title="review icons">Review icons created by Freepik - Flaticon</a>
++++
+
 |===
 
 // Template

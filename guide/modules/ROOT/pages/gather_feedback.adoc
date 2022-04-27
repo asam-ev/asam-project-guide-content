@@ -4,6 +4,7 @@
 
 include::partial$_attributes.adoc[]
 
+{gather_feedback-icon}
 
 The following pages describe how to gather feedback on the Project Guide as well as quickly making small updates directly.
 
