@@ -4,9 +4,9 @@ Since Asciidoctor counts all images and tables only within each page, their capt
 In case of standards, these numbers must be sequential (and unique) within each standard, not each page.
 
 [NOTE]
-====
+======
 Due to the similarity in its topics, the Asciidoctor extension is also responsible for xref:extensions/pipeline-sequential_sectnums.adoc[sequential section numbers and page titles].
-====
+======
 
 //end::description[]
 

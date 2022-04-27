@@ -9,9 +9,9 @@ To fulfill this requirement, the "Page numbering" extension features were implem
 These consist of an Antora part (responsible for the navigation structure and sequential numbering over all files) and an Asciidoctor part (responsible for applying the determined page offset on all level two ("== ") sections on each page).
 
 [NOTE]
-====
+======
 Due to the similarity in its topics, the Asciidoctor extension is also responsible for xref:extensions/pipeline-sequential_figs_tables.adoc[sequential figure and table numbers].
-====
+======
 
 //end::description[]
 

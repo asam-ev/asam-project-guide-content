@@ -43,14 +43,14 @@ The macro must also always be used as a comment (similarly to the Asciidoctor ma
 
 
 [NOTE]
-====
+======
 The macro uses the following rules to determine the main page of a module:
 
 * If there is a file named like the module on root level, use this as the main page.
 * Else if there is a file named "index.adoc" on root level, use this as the main page.
 * Else if there is a file named "main.adoc" on root level, use this as the main page.
 * Else use the first page in the alphabetically sorted list.
-====
+======
 
 //end::how[]
 

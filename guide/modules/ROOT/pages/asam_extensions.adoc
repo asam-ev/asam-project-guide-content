@@ -28,12 +28,13 @@ The ASAM Antora extension adds the following features to Antora:
 * Creating a <<Keyword-overview page>>
 * Sequential <<Page numbering,page and section numbers>> in Antora
 
-NOTE: All following examples assume the extension is located under "./antora_extensions", where "." is the location of the "site.yml" file (the https://docs.antora.org/antora/latest/playbook/[Antora playbook^]).
+All following examples assume the extension is located under "./antora_extensions", where "." is the location of the "site.yml" file (the https://docs.antora.org/antora/latest/playbook/[Antora playbook^]).
 
 
 == General configuration
 The following table describes general configuration on using the extension:
 
+[cols=">1,3,1,2"]
 |===
 |Attribute |Description |Default |Example
 
@@ -63,77 +64,98 @@ Only relevant in combination with `id`.
 == Pipeline features
 The following sections describe features directly applied through the pipeline.
 
-=== Orphan pages
+
+[tabs]
+====
+Orphan pages::
++
+--
 include::partial$pipeline-orphan_pages.adoc[tag=description]
 
 For more details, see xref:extensions/pipeline-orphan_pages.adoc[].
-
-
-=== Keyword-overview page
+--
+Keyword-overview page::
++
+--
 include::partial$pipeline-keyword_overview.adoc[tag=description]
 
 For more details, see xref:extensions/pipeline-keyword_overview.adoc[]. +
 To see the result of the applied pipeline feature, see
 reference::keyword-overview-page[]
-
-
-=== Page numbering
+--
+Page numbering::
++
+--
 include::partial$pipeline-sequential_sectnums.adoc[tag=description]
 
 For more details, see xref:extensions/pipeline-sequential_sectnums.adoc[].
-
-
-=== Sequential figure and table numbers
+--
+Sequential figure and table numbers::
++
+--
 include::partial$pipeline-sequential_figs_tables.adoc[tag=description]
 
 For more details, see xref:extensions/pipeline-sequential_figs_tables.adoc[].
-
-
-=== ISO-2145 style section numbers
+--
+ISO-2145 style section numbers::
++
+--
 include::partial$pipeline-iso_style.adoc[tag=description]
 
 For more details, see xref:extensions/pipeline-iso_style.adoc[].
-
-
-=== Convert local to global page references
+--
+Convert local to global page references::
++
+--
 include::partial$pipeline-global_anchor_replacement.adoc[tag=description]
 
 For more details, see xref:extensions/pipeline-global_anchor_replacement.adoc[].
+--
+====
 
 
 == ASAM Antora macros
-IMPORTANT: ASAM macros are not supported in partials as they are replaced through Antora rather than Asciidoctor, but partials are included by Asciidoctor at a later stage.
+IMPORTANT: ASAM macros are not supported in partials as they are replaced through Antora rather than Asciidoctor, but partials are included by Asciidoctor at a later stage!
 
 
-=== The "related" macro
+[tabs]
+====
+related::
++
+--
 include::partial$macro-related.adoc[tag="how"]
 
-See: xref:macros/macro-related.adoc[]
-
-
-=== The "reference" macro
+For more details, see xref:macros/macro-related.adoc[]
+--
+reference::
++
+--
 include::partial$macro-reference.adoc[tag=how]
 
-See: xref:macros/macro-reference.adoc[]
-
-
-=== The "pages" macro
+For more details, see xref:macros/macro-reference.adoc[]
+--
+pages::
++
+--
 include::partial$macro-pages.adoc[tag=how]
 
-See: xref:macros/macro-pages.adoc[]
-
-
-=== The "role_related" macro
+For more details, see xref:macros/macro-pages.adoc[]
+--
+role_related::
++
+--
 include::partial$macro-role_related.adoc[tag=how]
 
-See: xref:macros/macro-role_related.adoc[]
-
-
-=== The "autonav" macro
+For more details, see xref:macros/macro-role_related.adoc[]
+--
+autonav::
++
+--
 include::partial$macro-autonav.adoc[tag=how]
 
-See: xref:macros/macro-autonav.adoc[]
-
+For more details, see xref:macros/macro-autonav.adoc[]
+--
+====
 
 == Sources
 The source code can be found in the https://code.asam.net/common/asam-antora-extensions[ASAM GitLab repository^].
