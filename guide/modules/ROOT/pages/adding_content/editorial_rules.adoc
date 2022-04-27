@@ -1,6 +1,5 @@
 = Editorial rules
 :description: Describes the use of editorial rules in the Project Guide and how to add/change them.
-:keywords: editorial
 
 include::partial$_attributes.adoc[]
 

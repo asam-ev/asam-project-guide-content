@@ -1,6 +1,6 @@
 = Macro: reference
 :description: Describes the use of the macro "reference" in detail.
-:keywords: macro,asam,antora,custom
+:keywords: macro,custom
 :page-aliases: macros/macro-reference.adoc
 
 include::partial$_attributes.adoc[]
@@ -21,9 +21,3 @@ include::partial$macro-reference.adoc[tag=how]
 
 == Example
 include::partial$macro-reference.adoc[tag="example"]
-
-**Result**:
-====
-reference::pipeline,!asciidoctor[]
-====
-

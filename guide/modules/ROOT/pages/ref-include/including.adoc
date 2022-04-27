@@ -1,6 +1,6 @@
 = Including pages and partials
 :description: Provides information on including pages and partials in Antora.
-:keywords: project-guide, antora, include
+:keywords: project-guide
 
 include::partial$_attributes.adoc[]
 

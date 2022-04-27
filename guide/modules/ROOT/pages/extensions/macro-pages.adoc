@@ -1,6 +1,6 @@
 = Macro: pages
 :description: Describes the use of the macro "pages" in detail.
-:keywords: macro,asam,antora,custom
+:keywords: macro,custom
 :page-aliases: macros/macro-pages.adoc
 
 include::partial$_attributes.adoc[]

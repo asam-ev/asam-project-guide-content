@@ -25,6 +25,7 @@ See the pages on xref:latest@asamprojectguide:compendium:Editorial_guide/09_tabl
 * All relevant tables must have an xref:latest@asamprojectguide:compendium:Editorial_guide/09_tables.adoc[ASAM-type table anchor]
 * All irrelevant figures and tables must not have a title
 * All relevant pages are in the navigation tree
+* Images are not included in files that, in turn, are included using attributes in the pathname or filename (e.g. `include::{some-attribute}/filename.adoc[]`)
 //end::prerequisites[]
 
 //tag::configuration[]

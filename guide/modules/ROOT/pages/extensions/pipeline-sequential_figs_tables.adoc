@@ -1,6 +1,6 @@
 = Pipeline: Sequential figure and table numbers
 :description: Describes the use of the pipeline extension "Sequential figure and table numbers" in detail.
-:keywords: pipeline,asam,antora,asciidoctor,custom
+:keywords: pipeline,asciidoctor,custom
 
 include::partial$_attributes.adoc[]
 

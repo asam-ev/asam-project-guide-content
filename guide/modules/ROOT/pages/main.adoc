@@ -1,6 +1,5 @@
 = Working on the Project Guide
 :description: Landing page for information on how to work on the ASAM Project Guide using Asciidoctor and Antora.
-:keywords: landing_page,project-guide
 :page-aliases: home.adoc
 :page-credits:
 

@@ -7,7 +7,7 @@ At least one other AsciiDoc file with the relevant role label.
 //end::prerequisites[]
 
 //tag::parameters[]
-[cols="1,1,4"]
+[cols=">1,1,4"]
 |===
 |Parameter |Argument(s) |Note
 
@@ -20,7 +20,7 @@ If at least one keyword is given, the heading "== Role-related topics" is omitte
 //end::parameters[]
 
 //tag::attributes[]
-[cols="2,1,1,1,4"]
+[cols=">2,1,1,1,4"]
 |===
 |Attribute |Multiplicity |Separator |Type |Note
 
@@ -41,13 +41,23 @@ Add `role_related::<attributes>[<parameters>]` in an empty line and replace `<at
 In this example, all pages in the documentation that contain both the role label "gtm" and the keyword "proposal" are listed.
 
 
+[tabs]
 .List all pages with the role "gtm" that also contain the keyword "proposal"
 ====
+Source::
++
+--
 [source,asciidoc]
 ----
 role_related::gtm[proposal]
 ----
-====
 
+--
+Result::
++
+--
+image::role_related_macro.png[title='The macro "role_related" applied to the role "gtm" and filtered for pages with the keyword "proposal".']
+--
+====
 
 //end::example[]

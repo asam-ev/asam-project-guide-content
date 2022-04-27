@@ -1,6 +1,5 @@
 = Artifact page name
 :description: The artefact's description
-:keywords: artifact
 :page-partial:
 
 \include::partial$_attributes.adoc[]

@@ -14,7 +14,7 @@ The module contains at least one page.
 //end::prerequisites[]
 
 //tag::parameters[]
-[cols="1,1,4"]
+[cols=">1,1,4"]
 |===
 |Parameter |Argument(s) |Note
 
@@ -27,7 +27,7 @@ Instead, all pages and folders are listed one level higher (i.e. all root level 
 //end::parameters[]
 
 //tag::attributes[]
-[cols="2,1,1,1,4"]
+[cols=">2,1,1,1,4"]
 |===
 |Attribute |Multiplicity |Separator |Type |Note
 

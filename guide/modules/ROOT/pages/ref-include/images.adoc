@@ -1,6 +1,6 @@
 = Using images
 :description: Provides information on using images in Antora.
-:keywords: project-guide, antora, image
+:keywords: project-guide
 
 include::partial$_attributes.adoc[]
 

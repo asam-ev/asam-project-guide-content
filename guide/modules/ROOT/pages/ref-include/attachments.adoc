@@ -1,6 +1,6 @@
 = Using attachments
 :description: Provides information on attachments in Antora.
-:keywords: project-guide, antora, attachment
+:keywords: project-guide
 
 include::partial$_attributes.adoc[]
 

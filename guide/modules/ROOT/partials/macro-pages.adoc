@@ -11,7 +11,7 @@ At least one asciidoc file that is not this file must be in the target folder.
 //end::prerequisites[]
 
 //tag::parameters[]
-[cols="1,1,4"]
+[cols=">1,1,4"]
 |===
 |Parameter |Argument(s) |Note
 
@@ -22,7 +22,7 @@ At least one asciidoc file that is not this file must be in the target folder.
 //end::parameters[]
 
 //tag::attributes[]
-[cols="2,1,1,1,4"]
+[cols=">2,1,1,1,4"]
 |===
 |Attribute |Multiplicity |Separator |Type |Note
 

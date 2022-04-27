@@ -1,6 +1,6 @@
 = Pipeline: Local to global anchor replacement
 :description: Describes the use of the macro "Local to global anchor replacement" in detail.
-:keywords: pipeline,asam,antora,custom
+:keywords: pipeline,custom
 
 include::partial$_attributes.adoc[]
 
