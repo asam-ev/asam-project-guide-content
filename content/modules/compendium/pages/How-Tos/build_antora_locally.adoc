@@ -33,7 +33,10 @@ Typically, this is "./foldername", where "foldername" is the name of the folder 
 * To reopen the last build, add `-f` after "build.py"
 * To get more information on possible options, type `-h` after "build.py"
 
-== Example
+== Example for site.yml
+The example below shows the differences between a remote build setup and a local build setup.
+All changes are applied in the project's site.yml.
+
 [tabs]
 ====
 Remote build::
