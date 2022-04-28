@@ -4,12 +4,12 @@
 
 This section contains editorial rules on how to write down source code:
 
-* <<#sec-ASM-14>>
-* <<#sec-ASM-88>>
 * <<#sec-ASM-43>>
+* <<#sec-ASM-121>>
+* <<#sec-ASM-88>>
+* <<#sec-ASM-14>>
 * <<#sec-ASM-79>>
 * <<#sec-ASM-53>>
-* <<#sec-ASM-121>>
 
 
 [#sec-ASM-14]
@@ -24,6 +24,8 @@ The placeholder will trigger a pipeline warning so that the technical writer can
 
 *Example*
 
+[.underline]#Code#
+
 ```
 [#code-7a608cac-62b9-4992-8079-d382a55128b2]
 [source, xml, linenums]
@@ -33,6 +35,17 @@ The placeholder will trigger a pipeline warning so that the technical writer can
 </OpenDRIVE>
 ----
 ```
+
+[.underline]#Result#
+
+[#code-7a608cac-62b9-4992-8079-d382a55128b2]
+[source, xml, linenums]
+----
+<OpenDRIVE xmlns="https://code.asam.net/simulation/standard/opendrive_schema/">
+...
+</OpenDRIVE>
+----
+
 
 *Source*
 
@@ -123,16 +136,24 @@ There are no exceptions.
 
 *Example*
 
+[.underline]#Code#
+
+`+++`term`+++`
+
+[.underline]#Result#
+
+`term`
+
 [#tab-ce27729f-33c4-47b2-a579-e7a1c2434c3a]
 .Use a single backtick before and after inline literals
 [%header]
 |===
 |No |#Yes#
 |[.line-through]#The example below shows the structure of an `++``Act``++`.#
-|The example below shows the structure of an `++`Act`++`.
+|The example below shows the structure of an `++Act++`.
 
 |[.line-through]#Movements of vehicles in `++``Act``++` are defined in the `++``ManeuverGroup``++ `` s section.#
-|Movements of vehicles in `++`Act`++` are defined in the section `++`ManeuverGroup`++`.
+|Movements of vehicles in `Act` are defined in the section `ManeuverGroup`.
 |===
 
 *Source*
@@ -156,12 +177,6 @@ There are no exceptions.
 [%header]
 |===
 |No |#Yes#
-|Normal text +
-[.line-through]#->Level 1 indented text +
-->->Level 2 indented text#
-|Normal text +
-....Level 1 indented text +
-........Level 2 indented text
 
 a|[source, xml]
 <planView>
@@ -245,6 +260,14 @@ Optional: Use the words "attribute" or "attributes".
 
 *Example*
 
+[.underline]#Code#
+
+++`++<roadMark>++`++ element
+
+[.underline]#Result#
+
+`<roadMark>` element
+
 [#tab-290d36d7-08a5-4aac-9ba2-7e60db7d448a]
 .Mark up ASAM XML elements
 [%header]
@@ -256,14 +279,6 @@ Optional: Use the words "attribute" or "attributes".
 |[.line-through]#`<type>` attribute# |@type attribute
 |[.line-through]#``<type>``s#        |@type attributes
 |===
-
-[.underline]#Code#
-
-++`++<roadMark>++`++ element
-
-[.underline]#Result#
-
-`<roadMark>` element
 
 *Source*
 

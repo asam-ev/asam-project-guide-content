@@ -76,6 +76,36 @@ This is the third sentence.
 ASAM Writing Guide: 4.3. One sentence per line
 
 
+[#sec-ASM-75]
+== Do not use manual line breaks (ASM-75)
+
+*Exceptions*
+
+Use manual line breaks in tables to insert a second paragraph into a table cell.
+
+*Example*
+
+[.underline]#Code#
+
+```
+|===
+|First paragraph in a table cell. +
+Second paragraph in a table cell.
+|===
+```
+
+[.underline]#Result#
+
+|===
+|First paragraph in a table cell. +
+Second paragraph in a table cell.
+|===
+
+*Source*
+
+ASAM Writing Guide: 4.3. One sentence per line
+
+
 [#sec-ASM-71]
 == Use of italic markup (ASM-71)
 
@@ -93,13 +123,13 @@ There are no exceptions.
 
 *Example*
 
-[#tab-a6e4326c-a900-4af3-8fc1-f935f119f587]
-.Use of italic markup
-[%header]
-|===
-|No                     |#Yes#
-|[.line-through]#false# |`+++_term_+++`
-|===
+[.underline]#Code#
+
+`+++_term_+++`
+
+[.underline]#Result#
+
+_term_
 
 *Source*
 
@@ -124,13 +154,13 @@ There are no exceptions.
 
 *Example*
 
-[#tab-ad208ac2-619a-4a12-b381-8e4935ce3452]
-.Use of bold markup
-[%header]
-|===
-|No                     |#Yes#
-|[.line-through]#false# |`+++*term*+++`
-|===
+[.underline]#Code#
+
+`+++*term*+++`
+
+[.underline]#Result#
+
+*term*
 
 *Source*
 
@@ -156,12 +186,14 @@ There are no exceptions.
 
 *Example*
 
-[#tab-f3fb86db-ea0b-40b9-8abb-c3a1f390adba]
-.Use of code markup
-[%header]
-|===
-|No                     |#Yes#
-|[.line-through]#false# |`+++`term`+++`
-|===
+[.underline]#Code#
+
+`+++`term`+++`
+
+[.underline]#Result#
+
+`term`
 
 *Source*
+
+ASAM Writing Guide: Typographic conventions for XiL

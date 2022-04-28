@@ -163,6 +163,8 @@ ASAM Writing Guide: 5.2. Figures
 [#sec-ASM-58]
 == Create a caption for every figure (ASM-58)
 
+Use the caption to express the essence of the figure.
+
 *Exceptions*
 
 There are no exceptions.

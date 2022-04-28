@@ -11,6 +11,7 @@ This section contains editorial rules on how to create lists:
 * <<#sec-ASM-5>>
 * <<#sec-ASM-6>>
 * <<#sec-ASM-11>>
+* <<#sec-ASM-42>>
 * <<#sec-ASM-7>>
 
 
@@ -256,6 +257,35 @@ a|
 * Google Developer Documentation Style Guide: https://developers.google.com/style/lists
 
 
+[#sec-ASM-42]
+== Put the list items in a logical order (ASM-42)
+
+*Exceptions*
+
+There are no exceptions.
+
+*Example*
+
+[#tab-c275d6be-703e-4eaa-8588-6a39d58e148a]
+.Logical order of list items
+[%header]
+|===
+|No |#Yes#
+
+a|
+* [.line-through]#set @type attribute on the `<lane>` element#
+* [.line-through]#create `<lane>` element#
+
+a|
+. Create `<lane>` element.
+. Set @type attribute on the `<lane>` element.
+|===
+
+*Source*
+
+ASAM specific rule.
+
+
 [#sec-ASM-7]
 == Check if a list is complete (ASM-7)
 
@@ -293,34 +323,3 @@ a|
 *Source*
 
 ASAM specific rule.
-
-
-[#sec-ASM-42]
-== Put the list items in a logical order (ASM-42)
-
-*Exceptions*
-
-There are no exceptions.
-
-*Example*
-
-[#tab-c275d6be-703e-4eaa-8588-6a39d58e148a]
-.Logical order of list items
-[%header]
-|===
-|No |#Yes#
-
-a|
-* [.line-through]#set @type attribute on the `<lane>` element#
-* [.line-through]#create `<lane>` element#
-
-a|
-. Create `<lane>` element.
-. Set @type attribute on the `<lane>` element.
-|===
-
-*Source*
-
-ASAM specific rule.
-
-

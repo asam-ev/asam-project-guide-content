@@ -6,6 +6,7 @@ This section contains basic editorial rules on ASAM standards and documents:
 
 * <<#sec-ASM-125>>
 * <<#sec-ASM-119>>
+* <<#sec-ASM-76>>
 * <<#sec-ASM-120>>
 * <<#sec-ASM-1>>
 * <<#sec-ASM-80>>
@@ -13,15 +14,13 @@ This section contains basic editorial rules on ASAM standards and documents:
 * <<#sec-ASM-23>>
 * <<#sec-ASM-54>>
 * <<#sec-ASM-20>>
+* <<#sec-ASM-24>>
+* <<#sec-ASM-16>>
+* <<#sec-ASM-78>>
 * <<#sec-ASM-15>>
 * <<#sec-ASM-37>>
 * <<#sec-ASM-38>>
 
-
-* Consistent formatting
-** Stick to *one spelling* for a word that allows several spellings (e-mail, email, E-mail).
-** Stick to *one style* to present information (steps always as numbered lists).
-** Stick to *one formatting* for a special purpose (first use of technical term: _italic_)
 
 ////
 * Use templates
@@ -89,6 +88,33 @@ If you refer to the _standard you are working on_, see <<#sec-ASM-120>>.
 |No                         |#Yes#
 |[.line-through]#OpenDRIVE# |ASAM OpenDRIVE
 |[.line-through]#OS#        |ASAM OpenSCENARIO
+|===
+
+*Source*
+
+ASAM specific rule.
+
+
+[#sec-ASM-76]
+== Use proper names (ASM-76)
+
+* Always use existing proper names.
+* Apply the original spelling and the correct upper and lower case of proper names.
+
+*Exceptions*
+
+There are no exceptions.
+
+*Example*
+
+[#tab-4200411e-261a-4478-8cb1-4767e6b31612]
+.Use of proper names
+[%header]
+|===
+|No                         |#Yes#
+|[.line-through]#UTF8#      |UTF-8
+|[.line-through]#utf-8#     |UTF-8
+|[.line-through]#ascii#     |ASCII
 |===
 
 *Source*
@@ -230,6 +256,37 @@ There are no exceptions.
 ASAM specific rule.
 
 
+[#sec-ASM-24]
+== Keep one blank line at the end of file (ASM-24)
+
+* Eliminate any spaces or tabs at each end of line.
+* Check the settings of the text editor to automatically insert a blank line at the end of the file:
+** xref:compendium:Guidelines/vscode-recommended_vscode_settings.adoc#_automatic_removal_of_spaces_after_periods[Settings for Visual Studio Code]
+
+*Exceptions*
+
+There are no exceptions.
+
+*Example*
+
+[#tab-08bf63f5-f0ac-4743-90a4-0640e2ee1ca9]
+.One blank line before the end of file (`[EOF]`).
+[%header]
+|===
+|No |#Yes#
+
+|[.line-through]#``This is the last text line. +
+[EOF]``#
+|``This is the last text line. +
+&nbsp; +
+[EOF]``
+|===
+
+*Source*
+
+ASAM specific rule.
+
+
 [#sec-ASM-120]
 == Use the variable `{THIS_STANDARD}` to refer to the standard you are working on (ASM-120)
 
@@ -251,6 +308,60 @@ In ASAM OpenDRIVE, all roads contain lanes.
 
 * ASAM specific rule.
 * https://asciidoctor.org/docs/asciidoc-recommended-practices/#document-attributes-i-e-variables
+
+
+[#sec-ASM-16]
+== Anchor syntax [#anchor] (ASM-16)
+
+Every anchor consists of `[#`, the string for the anchor type, a following UUID, and `]`.
+
+*Exceptions*
+
+If you do not know how to use unique IDs, insert `uid` as a placeholder.
+The placeholder will trigger a pipeline warning so that the technical writer can help with creating a unique ID.
+
+*Source*
+
+ASAM Writing Guide: Tags
+
+
+[#sec-ASM-78]
+== Insert a unique ID in the anchors for topics, figures, tables, source code, and sections (ASM-78)
+
+Insert a unique ID according to the following patterns:
+
+[#tab-a0bf23cc-3f35-4f3a-9788-6436c90d29b3]
+.List of patterns for unique IDs
+[%header]
+|===
+|Pattern         |Usage                                 |Optional/required |Comment
+|`[#code-<uid>]` |source code blocks                    |optional          |Only use if source code is referenced.
+|`[#fig-<uid>]`  |figures (images, diagrams, and so on) |required          |-
+|`[#sec-<uid>]`  |sections                              |optional          |Only use if section is referenced.
+|`[#tab-<uid>]`  |tables                                |required          |-
+|`[#top-<uid>]`  |topics                                |required          |-
+|===
+
+*Exceptions*
+
+If you do not know how to use unique IDs, insert `[#tag-uid]` as a placeholder.
+The placeholder will trigger a pipeline warning so that the technical writer can help with creating a unique ID.
+
+// TODO: Where to use a semantic ID and where a UUID? What are allowed characters in IDs anyway? How about a Regex for a valid ID production: [a-zA-Z0-9_-]
+
+*Example*
+
+[#tab-682fa239-bf8f-4531-a825-e9485372479b]
+.Use of a semantic ID for a section
+[%header]
+|===
+|No                                                            |#Yes#
+|[.line-through]#`[#sec-682fa239-bf8f-4531-a825-e9486372479b]`#|`[#sec-ASM-78]`
+|===
+
+*Source*
+
+ASAM Writing Guide: Tags
 
 
 [#sec-ASM-15]

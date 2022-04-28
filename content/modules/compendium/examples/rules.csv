@@ -5,7 +5,7 @@ ASM-3,Heading punctuation,<<sec-ASM-3>>,-,approved
 ASM-4,Heading numbering,<<sec-ASM-4>>,-,draft
 ASM-5,List capitalization,<<sec-ASM-5>>,-,draft
 ASM-6,List punctuation,<<sec-ASM-6>>,-,draft
-ASM-7,List completeness (...),-,-,draft
+ASM-7,List completeness (...),<<sec-ASM-7>>,-,draft
 ASM-8,List content,<<sec-ASM-8>>,-,draft
 ASM-9,List one sentence per line,<<sec-ASM-9>>,-,draft
 ASM-10,List type,<<sec-ASM-10>>,-,draft
@@ -22,7 +22,7 @@ ASM-20,No Trailing whitespaces,<<sec-ASM-20>>,-,approved
 ASM-21,Modal verbs,<<sec-ASM-21>>,-,to be discussed
 ASM-22,Standard ASAM Chapter structure,<<sec-ASM-22>>,-,draft
 ASM-23,Document extension .adoc,<<sec-ASM-23>>,-,approved
-!!ASM-24,One blank line at the end of file,-,-,draft
+ASM-24,One blank line at the end of file,<<sec-ASM-24>>,-,draft
 ASM-25,One sentence per line,<<sec-ASM-25>>,-,approved
 ASM-26,No empty chapters,<<sec-ASM-26>>,-,draft
 ASM-27,No unused chapters,<<sec-ASM-27>>,-,draft
@@ -36,14 +36,13 @@ ASM-34,Repository contains LICENSE,<<sec-ASM-34>>,-,draft
 ASM-36,Repository contains roadmap,<<sec-ASM-36>>,-,draft
 ASM-37,No broken internal links,<<sec-ASM-37>>,-,draft
 ASM-38,No broken external links,<<sec-ASM-38>>,-,draft
-ASM-39,Mapping file defines structure,-,-,draft
+ASM-39,Mapping file defines structure,<<sec-ASM-39>>,-,draft
 ASM-40,Mapping file named index.adoc,<<sec-ASM-40>>,-,change
 ASM-41,Deliverable naming,<<sec-ASM-41>>,-,draft
 ASM-42,List order,<<sec-ASM-42>>,-,draft
 ASM-43,Backticks,<<sec-ASM-43>>,-,draft
 ASM-44,Tables,<<sec-ASM-44>>,-,draft
 ASM-45,Tables AsciiDoc syntax,<<sec-ASM-45>>,-,draft
-??ASM-46,Tables IDs,-,-,draft
 ASM-47,Create a title/caption for every table,<<sec-ASM-47>>,-,draft
 ASM-48,List use asciidoc syntax,<<sec-ASM-48>>,-,draft
 ASM-49,American English,<<sec-ASM-49>>,-,approved
@@ -71,13 +70,13 @@ ASM-71,Use of italic markup,<<sec-ASM-71>>,-,draft
 ASM-72,Use of bold markup,<<sec-ASM-72>>,-,draft
 ASM-73,Use of code markup,<<sec-ASM-73>>,-,draft
 ASM-74,Use paragraphs for structure,<<sec-ASM-74>>,-,draft
-!!ASM-75,Use manual line breaks sparingly,-,-,draft
-!!ASM-76,Use proper names,-,-,draft
+ASM-75,Do not use manual line breaks,<<sec-ASM-75>>,-,draft
+ASM-76,Use proper names,<<sec-ASM-76>>,-,draft
 ??ASM-77,XIL: IDs (aka anchors),-,-,draft
 ASM-78,IDs,<<sec-ASM-78>>,-,draft
 ASM-79,Indentation with four spaces,<<sec-ASM-79>>,-,draft
 ASM-80,Lowercase for file and folder names,<<sec-ASM-80>>,-,draft
-ASM-81,File names for figures,<<sec-ASM-81>>,-,draft
+??ASM-81,File names for figures,,-,draft
 ??ASM-82,File formats,-,-,draft
 ASM-83,Directory structure,<<sec-ASM-83>>,-,draft
 ??ASM-84,Non-normative sections,-,-,draft
@@ -113,7 +112,7 @@ ASM-114,Modal verb can,<<sec-ASM-114>>,-,draft
 ASM-115,Use 'which' correctly,<<sec-ASM-115>>,-,draft
 ASM-116,Use 'because' for a reason,<<sec-ASM-116>>,-,draft
 ASM-117,Underscore in file and folder names,<<sec-ASM-117>>,-,draft
-ASM-118,Alternative text for every figure,-,-,draft
+ASM-118,Alternative text for every figure,<<sec-ASM-118>>,-,draft
 ASM-119,Full standard names,<<sec-ASM-119>>,-,draft
 ASM-120,Standard name variable,<<sec-ASM-120>>,-,draft
 ASM-121,XML elements,<<sec-ASM-121>>,-,draft
