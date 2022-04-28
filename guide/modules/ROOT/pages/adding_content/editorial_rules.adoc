@@ -76,7 +76,7 @@ This section contains information on how to add an editorial rule
 . Add a tag to the section following the convention `[#sec-[ID]]`, for example, `[#sec-ASM-2]`.
 . Brainstorm how to document the specific editorial rule.
 . Have a look at existing resources:
-.. Check if an editorial rule exists in the https://asd-ste100.org/request.html[ASD-STE100 Specification] (Simplified Technical English).
+.. Check if an editorial rule exists in the https://asd-ste100.org/request.html[ASD-STE100 Specification] (ASD Simplified Technical English, ASD-STE100, is a Copyright and a Trade Mark of ASD, Brussels, Belgium).
 .. Check if an editorial rule exists in the https://developers.google.com/style/[Google developer documentation style guide] and the https://docs.microsoft.com/en-us/style-guide/welcome/[Microsoft Writing Style Guide].
 . Extract useful editorial rules from the existing resources.
 . Adjust the wording in editorial rules when transferring rules to the ASAM Editorial Guide, for example, Microsoft names subunits of a list items, that are named elements at ASAM.
