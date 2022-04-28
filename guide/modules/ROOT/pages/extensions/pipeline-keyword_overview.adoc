@@ -1,13 +1,12 @@
 = Pipeline: Keyword page
 :description: Describes the use of the pipeline extension "Keyword page" in detail.
-:keywords: pipeline,asam,antora,custom
+:keywords: pipeline,custom
 
 include::partial$_attributes.adoc[]
 
 
 {special-macros-icon}
 
-== Description
 include::partial$pipeline-keyword_overview.adoc[tag=description]
 
 == Configuration

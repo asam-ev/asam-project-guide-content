@@ -4,9 +4,9 @@ Since Asciidoctor counts all images and tables only within each page, their capt
 In case of standards, these numbers must be sequential (and unique) within each standard, not each page.
 
 [NOTE]
-====
+======
 Due to the similarity in its topics, the Asciidoctor extension is also responsible for xref:extensions/pipeline-sequential_sectnums.adoc[sequential section numbers and page titles].
-====
+======
 
 //end::description[]
 
@@ -15,21 +15,23 @@ Due to the similarity in its topics, the Asciidoctor extension is also responsib
 The ASAM Antora extension, in combination with the sectnumsoffset_antora extension for Asciidoctor, creates sequential figure and table numbers in Antora. +
 To use this feature, add `numbered_titles: true` to the Antora extension configuration.
 
-The extension only considers images and tables if they are anchored with the correct anchor type (`[#fig-...]`, `[#tab-...]`).
-See the xref:latest@asamprojectguide:compendium:Editorial_guide.adoc[] for detailed requirements on each anchor type.
+The extension *only* considers images and tables if they are anchored with the correct anchor type (`[#fig-...]`, `[#tab-...]`).
+See the pages on xref:latest@asamprojectguide:compendium:Editorial_guide/09_tables.adoc[] and xref:latest@asamprojectguide:compendium:Editorial_guide/10_figures.adoc[] in the Editorial guide for detailed requirements on each anchor type.
 
 //end::how[]
 
-//tag::prerequisits[]
-* All relevant figures must have an xref:latest@asamprojectguide:compendium:Editorial_guide.adoc[ASAM-type anchor]
-* All relevant tables must have an xref:latest@asamprojectguide:compendium:Editorial_guide.adoc[ASAM-type anchor]
+//tag::prerequisites[]
+* All relevant figures must have an xref:latest@asamprojectguide:compendium:Editorial_guide/10_figures.adoc[ASAM-type figure anchor]
+* All relevant tables must have an xref:latest@asamprojectguide:compendium:Editorial_guide/09_tables.adoc[ASAM-type table anchor]
 * All irrelevant figures and tables must not have a title
 * All relevant pages are in the navigation tree
+* Images are not included in files that, in turn, are included using attributes in the pathname or filename (e.g. `include::{some-attribute}/filename.adoc[]`)
 //end::prerequisites[]
 
 //tag::configuration[]
 The following table lists the supported attributes as well as their default values:
 
+[cols=">1,3,1,2"]
 |===
 |Attribute |Description |Default |Example
 
@@ -43,8 +45,12 @@ The following table lists the supported attributes as well as their default valu
 
 
 //tag::example[]
+[tabs]
 .Using the "sequential numbering" extension feature
 ====
+Source::
++
+--
 [source,yaml]
 ----
 
@@ -57,11 +63,14 @@ antora:
     - require: './antora_extensions/asam-extension.js'
       numbered_titles: true
 ----
-====
+--
+Result::
++
+--
+image::pipeline_numbering.png[title='Numbered pages in an example document.']
 
 With this setting, all figures and tables in Antora that have an ASAM-type anchor generate an offset value for the next page in the navigation tree.
+--
+====
 
-====
-image::pipeline_numbering.png[title='Numbered pages in an example document.', role="left"]
-====
 //end::example[]

@@ -9,6 +9,9 @@
 :structure-icon: xref:structure.adoc[image:https://cdn-icons-png.flaticon.com/512/849/849924.png[width={width-large},role=right]]
 :structure-icon-norole: xref:structure.adoc[image:https://cdn-icons-png.flaticon.com/512/849/849924.png[width={width-small}]]
 
+:local_build-icon: xref:local_setup.adoc[image:https://cdn-icons-png.flaticon.com/512/2482/2482695.png[width={width-large},role=right]]
+:local_build-icon-norole: xref:local_setup.adoc[image:https://cdn-icons-png.flaticon.com/512/2482/2482695.png[width={width-small}]]
+
 :add-file-icon: xref:add_files.adoc[image:https://cdn-icons-png.flaticon.com/512/2311/2311991.png[width={width-large},role=right] ]
 :add-file-icon-norole: xref:add_files.adoc[image:https://cdn-icons-png.flaticon.com/512/2311/2311991.png[width={width-small}]]
 
@@ -17,6 +20,9 @@
 
 :ref-include-icon: xref:ref-include.adoc[image:https://cdn-icons-png.flaticon.com/512/6567/6567676.png[width={width-large},role=right] ]
 :ref-include-icon-norole: xref:ref-include.adoc[image:https://cdn-icons-png.flaticon.com/512/6567/6567676.png[width={width-small}]]
+
+:gather_feedback-icon: xref:gather_feedback.adoc[image:https://cdn-icons-png.flaticon.com/512/3039/3039564.png[width={width-large},role=right]]
+:gather_feedback-icon-norole: xref:gather_feedback.adoc[image:https://cdn-icons-png.flaticon.com/512/3039/3039564.png[width={width-small}]]
 
 :special-macros-icon: xref:special-macros.adoc[image:https://cdn-icons-png.flaticon.com/512/4354/4354565.png[width={width-large},role=right] ]
 :special-macros-icon-norole: xref:special-macros.adoc[image:https://cdn-icons-png.flaticon.com/512/4354/4354565.png[width={width-small}]]

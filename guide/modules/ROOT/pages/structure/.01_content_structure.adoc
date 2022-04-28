@@ -1,6 +1,6 @@
 = Project Guide structure
 :description: Summarizes the proposed general structure of the Project Guide.
-:keywords: antora,structure,project-guide
+:keywords: structure,project-guide
 :structure: ROOT:example$structure.puml
 :page-aliases: structure/content_structure.adoc
 

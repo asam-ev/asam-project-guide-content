@@ -1,27 +1,39 @@
 = Adding a page
 :description: Explains how to add a new page to the Project Guide and what to look out for.
-:keywords: page,project-guide,new-content-guide
-:page_reason: default page
+:keywords: page,project-guide,new_content
 :page_template_name: template-default-page.adoc
 :page_template_alt_name: default page template
 :page-aliases: adding_content/add-a-page.adoc
 
-include::partial$standard_page_creation.adoc[]
+include::partial$_attributes.adoc[]
 
-TIP: You can exclude a page from Antora through its name.
-If the filename starts with a dot ("."), Antora ignores it. +
-If the filename starts with an underscore ("_"), Antora does not publish it but adds it to its internal content catalog (i.e. it is aware of it).
 
-[NOTE]
-====
-This page describes all requirements each page in the project guide must fulfill.
-However, certain types of pages have their own template.
-See one of the pages for the specific templates listed under <<Pages>>.
-====
+{add-file-icon}
 
-// If you use a recurring image for similar artifacts, declare it as attribute in partials/_attributes.adoc and reference here.
+== Context
+In order to make documented pages easier to understand, it is necessary to have a standard format for pages in which they are written.
+For this purpose, the xref:ROOT:attachment${page_template_name}[{page_template_name}] file was created.
+Each page that is documented in this Project Guide shall use the {page_template_alt_name}.
 
-IMPORTANT: Some pages or all pages in a certain module may use a custom convention, such as displaying an icon.
-Look at similar files/pages in the same module and follow those conventions, where they add to the template above.
+NOTE: If you want to define a reusable content, consider using a xref:adding_content/add-a-partial.adoc[Partial] instead.
+See xref:adding_content/pages-vs-partials.adoc[] for more information on the difference between those two.
 
-pages::[path=pages]
+== Result
+A page is created that follows the ASAM {page_template_alt_name}.
+
+== Prerequisites
+none
+
+== How
+IMPORTANT: These instructions already include the requirements of https://docs.antora.org/antora/latest/page/standard-page/[Creating A Standard Page^] by Antora implicitly.
+However, if one deviates from this guide here, the Antora restrictions and requirements still apply!
+
+. Find the module you want your page to be located in.
+. Create your file in the "pages" folder or move it there
+.. Alternatively, create a new folder and/or add your file to an existing folder within the "pages" folder if you want to add a structure within the module.
+. Add the following standard content to your file and modify it accordingly:
++
+[source,asciidoc]
+----
+include::ROOT:attachment${page_template_name}[]
+----

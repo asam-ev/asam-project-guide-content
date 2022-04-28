@@ -1,6 +1,5 @@
 = Artifact page name
-:description: The artefact's description
-:keywords: artifact
+:description: The artifact's description
 :page-partial:
 
 \include::partial$_attributes.adoc[]
@@ -17,7 +16,7 @@ Describe the context (why) for this artifact.
 Describe the expected results of this artifact.
 
 == Prerequisites
-List all preqrequisits for this artifact.
+List all prerequisites for this artifact.
 
 == How
 Describe the steps to perform this artifact.

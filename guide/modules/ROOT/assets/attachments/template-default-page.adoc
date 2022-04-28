@@ -1,4 +1,4 @@
-= <Page Name>
+= <Page name>
 :description: The page's description
 :keywords: <keywords>
 //:page-partial:

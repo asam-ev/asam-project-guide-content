@@ -40,7 +40,7 @@ If Asciidoctor Diagram is to be used, make sure that the option `-r asciidoctor-
 
 == Mathjax
 
-Mathjax is a JavaScript display engine intended for displaying mathmatical expressions in browsers.
+Mathjax is a JavaScript display engine intended for displaying mathematical expressions in browsers.
 This can be activated by adding `-a mathjax` to the entrypoint.
 
 
@@ -74,6 +74,6 @@ In the standard version above, this is set to `HTML_standard_local_build.html`.
 
 == Output path
 
-If you only want to specifiy the output path but leave the naming convention of the input files, use the option `-D path` instead of
+If you only want to specify the output path but leave the naming convention of the input files, use the option `-D path` instead of
 
 related::docker[]

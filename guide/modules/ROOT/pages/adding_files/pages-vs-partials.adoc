@@ -16,7 +16,7 @@ The following table shows the relation to the location for Antora.
 .Relation between location and interpretation of .adoc files in Antora
 [cols = "3s,1,3,1s,1s,1s,1s,1s,1s"]
 |===
-|Location|Type|Use|HTML|Headlines|include|xref|link|macros
+|Location|Type|Use|Is rendered|Headlines|include|xref|link|macros
 
 |modules/<module>/pages (+ subfolders)
 |Content page
@@ -36,7 +36,7 @@ The following table shows the relation to the location for Antora.
 |[green]#yes#
 |__**[red]#no#**__
 |__**[red]#no#**__
-|?
+|__[yellow]#yes (some)#__
 
 
 |modules/<module>/examples
@@ -63,8 +63,8 @@ The following table shows the relation to the location for Antora.
 |Navigation file
 |Nav-tree for sidebar (must be referenced explicitely)
 |__[yellow]#yes (in navbar)#__
-|?
-|__**[red]#no#**__
+|irrelevant
+|[green]#yes#
 |__[yellow]#yes (only outgoing!)#__
 |__**[red]#no#**__
 |[green]#yes#
@@ -96,7 +96,7 @@ Instead, use partials.
 
 For more information on page requirements, see xref:adding_content/add-a-page.adoc[].
 
-For more information on how Antora handles pages in general, see https://docs.antora.org/antora/2.1/page/#standard[Standard Pages In Antora^].
+For more information on how Antora handles pages in general, see https://docs.antora.org/antora/latest/page/standard-page/[Standard Pages In Antora^].
 
 == When to use a partial
 A partial is located in the "partials" folder (or a subfolder therein) of a module.
@@ -108,9 +108,10 @@ Partials also do not support all macros, particularly the xref:special-macros.ad
 
 * Partials **SHALL** be used for **reusable content** that is included in **at least two separate files**.
 * Partials **MAY** be sectioned with **tags**.
-* **DO NOT** use a **title** or **section headings** in partials.
+* **DO NOT** use a **title**  in partials.
+* Use **section headings** **ONLY** when absolutely necessary.
 
 
 For more information on partials requirements, see xref:adding_content/add-a-partial.adoc[].
 
-For more information on how Antora handles partials in general, see https://docs.antora.org/antora/2.1/page/#partial[Reusable Partial Pages In Antora^].
+For more information on how Antora handles partials in general, see https://docs.antora.org/antora/latest/page/include-a-page/[Include a Page In Antora^].

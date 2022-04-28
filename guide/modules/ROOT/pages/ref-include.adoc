@@ -7,9 +7,17 @@ include::partial$_attributes.adoc[]
 
 {ref-include-icon}
 
-The following pages describe how to include or link other files as content.
+Similarly to plain Asciidoctor, Antora can include other files. +
+In contrast to Asciidoctor, Antora uses a specific syntax to address content in its structure correctly.
+This is done through the so-called "Resource ID Coordinates".
+You can read more on this topic in the official https://docs.antora.org/antora/latest/page/resource-id/[Antora documentation^].
 
-NOTE: How to add or change content directly in a file is described in xref:changing_content.adoc[].
+NOTE: Some macros (e.g. `include`) require the use of family coordinates, whilst others (e.g. `xref`) do not.
+Find out more on this https://docs.antora.org/antora/latest/page/resource-id-coordinates/#id-family[here^].
 
-== Pages
-include::../nav.adoc[tag=ref-include]
+== Guidelines for xrefs and links
+xref:: Use for internal page links. +
+Link to the page directly so that it opens in the current window/tab (no specific settings or attributes required).
+url:: Use for external links only. +
+Link to the url with the setting to open in a new tab (add `^` or `window=_blank` at the end in the brackets).
+See also the official pages on https://docs.asciidoctor.org/asciidoc/latest/macros/link-macro-attribute-parsing/#blank-window-shorthand[Shorthand notation^] and https://docs.asciidoctor.org/asciidoc/latest/macros/link-macro-attribute-parsing/#target-a-blank-window[Window blank notation^].

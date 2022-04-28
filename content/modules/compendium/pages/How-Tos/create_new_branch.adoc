@@ -19,8 +19,8 @@ Two options are highlighted below.
 image::create-a-branch.png[title="Create a new branch in VSCode"]
 
 . Click on the branch icon on the bottom left
-. Click on "Create New Branch"
-. Enter a new {convention}[valid branch name] and confirm with Enter
+. Click on btn:[Create New Branch]
+. Enter a new {convention}[valid branch name] and confirm with kbd:[Enter]
 
 You are automatically switched to the new branch.
 
@@ -36,12 +36,12 @@ You need to push it before it is also on the remote.
 image::compendium:workflow_tut_step1.png[img1, 1100, title="Select the dropdown menu for new branch"]
 
 . Open an issue for which you want to create a new branch
-. Select "Create branch" from the dropdown menu
+. Select btn:[Create branch] from the dropdown menu
 +
 image::compendium:workflow_tut_step2.png[img2, 1100,title="Create name for new branch"]
 
 . Enter a new {convention}[valid branch name]
-. Click "Create branch"
+. Click btn:[Create branch]
 
 The branch is now created on remote.
 

@@ -1,6 +1,6 @@
 = <Module Name>
 :description: <describe the module in detail>
-:keywords: overview,<module>,landing_page
+:keywords: overview,landing_page
 
 include::<module>:partial$_attributes.adoc[]
 include::ROOT:partial$_attributes.adoc[]

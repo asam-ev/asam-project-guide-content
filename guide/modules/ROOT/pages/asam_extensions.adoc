@@ -1,6 +1,6 @@
-= Custom ASAM Antora/Asciidoctor extensions
+= Custom ASAM features
 :description: Lists all custom macros used throughout the Project Guide that require special scripts by ASAM to be processed correctly.
-:keywords: macro,extension,antora,asam,custom,project-guide
+:keywords: macro,custom,project-guide
 :page-aliases: special-macros.adoc
 
 include::partial$_attributes.adoc[]
@@ -19,21 +19,15 @@ TIP: For more information on how to write an Antora extension, see https://docs.
 
 The source repository of the ASAM extensions is https://code.asam.net/common/asam-antora-extensions.
 
+All following examples assume the extension is located under "./antora_extensions", where "." is the location of the "site.yml" file (the https://docs.antora.org/antora/latest/playbook/[Antora playbook^]).
 
-== Added features
-The ASAM Antora extension adds the following features to Antora:
-
-* Support for the <<ASAM Antora macros>>
-* Identifying and (optional) listing <<Orphan pages>>
-* Creating a <<Keyword-overview page>>
-* Sequential <<Page numbering,page and section numbers>> in Antora
-
-NOTE: All following examples assume the extension is located under "./antora_extensions", where "." is the location of the "site.yml" file (the https://docs.antora.org/antora/latest/playbook/[Antora playbook^]).
+IMPORTANT: Most extensions are not fully supported in partials, particularly those depending on Asciidoctor features like "include"!
 
 
 == General configuration
 The following table describes general configuration on using the extension:
 
+[cols=">1,3,1,2"]
 |===
 |Attribute |Description |Default |Example
 
@@ -48,6 +42,11 @@ If deactivated, the extension must be explicitely called from the CLI.
 Only relevant in combination with `id`.
 |true
 |`enabled: false`
+
+|require
+|Describes the location of the extension.
+|none
+|`require: './antora_extensions/asam-extension.js'`
 |===
 
 .General configuration for ASAM Antora extensions in site.yml
@@ -55,99 +54,115 @@ Only relevant in combination with `id`.
 [source,yaml]
 ----
 - id: asam-extensions
-  enabled: false
   require: './antora_extensions/asam-extension.js'
 ----
 ====
 
 == Pipeline features
-The following sections describe features directly applied through the pipeline.
+The following sections describe features directly applied through the pipeline. +
+These are features that typically are relevant to the whole site.
+They enact general rules or features, or they collect information about all content.
 
-=== Orphan pages
+
+[tabs]
+====
+Orphan pages::
++
+--
 include::partial$pipeline-orphan_pages.adoc[tag=description]
 
 For more details, see xref:extensions/pipeline-orphan_pages.adoc[].
-
-
-=== Keyword-overview page
+--
+Keyword-overview page::
++
+--
 include::partial$pipeline-keyword_overview.adoc[tag=description]
 
 For more details, see xref:extensions/pipeline-keyword_overview.adoc[]. +
 To see the result of the applied pipeline feature, see
 reference::keyword-overview-page[]
-
-
-=== Page numbering
+--
+Page numbering::
++
+--
 include::partial$pipeline-sequential_sectnums.adoc[tag=description]
 
 For more details, see xref:extensions/pipeline-sequential_sectnums.adoc[].
-
-
-=== Sequential figure and table numbers
+--
+Sequential figure and table numbers::
++
+--
 include::partial$pipeline-sequential_figs_tables.adoc[tag=description]
 
 For more details, see xref:extensions/pipeline-sequential_figs_tables.adoc[].
-
-
-=== ISO-2145 style section numbers
+--
+ISO-2145 style section numbers::
++
+--
 include::partial$pipeline-iso_style.adoc[tag=description]
 
 For more details, see xref:extensions/pipeline-iso_style.adoc[].
-
-
-=== Convert local to global page references
+--
+Convert local to global page references::
++
+--
 include::partial$pipeline-global_anchor_replacement.adoc[tag=description]
 
 For more details, see xref:extensions/pipeline-global_anchor_replacement.adoc[].
+--
+====
 
 
 == ASAM Antora macros
-IMPORTANT: ASAM macros are not supported in partials as they are replaced through Antora rather than Asciidoctor, but partials are included by Asciidoctor at a later stage.
 
-
-=== The "related" macro
+[tabs]
+====
+related::
++
+--
 include::partial$macro-related.adoc[tag="how"]
 
-See: xref:macros/macro-related.adoc[]
-
-
-=== The "reference" macro
+For more details, see xref:macros/macro-related.adoc[]
+--
+reference::
++
+--
 include::partial$macro-reference.adoc[tag=how]
 
-See: xref:macros/macro-reference.adoc[]
-
-
-=== The "pages" macro
+For more details, see xref:macros/macro-reference.adoc[]
+--
+pages::
++
+--
 include::partial$macro-pages.adoc[tag=how]
 
-See: xref:macros/macro-pages.adoc[]
-
-
-=== The "role_related" macro
+For more details, see xref:macros/macro-pages.adoc[]
+--
+role_related::
++
+--
 include::partial$macro-role_related.adoc[tag=how]
 
-See: xref:macros/macro-role_related.adoc[]
-
-
-=== The "autonav" macro
+For more details, see xref:macros/macro-role_related.adoc[]
+--
+autonav::
++
+--
 include::partial$macro-autonav.adoc[tag=how]
 
-See: xref:macros/macro-autonav.adoc[]
+For more details, see xref:macros/macro-autonav.adoc[]
+--
+====
 
-
-== Sources
+== Source repository
 The source code can be found in the https://code.asam.net/common/asam-antora-extensions[ASAM GitLab repository^].
 
 
-== Example: The Project Guide Antora playbook
-The application of pipeline extensions can be seen in the Project Guide's "site.yml" file.
+== Including ASAM extensions in a project
+. To use the provided ASAM extensions in an ASAM project, add the https://code.asam.net/common/asam-antora-extensions.git[extension repository git^] as submodule to your project.
+It is recommended to switch to `master` for the submodule and update regularly to ensure that always the latest version is used!
+. Add the <<General configuration,general configuration>> to your project's site.yml, according to where the extensions have been checked out into
 
-[source,yml]
-----
-include::example$site.yml[]
-----
-
-Source file in repository: {guide-repo-url}blob/main/site.yml[site.yml on GitHub]
 
 == Pages
 include::../nav.adoc[tag=asam_extensions]

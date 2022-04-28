@@ -1,6 +1,6 @@
 = How to add a new role
 :description: Describes necessary steps to add a new role and its label.
-:keywords: how-to, role
+:keywords: role, custom
 
 include::partial$_attributes.adoc[]
 
@@ -15,7 +15,7 @@ The use of role labels with automatic linking helps keep the effort of managing 
 
 If a new role needs to be created, several steps are needed to set it up correctly so that it utilizes this system most efficiently.
 
-TIP: If you are looking for how to use an existing role on a page, see xref:adding_content/roles/use_roles.adoc[].
+TIP: If you are looking for how to use an existing role on a page, see xref:adding_content/use_roles.adoc[].
 
 == Result
 A new role main page has been defined, an interactive role label created and linked.
@@ -33,22 +33,13 @@ none
 ----
 +
 , where `<role-name>` is the role name chosen as the filename and `<description text>` contains the short description of this role
-. Add the new role to the table in the partial "roles.adoc" in the "role-specific" module, using the following syntax:
-+
-[source,adoc]
-----
-| {role-<role-name>}
-| {<role-name>-description}
-----
-+
-, where `<role-name>` is the role name chosen as the filename
-
+. Add the new role to the table in the partial "roles.adoc" in the "role-specific" module
 . Add a new role label to the Project Guide's "site.yml" under '## Defined role attributes', using the following syntax:
 +
 [source, yaml]
 ----
-role-<role-name>: 'xref:role-specific:<role-name>.adoc[<role style="color:black;font-weight: bold;width:500px;height:100px;border-radius: 25px;margin:10px 2px;padding:5px 15px;border:2px solid #000;background:<role-color>;" ><FULL-ROLE-NAME></role>]'
+role-<role-name>: 'xref:role-specific:<role-name>.adoc[<role style="background:#role-color;" >FULL-ROLE-NAME</role>]'
 ----
 +
-, where `<role-name>` is the role name chosen as the filename, `<role-color>` is the hex-code for the intended color of the label and `<FULL-ROLE-NAME>` is the full name of the role in capital letters.
+, where `<role-name>` is the role name chosen as the filename, `role-color` is the hex-code for the intended color of the label and `FULL-ROLE-NAME` is the full name of the role in capital letters.
 

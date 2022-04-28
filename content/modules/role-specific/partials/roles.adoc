@@ -31,7 +31,7 @@ When a project's deliverables are reviewed, ASAM members who were not involved i
 |(3)
 ^|xref:role-specific:project-participant.adoc[image:role-specific:roles_overview-project_participant.svg[]]
 a|An ASAM member active in an ASAM project. +
-Each project consists of many different __Project Participants__ who directly contribute to the project's development.
+Each project consists of multiple __Project Participants__ who directly contribute to the project's development.
 Most participants typically enroll during the xref:getting-involved:proposal_phase.adoc[], but it also possible to already participate during the xref:getting-involved:ideation_phase.adoc[]. +
 Typically, __Project Participants__ work in one or more so-called Working Groups, each focussing on a specific aspect of the project.
 

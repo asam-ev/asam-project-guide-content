@@ -1,6 +1,6 @@
 = Adding a partial
 :description: Instructions on how to add a partial
-:keywords: new-content-guide,project-guide,partial
+:keywords: new_content,project-guide,partial
 :page-aliases: adding_content/add-a-partial.adoc
 
 include::partial$_attributes.adoc[]
@@ -29,9 +29,5 @@ IMPORTANT: These instructions already include the requirements of https://docs.a
 However, if one deviates from this guide here, the Antora restrictions and requirements still apply!
 
 . Find the module you want your partial to be located in.
-+
-TIP: This should be the module which it relates to most closely.
-See other partials and pages in the modules in question for reference.
-
 . Create your file in the "partials" folder or move it there
 .. Alternatively, create a new folder and/or add your file to an existing folder within the "partials" folder if you want to add a structure within the module.

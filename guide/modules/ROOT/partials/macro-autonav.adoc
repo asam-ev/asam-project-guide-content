@@ -14,7 +14,7 @@ The module contains at least one page.
 //end::prerequisites[]
 
 //tag::parameters[]
-[cols="1,1,4"]
+[cols=">1,1,4"]
 |===
 |Parameter |Argument(s) |Note
 
@@ -27,7 +27,7 @@ Instead, all pages and folders are listed one level higher (i.e. all root level 
 //end::parameters[]
 
 //tag::attributes[]
-[cols="2,1,1,1,4"]
+[cols=">2,1,1,1,4"]
 |===
 |Attribute |Multiplicity |Separator |Type |Note
 
@@ -43,14 +43,14 @@ The macro must also always be used as a comment (similarly to the Asciidoctor ma
 
 
 [NOTE]
-====
+======
 The macro uses the following rules to determine the main page of a module:
 
 * If there is a file named like the module on root level, use this as the main page.
 * Else if there is a file named "index.adoc" on root level, use this as the main page.
 * Else if there is a file named "main.adoc" on root level, use this as the main page.
 * Else use the first page in the alphabetically sorted list.
-====
+======
 
 //end::how[]
 
@@ -75,8 +75,13 @@ pages/
 ----
 , the example below shows the result for applying the macro in this module.
 
+
+[tabs]
 .Create automatic navigation file content
 ====
+Source::
++
+--
 [source,asciidoc]
 ----
 * Test
@@ -84,10 +89,10 @@ pages/
 
 // autonav::[]
 ----
-====
-
-Output:
-====
+--
+Result::
++
+--
 [source,asciidoc]
 ----
 * xref::index.adoc[]
@@ -103,7 +108,7 @@ Output:
 **** xref::content_folder/additional_content/special_content_FILE.adoc[]
 ** xref::second_file.adoc[]
 ----
+--
 ====
-
 
 //end::example[]

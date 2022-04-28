@@ -11,9 +11,9 @@ NOTE: This only needs to be done once to obtain a local copy.
 
 . Find the repository url on the website and copy the git url
 
-. Open the Command Pallette, type `Git: Clone`, then press Enter
+. Open the Command Pallette (kbd:[Ctrl+Shift+P]), type `Git: Clone`, then press kbd:[Enter]
 
-. Paste the copied git url and press Enter
+. Paste the copied git url and press kbd:[Enter]
 
 . Select the folder on your PC where you want to save the repository
 

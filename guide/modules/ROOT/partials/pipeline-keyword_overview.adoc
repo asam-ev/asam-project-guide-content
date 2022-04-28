@@ -11,7 +11,7 @@ To generate a keywords-overview page, the ASAM Antora extension must contain the
 All other supported attributes for this feature are optional.
 The only requirement is that they must all be added under `keywords:`.
 
-NOTE: The keyword page will be added in all versions and components with the same name and at the same location!
+The keyword page will be added in all versions and components with the same name and at the same location!
 
 //end::how[]
 
@@ -20,6 +20,7 @@ IMPORTANT: All attributes must be added under the attribute "keywords".
 
 The following table lists the supported attributes as well as their default values:
 
+[cols=">1,3,1,2"]
 |===
 |Attribute |Description |Default |Example
 

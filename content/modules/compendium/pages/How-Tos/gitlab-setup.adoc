@@ -42,7 +42,7 @@ NOTE: The "ASAM SVN" login is deprecated and will be removed in the future.
 Ask the ASAM office to support you by creating your GitLab account.
 
 === I forgot my password and cannot use the login anymore
-Click the "Forgot your password?" button and follow the instructions.
+Click btn:[Forgot your password?] and follow the instructions.
 
 [#no-access]
 === I cannot access my project's repository

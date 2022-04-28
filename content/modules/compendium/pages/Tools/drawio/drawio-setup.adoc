@@ -39,8 +39,8 @@ Draw.io Desktop app::
 . Download the app from {drawio-download}[here^].
 . Check out the {library-repo}[asset library repository^]
 . Open the draw.io app and either create a new diagram or open any existing one
-. Click _File_ -> _Open Library..._
-. Select the xml file from the asset library repository (local) and click _Open_.
+. Click menu:File[Open Library...]
+. Select the xml file from the asset library repository (local) and click btn:[Open].
 
 image::drawio-import-library.gif[title=Import ASAM Draw.io library into Desktop.]
 --
@@ -54,7 +54,7 @@ The only option to add the library is to download a copy and add it manually.
 
 . Install the drawio extensions in VSCode
 . Check out the {library-repo}[asset library repository^]
-. In Visual Studio Code, access the extension settings for Draw.io Integration and open the settings.json file
+. In Visual Studio Code, access the extension settings for Draw.io Integration and open the 'settings.json' file
 . Add the following lines and replace `\<<filepath/filename>>` with the path to the downloaded library file (.xml):
 +
 [source,json]
@@ -68,7 +68,7 @@ The only option to add the library is to download a copy and add it manually.
     ],
 ----
 +
-NOTE: Remove the comma after the last braket ("]") if there is no other line before the closing curly bracket ("}").
+NOTE: Remove the comma after the last bracket ("]") if there is no other line before the closing curly bracket ("}").
 . Activate the library from any drawio file through "More Shapes...", selecting the ASAM Standard Library and confirming the selection
 
 

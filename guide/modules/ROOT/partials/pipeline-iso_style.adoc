@@ -2,7 +2,7 @@
 //tag::description[]
 By default, section numbers in Asciidoctor have a trailing dot (".").
 To be in line with https://en.wikipedia.org/wiki/ISO_2145[ISO 2145^], sections in standards have to be numbered without this trailing dot.
-The Antora extension in combination with the 'sectnums_to_iso' extension for Asciidoctor address this problem.
+The Antora extension, in combination with the 'sectnums_to_iso' extension for Asciidoctor, addresses this problem.
 
 //end::description[]
 
@@ -24,6 +24,7 @@ TIP: It is recommended to use this feature in combination with the xref:extensio
 //tag::configuration[]
 The following table lists the supported attributes for the Antora extension as well as their default values:
 
+[cols=">1,3,1,2"]
 |===
 |Attribute |Description |Default |Example
 
@@ -39,8 +40,12 @@ Any unrecognized setting is changed to "default" automatically.
 
 
 //tag::example[]
+[tabs]
 .Using the "ISO-2145 style section and page numbering" extension feature
 ====
+Source::
++
+--
 [source,yaml]
 ----
 
@@ -57,12 +62,14 @@ antora:
       numbered_titles: true # Optional!
       section-number-style: iso
 ----
-====
+--
+Result::
++
+--
+image::pipeline_iso_style.png[title='ISO 2145 titles and sections.']
 
-With this setting, all pages use the iso-style section numbers.
+With this setting, all pages use the iso-style section numbers. +
 Pages with numbered titles (see xref:extensions/pipeline-sequential_sectnums.adoc[]) will also have corresponding page titles.
-
-====
-image::pipeline_iso_style.png[title='ISO 2145 titles and sections.', role="left"]
+--
 ====
 //end::example[]

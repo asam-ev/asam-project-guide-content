@@ -7,7 +7,7 @@ include::compendium:partial$_attributes.adoc[]
 {how-to-icon}
 
 
-. Under "Clone", click on "Visual Studio Code"
+. Click menu:Clone[Visual Studio Code]
 
 . Select the folder on your PC where you want to save the repository
 

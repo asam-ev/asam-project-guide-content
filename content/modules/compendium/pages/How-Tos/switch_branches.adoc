@@ -9,7 +9,7 @@ include::compendium:partial$_attributes.adoc[]
 
 
 
-== Switch to a other branch on your local copy
+== Switch to another branch on your local copy
 
 IMPORTANT: Please make sure to use pull the latest updates from the repository before switching branches, otherwise you could run into trouble on your local system due to file conflicts.
 

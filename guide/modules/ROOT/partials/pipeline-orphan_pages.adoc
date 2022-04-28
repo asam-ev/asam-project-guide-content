@@ -12,6 +12,7 @@ However, to automatically list all found orphan pages in the navigation tree, at
 //tag::configuration[]
 The following table lists the supported attributes as well as their default values:
 
+[cols=">1,3,1,2"]
 |===
 |Attribute |Description |Default |Example
 
@@ -29,19 +30,25 @@ The following table lists the supported attributes as well as their default valu
 
 
 //tag::example[]
+[tabs]
 .Using the "orphan pages" extension feature
 ====
+Source::
++
+--
 [source,yaml]
 ----
 - require: './antora_extensions/asam-extension.js'
   add_to_navigation: true
   unlisted_pages_heading: Orphans
 ----
-====
+--
+Result::
++
+--
+image::pipeline_orphans.png[title='Orphan page "Credits" found in a previous version of the Project Guide.']
 
-With this setting, Antora finds all orphan pages and lists them at the end of the navigation tree under the point "Orphans".
-
-====
-image::pipeline_orphans.png[title='Orphan page "Credits" found in a previous version of the Project Guide.', role="left"]
+With these settings, Antora finds all orphan pages and lists them at the end of the navigation tree under the point "Orphans".
+--
 ====
 //end::example[]

@@ -1,12 +1,11 @@
-= Artifact page name
+= Editing a page directly
 :description: The artefact's description
-:keywords: artifact
 :page-partial:
 
 include::partial$_attributes.adoc[]
 
 
-{changes-icon}
+{gather_feedback-icon}
 
 == Context
 Describe the context (why) for this artifact.
