@@ -8,6 +8,7 @@ include::../ROOT/partials/_attributes.adoc[]
 ** xref:reviewer.adoc[]
 ** xref:gtm.adoc[]
 ** Other
+*** xref:ccb-member.adoc[]
 *** xref:standard_manager.adoc[]
 *** xref:standard_user.adoc[]
 *** xref:terminology.adoc[]
