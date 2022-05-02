@@ -47,7 +47,7 @@ There are no exceptions.
 |No                         |#Yes#
 |[.line-through]#colour#    |color
 |[.line-through]#labelling# |labeling
-|[.line-through]#analye#   |analyze
+|[.line-through]#analyse#   |analyze
 |[.line-through]#centre#    |center
 |===
 
