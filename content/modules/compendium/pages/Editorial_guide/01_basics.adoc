@@ -7,19 +7,21 @@ This section contains basic editorial rules on ASAM standards and documents:
 * <<#sec-ASM-125>>
 * <<#sec-ASM-119>>
 * <<#sec-ASM-76>>
-* <<#sec-ASM-120>>
 * <<#sec-ASM-1>>
 * <<#sec-ASM-80>>
 * <<#sec-ASM-117>>
-* <<#sec-ASM-23>>
 * <<#sec-ASM-54>>
+* <<#sec-ASM-23>>
 * <<#sec-ASM-20>>
 * <<#sec-ASM-24>>
+* <<#sec-ASM-120>>
+* <<#sec-ASM-70>>
 * <<#sec-ASM-16>>
 * <<#sec-ASM-78>>
 * <<#sec-ASM-15>>
 * <<#sec-ASM-37>>
 * <<#sec-ASM-38>>
+* <<#sec-ASM-41>>
 
 
 ////
@@ -260,8 +262,8 @@ ASAM specific rule.
 == Keep one blank line at the end of file (ASM-24)
 
 * Eliminate any spaces or tabs at each end of line.
-* Check the settings of the text editor to automatically insert a blank line at the end of the file:
-** xref:compendium:Guidelines/vscode-recommended_vscode_settings.adoc#_automatic_removal_of_spaces_after_periods[Settings for Visual Studio Code]
+* Check the settings of the text editor to automatically insert a blank line at the end of the file.
+//** xref:compendium:Guidelines/vscode-recommended_vscode_settings.adoc#_automatic_removal_of_spaces_after_periods[Settings for Visual Studio Code]
 
 *Exceptions*
 
@@ -308,6 +310,37 @@ In ASAM OpenDRIVE, all roads contain lanes.
 
 * ASAM specific rule.
 * https://asciidoctor.org/docs/asciidoc-recommended-practices/#document-attributes-i-e-variables
+
+
+[#sec-ASM-70]
+== Aim for consistency (ASM-70)
+
+* Stick to _one spelling_ for a word that allows several spellings.
+* Stick to _one formatting_ of terms for a special purpose, for example only the first appearance.
+* Stick to _one style_ to present information in the appropriate form, for example an ordered list for steps.
+
+*Exceptions*
+
+There are no exceptions.
+
+*Example*
+
+[#tab-fd9957af-2f23-41ef-bc8a-3a08ad5f93fd]
+.Use of consistency in spelling and formatting.
+[%header]
+|===
+|No |#Yes#
+
+|[.line-through]#e-mail, email#
+|email
+
+|In ASAM OpenDRIVE, the road network is represented by [.line-through]#`<road>`# elements. Each [.line-through]#*road*# runs along one road reference line. A [.line-through]#_road_# shall have at least one lane with a width larger than 0.
+|In ASAM OpenDRIVE, the road network is represented by `<road>` elements. Each road runs along one road reference line. A road shall have at least one lane with a width larger than 0.
+|===
+
+*Source*
+
+ASAM specific rule.
 
 
 [#sec-ASM-16]
