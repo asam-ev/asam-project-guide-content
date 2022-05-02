@@ -23,30 +23,31 @@ Label:: {role-project-lead}
 Interface to ASAM office::
 * Reporting of project status to ASAM office and commitees
 * Responsible for presentation at TSC
+* Monitoring quality KPIs of the ASAM project
 * Escalaton of issues to ASAM office +
 To identifiy additional risks or critical issues early
 
-Content structuring of project::
-Define a working mode:::
-* Setting up working groups and their leads
-* Forcing a decision in case of disagreement
-* Responsible for a clean preparation of workshops
-* Responsible for leading or passing on the leadership of meetings
-* Responsible for the documentation of meetings
-* See also xref:compendium:Guidelines/coordination-meeting_moderation.adoc[meeting moderation best practices]
-Leading of change control board:::
-* Refining and ensuring a change management process
-* Organisation of the topics to be implemented
-Ensuring content delivery:::
-* Request for missing content from project members
+Budget controlling::
+* Controlling of technical Service Provider
+* Coordination of technical Service Provider
 
-Defining and monitoring milestones::
+Structuring of ASAM project::
+Defining and monitoring milestones:::
 * Responsible for defining project timeline and milestones
 * Controlling project timeline and milestones
+* Technical issue tracking and asking for progress in combination
+Leading of project members, project meetings and project workgroups:::
+* Overview of project members and workgroups
+* Setting up meetings (weekly, workgroupmeetings, workgroups, change control board)
+** Defining meeting agenda (before meeting)
+** Managing and documenting meetings
+** Recording project level votes
+** See also xref:compendium:Guidelines/coordination-meeting_moderation.adoc[meeting moderation best practices]
+Possible introduction of (temporary) roles:::
+* Project Lead Assistant
+* Workgroup Lead
+* Meeting Moderator
 
-Budget controlling::
-* Controlling of Service Provider
-* Coordination of technical Service Provider
 
 == Instructional pages for this role
 * xref:compendium:Guidelines/project_lead_training.adoc[Project Lead Training]
