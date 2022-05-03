@@ -152,7 +152,7 @@ ASAM specific rule.
 
 
 [#sec-ASM-80]
-== Use lowercase in names for files and folders (ASM-80)
+== Use lowercase letters in names for files and folders (ASM-80)
 
 *Exceptions*
 
@@ -161,7 +161,7 @@ There are no exceptions.
 *Example*
 
 [#tab-cb96bd0c-8dde-4df1-9e77-1d7d553303eb]
-.Use lowercase in names for files and folders
+.Use lowercase letters in names for files and folders
 [%header]
 |===
 |No                                    |#Yes#

@@ -26,14 +26,15 @@ The sequence, headings and the numbering of the first and last chapters are fixe
 The first chapter with standard specific heading and content is chapter 6.
 
 The amount of annexes is also standard specific.
+An annex can be either _normative_ or _non-normative_, which is noted in parentheses in the name of the annex.
 
-The generic chapter structure and headings are as follows, the brackets comment on the content:
+The generic chapter structure and headings are as follows, the parentheses comment on the content:
 
 ```
 Foreword (fixed content)
 Introduction (standard specific content)
     Overview (standard specific content)
-    Conventions and notations (fixed content)
+    Conventions and notations (standard specific content)
     Deliverables (standard specific content)
 1. Scope (standard specific content)
 2. Normative references (standard specific content)
@@ -42,11 +43,11 @@ Introduction (standard specific content)
 5. Backward compatibility (standard specific content)
 6. (First standard specific heading and content)
 Annexes (optional standard specific content)
-    Annex A: (standard specific heading) (optional standard specific content)
-    Annex B: (standard specific heading) (optional standard specific content)
+    Annex A (normative|non-normative): (standard specific heading) (optional standard specific content)
+    Annex B (normative|non-normative): (standard specific heading) (optional standard specific content)
 Bibliography (standard specific content)
-List of figures (automatically generated content)
-List of tables (automatically generated content)
+List of figures (content is generated automatically)
+List of tables (content is generated automatically)
 ```
 
 *Exceptions*

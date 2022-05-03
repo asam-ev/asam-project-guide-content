@@ -37,7 +37,7 @@ The outline of the road marking is described by the attributes @length and @spac
 
 *Source*
 
-* ASD-STE100 (2021, issue 8): Rule 4.3 Use a vertical list for complex text, page 1-4-4
+* ASD-STE100 (2021, issue 8, ASD Simplified Technical English, ASD-STE100, is a Copyright and a Trade Mark of ASD, Brussels, Belgium): Rule 4.3 Use a vertical list for complex text, page 1-4-4
 * Microsoft Style Guide: https://docs.microsoft.com/en-us/style-guide/scannable-content/lists
 * Google Developer Documentation Style Guide: https://developers.google.com/style/lists
 
@@ -184,7 +184,7 @@ For example: * http://www.asam.net
 
 *Source*
 
-ASD-STE100 (2021, issue 8): Rule 4.3 Use a vertical list for complex text, page 1-4-4
+ASD-STE100 (2021, issue 8, ASD Simplified Technical English, ASD-STE100, is a Copyright and a Trade Mark of ASD, Brussels, Belgium): Rule 4.3 Use a vertical list for complex text, page 1-4-4
 
 
 [#sec-ASM-6]
@@ -214,7 +214,7 @@ a|
 
 *Source*
 
-* ASD-STE100 (2021, issue 8): Rule 4.3 Use a vertical list for complex text, page 1-4-4
+* ASD-STE100 (2021, issue 8, ASD Simplified Technical English, ASD-STE100, is a Copyright and a Trade Mark of ASD, Brussels, Belgium): Rule 4.3 Use a vertical list for complex text, page 1-4-4
 * Microsoft Style Guide: https://docs.microsoft.com/en-us/style-guide/scannable-content/lists#punctuation
 
 
@@ -252,7 +252,7 @@ a|
 
 *Source*
 
-* ASD-STE100 (2021, issue 8): Rule 4.3 Use a vertical list for complex text, page 1-4-4
+* ASD-STE100 (2021, issue 8, ASD Simplified Technical English, ASD-STE100, is a Copyright and a Trade Mark of ASD, Brussels, Belgium): Rule 4.3 Use a vertical list for complex text, page 1-4-4
 * Microsoft Style Guide: https://docs.microsoft.com/en-us/style-guide/scannable-content/lists#punctuation
 * Google Developer Documentation Style Guide: https://developers.google.com/style/lists
 

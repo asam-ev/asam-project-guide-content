@@ -65,7 +65,7 @@ ASM-66,Do not use synonyms,<<sec-ASM-66>>,-,draft
 ASM-67,Avoid words that are not precise,<<sec-ASM-67>>,-,draft
 ASM-68,Use 'that' and 'which' correctly,<<sec-ASM-68>>,-,draft
 ASM-69,Use 'since' for a point in time,<<sec-ASM-69>>,-,draft
-??ASM-70,Consistent formatting,<<sec-ASM-70>>,-,draft
+ASM-70,Consistent formatting,<<sec-ASM-70>>,-,draft
 ASM-71,Use of italic markup,<<sec-ASM-71>>,-,draft
 ASM-72,Use of bold markup,<<sec-ASM-72>>,-,draft
 ASM-73,Use of code markup,<<sec-ASM-73>>,-,draft
