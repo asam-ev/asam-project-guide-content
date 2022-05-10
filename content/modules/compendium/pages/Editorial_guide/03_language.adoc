@@ -11,6 +11,7 @@ This section contains editorial rules on content and language:
 * <<#sec-ASM-63>>
 * <<#sec-ASM-33>>
 * <<#sec-ASM-123>>
+* <<#sec-ASM-126>>
 * <<#sec-ASM-64>>
 * <<#sec-ASM-67>>
 * <<#sec-ASM-61>>
@@ -180,6 +181,36 @@ There are no exceptions.
 -
 
 
+[#sec-ASM-126]
+== Capitalization after colons (ASM-126)
+
+* Use lower case after a colon, if individual words or phrases follow.
+* Use upper case after a colon, if a complete sentence follows.
+
+
+*Exceptions*
+
+There are no exceptions.
+
+*Example*
+
+[#tab-2916c9c2-68fe-4579-880e-5d73e6245fa7]
+.Capitalization after colons
+[%header]
+|===
+|No|#Yes#
+|[.line-through]#Power consumption: Approximately 160 VA #
+|Power consumption: approximately 160 VA
+
+|[.line-through]#Setting the language: press the F4 key.#
+|Setting the language: Press the F4 key.
+|===
+
+*Source*
+
+tekom English for Non-Native Writers, 2. updated edition, Rule EN_W 502, Page 87, Colons
+
+
 [#sec-ASM-64]
 == Use simple phrases (ASM-64)
 
@@ -271,6 +302,7 @@ There are no exceptions.
 |No                    |#Yes#
 |[.line-through]#e.g.# |for example
 |[.line-through]#i.e.# |meaning
+|[.line-through]#etc.# |and so on
 |===
 
 *Source*

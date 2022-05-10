@@ -325,7 +325,7 @@ There are no exceptions.
 
 *Example*
 
-[#tab-fd9957af-2f23-41ef-bc8a-3a08ad5f93fd]
+[#tab-9e1a6d1a-099f-4a59-9f30-455f42d5378d]
 .Use of consistency in spelling and formatting.
 [%header]
 |===
