@@ -2,14 +2,14 @@ ID,Short_Description,Link_to_Project_Guide,Link_to_Test,Status
 ASM-1,No fixed versioning,<<sec-ASM-1>>,-,approved
 ASM-2,Heading case,<<sec-ASM-2>>,-,approved
 ASM-3,Heading punctuation,<<sec-ASM-3>>,-,approved
-ASM-4,Heading numbering,<<sec-ASM-4>>,-,draft
-ASM-5,List capitalization,<<sec-ASM-5>>,-,draft
-ASM-6,List punctuation,<<sec-ASM-6>>,-,draft
-ASM-7,List completeness (...),<<sec-ASM-7>>,-,draft
+ASM-4,Heading numbering,<<sec-ASM-4>>,-,approved
+ASM-5,List capitalization,<<sec-ASM-5>>,-,approved
+ASM-6,List punctuation,<<sec-ASM-6>>,-,approved
+ASM-7,List completeness (...),<<sec-ASM-7>>,-,rejected
 ASM-8,List content,<<sec-ASM-8>>,-,draft
 ASM-9,List one sentence per line,<<sec-ASM-9>>,-,draft
 ASM-10,List type,<<sec-ASM-10>>,-,draft
-ASM-11,List end of element,<<sec-ASM-11>>,-,draft
+ASM-11,List end of element,<<sec-ASM-11>>,-,approved
 ASM-12,Image anchor fig-,<<sec-ASM-12>>,-,approved
 ASM-13,Table anchor tab-,<<sec-ASM-13>>,-,approved
 ASM-14,Code anchor code-,<<sec-ASM-14>>,-,approved
