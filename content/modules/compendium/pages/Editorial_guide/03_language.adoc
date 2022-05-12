@@ -199,7 +199,7 @@ There are no exceptions.
 [%header]
 |===
 |No|#Yes#
-|[.line-through]#Power consumption: Approximately 160 VA #
+|[.line-through]#Power consumption: Approximately 160 VA#
 |Power consumption: approximately 160 VA
 
 |[.line-through]#Setting the language: press the F4 key.#
