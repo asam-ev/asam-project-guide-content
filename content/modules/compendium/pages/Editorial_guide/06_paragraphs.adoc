@@ -47,6 +47,7 @@ ASAM Writing Guide: Use paragraphs
 
 * Insert a line break after each sentence.
 * Do not add manual line breaks inside sentences.
+* Apply this rule on paragraphs and list items.
 
 *Instructions*
 
@@ -64,13 +65,23 @@ There are no exceptions.
 This is the first sentence.
 This is the second sentence.
 This is the third sentence.
+
+* This is the first sentence of the element.
+This is the second sentence of the element.
+* This is the second element.
+* This is the third element.
 ```
 
 [.underline]#Result#
 
-This is the first sentence
+This is the first sentence.
 This is the second sentence.
 This is the third sentence.
+
+* This is the first sentence of the element.
+This is the second sentence of the element.
+* This is the second element.
+* This is the third element.
 
 *Source*
 

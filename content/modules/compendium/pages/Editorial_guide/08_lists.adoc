@@ -120,18 +120,10 @@ To sign on to a database:
 
 *Source*
 
-Microsoft Style Guide: https://docs.microsoft.com/en-us/style-guide/scannable-content/lists#numbered-lists
+Microsoft Style Guide: https://docs.microsoft.com/en-us/style-guide/scannable-content/lists#bulleted-lists
 
 
-[#sec-ASM-9]
-== Just add one sentence per line in lists (ASM-9)
-
-* Insert a line break after each sentence.
-* Do not add manual line breaks inside sentences.
-
-*Instructions*
-
-* _"Only hit 'enter' after a period ('.'), but make sure to hit 'enter' after a period."_
+=== Use a description list for terms and definitions or abbreviations and the full forms
 
 *Exceptions*
 
@@ -140,24 +132,26 @@ There are no exceptions.
 *Example*
 
 [.underline]#Code#
+```
+ASAM::
+Association for Standardization of Automation and Measuring Systems
 
+XML::
+Extensible Markup Language
 ```
-* This is the first sentence of the element.
-This is the second sentence of the element.
-* This is the second element.
-* This is the third element.
-```
+
 
 [.underline]#Result#
 
-* This is the first sentence of the element.
-This is the second sentence of the element.
-* This is the second element.
-* This is the third element.
+ASAM::
+Association for Standardization of Automation and Measuring Systems
+
+XML::
+Extensible Markup Language
 
 *Source*
 
-ASAM Writing Guide: 4.3. One sentence per line
+ASAM specific rule.
 
 
 [#sec-ASM-5]
