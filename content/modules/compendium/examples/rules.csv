@@ -85,7 +85,7 @@ ASM-86,Use maximum level 4 for headings,<<sec-ASM-86>>,-,,draft
 ASM-87,AsciiDoc syntax for figures,<<sec-ASM-87>>,-,,draft
 ASM-88,AsciiDoc syntax for source code,<<sec-ASM-88>>,-,,draft
 ??ASM-89,XIL: List formatting conventions,-,-,,draft
-??ASM-90,Figures,-,-,,draft
+ASM-90,Fonts in figures,<<sec-ASM-90>>,-,,draft
 ??ASM-91,XIL: Images,-,-,,draft
 ASM-92,Use one folder 'images' per chapter,<<sec-ASM-92>>,-,,draft
 ??ASM-94,XIL: Attribute 'plantuml-format',-,-,,draft

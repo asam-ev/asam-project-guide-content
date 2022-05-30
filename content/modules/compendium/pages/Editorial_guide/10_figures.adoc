@@ -6,6 +6,7 @@ This section contains editorial rules on how to create figures:
 
 * <<#sec-ASM-56>>
 * <<#sec-ASM-57>>
+* <<#sec-ASM-90>>
 * <<#sec-ASM-28>>
 * <<#sec-ASM-29>>
 * <<#sec-ASM-92>>
@@ -53,6 +54,29 @@ There is no example.
 ASAM Writing Guide: 5.2. Figures
 
 
+
+[#sec-ASM-90]
+== Use defined fonts in figures (ASM-90)
+
+The defined fonts for use in figures are:
+
+* normal text and labels -> sans serif font -> Calibri
+* mathematical content with formulae and numbers -> optimized font -> Cambria Math
+* special -> monospace font -> Consolas
+
+*Exceptions*
+
+There are no exceptions.
+
+*Example*
+
+There is no example.
+
+*Source*
+
+ASAM specific rule.
+
+
 [#sec-ASM-28]
 == Make sure that all included figures are shown correctly (ASM-28)
 
@@ -66,6 +90,7 @@ There is no example.
 
 *Source*
 
+ASAM specific rule.
 
 [#sec-ASM-29]
 == Make sure that there are no unused figures in the repository of the standard (ASM-29)
@@ -81,7 +106,8 @@ There are no exceptions.
 There is no example.
 
 *Source*
-//TODO: Name source
+
+ASAM specific rule.
 
 
 [#sec-ASM-92]
