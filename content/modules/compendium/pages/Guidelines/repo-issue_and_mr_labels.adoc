@@ -266,9 +266,10 @@ Milestones are **mandatory** for the Development phase and **recommended** for t
 
 :!numbered:
 
-== Examples
-The following diagrams show examples for an issue with its labels, displaying the transitions the issue undergoes.
+//Examples outdated (expecially labels)
+//== Examples
+//The following diagrams show examples for an issue with its labels, displaying the transitions the issue undergoes.
 
-image::compendium:asam/issue_label_examples-1.svg[]
+//image::compendium:asam/issue_label_examples-1.svg[]
 
 //end::body[]
