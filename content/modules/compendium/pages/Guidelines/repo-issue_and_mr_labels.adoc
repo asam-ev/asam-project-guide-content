@@ -66,34 +66,34 @@ Type labels display the intended field of the issue. Type labels are static and 
 |===
 |Label|Description
 
-|{isType:Bug}
+|{isTypeBug-label}
 |This label indicates an issue that contains contradictions or errors in the standard.
 
-|{isType:DocumentationCleanUp}
+|{isTypeDocumentationCleanUp-label}
 |This label indicates an issue that contains general structural and editorial changes for the whole documentation.
 
-|{isType:FeatureImprovment}
+|{isTypeFeatureImprovment-label}
 |This label indicates tasks that further improve or correct existing features of the standard and/or project
 
-|{isType:GeneralQuestion}
+|{isTypeGeneralQuestion-label}
 |General questions about the documentation, work-flow or anything related to the standard.
 
-|{isType:InternalReview}
+|{isTypeInternalReview-label}
 |This label indicates that the issue was created during and as a result of the internal project review phase.
 
-|{isType:NewFeature}
+|{isTypeNewFeature-label}
 |This label indicates a proposals which enhance the standard or add additional features.
 
-|{isType:PublicReview}
+|{isTypePublicReview-label}
 |This label indicates that the issue was created during and as a result of the public project review phase.
 
-|{isType:ReleaseBlocker}
+|{isTypeReleaseBlocker-label}
 |This label indicates tasks that shall be solved in order to release the document/project.
 
-|{isType:RepositoryInfrastructure}
+|{isTypeRepositoryInfrastructure-label}
 |This label indicates that the issue deals with a topic related to the repository infrastructure such as CI, builds, document toolchain or similar.
 
-|{isType:UML}
+|{isTypeUML-label}
 |This label indicates that the issue deals with an UML related topic.
 
 |===
@@ -107,19 +107,19 @@ Status labels reflect the current phase of an issue. Status labels can change. O
 |===
 |Label|Description
 
-|{isStatus:Duplicate}
+|{isStatusDuplicate-label}
 |This issue has already been raised or was already solved in another issue.
 
-|{isStatus:InProgress}
+|{isStatusInProgress-label}
 |This label indicates that the work on the issue has already begun and is ongoing.
 
-|{isStatus:NotInProgress}
+|{isStatusNotInProgress-label}
 |This label indicates that the work on the issue has already begun and is ongoing.
 
-|{isStatus:ReadyForServiceProvider}
+|{isStatusReadyForServiceProvider-label}
 |This issue is ready for the service provider.
 
-|{isStatus:WontBeFixed}
+|{isStatusWontBeFixed-label}
 |This label indicates that the task described in the issue will not be solved.
 
 |===
@@ -134,28 +134,28 @@ Requirement labels can change. Old Requirement labels shall be removed.
 |===
 |Label|Description
 
-|{requires:CCBReview}
+|{requiresCCBReview-label}
 |This label indicates that the concept of this issue and a matching merge request is ready for review by the CCB.
 
-|{requires:Clarification}
+|{requiresClarification-label}
 |This label indicates that this issue needs a clarification by an expert.
 
-|{requires:ConceptualWork}
+|{requiresConceptualWork-label}
 |This label indicates that this issue needs conceptual work by an expert or an expert group.
 
-|{requires:DocumentationWork}
+|{requiresDocumentationWork-label}
 |This label indicates that this issue needs a change of the documentation which has to be implemented by a project member.
 
-|{requires:Example}
+|{requiresExample-label}
 |This label indicates that the issue needs an example to illustrate or test a section in the document which has to be implemented by a project member.
 
-|{requires:Merge}
+|{requiresMerge-label}
 |This label indicates that this issue or a merge request is approved by the CCB and should be merged by a project member with the necessary rights.
 
-|{requires:MergeRequest}
+|{requiresMergeRequest-label}
 |This tag indicates that this topic has a concise concept that is ready to be implemented in a merge request (either in the form of technical documentation, writing code, or model development).
 
-|{requires:Test}
+|{requiresTest-label}
 |This label identifies tasks that need to be tested before they can be closed or the next step can be taken. This could be done with an example.
 
 |===
@@ -169,10 +169,10 @@ Relation labels display relations to **external** projects.
 |===
 |Label|Description
 
-|{isRelated:EditorialGuide}
+|{isRelatedEditorialGuide-label}
 |This issue is related to the ASAM Editorial Guide.
 
-|{isRelated:OpenXOntology}
+|{isRelatedOpenXOntology-label}
 |This issue is related to the OpenXOntology Standard.
 
 |===
@@ -186,13 +186,13 @@ Effort labels reflect the expected workload. Based on the expectations of the wo
 |===
 |Label|Description
 
-|{hasEffort:High}
+|{hasEffortHigh-label}
 |Effort labels reflect the expected workload. Based on the expectations of the work group.
 
-|{hasEffort:Low}
+|{hasEffortLow-label}
 |Effort labels reflect the expected workload. Based on the expectations of the work group.
 
-|{hasEffort:Medium}
+|{hasEffortMedium-label}
 |Effort labels reflect the expected workload. Based on the expectations of the work group.
 
 |===
@@ -246,7 +246,7 @@ Each issue targeting the Proposal document shall be assigned:
 |===
 |Label|Description
 
-|{isPhase:Proposal}
+|{isPhaseProposal-label}
 |Denotes that this issue is relevant for the Proposal document.
 
 |===
