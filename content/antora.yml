@@ -1,5 +1,5 @@
-name: asamprojectguide
-title: ASAM Project Guide
+name: projectintroduction
+title: ASAM Project Introduction
 version:
   v(?<version>+({0..9}).+({0..9}).+({0..9})): $<version>
   open-(*): 'open$1'
@@ -11,8 +11,8 @@ nav:
 - modules/concepts/nav.adoc
 - modules/contributing/nav.adoc
 - modules/getting-involved/nav.adoc
-- modules/role-specific/nav.adoc
-- modules/compendium/nav.adoc
+# - modules/role-specific/nav.adoc
+# - modules/compendium/nav.adoc
 - modules/ROOT/nav.adoc
 asciidoc:
   attributes:
