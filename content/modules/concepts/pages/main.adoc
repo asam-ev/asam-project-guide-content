@@ -19,16 +19,21 @@ include::partial$module-description.adoc[]
 |===
 |Concept|Description
 
-h| {project-types-icon-norole} +
-xref:project_types.adoc[]
-a| ASAM distinguishes multiple types of projects.
-Each project type is defined in the respective Proposal phase (see below) and specifies the expected outcome and requirements as well as restrictions for the project.
+// h| {project-types-icon-norole} +
+// xref:project_types.adoc[]
+// a| ASAM distinguishes multiple types of projects.
+// Each project type is defined in the respective Proposal phase (see below) and specifies the expected outcome and requirements as well as restrictions for the project.
 
-h|{project-phases-icon-norole} +
-xref:project_phases.adoc[]
-a| A typical project goes through multiple phases at ASAM.
-Each phase has specific steps and events that must or can happen. +
-Both the phases and the types are illustrated in a fictitious project's lifecycle.
+// h|{project-phases-icon-norole} +
+// xref:project_phases.adoc[]
+// a| A typical project goes through multiple phases at ASAM.
+// Each phase has specific steps and events that must or can happen. +
+// Both the phases and the types are illustrated in a fictitious project's lifecycle.
+
+h|{project-lifecycle-icon-norole} +
+xref:project_lifecycle.adoc[]
+a| An exemplary lifecycle of a typical project at ASAM.
+
 
 h|{roles-icon-norole} +
 xref:roles-overview.adoc[Roles]

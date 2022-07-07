@@ -12,6 +12,9 @@
 :project-phases-icon: xref:project_phases.adoc[image:phases_icon.png[width={width-large}], role=right]
 :project-phases-icon-norole: xref:project_phases.adoc[image:phases_icon.png[width={width-small}]]
 
+:project-lifecycle-icon: xref:project_lifecycle.adoc[image:phases_icon.png[width={width-large}], role=right]
+:project-lifecycle-icon-norole: xref:project_lifecycle.adoc[image:phases_icon.png[width={width-small}]]
+
 :roles-icon: xref:roles-overview.adoc[image:roles_icon.svg[width={width-large}], role=right]
 :roles-icon-norole: xref:roles-overview.adoc[image:roles_icon.svg[width={width-small}]]
 
