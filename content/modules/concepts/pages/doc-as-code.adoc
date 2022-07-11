@@ -8,42 +8,31 @@ include::partial$_attributes.adoc[]
 {doc-as-code-icon}
 
 == Introduction
-Many newer projects at ASAM follow the concept of Documentation as Code (Doc-as-Code). +
-This concept refers to using the same tools and methods for documentation (or standardization) as for writing (software) code.
+Many newer projects at ASAM follow the concept of *Documentation as Code* (Doc-as-Code).
+This concept refers to using the same tools and methods for documentation (or standardization) as for writing (software) code. +
 The main benefit of this concept is the separation of content and text in documents from its layout rules and publishing.
 
-// [IMPORTANT]
-// ====
-// NOT to be confused with the Dog-as-Code concept!!!
-// ----
-//            __
-//   \ ______/ V`-,
-//    }        /~~
-//   /_)^ --,r'
-//  |b      |b
-// ----
-// ====
 
 == Concept
-As described in the introduction, the general concept is to use established tools and processes from software development and apply them in the creation of documents.
+The general concept is to use established tools and processes from software development and apply them in the creation of documents.
 At ASAM, the main aspects of this concept are:
 
 * Writing documents in <<sec-plain-text-markup,plain text markup>>
 * Using <<sec-versioning-repo,repositories with version control systems>>
 * Collaborating on projects through <<sec-online-collaboration,online repository platforms>>
+* Automation of repetitive steps using <<sec-automation-pipeline,automation pipelines>>
 
 [#sec-plain-text-markup]
 === Plain text content files
 
 At ASAM, the central aspect of this concept is the usage of https://en.wikipedia.org/wiki/Plain_text[plain text^] documents with a https://en.wikipedia.org/wiki/Markup_language[semantic markup language^] in creating standards and other documents, particularly the free https://asciidoc-py.github.io/index.html[AsciiDoc format^].
 Its main benefit is the separation of content from style and layout rules, making it possible to specify general layout settings in a separate set of files and instructions for consistency over multiple projects.
-Writers also get the benefit of being able to focus on content first, handing of the layouting to other people.
 
 Another benefit is that AsciiDoc files can be opened and edited with any type of text editor, making it a platform-agnostic format.
 Different people can write content independent of the operating system on their work devices or requiring specific software licenses.
 
-Finally, the content is decoupled from the target output, making it easy to generate different types of documentation from the same source files, such as single-file PDFs as well as multi-page online documentation in html.
-It is even possible to generate multiple types of output in the same process.
+Finally, the content is decoupled from the target output, making it easy to generate different types of documentation from the same source files.
+
 
 [tabs]
 ====
@@ -59,42 +48,39 @@ image::asciidoc_example-output.png[title=The same Foreword section rendered by A
 --
 ====
 
-TIP: If you want to learn more about AsciiDoc and how to use its powers in writing technical documents, see the official https://docs.asciidoctor.org/asciidoc/latest/[**AsciiDoc Language Documentation**^] and the https://asciidoctor.org/docs/asciidoc-writers-guide/[Asciidoctor Writers Guide]. +
-Specific ASAM writing styles and rules can be found in the xref:compendium:Editorial_guide.adoc[**Editorial Guide**].
+// TIP: If you want to learn more about AsciiDoc and how to use its powers in writing technical documents, see the official https://docs.asciidoctor.org/asciidoc/latest/[**AsciiDoc Language Documentation**^] and the https://asciidoctor.org/docs/asciidoc-writers-guide/[Asciidoctor Writers Guide]. +
+// Specific ASAM writing styles and rules can be found in the xref:compendium:Editorial_guide.adoc[**Editorial Guide**].
 
+---
 
 [#sec-versioning-repo]
 === Versioning and repositories
-Besides the separation of source text and publication files, using tool-supported document versioning is another main aspect in the Doc-as-Code.
-ASAM projects employing Doc-as-Code use the software https://git-scm.com/[Git^] for this purpose. +
-It allows for working on different parts, features, or versions of a project separately whilst also providing the necessary features for merging all changes that were made on these different versions again later.
-As this works best with plain text documents, it goes extremely well together with the plain text markup approach to document writing explained above.
+Using tool-supported document versioning is another main aspect in the Doc-as-Code approach.
+ASAM projects use the software https://git-scm.com/[Git^] for this purpose. +
+It allows for working on different parts, features, or versions of a project separately.
+With Git, all separately developed parts can be merged again later.
 
-Content is stored in so-called repositories that each consist of one or more branches.
+Content is stored in so-called repositories.
+Each repository consist of one or more branches.
 At ASAM, there usually is one main branch (called "main" or (outdated) "master") and possibly one or more feature branches.
-The central branch (also called the "trunk") acts as the agreed or released "official" state of the repository, whereas the feature branches contain the current development topics. +
-Each feature branch targets a single aspect of development, for example the language specification.
-Once the development in a feature branch has advanced enough, it's changes are merged back into the trunk.
+The central branch (also called the "trunk") acts as the agreed or released "official" state of the repository. +
+When a change needs to be made, they are added through branches created from this trunk.
+Each child branch targets a single aspect of development.
+Once the development in a child branch has advanced enough, it's changes are merged back into the trunk.
 This is done through a so-called Merge Request (MR), sometimes called a Pull Request (PR) instead.
 
 image::example-repo-workflow.drawio.svg[title=Repository workflow and branching example.]
 
-NOTE: The strategy of having one main branch (trunk) and develop changes in separate branches is called xref:compendium:Guidelines/workflow-trunk.adoc[**trunk-based development**] and the quasi-standard of modern software development.
-
-These repositories also contain some files with information about the history and current state of the content.
-The repository information is updated and used by Git and usually needs not to be changed by users manually.
-
 TIP: If you want to learn more about Git itself, ASAM recommends online introductions and tutorials such as https://rogerdudler.github.io/git-guide/[**this one**^].
-Additionally, you can find more information on using Git and working with repositories at ASAM in the xref:compendium:Tools/git.adoc[tooling section].
 
+---
 
 [#sec-online-collaboration]
 === Online collaboration
 include::contributing:partial$simple_contribution.adoc[]
 
 The work on standards, particularly at ASAM, is of collaborative nature:
-People from different companies companies join in a project to develope something together.
-The idea is to create something that will be adapted and used not just by a single company but a majority of the target industry. +
+People from different companies companies join in a project to develop something together. +
 Online repository platforms like GitLab and GitHub support the collaboration by providing features for commenting and reviewing content changes as well as issue boards for creating and tracking topics.
 In addition to that, they also integrate the same versioning and repository aspects described in the <<sec-versioning-repo,section above>>.
 
@@ -103,7 +89,7 @@ Using online collaboration platforms with repository support provide multiple be
 * They typically provide online editors for content, so users can choose to participate in projects xref:contributing:main.adoc[without having to install software] (besides any standard web browser)
 * Merge Requests (Pull Requests) can be reviewed and commented on with a side-by-side preview in the browser (diff view)
 * They act as central repository location for the project(s) that can be accessed from anywhere (provided the user has sufficient rights), so all involved people always have access to the latest submitted changes
-* They enable central automation steps through xref:pipeline_details.adoc[CI/CD pipelines], for example automated writing rules checks on a document after it was updated
+* They enable central automation steps through <<sec-automation-pipeline,CI/CD pipelines>>, for example automated writing rules checks on a document after it was updated
 * Integrated issue boards for keeping track of tasks, found problems, discussion topics, etc.
 
 The <<fig-issue_example-gitlab,figure below>> shows an example issue from a project where a topic discussion takes place.
@@ -117,4 +103,20 @@ GitLab is the most commonly used platform right now at ASAM.
 
 ---
 
-The following pages give a more detailed view on some of the aspects above.
+[#sec-automation-pipeline]
+=== Automation pipelines
+Pipelines in online repositories allow to automate repetitive steps, such as building a document and checking for structural and grammatical errors.
+ASAM projects typically automate the following steps:
+
+* Convert AsciiDoc files to html using https://asciidoctor.org/[Asciidoctor^] or https://antora.org/[Antora^]
+* https://en.wikipedia.org/wiki/Lint_(software)[Linting^] and testing documents for rules defined in the xref:latest@asamprojectguide:compendium:Editorial_guide.adoc[editorial guide] and returning found errors
+* Publishing results as pipeline artifacts for downloads or distribution
+* Running project-specific scripts for additional features, such as converting uml diagrams to AsciiDoc files
+
+These pipeline instructions are stored in text files in each repository.
+
+In GitLab, they are stored as `.gitlab-ci.yml`. +
+In GitHub, they are stored as "workflows" under `.github/workflows`.
+
+In both cases, the file is written in "YAML".
+If you want to learn more about pipelines, see https://docs.gitlab.com/ee/ci/quick_start/[the GitLab CI documentation^] or https://github.blog/2022-02-02-build-ci-cd-pipeline-github-actions-four-steps/[the GiHub blog^].
