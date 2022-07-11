@@ -28,6 +28,8 @@ Select and follow the respective instructions in the tab view below.
 
 include::contributing:partial$icon_reminder.adoc[tag=online-access]
 
+== Setup steps
+
 [tabs]
 ====
 GitLab::

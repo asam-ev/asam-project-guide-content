@@ -2,3 +2,6 @@
 ** xref:account_setup.adoc[]
 ** xref:contribution_workflow.adoc[]
 ** xref:editorial_guide.adoc[]
+** xref:labels.adoc[]
+** xref:issue_naming.adoc[]
+** xref:branch_naming_conventions.adoc[]

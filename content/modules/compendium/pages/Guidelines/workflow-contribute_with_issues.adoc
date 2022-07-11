@@ -32,14 +32,14 @@ TIP: If you want to contribute more directly, see xref:compendium:Guidelines/wor
 //tag::body[]
 
 == Make discussions accessible
-{mandatory}
+// {mandatory}
 
 It must be possible for every project member to contribute to and give feedback on the content of a Proposal document directly.
 For this purpose, all content discussions shall happen through issues in a project's issue board.
 
 
 == Gather topics in issues
-{mandatory}
+// {mandatory}
 
 If your project is on ASAM GitLab, see the https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#create-an-issue[GitLab instructions^] for creating issues. +
 If your project is on GitHub, see the https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue[GitHub instructions^] for creating issues.
@@ -63,7 +63,7 @@ Every topic shall have its own issue.
 **DEVELOPMENT only**
 //tag::development[]
 
-{recommended}
+// {recommended}
 
 If a topic is too complex for a single issue, sub-issues shall be created.
 
@@ -73,7 +73,7 @@ If a topic is too complex for a single issue, sub-issues shall be created.
 **DEVELOPMENT only**
 //tag::development[]
 
-{mandatory}
+// {mandatory}
 
 
 An issue with sub-issues shall only be closed if all its sub-issues have been closed. +
@@ -84,7 +84,7 @@ If an issue has a branch, the issue shall not be closed before the branch has be
 //tag::body[]
 
 == Use issue templates
-{mandatory}
+// {mandatory}
 
 Issues shall be created using the provided issue templates in the repository.
 
@@ -93,7 +93,7 @@ TIP: Each issue template contains a description (as comments) on when to use the
 image::compendium:asam/issue_template_example.png[title=Creating an issue from a template]
 
 == Define issue name
-{mandatory}
+// {mandatory}
 
 //end::body[]
 PROPOSAL::
@@ -106,17 +106,19 @@ image::compendium:asam/proposal_issue_example.png[title=Topic issue for a propos
 
 DEVELOPMENT::
 //tag::development[]
-The name of the issue shall follow the xref:compendium:Guidelines/repo-branch_naming_conventions.adoc[].
+The name of the issue shall follow the xref:branch_naming_conventions.adoc[].
+// The name of the issue shall follow the xref:compendium:Guidelines/repo-branch_naming_conventions.adoc[].
 //end::development[]
 
 //tag::body[]
 
 
 == Label issues correctly
-{mandatory}
+// {mandatory}
 
 The use of issue labels is required for filtering and sorting issues more efficiently.
-Each issue and merge/pull request must apply labels as defined in xref:compendium:Guidelines/repo-issue_and_mr_labels.adoc[]. +
+Each issue and merge/pull request must apply labels as defined in xref:labels.adoc[]. +
+// Each issue and merge/pull request must apply labels as defined in xref:compendium:Guidelines/repo-issue_and_mr_labels.adoc[]. +
 A project may also have project-specific labels in addition to the official ones, specified directly in the project group.
 
 
@@ -172,10 +174,10 @@ Additionally, an issue may also be closed without resolution if
 * it has not been worked on for a long period of time (see <<The issue triage>>)
 
 
-== The issue triage
-ASAM has defined a process for closing outdated issues.
-This is called the "Issue Triage" or "Ticket Triage". +
-See xref:compendium:Guidelines/workflow-ticket_triage.adoc[] for more details.
+// == The issue triage
+// ASAM has defined a process for closing outdated issues.
+// This is called the "Issue Triage" or "Ticket Triage". +
+// See xref:compendium:Guidelines/workflow-ticket_triage.adoc[] for more details.
 
 
 == Reopening issues

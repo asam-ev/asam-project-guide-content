@@ -8,6 +8,7 @@ include::compendium:partial$_attributes.adoc[]
 {repo-icon}
 
 //tag::body[]
+include::compendium:partial$_attributes.adoc[]
 
 // Label attributes are defined in the partial issue_labels.adoc and included through the _attributes.adoc partial
 

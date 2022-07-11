@@ -1,0 +1,4 @@
+= Issue and merge request labels
+:keywords: label
+
+include::compendium:page$Guidelines/repo-issue_and_mr_labels.adoc[tags=body;!compendium]

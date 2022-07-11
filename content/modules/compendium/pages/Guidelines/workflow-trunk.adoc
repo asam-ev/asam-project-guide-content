@@ -1,11 +1,13 @@
-= Trunk-based Remote Repositories
+= Remote repositories
 :description: A guide on the trunk workflow for projects.
 :keywords: trunk,workflow,doc-as-code, git-workflow
-:navtitle: [Workflow] Trunk-based Remote Repositories
+:navtitle: [Workflow] Remote repositories
 
 include::compendium:partial$_attributes.adoc[]
 
+//tag::icon[]
 {workflow-icon}
+//end::icon[]
 
 
 //tag::compendium[]
@@ -19,14 +21,14 @@ include::compendium:partial$_attributes.adoc[]
 
 //tag::body[]
 
-IMPORTANT: Never work on the trunk directly -- always create your own <<Create development branch,development branch>>!
+IMPORTANT: Never work on the trunk directly -- always work in <<Create development branch,separate branches>>!
 
 == Introduction
 A trunk-based repository is a repository that has a single central branch (the "trunk").
 This trunk contains the official and reviewed state of a project. +
-Users cannot commit and push changes to this specific branch directly.
-Instead, all changes on the repository's content are made in development or feature branches.
-These can either be branched off of the trunk or from another feature branch.
+Users are not allowed to commit and push changes to this specific branch directly.
+Instead, all changes on the repository's content are made in child branches.
+These can either be branched off of the trunk or from another branch.
 Once ready, a branch is merged back into its parent branch (which may be the trunk or another feature branch).
 
 The benefit of this approach is that each repository's trunk contains the latest official state or version.
@@ -37,7 +39,7 @@ Mistakes and unfinished changes to parts of it only have an impact on the branch
 The central branch ("trunk") can only be merged to by the ASAM office, the Project Lead, or the project's Change Control Board (CCB).
 Unless indicated by a clear git tag, all commits are considered to be part of a release candidate.
 
-Users **MAY** branch off the trunk for more focused development work. +
+Changes **MUST** be added through branches created from the trunk or another branch. +
 These branches **SHOULD** be short-lived (<2 weeks) and regularly merged back. +
 These branches **MAY** be squashed and **MUST** be merged via fast-forward merge (enabled by default).
 
@@ -66,7 +68,7 @@ MERGE --Review OK--> CLOSED;
 Each stage is described in more detail in the sections below.
 The role listed at the top of each section is the one responsible for it.
 
-You may also want to check out ASAM's xref:compendium:Guidelines/repo-issue_and_mr_labels.adoc#_status_labels[**list of status labels**].
+You may also want to check out ASAM's xref:labels.adoc[**list of labels**].
 
 ---
 
