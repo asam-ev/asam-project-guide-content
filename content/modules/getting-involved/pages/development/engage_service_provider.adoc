@@ -5,20 +5,20 @@
 include::partial$_attributes.adoc[]
 
 
-====
-[cols="1,5", frame=none, grid = rows]
-|===
-h|Involved roles
-a| * {role-project-lead}
-* {role-gtm}
-* {role-member}
-* {role-service-provider}
+// ====
+// [cols="1,5", frame=none, grid = rows]
+// |===
+// h|Involved roles
+// a| * {role-project-lead}
+// * {role-gtm}
+// * {role-member}
+// * {role-service-provider}
 
-h| Project phase
-| xref:getting-involved:development_phase.adoc#_process_overview[image:compendium:asam/project_lifecycle-development.svg[]]
+// h| Project phase
+// | xref:getting-involved:development_phase.adoc#_process_overview[image:compendium:asam/project_lifecycle-development.svg[]]
 
-|===
-====
+// |===
+// ====
 
 
 == Context
