@@ -50,10 +50,15 @@ In order for project members and the Project Lead to work on their respective pr
 
 
 == How
+IMPORTANT: In order to be able to fork a project into a group, you must be a member with sufficient rights in this group.
+
 . If this is the first time this xref:concepts:project_types.adoc[project type] is used for this project:
 .. xref:compendium:How-Tos/forking_repo.adoc[Fork] the latest version of the https://code.asam.net/common/templates/standard-template[**standard template repository**^] into the existing subgroup for the project.
 * The structure of the repository is explained in the included README
 .. Rename the forked project to "<project-name> <type-suffix>", where "<project-name>" is the name of the project (e.g. "OpenDRIVE") and "<type-suffix>" is the current xref:concepts:project_types.adoc[project type] (e.g. "Standard").
+.. Set the project visibility to "Internal"
+.. Set the Merge request settings to "Fast-forward merge" and check the boxes for "Pipelines must succeed" and "All discussions must be resolved"
+.. Under "Advanced", change the end of the path to "<project-name>-<type-suffix>", replacing "<project-name>" and "<type-suffix>" accordingly
 .. Follow the instructions in the https://code.asam.net/common/templates/standard-template/-/blob/master/README.adoc[**template repository's README**^]
 .. If the project requires more than one repository, repeat step 1, but this time fork from the created central repo instead of the template
 . Update the assigned members of the subgroup according to the currently enrolled members.
