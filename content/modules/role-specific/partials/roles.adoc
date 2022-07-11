@@ -15,55 +15,55 @@ TIP: Click on a role's label to navigate directly to the role's summary page.
 |===
 3+<s|[.underline]#Outside roles#
 |(1)
-^|xref:role-specific:standard_user.adoc[image:role-specific:roles_overview-standard_user.svg[]]
-a|Someone who has access to and possibly is an active user of any ASAM standard. +
+|xref:role-specific:standard_user.adoc[image:role-specific:roles_overview-standard_user.svg[]]
+a|Someone who has *access to* and possibly is an *active user of any ASAM standard*. +
 Some standards require https://www.asam.net/about-asam/join-asam/[ASAM membership^] in order to access the documents, whilst other standards are available to anyone online. +
-The role __Standard User__ is not directly involved in the creation of a standard.
+The role __Standard User__ is *not directly involved* in the creation of a standard.
 However, a __Standard User__ may take over other (active) roles in a project by enrolling in it. +
 Note that project participation also requires ASAM membership!
 
 |(2)
-^|xref:role-specific:reviewer.adoc[image:role-specific:roles_overview-reviewer.svg[]]
-a|An ASAM member outside the project that participates in the review of one or more documents. +
+|xref:role-specific:reviewer.adoc[image:role-specific:roles_overview-reviewer.svg[]]
+a|An *ASAM member outside the project* that participates in the *review of one or more documents*. +
 When a project's deliverables are reviewed, ASAM members who were not involved in the project directly can participate in the Review phase by becoming a __Reviewer__ and providing feedback.
 
 3+<s|[.underline]#Project roles#
 |(3)
-^|xref:role-specific:project-participant.adoc[image:role-specific:roles_overview-project_participant.svg[]]
-a|An ASAM member active in an ASAM project. +
-Each project consists of multiple __Project Participants__ who directly contribute to the project's development.
+|xref:role-specific:project-participant.adoc[image:role-specific:roles_overview-project_participant.svg[]]
+a|An *ASAM member active in an ASAM project*. +
+Each project consists of *multiple* __Project Participants__ who *directly contribute* to the project's development.
 Most participants typically enroll during the xref:getting-involved:proposal_phase.adoc[], but it also possible to already participate during the xref:getting-involved:ideation_phase.adoc[]. +
-Typically, __Project Participants__ work in one or more so-called Working Groups, each focussing on a specific aspect of the project.
+Typically, __Project Participants__ work in one or more so-called *Working Groups*, each focussing on a specific aspect of the project.
 
 |(4)
-^|xref:role-specific:project-lead.adoc[image:role-specific:roles_overview-project_lead.svg[]]
-a|The __Project Participant__ responsible for the project and leading the general project activities. +
-Every project needs one elected __Project Lead__ who takes responsibility for it.
+|xref:role-specific:project-lead.adoc[image:role-specific:roles_overview-project_lead.svg[]]
+a|The __Project Participant__ *responsible for the project* and leading the general project activities. +
+*Every project needs one* elected __Project Lead__ who takes responsibility for it.
 The __Project Lead__ is elected at the beginning of the xref:getting-involved:development_phase.adoc[].
 Any __Project Participant__ can send in their xref:getting-involved:proposal/submit_candidacy.adoc[candidacy] during the xref:getting-involved:proposal_phase.adoc[].
 
 |(5)
-^|xref:role-specific:wg-lead.adoc[image:role-specific:roles_overview-wg_lead.svg[]]
-a|A __Project Participant__ leading the activities of a Working Group. +
+|xref:role-specific:wg-lead.adoc[image:role-specific:roles_overview-wg_lead.svg[]]
+a|A __Project Participant__ *leading* the activities of a *Working Group*. +
 Many projects divide up their activities into so-called Working Groups which focus on specific aspects of a project.
 Each of these groups may be led by a __Working Group Lead__.
 
 3+<s|[.underline]#Supporting roles#
 |(6)
-^|xref:role-specific:gtm.adoc[image:role-specific:roles_overview-gtm.svg[]]
+|xref:role-specific:gtm.adoc[image:role-specific:roles_overview-gtm.svg[]]
 a|ASAM contact of the project. +
-A __GTM__ is an ASAM employee focussed on coordinating project processes and the background work behind a project.
+A __GTM__ is an *ASAM employee* focussed on *coordinating project processes* and the *background work* behind a project.
 
 |(7)
-^|xref:role-specific:technical-writer.adoc[image:role-specific:roles_overview-tw.svg[]]
+|xref:role-specific:technical-writer.adoc[image:role-specific:roles_overview-tw.svg[]]
 a|Editor and writing support. +
-A __Technical Writer__ supports the creation of documents.
+A __Technical Writer__ *supports* the *creation of documents*.
 They ensure ASAM's xref:compendium:Editorial_guide.adoc[Editorial Guide] is applied and the document is formalized.
 
 |(8)
-^|xref:role-specific:tsc.adoc[image:role-specific:roles_overview-tsc.svg[]]
-a|Committee at ASAM reviewing a project's state. +
-The TSC is responsible for approving or rejecting budgets, projects and proposals as well as releases of project results, such as standards or concept papers.
+|xref:role-specific:tsc.adoc[image:role-specific:roles_overview-tsc.svg[]]
+a|*Committee at ASAM reviewing a project's state*. +
+The TSC is responsible for *approving or rejecting* budgets, projects and proposals as well as releases of project results, such as standards or concept papers.
 
 |===
 
