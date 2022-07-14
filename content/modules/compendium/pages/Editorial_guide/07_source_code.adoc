@@ -13,7 +13,7 @@ This section contains editorial rules on how to write down source code:
 
 
 [#sec-ASM-14]
-== Create an anchor with an UUID for a referenced code block (ASM-14)
+== Create an anchor with a UUID for a referenced code block (ASM-14)
 
 The code block anchor consists of `[#`, the string `code-`, a following UUID, and `]`.
 
