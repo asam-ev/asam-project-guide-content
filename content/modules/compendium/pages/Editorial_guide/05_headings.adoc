@@ -70,7 +70,7 @@ ASAM specific rule.
 [#sec-ASM-2]
 == Start headings with a capital letter (ASM-2)
 
-* In headings and captions, only the _first word_ begins with an uppercase letter (sentence-style capitalization).
+* In headings and captions the _first word_ begins with an uppercase letter (sentence-style capitalization).
 
 *Exceptions*
 
