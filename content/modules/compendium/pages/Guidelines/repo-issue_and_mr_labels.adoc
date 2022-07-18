@@ -8,6 +8,7 @@ include::compendium:partial$_attributes.adoc[]
 {repo-icon}
 
 //tag::body[]
+//tag::short[]
 include::compendium:partial$_attributes.adoc[]
 
 // Label attributes are defined in the partial issue_labels.adoc and included through the _attributes.adoc partial
@@ -46,11 +47,14 @@ https://code.asam.net/groups/simulation/-/labels[**Simulation Domain Labels**^]
 GitHub::
 TODO - Must be defined by organization owners
 
+
+//end::short[]
 //tag::compendium[]
 :numbered:
 //end::compendium[]
 
 ---
+
 
 == General labels
 {mandatory}

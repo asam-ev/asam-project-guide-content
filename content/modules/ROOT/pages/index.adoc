@@ -7,12 +7,22 @@ include::partial$_attributes.adoc[]
 
 Welcome to the **ASAM Project Introduction**!
 
-****
-IMPORTANT: This guide is a work in progress and subject to change!
-****
-
-
 This guide provides an introduction to new members on ASAM's most central topics and gives an overview on how to get involved.
+It provides an overview over all relevant basics to get you up and running for your ASAM project.
+
+ASAM tries to keep technical requirements for participation as low as possible.
+That is why you can participate without having to install any software on your computer.
+All the tools most project members will need to contribute to their project are hosted online and can be accessed through any standard web browser. +
+The only thing you need to do first is to set up your account so you can safely exchange data with the other project members.
+Here is a quick overview of what you need to do to get started:
+
+* [ ] xref:contributing:account_setup.adoc[**Set up your account**] for your project's remote repository (GitLab or GitHub, depending on your project)
+* [ ] Check out **your project's README file** -- you can find it right at the top of your project's remote repository.
+* [ ] Make yourself familiar with xref:contributing:contribution_workflow.adoc[**ASAM's contribution workflow**], the basics of the xref:contributing:editorial_guide.adoc[**editorial guide**], and the available xref:contributing:labels.adoc[**issue labels**]
+* [ ] Check the xref:getting-involved:development_phase.adoc[**development phase overview page**]
+* [ ] Read the section on xref:concepts:doc-as-code.adoc[**documentation-as-code**] to understand the concepts behind the ASAM documentation process
+
+If you have any questions or feedback, do not hesitate to contact your ASAM representative.
 
 NOTE: This guide assumes you already know who and what ASAM is.
 For more information, refer to the https://www.asam.net/about-asam/[ASAM website^].

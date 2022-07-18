@@ -92,23 +92,23 @@ TIP: Each issue template contains a description (as comments) on when to use the
 
 image::compendium:asam/issue_template_example.png[title=Creating an issue from a template]
 
-== Define issue name
-// {mandatory}
+// == Define issue name
+// // {mandatory}
 
-//end::body[]
-PROPOSAL::
-//tag::proposal[]
-The name of the issue shall correspond to the respective section.
+// //end::body[]
+// PROPOSAL::
+// //tag::proposal[]
+// The name of the issue shall correspond to the respective section.
 
-image::compendium:asam/proposal_issue_example.png[title=Topic issue for a proposal's Executive Summary]
+// image::compendium:asam/proposal_issue_example.png[title=Topic issue for a proposal's Executive Summary]
 
-//end::proposal[]
+// //end::proposal[]
 
-DEVELOPMENT::
-//tag::development[]
-The name of the issue shall follow the xref:branch_naming_conventions.adoc[].
-// The name of the issue shall follow the xref:compendium:Guidelines/repo-branch_naming_conventions.adoc[].
-//end::development[]
+// DEVELOPMENT::
+// //tag::development[]
+// The name of the issue shall follow the xref:branch_naming_conventions.adoc[].
+// // The name of the issue shall follow the xref:compendium:Guidelines/repo-branch_naming_conventions.adoc[].
+// //end::development[]
 
 //tag::body[]
 
@@ -171,7 +171,7 @@ Additionally, an issue may also be closed without resolution if
 
 * it has become obsolete
 * it is a duplicate (i.e. another issue deals with the same topic already)
-* it has not been worked on for a long period of time (see <<The issue triage>>)
+// * it has not been worked on for a long period of time (see <<The issue triage>>)
 
 
 // == The issue triage
