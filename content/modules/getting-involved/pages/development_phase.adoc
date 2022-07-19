@@ -41,8 +41,6 @@ At this point, the project transitions to the next phase, which typically is the
 
 image::compendium:asam/development_phase_timeline-development_phase.svg[title = "Examples for a typcial Development phase timeline: short (6 months), medium (12 months), long (18 months)."]
 
-image::compendium:asam/development_phase_timeline-cycle_example.svg[title = "Medium length development project example, including cycle details and external ASAM controlling meetings."]
-
 IMPORTANT: The cycle reviews should be timed such that each of them occurs at least two weeks prior to the respectively next TSC controlling meeting.
 This ensures that the Project Lead will have enough time to prepare a status report based on the latest review for these meetings.
 
@@ -73,7 +71,7 @@ At this point, the project has
 * agreed and documented Development phase parameters, such as cycle duration
 * agreed and documented project milestones (at least the first two of which have to already be detailed)
 * if required: contracts with one or more service providers or, if this process takes longer, ongoing activities for hiring one or more service providers
-|image:development_setup_simplified_top.drawio.svg[title=Development project setup]
+|image:development_setup_simplified_top.drawio.svg[title="Development project setup"]
 |===
 
 
@@ -163,7 +161,7 @@ This is an official meeting.
 The project may decide whether to have a fixed host or change the assignee/host regularly.
 Make sure to follow the xref:contributing:meeting_guidelines.adoc[ASAM meeting guidelines].
 
-|image:development_cycle_simplified_top.drawio.svg[title=Development cycle depiction]
+|image:development_cycle_simplified_top.drawio.svg[title="Development cycle depiction"]
 |===
 
 
@@ -175,6 +173,8 @@ Simulation domain projects are required to participate in the following external
 
 * <<CGSim controlling meetings>>
 * <<TSC controlling meetings>>
+
+image::compendium:asam/development_phase_timeline-cycle_example.svg[title = "Medium length development project example, including cycle details and external ASAM controlling meetings."]
 
 
 === CGSim controlling meetings
