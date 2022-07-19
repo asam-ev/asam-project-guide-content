@@ -18,7 +18,7 @@ Here is a quick overview of what you need to do to get started:
 
 * [ ] xref:contributing:account_setup.adoc[**Set up your account**] for your project's remote repository (GitLab or GitHub, depending on your project)
 * [ ] Check out **your project's README file** -- you can find it right at the top of your project's remote repository.
-* [ ] Make yourself familiar with xref:contributing:contribution_workflow.adoc[**ASAM's contribution workflow**], the basics of the xref:contributing:editorial_guide.adoc[**editorial guide**], and the available xref:contributing:labels.adoc[**issue labels**]
+* [ ] Make yourself familiar with xref:contributing:contribution_workflow.adoc[**ASAM's contribution workflow**], the basics of the xref:contributing:editorial_guide.adoc[**editorial guide**], the available xref:contributing:labels.adoc[**issue labels**], and the xref:contributing:meeting_guidelines.adoc[**meeting guidelines**]
 * [ ] Check the xref:getting-involved:development_phase.adoc[**development phase overview page**]
 * [ ] Read the section on xref:concepts:doc-as-code.adoc[**documentation-as-code**] to understand the concepts behind the ASAM documentation process
 

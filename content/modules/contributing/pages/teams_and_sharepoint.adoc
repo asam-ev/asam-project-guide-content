@@ -1,0 +1,37 @@
+= Sharepoint structure
+:keywords: teams, sharepoint
+
+Every project at ASAM uses the same base folder structure for its Sharepoint.
+
+NOTE: You can use Sharepoint online or https://support.microsoft.com/en-us/office/sync-sharepoint-files-with-the-onedrive-sync-client-groove-exe-59b1de2b-519e-4d3a-8f45-51647cf291cd[synch it locally^].
+
+include::compendium:Guidelines/coordination-teams-channel_file-structure.adoc[tag=body]
+
+
+== What Sharepoint is used for
+In ASAM projects, Sharepoint is used to exchange information in the team that is not a direct result or content of development.
+Sharepoint can be used to exchange files not directly used as project content (e.g. background information, studies, floor plans for meetings etc.).
+It also contains the approved project proposal as well as the current <<Participants list,participants list>>.
+
+The Sharepoint shall also contain the latest project report for all ASAM coordination meetings (TSC and CGSim) as well as a current controlling overview for any involved external parties.
+
+
+
+== What Sharepoint is NOT used for
+Any content directly relevant to the project's deliverables (such as images to be used in a standard) are not to be organized through Sharepoint.
+Instead, such information has to be entered through the project's repository so that is subjected to the same version control as all the other content.
+The same is true for meeting notes, which are to be taken as repository issues.
+
+
+== Participants list
+Sharepoint contains a list of all participants in the related project.
+This list is set up initially based on the signups during the Proposal phase.
+
+However, participation and assignments may change during development. +
+It is the responsibility of the Project Lead to keep this document up to date on at least a monthly basis.
+They may delegate this task to another project member.
+
+== Project report
+The Project Lead must provide a new project report after every xref:getting-involved:development_phase.adoc#_cycle_review[Cycle Review].
+The latest report has to be presented in the next xref:getting-involved:development_phase.adoc#_cgsim_controlling_meeting[CGSim controlling meeting] after the Cycle Review and be made available for the next xref:getting-involved:development_phase.adoc#_tsc_controlling_meeting[TSC controlling meeting].
+Note that the project status only has to be actively presented to the TSC if an escalation is suggested by the CGSim.

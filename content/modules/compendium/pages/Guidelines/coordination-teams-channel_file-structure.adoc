@@ -11,25 +11,14 @@ include::compendium:partial$_attributes.adoc[]
 
 [source]
 ----
-├───General(Allgemein)
-│   ├───admin
-│   │       Project_Participants.csv // list of all project participants + emails
-│   │       WP_Signups.xlsx // signup sheet for the WPs
-│   │
-│   └───meetings
-│       └───YYYY-MM-DD_MeetingTitle // All project meeting documents here
+├───01_admin
+│   └───Participant_list.xlsx // contains all enrolled project members with their contact details and their working group assignments
 │
-└───GroupName
-    ├───meetings
-    │   └───YYYY-MM-DD_MeetingTitle // All group meeting documents here
-    │
-    └───WorkPackage
-        └───WPXX_WPNAME
-            ├───development // Anything being worked on goes here
-            │               // (that doesn't yet belong on git)
-            │
-            └───meetings
-                └───YYYY-MM-DD_MeetingTitle // All WP meeting documents here
+├───02_WorkingGroupName1 // each working group creates and manages their own directory as they see fit
+├───03_WorkingGroupName2
+...
+└───xx_WorkingGroupName<N>
+
 ----
 
 //end::body[]

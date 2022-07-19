@@ -1,0 +1,13 @@
+= Meeting guidelines
+:keywords: meeting, guideline
+
+This page contains guidelines regarding all types of official meetings at ASAM. +
+The guidelines apply to every project level meeting (where the whole project is invited) and all working group meetings (where the whole working group is invited).
+These are considered official meetings in this context.
+Clarification or co-development calls as well as similar informal types of meetings do not have to follow these guidelines.
+They still may if they wish, of course.
+
+If you are hosting an official meeting, make sure to familiarize yourself with them ahead of time.
+
+
+include::compendium:Guidelines/coordination-general_meeting_guidelines.adoc[tag=reduced]

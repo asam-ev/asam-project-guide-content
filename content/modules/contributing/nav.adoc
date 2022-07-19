@@ -2,4 +2,6 @@
 ** xref:account_setup.adoc[]
 ** xref:contribution_workflow.adoc[]
 ** xref:editorial_guide.adoc[]
-** xref:labels.adoc[] # TODO: reduce
+** xref:labels.adoc[]
+** xref:meeting_guidelines.adoc[]
+** xref:teams_and_sharepoint.adoc[]
