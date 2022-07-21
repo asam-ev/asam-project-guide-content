@@ -1,7 +1,7 @@
-= Teams channels file structure
-:description: Describes the standard teams channel structure at ASAM.
-:keywords: teams,channel
-:navtitle: [Coordination] Teams Channels File Structure
+= Teams/Sharepoint file structure
+:description: Describes the standard teams and sharepoint structure at ASAM.
+:keywords: teams,sharepoint, structure
+:navtitle: [Coordination] Teams/Sharepoint file structure
 
 include::compendium:partial$_attributes.adoc[]
 
@@ -11,14 +11,17 @@ include::compendium:partial$_attributes.adoc[]
 
 [source]
 ----
-├───01_admin
+├───General // this is where all administrative topics are stored
+│   ├───Project_report.docx // the latest project report
 │   └───Participant_list.xlsx // contains all enrolled project members with their contact details and their working group assignments
 │
-├───02_WorkingGroupName1 // each working group creates and manages their own directory as they see fit
-├───03_WorkingGroupName2
+├───01_WorkingGroupName1 // each working group creates and manages their own directory as they see fit
+├───02_WorkingGroupName2
 ...
 └───xx_WorkingGroupName<N>
 
 ----
+
+Each Sharepoint may also contain an archive containing information from previous project iterations.
 
 //end::body[]

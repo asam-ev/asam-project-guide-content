@@ -114,7 +114,9 @@ After the Service Provider or Providers have been chosen, they receive an onboar
 
 // |===
 
-// The GTM takes the list of enrolled members, creates a new xref:compendium:Tools/teams_and_sharepoint.adoc[MS Teams] channel for the project (if it does not exist yet), creates a related Sharepoint folder, and adds all participants to that channel and folder. +
+// The GTM takes the list of enrolled members, creates a new xref:compendium:Tools/teams_and_sharepoint.adoc[MS Teams] channel for the project (if it does not exist yet), creates a related Sharepoint folder, and adds all participants to that channel and folder.
+// The Sharepoint must also contain a Participant_list.xlsx (containing all enrolled participants) and a template for the project reports for CGSim and TSC.
+// Check out the xref:compendium:Guidelines/coordination-teams-channel_file-structure.adoc[] for more information on the Sharepoint folder structure. +
 // The channel can then also be used as a mailing list.
 
 // ---
