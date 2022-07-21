@@ -57,7 +57,8 @@ IMPORTANT: In order to be able to fork a project into a group, you must be a mem
 * The structure of the repository is explained in the included README
 .. Rename the forked project to "<project-name> <type-suffix>", where "<project-name>" is the name of the project (e.g. "OpenDRIVE") and "<type-suffix>" is the current xref:concepts:project_types.adoc[project type] (e.g. "Standard").
 .. Set the project visibility to "Internal"
-.. Set the Merge request settings to "Fast-forward merge" and check the boxes for "Pipelines must succeed" and "All discussions must be resolved"
+.. Set the Merge request settings to "Fast-forward merge" and check the boxes for "Pipelines must succeed" and "All discussions must be resolved".
+Also, make sure to set the "Target project" for Merge Requests to "This project"
 .. Under "Advanced", change the end of the path to "<project-name>-<type-suffix>", replacing "<project-name>" and "<type-suffix>" accordingly
 .. Follow the instructions in the https://code.asam.net/common/templates/standard-template/-/blob/master/README.adoc[**template repository's README**^]
 .. If the project requires more than one repository, repeat step 1, but this time fork from the created central repo instead of the template
