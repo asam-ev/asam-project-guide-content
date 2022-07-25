@@ -119,6 +119,10 @@ After the Service Provider or Providers have been chosen, they receive an onboar
 // Check out the xref:compendium:Guidelines/coordination-teams-channel_file-structure.adoc[] for more information on the Sharepoint folder structure. +
 // The channel can then also be used as a mailing list.
 
+// TIP: When setting up a channel, make extra sure to use the correct name.
+// The reason is that, while channels can be renamed, their associated folders cannot.
+// If a channel was accidentally created with the wrong name, delete the channel and the folder as-is and create the new one with the correct name.
+
 // ---
 
 // === Update repository after Kick-off Workshop

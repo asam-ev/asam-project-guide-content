@@ -63,6 +63,8 @@ Also, make sure to set the "Target project" for Merge Requests to "This project"
 .. Follow the instructions in the https://code.asam.net/common/templates/standard-template/-/blob/master/README.adoc[**template repository's README**^]
 .. If the project requires more than one repository, repeat step 1, but this time fork from the created central repo instead of the template
 . Update the assigned members of the subgroup according to the currently enrolled members.
+Tip: Use https://code.asam.net/internal/gitlab-member-management/-/blob/master/create_users_and_update_group_members_from_csv.py[this python script^] to automate the process based on an exported csv from the Project participants list.
+This only works for GitLab, though.
 . Send a mail with the link to the new project to the proposal members, informing them that the repository is now ready for use.
 
 //end::body[]
