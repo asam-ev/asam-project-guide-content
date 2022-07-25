@@ -9,6 +9,8 @@ This section contains editorial rules on the structure and fixed content of the 
 * <<#sec-ASM-39>>
 * <<#sec-ASM-26>>
 * <<#sec-ASM-27>>
+* <<#sec-ASM-91>>
+* <<#sec-ASM-21>>
 * <<#sec-ASM-34>>
 * <<#sec-ASM-36>>
 * <<#sec-ASM-31>>
@@ -17,18 +19,18 @@ This section contains editorial rules on the structure and fixed content of the 
 
 
 [#sec-ASM-22]
-== Use generic ASAM standard chapter structure (ASM-22)
+== Use generic ASAM standard section structure (ASM-22)
 
-The chapter structure of ASAM standards always follows the same pattern.
+The section structure of ASAM standards always follows the same pattern.
 
-The sequence, headings and the numbering of the first and last chapters are fixed.
+The sequence, headings and the numbering of the first and last sections are fixed.
 
-The first chapter with standard specific heading and content is chapter 6.
+The first section with standard specific heading and content is section 6.
 
 The amount of annexes is also standard specific.
 An annex can be either _normative_ or _non-normative_, which is noted in parentheses in the name of the annex.
 
-The generic chapter structure and headings are as follows, the parentheses comment on the content:
+The generic section structure and headings are as follows, the parentheses comment on the content:
 
 ```
 Foreword (fixed content)
@@ -160,7 +162,7 @@ The directory structure of a repository of an ASAM standard always follows the s
 
 The `content` folder in the repository contains the core files for the standard.
 
-Each main chapter has a separate folder which contains the AsciiDoc file with the content of the main chapter and optional AsciiDoc files with the content of the subchapters.
+Each main section has a separate folder which contains the AsciiDoc file with the content of the main section and optional AsciiDoc files with the content of the subsections.
 
 
 *Exceptions*
@@ -184,13 +186,13 @@ content/
         04_abbreviations.adoc
     05_backward_compatibility/
         05_backward_compatibility.adoc
-    06_[first standard specific main chapter]/
-        06_00_[first standard specific main chapter].adoc
-        06_01_[first standard specific sub chapter].adoc
-        06_01_[first standard specific sub chapter].adoc
+    06_[first standard specific main section]/
+        06_00_[first standard specific main section].adoc
+        06_01_[first standard specific sub section].adoc
+        06_01_[first standard specific sub section].adoc
         ...
-    07_[second standard specific main chapter]/
-        07_00_[second standard specific main chapter].adoc
+    07_[second standard specific main section]/
+        07_00_[second standard specific main section].adoc
         ...
     ...
     XX_annexes/
@@ -211,7 +213,7 @@ ASAM specific rule.
 [#sec-ASM-40]
 == Name the mapping file index.adoc (ASM-40)
 
-* The mapping file _index.adoc_ is in the root directory of the chapter structure.
+* The mapping file _index.adoc_ is in the root directory of the section structure.
 
 *Exceptions*
 
@@ -228,10 +230,10 @@ ASAM specific rule.
 
 
 [#sec-ASM-39]
-== Define the complete chapter structure in the mapping file (ASM-39)
+== Define the complete section structure in the mapping file (ASM-39)
 
-* Include all chapters of all levels of the chapter structure in the mapping file.
-* Subchapters shall not have separate mapping files.
+* Include all sections of all levels of the section structure in the mapping file.
+* Subsections shall not have separate mapping files.
 
 *Exceptions*
 
@@ -239,7 +241,7 @@ There are no exceptions.
 
 *Example*
 
-The following example is the complete include section of a chapter and its subchapters in the mapping file.
+The following example lists the complete include entries for a section and its subsections in the mapping file.
 
 [source]
 ----
@@ -258,10 +260,10 @@ ASAM specific rule.
 
 
 [#sec-ASM-26]
-== Do not include empty chapters (ASM-26)
+== Do not include empty sections (ASM-26)
 
-* Only include chapters with content beyond a heading in the chapter structure.
-* Remove chapters without content from the chapter structure.
+* Only include sections with content beyond a heading in the section structure.
+* Remove sections without content from the section structure.
 
 *Exceptions*
 
@@ -277,10 +279,10 @@ ASAM specific rule.
 
 
 [#sec-ASM-27]
-== Check to include all needed chapters (ASM-27)
+== Check to include all needed sections (ASM-27)
 
-* Check to include all needed chapters in the chapter structure and the mapping file.
-* Remove chapters from the repository that are without use in the chapter structure and mapping file.
+* Check to include all needed sections in the section structure and the mapping file.
+* Remove sections from the repository that are without use in the section structure and mapping file.
 
 *Exceptions*
 
@@ -293,6 +295,192 @@ There is no example.
 *Source*
 
 ASAM specific rule.
+
+
+[#sec-ASM-91]
+== Include information on normative and informative content (ASM-91)
+
+Place the section on normative and informative content in the _Conventions and notations_ section under the _Introduction_ section in the generic ASAM standard section structure, refer to <<sec-ASM-22>>.
+
+Highlight non-normative sections with the non-normative tag:
+----
+\include::ROOT:partial$fragments/admonition_non_normative_chapter.adoc[]
+----
+
+*Exceptions*
+
+There are no exceptions.
+
+*Example*
+
+[.underline]#Code#
+
+```
+=== Normative and informative content
+
+Content in this standard can be normative or informative.
+The sections listed in <<tab-normative-informative-content>> are normative or informative per definition.
+
+[#tab-normative-informative-content]
+.Normative and informative sections
+[%header, cols=2*]
+|===
+|Section               |Indication
+|Foreword              |Informative
+|Introduction          |Informative
+|Scope                 |Normative
+|Normative references  |Informative
+|Terms and definitions |Normative
+|Abbreviations         |Normative
+|Annexes               |Annexes can be normative or informative. The annex heading contains the indication "(normative)" or "(informative)".
+|Bibliography          |Informative
+|===
+
+All other sections in this standard are normative as long as not explicitly stated otherwise.
+Informative sections are highlighted using the non-normative tag:
+
+\include::ROOT:partial$fragments/admonition_non_normative_chapter.adoc[]
+
+The non-normative tag is valid for the section and all of its sub-sections.
+```
+
+[.underline]#Result#
+
+=== Normative and informative content
+
+Content in this standard can be normative or informative.
+The sections listed in <<tab-normative-informative-content>> are normative or informative per definition.
+
+[#tab-normative-informative-content]
+.Normative and informative sections
+[%header, cols=2*]
+|===
+|Section               |Indication
+|Foreword              |Informative
+|Introduction          |Informative
+|Scope                 |Normative
+|Normative references  |Informative
+|Terms and definitions |Normative
+|Abbreviations         |Normative
+|Annexes               |Annexes can be normative or informative. The annex heading contains the indication "(normative)" or "(informative)".
+|Bibliography          |Informative
+|===
+
+All other sections in this standard are normative as long as not explicitly stated otherwise.
+Informative sections are highlighted using the non-normative tag:
+
+:important-caption: NON-NORMATIVE
+[IMPORTANT]
+====
+Please note that the following section and its sub-sections are non-normative.
+====
+:important-caption: IMPORTANT
+
+The non-normative tag is valid for the section and all of its sub-sections.
+
+*Source*
+
+ASAM specific rule.
+
+
+[#sec-ASM-21]
+== Include verbal forms for expressions of provisions (ASM-21)
+
+Use and update the following section with the table of verbal forms for expressions of provisions in a standard document.
+
+Place the modal verbs section in the _Conventions and notations_ section under the _Introduction_ section in the generic ASAM standard section structure, refer to <<sec-ASM-22>>.
+
+*Exceptions*
+
+There are no exceptions.
+
+*Example*
+
+[.underline]#Code#
+
+```
+=== Modal verbs
+
+To ensure compliance with the {THIS_STANDARD} standard, users need to be able to distinguish between mandatory requirements, recommendations, permissions, as well as possibilities and capabilities.
+
+The following rules for using modal verbs apply:
+
+[#tab-modal-verbs]
+.Rules for using modal verbs
+[%header, cols=2*]
+|===
+|Provision |Verbal form
+|*Requirements* +
+Requirements shall be followed strictly in order to conform to the standard. Deviations are not allowed.
+|shall +
+shall not
+
+|*Recommendations* +
+Recommendations indicate that one possibility out of the several available is particularly suitable, without mentioning or excluding the other possibilities.
+|should +
+should not
+
+|*Permissions* +
+Permissions indicate a course of action permissible within the limits of {THIS_STANDARD} deliverables.
+|may +
+need not
+
+|*Possibilities and capabilities* +
+Verbal forms used to state possibilities or capabilities, whether technical, material, physical, etc.
+|can +
+cannot
+
+|*Obligations and necessities* +
+Verbal forms used to describe legal, organizational, or technical obligations and necessities that are not regulated or enforced by the {THIS_STANDARD} standard.
+|must +
+must not
+|===
+```
+
+[.underline]#Result#
+
+[#tab-2c6c7726-0a24-493c-a645-9c38d4d2504d]
+=== Modal verbs
+
+To ensure compliance with the {THIS_STANDARD} standard, users need to be able to distinguish between mandatory requirements, recommendations, permissions, as well as possibilities and capabilities.
+
+The following rules for using modal verbs apply:
+
+[#tab-modal-verbs]
+.Rules for using modal verbs
+[%header, cols=2*]
+|===
+|Provision |Verbal form
+|*Requirements* +
+Requirements shall be followed strictly in order to conform to the standard. Deviations are not allowed.
+|shall +
+shall not
+
+|*Recommendations* +
+Recommendations indicate that one possibility out of the several available is particularly suitable, without mentioning or excluding the other possibilities.
+|should +
+should not
+
+|*Permissions* +
+Permissions indicate a course of action permissible within the limits of {THIS_STANDARD} deliverables.
+|may +
+need not
+
+|*Possibilities and capabilities* +
+Verbal forms used to state possibilities or capabilities, whether technical, material, physical, etc.
+|can +
+cannot
+
+|*Obligations and necessities* +
+Verbal forms used to describe legal, organizational, or technical obligations and necessities that are not regulated or enforced by the {THIS_STANDARD} standard.
+|must +
+must not
+|===
+
+
+*Source*
+
+ASAM Writing Guide: Verbs with a special meaning (shall, should, may, can)
 
 
 [#sec-ASM-34]
@@ -334,7 +522,7 @@ ASAM specific rule.
 [#sec-ASM-31]
 == Use the standard disclaimer (ASM-31)
 
-Include the following standard disclaimer:
+Include for ASAM OpenX standards the following standard disclaimer:
 
 [IMPORTANT]
 
@@ -351,10 +539,12 @@ In alteration to the regular https://www.asam.net/license[license terms], ASAM a
 
 *Exceptions*
 
-There are no exceptions.
+This is the standard disclaimer for ASAM OpenX standards.
+Check if the corresponding disclaimer differs for other ASAM standards.
 
 *Example*
 
+[.underline]#Code#
 ```
 [IMPORTANT]
 

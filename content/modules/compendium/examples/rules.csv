@@ -86,7 +86,7 @@ ASM-87,AsciiDoc syntax for figures,<<sec-ASM-87>>,-,,draft
 ASM-88,AsciiDoc syntax for source code,<<sec-ASM-88>>,-,,draft
 ??ASM-89,XIL: List formatting conventions,-,-,,draft
 ASM-90,Fonts in figures,<<sec-ASM-90>>,-,,draft
-??ASM-91,XIL: Images,-,-,,draft
+ASM-91,Normative and informative content,<<sec-ASM-91>>,-,,draft
 ASM-92,Use one folder 'images' per chapter,<<sec-ASM-92>>,-,,draft
 ??ASM-94,XIL: Attribute 'plantuml-format',-,-,,draft
 ??ASM-95,Tables,-,-,,draft
@@ -105,7 +105,7 @@ ASM-92,Use one folder 'images' per chapter,<<sec-ASM-92>>,-,,draft
 ??ASM-108,VisualStudioCode with asciidoc extension,-,-,,draft
 ??ASM-109,AsciidocFX preview,-,-,,draft
 ??ASM-110,Gitlab preview,-,-,,draft
-??ASM-111,Pipeline artifacts as reference,-,-,,draft
+ASM-111,Modal verb 'must',<<sec-ASM-111>>,-,,draft
 ASM-112,Modal verb should,<<sec-ASM-112>>,-,,draft
 ASM-113,Modal verb may,<<sec-ASM-113>>,-,,draft
 ASM-114,Modal verb can,<<sec-ASM-114>>,-,,draft

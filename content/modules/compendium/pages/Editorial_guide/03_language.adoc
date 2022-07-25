@@ -18,11 +18,11 @@ This section contains editorial rules on content and language:
 * <<#sec-ASM-65>>
 * <<#sec-ASM-122>>
 * <<#sec-ASM-66>>
-* <<#sec-ASM-21>>
 * <<#sec-ASM-60>>
 * <<#sec-ASM-112>>
 * <<#sec-ASM-113>>
 * <<#sec-ASM-114>>
+* <<#sec-ASM-111>>
 * <<#sec-ASM-68>>
 * <<#sec-ASM-115>>
 * <<#sec-ASM-69>>
@@ -74,7 +74,7 @@ https://code.asam.net/simulation/opendrive-group/opendrive-standard/-/jobs/20219
 
 *Source*
 
-ASAM specific rule
+ASAM specific rule.
 
 
 [#sec-ASM-62]
@@ -370,99 +370,11 @@ Press the key again.
 ASAM Writing Guide: Do not use synonyms
 
 
-[#sec-ASM-21]
-== Include verbal forms for expressions of provisions (ASM-21)
-
-Use and update the following table of verbal forms for expressions of provisions in a standard document.
-
-*Exceptions*
-
-There are no exceptions.
-
-*Example*
-
-[.underline]#Code#
-
-```
-[#tab-uid]
-.Meaning of modal verbs
-[%header]
-.Verbal forms for expressions of provisions
-[%header, cols="20, 15, 65"]
-|===
-|Provision
-|Verbal form
-|Definition
-
-|Requirement
-|shall, shall not
-|A requirement conveys objectively verifiable criteria to be fulfilled and from which no deviation is permitted if conformance with the document is to be claimed.
-
-|Recommendation
-|should, should not
-|A recommendation conveys a suggested possible choice or course of action deemed to be particularly suitable without necessarily mentioning or excluding others.
-
-|Permission
-|may
-|A permission conveys consent or liberty (or opportunity) to do something.
-
-|Possibility and capability
-|can, cannot
-|A possibility conveys expected or conceivable material, physical or causal outcome. +
-A capability conveys the ability, fitness, or quality necessary to do or achieve a specified thing.
-
-|External constraint
-|must
-|An external constraint or obligation on the user of the document, for example laws of nature or particular conditions existing in some countries or regions, that is not stated as a provision of the document.
-External constraints are not requirements of the document.
-They are given for the information of the user.
-|===
-```
-
-[.underline]#Result#
-
-[#tab-2c6c7726-0a24-493c-a645-9c38d4d2504d]
-.Meaning of modal verbs
-[%header]
-.Verbal forms for expressions of provisions
-[%header, cols="20, 15, 65"]
-|===
-|Provision
-|Verbal form
-|Definition
-
-|Requirement
-|shall, shall not
-|A requirement conveys objectively verifiable criteria to be fulfilled and from which no deviation is permitted if conformance with the document is to be claimed.
-
-|Recommendation
-|should, should not
-|A recommendation conveys a suggested possible choice or course of action deemed to be particularly suitable without necessarily mentioning or excluding others.
-
-|Permission
-|may
-|A permission conveys consent or liberty (or opportunity) to do something.
-
-|Possibility and capability
-|can, cannot
-|A possibility conveys expected or conceivable material, physical or causal outcome. +
-A capability conveys the ability, fitness, or quality necessary to do or achieve a specified thing.
-
-|External constraint
-|must
-|An external constraint or obligation on the user of the document, for example laws of nature or particular conditions existing in some countries or regions, that is not stated as a provision of the document.
-External constraints are not requirements of the document.
-They are given for the information of the user.
-|===
-
-
-*Source*
-
-ASAM Writing Guide: Verbs with a special meaning (shall, should, may, can)
-
-
 [#sec-ASM-60]
 == Use the modal verb _shall (not)_ to express a requirement (ASM-60)
+
+Requirements shall be followed strictly in order to conform to the standard.
+Deviations are not allowed.
 
 *Exceptions*
 
@@ -474,9 +386,9 @@ There are no exceptions.
 .Use of modal verb _shall_
 [%header]
 |===
-|No                                         |#Yes#
-|[.line-through]#"it must have"#            |it shall have
-|[.line-through]#"it is not allowed to do"# |it shall not do
+|No                                       |#Yes#
+|[.line-through]#it must have#            |it shall have
+|[.line-through]#it is not allowed to do# |it shall not do
 |===
 
 *Source*
@@ -486,6 +398,8 @@ ASAM Writing Guide: Verbs with a special meaning (shall, should, may, can)
 
 [#sec-ASM-112]
 == Use the modal verb _should (not)_ to express a recommendation (ASM-112)
+
+Recommendations indicate that one possibility out of the several available is particularly suitable, without mentioning or excluding the other possibilities.
 
 *Exceptions*
 
@@ -507,7 +421,9 @@ ASAM Writing Guide: Verbs with a special meaning (shall, should, may, can)
 
 
 [#sec-ASM-113]
-== Use the modal verb _may_ to express a permission (ASM-113)
+== Use the modal verb _may_ or _need not_ to express a permission (ASM-113)
+
+Permissions indicate a course of action permissible within the limits of the standards deliverables.
 
 Do not use _may not_ because the meaning does not match in the context of a permission.
 
@@ -521,9 +437,10 @@ There are no exceptions.
 .Use of modal verb _may_
 [%header]
 |===
-|No                                     |#Yes#
-|[.line-through]#it is allowed to have# |it may have
-|[.line-through]#it may not have#       |it shall not have
+|No                                         |#Yes#
+|[.line-through]#it is allowed to have#     |it may have
+|[.line-through]#it is allowed not to have# |it needs not to have
+|[.line-through]#it may not have#           |it shall not have
 |===
 
 *Source*
@@ -532,7 +449,9 @@ ASAM Writing Guide: Verbs with a special meaning (shall, should, may, can)
 
 
 [#sec-ASM-114]
-== Use the modal verb _can(not)_ to express a possibility (ASM-114)
+== Use the modal verb _can_ or _cannot_ to express a possibility (ASM-114)
+
+The verbal forms _can_ or _cannot_ are used to state possibilities or capabilities, whether technical, material, physical, etc.
 
 *Exceptions*
 
@@ -551,6 +470,30 @@ There are no exceptions.
 *Source*
 
 ASAM Writing Guide: Verbs with a special meaning (shall, should, may, can)
+
+
+[#sec-ASM-111]
+== Use the modal verb _must (not)_ to express obligations and necessities (ASM-111)
+
+The verbal forms _must_ or _must not_ are used to describe legal, organizational, or technical obligations and necessities that are not regulated or enforced by the {THIS_STANDARD} standard.
+
+*Exceptions*
+
+There are no exceptions.
+
+*Example*
+
+[#tab-7acdc7a2-cf58-4d99-9045-7005d3a4aa84]
+.Use of modal verb _must_
+[%header]
+|===
+|No                                            |#Yes#
+|[.line-through]#legal circumstances force it# |it must
+|===
+
+*Source*
+
+ASAM specific rule.
 
 
 [#sec-ASM-68]
