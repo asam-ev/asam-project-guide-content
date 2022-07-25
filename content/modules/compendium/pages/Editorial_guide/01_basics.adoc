@@ -398,23 +398,39 @@ ASAM Writing Guide: Tags
 
 
 [#sec-ASM-15]
-== Use short style for cross references (ASM-15)
+== Use full style for cross references (ASM-15)
 
-Cross references use the short style which contains of the fixed text "Sect. " and the chapter number of the target.
+Cross references use the `full` style which contains of the fixed text "Section", the section number and the title of the target.
+The syntax for rendering links is implemented in the ASAM Style Resources repository in the file _preamble.adoc_.
 
 *Exceptions*
 
-There are no exceptions.
+Use the `basic` style for cross references if you cite the titles of figures or tables.
+
+```
+xref:fig-78b8916a-3eda-4d57-93a6-9dce838bf846[xrefstyle=basic]
+```
 
 *Example*
 
+[.underline]#Code#
+```
+Statements expressed as requirements, permissions, or prohibitions according to the use of modal verbs, as defined in xref:sec-ASM-21, are normative.
+```
+
+[.underline]#Result#
+
+Statements expressed as requirements, permissions, or prohibitions according to the use of modal verbs, as defined in Section 2.8 Include verbal forms for expressions of provisions (ASM-21), are normative.
+
+
 [#tab-fd9957af-2f23-41ef-bc8a-3a08ad5f93fd]
-.Use of short style for cross references.
+.Use of styles for cross references.
 [%header]
 |===
-|No                                   |#Yes#
-|[.line-through]#``:xrefstyle: full``#            |``:xrefstyle: short``
-|[.line-through]#Sect. 2, “Normative references”#            |Sect. 2
+|No                                                                                         |#Yes#
+|[.line-through]#```\<<top-df12642b-bced-4c6d-958f-4e353ea9d477, Normative references>>```# |```xref:sec-ASM-21```
+|[.line-through]#```\xref:sec-ASM-21[xrefstyle=short]```#                                   |```xref:sec-ASM-21```
+|[.line-through]#```xref:fig-78b8916a-3eda-4d57-93a6-9dce838bf846```#                       |```\xref:fig-78b8916a-3eda-4d57-93a6-9dce838bf846[xrefstyle=basic]```
 |===
 
 *Source*
