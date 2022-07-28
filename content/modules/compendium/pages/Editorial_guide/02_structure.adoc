@@ -399,82 +399,49 @@ There are no exceptions.
 [.underline]#Code#
 
 ```
+[#sec-modal-verbs]
 === Modal verbs
 
-To ensure compliance with the {THIS_STANDARD} standard, users need to be able to distinguish between mandatory requirements, recommendations, permissions, as well as possibilities and capabilities.
-
-The following rules for using modal verbs apply:
+To ensure compliance with the {THIS_STANDARD} standard, users need to be able to distinguish between requirements, recommendations, permissions, possibilities and capabilities, and external constraints.
 
 [#tab-modal-verbs]
-.Rules for using modal verbs
-[%header, cols=2*]
+.Verbal forms for expressions of provisions
+[%header, cols="20, 15, 65"]
 |===
-|Provision |Verbal form
-|*Requirements* +
-Requirements shall be followed strictly in order to conform to the standard. Deviations are not allowed.
-|shall +
-shall not
-
-|*Recommendations* +
-Recommendations indicate that one possibility out of the several available is particularly suitable, without mentioning or excluding the other possibilities.
-|should +
-should not
-
-|*Permissions* +
-Permissions indicate a course of action permissible within the limits of {THIS_STANDARD} deliverables.
-|may +
-need not
-
-|*Possibilities and capabilities* +
-Verbal forms used to state possibilities or capabilities, whether technical, material, physical, etc.
-|can +
-cannot
-
-|*Obligations and necessities* +
-Verbal forms used to describe legal, organizational, or technical obligations and necessities that are not regulated or enforced by the {THIS_STANDARD} standard.
-|must +
-must not
+|Provision                  |Verbal form        |Definition
+|Requirement                |shall, shall not   |A requirement conveys objectively verifiable criteria to be fulfilled and from which no deviation is permitted if conformance with the document is to be claimed.
+|Recommendation             |should, should not |A recommendation conveys a suggested possible choice or course of action deemed to be particularly suitable without necessarily mentioning or excluding others.
+|Permission                 |may                |A permission conveys consent or liberty (or opportunity) to do something.
+|Possibility and capability |can, cannot        |A possibility conveys expected or conceivable material, physical or causal outcome. +
+                                                 A capability conveys the ability, fitness, or quality necessary to do or achieve a specified thing.
+|External constraint        |must               |An external constraint or obligation on the user of the document, for example laws of nature or particular conditions existing in some countries or regions, that is not stated as a provision of the document.
+                                                 External constraints are not requirements of the document.
+                                                 They are given for the information of the user.
 |===
 ```
 
 [.underline]#Result#
 
-[#tab-2c6c7726-0a24-493c-a645-9c38d4d2504d]
+[#sec-modal-verbs]
 === Modal verbs
 
-To ensure compliance with the {THIS_STANDARD} standard, users need to be able to distinguish between mandatory requirements, recommendations, permissions, as well as possibilities and capabilities.
+To ensure compliance with the {THIS_STANDARD} standard, users need to be able to distinguish between requirements, recommendations, permissions, possibilities and capabilities, and external constraints.
 
 The following rules for using modal verbs apply:
 
 [#tab-modal-verbs]
-.Rules for using modal verbs
-[%header, cols=2*]
+.Verbal forms for expressions of provisions
+[%header, cols="20, 15, 65"]
 |===
-|Provision |Verbal form
-|*Requirements* +
-Requirements shall be followed strictly in order to conform to the standard. Deviations are not allowed.
-|shall +
-shall not
-
-|*Recommendations* +
-Recommendations indicate that one possibility out of the several available is particularly suitable, without mentioning or excluding the other possibilities.
-|should +
-should not
-
-|*Permissions* +
-Permissions indicate a course of action permissible within the limits of {THIS_STANDARD} deliverables.
-|may +
-need not
-
-|*Possibilities and capabilities* +
-Verbal forms used to state possibilities or capabilities, whether technical, material, physical, etc.
-|can +
-cannot
-
-|*Obligations and necessities* +
-Verbal forms used to describe legal, organizational, or technical obligations and necessities that are not regulated or enforced by the {THIS_STANDARD} standard.
-|must +
-must not
+|Provision                  |Verbal form        |Definition
+|Requirement                |shall, shall not   |A requirement conveys objectively verifiable criteria to be fulfilled and from which no deviation is permitted if conformance with the document is to be claimed.
+|Recommendation             |should, should not |A recommendation conveys a suggested possible choice or course of action deemed to be particularly suitable without necessarily mentioning or excluding others.
+|Permission                 |may                |A permission conveys consent or liberty (or opportunity) to do something.
+|Possibility and capability |can, cannot        |A possibility conveys expected or conceivable material, physical or causal outcome. +
+                                                 A capability conveys the ability, fitness, or quality necessary to do or achieve a specified thing.
+|External constraint        |must               |An external constraint or obligation on the user of the document, for example laws of nature or particular conditions existing in some countries or regions, that is not stated as a provision of the document.
+                                                 External constraints are not requirements of the document.
+                                                 They are given for the information of the user.
 |===
 
 
