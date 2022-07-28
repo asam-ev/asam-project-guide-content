@@ -45,7 +45,7 @@ Leading of project members, project meetings and project workgroups:::
 ** See also xref:compendium:Guidelines/coordination-meeting_moderation.adoc[meeting moderation best practices]
 Possible introduction of (temporary) roles:::
 * Project Lead Assistant
-* Workgroup Lead
+* Subgroup Lead
 * Meeting Moderator
 
 

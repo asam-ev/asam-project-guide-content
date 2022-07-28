@@ -8,7 +8,7 @@ include::compendium:partial$_attributes.adoc[]
 
 //tag::compendium[]
 {role-project-participant}
-{role-wg-lead}
+{role-sg-lead}
 {role-project-lead}
 {role-technical-writer}
 {role-gtm}

@@ -1,4 +1,4 @@
-= Become Workgroup Lead
+= Become Subgroup Lead
 :description: Describes how to become a lead of a workgroup and where to find more information.
 :keywords: workgroup-lead
 

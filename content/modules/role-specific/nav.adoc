@@ -1,7 +1,7 @@
 include::../ROOT/partials/_attributes.adoc[]
 * {role-specific-nav-icon}
 ** xref:project-participant.adoc[]
-** xref:wg-lead.adoc[]
+** xref:sg-lead.adoc[]
 ** xref:project-lead.adoc[]
 ** xref:technical-writer.adoc[]
 ** xref:service-provider.adoc[]

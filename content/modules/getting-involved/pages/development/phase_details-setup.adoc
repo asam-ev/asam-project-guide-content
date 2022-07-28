@@ -61,7 +61,7 @@ After the Service Provider or Providers have been chosen, they receive an onboar
 // |===
 // .3+|image:compendium:asam/development_phase-kick-off.svg[]
 // >h|Purpose
-// |To define all project-specific definitions and elect a Project Lead as well as all WG Leads.
+// |To define all project-specific definitions and elect a Project Lead as well as all SG Leads.
 
 // >h|Responsible
 // |{role-gtm}
@@ -69,7 +69,7 @@ After the Service Provider or Providers have been chosen, they receive an onboar
 // >h|Involved
 // |{role-project-participant} +
 // -> {role-project-lead} +
-// -> {role-wg-lead}
+// -> {role-sg-lead}
 
 // |===
 
@@ -134,7 +134,7 @@ After the Service Provider or Providers have been chosen, they receive an onboar
 
 // >h|Responsible
 // |{role-project-lead},
-// {role-wg-lead},
+// {role-sg-lead},
 // {role-ccb}
 
 // >h|Involved
@@ -155,7 +155,7 @@ After the Service Provider or Providers have been chosen, they receive an onboar
 // * Update timeline in README in repository
 // * Set up or update CI pipeline, if necessary
 
-// After having assigned the correct roles, the Project Lead may delegate specific tasks to the WG Leads and/or the appointed CCB members. +
+// After having assigned the correct roles, the Project Lead may delegate specific tasks to the SG Leads and/or the appointed CCB members. +
 // For more information on this step, see the xref:compendium:Guidelines/workflow-trunk.adoc#_initial_setup[Initial Step] of the Trunk-based workflow in the Compendium.
 
 // ---

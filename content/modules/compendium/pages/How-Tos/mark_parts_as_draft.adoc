@@ -13,7 +13,7 @@ This allows to have both a draft document and a reviewed document from the same 
 
 To convert content to reviewed (i.e. non draft) content, the encapsulating `ifdef` statement simply needs to be removed (everything that is not in the square brackets).
 
-IMPORTANT: These flags SHOULD only be modified by WG Leads, the CCB or the ASAM office.
+IMPORTANT: These flags SHOULD only be modified by SG Leads, the CCB or the ASAM office.
 
 == Result
 

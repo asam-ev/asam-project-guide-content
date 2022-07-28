@@ -1,6 +1,6 @@
-= Become Working Group Lead
+= Become Subgroup Lead
 :description: Describes the steps to becoming the Project Lead of a project after having handed in the candidacy.
-:keywords: wg-lead
+:keywords: sg-lead
 
 include::compendium:partial$_attributes.adoc[]
 
@@ -14,7 +14,7 @@ include::compendium:partial$_attributes.adoc[]
 [cols="1,5"]
 |===
 h|Target Role
-|{role-wg-lead}
+|{role-sg-lead}
 
 h|Eligible
 |{role-project-participant}
@@ -29,11 +29,11 @@ h|When
 | xref:getting-involved:proposal_phase.adoc#_process_overview[Proposal phase]
 
 h|Summary
-| A coordinator and leader for a working group in a project.
+| A coordinator and leader for a subgroup in a project.
 
 h|Tasks
-a| * Coordinating working group activities
-* Prioritizing working group topics
+a| * Coordinating subgroup activities
+* Prioritizing subgroup topics
 * Synchronization with Project Lead
 
 |===
@@ -42,7 +42,7 @@ a| * Coordinating working group activities
 TODO
 
 == Responsibilities
-The Workgroup Lead is responsible for
+The Subgroup Lead is responsible for
 
 *
 
@@ -50,7 +50,7 @@ The Workgroup Lead is responsible for
 TODO
 
 == When
-Typically, a Workgroup Lead is selected during the Kickoff Workshop in the xref:getting-involved:development_phase.adoc[Standard Development Phase].
+Typically, a Subgroup Lead is selected during the Kickoff Workshop in the xref:getting-involved:development_phase.adoc[Standard Development Phase].
 
 == How
 TODO
@@ -58,7 +58,7 @@ TODO
 == Frequently Asked Questions
 TODO
 
-See also: xref:role-specific:wg-lead.adoc[].
+See also: xref:role-specific:sg-lead.adoc[].
 //end::body[]
 
 

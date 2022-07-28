@@ -13,7 +13,8 @@ include::compendium:partial$_attributes.adoc[]
 [cols="1h,3"]
 |===
 |Purpose
-a| Develop supplementary products supporting the application of ASAM standards
+// a| Develop supplementary products supporting the application of ASAM standards
+a| Create a new project proposal for complex topics
 
 |Funding Limit
 | 75%

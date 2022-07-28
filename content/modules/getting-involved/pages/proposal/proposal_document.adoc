@@ -60,7 +60,7 @@ The proposal must define the deliverables it intends to hand over to ASAM at the
 include::compendium:page$Guidelines/deliverables.adoc[leveloffset=+1, tag=body]
 
 == Project structure
-The proposal must specify the expected working groups and their designated leads. +
+The proposal must specify the expected subgroups and their designated leads. +
 The proposal must also define the expected roles (see xref:role-specific:main.adoc[] for typical role specifications) in the project.
 
 == Additional project funding

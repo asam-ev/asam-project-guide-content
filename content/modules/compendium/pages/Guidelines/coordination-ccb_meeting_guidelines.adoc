@@ -24,5 +24,5 @@ xref:compendium:Guidelines/coordination-meeting_logistics.adoc[Logistics]
 - Voting: Moderator
 - Apply the xref:compendium:Guidelines/coordination-general_meeting_guidelines.adoc[].
 
-TODO: Unify with wg-lead-meeting-guidelines
+TODO: Unify with sg-lead-meeting-guidelines
 //end::body[]

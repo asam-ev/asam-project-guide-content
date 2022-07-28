@@ -53,8 +53,8 @@ NOTE: ASAM strongly recommends an onsite workshop for the Kick-off.
 * The agenda covers the following targets:
 ** Project working model
 ** Elect Project Lead
-** Define Work Groups
-** Elect Work Group Leads
+** Define Subgroups
+** Elect Subgroup Leads
 ** Assign project members to work groups
 
 

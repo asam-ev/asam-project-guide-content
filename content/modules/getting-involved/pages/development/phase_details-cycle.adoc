@@ -61,10 +61,10 @@ Additionally, a project may request additional time if the project's content tur
 
 // >h|Responsible
 // |{role-project-lead} + {role-ccb}; +
-// {role-wg-lead}
+// {role-sg-lead}
 
 // >h|Involved
-// |{role-wg-lead}; +
+// |{role-sg-lead}; +
 // {role-project-participant}, {role-service-provider}, {role-technical-writer}
 
 // |===
@@ -72,8 +72,8 @@ Additionally, a project may request additional time if the project's content tur
 // NOTE: This is a multi-step task.
 
 // The Project Lead, together with the CCB, specifies the high level goals for the project's next development cycle.
-// They then present and discuss the created milestone with the WG Leads. +
-// After the overall goals have been specified and communicated, the WG Leads specify the detailed goals for the respective involved Working Groups.
+// They then present and discuss the created milestone with the SG Leads. +
+// After the overall goals have been specified and communicated, the SG Leads specify the detailed goals for the respective involved Subgroups.
 // They then present and discuss both the global and the detailed goals of the milestone with the WG members, the involved Service Providers, and the Technical Writers.
 
 // See xref:development/cycle_planning.adoc[].
@@ -94,20 +94,20 @@ Additionally, a project may request additional time if the project's content tur
 
 // >h|Involved
 // |{role-project-lead},
-// {role-wg-lead}
+// {role-sg-lead}
 
 // |===
 
 // NOTE: This is a multi-step task.
 
 // During the development cycle, each work group individually works on their respective topics (if any).
-// Each work group will also meet regularly in its Work Group Meetings. +
+// Each work group will also meet regularly in its Subgroup Meetings. +
 // Note that each work group may define the intervals and modalities of their meetings for themselves.
 
-// To coordinate activities between different Work Groups, ASAM recommends that all WG Leads meet regularly during each cycle.
-// Each project may define their own intervals for WG Lead meetings. +
+// To coordinate activities between different Subgroups, ASAM recommends that all SG Leads meet regularly during each cycle.
+// Each project may define their own intervals for SG Lead meetings. +
 // In addition to that, the CCB may meet regularly or triggered by specific events to review and merge urgent topics as well as discuss other project-related topics.
-// Similarly to the Work Group Meetings, each project may define their own intervals for CCB meetings.
+// Similarly to the Subgroup Meetings, each project may define their own intervals for CCB meetings.
 
 // See xref:development/cycle_development.adoc[].
 
@@ -122,10 +122,10 @@ Additionally, a project may request additional time if the project's content tur
 
 // >h|Responsible
 // |{role-project-lead} + {role-ccb}; +
-// {role-wg-lead}
+// {role-sg-lead}
 
 // >h|Involved
-// |{role-wg-lead}; +
+// |{role-sg-lead}; +
 // {role-project-participant}, {role-service-provider}, {role-technical-writer}
 
 // |===

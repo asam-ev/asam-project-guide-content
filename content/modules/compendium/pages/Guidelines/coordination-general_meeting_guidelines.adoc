@@ -9,7 +9,7 @@ include::compendium:partial$_attributes.adoc[]
 
 //tag::body[]
 {role-project-lead}
-{role-wg-lead}
+{role-sg-lead}
 {role-gtm}
 {role-ccb}
 
@@ -19,7 +19,7 @@ It is intended for meetings during the xref:getting-involved:development_phase.a
 //tag::reduced[]
 == Meeting host
 IMPORTANT: Project meetings are set up by the ASAM office, even when they are not the meeting host.
-All other meetings within a project (such as Working Group meetings) have to be set up by the respective host.
+All other meetings within a project (such as Subgroup meetings) have to be set up by the respective host.
 
 Every meeting has a host.
 This is the person who calls the meeting. +
@@ -77,7 +77,7 @@ The agenda also has to be included in the <<Meeting notes,meeting notes>>.
 
 // NOTE: To find the list of people registered for your group, see the group's Mailing List.
 // // Its location is described in the xref:compendium:Guidelines/coordination-teams-channel_file-structure.adoc[Teams&Sharepoint Overview].
-// The full project Mailing List is maintained by ASAM, the group's Mailing List is maintained by the respective WG Lead.
+// The full project Mailing List is maintained by ASAM, the group's Mailing List is maintained by the respective SG Lead.
 
 NOTE: The list of project participants can be found in the xref:contributing:teams_and_sharepoint.adoc#_participants_list[project's participant list].
 This list also contains information on the group or groups each participant is part of.

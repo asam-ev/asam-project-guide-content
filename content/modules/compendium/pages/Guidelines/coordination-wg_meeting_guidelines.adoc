@@ -1,7 +1,7 @@
-= Work Group meeting guidelines
+= Subgroup meeting guidelines
 :description: TODO
 :keywords: meeting, guideline
-:navtitle: [Coordination] Work Group Meeting Guidelines
+:navtitle: [Coordination] Subgroup Meeting Guidelines
 
 include::compendium:partial$_attributes.adoc[]
 
@@ -9,7 +9,7 @@ include::compendium:partial$_attributes.adoc[]
 
 //tag::body[]
 
-{role-wg-lead}
+{role-sg-lead}
 
 participates: {role-project-participant}
 
@@ -17,8 +17,8 @@ TODO
 
 NOTES:
 
-- Moderation: WG Lead
-- Participation: WG Members, involved SP + TW
+- Moderation: SG Lead
+- Participation: SG Members, involved SP + TW
 - Minutes: Moderator (or delegate)
 - Logistics: Moderator (or delegate)
 - Frequency/cadence: group decides

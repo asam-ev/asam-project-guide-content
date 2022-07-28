@@ -33,7 +33,7 @@ When a project's deliverables are reviewed, ASAM members who were not involved i
 a|An *ASAM member active in an ASAM project*. +
 Each project consists of *multiple* __Project Participants__ who *directly contribute* to the project's development.
 Most participants typically enroll during the xref:getting-involved:proposal_phase.adoc[], but it also possible to already participate during the xref:getting-involved:ideation_phase.adoc[]. +
-Typically, __Project Participants__ work in one or more so-called *Working Groups*, each focussing on a specific aspect of the project.
+Typically, __Project Participants__ work in one or more so-called *Subgroups*, each focussing on a specific aspect of the project.
 
 |(4)
 |xref:role-specific:project-lead.adoc[image:role-specific:roles_overview-project_lead.svg[]]
@@ -43,10 +43,10 @@ The __Project Lead__ is elected at the beginning of the xref:getting-involved:de
 Any __Project Participant__ can send in their xref:getting-involved:proposal/submit_candidacy.adoc[candidacy] during the xref:getting-involved:proposal_phase.adoc[].
 
 |(5)
-|xref:role-specific:wg-lead.adoc[image:role-specific:roles_overview-wg_lead.svg[]]
-a|A __Project Participant__ *leading* the activities of a *Working Group*. +
-Many projects divide up their activities into so-called Working Groups which focus on specific aspects of a project.
-Each of these groups may be led by a __Working Group Lead__.
+|xref:role-specific:sg-lead.adoc[image:role-specific:roles_overview-wg_lead.svg[]]
+a|A __Project Participant__ *leading* the activities of a *Subgroup*. +
+Many projects divide up their activities into so-called Subgroups which focus on specific aspects of a project.
+Each of these groups may be led by a __Subgroup Lead__.
 
 3+<s|[.underline]#Supporting roles#
 |(6)

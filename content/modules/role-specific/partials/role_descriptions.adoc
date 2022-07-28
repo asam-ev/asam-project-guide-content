@@ -3,7 +3,7 @@
 
 :project-member-description: An xref:role-specific:standard_user.adoc[ASAM User] who is involved directly in the development of an ASAM standard. \
 Every project needs project members from at least three (3) different companies. \
-See also xref:role-specific:project-participant.adoc[Workgroup Member]
+See also xref:role-specific:project-participant.adoc[Subgroup Member]
 
 :project-lead-description: The person responsible for leading and coordinating all project activities. \
 Without an elected Project Lead, the project may not start. \
@@ -12,7 +12,7 @@ The project members must elect a Project Lead at the beginning of the project.
 :project-participant-description: A project member working in a particular workgroup, a subdivision of the overall project. \
 If the project is split up into smaller work groups, a project member can join a workgroup to become a workgroup member.
 
-:wg-lead-description: If the project is split up into smaller work groups, a project member can be elected to be the workgroup lead and will support the xref:role-specific:project-lead.adoc[Project Lead]. \
+:sg-lead-description: If the project is split up into smaller work groups, a project member can be elected to be the workgroup lead and will support the xref:role-specific:project-lead.adoc[Project Lead]. \
 Each workgroup should have zero or one workgroup lead.
 
 :service-provider-description: Provides additional services necessary for the standard development. \

@@ -1,13 +1,13 @@
-= Workgroup Lead
+= Subgroup Lead
 :description: Summary and landing page for workgroup leads.
 :keywords: role, role-landing-page
 
 include::partial$_attributes.adoc[]
 
-{wg-lead-description}
+{sg-lead-description}
 
 [horizontal,role=right]
-Label:: {role-wg-lead}
+Label:: {role-sg-lead}
 
 == Description
 * TODO
@@ -23,4 +23,4 @@ TODO
 
 
 
-role_related::wg-lead[]
+role_related::sg-lead[]

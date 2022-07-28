@@ -18,7 +18,7 @@ Each project's contribution team is made up of Project Members.
 Project Participants can take on additional roles, such as:
 
 * **xref:role-specific:project-lead.adoc[]**
-* **xref:role-specific:wg-lead.adoc[]**
+* **xref:role-specific:sg-lead.adoc[]**
 * **xref:role-specific:ccb-member.adoc[]**
 
 Other external roles, such as xref:role-specific:gtm.adoc[] or xref:role-specific:service-provider.adoc[], may support during the current project phase.

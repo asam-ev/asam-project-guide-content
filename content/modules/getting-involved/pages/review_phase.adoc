@@ -11,7 +11,7 @@ Involved roles::
 {role-standard-user} --
 {role-member} --
 {role-project-participant} --
-{role-wg-lead} --
+{role-sg-lead} --
 {role-project-lead} --
 {role-gtm}
 

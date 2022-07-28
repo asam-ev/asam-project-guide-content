@@ -14,7 +14,7 @@ include::compendium:partial$_attributes.adoc[]
 {role-gtm}
 {role-project-lead}
 {role-project-participant}
-{role-wg-lead}
+{role-sg-lead}
 {role-technical-writer}
 {role-service-provider}
 //end::compendium[]
@@ -79,7 +79,7 @@ Initial setup::
 +
 --
 [horizontal]
-Who:: {role-wg-lead}
+Who:: {role-sg-lead}
 Steps::
 . Create issues that map to the features in the project list
 // * Apply the xref:compendium:Guidelines/repo-issue_naming_conventions.adoc[]
@@ -102,8 +102,8 @@ Steps::
 . Coordinate and drive the preparation of a proposal for addressing the issue.
 Do this either directly via comments or in further meetings, adding the results to the comments later.
 . If the analysis shows the issue is a duplicate to another issue in the same project:
-.. Assign the label {isStatusDuplicate-label} and assign the {role-wg-lead}
-.. The WG Lead reviews the issue and either closes it (if it is a duplicate) or changes the status back to {requiresClarification-label} and the assignee back to the original issue assignee
+.. Assign the label {isStatusDuplicate-label} and assign the {role-sg-lead}
+.. The SG Lead reviews the issue and either closes it (if it is a duplicate) or changes the status back to {requiresClarification-label} and the assignee back to the original issue assignee
 Tips::
 * If analysis shows an issue to contain too many steps, create sub-issues to split the topic up further for faster content implementation
 --
@@ -119,7 +119,7 @@ Steps::
 . Change the issue status label to {requiresConceptualWork-label} to indicate that a proposal is being implemented for this issue
 . Begin submitting work via commits to the develop branch
 // . Begin submitting work via commits to the develop branch, adhering to the xref:compendium:Guidelines/repo-commit_conventions.adoc[**Commit Message Conventions**]
-. Review implementation progress of issue with {role-wg-lead} and the other {role-project-participant} in Work Group meetings
+. Review implementation progress of issue with {role-sg-lead} and the other {role-project-participant} in Subgroup meetings
 . Once the group agrees that the feature is complete:
 .. Change the issue status label to {requiresCCBReview-label}
 .. If changes were marked as draft, remove the encapsulating draft feature flag from the content (make sure that all other content remains within the draft flag) and commit the change.

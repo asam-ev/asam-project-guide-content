@@ -45,8 +45,8 @@ Service Providers can apply for one or more bundles, or they can limit their off
 . The project members write a call for offer.
 . Interested Service Providers apply for a presentation to present themselves and get more input on the tasks required from them
 . The group requests offers from interesting Service Providers
-. The Service Providers and the working group negotiate terms and conditions
-. The working group decides on a Service Provider
+. The Service Providers and the subgroup negotiate terms and conditions
+. The subgroup decides on a Service Provider
 . The contract is signed and an onboarding process is set up
 
 

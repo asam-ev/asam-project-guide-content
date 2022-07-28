@@ -12,14 +12,14 @@ h|Responsible
 h|Involved
 | {role-project-participant} +
 -> {role-project-lead} +
--> {role-wg-lead}
+-> {role-sg-lead}
 
 h| Step
 | image:compendium:asam/development_phase-kick-off.svg[]
 
 h|TL;DR
 a| * Define working model
-* Elect Project Lead and Work Group Leads
+* Elect Project Lead and Subgroup Leads
 * Assign participants to work groups
 * Add more details to project
 * Optional: Plan first development cycle

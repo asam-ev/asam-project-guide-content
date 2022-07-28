@@ -49,7 +49,7 @@ Click btn:[Forgot your password?] and follow the instructions.
 Ask the ASAM office to grant you the correct rights according to your role in the project.
 
 === I cannot access the "Common" group
-See <<no-access,I cannot access my project's repository>>.
+See "I cannot access my project's repository" above.
 
 //end::troubleshooting[]
 //end::body[]

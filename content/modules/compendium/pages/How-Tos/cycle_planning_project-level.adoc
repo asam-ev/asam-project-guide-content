@@ -16,7 +16,7 @@ h|Responsible
 |{role-project-lead}, {role-ccb}
 
 h|Involved
-| {role-wg-lead}
+| {role-sg-lead}
 
 ifdef::compendium[]
 h| Phase
@@ -39,7 +39,7 @@ a| * Create agenda
 
 == Context
 Each development cycle requires a set of high-level goals.
-These serves as the basis for each Work Group to then create a detail planning of their topics that relate to those high-level goals.
+These serves as the basis for each Subgroup to then create a detail planning of their topics that relate to those high-level goals.
 
 Typically, this planning step is done once at the beginning of each cycle.
 However, a project may also do this high-level planning less frequently, setting up high-level milestones for multiple cycles ahead of time instead.
@@ -50,12 +50,12 @@ However, a project may also do this high-level planning less frequently, setting
 * Give a rough estimate of required time per topic
 * Estimated time required and available manpower must overlap (realistic milestones)
 * The milestone shall contain reasonable progress for the project (ambitious milestones)
-* Ensure all WG Leads are on the same level as the CCB and the Project Lead
+* Ensure all SG Leads are on the same level as the CCB and the Project Lead
 
 
 == Results
 * The milestones have been created or updated
-* The WG Leads have all necessary project-level information to do their respective xref:compendium:How-Tos/cycle_planning_wg-level.adoc[WG-level Plannings]
+* The SG Leads have all necessary project-level information to do their respective xref:compendium:How-Tos/cycle_planning_wg-level.adoc[WG-level Plannings]
 
 
 == Prerequisites
@@ -66,7 +66,7 @@ The project has started and the repository has been set up.
 NOTE: The following is a suggestion by ASAM.
 Feel free to define your own guidelines and rules for these meetings if they work better with your group members.
 
-. Set up a meeting (follow the xref:compendium:Guidelines/coordination-general_meeting_guidelines.adoc[]) with the WG Leads and the CCB/the Project Lead
+. Set up a meeting (follow the xref:compendium:Guidelines/coordination-general_meeting_guidelines.adoc[]) with the SG Leads and the CCB/the Project Lead
 . Prepare an agenda for the meeting that covers
 * One high-level goal for the project
 * One or more second-level goals for the project, detailing aspects of the high-level goal

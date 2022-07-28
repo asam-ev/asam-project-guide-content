@@ -12,7 +12,7 @@ include::contributing:partial$_attributes.adoc[]
 
 {calendar-icon-page}
 
-{role-wg-lead}
+{role-sg-lead}
 {role-project-lead}
 
 == Context

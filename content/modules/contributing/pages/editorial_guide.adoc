@@ -4,4 +4,5 @@
 The ASAM editorial guide contains rules and guidelines for writing documents at ASAM.
 It covers all topics, from the basics, over structure and use of language, to specifics like figures and tables.
 
-To access the guide, click this xref:latest@asamprojectguide:compendium:Editorial_guide.adoc[link].
+The guide is currently still under development and will be shared and presented in full at a later point in time.
+It is mostly relevant for technical writers, however, so project activities prior to finalizing the document are not immediately impacted by its absence.

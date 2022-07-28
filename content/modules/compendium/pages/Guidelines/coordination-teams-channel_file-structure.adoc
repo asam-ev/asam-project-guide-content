@@ -13,12 +13,12 @@ include::compendium:partial$_attributes.adoc[]
 ----
 ├───General // this is where all administrative topics are stored
 │   ├───Project_report.docx // the latest project report
-│   └───Participant_list.xlsx // contains all enrolled project members with their contact details and their working group assignments
+│   └───Participant_list.xlsx // contains all enrolled project members with their contact details and their subgroup assignments
 │
-├───01_WorkingGroupName1 // each working group creates and manages their own directory as they see fit
-├───02_WorkingGroupName2
+├───01_SubgroupName1 // each subgroup creates and manages their own directory as they see fit
+├───02_SubgroupName2
 ...
-└───xx_WorkingGroupName<N>
+└───xx_SubgroupName<N>
 
 ----
 

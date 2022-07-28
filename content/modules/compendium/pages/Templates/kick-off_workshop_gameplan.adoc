@@ -15,7 +15,7 @@ h|Responsible
 h|Involved
 | {role-project-participant} +
 -> {role-project-lead} +
--> {role-wg-lead}
+-> {role-sg-lead}
 
 ifdef::compendium[]
 h| Phase
@@ -36,7 +36,7 @@ a| * Ensure the <<Prerequisites>> are met
 == Context
 //tag::context[]
 The first major event in the xref:getting-involved:development_phase.adoc#_process_overview[Development phase] is the Kick-off Workshop.
-Here, the project decides on its set of rules and guidelines, defines meeting intervals, elects the Project Lead and the Work Group Leads, and starts to add more detail to the project planning.
+Here, the project decides on its set of rules and guidelines, defines meeting intervals, elects the Project Lead and the Subgroup Leads, and starts to add more detail to the project planning.
 //end::context[]
 
 == Prerequisites
@@ -60,15 +60,15 @@ The goals of a Kick-off Workshop are:
 * If the project wants to deviate from the default development guidelines, it must provide a reason for doing so.
 This change has to be approved by ASAM first before it may be implemented.
 . Elect the Project Lead from the previously submitted candidates
-. Specify the (currently) relevant Work Groups
-* Work Groups may change over the course of a project.
+. Specify the (currently) relevant Subgroups
+* Subgroups may change over the course of a project.
 The workshop shall define the setup with which it wants to start into the development
-. Elect Work Group Leads
-* The WG Leads and the Project Lead shall define their WG Leads meetings interval
+. Elect Subgroup Leads
+* The SG Leads and the Project Lead shall define their SG Leads meetings interval
 . Define the Change Control Board (CCB) and its members
 * The CCB shall define their CCB meetings interval
 . Assign members to work groups
-* Each Work Group shall define their individual WG meetings intervals
+* Each Subgroup shall define their individual WG meetings intervals
 . Add detail to the project plan and milestones
 . Add detail to each work package
 . Schedule the first xref:getting-involved:development/cycle_planning.adoc[Cycle Planning Meeting]
