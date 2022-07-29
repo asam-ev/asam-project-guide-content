@@ -400,12 +400,13 @@ ASAM Writing Guide: Tags
 [#sec-ASM-15]
 == Use full style for cross references (ASM-15)
 
-Cross references use the `full` style which contains of the fixed text "Section", the section number and the title of the target.
-The syntax for rendering links is implemented in the ASAM Style Resources repository in the file _preamble.adoc_.
+Cross references use the xref `full` style.
+A cross reference consists of the text "Section", the section number follow by a comma, and the title of the target in quotation marks.
+The syntax for rendering links is implemented in the https://code.asam.net/common/style-resources[ASAM Style Resources repository] in the _preamble.adoc_ file.
 
 *Exceptions*
 
-Use the `basic` style for cross references if you cite the titles of figures or tables.
+Use the xref `basic` style for cross references if you add cross references on figures or tables.
 
 ```
 xref:fig-78b8916a-3eda-4d57-93a6-9dce838bf846[xrefstyle=basic]
@@ -420,7 +421,7 @@ Statements expressed as requirements, permissions, or prohibitions according to 
 
 [.underline]#Result#
 
-Statements expressed as requirements, permissions, or prohibitions according to the use of modal verbs, as defined in Section 2.8 Include verbal forms for expressions of provisions (ASM-21), are normative.
+Statements expressed as requirements, permissions, or prohibitions according to the use of modal verbs, as defined in Section 2.8, "Include verbal forms for expressions of provisions (ASM-21)", are normative.
 
 
 [#tab-fd9957af-2f23-41ef-bc8a-3a08ad5f93fd]
