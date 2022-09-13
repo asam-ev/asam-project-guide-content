@@ -58,9 +58,17 @@ The minute taker has the following responsibilities:
 
 
 == Meeting agenda
-The <<Meeting host,host>> of the meeting is responsible for providing a meeting agenda ahead of time.
-The agenda should be shared in the invite to the meeting.
+The <<Meeting host,host>> of the meeting is responsible for providing a meeting agenda ahead of time. +
+The agenda must be shared in the invite to the meeting.
 The agenda also has to be included in the <<Meeting notes,meeting notes>>.
+
+Each agenda must at least have the following contents:
+
+* https://www.asam.net/active-projects/resources/[Antitrust Reminder^]
+* votes on previous minutes
+* documentation of participants
+* voting template
+* agenda items
 
 
 == Whom to invite
@@ -94,6 +102,17 @@ This list also contains information on the group or groups each participant is p
 Meeting notes (minutes) are to be taken in the project's repository.
 The repository contains a template for meeting notes that shall be used.
 The designated <<Minute taker, minute taker>> is responsible for taking the notes.
+
+The notes must contain all important decisions (including cast votes).
+Additionally, the next scheduled meeting shall be listed here as well.
+
+
+== Best practices
+* Schedule regular meetings at least every 6-8 weeks
+* Send a reminder to all assignees with open topics with enough time ahead of the next meeting
+* Schedule remote meetings only for organizational issues
+* Present results, particularly substantial changes in sub-groups, to the whole project group regularly
+* If you want to give a presentation in a project meeting, upload your presentation in the meeting's "presentations" folder in your project's Sharepoint ahead of time
 
 //end::reduced[]
 
