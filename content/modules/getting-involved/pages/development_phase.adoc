@@ -64,7 +64,7 @@ Once the project is set up, the first development cycle can commence.
 At this point, the project has
 
 * an elected project lead
-* elected or selected subgroup leads that are responsible for certain focus points of the project's topics,
+* elected or selected sub-group leads that are responsible for certain focus points of the project's topics,
 * its own project repository (or repositories), complete with README, timeline, and pre-configured pipeline, where all members have been granted access to
 * a mailing list with all its members
 * a Microsoft Sharepoint structure
@@ -167,7 +167,7 @@ Make sure to follow the xref:contributing:meeting_guidelines.adoc[ASAM meeting g
 
 == Project-level meetings
 ASAM recommends to hold a project-level meeting at least once a quarter.
-A full project meeting is used to hold project level votes, align across subgroups and evaluate the overall status with respect to the project plan. +
+A full project meeting is used to hold project level votes, align across sub-groups and evaluate the overall status with respect to the project plan. +
 The group can decide to combine these with the Cycle Review meetings since most aspects of a project-level meeting coincides with those of a Cycle Review.
 However, if a Cycle takes longer than 3 months, ASAM recommends having a separate project-level meeting in between.
 
@@ -202,13 +202,13 @@ Check out the https://www.asam.net/active-projects/development-process/[Developm
 If you have additional questions, don't hesitate to contact your ASAM representative.
 
 == Escalation of topics
-=== From subgroup to group
+=== From sub-group to group
 Any changes to an underlying data model must be presented at the next <<Project-level meeting,project-level meeting>>.
-This is to ensure that work in other subgroups based on that model takes these changes into account as soon as possible.
+This is to ensure that work in other sub-groups based on that model takes these changes into account as soon as possible.
 
-It is up to a subgroup and its corresponding Lead to determine whether a change in a subgroup should be escalated for approval to a project level decision.
-The Project Lead may escalate subgroup decisions to a project level vote.
-A group defined by the project that is responsible for change management, such as the CCB, may escalate subgroup changes and decisions to a project level vote as well.
+It is up to a sub-group and its corresponding Lead to determine whether a change in a sub-group should be escalated for approval to a project level decision.
+The Project Lead may escalate sub-group decisions to a project level vote.
+A group defined by the project that is responsible for change management, such as the CCB, may escalate sub-group changes and decisions to a project level vote as well.
 
 === From group to TSC
 If a project cannot meet its milestones or budget, it must escalate its status report in the next CGSim controlling meeting.

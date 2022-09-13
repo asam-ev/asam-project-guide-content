@@ -26,9 +26,9 @@ h| Step
 | image:compendium:asam/proposal_phase_v2-proposal_setup.svg[]
 
 h|TL;DR
-a| * If completely new, create new subgroup with the proposed project name in https://code.asam.net/simulation[**Simulation**^] and add members
+a| * If completely new, create new sub-group with the proposed project name in https://code.asam.net/simulation[**Simulation**^] and add members
 * If not new, update the assigned members
-* Fork the https://code.asam.net/common/templates/proposal-template[**proposal template repository**^] into this proposal subgroup as "<project-name> Proposal"
+* Fork the https://code.asam.net/common/templates/proposal-template[**proposal template repository**^] into this proposal sub-group as "<project-name> Proposal"
 * Inform members
 |===
 //end::roles[]
@@ -45,15 +45,15 @@ A new Proposal repository has been created and the link been provided to all cur
 
 == How
 
-. In case of a new standard, https://docs.gitlab.com/ee/user/group/subgroups/#creating-a-subgroup[create a new subgroup^] in the group https://code.asam.net/simulation[**Simulation**^] with the target name of the standard (e.g. "OpenDRIVE").
+. In case of a new standard, https://docs.gitlab.com/ee/user/group/sub-groups/#creating-a-sub-group[create a new sub-group^] in the group https://code.asam.net/simulation[**Simulation**^] with the target name of the standard (e.g. "OpenDRIVE").
 +
-NOTE: If this is an evolution of an existing standard, use the existing subgroup instead
+NOTE: If this is an evolution of an existing standard, use the existing sub-group instead
 +
 .. xref:compendium:How-Tos/forking_repo.adoc[Fork] the latest version of the https://code.asam.net/common/templates/proposal-template[**proposal template repository**^].
 * The structure of the repository is explained in the included README
 .. Rename the forked project to `<THIS_STANDARD> Proposal`, where `<THIS_STANDARD>` is the target name of the standard.
 .. Follow the instructions in the https://code.asam.net/common/templates/proposal-template/-/blob/master/README.adoc[**template repository's README**^]
-. Add all current proposal members to the subgroup (the one directly in "Simulation").
+. Add all current proposal members to the sub-group (the one directly in "Simulation").
 . Send a mail with the link to the new project to the proposal members, informing them that the repository is now ready for use.
 
 //end::body[]

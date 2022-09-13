@@ -29,11 +29,11 @@ h|When
 | xref:getting-involved:proposal_phase.adoc#_process_overview[Proposal phase]
 
 h|Summary
-| A coordinator and leader for a subgroup in a project.
+| A coordinator and leader for a sub-group in a project.
 
 h|Tasks
-a| * Coordinating subgroup activities
-* Prioritizing subgroup topics
+a| * Coordinating sub-group activities
+* Prioritizing sub-group topics
 * Synchronization with Project Lead
 
 |===
