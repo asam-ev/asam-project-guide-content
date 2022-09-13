@@ -15,7 +15,7 @@ ASAM defines four types of standard development projects, depending on the expec
 * <<New standard development>>
 * <<Major version development>>
 * <<Minor version development>>
-* <<Revision development>>
+* <<Maintenance development>>
 
 They all have in common that the primary output of the project is a standard.
 The upper limit for subsidiary funding from ASAM is 25% of the total required project budget.

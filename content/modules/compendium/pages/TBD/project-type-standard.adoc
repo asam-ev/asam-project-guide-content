@@ -27,7 +27,7 @@ ASAM defines four types of standard development projects, depending on the expec
 * <<New standard>>
 * <<Major version update>>
 * <<Minor version update>>
-* <<Revision>>
+* <<Maintenance>>
 
 They all have in common that the primary output of the project is a standard.
 The upper limit for subsidiary funding from ASAM is 25% of the total required project budget.
@@ -191,9 +191,9 @@ The following process steps are not mandatory and are skipped by default, unless
 * C: Review Phase
 
 
-== Revision
+== Maintenance
 === Summary
-//tag::revision-summary[]
+//tag::maintenance-summary[]
 .Summary
 [cols="1h,3"]
 |===
@@ -226,17 +226,17 @@ Standard Development Process except:
 
 |===
 
-A revision version development project resolves technical issues of the standard, i.e. corrects errors, removes ambiguities, adds clarifications to existing descriptions, makes editorial improvements or changes examples.
+A maintenance version development project resolves technical issues of the standard, i.e. corrects errors, removes ambiguities, adds clarifications to existing descriptions, makes editorial improvements or changes examples.
 It is expected that the implementation of the new version will require low development or migration efforts by tool vendors and end users.
 Revisions cannot include new features.
-A new revision version of an ASAM standard is always backward-compatible.
-//end::revision-summary[]
+A new maintenance version of an ASAM standard is always backward-compatible.
+//end::maintenance-summary[]
 
 
 === Project type description
-Revision version developments of ASAM standards resolve technical issues with the currently released version of the standard.
+Maintenance version developments of ASAM standards resolve technical issues with the currently released version of the standard.
 
-Revision version development projects meet one or more of the following criteria:
+Maintenance version development projects meet one or more of the following criteria:
 
 * Correction of errors.
 * Removal of ambiguities.
@@ -249,19 +249,19 @@ It is expected that the implementation of the new version will require low devel
 Revisions cannot include new features.
 The only exception is, that a new feature has been forgotten in an earlier release of the standard and is absolutely required for a functional and meaningful standard.
 
-A new revision version of an ASAM standard shall be backward-compatible to its immediate predecessor version.
+A new maintenance version of an ASAM standard shall be backward-compatible to its immediate predecessor version.
 The only exception is, that the correction of an error or the removal of an ambiguity cannot be reasonably solved in any other way than breaking the backward-compatibility.
 
 An exception requires approval from the TSC and must be documented in the standard.
 
-Revision development projects may be converted to a minor or major version development project during the course of the project term, if backward-compatibility issues turn out to be too severe or new features need to be added.
+Maintenance development projects may be converted to a minor or major version development project during the course of the project term, if backward-compatibility issues turn out to be too severe or new features need to be added.
 The TSC has to approve this change of project type.
 
-Only those ASAM members, who were actively involved in development of the preceding major or minor version, can participate in the revision development project.
+Only those ASAM members, who were actively involved in development of the preceding major or minor version, can participate in the maintenance development project.
 
-Revision projects are limited to a life cycle of up to 18 months.
+Maintenance projects are limited to a life cycle of up to 18 months.
 
-Unlike other project types, the paid Service Provider for a revision project can be contracted without a public request for quotation.
+Unlike other project types, the paid Service Provider for a maintenance project can be contracted without a public request for quotation.
 
 The Service Provider is confirmed by the TSC and is appointed before the project starts.
 

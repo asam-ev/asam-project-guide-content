@@ -61,10 +61,10 @@ Minor version update::
 --
 include::compendium:page$TBD/project-type-standard.adoc[tag=minor-summary]
 --
-Revision::
+Maintenance::
 +
 --
-include::compendium:page$TBD/project-type-standard.adoc[tag=revision-summary]
+include::compendium:page$TBD/project-type-standard.adoc[tag=maintenance-summary]
 --
 ====
 
