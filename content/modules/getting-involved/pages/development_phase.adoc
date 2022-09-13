@@ -14,7 +14,7 @@ include::partial$_attributes.adoc[]
 // {role-service-provider} --
 // {role-technical-writer} --
 // {role-ccb} --
-// {role-gtm}
+// {role-or}
 
 // include::partial$project_phases.adoc[tag=development]
 // ====

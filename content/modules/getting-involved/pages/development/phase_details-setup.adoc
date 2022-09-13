@@ -16,7 +16,7 @@ image::compendium:asam/development_phase-setup.svg[title="The Development phase'
 At the beginning of the Development phase, the project team gets together for a Kick-off Workshop.
 // At the beginning of the Development phase, the project team gets together for a <<Kick-off Workshop>>.
 Here, the team decides on key topics of the project and also elects the Project Lead. +
-In parallel to that, the GTM sets up the repository and the mailing list for the project.
+In parallel to that, the OR sets up the repository and the mailing list for the project.
 After the workshop has happened, the repository is updated with the outcomes from it.
 
 If the project has requested budget for one or more Service Providers, a call for offer is issued, potential Service Providers present their offers, and the project decides on whom to contract.
@@ -44,7 +44,7 @@ After the Service Provider or Providers have been chosen, they receive an onboar
 // |To prepare the kick-off workshop for the Development phase.
 
 // >h|Responsible
-// |{role-gtm}
+// |{role-or}
 
 // >h|Involved
 // |{role-project-participant}
@@ -64,7 +64,7 @@ After the Service Provider or Providers have been chosen, they receive an onboar
 // |To define all project-specific definitions and elect a Project Lead as well as all SG Leads.
 
 // >h|Responsible
-// |{role-gtm}
+// |{role-or}
 
 // >h|Involved
 // |{role-project-participant} +
@@ -86,14 +86,14 @@ After the Service Provider or Providers have been chosen, they receive an onboar
 // |To set up the repository of the project so that the project members can start working on it.
 
 // >h|Responsible
-// |{role-gtm}
+// |{role-or}
 
 // >h|Involved
 // |{role-project-participant}
 
 // |===
 
-// In parallel to the workshop preparation and execution, the GTM sets up the project's repository.
+// In parallel to the workshop preparation and execution, the OR sets up the project's repository.
 // This is done using a template repository for new projects or using the previous one for version updates or revisions. +
 // See xref:development/project_setup.adoc[].
 
@@ -107,14 +107,14 @@ After the Service Provider or Providers have been chosen, they receive an onboar
 // |To prepare the project's mailing list.
 
 // >h|Responsible
-// |{role-gtm}
+// |{role-or}
 
 // >h|Involved
 // |{role-project-participant}
 
 // |===
 
-// The GTM takes the list of enrolled members, creates a new xref:compendium:Tools/teams_and_sharepoint.adoc[MS Teams] channel for the project (if it does not exist yet), creates a related Sharepoint folder, and adds all participants to that channel and folder.
+// The OR takes the list of enrolled members, creates a new xref:compendium:Tools/teams_and_sharepoint.adoc[MS Teams] channel for the project (if it does not exist yet), creates a related Sharepoint folder, and adds all participants to that channel and folder.
 // The Sharepoint must also contain a Participant_list.xlsx (containing all enrolled participants) and a template for the project reports for CGSim and TSC.
 // Check out the xref:compendium:Guidelines/coordination-teams-channel_file-structure.adoc[] for more information on the Sharepoint folder structure. +
 // The channel can then also be used as a mailing list.
@@ -138,14 +138,14 @@ After the Service Provider or Providers have been chosen, they receive an onboar
 // {role-ccb}
 
 // >h|Involved
-// |{role-gtm}
+// |{role-or}
 
 // |===
 
 // The Project Lead takes the output from the Kick-off Workshop and incorporates it into the previously setup repository.
 // In particular, they assign the correct roles and rights and update any descriptions or README related to users and roles. +
-// To do so, the GTM supports them by granting them the rights to maintain the repository.
-// Additionally, the GTM may support with technical problems and questions regarding the used remote repository platform.
+// To do so, the OR supports them by granting them the rights to maintain the repository.
+// Additionally, the OR may support with technical problems and questions regarding the used remote repository platform.
 
 // The following topics need to be updated:
 
@@ -172,7 +172,7 @@ After the Service Provider or Providers have been chosen, they receive an onboar
 // {role-project-participant}
 
 // >h|Involved
-// |{role-gtm},
+// |{role-or},
 // {role-service-provider}
 
 // |===

@@ -1,13 +1,13 @@
-=  ASAM Global Technology Manager
-:description: Summary and landing page for GTMs.
+=  ASAM Office Responsible
+:description: Summary and landing page for ORs.
 :keywords: role, role-landing-page
 
 include::partial$_attributes.adoc[]
 
-{gtm-description}
+{or-description}
 
 [horizontal,role=right]
-Label:: {role-gtm}
+Label:: {role-or}
 
 
 == Description
@@ -52,6 +52,6 @@ Monitoring processes and informing project lead::
 TODO
 
 === Proposal phase
-role_related::gtm[proposal]
+role_related::or[proposal]
 
-role_related::gtm[]
+role_related::or[]

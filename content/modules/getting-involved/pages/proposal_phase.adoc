@@ -9,7 +9,7 @@ include::partial$_attributes.adoc[]
 Involved roles::
 {role-idea-giver} --
 {role-project-participant} --
-{role-gtm} --
+{role-or} --
 {role-tsc-member} --
 {role-member}
 

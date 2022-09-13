@@ -9,7 +9,7 @@ include::compendium:partial$_attributes.adoc[]
 
 //tag::body[]
 {role-project-lead}
-{role-gtm}
+{role-or}
 
 == Meeting moderation best practices
 

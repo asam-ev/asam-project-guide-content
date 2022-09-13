@@ -19,7 +19,7 @@ h|Responsible
 |{role-standard-user}
 
 h|Involved
-| {role-gtm}
+| {role-or}
 
 ifdef::compendium[]
 h| Phase
@@ -54,7 +54,7 @@ You have signed up for updates and events around the idea.
 == How
 
 . Send an email to the address listed on the idea page
-. The ASAM Office (GTM) will send you a confirmation
+. The ASAM Office (OR) will send you a confirmation
 
 Also see https://www.asam.net/active-projects/ideation/how-it-works/[the ASAM website^] for more information.
 

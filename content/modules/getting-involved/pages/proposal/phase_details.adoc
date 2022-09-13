@@ -27,7 +27,7 @@ Repository setup::
 |To set up the proposal repository.
 
 >h|Responsible
-|{role-gtm}
+|{role-or}
 
 >h|Involved
 |{role-idea-giver}, {role-project-participant}
@@ -50,7 +50,7 @@ Draft creation::
 |{role-idea-giver}
 
 >h|Involved
-|{role-project-participant}, {role-gtm}
+|{role-project-participant}, {role-or}
 |===
 
 In advance of the Proposal Workshop, the executive summary and motivation in the proposal document must be filled out.
@@ -71,7 +71,7 @@ Enrollment process::
 |{role-member}
 
 >h|Involved
-|{role-gtm}
+|{role-or}
 |===
 
 xref:compendium:How-Tos/enroll_for_development.adoc[Enrollment] for the proposed project is opened by ASAM from the Proposal Workshop onwards.
@@ -100,7 +100,7 @@ Results of an optional concept project shall be included.
 * To determine the Proposal Submitter (must be "active" ASAM member)
 
 >h|Responsible
-|{role-gtm}, in collaboration with initiating member(s) ({role-idea-giver}).
+|{role-or}, in collaboration with initiating member(s) ({role-idea-giver}).
 
 >h|Involved
 |{role-member} and {role-standard-user}, particularly experts in related domains
@@ -126,7 +126,7 @@ Finalizing the Proposal::
 | {role-idea-giver}
 
 >h|Involved
-|{role-gtm}, {role-project-participant}
+|{role-or}, {role-project-participant}
 |===
 
 The Proposal Submitter finalizes the concept based on the output from the <<Proposal Workshop>> and prepares it for <<Submission>>. +
@@ -150,7 +150,7 @@ Submission::
 |
 
 >h|Involved
-|{role-gtm} plus at least two {role-project-participant}, [role-tsc-member]
+|{role-or} plus at least two {role-project-participant}, [role-tsc-member]
 |===
 
 The Proposal Submitter sends the Proposal document to the Office and declares this to be his official proposal submission. +
@@ -168,7 +168,7 @@ Publication::
 |To allow members and the TSC to read and review the project proposal, to clarify open questions and to allow members to enroll for participation in the upcoming project.
 
 >h|Responsible
-|{role-gtm}
+|{role-or}
 
 >h|Involved
 |{role-tsc-member}, {role-member}
@@ -199,7 +199,7 @@ TSC presentation::
 |{role-tsc-member}
 
 >h|Involved
-|, {role-gtm}
+|, {role-or}
 |===
 
 Submitted Project Proposals are put on the agenda of the next available TSC meeting.
@@ -233,13 +233,13 @@ Archiving::
 |To archive the Proposal before transitioning to the next phase.
 
 >h|Responsible
-|{role-gtm}
+|{role-or}
 
 >h|Involved
 |{role-project-participant}
 |===
 
-The Proposal is archived by the GTM if the project has been accepted or the Proposal has been rejected or dropped completely.
+The Proposal is archived by the OR if the project has been accepted or the Proposal has been rejected or dropped completely.
 
 TODO
 
@@ -271,7 +271,7 @@ The Proposal phase consists of the following steps, which are explained in detai
 // |To set up the proposal repository.
 
 // >h|Responsible
-// |{role-gtm}
+// |{role-or}
 
 // >h|Involved
 // |{role-idea-giver}, {role-project-participant}
@@ -294,7 +294,7 @@ See xref:proposal/setup.adoc[].
 // |{role-idea-giver}
 
 // >h|Involved
-// |{role-project-participant}, {role-gtm}
+// |{role-project-participant}, {role-or}
 // |===
 
 
@@ -321,7 +321,7 @@ See xref:proposal/proposal_writing.adoc[].
 // * To determine the Proposal Submitter (must be "active" ASAM member)
 
 // >h|Responsible
-// |{role-gtm}, in collaboration with initiating member(s) ({role-idea-giver}).
+// |{role-or}, in collaboration with initiating member(s) ({role-idea-giver}).
 
 // >h|Involved
 // |{role-member} and {role-standard-user}, particularly technical domain experts, internal end-user support experts, product managers, development managers
@@ -347,7 +347,7 @@ During the Workshop, the xref:proposal/need_for_service_providers.adoc[need for 
 // |{role-member}
 
 // >h|Involved
-// |{role-gtm}
+// |{role-or}
 // |===
 
 xref:compendium:How-Tos/enroll_for_development.adoc[Enrollment] for the proposed project is opened by ASAM from the Proposal Workshop onwards.
@@ -374,7 +374,7 @@ Applicants for xref:proposal/submit_candidacy.adoc[the role of Project Lead] are
 // |
 
 // >h|Involved
-// |{role-gtm}, {role-project-participant}
+// |{role-or}, {role-project-participant}
 // |===
 
 The Proposal Submitter finalizes the concept based on the output from the <<Proposal Workshop>> and prepares it for <<Submission>>. +
@@ -398,7 +398,7 @@ See xref:proposal/proposal_writing.adoc[].
 // |
 
 // >h|Involved
-// |{role-gtm} plus at least two {role-project-participant}
+// |{role-or} plus at least two {role-project-participant}
 // |===
 
 The Proposal Submitter sends the Proposal document to the Office and declares this to be his official proposal submission. +
@@ -416,7 +416,7 @@ See xref:proposal/submit_proposal.adoc[].
 // |To allow members and the TSC to read and review the project proposal, to clarify open questions and to allow members to enroll for participation in the upcoming project.
 
 // >h|Responsible
-// |{role-gtm}
+// |{role-or}
 
 // >h|Involved
 // |{role-tsc-member}, {role-member}
@@ -481,13 +481,13 @@ The approved project proposals are regarded as the work order for the new projec
 // |To archive the Proposal before transitioning to the next phase.
 
 // >h|Responsible
-// |{role-gtm}
+// |{role-or}
 
 // >h|Involved
 // |{role-project-participant}
 // |===
 
-The Proposal is archived by the GTM if the project has been accepted or the Proposal has been rejected or dropped completely.
+The Proposal is archived by the OR if the project has been accepted or the Proposal has been rejected or dropped completely.
 
 TODO
 

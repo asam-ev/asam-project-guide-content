@@ -10,7 +10,7 @@ include::partial$_attributes.adoc[]
 // |===
 // h|Involved roles
 // a| * {role-project-lead}
-// * {role-gtm}
+// * {role-or}
 // * {role-member}
 // * {role-service-provider}
 
@@ -52,11 +52,11 @@ Service Providers can apply for one or more bundles, or they can limit their off
 
 == Troubleshooting
 === The current budget does not cover even the smallest offer available
-Talk to your GTM to figure out a solution.
+Talk to your OR to figure out a solution.
 
 
 === There have been no offers
-Talk to your GTM to figure out a solution.
+Talk to your OR to figure out a solution.
 
 == What happens next
 The contracted Service Provider or providers receive a kickoff workshop for their project and tasks.

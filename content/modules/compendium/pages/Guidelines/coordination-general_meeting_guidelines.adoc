@@ -10,7 +10,7 @@ include::compendium:partial$_attributes.adoc[]
 //tag::body[]
 {role-project-lead}
 {role-sg-lead}
-{role-gtm}
+{role-or}
 {role-ccb}
 
 This page contains general guidelines on meetings in projects.
@@ -69,7 +69,7 @@ The agenda also has to be included in the <<Meeting notes,meeting notes>>.
 * For meetings within a group of a project, send the invite to those emails currently registered for the group
 * For full project meetings, send the invite to the project's mailing list
 * For all meeting types, add the following as CC (if not invited directly):
-** The Project Lead and the GTM.
+** The Project Lead and the OR.
 ** The mailto:openx@asam.net[OpenX Calendar]
 // ** The mailto:openx@asam.net[OpenX Calendar] (see xref:compendium:Tools/calendar.adoc[shared OpenX Calendar]).
 // ** The https://support.microsoft.com/en-us/office/send-an-email-to-a-channel-in-teams-d91db004-d9d7-4a47-82e6-fb1b16dfd51e[Teams channel email^]; this will post the meeting in the channel for all to see.

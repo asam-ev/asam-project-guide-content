@@ -10,7 +10,7 @@ Involved roles::
 {role-project-participant} --
 {role-sg-lead} --
 {role-project-lead} --
-{role-gtm} --
+{role-or} --
 {role-tsc-member}
 
 include::partial$project_phases.adoc[tag=release]
@@ -73,7 +73,7 @@ Sources are those digital work products, which can be modified or edited with st
 |{role-tsc-member}
 
 |Involved
-|{role-gtm}
+|{role-or}
 |===
 
 The TSC members review the release with special focus on the changes.
@@ -123,7 +123,7 @@ If the required rework has been implemented as defined by the TSC, then the rele
 |To prepare all marketing and distribution activities for the new standard release.
 
 |Responsible
-|{role-gtm}
+|{role-or}
 
 |Involved
 |{role-project-lead},
@@ -145,7 +145,7 @@ The publication of a new version of an existing standard shall occur within 3 we
 |To go live with the released standard.
 
 |Responsible
-|{role-gtm}
+|{role-or}
 
 |===
 

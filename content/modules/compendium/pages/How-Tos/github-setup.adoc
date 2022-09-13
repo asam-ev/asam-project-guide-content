@@ -13,7 +13,7 @@ include::compendium:partial$_attributes.adoc[]
 All specification-related documents are stored and updated in the project's remote (or online) repository. +
 This GitHub instance is an online service that ASAM uses.
 The user must create an account or use an existing one they have and set it up.
-The GTM will then add the account the to respective group or project.
+The OR will then add the account the to respective group or project.
 
 == Result
 The user has created and set up their repository account and can access the correct project repositories.
@@ -25,7 +25,7 @@ None
 //tag::how[]
 
 . Follow the online instructions on https://docs.github.com/en/get-started/signing-up-for-github/signing-up-for-a-new-github-account[signing up for a new GitHub account^]
-. Send your account name to your GTM. +
+. Send your account name to your OR. +
 You will receive a response from them when your account has been granted the rights to access and contribute to the project
 //end::how[]
 

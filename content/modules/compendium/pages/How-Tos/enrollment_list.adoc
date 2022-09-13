@@ -10,7 +10,7 @@ include::compendium:partial$_attributes.adoc[]
 // If you use a recurring image for similar artifacts, declare it as attribute in partials/_attributes.adoc and reference here.
 
 //tag::roles[]
-{role-gtm}
+{role-or}
 //end::roles[]
 
 == Context

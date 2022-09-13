@@ -10,7 +10,7 @@ include::compendium:partial$_attributes.adoc[]
 //tag::compendium[]
 {role-project-participant}
 {role-technical-writer}
-{role-gtm}
+{role-or}
 //end::compendium[]
 
 Creating a fork "clones" the repository into your profile, allowing you to make changes without having to interact with the main repository.

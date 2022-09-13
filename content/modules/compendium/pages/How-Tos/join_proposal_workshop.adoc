@@ -15,7 +15,7 @@ h|Responsible
 | {role-member} / {role-standard-user} -> {role-project-participant}
 
 h|Involved
-| {role-gtm}
+| {role-or}
 
 ifdef::compendium[]
 h| Phase

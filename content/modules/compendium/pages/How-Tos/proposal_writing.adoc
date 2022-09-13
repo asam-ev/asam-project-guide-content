@@ -15,7 +15,7 @@ h|Responsible
 | {role-idea-giver}
 
 h|Involved
-| {role-project-participant}, {role-gtm}
+| {role-project-participant}, {role-or}
 
 ifdef::compendium[]
 h| Phase
@@ -58,7 +58,7 @@ For proposal submission, the proposal document must be converted into the approp
 * The proposal needs at least three (3) partner companies.
 
 == How
-. Access the project's online repository through the link provided by your GTM
+. Access the project's online repository through the link provided by your OR
 .. Optionally, check out the project repository or download the https://code.asam.net/common/templates/proposal-template[Executive Draft template^] and edit the AsciiDoc files directly. +
 +
 IMPORTANT: You must update the content of each chapter's issue regardless of if you write in the AsciiDoc files directly or not!
@@ -68,9 +68,9 @@ IMPORTANT: You must update the content of each chapter's issue regardless of if 
 .. Define a set of (initial) use cases in the 'Use Cases' section
 .. (OPTIONAL) If you know of other standards this proposal relates to (ASAM or other), list them in the 'Relations to Other Standards or Organizations' section
 . (OPTIONAL) Create an initial structure for the section 'Technical Content' and fill write as much project specific content as possible
-. Discuss and optimize the document with your GTM
+. Discuss and optimize the document with your OR
 . Transfer the issues' content to the project's AsciiDoc files.
-The GTM will support you with this task, if needed.
+The OR will support you with this task, if needed.
 Note that you do not need to render the document manually.
 The repository's pipeline will create the required documents as artifacts automatically when the changes are committed and pushed to the trunk.
 See xref:compendium:How-Tos/access_compiled_artifacts.adoc[] to learn more about pipeline artifacts and how you can access them.

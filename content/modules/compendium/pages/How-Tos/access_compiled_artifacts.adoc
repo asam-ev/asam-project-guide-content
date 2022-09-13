@@ -11,7 +11,7 @@ include::compendium:partial$_attributes.adoc[]
 {role-sg-lead}
 {role-project-lead}
 {role-technical-writer}
-{role-gtm}
+{role-or}
 //end::compendium[]
 
 The description on this page currently only covers GitLab.

@@ -15,7 +15,7 @@ h|Responsible
 |{role-project-participant} -> {role-project-lead}
 
 h|Involved
-|{role-gtm}
+|{role-or}
 
 ifdef::compendium[]
 h| Phase
@@ -26,7 +26,7 @@ h| Step
 | Any time during the proposal phase
 
 h|TL;DR
-a| * Send an email to your GTM containing your candidacy for Project Lead
+a| * Send an email to your OR containing your candidacy for Project Lead
 
 |===
 
@@ -52,7 +52,7 @@ You have submitted your candidacy for the role of Project Lead.
 
 
 == How
-* Send an email to your GTM with your candidacy for the role of Project Lead
+* Send an email to your OR with your candidacy for the role of Project Lead
 
 
 == What happens next

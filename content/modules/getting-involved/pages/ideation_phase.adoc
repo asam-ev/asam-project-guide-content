@@ -9,7 +9,7 @@ include::partial$_attributes.adoc[]
 [horizontal]
 Involved roles::
 {role-standard-user} -> {role-idea-giver} --
-{role-gtm} --
+{role-or} --
 {role-member}
 
 include::partial$project_phases.adoc[tag=ideation]
@@ -52,7 +52,7 @@ a|* To discuss the idea, detail it further, and decide whether to proceed to the
 * OPTIONAL: To determine the initial Proposal participants (must be or become "active" ASAM member)
 
 |Responsible
-|{role-gtm}, in collaboration with initiating member(s) ({role-idea-giver}).
+|{role-or}, in collaboration with initiating member(s) ({role-idea-giver}).
 
 |Involved
 |{role-member} and {role-standard-user}, particularly technical domain experts, internal end-user support experts, product managers, development managers
@@ -79,7 +79,7 @@ If there is significant interest in the proposed project in different regions (p
 |{role-idea-giver}
 
 |Involved
-|{role-gtm}, {role-standard-user}
+|{role-or}, {role-standard-user}
 |===
 
 The Idea Giver finds enough participants and at least one writer for the Proposal phase and communicates the list to the ASAM Office.

@@ -13,7 +13,7 @@ Involved roles::
 {role-project-participant} --
 {role-sg-lead} --
 {role-project-lead} --
-{role-gtm}
+{role-or}
 
 
 include::partial$project_phases.adoc[tag=review]

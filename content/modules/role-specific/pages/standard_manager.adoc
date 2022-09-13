@@ -52,9 +52,9 @@ The minimum tenure for the Standard Manager shall be one year.
 TODO
 
 === Proposal phase
-role_related::gtm[proposal]
+role_related::or[proposal]
 
-role_related::gtm[]
+role_related::or[]
 
 
 role_related::standard-manager[]

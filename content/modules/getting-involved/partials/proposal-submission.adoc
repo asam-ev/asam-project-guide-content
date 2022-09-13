@@ -9,7 +9,7 @@
 |{role-idea-giver}
 
 |Involved
-|{role-gtm}
+|{role-or}
 |===
 // end::table[]
 

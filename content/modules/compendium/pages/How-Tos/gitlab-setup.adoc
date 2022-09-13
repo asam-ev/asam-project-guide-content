@@ -12,7 +12,7 @@ include::compendium:partial$_attributes.adoc[]
 == Context
 All specification-related documents are stored and updated in the project's remote (or online) repository. +
 This GitLab instance is hosted and managed directly by ASAM.
-The GTM will create the account and the user must then set it up.
+The OR will create the account and the user must then set it up.
 
 == Result
 The user has activated their repository account and can access the correct project repositories.

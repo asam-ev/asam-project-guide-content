@@ -6,7 +6,7 @@ include::../ROOT/partials/_attributes.adoc[]
 ** xref:technical-writer.adoc[]
 ** xref:service-provider.adoc[]
 ** xref:reviewer.adoc[]
-** xref:gtm.adoc[]
+** xref:or.adoc[]
 ** Other
 *** xref:ccb-member.adoc[]
 *** xref:standard_manager.adoc[]

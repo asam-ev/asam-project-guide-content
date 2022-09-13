@@ -11,7 +11,7 @@ include::compendium:partial$_attributes.adoc[]
 
 //tag::compendium[]
 {role-project-lead}
-{role-gtm}
+{role-or}
 {role-technical-writer}
 //end::compendium[]
 

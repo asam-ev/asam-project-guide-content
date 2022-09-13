@@ -8,7 +8,7 @@ include::compendium:partial$_attributes.adoc[]
 
 
 
-{role-gtm}
+{role-or}
 
 :any-button:
 

@@ -50,9 +50,9 @@ Each of these groups may be led by a __Subgroup Lead__.
 
 3+<s|[.underline]#Supporting roles#
 |(6)
-|xref:role-specific:gtm.adoc[image:role-specific:roles_overview-gtm.svg[]]
+|xref:role-specific:or.adoc[image:role-specific:roles_overview-or.svg[]]
 a|ASAM contact of the project. +
-A __GTM__ is an *ASAM employee* focussed on *coordinating project processes* and the *background work* behind a project.
+A __OR__ is an *ASAM employee* focussed on *coordinating project processes* and the *background work* behind a project.
 
 |(7)
 |xref:role-specific:technical-writer.adoc[image:role-specific:roles_overview-tw.svg[]]

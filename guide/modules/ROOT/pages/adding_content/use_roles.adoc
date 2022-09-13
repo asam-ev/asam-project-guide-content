@@ -20,7 +20,7 @@ If you need to define a new role first, see xref:adding_content/add-new-role.ado
 
 In order to work with roles, just add the attribute of that role to that page:
 
-. Add the attribute `{role-xyz}` to the page's body, where `xyz` is the name of the role (e.g. gtm).
+. Add the attribute `{role-xyz}` to the page's body, where `xyz` is the name of the role (e.g. or).
 
 IMPORTANT: The role only works correctly if added to a page.
 Pages importing a partial with a role label will not show up correctly in the role's overview!

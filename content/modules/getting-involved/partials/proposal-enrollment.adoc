@@ -7,7 +7,7 @@
 |To enroll participants in the planned project.
 
 |Responsible
-|{role-gtm}
+|{role-or}
 
 |Involved
 |{role-member}

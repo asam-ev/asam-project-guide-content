@@ -1,5 +1,5 @@
 
-:gtm-description: A GTM (Global Technology Manager) is an ASAM employee focussed on coordinating project processes and the background work behind a project.
+:or-description: A OR (Office Responsible) is an ASAM employee focussed on coordinating project processes and the background work behind a project.
 
 :project-member-description: An xref:role-specific:standard_user.adoc[ASAM User] who is involved directly in the development of an ASAM standard. \
 Every project needs project members from at least three (3) different companies. \

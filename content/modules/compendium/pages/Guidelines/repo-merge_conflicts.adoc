@@ -12,7 +12,7 @@ include::compendium:partial$_attributes.adoc[]
 //tag::compendium[]
 {role-project-participant}
 {role-technical-writer}
-{role-gtm}
+{role-or}
 //end::compendium[]
 
 == Introduction

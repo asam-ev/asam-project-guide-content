@@ -13,7 +13,7 @@ include::compendium:partial$_attributes.adoc[]
 {role-technical-writer}
 {role-sg-lead}
 {role-project-lead}
-{role-gtm}
+{role-or}
 //end::compendium[]
 
 == Git workflow

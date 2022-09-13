@@ -17,7 +17,7 @@ h|Responsible
 | {role-reviewer}
 
 // h|Involved
-// | {role-gtm}
+// | {role-or}
 
 ifdef::compendium[]
 h| Phase

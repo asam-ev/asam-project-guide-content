@@ -10,7 +10,7 @@ include::compendium:partial$_attributes.adoc[]
 [cols="1,5", grid = rows]
 |===
 h|Responsible
-| {role-gtm}
+| {role-or}
 
 h|Involved
 | {role-idea-giver}, {role-project-participant}
