@@ -1,7 +1,7 @@
-= Teams/Sharepoint file structure
-:description: Describes the standard teams and sharepoint structure at ASAM.
-:keywords: teams,sharepoint, structure
-:navtitle: [Coordination] Teams/Sharepoint file structure
+= Sharepoint file structure
+:description: Describes the standard sharepoint structure at ASAM.
+:keywords: sharepoint, structure
+:navtitle: [Coordination] Sharepoint file structure
 
 include::compendium:partial$_attributes.adoc[]
 
@@ -11,14 +11,12 @@ include::compendium:partial$_attributes.adoc[]
 
 [source]
 ----
-├───General // this is where all administrative topics are stored
-│   ├───Project_report.docx // the latest project report
-│   └───Participant_list.xlsx // contains all enrolled project members with their contact details and their subgroup assignments
-│
-├───01_SubgroupName1 // each subgroup creates and manages their own directory as they see fit
-├───02_SubgroupName2
-...
-└───xx_SubgroupName<N>
+├───01_administrative // this is where all administrative topics are stored
+│   ├───controlling // contains all topics related to the controlling part of the project
+│   ├───ASAM <Projectname> Participant_list.xlsx // contains all enrolled project members with their contact details and their subgroup assignments
+│   └───<Projectname> Proposal.<extension> // the project proposal as .docx or .pdf or .html
+├───02_meetings // Contains folders with provided presentations and optional recordings of project meetings
+└───03_development // May be used to share and exchange supporting material and other external content not directly relevant to the standard itself
 
 ----
 
