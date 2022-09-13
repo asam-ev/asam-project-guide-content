@@ -9,7 +9,7 @@ include::compendium:partial$_attributes.adoc[]
 //tag::body[]
 Once a document is written by the group/Service Provider, we want to review and comment on the document.
 Unfortunatelly, there is no native built-in comment feature in GitLab and/or VSCode.
-Also everyone / every  workgroup is working on their own branch.
+Also everyone / every  sub-group is working on their own branch.
 Those branches should be create by using the issues in GitLab.
 
 Once we have this branch, we can get started working on the content, during our work/review/... we recognize things we want to change, discuss, review, etc.

@@ -1,6 +1,6 @@
 = Become Subgroup Lead
-:description: Describes how to become a lead of a workgroup and where to find more information.
-:keywords: workgroup-lead
+:description: Describes how to become a lead of a sub-group and where to find more information.
+:keywords: sub-group-lead
 
 include::partial$_attributes.adoc[]
 

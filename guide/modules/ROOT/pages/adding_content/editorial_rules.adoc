@@ -7,15 +7,15 @@ include::partial$_attributes.adoc[]
 
 
 In the xref:asamprojectguide:compendium:Editorial_guide.adoc[ASAM Editorial Guide], editorial rules exist.
-Workgroup members and Technical Writers shall apply the rules when creating documentation for ASAM.
+Sub-group members and Technical Writers shall apply the rules when creating documentation for ASAM.
 This section contains information on how to create and apply editorial rules.
 
 == Using editorial rules
 
-. Provide the ASAM Editorial Guide to workgroup members and technical writers when a project starts.
-. workgroup members should try to apply the editorial rules.
-. Technical writers may educate workgroup members who do not apply the editorial rules.
-. Technical writers shall review the content committed by workgroup members as soon as possible.
+. Provide the ASAM Editorial Guide to sub-group members and technical writers when a project starts.
+. sub-group members should try to apply the editorial rules.
+. Technical writers may educate sub-group members who do not apply the editorial rules.
+. Technical writers shall review the content committed by sub-group members as soon as possible.
 
 == Applying and creating rules
 

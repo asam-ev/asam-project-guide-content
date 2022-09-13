@@ -224,7 +224,7 @@ These labels are defined individually for each project and should be used to cat
 
 ASAM suggest the following naming schema for group/category labels:
 
-.Suggested workgroup label schema
+.Suggested sub-group label schema
 [source]
 ----
 'isSubgroup':'Subgroup'
