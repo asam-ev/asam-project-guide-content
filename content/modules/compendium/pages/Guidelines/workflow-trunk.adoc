@@ -119,7 +119,7 @@ Steps::
 . Change the issue status label to {requiresConceptualWork-label} to indicate that a proposal is being implemented for this issue
 . Begin submitting work via commits to the develop branch
 // . Begin submitting work via commits to the develop branch, adhering to the xref:compendium:Guidelines/repo-commit_conventions.adoc[**Commit Message Conventions**]
-. Review implementation progress of issue with {role-sg-lead} and the other {role-project-participant} in Subgroup meetings
+. Review implementation progress of issue with {role-sg-lead} and the other {role-project-participant} in Sub-group meetings
 . Once the group agrees that the feature is complete:
 .. Change the issue status label to {requiresCCBReview-label}
 .. If changes were marked as draft, remove the encapsulating draft feature flag from the content (make sure that all other content remains within the draft flag) and commit the change.

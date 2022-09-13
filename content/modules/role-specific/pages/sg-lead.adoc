@@ -1,4 +1,4 @@
-= Subgroup Lead
+= Sub-group Lead
 :description: Summary and landing page for sub-group leads.
 :keywords: role, role-landing-page
 

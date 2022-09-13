@@ -1,4 +1,4 @@
-= Become Subgroup Lead
+= Become Sub-group Lead
 :description: Describes the steps to becoming the Project Lead of a project after having handed in the candidacy.
 :keywords: sg-lead
 
@@ -42,7 +42,7 @@ a| * Coordinating sub-group activities
 TODO
 
 == Responsibilities
-The Subgroup Lead is responsible for
+The Sub-group Lead is responsible for
 
 *
 
@@ -50,7 +50,7 @@ The Subgroup Lead is responsible for
 TODO
 
 == When
-Typically, a Subgroup Lead is selected during the Kickoff Workshop in the xref:getting-involved:development_phase.adoc[Standard Development Phase].
+Typically, a Sub-group Lead is selected during the Kickoff Workshop in the xref:getting-involved:development_phase.adoc[Standard Development Phase].
 
 == How
 TODO

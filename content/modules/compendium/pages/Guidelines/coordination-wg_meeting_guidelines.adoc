@@ -1,7 +1,7 @@
-= Subgroup meeting guidelines
+= Sub-group meeting guidelines
 :description: TODO
 :keywords: meeting, guideline
-:navtitle: [Coordination] Subgroup Meeting Guidelines
+:navtitle: [Coordination] Sub-group Meeting Guidelines
 
 include::compendium:partial$_attributes.adoc[]
 

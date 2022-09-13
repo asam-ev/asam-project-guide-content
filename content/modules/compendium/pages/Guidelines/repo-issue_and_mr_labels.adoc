@@ -214,7 +214,7 @@ If a project wants to use additional custom labels for extra filter options, eac
 
 ---
 
-=== Subgroup labels
+=== Sub-group labels
 
 All ASAM projects have their individual work packages clustered into groups or categories.
 These labels are defined individually for each project and should be used to categorize issues.
@@ -227,14 +227,14 @@ ASAM suggest the following naming schema for group/category labels:
 .Suggested sub-group label schema
 [source]
 ----
-'isSubgroup':'Subgroup'
+'isSub-group':'Sub-group'
 ----
 
 Rules::
 * Remove spaces ("Domain Model" instead of "DomainModel")
 
 Example::
-An issue label for the group Domain Model (DomainModel) would be 'isSubgroup:DomainModel'
+An issue label for the group Domain Model (DomainModel) would be 'isSub-group:DomainModel'
 
 
 ---

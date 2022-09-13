@@ -3,7 +3,7 @@
 
 :project-member-description: An xref:role-specific:standard_user.adoc[ASAM User] who is involved directly in the development of an ASAM standard. \
 Every project needs project members from at least three (3) different companies. \
-See also xref:role-specific:project-participant.adoc[Subgroup Member]
+See also xref:role-specific:project-participant.adoc[Sub-group Member]
 
 :project-lead-description: The person responsible for leading and coordinating all project activities. \
 Without an elected Project Lead, the project may not start. \

@@ -19,7 +19,7 @@ It is intended for meetings during the xref:getting-involved:development_phase.a
 //tag::reduced[]
 == Meeting host
 IMPORTANT: Project meetings are set up by the ASAM office, even when they are not the meeting host.
-All other meetings within a project (such as Subgroup meetings) have to be set up by the respective host.
+All other meetings within a project (such as Sub-group meetings) have to be set up by the respective host.
 
 Every meeting has a host.
 This is the person who calls the meeting. +
@@ -40,6 +40,14 @@ If not, the assignee has to agree to this task first.
 == Minute taker
 The minute taker is designated by the <<Meeting host,meeting host>>.
 This may be the host themselves. +
+However, the host may not just appoint role to a project member without their consent. 
+The order of responsibility regarding the taking of minutes is as follows:
+
+. Host (since they usually do not need to travel)
+. Service Provider
+. Project Lead
+. Office Responsible
+
 The minute taker has the following responsibilities:
 
 * Before the meeting
@@ -65,7 +73,7 @@ The agenda also has to be included in the <<Meeting notes,meeting notes>>.
 Each agenda must at least have the following contents:
 
 * https://www.asam.net/active-projects/resources/[Antitrust Reminder^]
-* votes on previous minutes
+* scheduled votes for the meeting
 * documentation of participants
 * voting template
 * agenda items
@@ -96,6 +104,18 @@ This list also contains information on the group or groups each participant is p
 // See xref:compendium:How-Tos/meetings_in_teams.adoc[].
 * Feel free to use whatever solution you or your company normally use.
 * If your company does not provide you with a suitable solution, send the details to your ASAM representative and they will assist (either with Teams or Zoom).
+
+
+== Voting
+Meetings are the default way of taking project- or sub-group-level votes.
+Their results have to be made available in the corresponding meeting notes.
+
+ASAM recommends the use of "Microsoft Forms" in case of online voting.
+You can ask your ASAM Office Responsible for support on creating such a vote ahead of time.
+
+TIP: Do a quick vote first (e.g. show of hands). 
+If it is unanimous, you can skip the formal process of voting.
+Make sure to document the result in either case, however.
 
 
 == Meeting notes

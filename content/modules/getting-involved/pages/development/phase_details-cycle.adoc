@@ -73,7 +73,7 @@ Additionally, a project may request additional time if the project's content tur
 
 // The Project Lead, together with the CCB, specifies the high level goals for the project's next development cycle.
 // They then present and discuss the created milestone with the SG Leads. +
-// After the overall goals have been specified and communicated, the SG Leads specify the detailed goals for the respective involved Subgroups.
+// After the overall goals have been specified and communicated, the SG Leads specify the detailed goals for the respective involved Sub-groups.
 // They then present and discuss both the global and the detailed goals of the milestone with the WG members, the involved Service Providers, and the Technical Writers.
 
 // See xref:development/cycle_planning.adoc[].
@@ -101,13 +101,13 @@ Additionally, a project may request additional time if the project's content tur
 // NOTE: This is a multi-step task.
 
 // During the development cycle, each work group individually works on their respective topics (if any).
-// Each work group will also meet regularly in its Subgroup Meetings. +
+// Each work group will also meet regularly in its Sub-group Meetings. +
 // Note that each work group may define the intervals and modalities of their meetings for themselves.
 
-// To coordinate activities between different Subgroups, ASAM recommends that all SG Leads meet regularly during each cycle.
+// To coordinate activities between different Sub-groups, ASAM recommends that all SG Leads meet regularly during each cycle.
 // Each project may define their own intervals for SG Lead meetings. +
 // In addition to that, the CCB may meet regularly or triggered by specific events to review and merge urgent topics as well as discuss other project-related topics.
-// Similarly to the Subgroup Meetings, each project may define their own intervals for CCB meetings.
+// Similarly to the Sub-group Meetings, each project may define their own intervals for CCB meetings.
 
 // See xref:development/cycle_development.adoc[].
 

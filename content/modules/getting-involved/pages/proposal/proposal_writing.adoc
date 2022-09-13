@@ -27,7 +27,7 @@ a| * All participants contribute content through issues
 
 == The proposal document
 The Project Proposal is a written document that is submitted to the TSC for project approval before any project at ASAM may start. +
-All committed participants (the Idea Giver, the Proposal Submitter, and all prospective Subgroup Members) can participate in writing the proposal document (the Proposal Submitter actually has to participate in the <<Finalizing the Proposal,finalization step>>). +
+All committed participants (the Idea Giver, the Proposal Submitter, and all prospective Sub-group Members) can participate in writing the proposal document (the Proposal Submitter actually has to participate in the <<Finalizing the Proposal,finalization step>>). +
 See **xref:getting-involved:proposal/proposal_document.adoc[]** for more information on the document and its intended contents.
 
 

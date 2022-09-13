@@ -29,7 +29,7 @@ After the goals for the cycle have been defined and the issues created, estimate
 
 == Development cycle structure
 A typical cycle lasts for two (2) months.
-During this period, each WG will schedule one or more xref:compendium:Guidelines/coordination-wg_meeting_guidelines.adoc[Subgroup Meetings]. +
+During this period, each WG will schedule one or more xref:compendium:Guidelines/coordination-wg_meeting_guidelines.adoc[Sub-group Meetings]. +
 Additionally, the Project Lead (and possibly the CCB) may meet with the SG Leads in one or more xref:compendium:Guidelines/coordination-sg-lead_meeting_guidelines.adoc[SG Lead Meetings]. +
 Finally, the CCB may schedule xref:compendium:Guidelines/coordination-ccb_meeting_guidelines.adoc[CCB Meetings].
 

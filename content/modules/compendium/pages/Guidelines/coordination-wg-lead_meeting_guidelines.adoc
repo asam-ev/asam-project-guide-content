@@ -1,7 +1,7 @@
-= Subgroup Lead meeting guidelines
+= Sub-group Lead meeting guidelines
 :description: TODO
 :keywords: sg-lead, meeting, guideline
-:navtitle: [Coordination] Subgroup Lead Meeting Guidelines
+:navtitle: [Coordination] Sub-group Lead Meeting Guidelines
 
 include::compendium:partial$_attributes.adoc[]
 

@@ -33,7 +33,7 @@ h|Summary
 h|Tasks
 a| * Coordinating project activities
 * Prioritizing project activities
-* Synchronization with Subgroup Leads
+* Synchronization with Sub-group Leads
 
 |===
 

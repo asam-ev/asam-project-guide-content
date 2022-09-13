@@ -39,7 +39,7 @@ a| * Create agenda
 
 == Context
 Each development cycle requires a set of high-level goals.
-These serves as the basis for each Subgroup to then create a detail planning of their topics that relate to those high-level goals.
+These serves as the basis for each Sub-group to then create a detail planning of their topics that relate to those high-level goals.
 
 Typically, this planning step is done once at the beginning of each cycle.
 However, a project may also do this high-level planning less frequently, setting up high-level milestones for multiple cycles ahead of time instead.
