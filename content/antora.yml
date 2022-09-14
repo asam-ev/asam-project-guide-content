@@ -20,3 +20,20 @@ asciidoc:
     github-url: https://github.com/asam-ev
     abb: "compendium:partial$abbreviations.adoc@"
     experimental: ""
+    
+    # tag::roles[]
+    ## Defined role attributes
+    role-reviewer: 'xref:role-specific:reviewer.adoc[<role style="background:#FA8072;" >REVIEWER</role>]'
+    role-project-participant: 'xref:role-specific:project-participant.adoc[<role style="background:#BDB76B;" >PROJECT PARTICIPANT</role>]'
+    role-sg-lead: 'xref:role-specific:sg-lead.adoc[<role style="background:#14BCCD;" >SUBGROUP LEAD</role>]'
+    role-technical-writer: 'xref:role-specific:technical-writer.adoc[<role style="background:#D8BFD8;" >TECHNICAL WRITER</role>]'
+    role-project-lead: 'xref:role-specific:project-lead.adoc[<role style="background:#6A5ACD;" >PROJECT LEAD</role>]'
+    role-or: 'xref:role-specific:office-responsible.adoc[<role style="background:#32CD32;" >OFFICE RESPONSIBLE</role>]'
+    role-service-provider: 'xref:role-specific:service-provider.adoc[<role style="background:#FFDEAD;" >SERVICE PROVIDER</role>]'
+    role-standard-user: 'xref:role-specific:standard_user.adoc[<role style="background:#CD853F;" >STANDARD USER</role>]'
+    role-standard-manager: 'xref:role-specific:standard_manager.adoc[<role style="background:#DEB887;" >STANDARD MANAGER</role>]'
+    role-idea-giver: '<role style="background:LightGray;">Idea Giver</role>'
+    role-tsc-member: 'xref:role-specific:tsc.adoc[<role style="background:#006EA2; color:white;">TSC MEMBER</role>]'
+    role-member: '<role style="background:LightGray;">ASAM Member</role>'
+    role-ccb: '<role style="background:LightGray;">CCB Member</role>'
+    # end::roles[]
