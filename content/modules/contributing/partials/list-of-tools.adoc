@@ -76,15 +76,8 @@ Relevant for users that want to stay informed about upcoming events and meetings
 |ASAM IT infrastructure
 
 
-|{teams-icon-norole} +
-xref:compendium:Tools/teams_and_sharepoint.adoc[]
-|Chat, conferencing, document folder for sharing documents (e.g. research papers, notes, videos, anything that does not need to be versioned). +
-Relevant for users that want to discuss and chat about information that do not fit into the project's repositories.
-|{mandatory}
-|ASAM IT infrastructure
-
 |{sharepoint-icon-norole} +
-xref:compendium:Tools/teams_and_sharepoint.adoc[]
+xref:compendium:Tools/teams_and_sharepoint.adoc[Microsoft Sharepoint]
 |Sharepoint is a Microsoft service that is used in the background by Teams to manage files.
 It can be accessed directly or through Teams, which is why all files that have been added either way can be retrieved through both tools. +
 Relevant for users that want to exchange information that do not fit into the project's repositories.
