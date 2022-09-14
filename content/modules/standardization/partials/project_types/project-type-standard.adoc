@@ -3,7 +3,7 @@
 //tag::short[]
 [horizontal]
 Description:: Standard development projects are the core of ASAM.
-In these, sub-group members define the content of an ASAM standard (new or updated).
+In these, Sub-group members define the content of an ASAM standard (new or updated).
 Goal:: The goal is to create new standards and to update existing standards in accordance with the demands of ASAM members and market requirements.
 
 //end::short[]

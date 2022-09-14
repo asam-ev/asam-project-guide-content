@@ -1,5 +1,5 @@
 = Writing Guide
-:description: Writing guide for technical writers.
+:description: Writing guide for Technical Writers.
 :keywords: writing_guide
 :navtitle: [AsciiDoc] Writing Guide
 :numbered:
@@ -267,7 +267,7 @@ Use them to create consistent content.
 * All topics, figures, tables and code examples shall have a unique tag.
 * Sections may also have a tag if a link to the section is needed.
 * _Note:_ If you cannot come up with a document-wide unique id, just add `[#tag-uid]`.
-This triggers a pipeline warning and the technical writer can help you.
+This triggers a pipeline warning and the Technical Writer can help you.
 
 ```
 Examples:

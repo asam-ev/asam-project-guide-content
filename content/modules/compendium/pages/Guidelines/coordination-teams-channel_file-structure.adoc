@@ -13,7 +13,7 @@ include::compendium:partial$_attributes.adoc[]
 ----
 ├───01_administrative................................// this is where all administrative topics are stored
 │   ├───controlling..................................// contains all topics related to the controlling part of the project
-│   ├───ASAM <Projectname> Participant_list.xlsx.....// contains all enrolled project members with their contact details and their sub-group assignments
+│   ├───ASAM <Projectname> Participant_list.xlsx.....// contains all enrolled project members with their contact details and their Sub-group assignments
 │   └───<Projectname> Proposal.<extension>...........// the project proposal as .docx or .pdf or .html
 │
 ├───02_meetings......................................// Contains folders with provided presentations and optional recordings of project meetings

@@ -15,7 +15,7 @@
 ** xref:project-setup.adoc[]
 ** xref:creation-of-standards.adoc[]
 // ** xref:issue-resolution.adoc[]
-** Working Model (sub-groups)
+** Working Model (Sub-groups)
 ** Issue-driven Workflow
 ** Reviews and Releases
 ** xref:deliverables.adoc[]

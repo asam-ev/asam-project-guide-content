@@ -76,8 +76,8 @@ Once the project is set up, the first development cycle can commence.
 At this point, the project has
 
 * an elected project lead
-* sub-groups, if required
-** elected or selected sub-group leads that are responsible for certain focus points of the project's topics,
+* Sub-groups, if required
+** elected or selected Sub-group leads that are responsible for certain focus points of the project's topics,
 * its own project repository (or repositories), complete with README, timeline, and pre-configured pipeline, where all members have been granted access to
 * a mailing list with all its members
 * a Microsoft Sharepoint structure
@@ -108,7 +108,7 @@ It is also recommended for all recurring meetings to have intervals of 6-8 weeks
 Each development cycle starts with a Cycle Planning.
 Here, the Project Lead defines the **goals for the cycle** together with the members of the CCB and the Sub-group Leads. +
 The decisions are then passed on to the other project members and the service provider(s).
-If the project is currently employing a technical writer, they are also informed accordingly.
+If the project is currently employing a Technical Writer, they are also informed accordingly.
 
 It is recommended to balance assignments as much as possible amongst the active participants.
 
@@ -182,7 +182,7 @@ Make sure to follow the xref:contributing:meeting_guidelines.adoc[ASAM meeting g
 
 == Project-level meetings
 ASAM recommends to hold a project-level meeting at least once a quarter.
-A full project meeting is used to hold project level votes, align across sub-groups and evaluate the overall status with respect to the project plan. +
+A full project meeting is used to hold project level votes, align across Sub-groups and evaluate the overall status with respect to the project plan. +
 The group can decide to combine these with the Cycle Review meetings since most aspects of a project-level meeting coincides with those of a Cycle Review.
 However, if a Cycle takes longer than 3 months, ASAM recommends having a separate project-level meeting in between.
 
@@ -218,7 +218,7 @@ Check out the https://www.asam.net/active-projects/development-process/[Developm
 If you have additional questions, don't hesitate to contact your ASAM representative.
 
 == Escalation of topics
-=== From sub-group to group
+=== From Sub-group to group
 Under the following instances must a topic be presented at the next <<Project-level meeting,project-level meeting>>:
 * Changes to the underlying data model
 * It is requested by the Sub-group
@@ -226,7 +226,7 @@ Under the following instances must a topic be presented at the next <<Project-le
 * It is requested by a project steering committee (e.g. the CCB)
 * The Sub-group cannot reach a decision on a specific topic or assumes that there are different opinions in the overall project group
 
-The Project Lead may escalate sub-group decisions to a project level vote.
+The Project Lead may escalate Sub-group decisions to a project level vote.
 
 === From group to TSC
 If a project cannot meet its milestones or budget, it must escalate its status report in the next CGSim controlling meeting.
@@ -241,7 +241,7 @@ All changes that affect the project scope require a formal Change Request (CR).
 If a scope-changing issue is entered after the project has started, this is considered a Change Request.
 The requirements for these issues is identical to every other feature issue. +
 The project group will decide whether the CR is accepted or rejected. 
-If it is accepted, it is assigned (project member or sub-group).
+If it is accepted, it is assigned (project member or Sub-group).
 With that, the standard xref:contributing:contribution_workflow.adoc#_workflow_overview[Contribution Workflow] applies.
 
 

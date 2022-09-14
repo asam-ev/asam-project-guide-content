@@ -42,7 +42,7 @@ This may be
 * missing technological knowledge regarding some aspects the project's subject.
 * the need for a specialized project organizer.
 * model creation.
-* the role of a technical writer and editor.
+* the role of a Technical Writer and editor.
 
 In those cases, a project may decide to hire one or more Service Providers to fill these roles.
 

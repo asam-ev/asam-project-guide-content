@@ -36,9 +36,9 @@ Defining and monitoring milestones:::
 * Responsible for defining project timeline and milestones
 * Controlling project timeline and milestones
 * Technical issue tracking and asking for progress in combination
-Leading of project members, project meetings and project sub-groups:::
-* Overview of project members and sub-groups
-* Setting up meetings (weekly, sub-groupmeetings, sub-groups, change control board)
+Leading of project members, project meetings and project Sub-groups:::
+* Overview of project members and Sub-groups
+* Setting up meetings (weekly, Sub-groupmeetings, Sub-groups, change control board)
 ** Defining meeting agenda (before meeting)
 ** Managing and documenting meetings
 ** Recording project level votes

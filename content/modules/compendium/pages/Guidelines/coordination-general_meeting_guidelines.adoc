@@ -17,8 +17,12 @@ This page contains general guidelines on meetings in projects.
 It is intended for meetings during the xref:getting-involved:development_phase.adoc[Development phase], but may be applied to meetings in other phases as well.
 
 //tag::reduced[]
-== Meeting host
-IMPORTANT: Project meetings are set up by the ASAM office, even when they are not the meeting host.
+[cols="1,1", grid=cols, frame=none]
+|===
+a|== Meeting host 
+a|== Minute taker
+
+a|IMPORTANT: Project meetings are set up by the ASAM office, even when they are not the meeting host.
 All other meetings within a project (such as Sub-group meetings) have to be set up by the respective host.
 
 Every meeting has a host.
@@ -36,9 +40,7 @@ If not, the assignee has to agree to this task first.
 * Ensure that minutes are taken and send out the link to them afterwards
 * Follow up with assignees on assigned tasks after the meeting
 
-
-== Minute taker
-The minute taker is designated by the <<Meeting host,meeting host>>.
+a|The minute taker is designated by the <<Meeting host,meeting host>>.
 This may be the host themselves. +
 However, the host may not just appoint role to a project member without their consent. 
 The order of responsibility regarding the taking of minutes is as follows:
@@ -63,6 +65,7 @@ The minute taker has the following responsibilities:
 ** Update the notes with delivered updates (e.g. links to files)
 ** Finalize the notes once everything has been provided
 ** Inform the host in case of overdue tasks
+|===
 
 
 == Meeting agenda
@@ -106,9 +109,10 @@ This list also contains information on the group or groups each participant is p
 * If your company does not provide you with a suitable solution, send the details to your ASAM representative and they will assist (either with Teams or Zoom).
 
 
-== Voting
-Meetings are the default way of taking project- or sub-group-level polls.
+== Polls and voting
+Meetings are the default way of taking project- or Sub-group-level polls.
 Their results have to be made available in the corresponding meeting notes. +
+Polls have to be announced in the agenda (before the meeting takes place).
 A poll is only valid if at least 50% of registered (sub-)group members cast their vote and the Issue Responsible (if defined) is present.
 To be eligible for casting a vote, a member has to have been present during the corresponding topic discussion/presentation.
 The only exception to this is voting for topics of static nature, such as meeting frequencies.
@@ -127,8 +131,8 @@ It is recommended that if a company has multiple participants in a project, they
 If a company casts multiple votes (accidentally or intentionally), their vote is counted as abstention.
 
 === Sub-group voting
-In a sub-group meeting, each participant has one vote.
-The barrier for a valid poll is, therefore, 50% of all sub-group members.
+In a Sub-group meeting, each participant has one vote.
+The barrier for a valid poll is, therefore, 50% of all Sub-group members.
 This is independent of company affiliation.
 
 
@@ -145,7 +149,7 @@ Additionally, the next scheduled meeting shall be listed here as well.
 * Schedule regular meetings at least every 6-8 weeks
 * Send a reminder to all assignees with open topics with enough time ahead of the next meeting
 * Schedule remote meetings only for organizational issues
-* Present results, particularly substantial changes in sub-groups, to the whole project group regularly
+* Present results, particularly substantial changes in Sub-groups, to the whole project group regularly
 * If you want to give a presentation in a project meeting, upload your presentation in the meeting's "presentations" folder in your project's Sharepoint ahead of time
 
 //end::reduced[]

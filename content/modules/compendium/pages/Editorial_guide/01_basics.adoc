@@ -351,7 +351,7 @@ Every anchor consists of `[#`, the string for the anchor type, a following UUID,
 *Exceptions*
 
 If you do not know how to use unique IDs, insert `uid` as a placeholder.
-The placeholder will trigger a pipeline warning so that the technical writer can help with creating a unique ID.
+The placeholder will trigger a pipeline warning so that the Technical Writer can help with creating a unique ID.
 
 *Source*
 
@@ -378,7 +378,7 @@ Insert a unique ID according to the following patterns:
 *Exceptions*
 
 If you do not know how to use unique IDs, insert `[#tag-uid]` as a placeholder.
-The placeholder will trigger a pipeline warning so that the technical writer can help with creating a unique ID.
+The placeholder will trigger a pipeline warning so that the Technical Writer can help with creating a unique ID.
 
 // TODO: Where to use a semantic ID and where a UUID? What are allowed characters in IDs anyway? How about a Regex for a valid ID production: [a-zA-Z0-9_-]
 

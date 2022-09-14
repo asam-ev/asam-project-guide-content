@@ -1,6 +1,6 @@
 [#top-cf80501d-bcfb-4014-82b7-ee21314f52d9]
 = Editorial guide
-:description: Editorial guide for technical writers
+:description: Editorial guide for Technical Writers
 :keywords: writing_guide
 :numbered:
 
@@ -9,7 +9,7 @@ include::compendium:partial$_attributes.adoc[]
 {role-technical-writer}
 {role-project-participant}
 
-This document contains the ASAM Editorial Guide for technical writers and sub-group members.
+This document contains the ASAM Editorial Guide for Technical Writers and Sub-group members.
 It contains editorial rules for contributing content to a project in written form.
 
 If an editorial rule is missing in the ASAM Editorial Guide, follow the guidelines in the xref:asamprojectguide-editing:ROOT:adding_content/editorial_rules.adoc#sec-18931c78-0dc9-46a5-9e4d-e00c39c7ce8b[Creating new editorial rules] section to add a missing rule.

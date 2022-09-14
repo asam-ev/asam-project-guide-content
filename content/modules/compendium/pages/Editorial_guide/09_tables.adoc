@@ -129,7 +129,7 @@ The table anchor consists of `[#`, the string `tab-`, a following UUID, and `]`.
 *Exceptions*
 
 If you do not know how to use unique IDs, insert `[#tag-uid]` as a placeholder.
-The placeholder will trigger a pipeline warning so that the technical writer can help with creating a unique ID.
+The placeholder will trigger a pipeline warning so that the Technical Writer can help with creating a unique ID.
 
 *Example*
 

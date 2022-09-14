@@ -24,7 +24,7 @@ a| * TODO
 == Context
 This is where the development happens.
 
-After the goals for the cycle have been defined and the issues created, estimated, and assigned, all involved project members, technical writers and Service Providers contribute to development in accordance with the **xref:compendium:Guidelines/workflow-trunk.adoc[]**.
+After the goals for the cycle have been defined and the issues created, estimated, and assigned, all involved project members, Technical Writers and Service Providers contribute to development in accordance with the **xref:compendium:Guidelines/workflow-trunk.adoc[]**.
 
 
 == Development cycle structure

@@ -58,4 +58,4 @@ Candidates are elected during the xref:development/kick-off_workshop.adoc[] of a
 Interested people can submit their candidacy for the following roles:
 
 * xref:signing_up/become_project_lead.adoc[Project Lead]
-* xref:signing_up/become_sub-group_lead.adoc[Sub-group Lead]
+* xref:signing_up/become_Sub-group_lead.adoc[Sub-group Lead]

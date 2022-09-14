@@ -21,7 +21,7 @@ Label:: {role-service-provider}
 == Typical roles as a Service Provider
 TODO
 
-=== Act as technical writer
+=== Act as Technical Writer
 xref:technical-writer.adoc[]
 
 role_related::service-provider[]

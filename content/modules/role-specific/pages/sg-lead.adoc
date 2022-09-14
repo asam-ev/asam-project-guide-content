@@ -1,5 +1,5 @@
 = Sub-group Lead
-:description: Summary and landing page for sub-group leads.
+:description: Summary and landing page for Sub-group leads.
 :keywords: role, role-landing-page
 
 include::partial$_attributes.adoc[]
