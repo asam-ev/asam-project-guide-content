@@ -17,10 +17,12 @@ This page contains general guidelines on meetings in projects.
 It is intended for meetings during the xref:getting-involved:development_phase.adoc[Development phase], but may be applied to meetings in other phases as well.
 
 //tag::reduced[]
+
+== Roles in meetings
 [cols="1,1", grid=cols, frame=none]
 |===
-a|== Meeting host 
-a|== Minute taker
+a|=== Meeting host 
+a|=== Minute taker
 
 a|IMPORTANT: Project meetings are set up by the ASAM office, even when they are not the meeting host.
 All other meetings within a project (such as Sub-group meetings) have to be set up by the respective host.
@@ -124,16 +126,22 @@ TIP: Do a quick vote first (e.g. show of hands).
 If it is unanimous, you can skip the formal process of voting.
 Make sure to document the result in either case, however.
 
-=== Project-level voting
-In a project-level meeting, each company has one vote.
+[cols="1,1", grid=cols, frame=none]
+|===
+a|=== Project-level voting 
+a|=== Sub-group voting
+
+a|In a project-level meeting, each company has one vote.
 The barrier for a valid poll is, therefore, 50% of all participating companies. +
 It is recommended that if a company has multiple participants in a project, they decide on their vote and who will cast it ahead of time.
 If a company casts multiple votes (accidentally or intentionally), their vote is counted as abstention.
 
-=== Sub-group voting
-In a Sub-group meeting, each participant has one vote.
+a|In a Sub-group meeting, each participant has one vote.
 The barrier for a valid poll is, therefore, 50% of all Sub-group members.
 This is independent of company affiliation.
+
+
+|===
 
 
 == Meeting notes
