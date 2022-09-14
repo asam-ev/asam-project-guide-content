@@ -14,5 +14,5 @@ WARNING: **An official meeting will not take place unless a minute taker is defi
 
 include::compendium:Guidelines/coordination-general_meeting_guidelines.adoc[tag=reduced]
 
-== Full level project meetings
-A full level project meeting is declared as such when all enrolled project members are invited to participate.
+== Project-level meetings
+A project-level meeting is declared as such when all enrolled project members are invited to participate.
