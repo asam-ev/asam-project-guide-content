@@ -11,14 +11,14 @@ include::compendium:partial$_attributes.adoc[]
 
 [source]
 ----
-├───01_administrative // this is where all administrative topics are stored
-│   ├───controlling // contains all topics related to the controlling part of the project
-│   ├───ASAM <Projectname> Participant_list.xlsx // contains all enrolled project members with their contact details and their sub-group assignments
-│   └───<Projectname> Proposal.<extension> // the project proposal as .docx or .pdf or .html
+├───01_administrative................................// this is where all administrative topics are stored
+│   ├───controlling..................................// contains all topics related to the controlling part of the project
+│   ├───ASAM <Projectname> Participant_list.xlsx.....// contains all enrolled project members with their contact details and their sub-group assignments
+│   └───<Projectname> Proposal.<extension>...........// the project proposal as .docx or .pdf or .html
 │
-├───02_meetings // Contains folders with provided presentations and optional recordings of project meetings
+├───02_meetings......................................// Contains folders with provided presentations and optional recordings of project meetings
 │
-└───03_development // May be used to share and exchange supporting material and other external content not directly relevant to the standard itself
+└───03_development...................................// May be used to share and exchange supporting material and other external content not directly relevant to the standard itself
 
 ----
 
