@@ -13,11 +13,13 @@ include::contributing:partial$_attributes.adoc[]
 {remote-icon-page}
 //end::icon[]
 
+//end::body[]
 include::compendium:page$Guidelines/workflow-trunk.adoc[leveloffset=+1, tags=!compendium;!icon]
 
 ---
 
 == Contributing through issues
+//tag::body[]
 You can contribute to ASAM projects directly through issues.
 These issues can be created and managed in the respective Remote Repository of the project.
 

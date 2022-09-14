@@ -41,10 +41,11 @@ For this purpose, all content discussions shall happen through issues in a proje
 == Gather topics in issues
 // {mandatory}
 
+include::compendium:partial$clean_issue.adoc[]
+
 If your project is on ASAM GitLab, see the https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#create-an-issue[GitLab instructions^] for creating issues. +
 If your project is on GitHub, see the https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue[GitHub instructions^] for creating issues.
 
-include::compendium:partial$clean_issue.adoc[]
 
 //end::body[]
 PROPOSAL::
@@ -123,30 +124,27 @@ A project may also have project-specific labels in addition to the official ones
 
 
 == Discuss issue
-The <<Content>> of issues is discussed and resolved through <<Comments,comments>> and <<Replies,replies>> to previous comments.
+The **content** of issues is discussed and resolved through **comments** and **replies** to previous comments.
 
-=== Content
-The issue content (body) contains the definition of the issue.
+|===
+|Content |Comments |Replies
+
+a|The issue content (body) contains the definition of the issue.
 
 In the case of a feature or chapter description, it contains the current content of that chapter.
 It shall always be up-to-date and contain the latest discussed and approved version. +
 In the case of a question or a bug, it contains the initial topic.
 In the latter case, the content shall only be updated to correct mistakes therein.
-
-
-=== Comments
-A comment to an issue is a new topic that is independent from any previous comment.
+a|A comment to an issue is a new topic that is independent from any previous comment.
 
 [horizontal]
 GitLab:: https://docs.gitlab.com/ee/user/discussions/[GitLab instructions for commenting^]
 GitHub:: https://docs.github.com/en/issues/tracking-your-work-with-issues/quickstart#communicating[GitHub instructions for commenting^]
 
-
 IMPORTANT: Before you add a new comment to an issue, make sure it is not a duplicate (i.e. the same or a similar comment already exists) and that it is not supposed to be a <<Replies, reply>>!
 Failure to do so will prevent efficient project progress.
 
-=== Replies
-A reply is a comment created as a reply to a previous comment.
+a|A reply is a comment created as a reply to a previous comment.
 In the issue, it is a child comment to the previous one and listed in relation to it.
 
 [horizontal]
@@ -155,6 +153,8 @@ GitHub:: https://docs.github.com/en/issues/tracking-your-work-with-issues/quicks
 
 
 IMPORTANT: If you want to reply to a previous comment, make sure to create a reply, not a new comment!
+
+|===
 
 
 == Close issues

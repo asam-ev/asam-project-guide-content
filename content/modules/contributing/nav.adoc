@@ -1,6 +1,7 @@
 * xref:main.adoc[]
 ** xref:account_setup.adoc[]
 ** xref:contribution_workflow.adoc[]
+** xref:issue_contribution.adoc[]
 ** xref:editorial_guide.adoc[]
 ** xref:labels.adoc[]
 ** xref:meeting_guidelines.adoc[]

@@ -1,4 +1,4 @@
-= Contribution workflow
+= Contributing with issues
 :description: Explains the basic contribution workflows.
 :keywords: basics
 
@@ -6,4 +6,4 @@ include::partial$_attributes.adoc[]
 
 // {role-project-participant}
 
-include::compendium:page$Guidelines/workflow-trunk.adoc[tags=body;!compendium;!icon]
+include::compendium:Tools/remote_repo/remote_repo_guides.adoc[tags=body;!icon, leveloffset=-1]
