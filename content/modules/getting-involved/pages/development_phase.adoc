@@ -203,7 +203,8 @@ image::compendium:asam/development_phase_timeline-cycle_example.svg[title = "Med
 The Coordination Group Simulation (CGSim) controlling meetings are the default reporting location for development projects.
 Here, each project presents their current status regularly (after every cycle).
 
-If a project is behind schedule or faces unpredicted problems and setbacks, the project status is escalated at the next <<TSC controlling meetings,TSC controlling meeting>>.
+If a project is behind schedule or faces unpredicted problems and setbacks, or if the project's scope needs to be altered significantly, the project status is escalated at the next <<TSC controlling meetings,TSC controlling meeting>>.
+The Project Lead discusses these topics with the project's ASAM Office Responsible to decide whether they need to be escalated to the TSC and, if so, how.
 
 
 === TSC controlling meetings
@@ -230,6 +231,19 @@ The Project Lead may escalate sub-group decisions to a project level vote.
 === From group to TSC
 If a project cannot meet its milestones or budget, it must escalate its status report in the next CGSim controlling meeting.
 See also <<CGSim controlling meetings>> above.
+
+
+== Change requests
+Rare is the project that does not change its shape during development. +
+However, not every change can be made without a formal change process.
+All changes that affect the project scope require a formal Change Request (CR).
+
+If a scope-changing issue is entered after the project has started, this is considered a Change Request.
+The requirements for these issues is identical to every other feature issue. +
+The project group will decide whether the CR is accepted or rejected. 
+If it is accepted, it is assigned (project member or sub-group).
+With that, the standard xref:contributing:contribution_workflow.adoc#_workflow_overview[Contribution Workflow] applies.
+
 
 == Best practices
 * Create and enforce a clear terminology in your project

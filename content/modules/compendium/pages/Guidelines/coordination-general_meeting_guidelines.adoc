@@ -107,8 +107,11 @@ This list also contains information on the group or groups each participant is p
 
 
 == Voting
-Meetings are the default way of taking project- or sub-group-level votes.
-Their results have to be made available in the corresponding meeting notes.
+Meetings are the default way of taking project- or sub-group-level polls.
+Their results have to be made available in the corresponding meeting notes. +
+A poll is only valid if at least 50% of registered (sub-)group members cast their vote and the Issue Responsible (if defined) is present.
+To be eligible for casting a vote, a member has to have been present during the corresponding topic discussion/presentation.
+The only exception to this is voting for topics of static nature, such as meeting frequencies.
 
 ASAM recommends the use of "Microsoft Forms" in case of online voting.
 You can ask your ASAM Office Responsible for support on creating such a vote ahead of time.
@@ -116,6 +119,17 @@ You can ask your ASAM Office Responsible for support on creating such a vote ahe
 TIP: Do a quick vote first (e.g. show of hands). 
 If it is unanimous, you can skip the formal process of voting.
 Make sure to document the result in either case, however.
+
+=== Project-level voting
+In a project-level meeting, each company has one vote.
+The barrier for a valid poll is, therefore, 50% of all participating companies. +
+It is recommended that if a company has multiple participants in a project, they decide on their vote and who will cast it ahead of time.
+If a company casts multiple votes (accidentally or intentionally), their vote is counted as abstention.
+
+=== Sub-group voting
+In a sub-group meeting, each participant has one vote.
+The barrier for a valid poll is, therefore, 50% of all sub-group members.
+This is independent of company affiliation.
 
 
 == Meeting notes
