@@ -9,20 +9,17 @@ include::partial$_attributes.adoc[]
 
 This page describes the structure of standards documents and the types of standards that are produced in projects.
 
-== Classification of standards
-
-There are two types of standards: <<Base standard,base standards>> and <<Associated standard,associated standards>>.
-
 Standards can consist of several parts.
-These parts are independent (e.g. <<Technology reference,technology references>>) and must each individually comply with the <<Structure of standards,basic document structure for ASAM standards>>.
+These parts are independent and must each individually comply with the <<Structure of standards,basic document structure for ASAM standards>>.
 
 
-== Base standard
+== Specification
 
-A base standard defines the syntax, abstract models, and functionality for general use.
-A base standard is defined in a technology-independent form.
-It can use a problem-/task-related notation, e.g., UML for an object model, or any suitable description for protocols.
-Typically, a base standard is
+Each standard contains exactly one Specification.
+It defines the syntax, abstract models, and functionality for general use. +
+The Specification is defined in a technology-independent form.
+It can use a problem-/task-related notation, e.g., UML for an object model, or any suitable description for protocols. +
+Typically, this is
 
 * A <<Format description>> (data structure) **or**
 * A <<Protocol definition>> **or**
@@ -35,54 +32,34 @@ and has the following properties:
 * Supplier-independent
 * Does not contradict any other https://www.asam.net/standards/[ASAM standard^]
 
-There are platform- and technology-specific mapping rules for each base standard.
-These are defined in a Technology Reference as independent parts of the base standard.
+This document is normative by default.
+It may contain non-normative content as long as it is clearly marked as such.
 
-=== Format description
+=== Reference
+A standard may contain one or more Reference documents. +
+A Reference contains information for implementers of this standard. 
+It provides additional information to the <<Specification>> in regards to implementing this standard. +
+This information is non-normative.
 
-A Format Description standard defines the syntax and semantics of a file format to exchange data.
-Currently, these standards are defined in XML, but older standards, such as ASAM MCD-2 MC (ASAP2), still use proprietary ASCII formats.
-There are also binary description standards, for example, to store measurement data efficiently.
+=== Guideline
+A standard may contain one or more Guideline documents. +
+A Guideline contains information for users of this standard.
+It provides additional information to the <<Specification>> in regards to applying and using this standard, such as specific content examples. +
+This information is non-normative.
 
-=== Protocol definition
-A Protocol Definition defines the syntax, semantics, and synchronization of communication.
-A communications protocol is a system of digital message formats and rules for exchanging the messages in or between computer systems.
-A protocol may have a formal description.
+=== Supplementary material
+Sometimes, a project's delivery does not fit either of the above. 
+In this case, the project may contain additional, so-called "Supplementary", material.
 
-=== Technology reference
-A Technology Reference specifies the technology-dependent interpretation of the generic standard as mapping rules.
-If these mapping rules are complied with, the deliverables are technology-specific implementations of standards that are suitable for a specific implementation platform and native programming languages.
-These Technology References are typically available for base standards and companion standards.
+Note that Supplemental material is only allowed if deemed absolutely necessary and if it is neither <<Specification>>, <<Reference>>, nor <<Guideline>>.
 
-== Associated standard
-
-An associated standard always refers to a base standard.
-These are examples of associated standards:
-
-* <<Application Area Companion>>
-* <<Transport Layer Specification>>
-
-=== Application Area Companion
-
-An Application Area Companion is an associated extension of a base standard for a specific type of device or a specific application area.
-A companion uses the syntax and the abstract models of the base standard. +
-Companion standards describe models for application fields (application-specific information) and are technology-independent.
-
-
-=== Transport Layer Specification
-
-A transport layer specification details, for example, how a generic protocol definition is to be interpreted using a concrete physical layer.  +
-The transport layer provides uniform access to the application-oriented layers, so that the application-oriented layers do not have to take the properties of the communication network into account.
-
-
-== Set of standards
-A "**set of standards**" is a special form comprising different elements in one standard.
+If you are unsure into which category a certain topic falls, you can ask your ASAM Office Responsible.
 
 
 == Structure of standards
-ASAM provides a template for creating an ASAM specification, including a description of use and illustrated by examples.
-The style sheet defines an identical look & feel for all ASAM standards.
-The main definitions are for the headers and footers, and for the cover page and directories.
-Rules for designing graphics, tables, source text, headings, etc. are included.
+ASAM provides a template for creating an ASAM specification.
+It contains all mandatory sections and text blocks.
+A style sheet defines an identical look & feel for all ASAM standards.
 
-
+For new projects, ASAM creates a new document from a template.
+Projects for new versions of an existing standard typically build on the previous results.
