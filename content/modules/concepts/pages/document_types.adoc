@@ -1,5 +1,5 @@
-= Creation of standards
-:description: Summarizes how standards are created at ASAM.
+= Document types of a standard
+:description: Summarizes the different document types of a standard at ASAM.
 :keywords: standardization
 :level: leveloffset=+1
 :sublevel: leveloffset=+2,tag=!related
