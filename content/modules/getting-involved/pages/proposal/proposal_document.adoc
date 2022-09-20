@@ -14,6 +14,11 @@ The https://code.asam.net/common/templates/proposal-template[**Project Proposal 
 
 Each proposal must cover the following topics:
 
+* Scope
+* Actors
+* Use Cases
+* Features (mapped to one or more Use Cases)
+* Work Packages with estimated effort (in t-shirt sizes)
 * <<Commitments>>
 * <<Project timeline>>
 * <<Project deliverables>>

@@ -9,6 +9,15 @@ include::compendium:partial$_attributes.adoc[]
 
 == Summary
 //tag::summary[]
+
+[horizontal]
+Description:: Study projects provide members, an organizational structure to study or analyze specific aspects of ASAM standards in a collaborative way.
+Goal:: These projects have the overall goal to enhance the understanding of ASAM standards, to promote their application in member companies, and to create change requests for the further development of ASAM standards.
+Repository suffix:: Study
+
+.More details
+[%collapsible]
+====
 .Summary
 [cols="1h,3"]
 |===
@@ -32,11 +41,7 @@ a|
 ** no Review Phase
 
 |===
-
-[horizontal]
-Description:: Study projects provide members, an organizational structure to study or analyze specific aspects of ASAM standards in a collaborative way.
-Goal:: These projects have the overall goal to enhance the understanding of ASAM standards, to promote their application in member companies, and to create change requests for the further development of ASAM standards.
-Repository suffix:: Study
+====
 //end::summary[]
 
 

@@ -22,65 +22,78 @@ NOTE: All variants use the same repository suffix.
 
 == Project type description
 The core of ASAM is to carry out standard development projects with the goal to create new standards and to update existing standards in accordance with the demands of ASAM members and market requirements.
-ASAM defines four types of standard development projects, depending on the expected magnitude of changes to the standard:
+ASAM defines three types of standard development projects, depending on the expected magnitude of changes to the standard:
 
-* <<New standard>>
-* <<Major version update>>
-* <<Minor version update>>
+* <<Major version>>
+* <<Minor version>>
 * <<Maintenance>>
 
 They all have in common that the primary output of the project is a standard.
 The upper limit for subsidiary funding from ASAM is 25% of the total required project budget.
 
 
-== New standard
-=== Summary
-//tag::new-summary[]
-.Summary
-[cols="1h,3"]
-|===
-|Purpose
-| Create a new standard.
+// == New standard
+// === Summary
+// //tag::new-summary[]
 
-|Version
-| 1.0.0
+// A new standard is developed from the outset.
+// There is no predecessor in the ASAM standard portfolio, or the predecessor has been declared as 'deprecated'.
+// A new ASAM standard can be a transfer from another organization or an extension of a standard from another standardization organization.
 
-|New Features
-| yes
+// .More details
+// [%collapsible]
+// ====
+// .Summary
+// [cols="1h,3"]
+// |===
+// |Purpose
+// | Create a new standard.
 
-|Backward compatible
-| n.a.
+// |Version
+// | 1.0.0
 
-|Funding Limit
-| 25%
+// |New Features
+// | yes
 
-|Process
-| Standard Development Process
+// |Backward compatible
+// | n.a.
 
-|===
+// |Funding Limit
+// | 25%
 
-A new standard is developed from the outset.
-There is no predecessor in the ASAM standard portfolio, or the predecessor has been declared as 'deprecated'.
-A new ASAM standard can be a transfer from another organization or an extension of a standard from another standardization organization.
-//end::new-summary[]
+// |Process
+// | Standard Development Process
 
-=== Project type description
+// |===
+// ====
+// //end::new-summary[]
 
-Start the development of a completely new standard within ASAM.
+// === Project type description
 
-The development project meets one of the following criteria:
+// Start the development of a completely new standard within ASAM.
 
-* There exists no predecessor in the ASAM standard portfolio.
-* A predecessor in the ASAM standard portfolio was deprecated and a new standard in the same technology area shall be developed from scratch.
-* The new standard is an extension, substitution or parallel development of a standard from another standardization organization.
+// The development project meets one of the following criteria:
 
-A new ASAM standard gets the version number "1.0.0".
-If a new standard replaces a deprecated standard, then the new standard cannot have the same name than the deprecated standard.
+// * There exists no predecessor in the ASAM standard portfolio.
+// * A predecessor in the ASAM standard portfolio was deprecated and a new standard in the same technology area shall be developed from scratch.
+// * The new standard is an extension, substitution or parallel development of a standard from another standardization organization.
+
+// A new ASAM standard gets the version number "1.0.0".
+// If a new standard replaces a deprecated standard, then the new standard cannot have the same name than the deprecated standard.
 
 
-== Major version update
+== Major version
 === Summary
 //tag::major-summary[]
+
+A major version development project is a new standard or a project that introduces significant changes to an existing standard, e.g. the addition of a new major feature or significant changes to existing features. 
+It is expected that the implementation of the new version will require significant development or migration efforts by tool vendors and end users alike. +
+A new major version of an ASAM standard does not have to be backward-compatible to its predecessor.
+//end::major-summary[]
+
+.More details
+[%collapsible]
+====
 .Summary
 [cols="1h,3"]
 |===
@@ -105,11 +118,8 @@ a|
 | Standard Development Process
 
 |===
+====
 
-A major version development project introduces significant changes to the standard, e.g. the addition of a new major feature or significant changes to existing features.
-It is expected that the implementation of the new version will require significant development or migration efforts by tool vendors and end users alike.
-A new major version of an ASAM standard does not have to be backward-compatible to its predecessor.
-//end::major-summary[]
 
 
 === Project type description
@@ -132,6 +142,17 @@ X is an integer number starting with 2.
 == Minor version update
 === Summary
 //tag::minor-summary[]
+
+A minor version development project introduces changes to existing features on a smaller scale or introduce new features that are rather small relative to the rest of the standard.
+It is expected that the implementation of the new version will require low development or migration efforts by tool vendors and end users. +
+A minor version of an ASAM standard shall be backward-compatible to its immediate predecessor.
+Exceptions are allowed, require approval from the TSC and must be documented in the standard.
+
+//end::minor-summary[]
+
+.More details
+[%collapsible]
+====
 .Summary
 [cols="1h,3"]
 |===
@@ -159,12 +180,7 @@ Standard Development Process except:
 * Proposal Workshop
 * Review Phase
 |===
-
-A minor version development project introduces changes to existing features on a smaller scale or introduce new features that are rather small relative to the rest of the standard.
-It is expected that the implementation of the new version will require low development or migration efforts by tool vendors and end users.
-A minor version of an ASAM standard shall be backward-compatible to its immediate predecessor.
-Exceptions are allowed, require approval from the TSC and must be documented in the standard.
-//end::minor-summary[]
+====
 
 
 === Project type description
@@ -194,6 +210,17 @@ The following process steps are not mandatory and are skipped by default, unless
 == Maintenance
 === Summary
 //tag::maintenance-summary[]
+
+A maintenance version development project resolves technical issues of the standard, i.e. corrects errors, removes ambiguities, adds clarifications to existing descriptions, makes editorial improvements or changes examples.
+It is expected that the implementation of the new version will require low development or migration efforts by tool vendors and end users.
+Revisions cannot include new features.
+A new maintenance version of an ASAM standard is always backward-compatible.
+
+//end::maintenance-summary[]
+
+.More details
+[%collapsible]
+====
 .Summary
 [cols="1h,3"]
 |===
@@ -225,12 +252,7 @@ Standard Development Process except:
 * Review Phase
 
 |===
-
-A maintenance version development project resolves technical issues of the standard, i.e. corrects errors, removes ambiguities, adds clarifications to existing descriptions, makes editorial improvements or changes examples.
-It is expected that the implementation of the new version will require low development or migration efforts by tool vendors and end users.
-Revisions cannot include new features.
-A new maintenance version of an ASAM standard is always backward-compatible.
-//end::maintenance-summary[]
+====
 
 
 === Project type description

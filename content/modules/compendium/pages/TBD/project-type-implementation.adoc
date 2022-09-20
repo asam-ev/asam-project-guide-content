@@ -9,6 +9,16 @@ include::compendium:partial$_attributes.adoc[]
 
 == Summary
 //tag::summary[]
+
+[horizontal]
+Description:: An implementation project has the purpose to create a supplementary product to a standard that supports the implementation or application of an ASAM standard in the industry.
+Goal:: The result of an implementation project can be a tool or source code, such as checkers for file formats and APIs, add-ons or plug-ins for commonly used IDEs, importers, exporters or reference implementations.
+NOTE: Promoting specific commercial tools shall be avoided.
+Repository suffix:: Implementation
+
+.More details
+[%collapsible]
+====
 .Summary
 [cols="1h,3"]
 |===
@@ -25,13 +35,7 @@ Standard Development Process except:
 * Proposal Workshop
 * Review Phase
 |===
-
-[horizontal]
-Description:: An implementation project has the purpose to create a supplementary product to a standard that supports the implementation or application of an ASAM standard in the industry.
-Goal:: The result of an implementation project can be a tool or source code, such as checkers for file formats and APIs, add-ons or plug-ins for commonly used IDEs, importers, exporters or reference implementations.
-NOTE: Promoting specific commercial tools shall be avoided.
-Repository suffix:: Implementation
-
+====
 //end::summary[]
 
 

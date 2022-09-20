@@ -9,6 +9,15 @@ include::compendium:partial$_attributes.adoc[]
 
 == Summary
 //tag::summary[]
+[horizontal]
+Description:: Concept projects have the purpose to prepare the further development of existing ASAM standards or to prepare the development of new ASAM standards.
+They are typically chosen when the envisioned standard is complex and requires significant resources to even develop a sound and solid project proposal.
+Goal:: The goals of concept projects are to propose specific content for ASAM standards and/or to provide justification for the usefulness, practicability, and feasibility of the proposed content.
+Repository suffix:: Concept
+
+.More details
+[%collapsible]
+====
 .Summary
 [cols="1h,3"]
 |===
@@ -26,12 +35,8 @@ Standard Development Process except:
 * Proposal Workshop
 * Review Phase
 |===
+====
 
-[horizontal]
-Description:: Concept projects have the purpose to prepare the further development of existing ASAM standards or to prepare the development of new ASAM standards.
-They are typically chosen when the envisioned standard is complex and requires significant resources to even develop a sound and solid project proposal.
-Goal:: The goals of concept projects are to propose specific content for ASAM standards and/or to provide justification for the usefulness, practicability, and feasibility of the proposed content.
-Repository suffix:: Concept
 //end::summary[]
 
 

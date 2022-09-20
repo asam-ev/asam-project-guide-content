@@ -58,7 +58,7 @@ Here, the project idea is presented to a broader audience for the first time and
 
 . Written proposal
 . Proposal submitter is declared
-. At least three companies committing to the project
+. At least three independent companies committing to the project
 
 
 == Hosting a Proposal Workshop
@@ -69,15 +69,16 @@ include::compendium:page$Guidelines/coordination-hosting_workshops.adoc[leveloff
 //tag::goals[]
 Participants of the Proposal Workshop focus on the following topics, which are the technical core of the intended project proposal:
 
-. Use-cases, from the view-point of end-users.
-. Features, which shall be standardized.
-. Requirements, to be considered during the development of the standard.
+. Use-cases, from the view-point of end-users
+. Features, which shall be standardized
+. Requirements, to be considered during the development of the standard
 
 Further items shall be discussed, which cover the proposal justification and project planning:
 
-- a justification of market relevance for the proposed changes or the new standard.
-- prioritization of features and requirements.
-- statement about backward-compatibility, in case of the further development of an existing standard.
+* a justification of market relevance for the proposed changes or the new standard
+* prioritization of features and requirements
+* statement about backward-compatibility, in case of the further development of an existing standard
+* identification of other interested parties
 
 The participants of the Proposal Workshop shall determine the proposal submitter.
 //end::goals[]
