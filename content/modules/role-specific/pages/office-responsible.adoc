@@ -1,4 +1,4 @@
-=  ASAM Office Responsible
+=  ASAM Office Responsible (OR)
 :description: Summary and landing page for ORs.
 :keywords: role, role-landing-page
 
