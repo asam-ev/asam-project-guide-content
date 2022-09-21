@@ -114,11 +114,17 @@ This list also contains information on the group or groups each participant is p
 == Polls and voting
 Meetings are the default way of taking project- or Sub-group-level polls.
 Their results have to be made available in the corresponding meeting notes. +
-Polls have to be announced in the agenda (before the meeting takes place).
-A poll is only valid if at least 50% of registered (sub-)group members cast their vote and the Issue Responsible (if defined) is present.
+By default, polls are announced in the agenda (before the meeting takes place).
+However, if spontaneous topics arise, ad hoc polls can be held if all impacted participants are present.
+In case one or more crucial members for a topic's ad hoc poll are missing, the poll has to be postponed and scheduled for the next meeting instead.
+
+A poll is only valid if at least 50% of registered active (sub-)group members cast their vote and the Issue Responsible (if defined) is present.
+An abstention vote counts as a cast vote.
+A passive participant (someone not involved in the development directly) is neither considered for this threshold nor may they participate in any polls. +
 To be eligible for casting a vote, a member has to have been present during the corresponding topic discussion/presentation.
 The only exception to this is voting for topics of static nature, such as meeting frequencies.
 
+All votes must be cast digitally and through an online tool (so both onsite and remote users can vote).
 ASAM recommends the use of "Microsoft Forms" in case of online voting.
 You can ask your ASAM Office Responsible for support on creating such a vote ahead of time.
 
@@ -142,7 +148,6 @@ This is independent of company affiliation.
 
 
 |===
-
 
 == Meeting notes
 Meeting notes (minutes) are to be taken in the project's repository.

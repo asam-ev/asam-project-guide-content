@@ -55,3 +55,17 @@ The Project Lead may escalate Sub-group decisions to a project level vote.
 === From group to TSC
 If a project cannot meet its milestones or budget, it must escalate its status report in the next CGSim controlling meeting.
 See also <<CGSim controlling meetings>> above.
+
+== Inactive participants
+An inactive participant is someone who is registered as an active participant but repeatedly and unexcused does not partake in meetings or any development activities. 
+How "repeatedly unexcused" absent a participant has to be before being marked as inactive is up to the project to decide.
+As an example, a group can decide that three (3) unexcused absences are the limit, with a final warning being issued after the second time. +
+Inactive participants can hinder a project by bringing it below the required voting threshold.
+They also put more workload on the other active members.
+It is, therefore, important to identify inactive members quickly and get them to be active again.
+As a last resort, inactive (and possibly unresponsive) members can be removed from the project.
+This is the responsibility of the responsible lead: Project Lead for project level inactiveness, Sub-group Lead for relevant sub-groups.
+
+Typically, identification of inactive participants is tied to meeting participation.
+The respective Lead must contact members that have been identified as inactive to try and get them involved (again).
+If this fails, the inactive member can be removed from the project either through the project controlling or, in difficult cases, through the TSC.
