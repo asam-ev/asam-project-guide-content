@@ -20,11 +20,12 @@ include::partial$project_phases.adoc[tag=release]
 == Process overview
 The purpose of the Release phase is to obtain a release decision at ASAM and to publish the new standard.
 
-image::asam-development-process-Release.svg[title="The Release Phase (simplified)",opts=interactive]
+image::compendium:asam/release_phase.drawio.svg[title="The Release Phase",opts=interactive]
 
 
 == Release phase timeline
-TODO
+
+image::compendium:asam/release_phase_timeline.drawio.svg[title="The Release phase timeline"]
 
 == Release phase steps
 The Release phase consists of the following steps, which are explained in detail in their own sections:
