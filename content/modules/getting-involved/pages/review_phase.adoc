@@ -51,7 +51,7 @@ image::compendium:asam/review_phase.drawio.svg[title="The Review phase"]
 The Project Lead initiates the internal review process.
 The Project Group reviews the deliverables and provides feedback.
 
-The default review period for outside reviews is 3 weeks.
+The default review period for outside reviews is 3 weeks. +
 
 If a project groups has reasons to skip the project group review entirely, it must get approval from the ASAM Office Responsible, the Project Lead, and the ASAM CTO first.
 
@@ -83,6 +83,7 @@ The project group has full authority to decide, how to handle a comment, e.g. to
 
 The default feedback implementation period for group reviews is 2 weeks.
 If no major setbacks have been identified, the outside review is started.
+Otherwise, the project will do another group review.
 
 
 == Draft release
@@ -92,17 +93,22 @@ If no major setbacks have been identified, the outside review is started.
 |To create a preliminary version of the standard for carrying out an outside review.
 
 |Responsible
-|Project group
+|Project Lead
 
 |Involved
-|none
+|Office
 |===
 
-The Project Leader is responsible for delivering the draft document(s) in a format which is usable in the ASAM IT infrastructure for document reviews.
+The Project Lead is responsible for delivering the draft document(s) in a format which is usable in the ASAM IT infrastructure for document reviews.
 Changes to the prior version shall be marked in the draft documents or documented in a separate changelog, with clear references to the draft documents.
+
+The Office publishes the start of the outside review process via newsletter and https://www.asam.net/active-projects/public-review/[ASAM website], and provides additional information, such as a brief description of the changes in the standard, review process steps and the review deadline.
+
 
 Outside reviews are mandatory for development projects of major versions. +
 The project group releases a draft of the standard, which is feature-complete and has undergone an internal review.
+
+
 
 IMPORTANT: A review of an incomplete set of deliverables is not allowed by default.
 The ASAM Office Responsible and the ASAM CTO can make an exception for a project upon request by the Project Lead.
@@ -117,13 +123,12 @@ However, each of the provided deliverables still has to be feature-complete.
 |To obtain technical review feedback from members.
 
 |Responsible
-|Office
+|Members
 
 |Involved
-|Members, project group
+|Office Responsible, project group
 |===
 
-The Office publishes the start of the outside review process via newsletter and https://www.asam.net/active-projects/public-review/[ASAM website], and provides additional information, such as a brief description of the changes in the standard, review process steps and the review deadline.
 
 The Office provides an IT solution for carrying out the outside review of the draft.
 The Office provides technical support for reviewers and ensures that review feedback is accessible to the project group members in a timely manner.
