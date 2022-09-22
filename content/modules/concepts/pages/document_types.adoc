@@ -18,22 +18,8 @@ These parts are independent and must each individually comply with the <<Structu
 Each standard contains exactly one Specification.
 It defines the syntax, abstract models, and functionality for general use. +
 The Specification is defined in a technology-independent form.
-It can use a problem-/task-related notation, e.g., UML for an object model, or any suitable description for protocols. +
-Typically, this is
-
-* A <<Format description>> (data structure) **or**
-* A <<Protocol definition>> **or**
-* An API
-
-and has the following properties:
-
-* Platform-independent
-* Technology-independent
-* Supplier-independent
-* Does not contradict any other https://www.asam.net/standards/[ASAM standard^]
-
-This document is normative by default.
-It may contain non-normative content as long as it is clearly marked as such.
+It is normative by default.
+The document may contain non-normative content as long as it is clearly marked as such.
 
 === Reference
 A standard may contain one or more Reference documents. +
@@ -63,3 +49,7 @@ A style sheet defines an identical look & feel for all ASAM standards.
 
 For new projects, ASAM creates a new document from a template.
 Projects for new versions of an existing standard typically build on the previous results.
+
+
+== Related topics
+xref:getting-involved:release/deliverables.adoc[]

@@ -33,6 +33,8 @@ include::../ROOT/partials/_attributes.adoc[]
 // *** xref:review/review_standard_asam.adoc[]
 // *** xref:review/review_standard_public.adoc[]
 // ** xref:release_phase.adoc[]
+// *** xref:release/release_presentation.adoc[]
+// *** xref:release/deliverables.adoc[]
 
 
 
