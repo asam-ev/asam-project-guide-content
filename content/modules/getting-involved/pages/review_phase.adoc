@@ -35,6 +35,11 @@ image::compendium:asam/review_phase.drawio.svg[title="The Review phase"]
 * The project group members determine whether the standard is ready for the review phase.
 
 
+== Review phase timeline
+
+image::compendium:asam/review_phase_timeline.drawio.svg[title="The Review phase timeline"]
+
+
 == Project group review
 [cols="1h,20"]
 |===

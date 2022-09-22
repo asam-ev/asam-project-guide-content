@@ -46,8 +46,8 @@ h|Purpose
 |To review the developed deliverables.
 
 h|Required for
-a|* New Standard
-* Major Version Update
+a|* Major Version Update
+* Minor Version Update
 |===
 
 //end::review[]
