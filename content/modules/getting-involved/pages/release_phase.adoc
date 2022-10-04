@@ -30,14 +30,14 @@ image::compendium:asam/release_phase_timeline.drawio.svg[title="The Release phas
 == Release phase steps
 The Release phase consists of the following steps, which are explained in detail in their own sections:
 
-* <<Candidate release>>
+* <<Prepare TSC release>>
 * <<Release candidate review>>
 * <<Release decision>>
 * <<Publication preparation>>
 * <<Publication>>
 
 
-=== Candidate release
+=== Prepare TSC release
 [cols="1h,20"]
 |===
 |Purpose
@@ -45,8 +45,10 @@ The Release phase consists of the following steps, which are explained in detail
 
 |Responsible
 |{role-project-lead},
-{role-project-participant},
-{role-sg-lead}
+{role-project-participant}
+
+|Involved
+|{role-or}
 |===
 
 The project group prepares a release candidate and agrees per formal voting to submit the candidate to the TSC for release decision.
@@ -56,12 +58,14 @@ The group's decision is documented in the meeting minutes.
 
 The Project Leader submits the following deliverables to ASAM:
 
-* the standard with all supplemental documents, files and examples that constitute the deliverables to members.
-* sources required to generate the deliverables, including written instructions how to generate them.
-* revision history documentation (not needed for version 1.0.0).
-* new release presentation.
+* the standard with all supplemental documents, files and examples that constitute the deliverables to members
+* sources required to generate the deliverables, including written instructions how to generate them
+* revision history documentation (not needed for version 1.0.0)
+* a (new) release presentation
 
 Sources are those digital work products, which can be modified or edited with standard tools such as text editors, image processors or modeling tools, and which are the input for generators that produce the final deliverables.
+
+IMPORTANT: The release candidate has to be submitted at least two (2) weeks prior to the next TSC meeting.
 
 
 === Release candidate review
