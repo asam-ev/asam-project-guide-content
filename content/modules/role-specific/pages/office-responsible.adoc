@@ -16,9 +16,9 @@ Label:: {role-or}
 * Supports and managing ASAM projects from the background
 
 == Requirements
-* Strong experience in the automotive and or simulation industry
+* Strong experience in the automotive and/or simulation industry
 * Well structured and organized work ethic
-* Strong knowlege in ASAM used tools
+* Strong knowledge in ASAM's tools
 
 == Responsibilities
 Reporting to Managing Director::
@@ -27,11 +27,11 @@ Reporting to Managing Director::
 
 Providing platform for project::
 Interface to extern:::
-* Contracting of service providers as putlined in project proposal
+* Contracting of service providers as outlined in project proposal
 ** Onboarding of service providers
 ** Defining and publishing RFQ/PO for service providers
 * Responsible for external questions and requests
-* Organizing of webinar fpr project presentation
+* Organizing of webinar for project presentation
 Providing all required information to project members:::
 * Providing ASAM documentation about standard development
 * Providing ASAM timeframe (relevant dates/deadlines) +
@@ -40,16 +40,12 @@ E.g. ASAM TSC meetings
 ** Setting up mailing list
 ** Maintaining mailing list
 Setting up and maintaining ASAM infrastructure for development projects:::
-* Addressing projectspecific requirements
-* Providing working repository and pipline for projects
+* Addressing project-specific requirements
+* Providing working repository and pipeline for projects
 * Setting up initial project repositories
 
 Monitoring processes and informing project lead::
 * Receiving project updates from project lead
-
-
-== Instructional pages for this role
-TODO
 
 === Proposal phase
 role_related::or[proposal]
