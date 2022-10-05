@@ -1,0 +1,280 @@
+= Issue and merge request labels
+:description: Contains a list of mandatory labels each project shall use.
+:keywords: label, gitlab, github, naming, issue, merge_request, repo_convention
+:navtitle: [Repository] Issue And Merge Request Labels
+
+include::compendium:partial$_attributes.adoc[]
+
+{repo-icon}
+
+//tag::body[]
+//tag::short[]
+include::compendium:partial$_attributes.adoc[]
+
+// Label attributes are defined in the partial issue_labels.adoc and included through the _attributes.adoc partial
+
+//tag::compendium[]
+//tag::roles[]
+{role-project-participant}
+{role-sg-lead}
+{role-project-lead}
+{role-idea-giver}
+{role-technical-writer}
+//end::roles[]
+//end::compendium[]
+
+This page contains a list of mandatory labels for ASAM projects.
+These labels shall be applied to all projects, independent of their remote repository platform. +
+Typically, a new project will come with these already set up.
+If not, the project group shall ensure that they are created at the beginning of the project.
+
+All labels apply to both issues and merge/pull requests.
+
+NOTE: The label color and the depiction on this page do not have to correspond to the label color or form in the repository.
+
+
+== Applying labels
+If your project is on ASAM GitLab, see the https://docs.gitlab.com/ee/user/project/labels.html#assign-and-unassign-labels[GitLab instructions^] for assigning labels. +
+If your project is on GitHub, see the https://docs.github.com/en/issues/using-labels-and-milestones-to-track-work/managing-labels#applying-a-label[GitHub instructions^] for assigning labels.
+
+
+== Label overview
+The following table contains links to the available general labels at ASAM, separated by platform.
+
+[horizontal]
+GitLab::
+https://code.asam.net/groups/simulation/-/labels[**Simulation Domain Labels**^]
+GitHub::
+TODO - Must be defined by organization owners
+
+
+//end::short[]
+//tag::compendium[]
+:numbered:
+//end::compendium[]
+
+---
+
+
+== General labels
+{mandatory}
+
+The General Labels are defined on organization or top group level.
+These can be accessed by any project in this organization or group.
+
+
+=== Type labels
+
+Type labels display the intended field of the issue. Type labels are static and never change.
+
+[cols=">1,6"]
+|===
+|Label|Description
+
+|{isTypeBug-label}
+|This label indicates an issue that contains contradictions or errors in the standard.
+
+|{isTypeDocumentationCleanUp-label}
+|This label indicates an issue that contains general structural and editorial changes for the whole documentation.
+
+|{isTypeFeatureImprovment-label}
+|This label indicates tasks that further improve or correct existing features of the standard and/or project
+
+|{isTypeGeneralQuestion-label}
+|General questions about the documentation, work-flow or anything related to the standard.
+
+|{isTypeInternalReview-label}
+|This label indicates that the issue was created during and as a result of the internal project review phase.
+
+|{isTypeNewFeature-label}
+|This label indicates a proposals which enhance the standard or add additional features.
+
+|{isTypePublicReview-label}
+|This label indicates that the issue was created during and as a result of the public project review phase.
+
+|{isTypeReleaseBlocker-label}
+|This label indicates tasks that shall be solved in order to release the document/project.
+
+|{isTypeRepositoryInfrastructure-label}
+|This label indicates that the issue deals with a topic related to the repository infrastructure such as CI, builds, document toolchain or similar.
+
+|{isTypeUML-label}
+|This label indicates that the issue deals with an UML related topic.
+
+|===
+
+---
+
+=== Status labels
+Status labels reflect the current phase of an issue. Status labels can change. Old status label shall be removed.
+
+[cols=">1,6"]
+|===
+|Label|Description
+
+|{isStatusDuplicate-label}
+|This issue has already been raised or was already solved in another issue.
+
+|{isStatusInProgress-label}
+|This label indicates that the work on the issue has already begun and is ongoing.
+
+|{isStatusNotInProgress-label}
+|This label indicates that the work on the issue has already begun and is ongoing.
+
+|{isStatusReadyForServiceProvider-label}
+|This issue is ready for the service provider.
+
+|{isStatusWontBeFixed-label}
+|This label indicates that the task described in the issue will not be solved.
+
+|===
+
+---
+
+=== Requirement labels
+Requirement labels indicate an action to be fulfilled by the involved parties. +
+Requirement labels can change. Old Requirement labels shall be removed.
+
+[cols=">1,6"]
+|===
+|Label|Description
+
+|{requiresCCBReview-label}
+|This label indicates that the concept of this issue and a matching merge request is ready for review by the CCB.
+
+|{requiresClarification-label}
+|This label indicates that this issue needs a clarification by an expert.
+
+|{requiresConceptualWork-label}
+|This label indicates that this issue needs conceptual work by an expert or an expert group.
+
+|{requiresDocumentationWork-label}
+|This label indicates that this issue needs a change of the documentation which has to be implemented by a project member.
+
+|{requiresExample-label}
+|This label indicates that the issue needs an example to illustrate or test a section in the document which has to be implemented by a project member.
+
+|{requiresMerge-label}
+|This label indicates that this issue or a merge request is approved by the CCB and should be merged by a project member with the necessary rights.
+
+|{requiresMergeRequest-label}
+|This tag indicates that this topic has a concise concept that is ready to be implemented in a merge request (either in the form of technical documentation, writing code, or model development).
+
+|{requiresTest-label}
+|This label identifies tasks that need to be tested before they can be closed or the next step can be taken. This could be done with an example.
+
+|===
+
+---
+
+=== Relation labels
+Relation labels display relations to **external** projects.
+
+[cols]
+|===
+|Label|Description
+
+|{isRelatedEditorialGuide-label}
+|This issue is related to the ASAM Editorial Guide.
+
+|{isRelatedOpenXOntology-label}
+|This issue is related to the OpenXOntology Standard.
+
+|===
+
+---
+
+=== Effort labels
+Effort labels reflect the expected workload. Based on the expectations of the work group.
+
+[cols]
+|===
+|Label|Description
+
+|{hasEffortHigh-label}
+|Effort labels reflect the expected workload. Based on the expectations of the work group.
+
+|{hasEffortLow-label}
+|Effort labels reflect the expected workload. Based on the expectations of the work group.
+
+|{hasEffortMedium-label}
+|Effort labels reflect the expected workload. Based on the expectations of the work group.
+
+|===
+
+== Project-Specific Labels
+{optional}
+
+Each project may define their own labels.
+The following sections contain some suggestions for project-specific labels.
+
+If a project wants to use additional custom labels for extra filter options, each label must be documented in the project documentation and be accessible to each project member.
+
+
+
+---
+
+=== Sub-group labels
+
+All ASAM projects have their individual work packages clustered into groups or categories.
+These labels are defined individually for each project and should be used to categorize issues.
+
+> An issue can have multiple Group and Work Package labels provided that it is relevant to more than one of these.
+
+
+ASAM suggest the following naming schema for group/category labels:
+
+.Suggested Sub-group label schema
+[source]
+----
+'isSub-group':'Sub-group'
+----
+
+Rules::
+* Remove spaces ("Domain Model" instead of "DomainModel")
+
+Example::
+An issue label for the group Domain Model (DomainModel) would be 'isSub-group:DomainModel'
+
+
+---
+
+== Proposal phase labels
+{mandatory}
+
+This part contains all labels specific to the Proposal phase. +
+Note that these come with the template repository and typically need not be added manually.
+
+Each issue targeting the Proposal document shall be assigned:
+
+[cols=">1,6"]
+|===
+|Label|Description
+
+|{isPhaseProposal-label}
+|Denotes that this issue is relevant for the Proposal document.
+
+|===
+
+---
+
+
+== Milestones
+Milestones specify target dates and development phases for topics.
+Projects organize their issues by assigning them to milestones created separately.
+Each project has their own set of milestones that correspond to the milestone planning for the current project phase.
+
+> These are actually not labels but defined separately in the milestones section of the project (under issues).
+
+Milestones are **mandatory** for the Development phase and **recommended** for the Proposal and the Review phase.
+
+
+:!numbered:
+
+//Examples outdated (expecially labels)
+//== Examples
+//The following diagrams show examples for an issue with its labels, displaying the transitions the issue undergoes.
+
+//image::compendium:asam/issue_label_examples-1.svg[]
+
+//end::body[]

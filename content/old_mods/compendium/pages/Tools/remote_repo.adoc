@@ -1,0 +1,77 @@
+= Remote repository platforms
+:description: A summary page describing what online repository platforms are, which are supported by ASAM, and where to find related information, guides etc.
+:keywords: gitlab, github,summary,tool,mandatory, doc-as-code
+
+include::compendium:partial$_attributes.adoc[]
+include::contributing:partial$_attributes.adoc[]
+
+
+{mandatory}
+
+{remote-icon}
+
+{role-project-participant}
+{role-service-provider}
+
+A remote repository platform is a web-based DevOps lifecycle tool that provides a xref:compendium:Tools/git.adoc[] repository manager.
+It can host wikis, has issue-tracking, continuous integration, and deployment pipeline features, using an open-source license.
+
+== Remote repository platforms at ASAM
+ASAM supports repositories both on its GitLab instance and on GitHub (public).
+
+NOTE: All Proposal repositories are hosted on GitLab.
+
+[tabs]
+====
+GitLab::
++
+--
+[cols="^1,8", frame=none, grid=none]
+|===
+|{gitlab-icon-norole} +
+{gitlab-url}[ASAM GitLab^]
+a|
+* Document control during standard development
+* Commenting and tracking of feedback and discussions
+* Automation of document creation and publication steps
+* Milestone tracking
+* Synchronizing assets, style guides, scripts, and reusable content
+* Account management by ASAM
+* Hosts all Proposal repositories
+|===
+--
+GitHub::
++
+--
+[cols="^1,8", frame=none, grid=none]
+|===
+|{github-icon-norole} +
+{github-url}[ASAM e.V. on GitHub^]
+a|* Document control during standard development
+* Commenting and tracking of feedback and discussions
+* Automation of document creation and publication steps
+* Milestone tracking
+* ASAM's docker image registry
+* Uses public GitHub accounts
+* Hosting GitHub pages, e.g. this Project Guide
+|===
+--
+====
+
+== Content
+
+
+[cols="^1h,4",frame=none, grid=rows, stripes=hover]
+|===
+
+|xref:compendium:Tools/remote_repo/remote_repo_setup.adoc[image:{setup-image}[width=120,title="Remote Repository Account Setup"]] +
+xref:compendium:Tools/remote_repo/remote_repo_setup.adoc[Setup]
+|Contains instructions on how to set up your account for the respective remote repository.
+
+|xref:compendium:Tools/remote_repo/remote_repo_guides.adoc[image:{guide-image}[width=120,title="Remote Repository Guides"]] +
+xref:compendium:Tools/remote_repo/remote_repo_guides.adoc[Guides]
+|Contains guides and instructions for using the respective remote repository.
+
+|===
+
+// related::gitlab,github,!summary[]

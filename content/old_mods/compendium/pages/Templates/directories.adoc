@@ -1,0 +1,20 @@
+= Directories
+:description: Describes the use of directories within a standard.
+:keywords: template
+
+include::compendium:partial$_attributes.adoc[]
+
+{template-icon}
+
+Depending on the content, there is a
+
+* Figure directory
+* Table directory
+* Books and
+* Index
+
+Directories are optional, but recommended.
+
+//tag::related[]
+related::template[]
+//end::related[]

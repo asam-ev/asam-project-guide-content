@@ -1,7 +1,0 @@
-= Exemplary project lifecycle
-:description: This page illustrates the ASAM project lifecycle with a fictitious example of a standard.
-:keywords: lifecycle, concept
-
-This page contains an fictitious example of a project's lifecycle.
-
-image::project_lifecycle_example-Simplified.svg[]

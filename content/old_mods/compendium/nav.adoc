@@ -1,0 +1,3 @@
+include::../ROOT/partials/_attributes.adoc[]
+* {compendium-nav-icon}
+//autonav::[keepabove]

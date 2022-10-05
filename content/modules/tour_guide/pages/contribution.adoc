@@ -1,0 +1,169 @@
+= Contribution workflow
+:description: Explains the basic contribution workflows.
+
+.Guide progress
+[%collapsible]
+====
+****
+- [x] ASAM's collaboration tools
+- [x] Setup for your development platform account
+- [x] Meeting types at ASAM
+- [x] Meeting guidelines
+- [x] How to participate in meetings
+- [x] The Project Sharepoint
+- [ ] **ASAM's contribution workflow**
+- [ ] Contribute with issues
+- [ ] How issues are implemented
+- [ ] Typical tools for advanced users
+****
+====
+
+include::partial$_attributes.adoc[]
+include::compendium:partial$issue_labels.adoc[]
+
+Developing content for ASAM standards is focussed around the concept of contributing with issues.
+The following sections describe this workflow in more detail.
+
+.Workflow stages
+[mermaid]
+....
+graph LR
+id1[INITIAL SETUP]
+--Issue assigned--> ANALYSIS
+--Duplicate-->CLOSED
+ANALYSIS --Analyzed--> IMPLEMENTATION
+--Done--> REVIEW
+IMPLEMENTATION --Issue Canceled--> CLOSED
+REVIEW --Review NOK--> IMPLEMENTATION
+REVIEW --Review OK--> INTEGRATION
+--Done--> MERGE
+MERGE --Review NOK--> INTEGRATION
+MERGE --Review OK--> CLOSED;
+....
+
+Each stage is described in more detail in the sections below.
+The role listed at the top of each section is the one responsible for it.
+
+// You may also want to check out ASAM's xref:labels.adoc[**use of labels**].
+
+---
+
+[tabs]
+====
+Initial setup::
++
+--
+[horizontal]
+Who:: {role-sg-lead}
+Steps::
+. Create issues that map to the features in the project list
+// * Apply the xref:compendium:Guidelines/repo-issue_naming_conventions.adoc[]
+. Assign the issues to the correct `<milestone>`
+. Assign the issues to a responsible with `@<user>`
+Tips::
+* Avoid including files in source control that are specific to your development
+  machine or process -> set up https://git-scm.com/docs/gitignore[.gitignore^] accordingly
+* Create sub-issues in case an issue contains too much content for a short-lived implementation
+* It may be necessary to create new issues during development as well, as new knowledge and information comes up.
+These have the same requirements and steps as those created at the beginning
+--
+Analysis::
++
+--
+[horizontal]
+Who:: Assignee
+Steps::
+. Assign the label {requiresClarification-label} to indicate this issue is being looked at and discussed.
+. Coordinate and drive the preparation of a proposal for addressing the issue.
+Do this either directly via comments or in further meetings, adding the results to the comments later.
+. If the analysis shows the issue is a duplicate to another issue in the same project:
+.. Assign the label {isStatusDuplicate-label} and assign the {role-sg-lead}
+.. The SG Lead reviews the issue and either closes it (if it is a duplicate) or changes the status back to {requiresClarification-label} and the assignee back to the original issue assignee
+Tips::
+* If analysis shows an issue to contain too many steps, create sub-issues to split the topic up further for faster content implementation
+--
+Implementation::
++
+--
+[horizontal]
+Who:: Assignee
+Steps::
+. Once a proposal is ready to be implemented, follow the steps as layed out in xref:tour_guide:contribution/issue_implementation.adoc[]
+. Implement the topics of that issue
+. Review implementation progress of issue with {role-sg-lead} and the other {role-project-participant} in Sub-group meetings
+. Once the group agrees that the feature is complete, request a review by the whole project
+
+--
+Review::
++
+--
+The Review stage consists of the **Internal review** and the **Change Control Board review**
+
+**Internal review** +
+[horizontal]
+Who:: All {role-project-participant} & Implementers Forum
+Steps::
+. Submit feedback on the changes directly in the Merge/Pull Request
+* General feedback: Submit a comment on the Merge/Pull Request
+* Content specific feedback: Start a review in the changes tab of the Merge/Pull Request
++
+NOTE: To start a review, write a comment on a diff as normal under the 'Changes' tab in a Merge/Pull Request and then select 'Start a review'. +
+Click https://docs.gitlab.com/ee/user/discussions/#starting-a-review[here^] for more information.
++
+. If the review feedback requires further development work, the process restarts from the **Implementation** stage
+Tips::
+* Technical discussion happen in comments
+
+// .A demo of a review
+// image::ReviewExample.gif[]
+
+**Change Control Board review** +
+[horizontal]
+Who:: CCB
+Steps::
+. If there are no unresolved comments or threads after two weeks, the CCB ends the review
+. The Merge/Pull Request is assigned to the Service Provider for **Integration**
+
+--
+Integration::
++
+--
+[horizontal]
+Who:: {role-service-provider}
+Steps::
+. The Service Provider changes the status label to {requiresDocumentationWork-label}
+. The Service Provider refines the content in the Merge/Pull Request
+.. The content is adjusted to adhere to ASAM style and writing conventions
+// .. The content is adjusted to adhere to xref:compendium:Editorial_guide.adoc[ASAM style and writing conventions]
+.. General editorial rewrites to ensure homogeneity of content
++
+IMPORTANT: Questions on content should be addressed to the original issue assignee who will be responsible for ensuring a satisfactory resolution.
+In the case that questions lead to significant changes to the content, the MR is reopened for review on resolution.
++
+. On completion of the integration:
+.. Set the status label of the Merge/Pull Request to {requiresCCBReview-label}
+* Set to squash commits with https://www.tutorialspoint.com/what-is-a-fast-forward-merge-in-git[fast-forward merging^] (default).
+// * Squash commit message MUST adhere to the xref:compendium:Guidelines/repo-commit_conventions.adoc[**Commit Message Conventions**]
+
+--
+Merge::
++
+--
+[horizontal]
+Who:: CCB
+Steps::
+. CCB performs a final review of the integrated content
+* Is the original content still correctly represented?
+* Are all guidelines & conventions maintained?
+* Are all discussions resolved?
+* Does it have a https://medium.com/@catalinaturlea/clean-git-history-a-step-by-step-guide-eefc0ad8696d[clear commit history^]?
+// * Does it have a https://medium.com/@catalinaturlea/clean-git-history-a-step-by-step-guide-eefc0ad8696d[clear commit history^] that adheres to the xref:compendium:Guidelines/repo-commit_conventions.adoc[]?
+. If the review is not passed, return to **Integration**
+. If the review is passed and the CCB can merge, the CCB merges the Merge/Pull Request back to the trunk
+.. The CCB removes the status label and closes the linked issue
+. If the review is passed but the CCB may not merge, the CCB changes the status label to {requiresMerge-label}
+Tips::
+- Use a https://help.github.com/articles/using-pull-requests/[pull request^] for code reviews.
+- Delete local and remote feature branches after merging.
+--
+====

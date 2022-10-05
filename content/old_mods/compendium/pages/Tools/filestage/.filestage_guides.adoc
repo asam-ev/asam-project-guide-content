@@ -1,0 +1,12 @@
+= Filestage guides
+:description: Collection of guidelines for Filestage.
+:keywords: filestage, guide
+:offset-value: leveloffset=+1
+
+include::partial$_attributes.adoc[]
+include::contributing:partial$_attributes.adoc[]
+
+
+{filestage-icon-page}
+
+include::compendium:page$How-Tos/filestage_review.adoc[{offset-value}]

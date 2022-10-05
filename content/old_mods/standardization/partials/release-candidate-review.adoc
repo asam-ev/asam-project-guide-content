@@ -1,0 +1,26 @@
+// tag::long[]
+// tag::table[]
+[cols="1h,20"]
+|===
+|Purpose
+|To review the deliverables, to clarify open questions, and to come to an individual conclusion about the release-worthiness of the release candidate.
+
+|Responsible
+|TSC
+
+|Involved
+|Office
+|===
+// end::table[]
+The TSC members review the release with special focus on the changes.
+They shall clarify open question with the Project Leader prior to the TSC meeting.
+TSC members shall make up their mind, whether the release candidate is ready for publication.
+
+The minimum review period for release candidates is four weeks.
+
+// end::long[]
+
+//tag::short[]
+The TSC reviews the release candidate.
+The minimum review period is four weeks.
+//end::short[]

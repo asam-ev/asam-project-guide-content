@@ -1,0 +1,15 @@
+= Git guides
+:description: Collection of guidelines for git.
+:keywords: git, guide
+:offset-value: leveloffset=+1
+
+include::partial$_attributes.adoc[]
+include::contributing:partial$_attributes.adoc[]
+
+
+{git-icon-page}
+
+
+include::compendium:page$Guidelines/repo-make_changes.adoc[{offset-value}]
+
+include::compendium:page$How-Tos/cloning_repo_tutorial.adoc[{offset-value}]

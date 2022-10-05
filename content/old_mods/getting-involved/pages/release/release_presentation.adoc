@@ -1,0 +1,15 @@
+= The Release presentation
+:keywords: release
+:description: Requirements for the Release presentation document.
+
+The release presentation is a document that the Project Lead sets up in preparation of a project release.
+It has to be provided to the TSC for their review together with the other deliverables of the project.
+Its structure is defined by ASAM. 
+A respective template can be requested from your ASAM Office Responsible.
+
+The idea of the release presentation is to provide an easy entry to the project's documents.
+For a standard, it acts as a summary of and introduction to it.
+
+IMPORTANT: The presentation shall not contain any of the following information:
+* financial information
+* statistics on issues etc.

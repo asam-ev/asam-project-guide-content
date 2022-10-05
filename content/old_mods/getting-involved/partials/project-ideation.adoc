@@ -1,0 +1,65 @@
+
+//tag::description[]
+
+The convergence of the automotive markets with new trends in digitalization, autonomous driving, alternative propulsion, and vehicle as a service as enabled by new IT business models provides many new technical concepts that can be standardized in ASAM.
+
+Standardization requires three components:
+
+* A technical concept
+* A market need for the standard
+* Passionate, technical experts who convene at regular intervals to define the requirements and the implementation
+
+To make sure that these requirements are met, ASAM has launched this https://www.asam.net/active-projects/ideation/how-it-works/[ideation platform^].
+
+Technical experts from all over the globe can post concepts and ideas, receive feedback, and drive new standardization topics.
+
+[horizontal]
+Info page:: https://www.asam.net/active-projects/ideation/how-it-works/[window=_blank]
+
+//end::description[]
+
+//tag::expectations-start[]
+
+* The basic idea is well and precisely articulated
+* The market need has been identified
+
+//end::expectations-start[]
+
+//tag::expectations-finish[]
+
+* The idea has been accepted by ASAM
+* A first draft of the proposed idea has been set up ("Basis for Proposal")
+* The minimum number of required participants has been reached or surpassed
+
+//end::expectations-finish[]
+
+//tag::how[]
+
+To enter an idea, make sure to prepare all the required submission content first.
+
+This is how it works:
+
+. Send an email with your concept, idea, question or feedback to ideation@asam.net
+. The ASAM Office will contact you to clarify the details (or answer your questions)
+. It must be investigated if there are any other standards or standardization projects in that area
+. The ASAM Office will then post the mutually agreed concept
+. ASAM Members world-wide will be able to comment on the idea, and enroll in an ideation project
+
+//end::how[]
+
+//tag::development[]
+When enough interest is raised (subject to suitable market relevance), ASAM will host a workshop to further develop the topic.
+If required, an ideation project is being set up that will meet regularly.
+
+While the idea is being developed and fleshed out, the Idea Giver must gather enough project participants to be able to transition the idea to the proposal phase.
+
+include::partial$minimum_required_participants_proposal.adoc[]
+
+//end::development[]
+
+//tag::next[]
+Once all requirements are met (content and number of participants) and the idea is accepted by ASAM, the project transitions to the xref:getting-involved:proposal_phase.adoc[proposal phase].
+The final goal is to transfer the idea into the regular xref:development_phase.adoc[Standard Development Process].
+
+//end::next[]
+

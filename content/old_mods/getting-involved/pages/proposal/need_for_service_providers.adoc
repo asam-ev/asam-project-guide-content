@@ -1,0 +1,10 @@
+= Identify the need for Service Providers
+:description: How to identify the need for Service Providers.
+:keywords: service-provider, proposal
+
+include::partial$_attributes.adoc[]
+
+
+include::compendium:page$How-Tos/identify_need_for_sp.adoc[tag=body]
+
+related::service-provider[]

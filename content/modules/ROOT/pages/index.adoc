@@ -7,34 +7,17 @@ include::partial$_attributes.adoc[]
 
 Welcome to the **ASAM Project Introduction**!
 
-This guide provides an introduction to new members on ASAM's most central topics and gives an overview on how to get involved.
+This guide provides an introduction to new members on how to get involved.
 It provides an overview over all relevant basics to get you up and running for your ASAM project.
 
 ASAM tries to keep technical requirements for participation as low as possible.
-That is why you can participate without having to install any software on your computer.
-All the tools most project members will need to contribute to their project are hosted online and can be accessed through any standard web browser. +
-The only thing you need to do first is to set up your account so you can safely exchange data with the other project members.
-Here is a quick overview of what you need to do to get started:
+One example is that you do not need to install any software on your computer to be able to participate.
+All the tools most project members needs in their project are hosted online.
+They can be accessed through any standard web browser. +
+The only thing you need to set up is your account.
+To get started, follow the xref:tour_guide:index.adoc[guided tour].
 
-* [ ] xref:contributing:account_setup.adoc[**Set up your account**] for your project's remote repository (GitLab or GitHub, depending on your project)
-* [ ] Check out **your project's README file** -- you can find it right at the top of your project's remote repository
-* [ ] Make yourself familiar with xref:contributing:contribution_workflow.adoc[**ASAM's contribution workflow**], the available xref:contributing:labels.adoc[**issue labels**], and the xref:contributing:meeting_guidelines.adoc[**meeting guidelines**]
-* [ ] Check the xref:getting-involved:development_phase.adoc[**development phase overview page**]
-* [ ] Read the section on xref:concepts:doc-as-code.adoc[**documentation-as-code**] to understand the concepts behind the ASAM documentation process
-
-If you have any questions or feedback, do not hesitate to contact your ASAM representative.
+If you have any questions or feedback, do not hesitate to contact your ASAM Office Responsible.
 
 NOTE: This guide assumes you already know who and what ASAM is.
 For more information, refer to the https://www.asam.net/about-asam/[ASAM website^].
-
-
-// == Quick access
-
-// include::partial$landing_page_referral.adoc[tag=body]
-
-
-// IMPORTANT: This version contains the rules and information relevant to each project by default.
-// Some projects can decide to steer away from the standard development path by developing a variation on the standard set of rules layed out here.
-// These changes must be discussed with and accepted by ASAM Office first. +
-// Any project with specific alterations gets a project-specific variant of this guide.
-// You can access different versions in the dropdown menu at the bottom-left.

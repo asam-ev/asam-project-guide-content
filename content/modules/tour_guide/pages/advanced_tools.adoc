@@ -1,0 +1,30 @@
+= Tools overview for advanced users
+:description: Contains information on tools for advanced users.
+
+.Guide progress
+[%collapsible]
+====
+****
+- [x] ASAM's collaboration tools
+- [x] Setup for your development platform account
+- [x] Meeting types at ASAM
+- [x] Meeting guidelines
+- [x] How to participate in meetings
+- [x] The Project Sharepoint
+- [x] ASAM's contribution workflow
+- [x] Contribute with issues
+- [x] How issues are implemented
+- [ ] **Typical tools for advanced users**
+****
+====
+
+If you prefer, you may also choose to work with compatible tools on your local computer.
+Note that these are not required for project members in order to be able to participate at all!
+Instead, they usually provide advanced features for specific tasks.
+You may also be interested if you prefer working locally.
+// Advanced users can check out the xref:compendium:Tools.adoc[] section in the Compendium for further recommendations.
+
+include::tour_guide:partial$list-of-tools.adoc[tag=tabs]
+
+
+// include::ROOT:partial$landing_page_referral.adoc[]

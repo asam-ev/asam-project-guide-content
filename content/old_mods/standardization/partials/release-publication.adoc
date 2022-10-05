@@ -1,0 +1,26 @@
+// tag::long[]
+// tag::table[]
+[cols="1h,20"]
+|===
+|Purpose
+|To go live with the released standard.
+
+|Responsible
+|Office
+
+|Involved
+|none
+|===
+// end::table[]
+The Office carries out all planed publication activities.
+As a minimum, the Office undertakes the following publication measures:
+
+- The standard can be sold and is downloadable from the https://www.asam.net/standards/[ASAM website^].
+- The release is announced via newsletter.
+- New standards and major version releases get a news article on the https://www.asam.net/news-media/news/[ASAM website].
+
+// end::long[]
+
+//tag::short[]
+The ASAM office goes online with the new standard and launches all prepared publications.
+//end::short[]

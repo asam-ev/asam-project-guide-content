@@ -1,0 +1,159 @@
+= Kick-off Workshop Gameplan
+:description: Contains the default gameplan for a kick-off workshop.
+:keywords: kick-off-workshop, development, gameplan
+:compendium:
+
+include::compendium:partial$_attributes.adoc[]
+
+{template-icon}
+
+[cols="1,5", grid = rows]
+|===
+h|Responsible
+| {role-or}
+
+h|Involved
+| {role-project-participant} +
+-> {role-project-lead} +
+-> {role-sg-lead}
+
+ifdef::compendium[]
+h| Phase
+| xref:getting-involved:development_phase.adoc#_process_overview[image:compendium:asam/project_lifecycle-development.svg[]]
+endif::[]
+
+h| Step
+| image:compendium:asam/development_phase-kick-off_preparation.svg[]
+
+h|TL;DR
+a| * Ensure the <<Prerequisites>> are met
+* Book a room or schedule an online meeting
+* Create agenda (use <<Agenda template>> to do so)
+* Send invites to all participants
+|===
+
+
+== Context
+//tag::context[]
+The first major event in the xref:getting-involved:development_phase.adoc#_process_overview[Development phase] is the Kick-off Workshop.
+Here, the project decides on its set of rules and guidelines, defines meeting intervals, elects the Project Lead and the Sub-group Leads, and starts to add more detail to the project planning.
+//end::context[]
+
+== Prerequisites
+
+. The Proposal has been accepted by the TSC
+. The Proposal phase has concluded at least 4 weeks prior to the workshop
+. At least three parties are enrolled for the project
+
+
+== Hosting a Kick-off Workshop
+include::compendium:page$Guidelines/coordination-hosting_workshops.adoc[leveloffset=+1,tag=body]
+
+NOTE: The Kick-off Workshop typically is a face-to-face event (onsite) at the ASAM offices.
+
+
+== Workshop goals
+//tag::goals[]
+The goals of a Kick-off Workshop are:
+
+. Define the project's working model, consisting of: central guidelines, rules, and typical meeting intervals
+* If the project wants to deviate from the default development guidelines, it must provide a reason for doing so.
+This change has to be approved by ASAM first before it may be implemented.
+. Elect the Project Lead from the previously submitted candidates
+. Specify the (currently) relevant Sub-groups
+* Sub-groups may change over the course of a project.
+The workshop shall define the setup with which it wants to start into the development
+. Elect Sub-group Leads
+* The SG Leads and the Project Lead shall define their SG Leads meetings interval
+. Define the Change Control Board (CCB) and its members
+* The CCB shall define their CCB meetings interval
+. Assign members to work groups
+* Each Sub-group shall define their individual WG meetings intervals
+. Add detail to the project plan and milestones
+. Add detail to each work package
+. Schedule the first xref:getting-involved:development/cycle_planning.adoc[Cycle Planning Meeting]
+
+The results for these goals must be documented in the meeting notes.
+They shall be used later to update the content of the repository accordingly.
+//end::goals[]
+
+== Agenda template
+
+
+//tag::agenda_example[]
+
+TODO
+
+// [cols="10,10,20,25,35"]
+// |===
+// | Time    | Duration    | Title                     | Responsible           | Comment
+
+// | 9:00 am
+// | 05 - 15 min
+// | Arrival & introduction
+// | ASAM
+// | In the introduction, the moderator welcomes the attendees and introduces the agenda.
+
+// | 9:15 am
+// | 20 - 35 min
+// | ASAM introduction
+// | Managing Director ASAM
+// | The Managing Director of ASAM gives an overview about ASAM and how ASAM works.
+
+// | 9:45 am
+// | 20 - 45 min
+// | Problem statement
+// | Proposal submitter
+// | The proposal submitter presents the problem statement the project should solve, including use cases where the problem occurs.
+
+// |10:30 am
+// | 05 - 15 min
+// | Break
+// | All
+// |
+
+// |10:45 am
+// | 60 - 90 min
+// | Presentation block 1/2
+// | Workshop member
+// | In this block, Proposal workshop members can present their take on the problem statement and how they would or do handle the issue in their company.
+
+// |12:15 pm
+// | 45 - 60 min
+// | Lunch break
+// | All
+// |
+
+// | 1:00 pm
+// | 30 - 60 min
+// | Presentation block 2/2
+// | Workshop member
+// | In this block, Proposal workshop members can present their take on the problem statement and how they would or do handle the issue in their company.
+
+// | 2:00 pm
+// | 30 - 60 min
+// | Proposal Content
+// | Proposal submitter
+// | The proposal submitter or a member of the writing team presents the technical content of the project proposal.
+
+// | 3:00 pm
+// | 30 - 60 min
+// | Discussion
+// | All
+// | Discuss the technical content of the project proposal and collect feedback that can be incorporated into the proposal.
+
+// | 4:00 pm
+// | 15 - 30 min
+// | Next Steps and Wrap up
+// | ASAM
+// a| The ASAM moderator starts the following information and estimates with the group
+
+// * the minimum required commitment in days
+// * the duration of the project in months
+// * the xref:concepts:project_types.adoc[project type]
+// |===
+
+//end::agenda_example[]
+
+== Invite participants
+. Send invites to the scheduled event containing the agenda (see <<Agenda template>>) to all enrolled participants

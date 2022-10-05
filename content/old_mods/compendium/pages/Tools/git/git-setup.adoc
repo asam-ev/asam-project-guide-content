@@ -1,0 +1,140 @@
+= Setting up Git
+:description: Contains a summary of how to set up git locally.
+:keywords: setup, git
+:vscode: xref:compendium:Tools/vscode.adoc[]
+:gitlab: ASAM {gitlab-url}[GitLab^]
+
+include::compendium:partial$_attributes.adoc[]
+include::partial$_attributes.adoc[]
+include::contributing:partial$_attributes.adoc[]
+
+
+
+{git-icon-page}
+
+
+== Context
+In order to work locally on the repositories and their content hosted at the {gitlab}, users can install and set up Git on their local computer.
+Git can also interface directly with VSCode, making changing and updating files from within one tool an easy option.
+
+== Result
+* Git is installed locally.
+* Git credentials (SSH) is configured
+
+== Prerequisites
+* For direct integration: VSCode is installed
+
+== How
+Git requires a multi-step installation.
+The following sections describe each part of this setup sequentially.
+
+=== Install Git
+. If you are unsure if git is installed, you can check by entering the following in a shell window and confirming:
++
+[source]
+----
+git --version
+----
++
+If a git version is returned, git is already installed on your system.
+. If git is not installed, follow the instructions on https://git-scm.com/book/en/v2/Getting-Started-Installing-Git[how to install git^]
+
+=== Configure user credentials
+After installation of Git, **configure your user credentials** that Git uses when checking in changed content from your PC to the {gitlab}.
+To make sure your commits match your name and email details, a one time configuration is necessary.
+
+. Open a shell or terminal window
+. Execute the following command and replace the entries _"FIRST_NAME_, _LAST_NAME"_  accordingly:
++
+[source,git]
+----
+git config --global user.name "FIRST_NAME LAST_NAME"
+----
++
+.Setting git user name for Max Mustermann
+====
+[source,git]
+----
+git config --global user.name Max Mustermann
+----
+====
+. Next, execute the following command and replace the entry _"+MY_NAME@example.com+"_ with your comany's email:
++
+[source,git]
+----
+git config --global user.email "MY_NAME@example.com"
+----
++
+.Setting email for Max Mustermann working at company
+====
+[source,git]
+----
+git config --global user.email max.mustermann@company.com
+----
+====
++
+NOTE: If no error is returned, the configuration step has been successful.
+
+
+=== __OPTIONAL__: SSH Key Pair
+
+To ensure you don't have to enter your login details every time you want to interact with the repository, add an SSH key to your account.
+
+. Generate an SSH key pair following the https://docs.gitlab.com/ee/ssh/#generate-an-ssh-key-pair[official instructions^].
++
+TIP: Entering a passphrase is optional and leads to additional steps every time you connect to the remote, so it is not recommended.
+. Add the generated SSH public key to your GitLab account by following https://docs.gitlab.com/ee/ssh/#add-an-ssh-key-to-your-gitlab-account[these instructions^].
+. https://docs.gitlab.com/ee/ssh/#verify-that-you-can-connect[Verify that you can connect^]
+
+
+== Troubleshooting / Known Issues
+=== I cannot click btn:[Next] after selecting 'Visual Studio Code' as Git's default editor during installation
+If you cannot click btn:[Next], make sure Visual Studio Code is already installed.
+Return to the previous step and continue again.
+Now, the btn:[Next] button should be active.
+
+=== My SSH keys are not working
+Make sure that the ssh-agent is running:
+
+. Open a shell or terminal window
+. Type the following command, hit kbd:[Enter], and check the status:
++
+[source,Shell]
+----
+Get-Service ssh-agent
+----
++
+.. If the status is "Stopped", type the following, hit kbd:[Enter], and check the StartType.
++
+[source,Shell]
+----
+Get-Service ssh-agent | Select StartType
+----
++
+.. If the StartType is "Disabled", activate the SSH Agent.
+See <<My SSH agent is deactivated>>. +
+Continue here after your SSH agent has bee activated.
+
+. Enter the following command and hit kbd:[Enter]
++
+[source,Shell]
+----
+Start-Service ssh-agent
+----
+
+=== My SSH agent is deactivated
+NOTE: This requires administration rights.
+If you do not have these, request support from your IT department.
+
+. Open a shell or terminal window with **Administration** rights
+. Set the SSH Agent to start manually by typing the following command and hitting kbd:[Enter]:
++
+[source,Shell]
+----
+Get-Service -Name ssh-agent | Set-Service -StartupType Manual
+----
+
+=== I cannot add my private key to the SSH agent
+This cannot be done in the Administration terminal window if your Admin account is not your user account!
+Otherwise, Windows will complain about unprotected private key files!
+Switch to a non-administrator PowerShell and execute the command again.

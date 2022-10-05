@@ -1,0 +1,9 @@
+= Entering an idea
+:description: Describes how to enter an idea at ASAM.
+:keywords: ideation
+
+include::partial$_attributes.adoc[]
+
+
+
+include::compendium:page$How-Tos/enter_new_idea.adoc[tags=body]

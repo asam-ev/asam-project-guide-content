@@ -1,0 +1,81 @@
+= Roadmaps
+:description: How-To for creating roadmaps in ASAM documents (standards).
+:keywords: asciidoc
+:navtitle: [AsciiDoc] Roadmaps
+
+include::compendium:partial$_attributes.adoc[]
+
+{asciidoc-icon}
+
+//tag::body[]
+This section shows how to include roadmaps in an ASAM standard.
+
+CAUTION: Asciidoc preview in VSCode renders the roadmap but does not apply the correct theme ("neutral"). Reason is unclear.
+
+CAUTION: Asciidoctor can render mermaid with '-r asciidoctor-diagram' when 'mmdc' is installed. But currently it is not possible to install 'mmdc' in the standard asciidoctor docker image (based on alpine)
+
+
+
+[tabs]
+====
+AsciiDoc::
++
+--
+....
+[[fig-example-roadmap]] // <1>
+.example roadmap // <2>
+[mermaid, theme="neutral"]  // <3>
+---- // <4>
+gantt // <5>
+	title OpenSCENARIO 1.X Project Plan - Updated 2021-02 // <6>
+	dateFormat  YYYY-MM-DD
+
+    section V1.1.0
+        New features and fixes:a1, 2020-06-01, 2021-01-01 // <7>
+        Review: crit, a2,  after a1, 2021-03-07 // <8>
+        Release: crit, a3,after a2, 2021-03-17
+
+    section >1.1.0
+        Prepare new features for next Project: after a3,2021-06-11
+        Migration path 1.x - 2.0: 2021-04-01, 2021-06-15
+---- // <9>
+....
+<1> Anchor for code block. Reference this anchor using \<<fig-example-roadmap>>
+<2> Caption of the roadmap
+<3> Config for the following diagram definition
+<4> Code block delimiter
+<5> Diagram is of type gantt
+<6> Title of the roadmap
+<7> Entries are definied with Name: start date, end date. 'a1' is a optional and used for later reference
+<8> Entries can be configured. In this case 'crit' is a highlighting. Also note the reference to 'a1'
+<9> Code block delimiter
+
+
+You can use the https://mermaid-js.github.io/mermaid-live-editor[Mermaid Live Editor] for creating the diagram code block.
+--
+Result::
++
+--
+[[fig-example-roadmap]]
+.example roadmap
+[mermaid, theme="neutral"]
+----
+gantt
+	title OpenSCENARIO 1.X Project Plan - Updated 2021-02
+	dateFormat  YYYY-MM-DD
+
+    section V1.1.0
+        New features and fixes:a1, 2020-06-01, 2021-01-01
+        Review: crit, a2,  after a1, 2021-03-07
+        Release: crit, a3,after a2, 2021-03-17
+
+    section >1.1.0
+        Prepare new features for next Project: after a3,2021-06-11
+        Migration path 1.x - 2.0: 2021-04-01, 2021-06-15
+----
+--
+====
+
+
+
+//end::body[]

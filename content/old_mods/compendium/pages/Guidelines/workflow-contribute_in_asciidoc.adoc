@@ -1,0 +1,47 @@
+= Contributing in AsciiDoc files
+:description: Describes how one can participate in the creation of a proposal through directly entering content in the appropriate AsciiDoc files.
+:keywords: proposal, asciidoc, doc-as-code
+:navtitle: [Workflow] Contributing In AsciiDoc Files
+//tag::compendium[]
+:numbered:
+//end::compendium[]
+
+include::compendium:partial$_attributes.adoc[]
+
+{workflow-icon}
+
+
+//tag::compendium[]
+//tag::roles[]
+{role-project-participant}
+{role-technical-writer}
+//end::roles[]
+//end::compendium[]
+
+The most direct way of contributing to a project is by creating and editing the AsciiDoc files.
+However, in order for a consistent workflow and optimal use of the automation steps set up by ASAM, users must be familiar with the xref:compendium:Guidelines/workflow-trunk.adoc[] and <<Write AsciiDoc files,AsciiDoc>>.
+This ensures that all projects work the same way and deliver the same high level of quality that is expected of an ASAM standard.
+
+
+IMPORTANT: Do **not** add content to the central document (`main.adoc` or `index.adoc`) directly!
+All sections are included through the files in the folder `subchapters`.
+The central document only contains the mapping instructions for these chapters.
+
+//tag::body[]
+
+== Workflow
+{mandatory}
+
+Editing AsciiDoc files in a project shall be done in development or feature branches, as described in xref:compendium:Guidelines/workflow-trunk.adoc[].
+Click the link for more information on the workflow.
+
+
+== Write AsciiDoc files
+{mandatory}
+
+When writing AsciiDoc files, the writers shall follow the **xref:compendium:Guidelines/asciidoc_guide.adoc[]**. +
+Technical Writers and advanced users shall also follow the **xref:compendium:Editorial_guide.adoc[]**.
+
+
+Asciidoctor itself also provides a general https://asciidoctor.org/docs/asciidoc-writers-guide/[**AsciiDoc Writer's Guide**^] with an introduction to AsciiDoc. +
+Finally, the official https://docs.asciidoctor.org/asciidoc/latest/syntax-quick-reference/[**AsciiDoc Syntax Quick Reference**^] is a great resource for looking up AsciiDoc commands and examples.

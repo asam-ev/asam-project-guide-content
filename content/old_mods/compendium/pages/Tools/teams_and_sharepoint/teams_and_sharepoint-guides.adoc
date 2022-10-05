@@ -1,0 +1,30 @@
+= Microsoft Teams and Sharepoint guides
+:description:
+:keywords: teams,sharepoint,guide
+:offset_value: leveloffset=+2
+
+include::partial$_attributes.adoc[]
+include::contributing:partial$_attributes.adoc[]
+
+
+{sharepoint-icon-page}
+{teams-icon-page}
+
+This page contains guides and best-practices for <<Microsoft Teams>> and <<Sharepoint>>.
+
+== Microsoft Teams
+include::compendium:page$Guidelines/coordination-teams-channel_file-structure.adoc[{offset_value}]
+
+include::compendium:page$How-Tos/receive_notifications.adoc[{offset_value}]
+
+include::compendium:page$How-Tos/email-notifications.adoc[{offset_value}]
+
+include::compendium:page$How-Tos/polls_and_surveys.adoc[{offset_value}]
+
+include::compendium:page$How-Tos/meetings_in_teams.adoc[{offset_value}]
+
+include::compendium:page$How-Tos/obtain_channel_email.adoc[{offset_value}]
+
+== Sharepoint
+
+include::compendium:page$How-Tos/synchronizing_sharepoint_with_onedrive.adoc[{offset_value}]

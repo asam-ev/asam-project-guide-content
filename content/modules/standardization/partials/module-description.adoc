@@ -1,2 +1,0 @@
-
-Contains all information on processes and standardization guidelines.

@@ -1,0 +1,34 @@
+= Standard Review template
+:description: Contains the review feedback template used for GitLab and GitHub
+:keywords: review, feedback, service-desk
+
+include::compendium:partial$_attributes.adoc[]
+
+{template-icon}
+
+== Template for manual use
+TIP: Use this if you want to add manually add a template to an email.
+
+//tag::body[]
+[#standard-review-template]
+.Standard review template
+[source, md]
+----
+
+include::compendium:attachment$review_form_template.md[]
+
+----
+<1> Name the topic the issue is referring to
+<2> Add the section heading, if applicable
+<3> Add a description for the issue.
+Describe it as detailed and precise as possible.
+Use images to support your issue and speed up the review process.
+<4> Add a suggested solution for your topic.
+Issues without a suggested solution will take longer or be ignored all together.
+<5> If used manually, add the url of the page here
+<6> If used manually, add the name of the page here
+<7> Optional: If used manually, add the module of the page here
+//end::body[]
+
+
+related::service-desk[]

@@ -1,0 +1,118 @@
+
+//tag::short[]
+[horizontal]
+Description:: An implementation project has the purpose to create a supplementary product to a standard that supports the implementation or application of an ASAM standard in the industry.
+Goal:: The result of an implementation project can be a tool or source code, such as checkers for file formats and APIs, add-ons or plug-ins for commonly used __{ide}__s, importers, exporters or reference implementations.
+NOTE: Promoting specific commercial tools shall be avoided.
+
+//end::short[]
+
+//tag::long[]
+An implementation project has the purpose to create a supplementary product that supports the ap-plication of an ASAM standard in the industry.
+
+An ASAM product shall cover one of the following use-cases:
+
+* supports the development of standard-based, commercial products(e.g. development tool kit)
+* ensures standard-based interoperability of commercial products(e.g. source code)
+* reduce the development costs of commercial products(e.g. source code)
+* is used for testing the standard compliance of commercial products(e.g. checker tool, test suite, source code)
+
+Another auxiliary purpose of an implementation project can be to support the standard development by providing feedback from the implementers to the standard developers to improve the quality and maturity of the standard while it is still in development.
+
+For liability reasons, ASAM shall develop and distribute source code only as a result of an implementation project.
+Members may use the source code to create tools or other executables from the source code.
+
+As an example, implementation projects may include the development of source code for one of the following products.
+This list is not exhaustive and should only serve as a guideline of what might be a meaningful, supplementary product to an ASAM standard.
+
+* Checker tool for syntax checks of non-schema-based file formats
+* Checker tool for plausibility checks of schema-based file formats
+* Checker tool for API checks
+* Add-on or plug-in for de-facto standard IDEs (e.g. MATLAB, Simulink, Eclipse etc.)
+* Importers or parsers
+* Exporters or generators
+* Reference implementations of tools or tool components
+* Behavioral software components
+* Additions to popular open-source projects (e.g. Eclipse, openMDM, Artop, etc.)
+* API stubs and skeletons
+
+The deliverable(s) of an implementation project must have product-quality.
+Consequently, ASAM products are professionally developed in accordance to customary quality guidelines of the automotive or IT industries, whichever is applicable.
+This requires that the software is developed by a contractor, while the ASAM project group controls and reviews the contractor's implementation.
+For example, schemata definition files shall be commented.
+
+Further rules and guidelines for this project type are set forth in the document "GuidelinesForASAMCheckerTools".
+
+Upon request, ASAM provides funding up to 100% of the project's required budget.
+
+Excluded are expenses for meeting participation and travel.
+
+Implementation projects are carried out via the standard development process.
+
+The following process steps are not mandatory and are skipped by default, unless otherwise decided by the TSC or the project group:
+
+* P1: Proposal Workshop
+* C: Review Phase
+
+When members propose the further development of a standard, for which an ASAM product exists, members must also propose the further development of this product, unless the pro-posed changes of the standard have no impact on the product.
+If the ASAM product shall not be further developed, then ASAM shall publicly announce that the development of the product is discontinued.
+
+ASAM products shall not compete with a member company's product business(non-competition clause).
+
+Members can object an implementation project proposal and shall provide a justification for their objection.
+
+The TSC checks during P5 Project Approval, whether the objection is justified.
+
+In case of a justified objection, the TSC shall not approve the proposed project or decide on measures that would remove the member's objection.
+
+Non-distributable source code files shall include the following comment text in the file header:
+
+.Header template for non-distributable source code
+----
+// <ASAM Standard Name and Version>
+
+
+// © by ASAM e.V., <Year>
+
+
+// <File short description>
+
+
+// Any use is limited to the scope described in the ASAM license terms. See https://www.asam.net/license.html[window=_blank] for further details.
+----
+
+Distributable source code files shall include the following comment text in the file header:
+
+.Header template for distributable source code
+----
+// <ASAM Standard Name and Version>
+
+
+// © by ASAM e.V., <Year>
+
+
+// <File short description>
+
+
+// Any use is limited to the scope described in the ASAM license terms. This file is distributable in accordance with the ASAM license terms. See www.asam.net/license.html for further details.
+----
+
+//tag::table[]
+.Summary
+[cols="1h,1"]
+|===
+|Purpose
+a| Develop supplementary products supporting the application of ASAM standards
+
+|Funding Limit
+| none
+
+|Process
+a|
+Standard Development Process except:
+
+* Proposal Workshop
+* Review Phase
+|===
+//end::table[]
+//end::long[]

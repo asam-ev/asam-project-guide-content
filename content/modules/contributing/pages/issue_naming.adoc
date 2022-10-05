@@ -1,4 +1,0 @@
-= Issue naming conventions
-:keywords: label, gitlab, github, naming, issue, merge_request, repo_convention
-
-include::compendium:page$Guidelines/repo-issue_naming_conventions.adoc[tags=body]

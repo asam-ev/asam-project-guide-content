@@ -1,0 +1,8 @@
+= Review a standard (ASAM member review)
+:description: Describes how to review a standard between ASAM members.
+:keywords: review
+
+include::partial$_attributes.adoc[]
+
+
+include::compendium:page$How-Tos/review_standard_asam.adoc[tag=body]

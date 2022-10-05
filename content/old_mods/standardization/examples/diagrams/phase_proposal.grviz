@@ -1,0 +1,31 @@
+digraph G {
+
+  A[label="Idea",shape=box]
+  dB[label="New or existing
+  standard?",shape=diamond]
+  C[label="Ideation workshop",shape=box]
+  dD[label="Enough (3+)
+  participating
+  companies?",shape=diamond]
+  E[label="Draft project Proposal",shape=box]
+  F[label="Organize Proposal workshop",shape=box]
+  G[label="Proposal workshop",shape=box]
+  H[label="Finalize Proposal document",shape=box]
+  I[label="Select Proposal submitter",shape=box]
+  J[label="Submit Proposal document to TSC",shape=box]
+  K[label="Present Project Proposal
+  at next TSC meeting",shape=box]
+  dL[label="Project approved?",shape=diamond]
+  M[label="Start project",shape=box]
+
+  A -> dB [label="asdf"]
+  dB -> {C,dD}
+  C -> dD
+  dD -> E
+  dD -> dD
+  E -> F -> G -> H -> I -> J -> K -> dL
+  dL -> M
+  dL -> E
+  dL -> H
+
+}

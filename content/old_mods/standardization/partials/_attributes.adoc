@@ -1,0 +1,8 @@
+
+:ideation-phase: xref:getting-involved:ideation_phase.adoc[]
+:proposal-phase: xref:getting-involved:proposal_phase.adoc[]
+:development-phase: xref:getting-involved:development_phase.adoc[]
+:review-phase: xref:getting-involved:review_phase.adoc[]
+:release-phase: xref:getting-involved:release_phase.adoc[]
+:project-types: xref:concepts:project-types.adoc[]
+:creation-of-standards: xref:compendium:ASAM/creation-of-standards.adoc[]

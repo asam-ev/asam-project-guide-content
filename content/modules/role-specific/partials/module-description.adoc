@@ -1,4 +1,0 @@
-
-**Get to know your role(s) and responsibilities.** +
-This part contains detailed information on all roles typically found in and related to ASAM projects.
-Each role also links to relevant How-Tos, installation instructions, and other role-related information.

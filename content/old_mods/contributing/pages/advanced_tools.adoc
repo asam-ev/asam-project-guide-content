@@ -1,0 +1,8 @@
+= Tools overview for advanced users
+If you prefer, you may also choose to work with compatible tools on your local computer.
+// Advanced users can check out the xref:compendium:Tools.adoc[] section in the Compendium for further recommendations.
+
+include::contributing:partial$list-of-tools.adoc[tag=tabs]
+
+
+// include::ROOT:partial$landing_page_referral.adoc[]

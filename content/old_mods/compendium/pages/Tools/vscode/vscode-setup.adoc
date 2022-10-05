@@ -1,0 +1,34 @@
+= Setting up Visual Studio Code
+:description: Contains a summary of how to do a basic VSCode setup.
+:keywords: setup, vscode
+:vscode-download: https://code.visualstudio.com/download
+
+include::partial$_attributes.adoc[]
+include::contributing:partial$_attributes.adoc[]
+
+
+{vscode-icon-page}
+
+== Context
+Visual Studio Code is the recommended editor for working on AsciiDoc files and diagrams locally.
+It is also a useful tool for interfacing with xref:compendium:Tools/git.adoc[git].
+
+== Result
+The user has installed Visual Studio Code and configured it with the recommended settings.
+
+== Prerequisites
+none
+
+== How
+. Download Visual Studio Code (VSCode) {vscode-download}[here]
+. Follow the instructions during installation
+. After installation, start VSCode for further configuration
+
+NOTE: For recommended settings and extensions, see the xref:compendium:Tools/vscode/vscode-guides.adoc#_install_extensions[guides on Visual Studio Code].
+
+// TODO: Split content into follow up pages here
+
+== Troubleshooting / Known Issues
+
+=== I have a problem and i don't know what
+//TODO

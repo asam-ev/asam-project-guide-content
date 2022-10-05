@@ -1,0 +1,68 @@
+= Adding a new submodule to a repository
+:description: Describes how to add a new submodule in a repository.
+:keywords: git,gitlab,submodule
+
+include::compendium:partial$_attributes.adoc[]
+
+{how-to-icon}
+
+
+To add a submodule to a repository, follow these steps.
+
+. Open a terminal of your choice window in your repositories root folder
+. Enter the following command for adding the other repository as a submodule (replace url as needed):
++
+[source,git]
+----
+git submodule add git@code.asam.net:common/style-resources.git // <1>
+----
+
++
+. Edit '.gitmodule' with any text editor (e.g. VSCode) to change the remote url to the local path.
+This is needed for the GitLab pipeline to checkout the submodule without access token:
++
+[source,git]
+----
+// Before editing
+[submodule "asciidoc-resources"]
+        path = asciidoc-resources
+        url = git@code.asam.net:common/style-resources.git // <1>
+
+########
+
+// After editing
+[submodule "asciidoc-resources"]
+        path = asciidoc-resources
+        url = ../../common/asciidoc-resources.git // <2>
+
+----
+<1> absolute path to repo
+<2> relative path to repo when parent repo is also on https://code.asam.net[window=_blank].
+Note that this has so represent the internal repository structure of code.asam.net.
+
++
+. Stage/add your changed '.gitmodules' in git:
+
++
+[source,git]
+----
+git add .gitmodules
+----
+
++
+. After that, `git commit` & `git push`.
+include::compendium:partial$commit_conventions_reminder.adoc[]
+
+
+[NOTE]
+====
+When setting up a repository NOT on code.asam.net (e.g. Github for OSI)::
+. Use the **https** address of the repository.
+`+git submodule add https://code.asam.net/common/style-resources.git+`
+
+. Do **not** edit '.gitmodule' for relative pathing!
+====
+
+
+
+related::submodule[]

@@ -1,0 +1,23 @@
+= Compendium
+:description: Landing page for all automatically gathered knowledge pieces and content in this Project Guide.
+:page-aliases: home.adoc, main.adoc
+:adoc-exclude:
+
+// Requires input from restructuring discussions for finalization
+
+include::compendium:partial$_attributes.adoc[]
+include::ROOT:partial$_attributes.adoc[]
+
+{compendium-icon}
+
+include::partial$module-description.adoc[]
+
+Additionally, you can look for pages on particular topics using the auto-generated xref:1_keywords.adoc[Keywords Overview Page].
+
+---
+
+pages::[]
+
+include::ROOT:partial$landing_page_referral.adoc[]
+
+

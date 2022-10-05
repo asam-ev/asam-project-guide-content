@@ -28,6 +28,7 @@ include::contributing:partial$icon_reminder.adoc[tag=online-access]
 
 == Setup steps
 
+//tag::setup[]
 [tabs]
 ====
 GitLab::
@@ -37,7 +38,44 @@ GitLab::
 |===
 |{gitlab-icon-norole} +
 {gitlab-url}[ASAM GitLab^]
-a|include::compendium:page$How-Tos/gitlab-setup.adoc[tag=body]
+a|== Context
+All specification-related documents are stored and updated in the project's remote (or online) repository. +
+This GitLab instance is hosted and managed directly by ASAM.
+The OR will create the account and the user must then set it up.
+
+== Result
+The user has activated their repository account and can access the correct project repositories.
+
+== Prerequisites
+* Account created by the ASAM office.
+
+== How
+
+. Follow the link in the GitLab account creation email sent by "GitLab +<code@asam.net>+" to set your password.
+. Log in with your account using the image:compendium:gitlab-standard-login-button.png[title="Standard Button"] access.
++
+image:compendium:gitlab-standard-login.png[title="Standard Login"]
++
+You will be prompted to upload an SSH key.
+See xref:compendium:Tools/git/git-setup.adoc#_optional_ssh_key_pair[how to setup secure SSH connection] for instructions on generating and uploading the SSH keys.
+**This is only required IF you use git locally in addition to GitLab.**
+
+NOTE: The "ASAM SVN" login is deprecated and will be removed in the future.
+
+
+== Troubleshooting / Known Issues
+=== I have not received a mail from "GitLab"
+Ask the ASAM office to support you by creating your GitLab account.
+
+=== I forgot my password and cannot use the login anymore
+Click btn:[Forgot your password?] and follow the instructions.
+
+[#no-access]
+=== I cannot access my project's repository
+Ask the ASAM office to grant you the correct rights according to your role in the project.
+
+=== I cannot access the "Common" group
+See "I cannot access my project's repository" above.
 |===
 --
 GitHub::
@@ -47,9 +85,25 @@ GitHub::
 |===
 |{github-icon-norole} +
 {github-url}[ASAM e.V. on GitHub^]
-a|include::compendium:page$How-Tos/github-setup.adoc[tag=body]
+a|== Context
+All specification-related documents are stored and updated in the project's remote (or online) repository. +
+This GitHub instance is an online service that ASAM uses.
+The user must create an account or use an existing one they have and set it up.
+The OR will then add the account the to respective group or project.
+
+== Result
+The user has created and set up their repository account and can access the correct project repositories.
+
+== Prerequisites
+None
+
+== How
+
+. Follow the online instructions on https://docs.github.com/en/get-started/signing-up-for-github/signing-up-for-a-new-github-account[signing up for a new GitHub account^]
+. Send your account name to your OR. +
+You will receive a response from them when your account has been granted the rights to access and contribute to the project.
 |===
 --
 ====
-
+//end::setup[]
 //end::body[]

@@ -1,0 +1,8 @@
+
+// Filestage:: Webhosted tool for reviewing content and leaving comments on screenshots.
+// **Used for ASAM internal reviews.**
+// For a guide on using Filestage, see xref:compendium:Tools/filestage/filestage_guides.adoc[].
+
+GitLab Service Desk:: An email service for creating issues in the ASAM GitLab through email without the need for an ASAM account.
+**Use for public release candidate reviews.**
+For a guide on using the Service Desk, see xref:compendium:How-Tos/review_with_gitlab_service_desk.adoc[]

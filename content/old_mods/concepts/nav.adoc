@@ -1,0 +1,9 @@
+// * xref:main.adoc[]
+// ** xref:project_types.adoc[]
+// ** xref:project_phases.adoc[]
+// ** xref:project_lifecycle.adoc[]
+
+// ** xref:document_types.adoc[]
+// ** xref:roles-overview.adoc[]
+// ** xref:doc-as-code.adoc[]
+* xref:doc-as-code.adoc[]

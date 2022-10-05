@@ -1,0 +1,22 @@
+= Visual Studio Code guides
+:description: A guide for VSCode explaining basic ui and usability topics.
+:keywords: guide, vscode
+
+:level-main: 1
+:level-sub: 2
+:offset-value: leveloffset=+{level-main}
+:offset-value-sub: leveloffset=+{level-sub}
+
+include::partial$_attributes.adoc[]
+include::contributing:partial$_attributes.adoc[]
+
+
+{vscode-icon-page}
+
+Visual Studio Code is a powerful code and text editor that can be highly individualized and adapted to the task at hand using the existing extensions for it.
+
+include::compendium:page$How-Tos/vscode_install_extension.adoc[{offset-value}]
+
+include::compendium:page$Guidelines/vscode-recommended_vscode_extensions.adoc[{offset-value-sub}]
+
+include::compendium:page$Guidelines/vscode-recommended_vscode_settings.adoc[{offset-value}]

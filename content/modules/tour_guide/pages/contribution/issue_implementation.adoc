@@ -1,0 +1,98 @@
+= Contribution workflow
+:description: Explains the basic contribution workflows.
+:keywords: basics
+
+.Guide progress
+[%collapsible]
+====
+****
+- [x] ASAM's collaboration tools
+- [x] Setup for your development platform account
+- [x] Meeting types at ASAM
+- [x] Meeting guidelines
+- [x] How to participate in meetings
+- [x] The Project Sharepoint
+- [x] ASAM's contribution workflow
+- [x] Contribute with issues
+- [ ] **How issues are implemented**
+- [ ] Typical tools for advanced users
+****
+====
+
+include::partial$_attributes.adoc[]
+include::compendium:partial$issue_labels.adoc[]
+
+== Overview
+
+
+[tabs, subs="attributes"]
+====
+Simulation domain::
++
+--
+
+
+[grid=none, frame=none]
+|===
+a|
+IMPORTANT: Never work on the trunk directly -- always work in separate branches!
+
+== Introduction
+Projects in the Simulation domain use trunk-based repositories in either GitLab or GitHub.
+
+A trunk-based repository is a repository that has a single central branch (the "trunk").
+This trunk contains the official and reviewed state of a project. +
+Users are not allowed to commit and push changes to this specific branch directly.
+Instead, all changes on the repository's content are made in child branches.
+These can either be branched off of the trunk or from another branch.
+Once ready, a branch is merged back into its parent branch (which may be the trunk or another feature branch).
+
+The benefit of this approach is that each repository's trunk contains the latest official state or version.
+Mistakes and unfinished changes to parts of it only have an impact on the branch where they happen.
+
+
+== The trunk
+The central branch ("trunk") can only be merged to by the ASAM office, the Project Lead, or the project's Change Control Board (CCB).
+Unless indicated by a clear git tag, all commits are considered to be part of a release candidate.
+
+Changes **MUST** be added through branches created from the trunk or another branch. +
+These branches **SHOULD** be short-lived (<2 weeks) and regularly merged back. +
+These branches **MAY** be squashed and **MUST** be merged via fast-forward merge (enabled by default).
+
+== Implementing issues
+. Once an issue can be implemented, the issue's assignee creates a branch with an associated Merge or Pull Request from the issue.
+* Each branch must have a parent issue and each issue may have zero or one child branches
+. Change the issue status label to {requiresConceptualWork-label} to indicate that a proposal is being implemented for this issue
+. Begin submitting work via commits to the develop branch
+. Review implementation progress of issue with {role-sg-lead} and the other {role-project-participant} in Sub-group meetings
+. Once the group agrees that the feature is complete:
+.. Change the issue status label to {requiresCCBReview-label}
+.. If changes were marked as draft, remove the encapsulating draft feature flag from the content (make sure that all other content remains within the draft flag) and commit the change.
+.. If there is no Merge/Pull Request for this branch yet, create one
+.. If a Merge/Pull Request exists and is set to "Draft:", remove the draft flag from the Merge/Pull Request name
+.. Add a comment to the Merge/Pull Request to ask for a review by the whole project and the implementers forum: ``/request_review @all``.
+* The MR MUST include document subsection number(s) being reviewed and a link to the lines of source code to be reviewed.
+Tips::
+* If at any point during the implementation the group decides the issue has become irrelevant or cannot be implemented, the status label is changed to {isStatusWontBeFixed-label} and the issue is closed (as well as any related branches and Merge/Pull Requests)
+* Issue branches SHOULD be short-lived (no more than 2 weeks) to ensure progress and direction are visible to project members and that it is not too out of sync with other activities.
+* If a branch cannot be short-lived, rebase frequently to incorporate upstream changes.
+// Both tips reduce the chance for xref:compendium:Guidelines/repo-merge_conflicts.adoc[**Merge Conflicts**].
+* Create branches directly from the issue to ensure the branch is linked to the issue.
+// * Create branches xref:compendium:How-Tos/create_branch_from_issue.adoc[directly from the issue] to ensure the branch is linked to the issue.
+** This also provides the option to set up the related Merge/Pull Request right away.
+This way, the Merge/Pull Request (and its branch) are already accessible through the parent issue.
+** Adding "DRAFT: " in front of a Merge/Pull Request's name marks it as not ready for merge and disables the "Merge" button.
+This way, the Merge/Pull Request (and its branch) cannot be concluded by accident.
+// * Mark passages which are not ready for viewing in the final output as draft (see xref:compendium:How-Tos/mark_parts_as_draft.adoc[])
+|===
+--
+Classic domain::
++
+--
+TODO
+--
+====
+
+
+
+

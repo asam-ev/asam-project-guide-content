@@ -1,0 +1,62 @@
+
+[#sec-numbers]
+= Numbers
+
+This section contains editorial rules on how to write down numeric values:
+
+* <<#sec-ASM-51>>
+* <<#sec-ASM-52>>
+
+
+[#sec-ASM-51]
+== Use a point as decimal separator (ASM-51)
+
+* The decimal separator in numeric values is a point `.` to mark the boundary in a number between the integral and fractional parts of a decimal number.
+* Do not use columns in numeric values.
+
+*Exceptions*
+
+There are no exceptions.
+
+*Example*
+
+[#tab-3dfef781-52e9-4f96-b28e-1e30c3a245b3]
+.Use of a point as decimal separator
+[%header]
+|===
+|No                        |#Yes#
+|[.line-through]#2.543,24# |2543.24
+|[.line-through]#1.000#    |1000
+|===
+
+ISO/IEC Directives, Part 2, Principles and rules for the structure and drafting of ISO and IEC documents, 9th edition, 2021, 9.1 Representation of numbers and numerical values defines the comma as decimal separator.
+In ASAM standards the point is used as decimal separator because a point is the decimal separator in programming languages and the most English speaking countries.
+
+*Source*
+
+ASAM specific rule.
+
+
+[#sec-ASM-52]
+== Use a leading zero for values between -1 and 1 (ASM-52)
+
+* A zero precedes the decimal separator in numeric values between -1 and 1.
+
+*Exceptions*
+
+There are no exceptions.
+
+*Example*
+
+[#tab-34c76447-2bad-4430-8fb6-e68fa28ef6c7]
+.Use of a leading zero for values between -1 and 1
+[%header]
+|===
+|No                   |#Yes#
+|[.line-through]#.5#  |0.5
+|[.line-through]#-.7# |-0.7
+|===
+
+*Source*
+
+ASAM specific rule.

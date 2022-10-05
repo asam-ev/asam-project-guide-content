@@ -1,0 +1,10 @@
+
+[NOTE]
+====
+A clean issue contains the following things:
+
+- active milestone
+- assignee
+- labels
+
+====

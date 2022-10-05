@@ -1,0 +1,54 @@
+
+[#sec-undefined]
+= Undefined
+
+This section contains rules with work in progress that will be in other sections later on:
+
+* <<#sec-ASM-81>>
+* <<#sec-ASM-84>>
+
+
+[#sec-ASM-81]
+== File names for figures (ASM-81)
+TODO: Has to be defined.
+// NOTE: Name all images according to the naming convention: fig_[name_of_image].drawio.svg (not "fig-[...]" as previously planned).
+
+*Exceptions*
+
+There are no exceptions.
+
+*Example*
+
+
+*Source*
+
+ASAM specific rule
+//NOTE: Rule in XIL used the caption.
+
+
+[#sec-ASM-84]
+== Non-normative sections (ASM-84)
+
+TODO: Has to be defined.
+
+* _description_
+
+*Exceptions*
+
+There are no exceptions.
+
+*Example*
+
+[#tab-65a63cb0-e39c-4459-9551-2ca7ebb79ffd]
+.caption
+[%header]
+|===
+|No|#Yes#
+|[.line-through]#false#|correct
+|[.line-through]#false#|correct
+|[.line-through]#false#|correct
+|===
+
+*Source*
+
+ASAM Writing Guide: Non-normative sections

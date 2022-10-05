@@ -1,0 +1,58 @@
+= Microsoft Teams and Sharepoint
+:description: A summary page describing what MS Teams and Sharepoint are and where to find related information, guides etc.
+:keywords: teams,sharepoint,summary,tool,mandatory
+:page-layout: responsible
+:page-responsible-name: Benjamin Engel
+:page-responsible-contact: benjamin.engel(at)asam.net
+
+
+include::partial$_attributes.adoc[]
+include::contributing:partial$_attributes.adoc[]
+
+
+{mandatory}
+
+{role-sg-lead}
+{role-project-lead}
+
+TIP: Click the Sharepoint icon on the right to directly access ASAM's sharepoint, or click the Team icon to access the MS Teams download page.
+
+{sharepoint-icon}
+{teams-icon}
+
+
+Microsoft (MS) Teams is used to communicate and exchange documents **without direct impact on the standards** within project groups.
+Different groups and topics are gathered under different channels.
+Here, users can chat with each other and share files directly. +
+Sharepoint is a Microsoft service that is used in the background by Teams to manage files.
+It can be accessed directly or through Teams, which is why all files that have been added either way can be retrieved through both tools.
+
+
+* Each channel in Teams has a "Chat" tab for chatting & a "Files" tab to share files.
+** If you need another Teams channel, contact the page Responsible (see top of this page)
+* These file tabs can also be found directly in Sharepoint (sign in with your microsoft account).
+
+IMPORTANT: Project files such as chapters, specifications, or images intended for use in the standard are to be handled through GitLab instead! See xref:compendium:Guidelines/workflow-trunk.adoc[] for more information.
+
+
+== MS Teams At ASAM
+//TODO
+
+== MS Sharepoint At ASAM
+//TODO
+
+== Content
+
+
+[cols="^1h,4",frame=none, grid=rows, stripes=hover]
+|===
+
+|xref:compendium:Tools/sharepoint/sharepoint-setup.adoc[image:{setup-image}[width=120,title="Teams And Sharepoint Setup"]]
+|Teams And Sharepoint Setup
+
+|xref:compendium:Tools/sharepoint/sharepoint-guides.adoc[image:{guide-image}[width=120,title="Teams And Sharepoint Guides"]]
+|Teams And Sharepoint Guides
+
+|===
+
+related::sharepoint[]

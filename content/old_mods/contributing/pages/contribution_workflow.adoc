@@ -1,0 +1,9 @@
+= Contribution workflow
+:description: Explains the basic contribution workflows.
+:keywords: basics
+
+include::partial$_attributes.adoc[]
+
+// {role-project-participant}
+
+include::compendium:page$Guidelines/workflow-trunk.adoc[tags=body;!compendium;!icon]

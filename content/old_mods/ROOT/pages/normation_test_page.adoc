@@ -1,0 +1,92 @@
+= Test page for normative vs non-normative
+
+== Version 1: Adapted admonition
+
+Code::
+[source]
+----
+:important-caption: NON-NORMATIVE
+[IMPORTANT]
+====
+This text is non-normative.
+It is marked as such and can be easily identified.
+
+This uses alternate admonition captions which are reset after use.
+====
+:important-caption: IMPORTANT
+----
+
+:important-caption: NON-NORMATIVE
+Result::
+[IMPORTANT]
+====
+This text is non-normative.
+It is marked as such and can be easily identified.
+
+This uses alternate admonition captions which are reset after use.
+====
+
+:important-caption: IMPORTANT
+
+
+== Version 2: Admonition titles
+
+Code::
+[source]
+----
+[IMPORTANT]
+.Non-normative
+====
+This text is non-normative.
+It is marked as such and can be easily identified.
+
+This uses an admonition title.
+====
+----
+
+Result::
+[IMPORTANT]
+.Non-normative
+====
+This text is non-normative.
+It is marked as such and can be easily identified.
+
+This uses an admonition title.
+====
+
+== Version 3: Specific CSS
+Code::
+[source]
+====
+[.non-normative]
+--
+This text is non-normative.
+It is marked as such and can be easily identified.
+
+This uses a custom class "non-normative" that can be assigned specific css rules.
+--
+====
+
+Result::
+Note that the output depends on the provided css!
+If no css changes have been made, this will look like any normal paragraph.
+
+[.non-normative]
+.Non-normative
+--
+This text is non-normative.
+It is marked as such and can be easily identified.
+
+This uses a custom class "non-normative" that can be assigned specific css rules.
+--
+
+
+:note-caption: NON-NORMATIVE
+[NOTE]
+====
+This text is non-normative.
+It is marked as such and can be easily identified.
+
+This uses a custom class "non-normative" that can be assigned specific css rules.
+====
+:note-caption: NOTE

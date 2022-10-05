@@ -1,0 +1,48 @@
+= Merge/pull requests
+:description: Summarizes how merge requests work and how to best approach them.
+:keywords: merge,review, git-workflow
+:navtitle: [Repository] Merge/Pull Requests
+
+include::compendium:partial$_attributes.adoc[]
+
+{repo-icon}
+
+//tag::body[]
+
+//tag::compendium[]
+{role-project-lead}
+{role-or}
+{role-technical-writer}
+//end::compendium[]
+
+== Introduction
+A Merge or Pull Requests (MRs) are the way you merge content changes from a development or feature branch back into the xref:compendium:Guidelines/workflow-trunk.adoc#_the_trunk[trunk] or another branch.
+They provide the project team the opportunity to review changes before they are applied and made public/official.
+
+
+== Merge commit strategy
+- History of commits in a MR must be https://medium.com/@catalinaturlea/clean-git-history-a-step-by-step-guide-eefc0ad8696d[clean^] prior to merge
+- Commit messages to a protected branch or the trunk must adhere to the xref:compendium:Guidelines/repo-commit_conventions.adoc[]
+
+ASAM repositories allow https://docs.gitlab.com/ee/user/project/merge_requests/fast_forward_merge.html[fast-forward merges^] only (`--ff-only`) and https://docs.gitlab.com/ee/user/project/merge_requests/squash_and_merge.html[squash commits^] by default.
+This means commits do not have to be merged manually and all commits are squashed automatically.
+
+For squash commits with one commit, the commit message is taken directly (squash does not take place). +
+For actual squashes the commit messages are taken from:
+
+. The first multi-line commit message in the merge.
+. The merge request’s title if no multi-line commit message is found.
+
+Squash commits is enabled by default but can be turned off.
+This is to make sure that in case multiple unrelated changes occurred in one branch, they can still be all added to the history.
+
+
+== Dealing with merge conflicts
+See xref:compendium:Guidelines/repo-merge_conflicts.adoc[].
+
+
+== Merge/pull request review
+Merge/Pull Requests are reviewed by the project team in sequential steps.
+See the xref:compendium:Guidelines/workflow-trunk.adoc#_review[Trunk Workflow] page for more information on these reviews
+
+//end::body[]

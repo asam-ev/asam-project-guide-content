@@ -1,0 +1,47 @@
+= Documentation processes
+:description: Documentation processes for Technical Writers
+:keywords: writing_guide
+:numbered:
+
+include::compendium:partial$_attributes.adoc[]
+
+{role-technical-writer}
+{role-project-participant}
+
+
+IMPORTANT: This has to be unified with the existing workflow/issue definitions
+
+== GitLab issues
+
+In ASAM projects, GitLab is used to manage the standard development processes.
+GitLab issues that are documentation related are created by Sub-group members and Technical Writers.
+This section contains information on documentation related GitLab issues.
+
+=== Life-cycles for GitLab issues
+
+This section displays the GitLab issue life-cycles when creating documentation for ASAM and explains labels used in GitLab for specific life-cycles.
+
+* Every documentation related GitLab issue shall have a `isDocumentationRelated` label.
+* If a GitLab issue is ready for creating content for the documentation, the Sub-group members assign the `isReadyForServiceProvider` label to the issue.
+* If a Technical Writer starts working on the documentation, the Technical Writer assigns the `isInProgress` label to the GitLab issue.
+* If a Technical Writer has questions regarding a GitLab issue, the Technical Writer assigns the `needsClarification` label to the issue and adds the questions as a comment.
+* If a GitLab issue has been finally edited by a Technical Writer, the Technical Writer assigns the `needsReview` label to the issue.
+* All GitLab issues labeled `needsReview` will be discussed in the upcoming project meeting.
+The Technical Writer presents the changes to the Sub-group members.
+* If the changes are accepted by the Sub-group members, the GitLab issue is closed.
+* If there are objections regarding a change to the documentation, a new iteration process starts.
+Objections are communicated by the Sub-group members and added as comments to the GitLab issue.
+
+==== Labels for GitLab issues
+
+[#tab-e328478e-6096-43a0-a4f6-4e622085da6a]
+[%header, cols="3*"]
+|===
+|Status tag                |Description                                                                                                                          |Color code
+|isDocumentationRelated    |Assign the `isDocumentationRelated` label to a GitLab issue when an issue contains tasks for Technical Writers.                      |#428BCA
+|isInProgress              |Assign the `isInProgress` label to a GitLab issue when a Technical Writer starts working on an issue.                                |
+|isReadyForServiceProvider |Assign the `isReadyForServiceProvider` label to a GitLab issue when the issue is ready so that a Technical Writer can start working. |
+|needsClarification        |Assign the `needsClarification` label to a GitLab issue if a Technical Writer needs more information regarding an issue.             |
+|needsReview               |Assign the `needsReview` label to a GitLab issue when a Technical Writer finished working on an issue.                               |
+|===
+

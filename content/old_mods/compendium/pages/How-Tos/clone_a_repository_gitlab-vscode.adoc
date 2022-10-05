@@ -1,0 +1,14 @@
+= Clone a repository using GitLab to Visual Studio Code
+:description: Describes how to clone a repository directly to VSCode from GitLab
+:keywords: vscode,cloning,gitlab,repository,repo
+
+include::compendium:partial$_attributes.adoc[]
+
+{how-to-icon}
+
+
+. Click menu:Clone[Visual Studio Code]
+
+. Select the folder on your PC where you want to save the repository
+
+image::compendium:clone-to-vscode.gif[]

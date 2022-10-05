@@ -1,0 +1,30 @@
+= Project meetings
+:description: Summary page on meetings in ASAM projects.
+:keywords: meeting
+
+.Guide progress
+[%collapsible]
+====
+****
+- [x] ASAM's collaboration tools
+- [x] Setup for your development platform account
+- [ ] Meeting types at ASAM
+- [ ] Meeting guidelines
+- [ ] How to participate in meetings
+- [ ] The Project Sharepoint
+- [ ] ASAM's contribution workflow
+- [ ] Contribute with issues
+- [ ] How issues are implemented
+- [ ] Typical tools for advanced users
+****
+====
+
+All projects at ASAM consist of at least three independent project members.
+Therefore, no project can thrive without meetings.
+These meetings provide the opportunities to get updates and make decisions.
+
+In this section you will learn about meetings in ASAM projects, particularly
+
+* the xref:meetings/types.adoc[types of meetings]
+* ASAM's xref:meetings/guidelines.adoc[meeting guidelines]
+* how to xref:meetings/participation.adoc[participate in meetings]

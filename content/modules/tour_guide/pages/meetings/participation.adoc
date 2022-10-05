@@ -1,0 +1,19 @@
+= Participating in meetings
+:description: Contains information on how you can participate in ASAM meetings.
+
+.Guide progress
+[%collapsible]
+====
+****
+- [x] ASAM's collaboration tools
+- [x] Setup for your development platform account
+- [x] Meeting types at ASAM
+- [x] Meeting guidelines
+- [ ] **How to participate in meetings**
+- [ ] The Project Sharepoint
+- [ ] ASAM's contribution workflow
+- [ ] Contribute with issues
+- [ ] How issues are implemented
+- [ ] Typical tools for advanced users
+****
+====

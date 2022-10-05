@@ -1,0 +1,4 @@
+
+**Get started with the guided tour.** +
+This part gets you up and running for your project at ASAM.
+Here, you will learn about your developer account, meetings and their guidelines, the project sharepoint, and the contribution workflow.
