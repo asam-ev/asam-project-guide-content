@@ -73,4 +73,4 @@ include::compendium:partial$icon_reminder.adoc[tag=online-access]
 
 === Setup steps
 
-include::compendium:Tools/remote_repo/remote_repo_setup.adoc[tag=setup]
+include::compendium:Tools/remote_repo/01_remote_repo_setup.adoc[tag=setup]

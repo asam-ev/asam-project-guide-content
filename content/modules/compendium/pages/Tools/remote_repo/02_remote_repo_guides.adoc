@@ -1,0 +1,115 @@
+= Guides for remote repositories
+:description: Collects all types of important GitLab guides
+:keywords: guide,gitlab
+:reftext: Guides
+
+
+include::compendium:partial$_attributes.adoc[]
+
+//tag::icon[]
+{remote-icon-page}
+//end::icon[]
+
+== Make changes in a repository
+=== Git workflow
+
+TIP: It is best practice to check for changes on remote before changing files locally and before pushing changes to remote.
+
+The Git workflow for making changes is a 4 step process:
+
+.Git workflow
+image::compendium:git-workflow.svg[Git Workflow]
+
+. Make the changes in your working copy.
+. Add files from the working copy to the staging area (`git add`).
+. Commit staged files to your local repo (`git commit`).
+. Push to a remote repository (`git push`).
+
+=== Further read
+* https://git-scm.com/docs/gittutorial[window=_blank]
+
+
+== Merge/pull requests
+A Merge or Pull Requests (MRs) are the way you merge content changes from a development or feature branch back into the trunk or another branch.
+They provide the project team the opportunity to review changes before they are applied and made public/official.
+
+
+=== Merge commit strategy
+- History of commits in a MR must be https://medium.com/@catalinaturlea/clean-git-history-a-step-by-step-guide-eefc0ad8696d[clean^] prior to merge
+
+ASAM repositories allow https://docs.gitlab.com/ee/user/project/merge_requests/fast_forward_merge.html[fast-forward merges^] only (`--ff-only`) and https://docs.gitlab.com/ee/user/project/merge_requests/squash_and_merge.html[squash commits^] by default.
+This means commits do not have to be merged manually and all commits are squashed automatically.
+
+For squash commits with one commit, the commit message is taken directly (squash does not take place). +
+For actual squashes the commit messages are taken from:
+
+. The first multi-line commit message in the merge.
+. The merge request’s title if no multi-line commit message is found.
+
+Squash commits is enabled by default but can be turned off.
+This is to make sure that in case multiple unrelated changes occurred in one branch, they can still be all added to the history.
+
+
+=== Merge/pull request review
+Merge/Pull Requests are reviewed by the project team in sequential steps.
+
+== Merge conflicts: preventing and resolving
+A merge conflict occurs when multiple different changes (usually made by different users) are to be merged and some or all of the changes contradict each other.
+For example, if user A deletes a section in their copy and user B adds a new paragraph to it instead, the merging tool does not know whether to keep the section and add the changes made by user B or to delete it like user A did.
+
+
+=== Avoiding merge conflicts
+One way of avoiding merge conflicts is to keep the TTL (time to live) of branches short.
+ASAM recommends a TTL of <= 2 weeks. +
+If the branch lives longer than expected, merge the parent branch (the trunk or original feature branch) into your branch once in a while.
+Alternatively, you can also rebase your branch to the parent branch again.
+This way you can solve the conflicts in your branch.
+
+For more information on the differences between merging and rebasing, see https://www.atlassian.com/git/tutorials/merging-vs-rebasing[Merging vs. Rebasing^].
+
+
+=== Resolving merge conflicts
+Once you create a merge request, your remote repository will tell you if there are merge conflicts.
+It leads you through the conflicting parts and lets you choose if your new or the old content is to be merged.
+
+Another option is to merge locally.
+You can use xref:compendium:Tools/git.adoc[] or xref:compendium:Tools/vscode.adoc[] for this.
+These tools also provide options to view conflicting changes and help you resolve them.
+
+After you have removed the conflicts, you can create a new commit to your branch that includes the fixes to resolve the conflict in the Merge/Pull Request.
+
+For more information, see
+
+[horizontal]
+Git:: https://www.atlassian.com/git/tutorials/using-branches/merge-conflicts
+GitLab:: https://docs.gitlab.com/ee/user/project/merge_requests/conflicts.html
+GitHub:: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-on-github
+
+
+== Access compiled artifacts
+This description only covers GitLab.
+However, steps are similar at GitHub.
+
+[tabs]
+====
+Download from pipeline::
++
+--
+image::compendium:artifact_download_ci.png[]
+
+. Access menu:Repository[Branches]
+. Select the pipeline for the branch that you'd like to access
+. Retrieve the compiled artifacts
+* The example shows how to retrieve the uml2adoc artifacts
+--
+Download From merge/pull request::
++
+--
+image::compendium:artifact_download_mr.png[]
+
+. Access menu:Repository[Merge requests]
+. Select the Merge/Pull Request that you'd like to access
+. Retrieve the compiled artifacts
+* The example shows how to retrieve the uml2adoc artifacts
+--
+====

@@ -1,6 +1,7 @@
 = Setting up your repository account
 :description: How to setup your ASAM account.
 :keywords: setup,gitlab, github,account
+:reftext: Setup
 
 //tag::body[]
 
@@ -57,7 +58,7 @@ The user has activated their repository account and can access the correct proje
 image:compendium:gitlab-standard-login.png[title="Standard Login"]
 +
 You will be prompted to upload an SSH key.
-See xref:compendium:Tools/git/git-setup.adoc#_optional_ssh_key_pair[how to setup secure SSH connection] for instructions on generating and uploading the SSH keys.
+See xref:compendium:Tools/git/01_git_setup.adoc#_optional_ssh_key_pair[how to setup secure SSH connection] for instructions on generating and uploading the SSH keys.
 **This is only required IF you use git locally in addition to GitLab.**
 
 NOTE: The "ASAM SVN" login is deprecated and will be removed in the future.

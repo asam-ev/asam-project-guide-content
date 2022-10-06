@@ -22,10 +22,10 @@ IMPORTANT: It is **mandatory** for all OpenX projects to invite the OpenX calend
 [cols="^1h,4",frame=none, grid=rows, stripes=hover]
 |===
 
-|xref:compendium:Tools/calendar/calendar-setup.adoc[image:{setup-image}[width=120,title="OpenX calendar setup"]]
+|xref:compendium:Tools/calendar/01_calendar_setup.adoc[image:{setup-image}[width=120,title="OpenX calendar setup"]]
 |OpenX Calendar Setup
 
-|xref:compendium:Tools/calendar/calendar-best-practices.adoc[image:{best-practices-image}[width=120,title="OpenX calendar best practices"]]
+|xref:compendium:Tools/calendar/02_calendar_best-practices.adoc[image:{best-practices-image}[width=120,title="OpenX calendar best practices"]]
 |OpenX Calendar Best Practices
 
 

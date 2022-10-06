@@ -1,0 +1,45 @@
+= Setting up Microsoft Sharepoint
+:description: Setup of MS Sharepoint
+:keywords: setup,sharepoint
+:reftext: Setup
+
+include::partial$_attributes.adoc[]
+
+
+{sharepoint-icon-page}
+{teams-icon-page}
+
+// If you use a recurring image for similar artifacts, declare it as attribute in partials/_attributes.adoc and reference here.
+
+== Context
+MS Sharepoint is used at ASAM to exchange files and documents without direct impact on the standardization processes.
+It also serves as the project's internal landing page.
+
+== Result
+* You can access Microsoft Teams (assigned teams)
+* You can access Sharepoint (shared folders)
+* You can add and download files from Sharepoint
+
+== Prerequisites
+* You have provided the project's Office Responsible with your current contact information.
+
+== How
+The ASAM office sets up the project Sharepoint.
+You do not need to take any additional steps.
+
+== Troubleshooting / Known Issues
+=== My ASAM Teams account cannot access any team channel
+Check with your ASAM contact if you have already been assigned to any team or channel yet.
+You will receive an email from `noreply@email.teams.microsoft.com` when your account has been added to at least one channel.
+
+=== I cannot access my Sharepoint folder
+Try navigating to the parent folder and then access the target folder from there again.
+If this does not work: Check with your ASAM contact if your access to the folder has been revoked or the folder has been renamed.
+
+=== My Microsoft account differs from my contact mail
+Contact your ASAM Office Responsible and provide them with both your Microsoft account email and your contact email.
+Make sure to mark each clearly to prevent confusion.
+
+The ASAM office will send an invite to your Microsoft account. 
+After you (or your company's IT) has accepted the invitation, ASAM will change your user email to the other one.
+This will let you access Teams and Sharepoint with your Microsoft account while sending invites to your contact email.
