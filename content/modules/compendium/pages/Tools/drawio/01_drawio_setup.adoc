@@ -2,9 +2,10 @@
 :description: How to set up drawio for ASAM projects.
 :keywords: setup,drawio
 :library-repo: https://code.asam.net/common/asam-graphic-library/
+:reftext: Setup
 
 include::partial$_attributes.adoc[]
-include::contributing:partial$_attributes.adoc[]
+
 
 
 {drawio-icon-page}
@@ -47,7 +48,7 @@ image::drawio-import-library.gif[title=Import ASAM Draw.io library into Desktop.
 Draw.io VSCode extension::
 +
 --
-include::compendium:page$Guidelines/vscode-recommended_vscode_extensions.adoc[tag=drawio]
+include::compendium:page$Tools/vscode/04_vscode_recommended_extensions.adoc[tag=drawio]
 
 NOTE: At this time, the VS Code extension does not provide url links to libraries.
 The only option to add the library is to download a copy and add it manually.

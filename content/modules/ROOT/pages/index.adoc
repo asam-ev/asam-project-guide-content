@@ -4,6 +4,8 @@
 
 include::partial$_attributes.adoc[]
 
+{project-guide-icon-main}
+
 
 Welcome to the **ASAM Project Guide**!
 

@@ -52,7 +52,7 @@
 // :role-specific-nav-icon: xref:{role-specific-xref}[image:{role-specific-image}[width={width-nav-icon}] ASAM Roles]
 
 //compendium
-:compendium-image: https://cdn-icons-png.flaticon.com/512/1945/1945958.png
+:compendium-image: https://cdn-icons-png.flaticon.com/512/3330/3330314.png
 :compendium-xref: compendium:home.adoc
 :compendium-icon: xref:{compendium-xref}[image:{compendium-image}[alt= Compendium, width={width-large}, role=right]]
 :compendium-icon-norole: xref:{compendium-xref}[image:{compendium-image}[alt= Compendium, width={width-small}]]
@@ -60,9 +60,11 @@
 // :compendium-nav-icon: xref:{compendium-xref}[image:{compendium-image}[width={width-nav-icon}] Compendium]
 
 //project-guide
-:project-guide-image: https://cdn-icons-png.flaticon.com/512/1705/1705243.png
+:project-guide-image: https://cdn-icons-png.flaticon.com/512/1705/1705312.png
 :project-guide-xref: asamprojectguide-editing:ROOT:home.adoc
 :project-guide-icon: xref:{project-guide-xref}[image:{project-guide-image}[alt= Project Guide, width={width-large}, role=right]]
+:project-guide-icon-main: image:{project-guide-image}[alt= Project Guide, width={width-large}, role=right]
 :project-guide-icon-norole: xref:{project-guide-xref}[image:{project-guide-image}[alt= Project Guide, width={width-small}]]
+:project-guide-icon-norole-main: image:{project-guide-image}[width={width-small}]
 :project-guide-nav-icon: xref:{project-guide-xref}[]
 // :project-guide-nav-icon: xref:{project-guide-xref}[image:{project-guide-image}[width={width-nav-icon}] Project Guide Instructions]

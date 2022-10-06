@@ -52,12 +52,12 @@ a| image::https://cdn-icons-png.flaticon.com/512/103/103230.png[width=40]
 <a href="https://www.flaticon.com/free-icons/role" title="role icons">Role icons created by Freepik - Flaticon</a>
 +++
 
-a| image::https://cdn-icons-png.flaticon.com/512/1945/1945958.png[width=40]
+a| image::https://cdn-icons-png.flaticon.com/512/3330/3330314.png[width=40]
 |+++
-<a href="https://www.flaticon.com/free-icons/knowledge" title="knowledge icons">Knowledge icons created by Freepik - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/book" title="book icons">Book icons created by mikan933 - Flaticon</a>
 +++
 
-a| image::https://cdn-icons-png.flaticon.com/512/1705/1705243.png[width=40]
+a| image::https://cdn-icons-png.flaticon.com/512/1705/1705312.png[width=40]
 |+++
 <a href="https://www.flaticon.com/free-icons/manual" title="manual icons">Manual icons created by Freepik - Flaticon</a>
 +++
@@ -82,9 +82,9 @@ a| image::https://cdn-icons-png.flaticon.com/512/2996/2996987.png[width=40]
 <a href="https://www.flaticon.com/free-icons/quality" title="quality icons">Quality icons created by Freepik - Flaticon</a>
 +++
 
-a| image::https://cdn-icons-png.flaticon.com/512/860/860794.png[width=40]
+a| image::https://cdn-icons-png.flaticon.com/512/591/591576.png[width=40]
 |+++
-<a href="https://www.flaticon.com/free-icons/calendar" title="calendar icons">Calendar icons created by Becris - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/calendar" title="calendar icons">Calendar icons created by Freepik - Flaticon</a>
 +++
 
 a| image::https://cdn-icons-png.flaticon.com/512/4229/4229111.png[width=40]
@@ -122,24 +122,24 @@ a| image::https://cdn-icons-png.flaticon.com/512/4727/4727488.png[width=40]
 <a href="https://www.flaticon.com/free-icons/repository" title="repository icons">Repository icons created by Flat Icons - Flaticon</a>
 +++
 
-a|https://cdn-icons-png.flaticon.com/512/2482/2482695.png[width=40]
+a| image::https://cdn-icons-png.flaticon.com/512/2482/2482695.png[width=40]
 |+++
 <a href="https://www.flaticon.com/free-icons/build" title="build icons">Build icons created by Freepik - Flaticon</a>
 +++
 
-a|https://cdn-icons-png.flaticon.com/512/3039/3039564.png[width=40]
+a| image::https://cdn-icons-png.flaticon.com/512/3039/3039564.png[width=40]
 |+++
 <a href="https://www.flaticon.com/free-icons/review" title="review icons">Review icons created by Freepik - Flaticon</a>
 +++
 
-a|https://cdn-icons-png.flaticon.com/512/4295/4295914.png[width=40]
+a| image::https://cdn-icons-png.flaticon.com/512/4295/4295914.png[width=40]
 |+++
-<a href="https://www.flaticon.com/free-icons/review" title="review icons">Review icons created by Freepik - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/steps" title="steps icons">Steps icons created by Freepik - Flaticon</a>
 +++
 
-a|https://cdn-icons-png.flaticon.com/512/921/921347.png[width=40]
+a| image::https://cdn-icons-png.flaticon.com/512/921/921347.png[width=40]
 |+++
-<a href="https://www.flaticon.com/free-icons/review" title="review icons">Review icons created by Freepik - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/team" title="team icons">Team icons created by Freepik - Flaticon</a>
 +++
 
 |===

@@ -1,5 +1,5 @@
 = Meeting guidelines
-:keywords: meeting, guideline
+:keywords: meeting
 
 include::tour_guide:partial$_attributes.adoc[]
 
@@ -11,7 +11,7 @@ include::tour_guide:partial$_attributes.adoc[]
 - [x] Setup for your development platform account
 - [x] Meeting types at ASAM
 - [ ] **Meeting guidelines**
-- [ ] How to participate in meetings
+- [ ] Making decisions and escalating topics
 - [ ] The Project Sharepoint
 - [ ] ASAM's contribution workflow
 - [ ] Contribute with issues

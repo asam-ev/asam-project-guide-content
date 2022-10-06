@@ -3,12 +3,9 @@
 :keywords: drawio,summary,tool,recommended
 
 include::partial$_attributes.adoc[]
-include::contributing:partial$_attributes.adoc[]
 
 
-{recommended}
-
-include::contributing:partial$icon_reminder.adoc[tag=online-access]
+include::compendium:partial$icon_reminder.adoc[tag=online-access]
 
 {drawio-icon}
 
@@ -25,7 +22,7 @@ TIP: It is recommended to use the VS Code extension and Draw.io Desktop *only* f
 The reason is that the ASAM library cannot be integrated directly as of now into the extension solution.
 
 
-== Draw.io At ASAM
+== Draw.io at ASAM
 ASAM uses Draw.io for creating custom diagrams for standards and documentation.
 
 == Content
@@ -42,4 +39,4 @@ ASAM uses Draw.io for creating custom diagrams for standards and documentation.
 
 |===
 
-related::docker,!summary[]
+// related::image,diagram[]

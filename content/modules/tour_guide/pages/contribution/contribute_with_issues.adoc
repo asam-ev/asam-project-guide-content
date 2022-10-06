@@ -12,7 +12,7 @@ include::tour_guide:partial$_attributes.adoc[]
 - [x] Setup for your development platform account
 - [x] Meeting types at ASAM
 - [x] Meeting guidelines
-- [x] How to participate in meetings
+- [x] Making decisions and escalating topics
 - [x] The Project Sharepoint
 - [x] ASAM's contribution workflow
 - [ ] **Contribute with issues**

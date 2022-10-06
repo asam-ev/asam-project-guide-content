@@ -3,10 +3,11 @@
 :keywords: setup, git
 :vscode: xref:compendium:Tools/vscode.adoc[]
 :gitlab: ASAM {gitlab-url}[GitLab^]
+:reftext: Setup
 
 include::compendium:partial$_attributes.adoc[]
 include::partial$_attributes.adoc[]
-include::contributing:partial$_attributes.adoc[]
+
 
 
 

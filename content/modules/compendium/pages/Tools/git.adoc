@@ -1,17 +1,13 @@
 = Git
 :description: A summary page describing what Git is and where to find related information, guides etc.
 :keywords: git,summary,tool,recommended, doc-as-code
-:page-layout: responsible
-:page-responsible-name: Stefan Cyliax
-:page-responsible-contact: stefan.cyliax(at)asam.net
+// :page-layout: responsible
+// :page-responsible-name: Stefan Cyliax
+// :page-responsible-contact: stefan.cyliax(at)asam.net
 
 include::partial$_attributes.adoc[]
-include::contributing:partial$_attributes.adoc[]
 
-
-{recommended}
-
-include::contributing:partial$icon_reminder.adoc[tag=download-link]
+include::compendium:partial$icon_reminder.adoc[tag=download-link]
 
 {git-icon}
 
@@ -49,6 +45,4 @@ ASAM recommends using Git for working on a repository locally:
 
 |===
 
-related::git,!summary[]
-
-* xref:compendium:Tools/remote_repo.adoc[]
+related::repository[]

@@ -1,0 +1,101 @@
+= Draw.io guides
+:description: Collection of guidelines for drawio.
+:keywords: drawio, guide
+:reftext: Guides
+
+include::partial$_attributes.adoc[]
+
+
+
+{drawio-icon-page}
+
+== Basics
+Click the link to access the https://drawio-app.com/tutorials/[official Draw.io guides^].
+Here, you can learn more about the basics of Draw.io as well as advanced techniques like creating custom shapes.
+
+
+== Including Draw.io in AsciiDoc
+If you have a drawio diagram (must be a .drawio.svg file!), you can add it to your document the following way.
+
+[tabs]
+====
+AsciiDoc::
++
+--
+....
+[[fig-example-drawio]] // <1>
+.example graphic // <2>
+image::examplegraphic.drawio.svg[image] // <3>
+....
+<1> Anchor for the graphic. Reference this anchor using \<<fig-example-drawio>>
+<2> Graphic caption
+<3> Include of actual graphic
+--
+Result::
++
+--
+[[fig-example-drawio]]
+.example graphic
+image::compendium:examplegraphic.drawio.svg[image]
+--
+====
+
+
+== Accessing the ASAM Library
+This is described in the xref:compendium:Tools/drawio/01_drawio_setup.adoc[]. +
+To use assets from the library, drag and drop the required asset from the library on the left into your
+
+== Edit The ASAM Graphics Library
+The ASAM Graphics Library for Draw.io consists of custom-made reusable graphics.
+During projects, new such graphics may be created.
+These should be added to the library to ensure they can be reused easily in other projects.
+
+[tabs]
+====
+Using Git::
++
+--
+
+. Check out the https://code.asam.net/common/asam-graphic-library[ASAM Graphics Library repository^] (https://code.asam.net/common/asam-graphic-library.git)
+. Open Draw.io (online or locally)
+. Click btn:[Open Library from/Device...] and select the library file (.xml)
++
+image::compendium:open_drawio_library.png[]
++
+. Create or load your new shapes or images
+. Drag & drop all relevant shapes or images into the library section on the left
+. Click the btn:[edit] button (the pencil) next to the library name
+. Add descriptive names to all added elements
+. Click menu:Export[Device] to save it on your computer
+. Locate the saved/exported library file
+. Move it to the checked out repository to replace the previous version
+. Stage, commit, and push the changes to remote.
+The commit message should describe the changes that were made
+--
+Without local installation::
++
+--
+
+. Download the https://code.asam.net/common/asam-graphic-library/-/raw/master/ASAM_graphics_library.xml?inline=false[raw ASAM Graphics Library file] to you computer
+. Open Draw.io (online or locally)
+. Click btn:[Open Library from/Device...] and select the library file (.xml)
++
+image::compendium:open_drawio_library.png[]
++
+. Create or load your new shapes or images
+. Drag & drop all relevant shapes or images into the library section on the left
+. Click the btn:[edit] button (the pencil) next to the library name
+. Add descriptive names to all added elements
+. Click menu:Export[Device] to save it on your computer
+. Locate the saved/exported library file
+. Open the library file https://code.asam.net/common/asam-graphic-library/-/blob/master/ASAM_graphics_library.xml[in your browser^] and click btn:[Replace]
++
+image::compendium:asset_library_replace_file.png[]
++
+. Select the updated library file and drag & drop it into the upload window.
+Alternatively, use the btn:[click to upload] button
+. Add a commit message describing the changes that were made
+. Create a new commit by clicking on btn:[Replace file]
+
+--
+====

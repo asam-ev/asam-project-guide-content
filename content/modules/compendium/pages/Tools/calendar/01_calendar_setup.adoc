@@ -1,13 +1,14 @@
 = Setting up the OpenX calendar
 :description: How to import the shared OpenX calendar.
 :keywords: setup,openx-calendar
+:reftext: Setup
 
 :calendar-ics: https://outlook.office365.com/owa/calendar/1e9807ec9a8f420fb5b010cd17f4ef0b@asam.net/dd82caebcf5a4c51b22c5eb9a0b220ea3378152309461979582/calendar.ics
 :outlook-url: https://support.microsoft.com/en-us/office/import-or-subscribe-to-a-calendar-in-outlook-com-cff1429c-5af6-41ec-a5b4-74f2c278e98c
 :google-url: https://support.google.com/calendar/answer/37100?co=GENIE.Platform%3DDesktop&hl=en
 
 include::partial$_attributes.adoc[]
-include::contributing:partial$_attributes.adoc[]
+
 
 
 {calendar-icon-page}
@@ -19,7 +20,7 @@ include::contributing:partial$_attributes.adoc[]
 include::partial$calendar-include-mail.adoc[]
 
 == Result
-The user has activated their ASAM GitLab account and can access the correct project repositories.
+You have imported the OpenX calendar in your email program.
 
 == Prerequisites
 none

@@ -1,0 +1,63 @@
+= Decisions and escalations
+:description: Contains information on decisions and when to escalate.
+:keywords: meeting
+
+include::tour_guide:partial$_attributes.adoc[]
+
+.Guide progress
+[%collapsible]
+====
+****
+- [x] ASAM's collaboration tools
+- [x] Setup for your development platform account
+- [x] Meeting types at ASAM
+- [x] Meeting guidelines
+- [ ] **Making decisions and escalating topics**
+- [ ] The Project Sharepoint
+- [ ] ASAM's contribution workflow
+- [ ] Contribute with issues
+- [ ] How issues are implemented
+- [ ] Typical tools for advanced users
+****
+====
+
+== Decisions in meetings
+Participants of a meeting can make decisions on topics within the scope of their respective group.
+This means that a sub-group can make decisions on all topics related to their sub-group's task, whereas decisions in a project-level meeting typically concern the project as a whole.
+
+[horizontal]
+Sub-groups:: Can make decisions on all topics assigned to this particular sub-group. +
+May prepare suggestions for topics that affect other sub-groups. 
+However, topics that go beyond the sub-group's responsibilities must be escalated to the whole group.
+Project-level:: Can make decisions on all topics that affect the whole project within the defined project scope. +
+May prepare suggestions for topics that alter the current scope or affect other projects as well.
+These suggestions, however, must be escalate to the appropriate ASAM-level meeting.
+
+== Escalation of topics
+=== From Sub-group to group
+Under the following instances must a topic be presented at the next xref:meetings/types.adoc#_project-level_meetings[project-level meeting]:
+* Changes to the underlying data model
+* It is requested by the Sub-group
+* It is requested by the Project Lead
+* It is requested by a project steering committee (e.g. the CCB)
+* The sub-group cannot reach a decision on a specific topic or assumes that there are different opinions in the overall project group
+
+The Project Lead may escalate Sub-group decisions to a project level vote.
+
+=== From group to TSC
+If a project cannot meet its milestones or budget, it must escalate its status report in the next CGSim controlling meeting.
+See also xref:meetings/types.adoc#_cgsim_controlling_meetings[CGSim Controlling meetings].
+
+== Inactive participants
+An inactive participant is someone who is registered as an active participant but repeatedly and unexcused does not partake in meetings or any development activities. 
+How "repeatedly unexcused" absent a participant has to be before being marked as inactive is up to the project to decide.
+As an example, a group can decide that three (3) unexcused absences are the limit, with a final warning being issued after the second time. +
+Inactive participants can hinder a project by bringing it below the required voting threshold.
+They also put more workload on the other active members.
+It is, therefore, important to identify inactive members quickly and get them to be active again.
+As a last resort, inactive (and possibly unresponsive) members can be removed from the project.
+This is the responsibility of the responsible lead: Project Lead for project level inactiveness, Sub-group Lead for relevant sub-groups.
+
+Typically, identification of inactive participants is tied to meeting participation.
+The respective Lead must contact members that have been identified as inactive to try and get them involved (again).
+If this fails, the inactive member can be removed from the project either through the project controlling or, in difficult cases, through the TSC.

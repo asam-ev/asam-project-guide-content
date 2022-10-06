@@ -5,7 +5,7 @@
 
 //tag::body[]
 include::compendium:partial$_attributes.adoc[]
-include::contributing:partial$_attributes.adoc[]
+
 
 
 

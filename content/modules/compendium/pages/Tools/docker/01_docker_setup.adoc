@@ -1,10 +1,10 @@
 = Setting up Docker
 :description: A summary page describing how to set up docker
 :keywords: docker,setup
-:page-partial:
+:reftext: Setup
 
 include::partial$_attributes.adoc[]
-include::contributing:partial$_attributes.adoc[]
+
 include::compendium:partial$_attributes.adoc[]
 
 
@@ -31,7 +31,6 @@ If this is not possible for you, you can follow the instructions on how to set u
 === Standard Docker-Desktop installation
 . {docker-url}[Download, window=_blank] the latest Docker version.
 . Follow the https://docs.docker.com/desktop/windows/install/[official installation instructions, window=_blank].
-. __OPTIONAL: Add xref:{vscode-extensions}#_docker[docker extensions] in xref:compendium:Tools/vscode.adoc[]__.
 . RECOMMENDED: After setup, you can try the example project to get to know basic Docker commands.
 
 === Build from binaries

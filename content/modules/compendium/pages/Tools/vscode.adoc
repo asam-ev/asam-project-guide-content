@@ -4,12 +4,12 @@
 :gitlab: xref:compendium:Tools/remote_repo.adoc[]
 
 include::partial$_attributes.adoc[]
-include::contributing:partial$_attributes.adoc[]
+
 
 
 {recommended}
 
-include::contributing:partial$icon_reminder.adoc[tag=download-link]
+include::compendium:partial$icon_reminder.adoc[tag=download-link]
 
 {vscode-icon}
 

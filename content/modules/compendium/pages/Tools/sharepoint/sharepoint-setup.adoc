@@ -3,7 +3,7 @@
 :keywords: setup,teams,sharepoint
 
 include::partial$_attributes.adoc[]
-include::contributing:partial$_attributes.adoc[]
+
 
 
 {sharepoint-icon-page}

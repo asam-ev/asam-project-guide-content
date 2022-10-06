@@ -1,0 +1,89 @@
+= Git guides
+:description: Collection of guidelines for git.
+:keywords: git, guide
+:offset-value: leveloffset=+1
+:reftext: Guides
+
+include::partial$_attributes.adoc[]
+
+
+
+{git-icon-page}
+
+
+== Make changes in a repository
+
+=== Git workflow
+
+TIP: It is best practice to check for changes on remote before changing files locally and before pushing changes to remote.
+
+The Git workflow for making changes is a 4 step process:
+
+.Git workflow
+image::compendium:git-workflow.svg[Git Workflow]
+
+. Make the changes in your working copy.
+. Add files from the working copy to the staging area (`git add`).
+. Commit staged files to your local repo (`git commit`).
+. Push to a remote repository (`git push`).
+
+=== Further read
+* https://git-scm.com/docs/gittutorial[window=_blank]
+
+
+
+== Cloning a repository
+If you want to work on a repository locally, you need to first check it out from remote (GitLab).
+To do so, follow one of the cloning instructions below.
+
+IMPORTANT: If your project contains submodules, make sure to also update them.
+
+[tabs]
+====
+Terminal::
++
+--
+. Find the repository url on the website and copy the git url
+
+. Open the folder on your PC where you want to save the repository
+
+. Open the Git Bash from the Context Menu (right-click -> Select "Git Bash Here")
+
+. Type `git clone --recurse-submodules` and then press the middle mouse button to paste the copied url.
+Confirm with kbd:[Enter]
++
+NOTE: With this command, you do not need to manually initialize the submodules after checkout!
+
+TIP: Alternatively to the Git Bash, you can also use the terminal with the same commands.
+Make sure to open your Powershell in your directory, though.
+
+image::compendium:clone-by-git-bash.gif[]
+--
+VSCode::
++
+--
+NOTE: This only needs to be done once to obtain a local copy.
+
+. Find the repository url on the website and copy the git url
+
+. Open the Command Pallette (kbd:[Ctrl+Shift+P]), type `Git: Clone`, then press kbd:[Enter]
+
+. Paste the copied git url and press kbd:[Enter]
+
+. Select the folder on your PC where you want to save the repository
+
+image::compendium:gitlab-clone-ssh.gif[]
+
+TIP: If you encounter an error that the host key verification failed, you need to add GitLab to your known_host file. +
+image:compendium:git_error_host-key-verification-failed.PNG[]
+--
+Gitlab-to-VSCode::
++
+--
+. Click menu:Clone[Visual Studio Code]
+
+. Select the folder on your PC where you want to save the repository
+
+image::compendium:clone-to-vscode.gif[]
+--
+====

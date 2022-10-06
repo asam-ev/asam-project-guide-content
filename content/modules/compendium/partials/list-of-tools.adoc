@@ -1,12 +1,11 @@
 
-
-include::tour_guide:partial$_attributes.adoc[]
-
 //tag::tabs[]
+
+include::compendium:partial$tools_attributes.adoc[]
 
 The following tabulated table lists the tools used in ASAM projects, separated by intended use.
 
-include::tour_guide:partial$icon_reminder.adoc[tag=info-page]
+include::compendium:partial$icon_reminder.adoc[tag=info-page]
 
 [tabs, subs="attributes"]
 ====
@@ -111,7 +110,7 @@ Relevant for users that want to stay informed about *upcoming events and meeting
 
 include::tour_guide:partial$_attributes.adoc[]
 
-include::tour_guide:partial$icon_reminder.adoc[tag=info-page]
+include::compendium:partial$icon_reminder.adoc[tag=info-page]
 
 [#collaborative_infrastructure]
 .Infrastructure to enable collaborative standard development
@@ -157,7 +156,7 @@ It can be accessed directly or through Teams, which is why all files that have b
 
 include::tour_guide:partial$_attributes.adoc[]
 
-include::tour_guide:partial$icon_reminder.adoc[tag=info-page]
+include::compendium:partial$icon_reminder.adoc[tag=info-page]
 
 [#recommended_tools_table]
 .Recommended tools

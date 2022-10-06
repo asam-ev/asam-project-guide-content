@@ -8,7 +8,7 @@
 :offset-value-sub: leveloffset=+{level-sub}
 
 include::partial$_attributes.adoc[]
-include::contributing:partial$_attributes.adoc[]
+
 
 
 {vscode-icon-page}
@@ -17,6 +17,6 @@ Visual Studio Code is a powerful code and text editor that can be highly individ
 
 include::compendium:page$How-Tos/vscode_install_extension.adoc[{offset-value}]
 
-include::compendium:page$Guidelines/vscode-recommended_vscode_extensions.adoc[{offset-value-sub}]
+include::compendium:page$Tools/vscode/04_vscode_recommended_extensions.adoc[{offset-value-sub}]
 
 include::compendium:page$Guidelines/vscode-recommended_vscode_settings.adoc[{offset-value}]

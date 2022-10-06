@@ -1,9 +1,10 @@
-= Docker best practices
+= Docker -- Best practices
 :description: A collection of best practices regarding Docker at ASAM.
 :keywords: docker, best-practices
+:reftext: Best practices
 
 include::partial$_attributes.adoc[]
-include::contributing:partial$_attributes.adoc[]
+
 
 
 {docker-icon-page}
