@@ -1,5 +1,5 @@
-= Setting up Microsoft Teams and Sharepoint
-:description: Setup of MS Teams and sharepoint
+= Setting up Microsoft Sharepoint
+:description: Setup of MS Sharepoint
 :keywords: setup,teams,sharepoint
 
 include::partial$_attributes.adoc[]
@@ -12,7 +12,7 @@ include::contributing:partial$_attributes.adoc[]
 // If you use a recurring image for similar artifacts, declare it as attribute in partials/_attributes.adoc and reference here.
 
 == Context
-MS Teams and sharepoint are used at ASAM to allow for communication (both through text and audio/video) within project teams and exchange files and documents without direct impact on the standardization processes.
+MS Sharepoint are used at ASAM to allow for communication (both through text and audio/video) within project teams and exchange files and documents without direct impact on the standardization processes.
 In order to use these tools, an initial setup is required.
 
 == Result
@@ -21,7 +21,7 @@ In order to use these tools, an initial setup is required.
 * User can add and download files from Sharepoint
 
 == Prerequisites
-* Access to MS Teams and Sharepoint has been granted by ASAM.
+* Access to MS Sharepoint has been granted by ASAM.
 * Full access: Microsoft 365 Business Standard, Microsoft 365 Enterprise, and Microsoft 365 Education license
 
 WARNING: If you do not yet have access to Teams, get in touch with mailto:benjamin.engel@asam.net[Benjamin Engel].

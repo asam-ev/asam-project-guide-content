@@ -1,14 +1,14 @@
-= ASAM Project Introduction
-:description: The main landing page for the ASAM Project Introduction.
+= ASAM Project Guide
+:description: The main landing page for the ASAM Project Guide.
 :page-aliases: home.adoc
 
 include::partial$_attributes.adoc[]
 
 
-Welcome to the **ASAM Project Introduction**!
+Welcome to the **ASAM Project Guide**!
 
-This guide provides an introduction to new members on how to get involved.
-It provides an overview over all relevant basics to get you up and running for your ASAM project.
+This guide provides an overview over all relevant basics to get you up and running for your ASAM project.
+It also contains a compendium if you need to look up specific topics.
 
 ASAM tries to keep technical requirements for participation as low as possible.
 One example is that you do not need to install any software on your computer to be able to participate.

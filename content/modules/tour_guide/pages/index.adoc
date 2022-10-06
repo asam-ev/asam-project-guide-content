@@ -19,10 +19,10 @@ The only thing you need to do is set up your repository account and you can star
 
 Just make sure to **familiarize yourself with the following topics** before you start contributing: 
 
-* How ASAM uses xref:sharepoint.adoc[**Microsoft Sharepoint**] in projects
-* The xref:sharepoint.adoc#_participants_list[**participants list**]
-* How you can xref:contribution.adoc[**contribute**]
-* Simulation Domain: the **OpenX calendar**
+* How ASAM uses xref:sharepoint.adoc[**Microsoft Sharepoint**] in its projects
+* The xref:sharepoint.adoc#_participants_list[**participants list**] and where to find it
+* How you can xref:contribution.adoc[**contribute**] to your project
+* For the Simulation domain: the shared **OpenX calendar**
 
 == Tour guide progress
 Every page in this guided tour will have a progress information button like this:
