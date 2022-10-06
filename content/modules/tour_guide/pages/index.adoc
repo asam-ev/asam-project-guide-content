@@ -3,13 +3,10 @@
 :keywords: tools
 :no-installation: xref:main.adoc[]
 :page-aliases: overview.adoc
-:contributing:
+:tour_guide:
 :reftext: Guided tour
 
 include::tour_guide:partial$_attributes.adoc[]
-include::ROOT:partial$_attributes.adoc[]
-
-{contributing-icon}
 
 include::partial$module-description.adoc[]
 

@@ -132,6 +132,16 @@ a|https://cdn-icons-png.flaticon.com/512/3039/3039564.png[width=40]
 <a href="https://www.flaticon.com/free-icons/review" title="review icons">Review icons created by Freepik - Flaticon</a>
 +++
 
+a|https://cdn-icons-png.flaticon.com/512/4295/4295914.png[width=40]
+|+++
+<a href="https://www.flaticon.com/free-icons/review" title="review icons">Review icons created by Freepik - Flaticon</a>
++++
+
+a|https://cdn-icons-png.flaticon.com/512/921/921347.png[width=40]
+|+++
+<a href="https://www.flaticon.com/free-icons/review" title="review icons">Review icons created by Freepik - Flaticon</a>
++++
+
 |===
 
 // Template

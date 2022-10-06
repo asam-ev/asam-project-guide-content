@@ -2,6 +2,8 @@
 :description: Summary page on meetings in ASAM projects.
 :keywords: meeting
 
+include::tour_guide:partial$_attributes.adoc[]
+
 .Guide progress
 [%collapsible]
 ====
@@ -18,6 +20,8 @@
 - [ ] Typical tools for advanced users
 ****
 ====
+
+== Overview
 
 All projects at ASAM consist of at least three independent project members.
 Therefore, no project can thrive without meetings.

@@ -1,7 +1,8 @@
 
-//tag::tabs[]
 
 include::tour_guide:partial$_attributes.adoc[]
+
+//tag::tabs[]
 
 The following tabulated table lists the tools used in ASAM projects, separated by intended use.
 
@@ -78,7 +79,7 @@ Relevant for users that want to *exchange documents* that do not fit into the pr
 |{mandatory}
 |ASAM IT infrastructure
 
-|{participants-icon-norole} +
+|{participants-list-icon-norole} +
 Participants list
 |Each project has a participants list.
 The list contains the current contact information for all project members.

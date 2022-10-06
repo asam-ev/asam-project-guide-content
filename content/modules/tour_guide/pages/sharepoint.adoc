@@ -1,6 +1,8 @@
 = Project Sharepoint
 :keywords: teams, sharepoint
 
+include::tour_guide:partial$_attributes.adoc[]
+
 .Guide progress
 [%collapsible]
 ====

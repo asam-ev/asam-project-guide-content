@@ -2,6 +2,8 @@
 :description: Definitions for all typical meetings at ASAM.
 :keywords: meeting
 
+include::tour_guide:partial$_attributes.adoc[]
+
 .Guide progress
 [%collapsible]
 ====

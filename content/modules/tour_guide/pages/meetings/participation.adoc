@@ -1,6 +1,8 @@
 = Participating in meetings
 :description: Contains information on how you can participate in ASAM meetings.
 
+include::tour_guide:partial$_attributes.adoc[]
+
 .Guide progress
 [%collapsible]
 ====

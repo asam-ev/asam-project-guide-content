@@ -23,6 +23,14 @@
 // :getting-started-nav-icon: xref:{getting-started-xref}[image:{getting-started-image}[width={width-nav-icon}] Concepts]
 
 
+//tour-guide
+:tour_guide-image: https://cdn-icons-png.flaticon.com/512/4295/4295914.png
+:tour_guide-xref: tour_guide:index.adoc
+:tour_guide-icon: xref:{tour_guide-xref}[image:{tour_guide-image}[alt= Introduction, width={width-large}, role=right]]
+:tour_guide-icon-small: xref:{tour_guide-xref}[image:{tour_guide-image}[alt= Introduction, width={width-small}, role=right]]
+:tour_guide-icon-norole: xref:{tour_guide-xref}[image:{tour_guide-image}[alt= Introduction, width={width-small}]]
+:tour_guide-nav-icon: xref:{tour_guide-xref}[]
+
 
 //getting-involved
 // :getting-involved-image: https://cdn-icons-png.flaticon.com/512/3100/3100232.png

@@ -21,3 +21,7 @@ If you have any questions or feedback, do not hesitate to contact your ASAM Offi
 
 NOTE: This guide assumes you already know who and what ASAM is.
 For more information, refer to the https://www.asam.net/about-asam/[ASAM website^].
+
+== Quick access
+
+include::partial$landing_page_referral.adoc[tag=body]

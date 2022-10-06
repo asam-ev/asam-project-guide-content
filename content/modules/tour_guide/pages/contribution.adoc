@@ -1,6 +1,8 @@
 = Contribution workflow
 :description: Explains the basic contribution workflows.
 
+include::tour_guide:partial$_attributes.adoc[]
+
 .Guide progress
 [%collapsible]
 ====
@@ -18,9 +20,9 @@
 ****
 ====
 
-include::partial$_attributes.adoc[]
 include::compendium:partial$issue_labels.adoc[]
 
+== Overview 
 Developing content for ASAM standards is focussed around the concept of contributing with issues.
 The following sections describe this workflow in more detail.
 

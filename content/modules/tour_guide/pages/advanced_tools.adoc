@@ -1,6 +1,8 @@
 = Tools overview for advanced users
 :description: Contains information on tools for advanced users.
 
+include::tour_guide:partial$_attributes.adoc[]
+
 .Guide progress
 [%collapsible]
 ====
@@ -18,11 +20,15 @@
 ****
 ====
 
+== Introduction
+
 If you prefer, you may also choose to work with compatible tools on your local computer.
 Note that these are not required for project members in order to be able to participate at all!
 Instead, they usually provide advanced features for specific tasks.
 You may also be interested if you prefer working locally.
 // Advanced users can check out the xref:compendium:Tools.adoc[] section in the Compendium for further recommendations.
+
+== Tools list
 
 include::tour_guide:partial$list-of-tools.adoc[tag=tabs]
 

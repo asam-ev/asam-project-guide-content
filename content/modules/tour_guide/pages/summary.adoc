@@ -1,9 +1,12 @@
 = Guide summary
 :description: Summarizes the topics from the guide and links helpful information for further reading.
 
+include::tour_guide:partial$_attributes.adoc[]
+
 **Congratulations!** +
 You should now have successfully set up your developer account and know everything to get started in your ASAM project!
 
+== What was covered
 ****
 - [x] ASAM's collaboration tools
 - [x] Setup for your development platform account
@@ -17,7 +20,7 @@ You should now have successfully set up your developer account and know everythi
 - [x] Typical tools for advanced users
 ****
 
-
+== Further reading
 If you want to read more on a specific topic, you can use the search function on the top.
 Alternatively, you can look in the xref:compendium:compendium.adoc[Compendium] for more detailed information on specific topics.
 

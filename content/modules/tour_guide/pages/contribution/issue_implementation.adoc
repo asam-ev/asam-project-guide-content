@@ -2,6 +2,8 @@
 :description: Explains the basic contribution workflows.
 :keywords: basics
 
+include::tour_guide:partial$_attributes.adoc[]
+
 .Guide progress
 [%collapsible]
 ====
@@ -19,7 +21,6 @@
 ****
 ====
 
-include::partial$_attributes.adoc[]
 include::compendium:partial$issue_labels.adoc[]
 
 == Overview
