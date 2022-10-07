@@ -25,7 +25,7 @@ AsciiDoc::
 ....
 [[fig-example-drawio]] // <1>
 .example graphic // <2>
-image::examplegraphic.drawio.svg[image] // <3>
+image::drawio/examplegraphic.drawio.svg[image] // <3>
 ....
 <1> Anchor for the graphic. Reference this anchor using \<<fig-example-drawio>>
 <2> Graphic caption
@@ -36,7 +36,7 @@ Result::
 --
 [[fig-example-drawio]]
 .example graphic
-image::compendium:examplegraphic.drawio.svg[image]
+image::compendium:drawio/examplegraphic.drawio.svg[image]
 --
 ====
 
@@ -60,7 +60,7 @@ Using Git::
 . Open Draw.io (online or locally)
 . Click btn:[Open Library from/Device...] and select the library file (.xml)
 +
-image::compendium:open_drawio_library.png[]
+image::compendium:drawio/open_drawio_library.png[]
 +
 . Create or load your new shapes or images
 . Drag & drop all relevant shapes or images into the library section on the left
@@ -80,7 +80,7 @@ Without local installation::
 . Open Draw.io (online or locally)
 . Click btn:[Open Library from/Device...] and select the library file (.xml)
 +
-image::compendium:open_drawio_library.png[]
+image::compendium:drawio/open_drawio_library.png[]
 +
 . Create or load your new shapes or images
 . Drag & drop all relevant shapes or images into the library section on the left
@@ -90,7 +90,7 @@ image::compendium:open_drawio_library.png[]
 . Locate the saved/exported library file
 . Open the library file https://code.asam.net/common/asam-graphic-library/-/blob/master/ASAM_graphics_library.xml[in your browser^] and click btn:[Replace]
 +
-image::compendium:asset_library_replace_file.png[]
+image::compendium:drawio/asset_library_replace_file.png[]
 +
 . Select the updated library file and drag & drop it into the upload window.
 Alternatively, use the btn:[click to upload] button

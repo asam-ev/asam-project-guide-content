@@ -16,7 +16,7 @@ Virtual meetings can be created directly from MS Teams.
 Meetings that are sent to a channel or created directly within that channel let everyone who has access to that channel join.
 If you want to restrict the access, create a meeting outside of a channel and invite users selectively.
 
-image::compendium:creating-a-meeting-in-teams.gif[Creating A Meeting In Teams]
+image::compendium:sharepoint_teams/creating-a-meeting-in-teams.gif[Creating A Meeting In Teams]
 
 === Obtain the email address of a channel
 Users can send mails to teams channels which are then automatically posted as messages in that channel.
@@ -27,10 +27,10 @@ To do so, the user needs to know the channel mail provided by MS Teams.
 . Copy the selected address to clipboard
 
 .How to obtain the email address of a Teams channel
-image::compendium:obtain-email-teams.gif[Obtaining an Email Adress of a Channel]
+image::compendium:sharepoint_teams/obtain-email-teams.gif[Obtaining an Email Adress of a Channel]
 
 
 == Sharepoint
 
 .Demo on synchronizing
-image::compendium:snychronizing_with_onedrive.gif[Demo on synchronizing]include::compendium:page$How-Tos/synchronizing_sharepoint_with_onedrive.adoc[{offset_value}]
+image::compendium:sharepoint_teams/synchronizing_with_onedrive.gif[Demo on synchronizing]include::compendium:page$How-Tos/synchronizing_sharepoint_with_onedrive.adoc[{offset_value}]
