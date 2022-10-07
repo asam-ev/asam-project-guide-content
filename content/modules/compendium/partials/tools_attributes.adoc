@@ -39,6 +39,9 @@
 :guide-image: https://cdn-icons-png.flaticon.com/512/2618/2618595.png
 :troubleshooting-image: https://cdn-icons-png.flaticon.com/512/868/868834.png
 :best-practices-image: https://cdn-icons-png.flaticon.com/512/2996/2996987.png
+:settings-image: https://cdn-icons-png.flaticon.com/512/70/70115.png
+:extensions-image: https://cdn-icons-png.flaticon.com/512/3793/3793602.png
+
 :docker-image: https://www.docker.com/wp-content/uploads/2022/03/vertical-logo-monochromatic.png
 :calendar-image: https://cdn-icons-png.flaticon.com/512/591/591576.png
 :vscode-image: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/240px-Visual_Studio_Code_1.35_icon.svg.png

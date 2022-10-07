@@ -142,6 +142,16 @@ a| image::https://cdn-icons-png.flaticon.com/512/921/921347.png[width=40]
 <a href="https://www.flaticon.com/free-icons/team" title="team icons">Team icons created by Freepik - Flaticon</a>
 +++
 
+a| image::https://cdn-icons-png.flaticon.com/512/70/70115.png[width=40]
+|+++
+<a href="https://www.flaticon.com/free-icons/settings" title="settings icons">Settings icons created by Pavel Kozlov - Flaticon</a>
++++
+
+a| image::https://cdn-icons-png.flaticon.com/512/3793/3793602.png[width=40]
+|+++
+<a href="https://www.flaticon.com/free-icons/extension" title="extension icons">Extension icons created by Royyan Wijaya - Flaticon</a>
++++
+
 |===
 
 // Template

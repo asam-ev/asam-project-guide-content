@@ -1,6 +1,7 @@
 = Visual Studio Code guides
 :description: A guide for VSCode explaining basic ui and usability topics.
 :keywords: guide, vscode
+:reftext: Guides
 
 :level-main: 1
 :level-sub: 2
@@ -15,8 +16,19 @@ include::partial$_attributes.adoc[]
 
 Visual Studio Code is a powerful code and text editor that can be highly individualized and adapted to the task at hand using the existing extensions for it.
 
-include::compendium:page$How-Tos/vscode_install_extension.adoc[{offset-value}]
+Visual Studio Code can be adapted to each project's and the user's needs.
+This is done by installing and using extensions.
+This section shows how to install a new extension from the marketplace.
+As an example, we will use the AsciiDoc extension.
 
-include::compendium:page$Tools/vscode/04_vscode_recommended_extensions.adoc[{offset-value-sub}]
+The AsciiDoc extension for VSCode allows for easy creation and supported editing of AsciiDoc or adoc files within VSCode.
+For shortcuts and tips, see the documentation of the extension.
+You can access this documentation when you click on the extension in the marketplace.
 
-include::compendium:page$Guidelines/vscode-recommended_vscode_settings.adoc[{offset-value}]
+. Access the extensions window through the VSCode menu bar -> View -> Extensions.
++
+image::compendium:extensions.png[alt=Add extension under 'View']
+
+. Search for AsciiDoc (or use asciidoctor.asciidoctor-vscode) & install it.
++
+include::compendium:page$Tools/vscode/04_vscode_recommended_extensions.adoc[tag=asciidoc]

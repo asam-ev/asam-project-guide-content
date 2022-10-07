@@ -1,13 +1,9 @@
 = Visual Studio Code
 :description: A summary page describing what VSCode is and where to find related information, guides etc.
 :keywords: vscode,summary,tool,recommended, doc-as-code
-:gitlab: xref:compendium:Tools/remote_repo.adoc[]
+:gitlab: xref:compendium:Tools/remote_repo.adoc[remote repository]
 
 include::partial$_attributes.adoc[]
-
-
-
-{recommended}
 
 include::compendium:partial$icon_reminder.adoc[tag=download-link]
 
@@ -17,18 +13,17 @@ include::compendium:partial$icon_reminder.adoc[tag=download-link]
 {role-service-provider}
 
 
-Visual Studio Code is the suggested solution for checking out repositories and files from {gitlab}, adding and editing files, and pushing changes back to {gitlab}.
-However, users may choose any compatible program(s) instead, as long as {gitlab} stays the single point of truth for project files.
+Visual Studio Code is the suggested solution for checking out repositories and files from the {gitlab}, adding and editing files, and pushing changes back to remote.
+However, users may choose any compatible program(s) instead, as long as their {gitlab} stays the single point of truth for project files.
 
-Alternatively, users may also choose to work completly through {gitlab} by using the Web IDE provided there.
-See {gitlab} for more information.
+Alternatively, users may also choose to work completely within their {gitlab} by using the web IDE provided there.
 
 == Visual Studio Code at ASAM
 ASAM recommends using Visual Studio Code (VSCode) for local text document interaction, such as:
 
 * Writing and editing AsciiDoc content
 * Managing complex structures in a single workspace
-* Instant preview for asciidoc, plantuml, draw.io and more
+* Instant preview for AsciiDoc, plantuml, draw.io, and more
 
 
 == Content
@@ -37,14 +32,16 @@ ASAM recommends using Visual Studio Code (VSCode) for local text document intera
 [cols="^1h,4",frame=none, grid=rows, stripes=hover]
 |===
 
-|xref:compendium:Tools/vscode/vscode-setup.adoc[image:{setup-image}[width=120,title="GitLab Setup"]]
-|Visual Studio Code Setup
+|xref:compendium:Tools/vscode/01_vscode_setup.adoc[image:{setup-image}[width=120,title="VSCode Setup"]]
+|Visual Studio Code setup
 
-|xref:compendium:Tools/vscode/vscode-guides.adoc[image:{guide-image}[width=120,title="GitLab Guides"]]
-|Visual Studio Code Guides
+|xref:compendium:Tools/vscode/02_vscode_guides.adoc[image:{guide-image}[width=120,title="VSCode Guides"]]
+|Visual Studio Code guides
+
+|xref:compendium:Tools/vscode/03_vscode_recommended_settings.adoc[image:{settings-image}[width=120,title="VSCode Recommended Settings"]]
+|Visual Studio Code -- recommended settings
+
+|xref:compendium:Tools/vscode/04_vscode_recommended_extensions.adoc[image:{extensions-image}[width=120,title="VSCode Recommended Extensions"]]
+|Visual Studio Code -- recommended extensions
 
 |===
-
-related::vscode,!summary[]
-
-* {gitlab}

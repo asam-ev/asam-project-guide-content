@@ -1,7 +1,7 @@
 = Recommended Visual Studio Code settings
 :description: Summarizes the recommended VSCode settings.
 :keywords: vscode
-:navtitle: [VSCode] Recommended Visual Studio Code Settings
+:reftext: Recommended settings
 
 include::compendium:partial$_attributes.adoc[]
 

@@ -1,7 +1,7 @@
 = Recommended Visual Studio Code extensions
 :description: A collection of recommended VSCode extensions
 :keywords: vscode,extensions,gitlab,asciidoc,drawio,docker
-:navtitle: [VSCode] Recommended Visual Studio Code Extensions
+:reftext: Recommended extensions
 
 include::compendium:partial$_attributes.adoc[]
 
