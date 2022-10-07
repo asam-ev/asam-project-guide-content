@@ -117,7 +117,7 @@ Tips::
 * Technical discussion happen in comments
 
 // .A demo of a review
-// image::ReviewExample.gif[]
+// image::gitlab/ReviewExample.gif[]
 
 **Change Control Board review** +
 [horizontal]

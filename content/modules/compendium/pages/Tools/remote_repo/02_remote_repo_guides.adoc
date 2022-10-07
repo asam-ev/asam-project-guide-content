@@ -95,7 +95,7 @@ However, steps are similar at GitHub.
 Download from pipeline::
 +
 --
-image::compendium:artifact_download_ci.png[]
+image::compendium:gitlab/artifact_download_ci.png[]
 
 . Access menu:Repository[Branches]
 . Select the pipeline for the branch that you'd like to access
@@ -105,7 +105,7 @@ image::compendium:artifact_download_ci.png[]
 Download From merge/pull request::
 +
 --
-image::compendium:artifact_download_mr.png[]
+image::compendium:gitlab/artifact_download_mr.png[]
 
 . Access menu:Repository[Merge requests]
 . Select the Merge/Pull Request that you'd like to access

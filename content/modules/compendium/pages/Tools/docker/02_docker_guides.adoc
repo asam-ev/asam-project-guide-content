@@ -22,7 +22,7 @@ include::compendium:page$Tools/vscode/04_vscode_recommended_extensions.adoc[tag=
 
 To run Docker-Compose on your docker-compose.yml, right-click on the file in your workspace and select btn:[Compose Up] from the menu.
 
-image::compendium:vscode-compose-up.png[title=Run "Compose Up" from the context menu]
+image::compendium:vscode/vscode-compose-up.png[title=Run "Compose Up" from the context menu]
 
 
 == Build with the Antora image

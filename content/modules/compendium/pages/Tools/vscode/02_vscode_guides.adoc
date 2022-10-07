@@ -27,7 +27,7 @@ You can access this documentation when you click on the extension in the marketp
 
 . Access the extensions window through the VSCode menu bar -> View -> Extensions.
 +
-image::compendium:extensions.png[alt=Add extension under 'View']
+image::compendium:vscode/extensions.png[alt=Add extension under 'View']
 
 . Search for AsciiDoc (or use asciidoctor.asciidoctor-vscode) & install it.
 +

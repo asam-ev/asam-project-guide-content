@@ -53,9 +53,9 @@ The user has activated their repository account and can access the correct proje
 == How
 
 . Follow the link in the GitLab account creation email sent by "GitLab +<code@asam.net>+" to set your password.
-. Log in with your account using the image:compendium:gitlab-standard-login-button.png[title="Standard Button"] access.
+. Log in with your account using the image:compendium:gitlab/gitlab-standard-login-button.png[title="Standard Button"] access.
 +
-image:compendium:gitlab-standard-login.png[title="Standard Login"]
+image:compendium:gitlab/gitlab-standard-login.png[title="Standard Login"]
 +
 You will be prompted to upload an SSH key.
 See xref:compendium:Tools/git/01_git_setup.adoc#_optional_ssh_key_pair[how to setup secure SSH connection] for instructions on generating and uploading the SSH keys.

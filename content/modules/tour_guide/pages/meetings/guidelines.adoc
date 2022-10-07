@@ -138,6 +138,9 @@ TIP: Do a quick vote first (e.g. show of hands).
 If it is unanimous, you can skip the formal process of voting.
 Make sure to document the result in either case, however.
 
+[horizontal]
+ASAM Project polls and voting policies:: You can access the official policy document here: https://asamev.sharepoint.com/:b:/r/sites/openodd/P_202203/01_administrative/ASAM%20poll%20and%20voting%20guidelines.pdf?csf=1&web=1&e=b3UeCM
+
 [cols="1,1", grid=cols, frame=none]
 |===
 a|=== Project-level voting 

@@ -57,7 +57,7 @@ NOTE: With this command, you do not need to manually initialize the submodules a
 TIP: Alternatively to the Git Bash, you can also use the terminal with the same commands.
 Make sure to open your Powershell in your directory, though.
 
-image::compendium:clone-by-git-bash.gif[]
+image::compendium:gitlab/clone-by-git-bash.gif[]
 --
 VSCode::
 +
@@ -72,7 +72,7 @@ NOTE: This only needs to be done once to obtain a local copy.
 
 . Select the folder on your PC where you want to save the repository
 
-image::compendium:gitlab-clone-ssh.gif[]
+image::compendium:gitlab/gitlab-clone-ssh.gif[]
 
 TIP: If you encounter an error that the host key verification failed, you need to add GitLab to your known_host file. +
 image:compendium:git_error_host-key-verification-failed.PNG[]
@@ -84,6 +84,6 @@ Gitlab-to-VSCode::
 
 . Select the folder on your PC where you want to save the repository
 
-image::compendium:clone-to-vscode.gif[]
+image::compendium:gitlab/clone-to-vscode.gif[]
 --
 ====

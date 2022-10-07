@@ -161,6 +161,6 @@ git branch --delete <branch-name>
 
 
 TODO
-image::compendium:workflow_tut_step3.png[img4, 1100,title="merge request"]
+image::compendium:gitlab/workflow_tut_step3.png[img4, 1100,title="merge request"]
 
-image::compendium:workflow_tut_step4.png[img5, 1100,title="merge request options"]
+image::compendium:gitlab/workflow_tut_step4.png[img5, 1100,title="merge request options"]
