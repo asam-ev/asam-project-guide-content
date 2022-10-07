@@ -38,7 +38,7 @@ Simulation domain projects are required to participate in the following external
 * <<CGSim controlling meetings>>
 * <<TSC controlling meetings>>
 
-image::compendium:asam/development_phase_timeline-cycle_example.svg[title = "Medium length development project example, including cycle details and external ASAM controlling meetings."]
+image::compendium:asam/development/development_phase_timeline-cycle_example.svg[title = "Medium length development project example, including cycle details and external ASAM controlling meetings."]
 
 
 === CGSim controlling meetings

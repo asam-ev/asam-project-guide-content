@@ -63,7 +63,7 @@ Issues shall be created using the provided issue templates in the repository.
 
 TIP: Each issue template contains a description (as comments) on when to use them and what content to add where.
 
-image::compendium:asam/issue_template_example.png[title=Creating an issue from a template]
+image::compendium:gitlab/issue_template_example.png[title=Creating an issue from a template]
 
 
 == Label issues correctly
