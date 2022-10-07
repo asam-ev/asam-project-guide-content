@@ -101,6 +101,7 @@ None
 == How
 
 . Follow the online instructions on https://docs.github.com/en/get-started/signing-up-for-github/signing-up-for-a-new-github-account[signing up for a new GitHub account^]
+.. If you already have a GiitHub account, you can skip this step.
 . Send your account name to your OR. +
 You will receive a response from them when your account has been granted the rights to access and contribute to the project.
 |===

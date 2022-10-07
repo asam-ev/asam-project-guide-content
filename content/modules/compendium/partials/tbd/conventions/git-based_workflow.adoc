@@ -1,8 +1,0 @@
-
-//tag::short[]
-include::compendium:partial$_attributes.adoc[]
-
-The __Simulation__ domain at ASAM uses the xref:concepts:doc-as-code.adoc[] concept for its projects. +
-All documents are written as AsciiDoc files.
-
-//end::short[]

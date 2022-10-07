@@ -33,7 +33,15 @@ For this purpose, all content discussions shall happen through issues in a proje
 
 == Gather topics in issues
 
-include::compendium:partial$clean_issue.adoc[]
+[NOTE]
+====
+A clean issue contains the following things:
+
+- active milestone
+- assignee
+- labels
+
+====
 
 If your project is on ASAM GitLab, see the https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#create-an-issue[GitLab instructions^] for creating issues. +
 If your project is on GitHub, see the https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue[GitHub instructions^] for creating issues.

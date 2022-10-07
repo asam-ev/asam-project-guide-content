@@ -1,8 +1,0 @@
-version: "2"
-
-services:
-  asciidoctor:
-    image: asciidoctor/docker-asciidoctor
-    volumes:
-      - .:/documents
-    entrypoint: asciidoctor --failure-level WARN -r asciidoctor-diagram -a mathjax -r asciidoctor-bibtex --trace standard/main.adoc -o HTML_standard_local_build.html

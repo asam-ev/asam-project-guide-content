@@ -1,2 +1,0 @@
-
-The name of the default branch (the trunk) for every project at ASAM is "main".
