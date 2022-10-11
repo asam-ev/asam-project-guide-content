@@ -1,25 +1,10 @@
-= Contribution workflow
+= Issue implementation
 :description: Explains the basic contribution workflows.
 :keywords: basics
+:page-layout: progress
+:page-progress_bar: progress_bar_simple-implementation.svg
 
 include::tour_guide:partial$_attributes.adoc[]
-
-.Guide progress
-[%collapsible]
-====
-****
-- [x] ASAM's collaboration tools
-- [x] Setup for your development platform account
-- [x] Meeting types at ASAM
-- [x] Meeting guidelines
-- [x] Making decisions and escalating topics
-- [x] The Project Sharepoint
-- [x] ASAM's contribution workflow
-- [x] Contribute with issues
-- [ ] **How issues are implemented**
-- [ ] Typical tools for advanced users
-****
-====
 
 include::compendium:partial$issue_labels.adoc[]
 
@@ -65,7 +50,7 @@ These branches **MAY** be squashed and **MUST** be merged via fast-forward merge
 * Each branch must have a parent issue and each issue may have zero or one child branches
 . Change the issue status label to {requiresConceptualWork-label} to indicate that a proposal is being implemented for this issue
 . Begin submitting work via commits to the develop branch
-. Review implementation progress of issue with {role-sg-lead} and the other {role-project-participant} in Sub-group meetings
+. Review implementation progress of issue with {role-sg-lead} and the other {role-project-participant} in Subgroup meetings
 . Once the group agrees that the feature is complete:
 .. Change the issue status label to {requiresCCBReview-label}
 .. If changes were marked as draft, remove the encapsulating draft feature flag from the content (make sure that all other content remains within the draft flag) and commit the change.

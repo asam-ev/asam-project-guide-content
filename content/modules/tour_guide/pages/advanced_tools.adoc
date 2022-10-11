@@ -1,24 +1,9 @@
 = Tools overview for advanced users
 :description: Contains information on tools for advanced users.
+:page-layout: progress
+:page-progress_bar: progress_bar_simple-advanced_tools.svg
 
 include::tour_guide:partial$_attributes.adoc[]
-
-.Guide progress
-[%collapsible]
-====
-****
-- [x] ASAM's collaboration tools
-- [x] Setup for your development platform account
-- [x] Meeting types at ASAM
-- [x] Meeting guidelines
-- [x] Making decisions and escalating topics
-- [x] The Project Sharepoint
-- [x] ASAM's contribution workflow
-- [x] Contribute with issues
-- [x] How issues are implemented
-- [ ] **Typical tools for advanced users**
-****
-====
 
 == Introduction
 

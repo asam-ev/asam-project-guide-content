@@ -1,5 +1,7 @@
 = Guide summary
 :description: Summarizes the topics from the guide and links helpful information for further reading.
+:page-layout: progress
+:page-progress_bar: progress_bar_simple-completion.svg
 
 include::tour_guide:partial$_attributes.adoc[]
 

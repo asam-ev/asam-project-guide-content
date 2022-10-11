@@ -1,24 +1,9 @@
 = Contribution workflow
 :description: Explains the basic contribution workflows.
+:page-layout: progress
+:page-progress_bar: progress_bar_simple-contribution_workflow.svg
 
 include::tour_guide:partial$_attributes.adoc[]
-
-.Guide progress
-[%collapsible]
-====
-****
-- [x] ASAM's collaboration tools
-- [x] Setup for your development platform account
-- [x] Meeting types at ASAM
-- [x] Meeting guidelines
-- [x] Making decisions and escalating topics
-- [x] The Project Sharepoint
-- [ ] **ASAM's contribution workflow**
-- [ ] Contribute with issues
-- [ ] How issues are implemented
-- [ ] Typical tools for advanced users
-****
-====
 
 include::compendium:partial$issue_labels.adoc[]
 
@@ -92,7 +77,7 @@ Who:: Assignee
 Steps::
 . Once a proposal is ready to be implemented, follow the steps as layed out in xref:tour_guide:contribution/issue_implementation.adoc[]
 . Implement the topics of that issue
-. Review implementation progress of issue with {role-sg-lead} and the other {role-project-participant} in Sub-group meetings
+. Review implementation progress of issue with {role-sg-lead} and the other {role-project-participant} in Subgroup meetings
 . Once the group agrees that the feature is complete, request a review by the whole project
 
 --

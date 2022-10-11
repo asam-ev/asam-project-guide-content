@@ -5,8 +5,12 @@
 :page-aliases: overview.adoc
 :tour_guide:
 :reftext: Guided tour
+:page-layout: progress
+:page-progress_bar: progress_bar_simple-setup.svg
 
 include::tour_guide:partial$_attributes.adoc[]
+
+== About this tour
 
 include::partial$module-description.adoc[]
 
@@ -25,26 +29,14 @@ Just make sure to **familiarize yourself with the following topics** before you 
 * For the Simulation domain: the shared **OpenX calendar**
 
 == Tour guide progress
-Every page in this guided tour will have a progress information button like this:
+Every page in this guided tour will have a progress bar like this:
 
-.Guide progress
-[%collapsible]
+.Progres bar for the third topic
 ====
-****
-- [ ] **ASAM's collaboration tools**
-- [ ] **Setup for your development platform account**
-- [ ] Meeting types at ASAM
-- [ ] Meeting guidelines
-- [ ] Making decisions and escalating topics
-- [ ] The Project Sharepoint
-- [ ] ASAM's contribution workflow
-- [ ] Contribute with issues
-- [ ] How issues are implemented
-- [ ] Typical tools for advanced users
-****
+image::progress_bar_simple-meeting_guidelines.svg[]
 ====
 
-It shows you the information that has already been covered (checked) as well as the topics of this page (in **bold**).
+It shows you the information that has already been covered (darkly colored) as well as the topics of this page (lightly colored and **bold** border).
 
 == Collaboration
 ASAM projects are based on good communication and strong collaboration.

@@ -1,24 +1,9 @@
 = Project Sharepoint
 :keywords: teams, sharepoint
+:page-layout: progress
+:page-progress_bar: progress_bar_simple-sharepoint.svg
 
 include::tour_guide:partial$_attributes.adoc[]
-
-.Guide progress
-[%collapsible]
-====
-****
-- [x] ASAM's collaboration tools
-- [x] Setup for your development platform account
-- [x] Meeting types at ASAM
-- [x] Meeting guidelines
-- [x] Making decisions and escalating topics
-- [ ] **The Project Sharepoint**
-- [ ] ASAM's contribution workflow
-- [ ] Contribute with issues
-- [ ] How issues are implemented
-- [ ] Typical tools for advanced users
-****
-====
 
 == Project landing page
 Every project at ASAM has its own Microsoft Sharepoint.
@@ -42,7 +27,7 @@ NOTE: You can use Sharepoint online or https://support.microsoft.com/en-us/offic
 ----
 ├───01_administrative................................// this is where all administrative topics are stored
 │   ├───controlling..................................// contains all topics related to the controlling part of the project
-│   ├───ASAM <Projectname> Participant_list.xlsx.....// contains all enrolled project members with their contact details and their Sub-group assignments
+│   ├───ASAM <Projectname> Participant_list.xlsx.....// contains all enrolled project members with their contact details and their Subgroup assignments
 │   └───<Projectname> Proposal.<extension>...........// the project proposal as .docx or .pdf or .html
 │
 ├───02_meetings......................................// contains folders with provided presentations and optional recordings of project meetings

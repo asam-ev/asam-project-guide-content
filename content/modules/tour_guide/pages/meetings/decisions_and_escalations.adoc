@@ -1,50 +1,35 @@
 = Decisions and escalations
 :description: Contains information on decisions and when to escalate.
 :keywords: meeting
+:page-layout: progress
+:page-progress_bar: progress_bar_simple-decisions_and_escalations.svg
 
 include::tour_guide:partial$_attributes.adoc[]
 
-.Guide progress
-[%collapsible]
-====
-****
-- [x] ASAM's collaboration tools
-- [x] Setup for your development platform account
-- [x] Meeting types at ASAM
-- [x] Meeting guidelines
-- [ ] **Making decisions and escalating topics**
-- [ ] The Project Sharepoint
-- [ ] ASAM's contribution workflow
-- [ ] Contribute with issues
-- [ ] How issues are implemented
-- [ ] Typical tools for advanced users
-****
-====
-
 == Decisions in meetings
 Participants of a meeting can make decisions on topics within the scope of their respective group.
-This means that a sub-group can make decisions on all topics related to their sub-group's task, whereas decisions in a project-level meeting typically concern the project as a whole.
+This means that a subgroup can make decisions on all topics related to their subgroup's task, whereas decisions in a project-level meeting typically concern the project as a whole.
 
 [horizontal]
 Project-level:: Can make decisions on all topics that affect the whole project or parts thereof within the defined project scope. +
 May prepare suggestions for topics that alter the current scope or affect other projects as well.
 These suggestions, however, must be escalated to the appropriate ASAM-level meeting.
-Sub-groups:: Can make decisions on all topics assigned to this particular sub-group. +
-May prepare suggestions for topics that affect other sub-groups. 
-However, topics that go beyond the sub-group's responsibilities must be escalated to the whole group.
+Subgroups:: Can make decisions on all topics assigned to this particular subgroup. +
+May prepare suggestions for topics that affect other subgroups. 
+However, topics that go beyond the subgroup's responsibilities must be escalated to the whole group.
 
 
 == Escalation of topics
-=== From Sub-group to group
+=== From Subgroup to group
 A topic must be presented at the next xref:meetings/types.adoc#_project-level_meetings[project-level meeting] when:
 
 * Changes to the underlying data model
-* It is requested by the Sub-group
+* It is requested by the Subgroup
 * It is requested by the Project Lead
 * It is requested by a project steering committee (e.g. the CCB)
-* The sub-group cannot reach a decision on a specific topic or assumes that there are different opinions in the overall project group
+* The subgroup cannot reach a decision on a specific topic or assumes that there are different opinions in the overall project group
 
-The Project Lead may escalate Sub-group decisions to a project level vote.
+The Project Lead may escalate Subgroup decisions to a project level vote.
 
 === From group to ASAM-level meeting
 If a project cannot meet its milestones or budget, it must escalate its status report in the next relevant ASAM-level meeting (such as the TSC controlling meeting).
@@ -58,4 +43,4 @@ They also put more workload on the other active members.
 Lastly, inactive participants endanger the project's budget.
 It is, therefore, important to identify inactive members quickly and get them to be active again.
 As a last resort, inactive (and possibly unresponsive) members can be removed from the project.
-This is the responsibility of the responsible lead: Project Lead for project level inactiveness, Sub-group Lead for relevant sub-groups.
+This is the responsibility of the responsible lead: Project Lead for project level inactiveness, Subgroup Lead for relevant subgroups.

@@ -1,25 +1,10 @@
 = Meeting types
 :description: Definitions for all typical meetings at ASAM.
 :keywords: meeting
+:page-layout: progress
+:page-progress_bar: progress_bar_simple-meeting_types.svg
 
 include::tour_guide:partial$_attributes.adoc[]
-
-.Guide progress
-[%collapsible]
-====
-****
-- [x] ASAM's collaboration tools
-- [x] Setup for your development platform account
-- [ ] **Meeting types at ASAM**
-- [ ] Meeting guidelines
-- [ ] Making decisions and escalating topics
-- [ ] The Project Sharepoint
-- [ ] ASAM's contribution workflow
-- [ ] Contribute with issues
-- [ ] How issues are implemented
-- [ ] Typical tools for advanced users
-****
-====
 
 == Overview
 There are three different types of meetings:
@@ -27,32 +12,21 @@ There are three different types of meetings:
 [horizontal]
 <<ASAM-level meetings>>:: Coordination within ASAM between multiple projects as well as the with the organization itself
 <<Project-level meetings>>:: Coordination for the whole project and general project discussions
-<<Sub-group meetings>>:: Coordination within a sub-group of a project
+<<Subgroup meetings>>:: Coordination within a subgroup of a project
+
+image::compendium:asam/meeting_timeline_example.drawio.svg[title = "Relationship between meeting types"]
 
 == ASAM-level meetings
 Each project at ASAM is also part of an overarching project coordination.
 This coordination includes different monitoring and steering meetings.
-It is the Project Lead's responsibility to represent their project in those meetings. +
-Simulation domain projects are required to participate in the following external ASAM meetings:
-
-* <<CGSim controlling meetings>>
-* <<TSC controlling meetings>>
-
-image::compendium:asam/development/development_phase_timeline-cycle_example.svg[title = "Medium length development project example, including cycle details and external ASAM controlling meetings."]
-
-
-=== CGSim controlling meetings
-The Coordination Group Simulation (CGSim) controlling meetings are the default reporting location for development projects.
-Here, each project presents their current status regularly (after every cycle).
-
-If a project is behind schedule or faces unpredicted problems and setbacks, or if the project's scope needs to be altered significantly, the project status is escalated at the next <<TSC controlling meetings,TSC controlling meeting>>.
-The Project Lead discusses these topics with the project's ASAM Office Responsible to decide whether they need to be escalated to the TSC and, if so, how.
+It is the Project Lead's responsibility to represent their project in those meetings.
 
 
 === TSC controlling meetings
 These are the top level controlling meetings at ASAM, where the https://www.asam.net/active-projects/technical-steering/[TSC^] reviews all current projects.
 Here, projects can request more time as well as submit their deliverables for review and, ideally, approval for release.
-In case a project faces unforeseen problems and setbacks, these are addressed here as well after having been presented at a preceding <<CGSim controoling meetings,CGSim controlling meeting>>.
+In case a project faces unforeseen problems and setbacks, these are addressed here. +
+Upcoming TSC meetings are announced on the https://www.asam.net/active-projects/technical-steering/[ASAM website^].
 
 === Information online
 If you are interested, the ASAM Website provides some more information on the whole development process.
@@ -65,19 +39,19 @@ A project-level meeting is declared as such when all enrolled project members ar
 The most common examples for these meetings are
 
 * the Kick-off Workshop
-* the Development Cycle review
-* the Retrospective
+* status meetings
+* review meetings
 
 If possible, project-level meetings are to be held face-to-face or as hybrid.
 If circumstances forbid this, online meetings are acceptable as well.
 
 ASAM requires projects to hold a project-level meeting at least once a quarter.
 The recommendation is to meet every two months. +
-A full project meeting is used to hold project level votes, align across Sub-groups and evaluate the overall status with respect to the project plan. 
+A full project meeting is used to hold project level votes, align across Subgroups and evaluate the overall status with respect to the project plan. 
 
 
-== Sub-group meetings
-Every sub-group will schedule their own meetings.
+== Subgroup meetings
+Every subgroup will schedule their own meetings.
 Typically, these meetings happen more frequently than the larger project-level meetings.
-Here, the sub-groups discuss progress, setbacks, and current topics within their assignment and make related decisions.
+Here, the subgroups discuss progress, setbacks, and current topics within their assignment and make related decisions.
 Each subgroup shall present results, particularly substantial changes, to the whole project group regularly.

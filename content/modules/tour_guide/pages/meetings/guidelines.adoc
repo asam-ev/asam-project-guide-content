@@ -1,27 +1,12 @@
 = Meeting guidelines
 :keywords: meeting
+:page-layout: progress
+:page-progress_bar: progress_bar_simple-meeting_guidelines.svg
 
 include::tour_guide:partial$_attributes.adoc[]
 
-.Guide progress
-[%collapsible]
-====
-****
-- [x] ASAM's collaboration tools
-- [x] Setup for your development platform account
-- [x] Meeting types at ASAM
-- [ ] **Meeting guidelines**
-- [ ] Making decisions and escalating topics
-- [ ] The Project Sharepoint
-- [ ] ASAM's contribution workflow
-- [ ] Contribute with issues
-- [ ] How issues are implemented
-- [ ] Typical tools for advanced users
-****
-====
-
 This page contains guidelines regarding all types of official meetings at ASAM. +
-The guidelines apply to every project level meeting (where the whole project is invited) and all Sub-group meetings (where the whole Sub-group is invited).
+The guidelines apply to every project level meeting (where the whole project is invited) and all Subgroup meetings (where the whole Subgroup is invited).
 These are considered official meetings in this context.
 Clarification or co-development calls as well as similar informal types of meetings do not have to follow these guidelines.
 They still may if they wish, of course.
@@ -38,7 +23,7 @@ a|=== Meeting host
 a|=== Minute taker
 
 a|IMPORTANT: Project meetings are set up by the ASAM office, even when they are not the meeting host.
-All other meetings within a project (such as Sub-group meetings) have to be set up by the respective host.
+All other meetings within a project (such as Subgroup meetings) have to be set up by the respective host.
 
 **Every meeting has a host.** +
 This is the person who calls the meeting.
@@ -118,45 +103,7 @@ This list also contains information on the group or groups each participant is p
 
 
 == Polls and voting
-Meetings are the default way of taking project- or Sub-group-level polls.
-Their results have to be made available in the corresponding meeting notes. +
-By default, polls are announced in the agenda (before the meeting takes place).
-However, if spontaneous topics arise, ad hoc polls can be held if all impacted participants are present.
-In case one or more crucial members for a topic's ad hoc poll are missing, the poll has to be postponed and scheduled for the next meeting instead.
-
-A poll is only valid if at least 50% of registered active (sub-)group members cast their vote and the Issue Responsible (if defined) is present.
-An abstention vote counts as a cast vote.
-A passive participant (someone not involved in the development directly) is neither considered for this threshold nor may they participate in any polls. +
-To be eligible for casting a vote, a member has to have been present during the corresponding topic discussion/presentation.
-The only exception to this is voting for topics of static nature, such as meeting frequencies.
-
-All votes must be cast digitally and through an online tool (so both onsite and remote users can vote).
-ASAM recommends the use of "Microsoft Forms" in case of online voting.
-You can ask your ASAM Office Responsible for support on creating such a vote ahead of time.
-
-TIP: Do a quick vote first (e.g. show of hands). 
-If it is unanimous, you can skip the formal process of voting.
-Make sure to document the result in either case, however.
-
-[horizontal]
-ASAM Project polls and voting policies:: You can access the official policy document here: https://asamev.sharepoint.com/:b:/r/sites/openodd/P_202203/01_administrative/ASAM%20poll%20and%20voting%20guidelines.pdf?csf=1&web=1&e=b3UeCM
-
-[cols="1,1", grid=cols, frame=none]
-|===
-a|=== Project-level voting 
-a|=== Sub-group voting
-
-a|In a project-level meeting, each company has one vote.
-The barrier for a valid poll is, therefore, 50% of all participating companies. +
-It is recommended that if a company has multiple participants in a project, they decide on their vote and who will cast it ahead of time.
-If a company casts multiple votes (accidentally or intentionally), their vote is counted as abstention.
-
-a|In a Sub-group meeting, each participant has one vote.
-The barrier for a valid poll is, therefore, 50% of all Sub-group members.
-This is independent of company affiliation.
-
-
-|===
+These are covered in xref:meetings/polls_votes.adoc[].
 
 == Meeting notes
 Meeting notes (minutes) are to be taken in the project's repository.

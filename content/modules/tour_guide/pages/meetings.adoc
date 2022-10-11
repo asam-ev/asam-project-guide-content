@@ -1,25 +1,10 @@
 = Project meetings
 :description: Summary page on meetings in ASAM projects.
 :keywords: meeting
+:page-layout: progress
+:page-progress_bar: progress_bar_simple-meetings_summary.svg
 
 include::tour_guide:partial$_attributes.adoc[]
-
-.Guide progress
-[%collapsible]
-====
-****
-- [x] ASAM's collaboration tools
-- [x] Setup for your development platform account
-- [ ] Meeting types at ASAM
-- [ ] Meeting guidelines
-- [ ] Making decisions and escalating topics
-- [ ] The Project Sharepoint
-- [ ] ASAM's contribution workflow
-- [ ] Contribute with issues
-- [ ] How issues are implemented
-- [ ] Typical tools for advanced users
-****
-====
 
 == Overview
 
