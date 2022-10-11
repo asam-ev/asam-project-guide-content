@@ -68,16 +68,16 @@ The most common examples for these meetings are
 * the Development Cycle review
 * the Retrospective
 
-If possible, project-level meetings are to be held face-to-face.
+If possible, project-level meetings are to be held face-to-face or as hybrid.
 If circumstances forbid this, online meetings are acceptable as well.
 
-ASAM recommends to hold a project-level meeting at least once a quarter. 
-A full project meeting is used to hold project level votes, align across Sub-groups and evaluate the overall status with respect to the project plan. +
-The group can decide to combine these with the Cycle Review meetings since most aspects of a project-level meeting coincides with those of a Cycle Review. 
-However, if a Cycle takes longer than 3 months, ASAM recommends having a separate project-level meeting in between.
+ASAM requires projects to hold a project-level meeting at least once a quarter.
+The recommendation is to meet every two months. +
+A full project meeting is used to hold project level votes, align across Sub-groups and evaluate the overall status with respect to the project plan. 
 
 
 == Sub-group meetings
 Every sub-group will schedule their own meetings.
 Typically, these meetings happen more frequently than the larger project-level meetings.
-Here, the sub-groups discusses progress, setbacks, and current topics within their assignment and make related decisions.
+Here, the sub-groups discuss progress, setbacks, and current topics within their assignment and make related decisions.
+Each subgroup shall present results, particularly substantial changes, to the whole project group regularly.

@@ -170,6 +170,4 @@ Additionally, the next scheduled meeting shall be listed here as well.
 == Best practices
 * Schedule regular meetings at least every 6-8 weeks
 * Send a reminder to all assignees with open topics with enough time ahead of the next meeting
-* Schedule remote meetings only for organizational issues
-* Present results, particularly substantial changes in Sub-groups, to the whole project group regularly
 * If you want to give a presentation in a project meeting, upload your presentation in the meeting's "presentations" folder in your project's Sharepoint ahead of time

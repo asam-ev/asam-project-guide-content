@@ -22,8 +22,11 @@ include::tour_guide:partial$_attributes.adoc[]
 
 == Project landing page
 Every project at ASAM has its own Microsoft Sharepoint.
+It is initially prepared by the ASAM Office.
 Each Sharepoint's start page acts as the main access webpage for the project team. +
 Each project may design their pages differently.
+The associated ASAM Office Responsible, together with the Project Lead, populates and maintains the Sharepoint's structure and content.
+It is the responsibility of each presenter, however, to upload their presentation material. +
 The following image shows an example.
 
 image:tour_guide:Sharepoint_example.png[Sharepoint start page example]
@@ -53,22 +56,21 @@ Each Sharepoint may also contain an archive containing information from previous
 
 == What Sharepoint is used for
 In ASAM projects, Sharepoint is used to exchange information in the team that is not a direct result or content of development.
-It consists of a landing page specific to the project and may be extended by the group as they see fit.
+It consists of a landing page specific to the project.
 
 In addition to the landing page and its webpage features (such as FAQs), the main aspect of Sharepoint is its documents storage.
 Sharepoint can be used to exchange files not directly used as project content (e.g. background information, studies, floor plans for meetings etc.).
-It also contains the approved project proposal as well as the current <<Participants list,participants list>>.
-
-The Sharepoint also contains a current controlling overview for any involved external parties.
+It also contains the approved project proposal as well as the current <<Participants list,participants list>>.  
 
 
 == What Sharepoint is NOT used for
 Any content directly relevant to the project's deliverables (such as images to be used in a standard) are not to be organized through Sharepoint.
 Instead, such information has to be entered through the project's repository so that is subjected to the same version control as all the other content.
-The same is true for meeting notes, which are to be taken as repository issues.
 
 
 == Participants list
+IMPORTANT: This list may contain sensitive personal data and may, therefore, not be shared with external parties outside the project.
+
 Each Sharepoint contains a list of all participants in the related project.
 This list is set up initially based on the signups during the Proposal phase.
 
