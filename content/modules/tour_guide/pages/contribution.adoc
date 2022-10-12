@@ -8,24 +8,32 @@ include::tour_guide:partial$_attributes.adoc[]
 include::compendium:partial$issue_labels.adoc[]
 
 == Overview 
-Developing content for ASAM standards is focussed around the concept of contributing with issues.
+Developing content for ASAM standards is focused around the concept of xref:contribution/contribute_with_issues.adoc[contributing with issues]. +
 The following sections describe this workflow in more detail.
+Note that the workflow starts when an issue is assigned to someone.
+Whether the issue is created with an assignee or assigned by someone from the project later is irrelevant. +
+How an unassigned issue is assigned and by whom is out-of-scope for this workflow.
+The project group may define their own workflow and responsibilities for that.
+
 
 .Workflow stages
 [mermaid]
 ....
 graph LR
-id1[INITIAL SETUP]
+START(( START ))
 --Issue assigned--> ANALYSIS
---Duplicate-->CLOSED
+ANALYSIS --Duplicate-->CLOSED
+ANALYSIS --Rejected/Won't fix-->CLOSED
 ANALYSIS --Analyzed--> IMPLEMENTATION
---Done--> REVIEW
-IMPLEMENTATION --Issue Canceled--> CLOSED
+IMPLEMENTATION --Done--> REVIEW
+IMPLEMENTATION --Analysis required--> ANALYSIS
 REVIEW --Review NOK--> IMPLEMENTATION
 REVIEW --Review OK--> INTEGRATION
---Done--> MERGE
+INTEGRATION --Done--> MERGE
+INTEGRATION --Rejected/Won't fix-->CLOSED
 MERGE --Review NOK--> INTEGRATION
 MERGE --Review OK--> CLOSED;
+style START color:#000000, fill:#000000
 ....
 
 Each stage is described in more detail in the sections below.
@@ -37,23 +45,6 @@ The role listed at the top of each section is the one responsible for it.
 
 [tabs]
 ====
-Initial setup::
-+
---
-[horizontal]
-Who:: {role-sg-lead}
-Steps::
-. Create issues that map to the features in the project list
-// * Apply the xref:compendium:Guidelines/repo-issue_naming_conventions.adoc[]
-. Assign the issues to the correct `<milestone>`
-. Assign the issues to a responsible with `@<user>`
-Tips::
-* Avoid including files in source control that are specific to your development
-  machine or process -> set up https://git-scm.com/docs/gitignore[.gitignore^] accordingly
-* Create sub-issues in case an issue contains too much content for a short-lived implementation
-* It may be necessary to create new issues during development as well, as new knowledge and information comes up.
-These have the same requirements and steps as those created at the beginning
---
 Analysis::
 +
 --
@@ -66,6 +57,11 @@ Do this either directly via comments or in further meetings, adding the results 
 . If the analysis shows the issue is a duplicate to another issue in the same project:
 .. Assign the label {isStatusDuplicate-label} and assign the {role-sg-lead}
 .. The SG Lead reviews the issue and either closes it (if it is a duplicate) or changes the status back to {requiresClarification-label} and the assignee back to the original issue assignee
+Transitions:: 
+Issue is a duplicate::: -> CLOSED (Duplicate)
+Issue is rejected::: -> CLOSED (Rejected)
+Issue can or will not be fixed::: -> CLOSED (Won't fix)
+Issue analysis complete::: -> IMPLEMENTATION (Analyzed)
 Tips::
 * If analysis shows an issue to contain too many steps, create sub-issues to split the topic up further for faster content implementation
 --
@@ -79,7 +75,9 @@ Steps::
 . Implement the topics of that issue
 . Review implementation progress of issue with {role-sg-lead} and the other {role-project-participant} in Subgroup meetings
 . Once the group agrees that the feature is complete, request a review by the whole project
-
+Transitions:: 
+Issue requires more analysis or should be rejected::: -> ANALYSIS (Analysis required)
+Issue is completely implemented::: -> REVIEW (Done)
 --
 Review::
 +
@@ -101,6 +99,7 @@ Click https://docs.gitlab.com/ee/user/discussions/#starting-a-review[here^] for 
 Tips::
 * Technical discussion happen in comments
 
+
 // .A demo of a review
 // image::gitlab/ReviewExample.gif[]
 
@@ -110,7 +109,9 @@ Who:: CCB
 Steps::
 . If there are no unresolved comments or threads after two weeks, the CCB ends the review
 . The Merge/Pull Request is assigned to the Service Provider for **Integration**
-
+Transitions:: 
+Implementation insufficient::: -> IMPLEMENTATION (Review NOK)
+Implementation accepted::: -> INTEGRATION (Review OK)
 --
 Integration::
 +
@@ -131,7 +132,10 @@ In the case that questions lead to significant changes to the content, the MR is
 .. Set the status label of the Merge/Pull Request to {requiresCCBReview-label}
 * Set to squash commits with https://www.tutorialspoint.com/what-is-a-fast-forward-merge-in-git[fast-forward merging^] (default).
 // * Squash commit message MUST adhere to the xref:compendium:Guidelines/repo-commit_conventions.adoc[**Commit Message Conventions**]
-
+Transitions:: 
+Issue is rejected::: -> CLOSED (Rejected)
+Issue can or will not be fixed::: -> CLOSED (Won't fix)
+Integration complete::: -> MERGE (Done)
 --
 Merge::
 +
@@ -152,5 +156,8 @@ Steps::
 Tips::
 - Use a https://help.github.com/articles/using-pull-requests/[pull request^] for code reviews.
 - Delete local and remote feature branches after merging.
+Transitions:: 
+Integration insufficient::: -> INTEGRATION (Review NOK)
+Integration accepted::: -> CLOSED (Review OK)
 --
 ====
