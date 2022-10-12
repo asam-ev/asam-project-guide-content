@@ -53,7 +53,7 @@ image::compendium:gitlab/issue_template_example.png[title=Creating an issue from
 == Label issues correctly
 
 The use of issue labels is required for filtering and sorting issues more efficiently.
-Each issue and merge/pull request must apply labels as defined in xref:labels.adoc[]. +
+Each issue and merge/pull request must apply general domain labels defined by ASAM. +
 A project may also have project-specific labels in addition to the official ones, specified directly in the project group.
 
 
