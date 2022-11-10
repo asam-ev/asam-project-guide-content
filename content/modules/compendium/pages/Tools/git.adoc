@@ -11,8 +11,8 @@ include::compendium:partial$icon_reminder.adoc[tag=download-link]
 
 {git-icon}
 
-{role-technical-writer}
-{role-service-provider}
+// {role-technical-writer}
+// {role-service-provider}
 
 Git is a free software for tracking changes in a set of files (versioning).
 It is typically used for coordinating collaborative development (programming) of source code or other text-based content.

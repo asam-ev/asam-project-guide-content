@@ -27,4 +27,4 @@ If you want to read more on a specific topic, you can use the search function on
 Alternatively, you can look in the xref:compendium:compendium.adoc[Compendium] for more detailed information on specific topics.
 
 If you cannot find an answer in this guide to any ASAM-related topic, feel free to contact your ASAM Office Responsible.
-This will help ASAM to constantly improve upon this guide.
+This will help ASAM to continuously improve upon this guide.

@@ -11,8 +11,10 @@ These issues can be created and managed in the respective Remote Repository of t
 
 == Make discussions accessible
 
-It must be possible for every project member to contribute to and give feedback on the content of a Proposal document directly.
+It must be possible for every project member to contribute to and give feedback on the topic of discussion directly.
 For this purpose, all content discussions shall happen through issues in a project's issue board.
+This also applies to discussion results from some subgroup meetings.
+The output of a discussion pertaining to any topic should be documented in its respective issue.
 
 
 == Gather topics in issues
@@ -23,7 +25,7 @@ A clean issue contains the following things:
 
 - active milestone
 - assignee
-- labels
+- applicable labels
 
 ====
 
@@ -32,13 +34,14 @@ If your project is on GitHub, see the https://docs.github.com/en/issues/tracking
 
 Every topic shall have its own issue.
 
-=== Sub-issues
-If a topic is too complex for a single issue, sub-issues shall be created.
+=== Linked related issue
+If a topic is too complex for a single issue, linked related issues shall be created from this topic issue.
+Make sure they are linked correctly.
 
 
-=== Closing issues and sub-issues
+=== Closing issues and linked related issue
 
-An issue with sub-issues shall only be closed if all its sub-issues have been closed. +
+An open issue with linked related issues shall only be closed if all its linked related issues have been closed. +
 If an issue has a branch, the issue shall not be closed before the branch has been merged or closed.
 
 == Use issue templates
@@ -54,7 +57,14 @@ image::compendium:gitlab/issue_template_example.png[title=Creating an issue from
 
 The use of issue labels is required for filtering and sorting issues more efficiently.
 Each issue and merge/pull request must apply general domain labels defined by ASAM. +
-A project may also have project-specific labels in addition to the official ones, specified directly in the project group.
+A project may also have project-specific labels in addition to the default ones, specified directly in the project group.
+
+=== Introduce project-specific labels
+A group may introduce project-specific labels on top of the official ASAM ones that provide further filter options.
+If custom labels are introduced, the group must document these labels by providing a exhaustive label description with the label (i.e. in the GitLab/GitHub label).
+Additionally, the project may add the current label definitions in their project's README in their repository.
+
+The documentation shall follow the project's general documentation rules and language.
 
 
 == Discuss issues
@@ -65,11 +75,10 @@ The **content** of issues is discussed and resolved through **comments** and **r
 
 a|The issue content (body) contains the definition of the issue.
 
-In the case of a feature or chapter description, it contains the current content of that chapter.
-It shall always be up-to-date and contain the latest discussed and approved version. +
+In the case of a feature, it contains the proposed content/change. +
 In the case of a question or a bug, it contains the initial topic.
-In the latter case, the content shall only be updated to correct mistakes therein.
 a|A comment to an issue is a new topic that is independent from any previous comment.
+A user comments on the issue to partake in the discussion of this topic.
 
 [horizontal]
 GitLab:: https://docs.gitlab.com/ee/user/discussions/[GitLab instructions for commenting^]
@@ -79,7 +88,8 @@ IMPORTANT: Before you add a new comment to an issue, make sure it is not a dupli
 Failure to do so will prevent efficient project progress.
 
 a|A reply is a comment created as a reply to a previous comment.
-In the issue, it is a child comment to the previous one and listed in relation to it.
+It creates a thread.
+To continue the discussion, reply on the thread.
 
 [horizontal]
 GitLab:: https://docs.gitlab.com/ee/user/discussions/#create-a-thread-by-replying-to-a-standard-comment[GitLab instructions for threads/replies^]
@@ -92,8 +102,8 @@ IMPORTANT: If you want to reply to a previous comment, make sure to create a rep
 
 
 == Close issues
-An issues shall be closed once its discussion is resolved.
-Possible reasons:
+An issue shall be closed once its discussion is resolved or the issue has been dismissed. +
+Possible resolutions:
 
 * The questions of the issue have been answered
 * The bug has been fixed and the fixes have been reviewed and merged
@@ -103,9 +113,10 @@ It is best practice to close an issue immediately after one of the closing condi
 
 Additionally, an issue may also be closed without resolution if
 
-* it has become obsolete
+* it has become obsolete and/or will not be fixed
 * it is a duplicate (i.e. another issue deals with the same topic already)
 
 
 == Reopen issues
-Closed issues can be reopened if they have become relevant again, there have been new developments directly impacting this specific issue, or the issue has been closed by accident and has not actually been finished yet.
+Issues shall not be reopened!
+If an issues has been closed by accident or has become relevant for other reasons again, a related issue shall be created instead.

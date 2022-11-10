@@ -1,5 +1,4 @@
 
 * All OpenX projects share a calendar under the email address of {openx-calendar-mail}.
 **This MUST be included on all meetings taking place for the projects to make sure it is up to date.**
-* Every project's MS Teams group has a tab in the _General_ channel called *_Calendar_* where you can refer to it.
 * **The OpenX calendar can be {calendar-url}[viewed online,window=_blank] as well.**

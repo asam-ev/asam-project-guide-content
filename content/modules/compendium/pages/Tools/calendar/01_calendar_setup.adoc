@@ -13,8 +13,8 @@ include::partial$_attributes.adoc[]
 
 {calendar-icon-page}
 
-{role-sg-lead}
-{role-project-lead}
+// {role-sg-lead}
+// {role-project-lead}
 
 == Context
 include::partial$calendar-include-mail.adoc[]

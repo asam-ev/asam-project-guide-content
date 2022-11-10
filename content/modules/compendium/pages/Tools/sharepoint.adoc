@@ -9,8 +9,8 @@
 include::partial$_attributes.adoc[]
 
 
-{role-sg-lead}
-{role-project-lead}
+// {role-sg-lead}
+// {role-project-lead}
 
 TIP: Click the Sharepoint icon on the right to directly access ASAM's general Sharepoint.
 

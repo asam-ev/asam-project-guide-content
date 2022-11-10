@@ -9,8 +9,8 @@ include::compendium:partial$icon_reminder.adoc[tag=download-link]
 
 {vscode-icon}
 
-{role-technical-writer}
-{role-service-provider}
+// {role-technical-writer}
+// {role-service-provider}
 
 
 Visual Studio Code is the suggested solution for checking out repositories and files from the {gitlab}, adding and editing files, and pushing changes back to remote.
