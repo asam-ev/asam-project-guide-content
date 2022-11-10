@@ -52,4 +52,4 @@ Projects for new versions of an existing standard typically build on the previou
 
 
 == Related topics
-xref:getting-involved:release/deliverables.adoc[]
+xref:compendium:Concepts/deliverables.adoc[]

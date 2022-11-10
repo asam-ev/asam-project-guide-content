@@ -39,12 +39,12 @@ Finally, the content is decoupled from the target output, making it easy to gene
 AsciiDoc source file::
 +
 --
-image::asciidoc_example.png[title=ASAM Foreword section in AsciiDoc (source)]
+image::Concepts/asciidoc_example.png[title=ASAM Foreword section in AsciiDoc (source)]
 --
 Rendered output::
 +
 --
-image::asciidoc_example-output.png[title=The same Foreword section rendered by Asciidoctor and Antora in HTML (rich output)]
+image::Concepts/asciidoc_example-output.png[title=The same Foreword section rendered by Asciidoctor and Antora in HTML (rich output)]
 --
 ====
 
@@ -69,7 +69,7 @@ Each child branch targets a single aspect of development.
 Once the development in a child branch has advanced enough, it's changes are merged back into the trunk.
 This is done through a so-called Merge Request (MR), sometimes called a Pull Request (PR) instead.
 
-image::example-repo-workflow.drawio.svg[title=Repository workflow and branching example.]
+image::Concepts/example-repo-workflow.drawio.svg[title=Repository workflow and branching example.]
 
 TIP: If you want to learn more about Git itself, ASAM recommends online introductions and tutorials such as https://rogerdudler.github.io/git-guide/[**this one**^].
 
@@ -77,8 +77,6 @@ TIP: If you want to learn more about Git itself, ASAM recommends online introduc
 
 [#sec-online-collaboration]
 === Online collaboration
-include::contributing:partial$simple_contribution.adoc[]
-
 The work on standards, particularly at ASAM, is of collaborative nature:
 People from different companies companies join in a project to develop something together. +
 Online repository platforms like GitLab and GitHub support the collaboration by providing features for commenting and reviewing content changes as well as issue boards for creating and tracking topics.
@@ -86,7 +84,7 @@ In addition to that, they also integrate the same versioning and repository aspe
 
 Using online collaboration platforms with repository support provide multiple benefits:
 
-* They typically provide online editors for content, so users can choose to participate in projects xref:contributing:main.adoc[without having to install software] (besides any standard web browser)
+* They typically provide online editors for content, so users can choose to participate in projects xref:compendium:Tools/remote_repo.adoc[without having to install software] (besides any standard web browser)
 * Merge Requests (Pull Requests) can be reviewed and commented on with a side-by-side preview in the browser (diff view)
 * They act as central repository location for the project(s) that can be accessed from anywhere (provided the user has sufficient rights), so all involved people always have access to the latest submitted changes
 * They enable central automation steps through <<sec-automation-pipeline,CI/CD pipelines>>, for example automated writing rules checks on a document after it was updated
@@ -95,7 +93,7 @@ Using online collaboration platforms with repository support provide multiple be
 The <<fig-issue_example-gitlab,figure below>> shows an example issue from a project where a topic discussion takes place.
 
 [#fig-issue_example-gitlab]
-image::issue_example.drawio.svg[title=Example for a topic discussion through the GitLab issue board in a project]
+image::Concepts/issue_example.drawio.svg[title=Example for a topic discussion through the GitLab issue board in a project]
 
 ASAM currently supports projects on both its internal GitLab instance as well as on the public GitHub.
 Each project can decide independently which platform it will use.

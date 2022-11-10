@@ -1,0 +1,51 @@
+= Concepts
+:description: Contains a short introduction to all important concepts and terms used throughout the Project Guide.
+:concepts:
+
+include::partial$_attributes.adoc[]
+
+include::ROOT:partial$_attributes.adoc[]
+
+{getting-started-icon}
+
+**Get to know the central concepts at ASAM.**
+
+---
+
+// == Topics
+
+// [cols="^1,5", frame=none, grid=rows, stripes=hover]
+// |===
+// |Concept|Description
+
+// h| {project-types-icon-norole} +
+// xref:Concepts/project_types.adoc[]
+// a| ASAM distinguishes multiple types of projects.
+// Each project type is defined in the respective Proposal phase (see below) and specifies the expected outcome and requirements as well as restrictions for the project.
+
+// h|{project-phases-icon-norole} +
+// xref:Concepts/project_phases.adoc[]
+// a| A typical project goes through multiple phases at ASAM.
+// Each phase has specific steps and events that must or can happen. +
+// Both the phases and the types are illustrated in a fictitious project's lifecycle.
+
+// h|{project-lifecycle-icon-norole} +
+// xref:Concepts/project_lifecycle.adoc[]
+// a| An exemplary lifecycle of a typical project at ASAM.
+
+// h|{roles-icon-norole} +
+// xref:Concepts/roles-overview.adoc[Roles]
+// a|There are different roles for people working at or with ASAM.
+// A person can have one or more roles, and most roles only apply within a given project.
+
+// h|{doc-as-code-icon-norole} +
+// xref:Concepts/doc-as-code.adoc[]
+// a|The central concept throughout the Project Guide is the concept of Documentation-as-Code (or Doc-as-Code).
+// It is explained in the context of ASAM standard development.
+// Child pages then detail some aspects of the concept.
+
+// |===
+
+pages::[path=Concepts]
+
+// include::ROOT:partial$landing_page_referral.adoc[]
