@@ -139,6 +139,7 @@ The Office provides an IT solution for carrying out the outside review of the dr
 The Office provides technical support for reviewers and ensures that review feedback is accessible to the project group members in a timely manner.
 
 There are two types of outside reviews:
+
 * ASAM member reviews (default)
 * Public reviews
 

@@ -15,136 +15,158 @@ See the phase descriptions below for more details.
 
 image::compendium:Concepts/project_lifecycle-v2.svg[alt=The ASAM Project Phases, title=The ASAM Project Phases. The icons are explained in the xref:Concepts/project_types.adoc[project types]]
 
+== Descriptions
 
 [tabs]
 ====
 Ideation::
 +
 --
-include::getting-involved:partial$project_phases.adoc[tag=ideation]
+include::compendium:partial$project_phases.adoc[tag=ideation]
 
 If someone has an idea for a new standard, it triggers the ideation phase for a new project. +
-During this phase, the idea is evaluated and fleshed out a bit until it is either discarded (e.g. it is not feasible or a duplicate of sorts) or accepted.
-In case the idea is accepted, the project moves on to the xref:getting-involved:proposal_phase.adoc[].
+During this phase, the idea is evaluated and fleshed out a bit until it is either discarded (e.g. it is not feasible or a duplicate of sorts) or accepted by ASAM. +
+In case the idea is accepted, the project moves on to the **Proposal Phase**.
 
-// Additional information:: xref:getting-involved:ideation_phase.adoc[]
+**The Ideation Phase is a phase of variable length.** +
+It may contain an Ideation Workshop where the idea is first developed together with ASAM and interested members before it is deemed promising enough to enter the next phase.
+
+For more information, see the https://www.asam.net/active-projects/ideation/how-it-works/[**info page**^] on the ASAM website.
+
+// Additional information:: xref:compendium:ideation_phase.adoc[]
 --
 Proposal::
 +
 --
-include::getting-involved:partial$project_phases.adoc[tag=proposal]
+include::compendium:partial$project_phases.adoc[tag=proposal]
 
 
-Whether a project idea was just accepted or an improvement or update on an existing standard was proposed, the project enters the Proposal Phase.
-During this phase, a Proposal document is generated, detailing the project's targets, participants, the budget, timeline, and other project-related information.
-The Project Type is also specified during this phase.
-With this document, the ASAM TSC decides if the project may continue or not. +
+Whether a project idea was just accepted or a new project is proposed based on a released concept paper or as an improvement of an existing standard, it enters the Proposal Phase. +
+During this phase, the proposed project is announced and then presented to interested parties, who then can sign up to join the project team if it is approved by the TSC.
+A Proposal document is written, detailing the project's targets, participants, the budget, timeline, and other project-related information, such as the xref:compendium:Concepts/project_types.adoc[type of the project]. +
+The Proposal document is then released to attract more attention as well as for transparency.
+It is also the basis for the ASAM TSC, who decide if the project may continue or not. +
 If the go-ahead is given, the project continues on to the **Development phase**.
 
-// Additional information:: xref:getting-involved:proposal_phase.adoc[]
+
+// * creating the draft
+// * announcing the Proposal Workshop 4-6 weeks ahead of time
+// * 1 day of Proposal Workshop
+// * 4-8 weeks of finalizing the draft and enrollment, including up to 2 weeks of review by the group
+// * proposal publication and submission to TSC
+// * at least 2 weeks of review by TSC
+// * proposal presentation by Proposal Submitter and project decision by TSC
+
+NOTE: If a single Proposal Workshop does not suffice for answering all questions and clarifying all topics, the group may decide to do as many workshops as needed.
+These workshops do not need to be within the same week. +
+Note that enrollment starts with the first workshop but the timeframe for finalization of the proposal after the last. +
+Conversely, if a project's proposal information is already well-defined and all participants have sufficient prior knowledge, the workshop may be kept within an hour instead of one day.
+
+// Additional information:: xref:compendium:proposal_phase.adoc[]
 --
 Development::
 +
 --
-include::getting-involved:partial$project_phases.adoc[tag=development]
+include::compendium:partial$project_phases.adoc[tag=development]
 
 **This is the main phase of each project.** +
-During this phase, the project-type specific deliverables are developed by the project participants.
-In the beginning, the project team organizes a workshop to specify their modus operandi and set up all technical aspects of the project.
-This is followed by specifying, writing, and reviewing content internally until the document or documents are ready for a ASAM-internal or public review in the **Review phase**.
+If you want to learn more about how to get ready for your project, check out the **xref:tour_guide:index.adoc[]**.
 
-// Additional information:: xref:getting-involved:development_phase.adoc[]
+During this phase, the project-type specific xref:compendium:Concepts/deliverables.adoc[deliverables] are developed by the project participants.
+In the beginning, the project team organizes a workshop to specify their modus operandi and set up all technical aspects of the project.
+In particular, the Project Lead who is the main responsible for the project is elected.
+Depending on the size of the project, other xref:compendium:Concepts/roles-overview.adoc[roles] such as Subgroup Leads are also elected. 
+Additionally, the group may also employ one or more Service Providers as outside help if the required budget was included in the Proposal document. +
+This is followed by specifying, writing, and reviewing content internally until the document or documents are ready for a ASAM-internal or public review in the **Review Phase**.
+The requirements for "ready" can be found under the 'Review' tab.
+
+TIP: The project group can (and should!) review their changes regularly during development.
+The Review phase is a dedicated "final" review phase before publication.
+
+During development, the project team has regular group meetings.
+ASAM recommends a 2 month interval for these larger meetings. +
+In between, the group (and its optional subgroups) works on the parts of the project they prioritized for this interval.
+
+During development, the project group will meet in multiple different types of meetings not depicted here. 
+For example, a project with subgroups will have individual subgroup meetings for each of them within each development interval.
+For more on the types of meetings during a project's development, see xref:tour_guide:meetings.adoc[] in the Guided tour.
+
+// Additional information:: xref:compendium:development_phase.adoc[]
 --
 Review::
 +
 --
-include::getting-involved:partial$project_phases.adoc[tag=review]
+include::compendium:partial$project_phases.adoc[tag=review]
 
-Before they are officially released, the created deliverables are to be reviewed.
-Depending on the project, these reviews may be available to ASAM members only, free for the public, or a mixture of both.
+Before a developed standard is officially released, the created deliverables have to be reviewed.
+Depending on the project, these reviews may be available to ASAM members only, open to the general public, or a mixture of both. +
 Any problems that are identified during any of these reviews are then analyzed and categorized.
 Important fixes have to be made before the deliverables are released, whilst improvements beyond the initial scope or minute details may be put off for future iterations.
+Once the document has been successfully reviewed and no critical issues are open anymore, the project continues on to the **Release Phase**.
 
-// Additional information:: xref:getting-involved:review_phase.adoc[]
+In order to be allowed to enter the Review phase, **the group must ensure the following requirements are met**:
+
+* All deliverables of the standard shall be feature-complete, i.e. the specification or revision of all features of the standard has been finished.
+* A partial review of a deliverable (where the deliverable is incomplete) is prohibited!
+* The project group members determine whether the standard is ready for the review phase.
+
+TIP: The project group can (and should!) review their changes regularly during development.
+The Review phase is a dedicated "final" review phase before publication.
+
+The Review phase contains of at least two review periods: one group review period and one outside review period. +
+The group review may be skipped entirely if the group can provide good reasons for doing so.
+In this case, it must get approval from the ASAM Office Responsible, the Project Lead, and the ASAM CTO first.
+
+There are two types of outside reviews:
+
+* ASAM member reviews (default)
+* Public reviews
+
+The Office may restrict the group of reviewers in agreement with the project group members or as per TSC decision.
+
+After each review period, all feedback must be reviewed and the group must make a decision on how to proceed with it.
+The decision includes as a minimum the status "accepted", "rejected" or "deferred".
+The decision must be documented. +
+The group may start reviewing the feedback before the end of the respective review period.
+However, it may not extend into the next period.
+
+Accepted feedback shall be implemented.
+The project group has full authority how to implement the reviewers' feedback into the standard.
+They can implement changes as proposed by the reviewer, or decide for a different implementation.
+
+Reviewers should not submit new use-cases, features, or requirements as part of their review feedback. +
+If a reviewer's feedback is actually out-of-scope, since it contains a request to consider a new use-case, feature or requirement, then the feedback shall be rejected and transferred to the ASAM CR-system with status "new".
+
+Both the group review and the outside review may be repeated if major changes had to be implemented based on the provided feedback.
+
+
+// Additional information:: xref:compendium:review_phase.adoc[]
 --
 Release::
 +
 --
-include::getting-involved:partial$project_phases.adoc[tag=release]
+include::compendium:partial$project_phases.adoc[tag=release]
 
-After the deliverables have been developed and (optionally) successfully reviewed by the TSC, they are released to the public. +
-The project has now concluded.
-Developed and updated standards, however, will receive and process feedback afterwards.
+After the deliverables have been developed (and, in case of a major or minor standard development project, successfully reviewed), the project enters the Release Phase.
+The project group prepares a release candidate and agrees per formal voting to submit the candidate to the TSC for release decision.
+The release candidate has to be accepted by absolute two-thirds majority for it to pass.
 
-// Additional information:: xref:getting-involved:release_phase.adoc[]
+The Project Leader submits the following deliverables to ASAM:
+
+* the standard with all supplemental documents, files and examples that constitute the deliverables to members
+* sources required to generate the deliverables, including written instructions how to generate them
+* revision history documentation (not needed for version 1.0.0)
+* a (new) release presentation
+
+(Sources are those digital work products, which can be modified or edited with standard tools such as text editors, image processors or modeling tools, and which are the input for generators that produce the final deliverables.)
+
+IMPORTANT: The release candidate has to be submitted at least two (2) weeks prior to the next TSC meeting.
+
+For a development project, this also requires that the Review Phase has been passed without any critical issues still open. 
+
+**The project has now concluded.**
+
+
+// Additional information:: xref:compendium:release_phase.adoc[]
 --
 ====
-
-// == Ideation phase
-// include::getting-involved:partial$project_phases.adoc[tag=ideation]
-
-// If someone has an idea for a new standard, it triggers the ideation phase for a new project. +
-// During this phase, the idea is evaluated and fleshed out a bit until it is either discarded (e.g. it is not feasible or a duplicate of sorts) or accepted.
-// In case the idea is accepted, the project moves on to the xref:getting-involved:proposal_phase.adoc[].
-
-// Additional information:: xref:getting-involved:ideation_phase.adoc[]
-
-
-// == Proposal phase
-// include::getting-involved:partial$project_phases.adoc[tag=proposal]
-
-
-// Whether a project idea was just accepted or an improvement or update on an existing standard was proposed, the project enters the Proposal Phase.
-// During this phase, a Proposal document is generated, detailing the project's targets, participants, the budget, timeline, and other project-related information.
-// The Project Type is also specified during this phase.
-// With this document, the ASAM TSC decides if the project may continue or not. +
-// If the go-ahead is given, the project continues on to the <<Development phase>>.
-
-// Additional information:: xref:getting-involved:proposal_phase.adoc[]
-
-// == Development phase
-// include::getting-involved:partial$project_phases.adoc[tag=development]
-
-// **This is the main phase of each project.** +
-// During this phase, the project-type specific deliverables are developed by the project participants.
-// In the beginning, the project team organizes a workshop to specify their modus operandi and set up all technical aspects of the project.
-// This is followed by specifying, writing, and reviewing content internally until the document or documents are ready for a ASAM-internal or public review in the <<Review phase>>.
-
-// Additional information:: xref:getting-involved:development_phase.adoc[]
-
-
-// == Review phase
-// include::getting-involved:partial$project_phases.adoc[tag=review]
-
-// Before they are officially released, the created deliverables are to be reviewed.
-// Depending on the project, these reviews may be available to ASAM members only, free for the public, or a mixture of both.
-// Any problems that are identified during any of these reviews are then analyzed and categorized.
-// Important fixes have to be made before the deliverables are released, whilst improvements beyond the initial scope or minute details may be put off for future iterations.
-
-// Additional information:: xref:getting-involved:review_phase.adoc[]
-
-// == Release phase
-// include::getting-involved:partial$project_phases.adoc[tag=release]
-
-// After the deliverables have been developed and (optionally) successfully reviewed by the TSC, they are released to the public. +
-// The project has now concluded.
-// Developed and updated standards, however, will receive and process feedback afterwards in the <<Public phase>>.
-
-// Additional information:: xref:getting-involved:release_phase.adoc[]
-
-// == Public phase
-// include::getting-involved:partial$project_phases.adoc[tag=public]
-
-// During this phase, the released standard is publicly available and officially supported.
-// There is no active development on the standard itself.
-// However, feedback from users may still be gathered in order to start a follow-up project down the line to improve the standard.
-// In this case, a new Project Proposal would be created and the process started anew. +
-// If, however, the standard at some point becomes obsolete or deprecated, it enters its final phase: the <<Retirement phase>>.
-
-
-// == Retirement phase
-// include::getting-involved:partial$project_phases.adoc[tag=retirement]
-
-// This phase is the final phase for every standard eventually.
-// The standard has become obsolete and is retired.
-// With this, it will no longer be supported and propagated by ASAM.

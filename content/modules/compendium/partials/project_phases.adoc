@@ -8,6 +8,9 @@ h|Purpose
 
 h|Required for
 |Any project not directly based on a previous project.
+
+h|Timeline
+|No standard timeline
 |===
 
 //end::ideation[]
@@ -21,6 +24,12 @@ h|Purpose
 
 h|Required for
 |Every project type.
+
+h|Timeline
+a|**The typical Proposal Phase timeline consists of**
+
+image::compendium:asam/proposal_phase_timeline.drawio.svg[]
+
 |===
 
 //end::proposal[]
@@ -34,6 +43,13 @@ h|Purpose
 
 h|Required for
 |Every project type.
+
+h|Timeline
+a|**The length of the Development Phase varies from project to project.** +
+However, most projects proposed development length lies **between 6 and 18 months**. 
+
+image::compendium:asam/development_phase_timeline.drawio.svg[]
+
 |===
 
 //end::development[]
@@ -48,6 +64,11 @@ h|Purpose
 h|Required for
 a|* Major Version Update
 * Minor Version Update
+
+h|Timeline
+a|**The typical Review Phase timeline looks like this:**
+
+image::compendium:asam/review_phase_timeline.drawio.svg[title="The Review phase timeline"]
 |===
 
 //end::review[]
@@ -61,32 +82,12 @@ h|Purpose
 
 h|Required for
 |Every project type.
+
+h|Timeline
+a|**The typical Release Phase timeline looks like this:**
+
+image::compendium:asam/release_phase_timeline.drawio.svg[title="The Release phase timeline"]
+
 |===
 
 //end::release[]
-
-//tag::public[]
-
-[cols="1,3"]
-|===
-h|Purpose
-|To apply the standard in the industry and officially support it.
-
-h|Required for
-|Standards.
-|===
-
-//end::public[]
-
-//tag::retirement[]
-
-[cols="1,3"]
-|===
-h|Purpose
-|To retire an outdated or deprecated standard.
-
-h|Required for
-|Standards.
-|===
-
-//end::retirement[]

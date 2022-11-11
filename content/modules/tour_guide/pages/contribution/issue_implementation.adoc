@@ -39,7 +39,7 @@ IMPORTANT: Never work on the trunk directly -- always work in separate branches!
 == The trunk
 The central branch ("trunk") can only be merged to by the ASAM office, the Project Lead, or the project's Change Control Board (CCB).
 Tags on this specific branch represent the respective releases.
-These tags use https://semver.org/lang/de/[semantic versioning^].
+These tags use https://semver.org/[semantic versioning^].
 
 Changes **MUST** be added through branches created from the trunk or another branch. +
 These branches **SHOULD** be short-lived (<2 weeks) and regularly merged back. +
