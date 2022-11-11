@@ -8,30 +8,37 @@ Each of these roles has their own set of requirements, mandatory and/or optional
 
 // TIP: Click on a role's label to navigate directly to the role's summary page.
 
-.List of roles
+=== Outside roles
 [cols = ">1,^5,20", frame=none, stripes=hover]
 |===
-3+<s|[.underline]#Outside roles#
+// 3+<s|[.underline]#Outside roles#
 |(1)
 |image:compendium:Concepts/roles_overview-standard_user.svg[]
 a|Someone who has *access to* and possibly is an *active user of any ASAM standard*. +
 Some standards require https://www.asam.net/about-asam/join-asam/[ASAM membership^] in order to access the documents, whilst other standards are available to anyone online. +
 The role __Standard User__ is *not directly involved* in the creation of a standard.
 However, a __Standard User__ may take over other (active) roles in a project by enrolling in it. +
-Note that project participation also requires ASAM membership!
+**Note that project participation also requires ASAM membership!**
 
 |(2)
 |image:compendium:Concepts/roles_overview-reviewer.svg[]
-a|An *ASAM member outside the project* that participates in the *review of one or more documents*. +
+a|A __Standard User__ that participates in the *review of one or more documents*. +
 When a project's deliverables are reviewed, ASAM members who were not involved in the project directly can participate in the Review phase by becoming a __Reviewer__ and providing feedback.
+In case the project has a public review, ASAM membership is not required.
+|===
 
-3+<s|[.underline]#Project roles#
+=== Project roles
+[cols = ">1,^5,20", frame=none, stripes=hover]
+|===
+// 3+<s|[.underline]#Project roles#
 |(3)
 |image:compendium:Concepts/roles_overview-project_participant.svg[]
-a|An *ASAM member active in an ASAM project*. +
-Each project consists of *multiple* __Project Participants__ who *directly contribute* to the project's development.
+a|An *ASAM member participating in an ASAM project*. +
+Each project consists of *multiple* __Project Participants__ who *contribute* to the project's development.
 Most participants typically enroll during the Proposal Phase, but it also possible to already participate during the Ideation Phase. +
-Typically, __Project Participants__ work in one or more so-called *Sub-groups*, each focussing on a specific aspect of the project.
+Typically, **active** __Project Participants__ work in one or more so-called *subgroups*, each focussing on a specific aspect of the project.
+Smaller projects may not have subgroups. +
+**Passive** __Project Participants__, on the other hand, only follow the project development along but do not contribute to its content.
 
 |(4)
 |image:compendium:Concepts/roles_overview-project_lead.svg[]
@@ -42,21 +49,26 @@ Any __Project Participant__ can send in their candidacy during the Proposal Phas
 
 |(5)
 |image:compendium:Concepts/roles_overview-wg_lead.svg[]
-a|A __Project Participant__ *leading* the activities of a *Sub-group*. +
-Many projects divide up their activities into so-called Sub-groups which focus on specific aspects of a project.
-Each of these groups may be led by a __Sub-group Lead__.
+a|An **active** __Project Participant__ *leading* the activities of a *subgroup*. +
+Many projects divide up their activities into so-called subgroups which focus on specific aspects of a project.
+Each of these groups may be led by a __Subgroup Lead__.
 
-3+<s|[.underline]#Supporting roles#
+|===
+
+=== Supporting roles
+[cols = ">1,^5,20", frame=none, stripes=hover]
+|===
+// 3+<s|[.underline]#Supporting roles#
 |(6)
 |image:compendium:Concepts/roles_overview-or.svg[]
 a|ASAM contact of the project. +
-A __OR__ is an *ASAM employee* focussed on *coordinating project processes* and the *background work* behind a project.
+An __Office Responsible (OR)__ is an *ASAM employee* focussed on *coordinating project processes* and the *background work* behind a project.
 
 |(7)
 |image:compendium:Concepts/roles_overview-tw.svg[]
 a|Editor and writing support. +
 A __Technical Writer__ *supports* the *creation of documents*.
-They ensure ASAM's xref:compendium:Editorial_guide.adoc[Editorial Guide] is applied and the document is formalized.
+They ensure **ASAM's Editorial Guide** is applied and the document is formalized.
 
 |(8)
 |image:compendium:Concepts/roles_overview-tsc.svg[]
