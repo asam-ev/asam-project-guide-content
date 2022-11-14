@@ -3,12 +3,14 @@
 :page-layout: progress
 :page-progress_bar: progress_bar_simple-contribution_workflow.svg
 
+//tag::body[]
+
 include::tour_guide:partial$_attributes.adoc[]
 
 include::compendium:partial$issue_labels.adoc[]
 
 == Overview 
-Developing content for ASAM standards is focused around the concept of xref:contribution/contribute_with_issues.adoc[contributing with issues]. +
+Developing content for ASAM standards is focused around the concept of xref:tour_guide:contribution/contribute_with_issues.adoc[contributing with issues]. +
 The following sections describe this workflow in more detail.
 Note that the workflow starts when an issue is assigned to someone.
 Whether the issue is created with an assignee or assigned by someone from the project later is irrelevant. +
@@ -165,3 +167,5 @@ Integration insufficient::: -> INTEGRATION (Review NOK)
 Integration accepted::: -> CLOSED (Review OK)
 --
 ====
+
+//end::body[]

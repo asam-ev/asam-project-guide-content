@@ -1,0 +1,5 @@
+= Issue implementation
+
+include::compendium:partial$_attributes.adoc[]
+
+include::tour_guide:page$contribution/issue_implementation.adoc[tag=body]

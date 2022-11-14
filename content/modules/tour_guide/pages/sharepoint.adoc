@@ -5,6 +5,7 @@
 
 include::tour_guide:partial$_attributes.adoc[]
 
+//tag::body[]
 == Project landing page
 Every project at ASAM has its own Microsoft Sharepoint.
 It is initially prepared by the ASAM Office.
@@ -64,3 +65,5 @@ It is the responsibility of the Project Lead to keep this document up to date on
 They may delegate this task to another project member.
 
 When you join a project, make sure that your contact information in the project's participant list is present, correct, and up-to-date.
+
+//end::body[]

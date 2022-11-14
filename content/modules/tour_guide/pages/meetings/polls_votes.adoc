@@ -5,6 +5,8 @@
 :page-layout: progress
 :page-progress_bar: progress_bar_simple-polls_and_voting.svg
 
+//tag::body[]
+
 include::tour_guide:partial$_attributes.adoc[]
 
 == Overview
@@ -61,3 +63,5 @@ The following items must be subjected to mandatory votings:
 * Significant changes to deliverables (e.g. within a subgroup)
 * Escalation of topics to TSC
 * Release decision
+
+//end::body[]

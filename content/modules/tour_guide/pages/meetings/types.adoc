@@ -4,6 +4,8 @@
 :page-layout: progress
 :page-progress_bar: progress_bar_simple-meeting_types.svg
 
+//tag::body[]
+
 include::tour_guide:partial$_attributes.adoc[]
 
 == Overview
@@ -55,3 +57,5 @@ Every subgroup will schedule their own meetings.
 Typically, these meetings happen more frequently than the larger project-level meetings.
 Here, the subgroups discuss progress, setbacks, and current topics within their assignment and make related decisions.
 Each subgroup shall present results, particularly substantial changes, to the whole project group regularly.
+
+//end::body[]

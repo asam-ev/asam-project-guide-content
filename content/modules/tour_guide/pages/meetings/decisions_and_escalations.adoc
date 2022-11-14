@@ -6,6 +6,8 @@
 
 include::tour_guide:partial$_attributes.adoc[]
 
+//tag::body[]
+
 == Decisions in meetings
 Participants of a meeting can make decisions on topics within the scope of their respective group.
 This means that a subgroup can make decisions on all topics related to their subgroup's task, whereas decisions in a project-level meeting typically concern the project as a whole.
@@ -21,7 +23,7 @@ However, topics that go beyond the subgroup's responsibilities must be escalated
 
 == Escalation of topics
 === From Subgroup to group
-A topic must be presented at the next xref:meetings/types.adoc#_project-level_meetings[project-level meeting] when:
+A topic must be presented at the next xref:tour_guide:meetings/types.adoc#_project-level_meetings[project-level meeting] when:
 
 * Changes to the underlying data model
 * It is requested by the Subgroup
@@ -44,3 +46,5 @@ Lastly, inactive participants endanger the project's budget.
 It is, therefore, important to identify inactive members quickly and get them to be active again.
 As a last resort, inactive (and possibly unresponsive) members can be removed from the project.
 This is the responsibility of the responsible lead: Project Lead for project level inactiveness, Subgroup Lead for relevant subgroups.
+
+//end::body[]

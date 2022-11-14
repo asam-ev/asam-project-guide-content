@@ -1,0 +1,5 @@
+= Meeting guidelines
+
+include::compendium:partial$_attributes.adoc[]
+
+include::tour_guide:page$meetings/guidelines.adoc[tag=body]

@@ -4,6 +4,8 @@
 :page-layout: progress
 :page-progress_bar: progress_bar_simple-implementation.svg
 
+//tag::body[]
+
 include::tour_guide:partial$_attributes.adoc[]
 
 include::compendium:partial$issue_labels.adoc[]
@@ -51,7 +53,7 @@ These branches **MAY** be squashed and **MUST** be merged via fast-forward merge
 . Change the issue status label to {requiresMergeRequest-label} to indicate that a proposal is being implemented for this issue
 . Begin submitting work via commits to the develop branch
 .. Involved project participants review and comment changes through the associated Pull/Merge Request.
-These comments work identically to those described in xref:contribution/contribute_with_issues.adoc#_discuss_issues["discuss issues"]
+These comments work identically to those described in xref:tour_guide:contribution/contribute_with_issues.adoc#_discuss_issues["discuss issues"]
 . Review implementation progress of issue with the Subgroup Lead and the other project participants in Subgroup meetings.
 // {role-sg-lead} {role-project-participant} 
 Discussions and their results are documented in the Pull/Merge Request
@@ -79,6 +81,4 @@ TODO
 --
 ====
 
-
-
-
+//end::body[]

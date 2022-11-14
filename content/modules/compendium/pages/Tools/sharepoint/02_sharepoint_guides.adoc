@@ -32,5 +32,8 @@ image::compendium:sharepoint_teams/obtain-email-teams.gif[Obtaining an Email Adr
 
 == Sharepoint
 
+include::tour_guide:page$sharepoint.adoc[leveloffset=+1, tag=body]
+
+=== Synchronizing with OneDrive
 .Demo on synchronizing
 image::compendium:sharepoint_teams/synchronizing_with_onedrive.gif[Demo on synchronizing]include::compendium:page$How-Tos/synchronizing_sharepoint_with_onedrive.adoc[{offset_value}]

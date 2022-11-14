@@ -4,6 +4,8 @@
 :page-layout: progress
 :page-progress_bar: progress_bar_simple-contributing_with_issues.svg
 
+//tag::body[]
+
 include::tour_guide:partial$_attributes.adoc[]
 
 You can contribute to ASAM projects directly with issues.
@@ -120,3 +122,5 @@ Additionally, an issue may also be closed without resolution if
 == Reopen issues
 Issues shall not be reopened!
 If an issues has been closed by accident or has become relevant for other reasons again, a related issue shall be created instead.
+
+//end::body[]

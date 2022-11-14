@@ -3,6 +3,8 @@
 :page-layout: progress
 :page-progress_bar: progress_bar_simple-meeting_guidelines.svg
 
+//tag::body[]
+
 include::tour_guide:partial$_attributes.adoc[]
 
 This page contains guidelines regarding all types of official meetings at ASAM. +
@@ -103,7 +105,7 @@ This list also contains information on the group or groups each participant is p
 
 
 == Polls and voting
-These are covered in xref:meetings/polls_votes.adoc[].
+These are covered in xref:tour_guide:meetings/polls_votes.adoc[].
 
 == Meeting notes
 Meeting notes (minutes) are to be taken in the project's repository.
@@ -118,3 +120,5 @@ Additionally, the next scheduled meeting shall be listed here as well.
 * Schedule regular meetings at least every 6-8 weeks
 * Send a reminder to all assignees with open topics with enough time ahead of the next meeting
 * If you want to give a presentation in a project meeting, upload your presentation in the meeting's "presentations" folder in your project's Sharepoint ahead of time
+
+//end::body[]

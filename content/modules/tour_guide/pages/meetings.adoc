@@ -6,6 +6,7 @@
 
 include::tour_guide:partial$_attributes.adoc[]
 
+//tag::body[]
 == Overview
 
 All projects at ASAM consist of at least three independent project members.
@@ -14,6 +15,9 @@ These meetings provide the opportunities to get updates and make decisions.
 
 In this section you will learn about meetings in ASAM projects, particularly
 
-* the xref:meetings/types.adoc[types of meetings]
-* ASAM's xref:meetings/guidelines.adoc[meeting guidelines]
-* about xref:meetings/decisions_and_escalations.adoc[decisions and escalation of topics]
+* the xref:tour_guide:meetings/types.adoc[types of meetings]
+* ASAM's xref:tour_guide:meetings/guidelines.adoc[meeting guidelines]
+* how xref:tour_guide:meetings/polls_votes.adoc[polls and votings] work
+* about xref:tour_guide:meetings/decisions_and_escalations.adoc[decisions and escalation of topics]
+
+//end::body[]
