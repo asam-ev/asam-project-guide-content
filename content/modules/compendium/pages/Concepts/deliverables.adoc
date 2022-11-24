@@ -9,16 +9,15 @@ include::compendium:partial$_attributes.adoc[]
 
 //tag::body[]
 
-The deliverables of a standard package consist of standard documents and other files.
-A standard package consists of at least one base standard.
+The deliverables of a standard package consist of standard documents and other files. +
+A standard package consists of at least one specification document.
 Other deliverable items, as listed on this page, are optional.
 
 == Standard documents
 === Specification
-**Each ASAM standard contains exactly one specification document.** +
-The specification contains all normative information such as abstract object models, syntax definitions, and functional behavior descriptions.
-It uses a problem- or task-oriented notation, such as UML, BNF, or any suitable description for protocols.
-The specification is technology- and implementation-independent.
+**Each ASAM standard contains at least one specification document.** +
+Specification documents contain normative information.
+Each Specification document may be prepended by its type.
 
 Typically, this is
 
@@ -31,34 +30,37 @@ and has the following properties:
 * Platform-independent
 * Technology-independent
 * Supplier-independent
+* Implementation-independent
 * Does not contradict any other https://www.asam.net/standards/[ASAM standard^]
 
-**This document is normative by default.** +
-It **may contain non-normative content** as long as it is clearly marked as such.
+**These documents is normative by default.** +
+They **may contain non-normative content** as long as it is clearly marked as such.
 
 
 === Reference
 A standard may contain one or more Reference documents. +
-A reference document contains information related to implementers.
-The name of each reference document is prepended by its type or target audience. +
-For example, a reference for programmers would be named "Programmers Reference". 
+A Reference document contains information related to implementers.
+The name of each Reference document is prepended by its type or target audience. +
+For example, a Reference for programmers would be named "Programmers Reference". 
 
 **This information is non-normative.**
 
-=== Guideline
-A standard may contain one or more Guideline documents. +
-A guideline document contains information related to users.
-The name of each guideline document is prepended by its type or target audience. +
-For example, a guideline for modeling scenarios would be named "Modelling Guideline".
+=== Guidelines
+A standard may contain one or more Guidelines documents. +
+A Guidelines document contains information related to users.
+The name of each Guidelines document is prepended by its type or target audience. +
+For example, a Guidelines document for modeling scenarios would be named "Modelling Guidelines".
 
 **This information is non-normative.**
 
 == Supplemental material
-Sometimes, a project's delivery does not fit either of the above. 
-In this case, the project may contain additional, so-called "Supplementary", material. +
-Note that Supplemental material is only allowed if deemed absolutely necessary and if it is neither <<Specification>>, <<Reference>>, nor <<Guideline>>.
+Sometimes, a project's deliverable does not fit any of the above. 
+In this case, it is considered to be a so-called "Supplementary" material. +
+Note that Supplemental material is only allowed if deemed absolutely necessary and if it is neither <<Specification>>, <<Reference>>, nor <<Guidelines>>.
 
-The following list contains common examples and is non-exhaustive.
+The following list contains common examples and is non-exhaustive. 
+
+TIP: If you are unsure if a deliverable is Supplementary material, check with your Office Responsible.
 
 === Model files
 Model files typically contain the object model of the standard.

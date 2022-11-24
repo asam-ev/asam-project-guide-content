@@ -9,7 +9,7 @@ include::partial$_attributes.adoc[]
 
 == Introduction
 
-Besides xref:compendium:Concepts/project_types.adoc[different types of projects], there are seven main project phases that ASAM defines.
+Besides xref:compendium:Concepts/project_types.adoc[different types of projects], there are five main project phases that ASAM defines.
 Not all projects must necessarily pass through all these phases.
 See the phase descriptions below for more details.
 
@@ -31,8 +31,6 @@ In case the idea is accepted, the project moves on to the **Proposal Phase**.
 **The Ideation Phase is a phase of variable length.** +
 It may contain an Ideation Workshop where the idea is first developed together with ASAM and interested members before it is deemed promising enough to enter the next phase.
 
-For more information, see the https://www.asam.net/active-projects/ideation/how-it-works/[**info page**^] on the ASAM website.
-
 // Additional information:: xref:compendium:ideation_phase.adoc[]
 --
 Proposal::
@@ -42,10 +40,10 @@ include::compendium:partial$project_phases.adoc[tag=proposal]
 
 
 Whether a project idea was just accepted or a new project is proposed based on a released concept paper or as an improvement of an existing standard, it enters the Proposal Phase. +
-During this phase, the proposed project is announced and then presented to interested parties, who then can sign up to join the project team if it is approved by the TSC.
+During this phase, the proposed project is announced and then presented to interested parties, who can sign up to join the project team if it is approved by the TSC.
 A Proposal document is written, detailing the project's targets, participants, the budget, timeline, and other project-related information, such as the xref:compendium:Concepts/project_types.adoc[type of the project]. +
 The Proposal document is then released to attract more attention as well as for transparency.
-It is also the basis for the ASAM TSC, who decide if the project may continue or not. +
+It is also the basis for the ASAM TSC, which decides if the project may continue or not. +
 If the go-ahead is given, the project continues on to the **Development phase**.
 
 
@@ -57,10 +55,8 @@ If the go-ahead is given, the project continues on to the **Development phase**.
 // * at least 2 weeks of review by TSC
 // * proposal presentation by Proposal Submitter and project decision by TSC
 
-NOTE: If a single Proposal Workshop does not suffice for answering all questions and clarifying all topics, the group may decide to do as many workshops as needed.
-These workshops do not need to be within the same week. +
-Note that enrollment starts with the first workshop but the timeframe for finalization of the proposal after the last. +
-Conversely, if a project's proposal information is already well-defined and all participants have sufficient prior knowledge, the workshop may be kept within an hour instead of one day.
+NOTE: The group may decide to do more than one Proposal Workshop. +
+In this case, enrollment starts after the last workshop and proposal submission is due 4-8 weeks after that date.
 
 // Additional information:: xref:compendium:proposal_phase.adoc[]
 --

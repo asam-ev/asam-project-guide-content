@@ -20,7 +20,7 @@ h|Timeline
 [cols="1,3"]
 |===
 h|Purpose
-|To define funding and participants for a project and decide whether to proceed.
+|To define participants and funding for a project and decide whether to proceed.
 
 h|Required for
 |Every project type.
@@ -46,7 +46,7 @@ h|Required for
 
 h|Timeline
 a|**The length of the Development Phase varies from project to project.** +
-However, most projects proposed development length lies **between 6 and 18 months**. 
+However, most projects' proposed development duration lies **between 6 and 18 months**. 
 
 image::compendium:asam/development_phase_timeline.drawio.svg[]
 

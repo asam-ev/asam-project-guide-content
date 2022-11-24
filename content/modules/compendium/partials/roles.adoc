@@ -55,7 +55,7 @@ Each of these groups may be led by a __Subgroup Lead__.
 
 |===
 
-=== Supporting roles
+=== Other roles
 [cols = ">1,^5,20", frame=none, stripes=hover]
 |===
 // 3+<s|[.underline]#Supporting roles#
