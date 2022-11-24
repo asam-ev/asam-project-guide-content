@@ -30,3 +30,6 @@ include::compendium:partial$roles.adoc[tags=list_of_roles]
 // For a complete overview over roles at ASAM, see xref:role-specific:main.adoc[].
 
 // related::role[]
+
+== Related
+* xref:compendium:Concepts/participation_types.adoc[]
