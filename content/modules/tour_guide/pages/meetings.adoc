@@ -3,6 +3,7 @@
 :keywords: meeting
 :page-layout: progress
 :page-progress_bar: progress_bar_simple-meetings_summary.svg
+:tour_guide_small:
 
 include::tour_guide:partial$_attributes.adoc[]
 

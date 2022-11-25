@@ -109,11 +109,11 @@ In order to be allowed to enter the Review phase, **the group must ensure the fo
 TIP: The project group can (and should!) review their changes regularly during development.
 The Review phase is a dedicated "final" review phase before publication.
 
-The Review phase contains of at least two review periods: one group review period and one outside review period. +
+The Review phase contains of at least two review periods: one group review period and one review period with reviewers outside the group. +
 The group review may be skipped entirely if the group can provide good reasons for doing so.
 In this case, it must get approval from the ASAM Office Responsible, the Project Lead, and the ASAM CTO first.
 
-There are two types of outside reviews:
+There are two types of reviews outside the group:
 
 * ASAM member reviews (default)
 * Public reviews
@@ -133,7 +133,7 @@ They can implement changes as proposed by the reviewer, or decide for a differen
 Reviewers should not submit new use-cases, features, or requirements as part of their review feedback. +
 If a reviewer's feedback is actually out-of-scope, since it contains a request to consider a new use-case, feature or requirement, then the feedback shall be rejected and transferred to the ASAM CR-system with status "new".
 
-Both the group review and the outside review may be repeated if major changes had to be implemented based on the provided feedback.
+Both the group review and the review outside the group may be repeated if major changes had to be implemented based on the provided feedback.
 
 
 // Additional information:: xref:compendium:review_phase.adoc[]

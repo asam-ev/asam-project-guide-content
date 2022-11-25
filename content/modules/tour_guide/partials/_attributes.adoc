@@ -5,7 +5,7 @@ include::compendium:partial$tools_attributes.adoc[]
 ifdef::tour_guide[]
 {tour_guide-icon}
 endif::[]
-ifndef::tour_guide[]
+ifdef::tour_guide_small[]
 {tour_guide-icon-small}
 endif::[]
 

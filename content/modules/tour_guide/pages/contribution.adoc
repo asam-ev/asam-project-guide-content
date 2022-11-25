@@ -2,6 +2,7 @@
 :description: Explains the basic contribution workflows.
 :page-layout: progress
 :page-progress_bar: progress_bar_simple-contribution_workflow.svg
+:tour_guide_small:
 
 //tag::body[]
 

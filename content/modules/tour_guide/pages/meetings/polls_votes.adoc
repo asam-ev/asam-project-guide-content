@@ -4,6 +4,7 @@
 :reftext: Project voting
 :page-layout: progress
 :page-progress_bar: progress_bar_simple-polls_and_voting.svg
+:tour_guide_small:
 
 //tag::body[]
 

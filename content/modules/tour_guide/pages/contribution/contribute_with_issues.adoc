@@ -3,6 +3,7 @@
 :keywords: basics
 :page-layout: progress
 :page-progress_bar: progress_bar_simple-contributing_with_issues.svg
+:tour_guide_small:
 
 //tag::body[]
 

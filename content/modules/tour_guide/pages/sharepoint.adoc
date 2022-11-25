@@ -2,6 +2,7 @@
 :keywords: teams, sharepoint
 :page-layout: progress
 :page-progress_bar: progress_bar_simple-sharepoint.svg
+:tour_guide_small:
 
 include::tour_guide:partial$_attributes.adoc[]
 

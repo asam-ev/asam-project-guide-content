@@ -31,5 +31,5 @@ include::compendium:partial$roles.adoc[tags=list_of_roles]
 
 // related::role[]
 
-== Related
-* xref:compendium:Concepts/participation_types.adoc[]
+== Questions
+Please reach out if you have any questions: project-office@asam.net

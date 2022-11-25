@@ -22,9 +22,20 @@ However, a __Standard User__ may take over other (active) roles in a project by 
 
 |(2)
 |image:compendium:Concepts/roles_overview-reviewer.svg[]
-a|A __Standard User__ that participates in the *review of one or more documents*. +
+a|A __Standard User__ that participates in the *review of one or more documents*. 
+They are considered non-enrolled Reviewers. +
 When a project's deliverables are reviewed, ASAM members who were not involved in the project directly can participate in the Review phase by becoming a __Reviewer__ and providing feedback.
 In case the project has a public review, ASAM membership is not required.
+
+ASAM members can also enroll specifically as Reviewers for projects. 
+In this case, they become a participant that has committed a small amount of resources to support the project team with review focused activities. 
+This may include review of merge requests, proposals and/or review of documents. +
+The following points are related to such enrolled reviewers: 
+
+* Company being represented must be an ASAM Member
+* Has committed resources for review
+* Has access to the Sharepoint
+* Has reporter access to the project Gitlab
 |===
 
 === Project roles
@@ -34,11 +45,25 @@ In case the project has a public review, ASAM membership is not required.
 |(3)
 |image:compendium:Concepts/roles_overview-project_participant.svg[]
 a|An *ASAM member participating in an ASAM project*. +
-Each project consists of *multiple* __Project Participants__ who *contribute* to the project's development.
-Most participants typically enroll during the Proposal Phase, but it also possible to already participate during the Ideation Phase. +
-Typically, **active** __Project Participants__ work in one or more so-called *subgroups*, each focussing on a specific aspect of the project.
-Smaller projects may not have subgroups. +
-**Passive** __Project Participants__, on the other hand, only follow the project development along but do not contribute to its content.
+Each project consists of *multiple* __Project Participants__. +
+There are two different types of project participants: **contributors** and **spectators**.
+
+Contributor:: 
+(renamed, renamed, previously used member / active member)
+A participant in an ASAM project that has committed resources to contributing to the project. 
+They typically work in one or more subgroups, each focussing on a specific aspect of the project. +
+* The company being represented must be an ASAM Member
+* Has committed resources
+* Has access to the project Sharepoint
+* Has developer access to the project GitLab
+* Each company with at least one contributor has one vote
+
+Spectator::
+Passive participant or observer in an ASAM project that is part of a company **with at least one contributor** in the project. +
+* The company being represented must be an ASAM Member
+* Has access to the project Sharepoint
+* Has reporter access to the project Gitlab
+
 
 |(4)
 |image:compendium:Concepts/roles_overview-project_lead.svg[]

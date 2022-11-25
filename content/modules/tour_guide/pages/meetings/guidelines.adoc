@@ -2,6 +2,7 @@
 :keywords: meeting
 :page-layout: progress
 :page-progress_bar: progress_bar_simple-meeting_guidelines.svg
+:tour_guide_small:
 
 //tag::body[]
 
