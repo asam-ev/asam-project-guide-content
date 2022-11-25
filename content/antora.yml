@@ -1,10 +1,9 @@
-name: projectintroduction
-title: ASAM Project Introduction
+name: asamprojectguide
+title: ASAM Project Guide
 version:
   v(?<version>+({0..9}).+({0..9}).+({0..9})): $<version>
   open-(*): 'open$1'
   main: latest # Remove for first release!!!
-  project_introduction: '1.1.0'
   dev: dev
 # prerelease: true
 start_page: ROOT:index.adoc
