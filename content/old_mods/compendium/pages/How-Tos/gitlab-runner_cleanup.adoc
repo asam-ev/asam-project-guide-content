@@ -1,0 +1,52 @@
+= GitLab runner cleanup
+:description: Describes how to clean up a gitlab runner.
+:keywords: gitlab, runner
+
+include::compendium:partial$_attributes.adoc[]
+
+{how-to-icon}
+
+:role-gtm:
+
+Old docker images on the gitlab runner or any docker based CI server need to be regularly removed to prevent them using up too much space.
+Manually this can be done by `ssh`ing onto the server, then running:
+
+[source]
+----
+`sudo docker image prune -af`
+----
+
+As of 19.08.22, a cronjob has been installed that does this regularly.
+A cronjob like this is installed as follows:
+
+[source]
+----
+cd /etc/cron.daily
+sudo nano docker-prune
+----
+
+
+Paste in the following:
+
+[source]
+----
+#!/bin/bash
+docker system prune -af  --filter "until=$((30*24))h"
+----
+
+Once you've added the command, hit kbd:[Ctrl + O] and then kbd:[Ctrl + X] to save and close the file. +
+Now that we've created the file we need to tell the operating system that it needs to be executable with the following command:
+
+[source]
+----
+sudo chmod +x /etc/cron.daily/docker-prune
+----
+
+Docker will now execute this command on a daily basis.
+
+If you want to test out to see if it will execute correctly next time the cronjob runs, you can force the daily Cron register to run with the following command:
+
+[source]
+----
+run-parts /etc/cron.daily
+----
