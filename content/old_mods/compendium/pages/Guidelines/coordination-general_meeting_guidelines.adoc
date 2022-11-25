@@ -1,0 +1,175 @@
+= General meeting guidelines
+:description: Contains general meeting guidelines for ASAM projects.
+:keywords: guideline, meeting
+:navtitle: [Coordination] General Meeting Guidelines
+
+include::compendium:partial$_attributes.adoc[]
+
+{coordination-icon}
+
+//tag::body[]
+{role-project-lead}
+{role-sg-lead}
+{role-or}
+{role-ccb}
+
+This page contains general guidelines on meetings in projects.
+It is intended for meetings during the xref:getting-involved:development_phase.adoc[Development phase], but may be applied to meetings in other phases as well.
+
+//tag::reduced[]
+
+== Roles in meetings
+[cols="1,1", grid=cols, frame=none]
+|===
+a|=== Meeting host 
+a|=== Minute taker
+
+a|IMPORTANT: Project meetings are set up by the ASAM office, even when they are not the meeting host.
+All other meetings within a project (such as Sub-group meetings) have to be set up by the respective host.
+
+Every meeting has a host.
+This is the person who calls the meeting. +
+The host has the following responsibilities:
+
+* Define the <<Minute taker,minute taker>>.
+They can take that role themselves if they wish.
+If not, the assignee has to agree to this task first.
+* Provide the <<Meeting agenda,agenda>> for the meeting
+* <<Setting up a meeting,Set up the meeting>> and send out the <<Whom to invite,invites>> (exception: project meetings are set up by the ASAM office in coordination with the host)
+* Moderate the meeting
+* Ensure to stay within the defined timetable
+* If necessary, assign tasks with due dates to participants (assignees)
+* Ensure that minutes are taken and send out the link to them afterwards
+* Follow up with assignees on assigned tasks after the meeting
+
+a|The minute taker is designated by the <<Meeting host,meeting host>>.
+This may be the host themselves. +
+However, the host may not just appoint role to a project member without their consent. 
+The order of responsibility regarding the taking of minutes is as follows:
+
+. Host (since they usually do not need to travel)
+. Service Provider
+. Project Lead
+. Office Responsible
+
+The minute taker has the following responsibilities:
+
+* Before the meeting
+** Create the <<Meeting notes,meeting notes>> document ahead of time
+** Add the provided agenda to the meeting notes
+* During the meeting
+** Document the participants as well as missing meeting members
+** Take notes during the meeting
+** Document all assigned tasks with their assignees
+** Add provided links and documents
+* After the meeting
+** Request missing documents and links from the responsible participants
+** Update the notes with delivered updates (e.g. links to files)
+** Finalize the notes once everything has been provided
+** Inform the host in case of overdue tasks
+|===
+
+
+== Meeting agenda
+The <<Meeting host,host>> of the meeting is responsible for providing a meeting agenda ahead of time. +
+The agenda must be shared in the invite to the meeting.
+The agenda also has to be included in the <<Meeting notes,meeting notes>>.
+
+Each agenda must at least have the following contents:
+
+* https://www.asam.net/active-projects/resources/[Antitrust Reminder^]
+* scheduled votes for the meeting
+* documentation of participants
+* voting template
+* agenda items
+
+
+== Whom to invite
+* The target audience depends on your meeting type.
+* While a project is still in the early phase, people will likely be moving from group to group
+* For meetings within a group of a project, send the invite to those emails currently registered for the group
+* For full project meetings, send the invite to the project's mailing list
+* For all meeting types, add the following as CC (if not invited directly):
+** The Project Lead and the OR.
+** The mailto:openx@asam.net[OpenX Calendar]
+// ** The mailto:openx@asam.net[OpenX Calendar] (see xref:compendium:Tools/calendar.adoc[shared OpenX Calendar]).
+// ** The https://support.microsoft.com/en-us/office/send-an-email-to-a-channel-in-teams-d91db004-d9d7-4a47-82e6-fb1b16dfd51e[Teams channel email^]; this will post the meeting in the channel for all to see.
+// See xref:compendium:How-Tos/obtain_channel_email.adoc[].
+
+// NOTE: To find the list of people registered for your group, see the group's Mailing List.
+// // Its location is described in the xref:compendium:Guidelines/coordination-teams-channel_file-structure.adoc[Teams&Sharepoint Overview].
+// The full project Mailing List is maintained by ASAM, the group's Mailing List is maintained by the respective SG Lead.
+
+NOTE: The list of project participants can be found in the xref:contributing:teams_and_sharepoint.adoc#_participants_list[project's participant list].
+This list also contains information on the group or groups each participant is part of.
+
+
+== Setting up a meeting
+// * If you have a Teams license, you can set up a Teams meeting directly in the project's Teams channel.
+// See xref:compendium:How-Tos/meetings_in_teams.adoc[].
+* Feel free to use whatever solution you or your company normally use.
+* If your company does not provide you with a suitable solution, send the details to your ASAM representative and they will assist (either with Teams or Zoom).
+
+
+== Polls and voting
+Meetings are the default way of taking project- or Sub-group-level polls.
+Their results have to be made available in the corresponding meeting notes. +
+By default, polls are announced in the agenda (before the meeting takes place).
+However, if spontaneous topics arise, ad hoc polls can be held if all impacted participants are present.
+In case one or more crucial members for a topic's ad hoc poll are missing, the poll has to be postponed and scheduled for the next meeting instead.
+
+A poll is only valid if at least 50% of registered active (sub-)group members cast their vote and the Issue Responsible (if defined) is present.
+An abstention vote counts as a cast vote.
+A passive participant (someone not involved in the development directly) is neither considered for this threshold nor may they participate in any polls. +
+To be eligible for casting a vote, a member has to have been present during the corresponding topic discussion/presentation.
+The only exception to this is voting for topics of static nature, such as meeting frequencies.
+
+All votes must be cast digitally and through an online tool (so both onsite and remote users can vote).
+ASAM recommends the use of "Microsoft Forms" in case of online voting.
+You can ask your ASAM Office Responsible for support on creating such a vote ahead of time.
+
+TIP: Do a quick vote first (e.g. show of hands). 
+If it is unanimous, you can skip the formal process of voting.
+Make sure to document the result in either case, however.
+
+[cols="1,1", grid=cols, frame=none]
+|===
+a|=== Project-level voting 
+a|=== Sub-group voting
+
+a|In a project-level meeting, each company has one vote.
+The barrier for a valid poll is, therefore, 50% of all participating companies. +
+It is recommended that if a company has multiple participants in a project, they decide on their vote and who will cast it ahead of time.
+If a company casts multiple votes (accidentally or intentionally), their vote is counted as abstention.
+
+a|In a Sub-group meeting, each participant has one vote.
+The barrier for a valid poll is, therefore, 50% of all Sub-group members.
+This is independent of company affiliation.
+
+
+|===
+
+== Meeting notes
+Meeting notes (minutes) are to be taken in the project's repository.
+The repository contains a template for meeting notes that shall be used.
+The designated <<Minute taker, minute taker>> is responsible for taking the notes.
+
+The notes must contain all important decisions (including cast votes).
+Additionally, the next scheduled meeting shall be listed here as well.
+
+
+== Best practices
+* Schedule regular meetings at least every 6-8 weeks
+* Send a reminder to all assignees with open topics with enough time ahead of the next meeting
+* Schedule remote meetings only for organizational issues
+* Present results, particularly substantial changes in Sub-groups, to the whole project group regularly
+* If you want to give a presentation in a project meeting, upload your presentation in the meeting's "presentations" folder in your project's Sharepoint ahead of time
+
+//end::reduced[]
+
+== Related topics
+* xref:compendium:Guidelines/coordination-hosting_workshops.adoc[].
+* xref:compendium:Guidelines/coordination-meeting_moderation.adoc[].
+* xref:compendium:Guidelines/coordination-meeting_logistics.adoc[].
+
+//end::body[]

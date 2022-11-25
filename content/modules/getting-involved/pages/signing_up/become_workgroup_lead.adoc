@@ -1,8 +1,0 @@
-= Become Workgroup Lead
-:description: Describes how to become a lead of a workgroup and where to find more information.
-:keywords: workgroup-lead
-
-include::partial$_attributes.adoc[]
-
-
-include::compendium:page$How-Tos/become_wg_lead.adoc[tag=body]

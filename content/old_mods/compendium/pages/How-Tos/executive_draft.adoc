@@ -1,0 +1,71 @@
+= Create an executive Proposal draft
+:description: How-to for creating a new project proposal as executive draft
+:keywords: proposal
+
+include::compendium:partial$_attributes.adoc[]
+
+{how-to-icon}
+
+
+// If you use a recurring image for similar artifacts, declare it as attribute in partials/_attributes.adoc and reference here.
+
+
+//tag::body[]
+//tag::roles[]
+[cols="1,5", grid = rows]
+|===
+h|Responsible
+| {role-idea-giver}
+
+h|Involved
+| {role-project-participant}, {role-or}
+
+ifdef::compendium[]
+h| Phase
+| xref:getting-involved:proposal_phase.adoc#_process_overview[image:compendium:asam/project_lifecycle-proposal.svg[]]
+endif::[]
+
+h| Step
+| image:compendium:asam/proposal_phase_v2-proposal_writing_draft.svg[]
+
+h|TL;DR
+a| * Outline the general idea of the project
+* Discuss and optimize together with ASAM Office
+
+|===
+//end::roles[]
+
+== Context
+To start a new project with a xref:getting-involved:proposal_phase.adoc#_process_overview[Project Proposal], it first needs a Project Proposal Executive Draft for internal analysis.
+This document needs to be ready before the xref:getting-involved:proposal_phase.adoc#_proposal_workshop[Proposal Workshop]. +
+This guide explains how to create such an Executive Draft and what to look out for when doing so.
+
+== Template
+ASAM provides a https://code.asam.net/common/templates/proposal-template[Project Proposal template] for Project Proposals in the https://code.asam.net/[ASAM GitLab]. +
+The ASAM Office will set up the xref:getting-involved:proposal_phase.adoc#_repository_setup[Proposal repository] ahead of time, invite the project members to the respective group, and provide the link.
+However, you can always take a look at the original template for clarification.
+
+
+== Result
+An initial draft for management and executives, containing a basic executive summary and, optionally, further details, is created.
+
+
+== Prerequisites
+* The idea has been proposed and approved in the xref:getting-involved:ideation_phase.adoc#_process_overview[Ideation Phase].
+* The proposal has at least three (3) partner companies.
+* The xref:compendium:How-Tos/setup_proposal_git.adoc[project repository] has been set up by the OR.
+
+
+== How
+
+=== Working in GitLab
+. Log into {gitlab-url}[GitLab] and access the proposal project with the url the OR provided
+. Fill in the standard structure as follows: +
++
+TIP: The more details you add initially, the easier it is for ASAM to understand and support your proposal and the deeper and more focussed the discussions in the workshops will be.
+
+.. Add a comprehensive 'Executive Summary' outlining the general idea of the proposed project
+.. (Optional) Add further information in the other sections, where possible.
+. Discuss and optimize the document with your ASAM representative
+
+//end::body[]

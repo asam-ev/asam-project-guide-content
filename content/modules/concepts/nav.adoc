@@ -1,8 +1,0 @@
-* xref:main.adoc[]
-** xref:project_types.adoc[]
-** xref:project_phases.adoc[]
-** xref:project_lifecycle.adoc[]
-** xref:creation-of-standards.adoc[]
-** xref:roles-overview.adoc[]
-** xref:doc-as-code.adoc[]
-*** xref:pipeline_details.adoc[]

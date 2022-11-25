@@ -1,0 +1,93 @@
+
+//tag::ideation[]
+
+[cols="1,3"]
+|===
+h|Purpose
+|To decide whether an idea for a project is promising.
+
+h|Required for
+|Any project not directly based on a previous project.
+
+h|Timeline
+|No standard timeline
+|===
+
+//end::ideation[]
+
+//tag::proposal[]
+
+[cols="1,3"]
+|===
+h|Purpose
+|To define participants and funding for a project and decide whether to proceed.
+
+h|Required for
+|Every project type.
+
+h|Timeline
+a|**The typical Proposal Phase timeline consists of**
+
+image::compendium:asam/proposal_phase_timeline.drawio.svg[]
+
+|===
+
+//end::proposal[]
+
+//tag::development[]
+
+[cols="1,3"]
+|===
+h|Purpose
+|To develop the project's deliverables.
+
+h|Required for
+|Every project type.
+
+h|Timeline
+a|**The length of the Development Phase varies from project to project.** +
+However, most projects' proposed development duration lies **between 6 and 18 months**. 
+
+image::compendium:asam/development_phase_timeline.drawio.svg[]
+
+|===
+
+//end::development[]
+
+//tag::review[]
+
+[cols="1,3"]
+|===
+h|Purpose
+|To review the developed deliverables.
+
+h|Required for
+a|* Major Version Update
+* Minor Version Update
+
+h|Timeline
+a|**The typical Review Phase timeline looks like this:**
+
+image::compendium:asam/review_phase_timeline.drawio.svg[title="The Review phase timeline"]
+|===
+
+//end::review[]
+
+//tag::release[]
+
+[cols="1,3"]
+|===
+h|Purpose
+|To release the developed deliverables.
+
+h|Required for
+|Every project type.
+
+h|Timeline
+a|**The typical Release Phase timeline looks like this:**
+
+image::compendium:asam/release_phase_timeline.drawio.svg[title="The Release phase timeline"]
+
+|===
+
+//end::release[]

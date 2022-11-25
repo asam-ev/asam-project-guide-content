@@ -1,0 +1,11 @@
+= Contacts
+:description: Links to the current contact page for ASAM Office members.
+:keywords: imprint
+:asam_contacts: https://www.asam.net/about-asam/asam-in-person/
+
+include::partial$_attributes.adoc[]
+
+
+If you need assistant from the ASAM Office team, you can find the most recent contact information on the {asam_contacts}[ASAM Website^].
+
+For general inquiries, please use info@asam.net.

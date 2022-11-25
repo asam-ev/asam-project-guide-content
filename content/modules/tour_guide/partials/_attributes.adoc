@@ -1,0 +1,12 @@
+
+include::ROOT:partial$_attributes.adoc[]
+include::compendium:partial$tools_attributes.adoc[]
+
+ifdef::tour_guide[]
+{tour_guide-icon}
+endif::[]
+ifdef::tour_guide_small[]
+{tour_guide-icon-small}
+endif::[]
+
+

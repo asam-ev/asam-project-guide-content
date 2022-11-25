@@ -1,0 +1,39 @@
+= Microsoft Sharepoint guides
+:description:
+:keywords: sharepoint,guide
+:offset_value: leveloffset=+2
+:reftext: Guides
+
+include::partial$_attributes.adoc[]
+
+{sharepoint-icon-page}
+
+This page contains guides and best-practices for <<Microsoft Teams>> and <<Sharepoint>>.
+
+== Microsoft Teams
+=== Meetings in Microsoft Teams
+Virtual meetings can be created directly from MS Teams.
+Meetings that are sent to a channel or created directly within that channel let everyone who has access to that channel join.
+If you want to restrict the access, create a meeting outside of a channel and invite users selectively.
+
+image::compendium:sharepoint_teams/creating-a-meeting-in-teams.gif[Creating A Meeting In Teams]
+
+=== Obtain the email address of a channel
+Users can send mails to teams channels which are then automatically posted as messages in that channel.
+To do so, the user needs to know the channel mail provided by MS Teams.
+
+. Select the channel you are interested in
+. Select menu:...[Get email address]
+. Copy the selected address to clipboard
+
+.How to obtain the email address of a Teams channel
+image::compendium:sharepoint_teams/obtain-email-teams.gif[Obtaining an Email Adress of a Channel]
+
+
+== Sharepoint
+
+include::tour_guide:page$sharepoint.adoc[leveloffset=+1, tag=body]
+
+=== Synchronizing with OneDrive
+.Demo on synchronizing
+image::compendium:sharepoint_teams/synchronizing_with_onedrive.gif[Demo on synchronizing]include::compendium:page$How-Tos/synchronizing_sharepoint_with_onedrive.adoc[{offset_value}]

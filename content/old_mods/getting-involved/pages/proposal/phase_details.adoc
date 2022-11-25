@@ -1,0 +1,498 @@
+= Proposal phase details
+:keywords: proposal
+:description: proposal phase details
+
+include::partial$_attributes.adoc[]
+
+
+== Phase diagram
+The figure <<fig-proposal-phase-diagram-detailed>> shows the Proposal phase in full detail.
+Each step is explained shortly under <<Proposal phase steps>>.
+
+[#fig-proposal-phase-diagram-detailed]
+image::compendium:asam/proposal_phase_v2-proposal_phase.svg[title="The Proposal phase in detail, using the xref:compendium:Guidelines/diagram_notations.adoc[ASAM Project Phase Notation]"]
+
+
+== Alternate version
+
+[tabs]
+====
+Repository setup::
++
+--
+[cols="3,1,10"]
+|===
+.3+|image:compendium:asam/proposal_phase_v2-proposal_setup.svg[]
+>h|Purpose
+|To set up the proposal repository.
+
+>h|Responsible
+|{role-or}
+
+>h|Involved
+|{role-idea-giver}, {role-project-participant}
+
+|===
+
+The environment and proposal document are setup by the ASAM office with clear indicators where content is expected by contributors. +
+See xref:proposal/setup.adoc[].
+--
+Draft creation::
++
+--
+[cols="3,1,10"]
+|===
+.3+|image:compendium:asam/proposal_phase_v2-proposal_draft.svg[]
+>h|Purpose
+|Create an initial draft in preparation of the Proposal Workshop.
+
+>h|Responsible
+|{role-idea-giver}
+
+>h|Involved
+|{role-project-participant}, {role-or}
+|===
+
+In advance of the Proposal Workshop, the executive summary and motivation in the proposal document must be filled out.
+An initial outline of the use cases of the idea givers should also be defined in the document.
+All further content is optional. +
+See xref:proposal/proposal_writing.adoc[].
+--
+Enrollment process::
++
+--
+[cols="3,1,10"]
+|===
+.3+|image:compendium:asam/proposal_phase_v2-enrollment.svg[]
+>h|Purpose
+|To enroll participants in the planned project.
+
+>h|Responsible
+|{role-member}
+
+>h|Involved
+|{role-or}
+|===
+
+xref:compendium:How-Tos/enroll_for_development.adoc[Enrollment] for the proposed project is opened by ASAM from the Proposal Workshop onwards.
+
+Enrollment to a project takes place on the ASAM website. +
+An enrollment consists of one or more named individuals who will actively contribute to the project's development. +
+For each named individual, a clear resource commitment in the form of working days of effort being committed over the project's runtime is required -- see xref:signing_up.adoc[commitment requirements].
+
+Applicants for xref:proposal/submit_candidacy.adoc[the role of Project Lead] are also welcomed.
+--
+Proposal Workshop::
++
+--
+[cols="3,1,10"]
+|===
+.3+|image:compendium:asam/proposal_phase_v2-proposal_workshop.svg[]
+>h|Purpose
+a|* To discuss and agree the content of a project proposal.
+Results of an optional concept project shall be included.
+** Use cases
+** Features
+** Requirements
+** Market relevance justification
+** Prioritization of features and requirements
+** Backward compatibility
+* To determine the Proposal Submitter (must be "active" ASAM member)
+
+>h|Responsible
+|{role-or}, in collaboration with initiating member(s) ({role-idea-giver}).
+
+>h|Involved
+|{role-member} and {role-standard-user}, particularly experts in related domains
+|===
+
+Preparation and moderation of the workshop is performed by the ASAM office in close cooperation with the idea givers.
+
+Proposal Workshops are open to everyone.
+
+See xref:proposal/join_proposal_workshop.adoc[] for infos on how to join. +
+During the Workshop, the xref:proposal/need_for_service_providers.adoc[need for Service Providers is assessed] as well.
+--
+Finalizing the Proposal::
++
+--
+[cols="3,1,10"]
+|===
+.3+|image:compendium:asam/proposal_phase_v2-proposal_writing_finalization.svg[]
+>h|Purpose
+|To finalize the project proposal and to create the project milestone plan.
+
+>h|Responsible
+| {role-idea-giver}
+
+>h|Involved
+|{role-or}, {role-project-participant}
+|===
+
+The Proposal Submitter finalizes the concept based on the output from the <<Proposal Workshop>> and prepares it for <<Submission>>. +
+The Office assists the submitter by giving advice with respect to ASAM guideline and best practices.
+The Office checks the proposal document for formal compliance and understandability.
+
+The submitter shall send out the proposal to all participants of the Proposal Workshop (if this occurred) for review before submitting it to the TSC.
+
+IMPORTANT: If a project is given the green light by the TSC but no participant submitted their candidacy for Project Lead, the submitter is given this role by default.
+
+See xref:proposal/proposal_writing.adoc[].
+--
+Submission::
++
+--
+[cols="3,1,10"]
+|===
+.3+|image:compendium:asam/proposal_phase_v2-proposal_submission.svg[]
+>h|Purpose
+|To submit the finalized project proposal to ASAM
+
+>h|Responsible
+|
+
+>h|Involved
+|{role-or} plus at least two {role-project-participant}, [role-tsc-member]
+|===
+
+The Proposal Submitter sends the Proposal document to the Office and declares this to be his official proposal submission. +
+Besides the submitter, at least two further members must support the proposal and be listed as participants for the proposed project group.
+
+See xref:proposal/submit_proposal.adoc[].
+--
+Publication::
++
+--
+[cols="3,1,10"]
+|===
+.3+|image:compendium:asam/proposal_phase_v2-proposal_publishing.svg[]
+>h|Purpose
+|To allow members and the TSC to read and review the project proposal, to clarify open questions and to allow members to enroll for participation in the upcoming project.
+
+>h|Responsible
+|{role-or}
+
+>h|Involved
+|{role-tsc-member}, {role-member}
+|===
+
+The Office checks the proposal document for formal compliance.
+Once the document is accepted, the Office checks the document into the TSC file repository, puts the proposal on the https://www.asam.net/active-projects/proposals/[ASAM website^] for download and publishes the proposal via a newsletter and an optional webpage article.
+
+Members are invited to xref:signing_up.adoc[enroll for participation] in the upcoming project.
+The Office manages the registration of project group members during this phase.
+
+The content of the proposal is not changed during the publication period.
+An exception are error corrections and the registration of additional project group members. +
+Members of the TSC review the content of the proposal and clarify open questions with the Submitter.
+
+The minimum publication period for project proposals is four weeks and shall not exceed eight weeks.
+--
+TSC presentation::
++
+--
+[cols="3,1,10"]
+|===
+.3+|image:compendium:asam/proposal_phase_v2-decision.svg[]
+>h|Purpose
+|To approve or reject the project proposal.
+
+>h|Responsible
+|{role-tsc-member}
+
+>h|Involved
+|, {role-or}
+|===
+
+Submitted Project Proposals are put on the agenda of the next available TSC meeting.
+Proposals are handled during the meeting via a three-step process:
+
+. Submitter presents the proposal to the TSC members.
+. TSC members are given the opportunity to ask questions.
+. TSC members discuss the proposal (without submitter's presence) and then proceed with casting their votes on the proposal.
+
+The TSC does not modify the content of the proposal.
+If this is deemed to be necessary, then the proposal shall be rejected.
+
+The TSC may add constraints or conditions for the execution of the proposed project.
+They are noted in the meeting minutes. +
+The TSC may decide to approve only some of the defined work packages of the project and ask for re-submission of the proposal with a content update for the unapproved work packages. +
+The TSC might assign a mentor for each new standard or major version development project.
+The mentor shall be a member of the TSC.
+
+The voting is carried out in accordance with the TSC voting rules.
+The Board Representative for the TSC has to confirm the decision. +
+The proposed project becomes effective with the given approval of both parties.
+The approved project proposals are regarded as the work order for the new project group.
+--
+Archiving::
++
+--
+[cols="3,1,10"]
+|===
+.3+|image:compendium:asam/proposal_phase_v2-proposal_archiving.svg[]
+>h|Purpose
+|To archive the Proposal before transitioning to the next phase.
+
+>h|Responsible
+|{role-or}
+
+>h|Involved
+|{role-project-participant}
+|===
+
+The Proposal is archived by the OR if the project has been accepted or the Proposal has been rejected or dropped completely.
+
+TODO
+
+--
+====
+
+== Proposal phase steps
+
+
+The Proposal phase consists of the following steps, which are explained in detail in their own sections:
+
+* <<Repository setup>>
+* <<Draft creation>>
+* <<Proposal Workshop>>
+* <<Enrollment process>>
+* <<Finalizing the Proposal>>
+* <<Submission>>
+* <<Publication>>
+* <<TSC presentation>>
+* <<Archiving>>
+
+---
+
+=== Repository setup
+// [cols="3,1,10"]
+// |===
+// .3+|image:compendium:asam/proposal_phase_v2-proposal_setup.svg[id="modal_image"]
+// >h|Purpose
+// |To set up the proposal repository.
+
+// >h|Responsible
+// |{role-or}
+
+// >h|Involved
+// |{role-idea-giver}, {role-project-participant}
+
+// |===
+
+The environment and proposal document are setup by the ASAM office with clear indicators where content is expected by contributors. +
+See xref:proposal/setup.adoc[].
+
+---
+
+=== Draft creation
+// [cols="3,1,10"]
+// |===
+// .3+|image:compendium:asam/proposal_phase_v2-proposal_draft.svg[]
+// >h|Purpose
+// |Create an initial draft in preparation of the Proposal Workshop.
+
+// >h|Responsible
+// |{role-idea-giver}
+
+// >h|Involved
+// |{role-project-participant}, {role-or}
+// |===
+
+
+In advance of the Proposal Workshop, the executive summary and motivation in the proposal document must be filled out.
+An initial outline of the use cases of the idea givers should also be defined in the document.
+All further content is optional. +
+See xref:proposal/proposal_writing.adoc[].
+
+---
+
+=== Proposal Workshop
+// [cols="3,1,10"]
+// |===
+// .3+|image:compendium:asam/proposal_phase_v2-proposal_workshop.svg[]
+// >h|Purpose
+// a|* To discuss and agree the content of a project proposal.
+// Results of an optional concept project shall be included.
+// ** Use cases
+// ** Features
+// ** Requirements
+// ** Market relevance justification
+// ** Prioritization of features and requirements
+// ** Backward compatibility
+// * To determine the Proposal Submitter (must be "active" ASAM member)
+
+// >h|Responsible
+// |{role-or}, in collaboration with initiating member(s) ({role-idea-giver}).
+
+// >h|Involved
+// |{role-member} and {role-standard-user}, particularly technical domain experts, internal end-user support experts, product managers, development managers
+// |===
+
+Preparation and moderation of the workshop is performed by the ASAM office in close cooperation with the idea givers.
+
+Proposal Workshops are open to everyone.
+
+See xref:proposal/join_proposal_workshop.adoc[] for infos on how to join. +
+During the Workshop, the xref:proposal/need_for_service_providers.adoc[need for Service Providers is assessed] as well.
+
+---
+
+=== Enrollment process
+// [cols="3,1,10"]
+// |===
+// .3+|image:compendium:asam/proposal_phase_v2-enrollment.svg[]
+// >h|Purpose
+// |To enroll participants in the planned project.
+
+// >h|Responsible
+// |{role-member}
+
+// >h|Involved
+// |{role-or}
+// |===
+
+xref:compendium:How-Tos/enroll_for_development.adoc[Enrollment] for the proposed project is opened by ASAM from the Proposal Workshop onwards.
+
+Enrollment to a project takes place on the ASAM website. +
+An enrollment consists of one or more named individuals who will actively contribute to the project's development. +
+For each named individual, a clear resource commitment in the form of working days of effort being committed over the project's runtime is required- see xref:signing_up.adoc[commitment requirements].
+
+Applicants for xref:proposal/submit_candidacy.adoc[the role of Project Lead] are also welcomed.
+
+// For more information on the enrollment list, see xref:compendium:How-Tos/enrollment_list.adoc[] in the Compendium. +
+// For more information on how to enroll for the Development phase, see xref:compendium:How-Tos/enroll_for_development.adoc[] in the Compendium.
+
+---
+
+=== Finalizing the Proposal
+// [cols="3,1,10"]
+// |===
+// .3+|image:compendium:asam/proposal_phase_v2-proposal_writing_finalization.svg[]
+// >h|Purpose
+// |To finalize the project proposal and to create the project milestone plan.
+
+// >h|Responsible
+// |
+
+// >h|Involved
+// |{role-or}, {role-project-participant}
+// |===
+
+The Proposal Submitter finalizes the concept based on the output from the <<Proposal Workshop>> and prepares it for <<Submission>>. +
+The Office assists the submitter by giving advice with respect to ASAM guideline and best practices.
+The Office checks the proposal document for formal compliance and understandability.
+
+The submitter shall send out the proposal to all participants of the Proposal Workshop (if this occurred) for review before submitting it to the TSC.
+
+See xref:proposal/proposal_writing.adoc[].
+
+---
+
+=== Submission
+// [cols="3,1,10"]
+// |===
+// .3+|image:compendium:asam/proposal_phase_v2-proposal_submission.svg[]
+// >h|Purpose
+// |To submit the finalized project proposal to ASAM
+
+// >h|Responsible
+// |
+
+// >h|Involved
+// |{role-or} plus at least two {role-project-participant}
+// |===
+
+The Proposal Submitter sends the Proposal document to the Office and declares this to be his official proposal submission. +
+Besides the submitter, at least two further members must support the proposal and be listed as participants for the proposed project group.
+
+See xref:proposal/submit_proposal.adoc[].
+
+---
+
+=== Publication
+// [cols="3,1,10"]
+// |===
+// .3+|image:compendium:asam/proposal_phase_v2-proposal_publishing.svg[]
+// >h|Purpose
+// |To allow members and the TSC to read and review the project proposal, to clarify open questions and to allow members to enroll for participation in the upcoming project.
+
+// >h|Responsible
+// |{role-or}
+
+// >h|Involved
+// |{role-tsc-member}, {role-member}
+// |===
+
+The Office checks the proposal document for formal compliance.
+Once the document is accepted, the Office checks the document into the TSC file repository, puts the proposal on the https://www.asam.net/active-projects/proposals/[ASAM website^] for download and publishes the proposal via a newsletter and an optional webpage article.
+
+Members are invited to xref:signing_up.adoc[enroll for participation] in the upcoming project.
+The Office manages the registration of project group members during this phase.
+
+The content of the proposal is not changed during the publication period.
+An exception are error corrections and the registration of additional project group members. +
+Members of the TSC review the content of the proposal and clarify open questions with the Submitter.
+
+The minimum publication period for project proposals is four weeks and shall not exceed eight weeks.
+
+---
+
+=== TSC Presentation
+// [cols="3,1,10"]
+// |===
+// .3+|image:compendium:asam/proposal_phase_v2-decision.svg[]
+// >h|Purpose
+// |To approve or reject the project proposal.
+
+// >h|Responsible
+// |{role-tsc-member}
+
+// >h|Involved
+// |
+// |===
+
+Submitted Project Proposals are put on the agenda of the next available TSC meeting.
+Proposals are handled during the meeting via a three-step process:
+
+. Submitter presents the proposal to the TSC members (10 to 15min).
+. TSC members are given the opportunity to ask questions (5 to 10min).
+. TSC members discuss the proposal (without submitter's presence) and then proceed with casting their votes on the proposal (10min).
+
+The TSC does not modify the content of the proposal.
+If this is deemed to be necessary, then the proposal shall be rejected.
+
+The TSC may add constraints or conditions for the execution of the proposed project.
+They are noted in the meeting minutes. +
+The TSC may decide to approve only some of the defined work packages of the project and ask for re-submission of the proposal with a content update for the unapproved work packages. +
+The TSC might assign a mentor for each new standard or major version development project.
+The mentor shall be a member of the TSC.
+
+The voting is carried out in accordance with the TSC voting rules.
+The Board Representative for the TSC has to confirm the decision. +
+The proposed project becomes effective with the given approval of both parties.
+The approved project proposals are regarded as the work order for the new project group.
+
+---
+
+=== Archiving
+// [cols="3,1,10"]
+// |===
+// .3+|image:compendium:asam/proposal_phase_v2-proposal_archiving.svg[]
+// >h|Purpose
+// |To archive the Proposal before transitioning to the next phase.
+
+// >h|Responsible
+// |{role-or}
+
+// >h|Involved
+// |{role-project-participant}
+// |===
+
+The Proposal is archived by the OR if the project has been accepted or the Proposal has been rejected or dropped completely.
+
+TODO
+
+
+// related::proposal[]
+

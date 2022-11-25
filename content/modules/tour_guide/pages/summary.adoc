@@ -1,0 +1,31 @@
+= Guide summary
+:description: Summarizes the topics from the guide and links helpful information for further reading.
+:page-layout: progress
+:page-progress_bar: progress_bar_simple-completion.svg
+:tour_guide_small:
+
+include::tour_guide:partial$_attributes.adoc[]
+
+**Congratulations!** +
+You should now have successfully set up your developer account and know everything to get started in your ASAM project!
+
+== What was covered
+****
+- [x] ASAM's collaboration tools
+- [x] Setup for your development platform account
+- [x] Meeting types at ASAM
+- [x] Meeting guidelines
+- [x] Making decisions and escalating topics
+- [x] The Project Sharepoint
+- [x] ASAM's contribution workflow
+- [x] Contribute with issues
+- [x] How issues are implemented
+- [x] Typical tools for advanced users
+****
+
+== Further reading
+If you want to read more on a specific topic, you can use the search function on the top.
+Alternatively, you can look in the xref:compendium:compendium.adoc[Compendium] for more detailed information on specific topics.
+
+If you cannot find an answer in this guide to any ASAM-related topic, feel free to contact your ASAM Office Responsible.
+This will help ASAM to continuously improve upon this guide.

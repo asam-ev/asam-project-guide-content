@@ -1,0 +1,85 @@
+= Issue implementation
+:description: Explains the basic contribution workflows.
+:keywords: basics
+:page-layout: progress
+:page-progress_bar: progress_bar_simple-implementation.svg
+:tour_guide_small:
+
+//tag::body[]
+
+include::tour_guide:partial$_attributes.adoc[]
+
+include::compendium:partial$issue_labels.adoc[]
+
+== Overview
+
+
+[tabs, subs="attributes"]
+====
+Simulation domain::
++
+--
+
+
+[grid=none, frame=none]
+|===
+a|
+== Introduction
+Projects in the Simulation domain use trunk-based repositories in either GitLab or GitHub.
+
+A trunk-based repository is a repository that has a single central branch (the "trunk").
+This trunk contains the official and reviewed state of a project. +
+Users are not allowed to commit and push changes to this specific branch directly.
+Instead, all changes on the repository's content are made in child branches.
+These can either be branched off of the trunk or from another branch.
+Once ready, a branch is merged back into its parent branch (which may be the trunk or another feature branch).
+
+The benefit of this approach is that each repository's trunk contains the latest official state or version.
+Mistakes and unfinished changes to parts of it only have an impact on the branch where they happen.
+
+IMPORTANT: Never work on the trunk directly -- always work in separate branches!
+
+== The trunk
+The central branch ("trunk") can only be merged to by the ASAM office, the Project Lead, or the project's Change Control Board (CCB).
+Tags on this specific branch represent the respective releases.
+These tags use https://semver.org/[semantic versioning^].
+
+Changes **MUST** be added through branches created from the trunk or another branch. +
+These branches **SHOULD** be short-lived (<2 weeks) and regularly merged back. +
+These branches **MAY** be squashed and **MUST** be merged via fast-forward merge (enabled by default).
+
+== Implementing issues
+. Once an issue can be implemented, the issue's assignee creates a branch with an associated Merge or Pull Request from the issue.
+* Each branch must have a parent issue and each issue may have zero or one child branches
+. Change the issue status label to {requiresMergeRequest-label} to indicate that a proposal is being implemented for this issue
+. Begin submitting work via commits to the develop branch
+.. Involved project participants review and comment changes through the associated Pull/Merge Request.
+These comments work identically to those described in xref:tour_guide:contribution/contribute_with_issues.adoc#_discuss_issues["discuss issues"]
+. Review implementation progress of issue with the Subgroup Lead and the other project participants in Subgroup meetings.
+// {role-sg-lead} {role-project-participant} 
+Discussions and their results are documented in the Pull/Merge Request
+. Once the group agrees that the feature is complete:
+.. Change the issue status label to {requiresCCBReview-label}
+.. If the Merge/Pull Request is set to "Draft:", remove the draft flag from the Merge/Pull Request name
+.. Add a comment to the Merge/Pull Request to ask for a review by the whole project: ``/request_review @all``.
+
+Tips::
+* If a branch cannot be short-lived, rebase frequently to incorporate upstream changes.
+// Both tips reduce the chance for xref:compendium:Guidelines/repo-merge_conflicts.adoc[**Merge Conflicts**].
+* Create branches directly from the issue to ensure the branch is linked to the issue.
+// * Create branches xref:compendium:How-Tos/create_branch_from_issue.adoc[directly from the issue] to ensure the branch is linked to the issue.
+** This also provides the option to set up the related Merge/Pull Request right away.
+This way, the Merge/Pull Request (and its branch) are already accessible through the parent issue.
+** Adding "DRAFT: " in front of a Merge/Pull Request's name marks it as not ready for merge and disables the "Merge" button.
+This way, the Merge/Pull Request (and its branch) cannot be concluded by accident.
+// * Mark passages which are not ready for viewing in the final output as draft (see xref:compendium:How-Tos/mark_parts_as_draft.adoc[])
+|===
+--
+Classic domain::
++
+--
+TODO
+--
+====
+
+//end::body[]

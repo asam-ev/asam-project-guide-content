@@ -1,0 +1,43 @@
+= Participation types
+There are different ways to participating in a project. 
+When you enroll for one, you must state how you would like to participate.
+
+There are three types:
+
+* <<Contributor>> (aka **active** participation)
+* <<Spectator>> (aka **passive** participation)
+* <<Reviewer>>
+
+== Contributor
+(renamed, renamed, previously used member / active member)
+A participant in an ASAM project that has committed resources to contributing to the project.
+
+* Company being represented must be an ASAM Member
+* Has committed resources
+* Has access to the project Sharepoint
+* Has developer access to the project GitLab
+* Each company with at least one contributor has one vote
+ 
+
+== Spectator
+Passive participant or observer in an ASAM project that is part of a company with at least one contributor in the project.
+
+* Company being represented must be an ASAM Member
+* Has access to the project Sharepoint
+* Has reporter access to the project Gitlab
+
+
+== Reviewer
+A participant in an ASAM project that has committed a small amount of resources to support the project team with review focused activities. This may include review of merge requests, proposals and/or review of documents.
+
+* Company beeing representive must be an ASAM Member
+* Has comitted resources for review
+* Has access to the Sharepoint
+* Has reporter access to the project Gitlab
+
+
+== Questions
+Please reach out if you have any questions: project-office@asam.net
+
+== Related
+* xref:compendium:Concepts/roles-overview.adoc[]

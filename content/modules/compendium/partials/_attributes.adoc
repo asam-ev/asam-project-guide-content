@@ -1,5 +1,5 @@
 :docker-daemon-warning: The docker daemon must be running in the background before you can run docker commands from VSCode. To start the deamon, either have Docker Desktop automatically start with Windows or start it manually.
-:vscode-extensions: compendium:Guidelines/vscode-recommended_vscode_extensions.adoc
+:vscode-extensions: compendium:Tools/vscode/04_vscode_recommended_extensions.adoc
 :page-partial:
 :compendium:
 
@@ -8,3 +8,26 @@
 include::compendium:partial$issue_labels.adoc[]
 
 include::compendium:partial$icons.adoc[]
+
+include::compendium:partial$tools_attributes.adoc[]
+
+:width-large: 120
+:width-small: 100
+
+:project-types-icon: xref:Concepts/project_types.adoc[image:Concepts/types_icon.png[width={width-large}], role=right]
+:project-types-icon-norole: xref:Concepts/project_types.adoc[image:Concepts/types_icon.png[width={width-small}]]
+
+:project-phases-icon: xref:Concepts/project_phases.adoc[image:Concepts/phases_icon.png[width={width-large}], role=right]
+:project-phases-icon-norole: xref:Concepts/project_phases.adoc[image:Concepts/phases_icon.png[width={width-small}]]
+
+:project-lifecycle-icon: xref:Concepts/project_lifecycle.adoc[image:Concepts/phases_icon.png[width={width-large}], role=right]
+:project-lifecycle-icon-norole: xref:Concepts/project_lifecycle.adoc[image:Concepts/phases_icon.png[width={width-small}]]
+
+:roles-icon: xref:Concepts/roles-overview.adoc[image:Concepts/roles_icon.svg[width={width-large}], role=right]
+:roles-icon-norole: xref:Concepts/roles-overview.adoc[image:Concepts/roles_icon.svg[width={width-small}]]
+
+:diagram-notation-icon: xref:Concepts/diagram_notations.adoc[image:Concepts/notation_icon.drawio.svg[width={width-large}], role=right]
+:diagram-notation-icon-norole: xref:Concepts/diagram_notations.adoc[image:Concepts/notation_icon.drawio.svg[width={width-small}]]
+
+:doc-as-code-icon: xref:Concepts/doc-as-code.adoc[image:Concepts/doc-as-code-icon.png[width={width-large}], role=right]
+:doc-as-code-icon-norole: xref:Concepts/doc-as-code.adoc[image:Concepts/doc-as-code-icon.png[width={width-small}]]

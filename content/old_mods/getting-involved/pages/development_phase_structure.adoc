@@ -1,0 +1,202 @@
+= Development phase structure
+:description: Describes the development phase
+:keywords: development, phase, standardization
+
+include::partial$_attributes.adoc[]
+
+
+// ====
+// [horizontal]
+// Involved roles::
+// {role-project-participant} --
+// {role-sg-lead} --
+// {role-project-lead} --
+// {role-service-provider} --
+// {role-technical-writer} --
+// {role-ccb} --
+// {role-or}
+
+// include::partial$project_phases.adoc[tag=development]
+// ====
+
+This page describes how developing a standard works at ASAM.
+It describes mandatory, typical, and recommended steps of the Development phase.
+Please note that in order for a project to enter this phase, its proposal has to have been approved by the TSC.
+
+== Process overview
+// The description of the ASAM standard development process in this section contains all formal process steps to develop an ASAM standard. +
+// The process steps are mandatory for the development of new standards and the development of a major version of an existing ASAM standard.
+// For all other project types, some of the process steps are optional (see xref:concepts:project_types.adoc[]).
+
+// This process description focuses on the ideal and best-case course of an ASAM project.
+// Real projects may have iterations, loops and interventions by the TSC, Office, or Board of Directors. +
+// Project groups may decide to re-start a project with an updated project proposal, upgrade to a higher release level, or to prematurely end the project.
+// While those events can occur and need to be appropriately managed, they are out-of-scope for this Project Guide.
+
+// image::compendium:asam/development_phase-summary.svg[title="The development phase overview, using the xref:compendium:Guidelines/diagram_notations.adoc[ASAM Project Phase Notation]"]
+
+The process of developing a standard at ASAM starts with a **project setup step**, which is followed by the **development cycle**.
+The Development phase ends at the date set in the project's milestone plan.
+At this point, the project transitions to the next phase, which typically is the Review phase.
+
+image::compendium:asam/development_phase_timeline-development_phase.svg[title = "Examples for a typcial Development phase timeline: short (6 months), medium (12 months), long (18 months)."]
+
+IMPORTANT: The cycle reviews should be timed such that each of them occurs at least two weeks prior to the respectively next TSC controlling meeting.
+This ensures that the Project Lead will have enough time to prepare a status report based on the latest review for these meetings.
+
+
+== Project setup
+
+[cols="^3,10", grid=cols, frame=none]
+|===
+|image:development_setup_simplified_top.drawio.svg[title="Development project setup"]
+a|The initiation of the Development phase is the setup step, particularly the **Kick-off Workshop**, hosted by ASAM and announced on the ASAM Website as well as on other platforms.
+Here, the project team is brought up to speed.
+This is also the last chance for the project group to take on additional members.
+The project group may vote on extending this deadline past the Kick-off Workshop if substantial reasons for doing so exist. +
+The team also defines the project parameters that have not been defined during the Proposal phase. +
+Lastly, the project team elects a **Project Lead** who takes responsibility for the project and its coordination with the ASAM office.
+The group also defines other roles, such as the members of the **Change Control Board** (CCB) and the **Sub-group Leads**.
+The results from this meeting are then applied to the project's repository, which is set up in the background by ASAM.
+
+Some projects require external help for certain tasks.
+In this case (and if the Project Proposal contained a budget for it), the project prepares a request for offers in the Kick-off Workshop.
+It then sends out the request to hire one or more qualified **service providers**. 
+The ASAM office assists the project group with this process. +
+The offer submission period lasts 6 weeks.
+The ASAM office then provides the Project Lead with all the offers (prices redacted) so they can evaluate and prioritizes them together with the project group.
+The evaluated list (including prices) is then presented to the TSC which then makes the final decision on whom to hire (vote by email). 
+The contract with the service provider is set up by the ASAM Office. 
+All in all, the process of hiring a service provider takes at least 8 weeks.
+
+
+IMPORTANT: The project lead MAY NOT be a service provider!
+
+Once the project is set up, the first development cycle can commence.
+At this point, the project has
+
+* an elected project lead
+* Sub-groups, if required
+** elected or selected Sub-group leads that are responsible for certain focus points of the project's topics,
+* its own project repository (or repositories), complete with README, timeline, and pre-configured pipeline, where all members have been granted access to
+* a mailing list with all its members
+* a Microsoft Sharepoint structure
+* agreed and documented Development phase parameters, such as cycle duration
+* agreed and documented project milestones (at least the first two of which have to already be detailed)
+* if required: contracts with one or more service providers or, if this process takes longer, ongoing activities for hiring one or more service providers
+|===
+
+
+== Development cycles
+[cols="^3,10", grid=cols, frame=none]
+|===
+|image:development_cycle_simplified_top.drawio.svg[title="Development cycle depiction"]
+a|
+This is where the **standard is being developed**.
+This part of the Development phase consists of **multiple cycles**. +
+Each cycle is structured the same way, with some events occurring only in some of these cycles.
+These will be detailed below. +
+To learn more about how you can contribute to this phase, check out the pages on xref:contributing:main.adoc[how to start contributing].
+
+ASAM recommends a 2 month interval per Development cycle.
+The project team may define a different cycle length, if necessary.
+However, it must then also ensure that cycles are then still aligned with external ASAM events, particularly the <<TSC controlling meetings>> and the <<CGSim controlling meetings>>.
+It is also recommended for all recurring meetings to have intervals of 6-8 weeks or less.
+
+
+=== Cycle Planning
+Each development cycle starts with a Cycle Planning.
+Here, the Project Lead defines the **goals for the cycle** together with the members of the CCB and the Sub-group Leads. +
+The decisions are then passed on to the other project members and the service provider(s).
+If the project is currently employing a Technical Writer, they are also informed accordingly.
+
+It is recommended to balance assignments as much as possible amongst the active participants.
+
+This is an **official meeting** hosted by the Project Lead. +
+Make sure to follow the xref:contributing:meeting_guidelines.adoc[ASAM meeting guidelines].
+
+
+=== Cycle Development
+After the goals for the cycle have been defined, the team **contributes** to achieving these goals.
+Depending on their role, this may be
+
+* creating new issues to initiate discussions and reach decisions on topics
+* participating in the discussions within such issues
+* creating and uploading reference and additional materials such as images
+* transforming agreed issue content into document files (AsciiDoc)
+
+As mentioned above, a standard cycle takes 2 months by default.
+
+Each Sub-group may decide to have one or more internal meetings per cycle.
+ASAM recommends to have at least one group meeting every second week. +
+If so, these are considered **official meetings** and hosted by the respective Sub-group Lead.
+Make sure to follow the xref:contributing:meeting_guidelines.adoc[ASAM meeting guidelines].
+
+NOTE: Informal calls and ad hoc meetings between group members are **not** considered official and do not have to follow the provided guidelines.
+
+=== Cycle Review
+At the end of each cycle, the **results are reviewed** by the team.
+Each Sub-group presents its results to its Sub-group Lead.
+Each Sub-group Lead then presents their group's status to the other Sub-group Leads, the CCB, and the Project Lead.
+
+This will then form the basis for the decisions in the next Cycle Planning.
+These reports will also be used to communicate the project's overall progress and status in the <<TSC controlling meetings>> and the <<CGSim controlling meetings>>.
+The controlling meetings are attended by the Project Lead when they occur.
+Note that the frequency of these controlling meetings is typically different from that of the Development cycles.
+However, the 2 month cycle proposed by ASAM can be easily aligned with both the CGSim and the TSC meetings.
+
+**These are official meetings.** +
+Each Sub-group Review meeting is hosted by the respective Sub-group Lead.
+The project's Cycle Review meeting is hosted by the Project Lead.
+Make sure to follow the xref:contributing:meeting_guidelines.adoc[ASAM meeting guidelines].
+
+
+=== Cycle Retrospective
+Defining all variables at the beginning of a project that takes months to complete is necessary to get started.
+However, experience shows that things change or become more clear with time passing.
+This is why ASAM strongly recommends to do a so-called retrospective at the end of each cycle.
+It is similar to the Cycle Review, but instead of content it focusses on processes and the development environment.
+
+A retrospective is a meeting where a team reflects their last development cycle (often also referred to as "sprints") and tries to identify the things that really help or hinder the project right now.
+The goal is to then take measures to keep the good things and find better solutions or approaches where sinkholes and problems have been identified.
+The whole team is encouraged to participate and every voice is to be heard.
+
+The retrospective gives the team a tool to gradually and iteratively improve their processes and workflows.
+Ideally, this also pushes motivation in the team and increases the team's cohesion.
+
+If you want to learn more about retrospectives and how they work, there are lots of pages online for the retrospective in Agile processes such as SCRUM. +
+Some examples:
+
+* https://backlog.com/blog/three-ways-run-productive-retrospective/
+* https://www.scrum.org/resources/what-is-a-sprint-retrospective
+* https://www.atlassian.com/team-playbook/plays/retrospective
+
+For input regarding possible activities during these retrospectives, you can turn to this very helpful online tool: https://retromat.org/[window=_blank]
+
+**This is an official meeting.** +
+The project may decide whether to have a fixed host or change the assignee/host regularly.
+Make sure to follow the xref:contributing:meeting_guidelines.adoc[ASAM meeting guidelines].
+
+|===
+
+
+== Change requests
+Rare is the project that does not change its shape during development. +
+However, not every change can be made without a formal change process.
+All changes that affect the project scope require a formal Change Request (CR).
+
+If a scope-changing issue is entered after the project has started, this is considered a Change Request.
+The requirements for these issues is identical to every other feature issue. +
+The project group will decide whether the CR is accepted or rejected. 
+If it is accepted, it is assigned (project member or Sub-group).
+With that, the standard xref:contributing:contribution_workflow.adoc#_workflow_overview[Contribution Workflow] applies.
+
+
+== Best practices
+* Create and enforce a clear terminology in your project
+* Keep your terminology up-to-date
+* Define the structure of your standard early, but dynamically update it if necessary
+* Keep assignments balanced
+* Have a transparent project process for your project and make it easy for the group to access it
+* Keep the group informed about work results
+* Create examples for your standard to highlight its applications

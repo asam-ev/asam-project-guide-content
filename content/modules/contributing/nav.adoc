@@ -1,3 +1,0 @@
-* xref:main.adoc[]
-** xref:account_setup.adoc[]
-** xref:contribution_workflow.adoc[]

@@ -1,0 +1,38 @@
+= Microsoft Sharepoint
+:description: A summary page describing what MS Sharepoint are and where to find related information, guides etc.
+:keywords: teams,sharepoint,summary,tool,mandatory
+// :page-layout: responsible
+// :page-responsible-name: Benjamin Engel
+// :page-responsible-contact: benjamin.engel(at)asam.net
+
+
+include::partial$_attributes.adoc[]
+
+
+// {role-sg-lead}
+// {role-project-lead}
+
+TIP: Click the Sharepoint icon on the right to directly access ASAM's general Sharepoint.
+
+{sharepoint-icon}
+
+Sharepoint is a Microsoft service that is used to manage files.
+It can be accessed directly or through Microsoft Teams.
+
+IMPORTANT: Project files such as chapters, specifications, or images intended for use in the standard are to be handled through GitLab instead! 
+
+
+== Content
+
+[cols="^1h,4",frame=none, grid=rows, stripes=hover]
+|===
+
+|xref:compendium:Tools/sharepoint/01_sharepoint_setup.adoc[image:{setup-image}[width=120,title="Sharepoint Setup"]]
+|Sharepoint Setup
+
+|xref:compendium:Tools/sharepoint/02_sharepoint_guides.adoc[image:{guide-image}[width=120,title="Sharepoint Guides"]]
+|Sharepoint Guides
+
+|===
+
+related::sharepoint[]

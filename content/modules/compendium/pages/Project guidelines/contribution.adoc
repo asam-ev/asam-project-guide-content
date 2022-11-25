@@ -1,0 +1,5 @@
+= Contribution workflow
+
+include::compendium:partial$_attributes.adoc[]
+
+include::tour_guide:page$contribution.adoc[tag=body]

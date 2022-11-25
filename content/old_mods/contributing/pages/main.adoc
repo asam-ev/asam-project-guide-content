@@ -1,0 +1,31 @@
+= Start the guided tour
+:description: Gives an overview over the mandatory and recommended tools most commonly used in ASAM projects.
+:keywords: tools
+:no-installation: xref:main.adoc[]
+:page-aliases: overview.adoc
+:contributing:
+
+include::contributing:partial$_attributes.adoc[]
+include::ROOT:partial$_attributes.adoc[]
+
+{contributing-icon}
+
+include::partial$module-description.adoc[]
+
+---
+
+include::contributing:partial$simple_contribution.adoc[]
+
+**All the tools that are required for participating in ASAM projects are hosted online and can be accessed through any web browser.** +
+The only thing you need to do is set up your repository account and you can start right away - no installation required! +
+Just make sure to familiarize yourself with the following topics before you start contributing: 
+
+* xref:teams_and_sharepoint.adoc[]
+* xref:participant_list.adoc[]
+* xref:open-x_calendar.adoc[]
+* xref:contribution_workflow.adoc[ASAM contribution guidelines]
+
+
+== Accessing the development platform
+
+include::compendium:Tools/remote_repo/remote_repo_setup.adoc[tags=body;!icon, leveloffset=+1]

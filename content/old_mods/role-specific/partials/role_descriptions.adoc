@@ -1,0 +1,30 @@
+
+:or-description: An OR (Office Responsible) is an ASAM employee focussed on coordinating project processes and the background work behind a project.
+
+:project-member-description: An xref:role-specific:standard_user.adoc[ASAM User] who is involved directly in the development of an ASAM standard. \
+Every project needs project members from at least three (3) different companies. \
+See also xref:role-specific:project-participant.adoc[Sub-group Member]
+
+:project-lead-description: The person responsible for leading and coordinating all project activities. \
+Without an elected Project Lead, the project may not start. \
+The project members must elect a Project Lead at the beginning of the project.
+
+:project-participant-description: A project member working in a particular Sub-group, a subdivision of the overall project. \
+If the project is split up into smaller work groups, a project member can join a Sub-group to become a Sub-group member.
+
+:sg-lead-description: If the project is split up into smaller work groups, a project member can be elected to be the Sub-group lead and will support the xref:role-specific:project-lead.adoc[Project Lead]. \
+Each Sub-group should have zero or one Sub-group lead.
+
+:service-provider-description: Provides additional services necessary for the standard development. \
+If the project needs additional resources, a Service Provider can be hired, which requires an approved budget by the xref:role-specific:tsc.adoc[TSC].
+
+:technical-writer-description: Formats and writes the document(s) of the standard based on the provided input from the xref:role-specific:project-participant.adoc[WG members] in a formalized and standard-conform way. \
+If the project requires a Technical Writer, either the ASAM Technical Writer will fill this role or a xref:role-specific:service-provider.adoc[Service Provider] can be hired to fill that role.
+
+:standard-user-description: An ASAM Standard user is someone who is part of the ASAM community but not involved in the project development at hand.
+
+:standard-manager-description: The manager at ASAM responsible for the standard.
+
+:tsc-description: The TSC is responsible for approving or rejecting budgets, projects and proposals as well as releases of project results, such as standards or concept papers.
+
+:reviewer-description: An xref:role-specific:standard_user.adoc[ASAM Standard user] or xref:role-specific:project-participant.adoc[WG member] who reviews a draft or release candidate for a new or updated standard.

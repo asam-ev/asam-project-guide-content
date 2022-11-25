@@ -28,7 +28,7 @@ If at least one keyword is given, the heading "== Role-related topics" is omitte
 |1..n
 |","
 |String
-|The name of the role label with out the leading "role-", e.g. "gtm" for the label "role-gtm".
+|The name of the role label with out the leading "role-", e.g. "or" for the label "role-or".
 
 |===
 //end::attributes[]
@@ -38,25 +38,25 @@ Add `role_related::<attributes>[<parameters>]` in an empty line and replace `<at
 //end::how[]
 
 //tag::example[]
-In this example, all pages in the documentation that contain both the role label "gtm" and the keyword "proposal" are listed.
+In this example, all pages in the documentation that contain both the role label "or" and the keyword "proposal" are listed.
 
 
 [tabs]
-.List all pages with the role "gtm" that also contain the keyword "proposal"
+.List all pages with the role "or" that also contain the keyword "proposal"
 ====
 Source::
 +
 --
 [source,asciidoc]
 ----
-role_related::gtm[proposal]
+role_related::or[proposal]
 ----
 
 --
 Result::
 +
 --
-image::role_related_macro.png[title='The macro "role_related" applied to the role "gtm" and filtered for pages with the keyword "proposal".']
+image::role_related_macro.png[title='The macro "role_related" applied to the role "or" and filtered for pages with the keyword "proposal".']
 --
 ====
 

@@ -1,0 +1,60 @@
+
+
+
+:width-large: 120
+:width-small: 80
+:width-nav-icon: 25
+
+//tools
+:contributing-image: https://cdn-icons-png.flaticon.com/512/1077/1077198.png
+:contributing-xref: contributing:overview.adoc
+:contributing-icon: xref:{contributing-xref}[image:{contributing-image}[alt= Tools, width={width-large}, role=right]]
+:contributing-icon-norole: xref:{contributing-xref}[image:{contributing-image}[alt= Tools, width={width-small}]]
+:contributing-nav-icon: xref:{contributing-xref}[]
+// :contributing-nav-icon: xref:{contributing-xref}[image:{contributing-image}[width={width-nav-icon}] Tools Overview]
+
+//getting-started
+// :getting-started-image: https://cdn-icons-png.flaticon.com/512/495/495499.png
+:getting-started-image: https://cdn-icons-png.flaticon.com/512/4229/4229111.png
+:getting-started-xref: concepts:main.adoc
+:getting-started-icon: xref:{getting-started-xref}[image:{getting-started-image}[alt= Introduction, width={width-large}, role=right]]
+:getting-started-icon-norole: xref:{getting-started-xref}[image:{getting-started-image}[alt= Introduction, width={width-small}]]
+:getting-started-nav-icon: xref:{getting-started-xref}[]
+// :getting-started-nav-icon: xref:{getting-started-xref}[image:{getting-started-image}[width={width-nav-icon}] Concepts]
+
+
+
+//getting-involved
+// :getting-involved-image: https://cdn-icons-png.flaticon.com/512/3100/3100232.png
+// :getting-involved-image: https://cdn-icons-png.flaticon.com/512/1375/1375136.png
+:getting-involved-image: https://cdn-icons-png.flaticon.com/512/4149/4149677.png
+:getting-involved-xref: getting-involved:main.adoc
+:getting-involved-icon: xref:{getting-involved-xref}[image:{getting-involved-image}[alt= Get involved, width={width-large}, role=right]]
+:getting-involved-icon-norole: xref:{getting-involved-xref}[image:{getting-involved-image}[alt= Get involved, width={width-small}]]
+:getting-involved-nav-icon: xref:{getting-involved-xref}[]
+// :getting-involved-nav-icon: xref:{getting-involved-xref}[image:{getting-involved-image}[width={width-nav-icon}] ASAM’s Project Processes]
+
+
+//roles
+:role-specific-image: https://cdn-icons-png.flaticon.com/512/103/103230.png
+:role-specific-xref: role-specific:home.adoc
+:role-specific-icon: xref:{role-specific-xref}[image:{role-specific-image}[alt= Roles, width={width-large}, role=right]]
+:role-specific-icon-norole: xref:{role-specific-xref}[image:{role-specific-image}[alt= Roles, width={width-small}]]
+:role-specific-nav-icon: xref:{role-specific-xref}[]
+// :role-specific-nav-icon: xref:{role-specific-xref}[image:{role-specific-image}[width={width-nav-icon}] ASAM Roles]
+
+//compendium
+:compendium-image: https://cdn-icons-png.flaticon.com/512/1945/1945958.png
+:compendium-xref: compendium:home.adoc
+:compendium-icon: xref:{compendium-xref}[image:{compendium-image}[alt= Compendium, width={width-large}, role=right]]
+:compendium-icon-norole: xref:{compendium-xref}[image:{compendium-image}[alt= Compendium, width={width-small}]]
+:compendium-nav-icon: xref:{compendium-xref}[]
+// :compendium-nav-icon: xref:{compendium-xref}[image:{compendium-image}[width={width-nav-icon}] Compendium]
+
+//project-guide
+:project-guide-image: https://cdn-icons-png.flaticon.com/512/1705/1705243.png
+:project-guide-xref: asamprojectguide-editing:ROOT:home.adoc
+:project-guide-icon: xref:{project-guide-xref}[image:{project-guide-image}[alt= Project Guide, width={width-large}, role=right]]
+:project-guide-icon-norole: xref:{project-guide-xref}[image:{project-guide-image}[alt= Project Guide, width={width-small}]]
+:project-guide-nav-icon: xref:{project-guide-xref}[]
+// :project-guide-nav-icon: xref:{project-guide-xref}[image:{project-guide-image}[width={width-nav-icon}] Project Guide Instructions]

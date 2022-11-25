@@ -1,22 +1,18 @@
 = Git
 :description: A summary page describing what Git is and where to find related information, guides etc.
 :keywords: git,summary,tool,recommended, doc-as-code
-:page-layout: responsible
-:page-responsible-name: Stefan Cyliax
-:page-responsible-contact: stefan.cyliax(at)asam.net
+// :page-layout: responsible
+// :page-responsible-name: Stefan Cyliax
+// :page-responsible-contact: stefan.cyliax(at)asam.net
 
 include::partial$_attributes.adoc[]
-include::contributing:partial$_attributes.adoc[]
 
-
-{recommended}
-
-include::contributing:partial$icon_reminder.adoc[tag=download-link]
+include::compendium:partial$icon_reminder.adoc[tag=download-link]
 
 {git-icon}
 
-{role-technical-writer}
-{role-service-provider}
+// {role-technical-writer}
+// {role-service-provider}
 
 Git is a free software for tracking changes in a set of files (versioning).
 It is typically used for coordinating collaborative development (programming) of source code or other text-based content.
@@ -38,17 +34,15 @@ ASAM recommends using Git for working on a repository locally:
 [cols="^1h,4",frame=none, grid=rows, stripes=hover]
 |===
 
-|xref:compendium:Tools/git/git-setup.adoc[image:{setup-image}[width=120,title="GitLab Setup"]]
+|xref:compendium:Tools/git/01_git_setup.adoc[image:{setup-image}[width=120,title="GitLab Setup"]]
 |Git Setup
 
-|xref:compendium:Tools/git/git-guides.adoc[image:{guide-image}[width=120,title="GitLab Guides"]]
+|xref:compendium:Tools/git/02_git_guides.adoc[image:{guide-image}[width=120,title="GitLab Guides"]]
 |Git Guides
 
-|xref:compendium:Tools/git/git_best_practices.adoc[image:{best-practices-image}[width=120,title="Git Best Practices"]]
+|xref:compendium:Tools/git/03_git_best_practices.adoc[image:{best-practices-image}[width=120,title="Git Best Practices"]]
 |Git Best Practices
 
 |===
 
-related::git,!summary[]
-
-* xref:compendium:Tools/remote_repo.adoc[]
+related::repository[]

@@ -1,17 +1,13 @@
 = Remote repository platforms
 :description: A summary page describing what online repository platforms are, which are supported by ASAM, and where to find related information, guides etc.
-:keywords: gitlab, github,summary,tool,mandatory, doc-as-code
+:keywords: gitlab, github,summary,tool,mandatory, doc-as-code, repository
 
 include::compendium:partial$_attributes.adoc[]
-include::contributing:partial$_attributes.adoc[]
-
-
-{mandatory}
 
 {remote-icon}
 
-{role-project-participant}
-{role-service-provider}
+// {role-project-participant}
+// {role-service-provider}
 
 A remote repository platform is a web-based DevOps lifecycle tool that provides a xref:compendium:Tools/git.adoc[] repository manager.
 It can host wikis, has issue-tracking, continuous integration, and deployment pipeline features, using an open-source license.
@@ -64,12 +60,12 @@ a|* Document control during standard development
 [cols="^1h,4",frame=none, grid=rows, stripes=hover]
 |===
 
-|xref:compendium:Tools/remote_repo/remote_repo_setup.adoc[image:{setup-image}[width=120,title="Remote Repository Account Setup"]] +
-xref:compendium:Tools/remote_repo/remote_repo_setup.adoc[Setup]
+|xref:compendium:Tools/remote_repo/01_remote_repo_setup.adoc[image:{setup-image}[width=120,title="Remote Repository Account Setup"]] +
+xref:compendium:Tools/remote_repo/01_remote_repo_setup.adoc[Setup]
 |Contains instructions on how to set up your account for the respective remote repository.
 
-|xref:compendium:Tools/remote_repo/remote_repo_guides.adoc[image:{guide-image}[width=120,title="Remote Repository Guides"]] +
-xref:compendium:Tools/remote_repo/remote_repo_guides.adoc[Guides]
+|xref:compendium:Tools/remote_repo/02_remote_repo_guides.adoc[image:{guide-image}[width=120,title="Remote Repository Guides"]] +
+xref:compendium:Tools/remote_repo/02_remote_repo_guides.adoc[Guides]
 |Contains guides and instructions for using the respective remote repository.
 
 |===

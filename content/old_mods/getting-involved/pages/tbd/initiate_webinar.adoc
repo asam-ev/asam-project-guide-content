@@ -1,0 +1,43 @@
+= Initiate a webinar
+:description: Describes how to prepare an ASAM webinar.
+:keywords: webinar
+
+include::partial$_attributes.adoc[]
+
+
+{role-project-participant}
+
+NOTE: This page describes how project members can initiate a webinar.
+If you are looking to join a scheduled webinar, see xref:getting-involved:tbd/join_webinar.adoc[] instead.
+
+== Context
+In order to gather feedback on project development and decisions from outside as well as to give an introduction to a standard to non-project-members, a project can decide to host a webinar.
+
+There are different reasons for wanting to initiate a webinar:
+
+* Find new project members
+* Identify new use cases
+* Gather feedback from the industry
+* Give a new standard (version) some traction
+
+== Result
+A webinar is prepared and publicly announced through the ASAM channels.
+
+== Prerequisites
+* You must be a project member
+* You must be able to provide one or more experienced presenters
+* The webinar must be announced at least 4 weeks ahead of time
++
+NOTE: Presenters *need not* be project or even ASAM members in case the topic is not confidential, but interesting for project progress.
+
+== How
+. Prepare the webinar outline
+. __OPTIONAL__: Create a presentation draft
+. __OPTIONAL__: Prepare a list of speakers
+. Propose your webinar to your OR contact for support
+
+
+NOTE: All optional steps will have to be carried out before the event in any case.
+It is recommended to do them before approaching the OR contact to speed up the process.
+
+related::webinar[]

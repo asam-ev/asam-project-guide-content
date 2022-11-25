@@ -1,0 +1,127 @@
+= Contribute with issues
+:description: Explains the basic contribution workflows.
+:keywords: basics
+:page-layout: progress
+:page-progress_bar: progress_bar_simple-contributing_with_issues.svg
+:tour_guide_small:
+
+//tag::body[]
+
+include::tour_guide:partial$_attributes.adoc[]
+
+You can contribute to ASAM projects directly with issues.
+These issues can be created and managed in the respective Remote Repository of the project.
+
+== Make discussions accessible
+
+It must be possible for every project member to contribute to and give feedback on the topic of discussion directly.
+For this purpose, all content discussions shall happen through issues in a project's issue board.
+This also applies to discussion results from some subgroup meetings.
+The output of a discussion pertaining to any topic should be documented in its respective issue.
+
+
+== Gather topics in issues
+
+[NOTE]
+====
+A clean issue contains the following things:
+
+- active milestone
+- assignee
+- applicable labels
+
+====
+
+If your project is on ASAM GitLab, see the https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#create-an-issue[GitLab instructions^] for creating issues. +
+If your project is on GitHub, see the https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue[GitHub instructions^] for creating issues.
+
+Every topic shall have its own issue.
+
+=== Linked related issue
+If a topic is too complex for a single issue, linked related issues shall be created from this topic issue.
+Make sure they are linked correctly.
+
+
+=== Closing issues and linked related issue
+
+An open issue with linked related issues shall only be closed if all its linked related issues have been closed. +
+If an issue has a branch, the issue shall not be closed before the branch has been merged or closed.
+
+== Use issue templates
+
+Issues shall be created using the provided issue templates in the repository.
+
+TIP: Each issue template contains a description (as comments) on when to use them and what content to add where.
+
+image::compendium:gitlab/issue_template_example.png[title=Creating an issue from a template]
+
+
+== Label issues correctly
+
+The use of issue labels is required for filtering and sorting issues more efficiently.
+Each issue and merge/pull request must apply general domain labels defined by ASAM. +
+A project may also have project-specific labels in addition to the default ones, specified directly in the project group.
+
+=== Introduce project-specific labels
+A group may introduce project-specific labels on top of the official ASAM ones that provide further filter options.
+If custom labels are introduced, the group must document these labels by providing a exhaustive label description with the label (i.e. in the GitLab/GitHub label).
+Additionally, the project may add the current label definitions in their project's README in their repository.
+
+The documentation shall follow the project's general documentation rules and language.
+
+
+== Discuss issues
+The **content** of issues is discussed and resolved through **comments** and **replies** to previous comments.
+
+|===
+|Content |Comments |Replies
+
+a|The issue content (body) contains the definition of the issue.
+
+In the case of a feature, it contains the proposed content/change. +
+In the case of a question or a bug, it contains the initial topic.
+a|A comment to an issue is a new topic that is independent from any previous comment.
+A user comments on the issue to partake in the discussion of this topic.
+
+[horizontal]
+GitLab:: https://docs.gitlab.com/ee/user/discussions/[GitLab instructions for commenting^]
+GitHub:: https://docs.github.com/en/issues/tracking-your-work-with-issues/quickstart#communicating[GitHub instructions for commenting^]
+
+IMPORTANT: Before you add a new comment to an issue, make sure it is not a duplicate (i.e. the same or a similar comment already exists) and that it is not supposed to be a <<Replies, reply>>!
+Failure to do so will prevent efficient project progress.
+
+a|A reply is a comment created as a reply to a previous comment.
+It creates a thread.
+To continue the discussion, reply on the thread.
+
+[horizontal]
+GitLab:: https://docs.gitlab.com/ee/user/discussions/#create-a-thread-by-replying-to-a-standard-comment[GitLab instructions for threads/replies^]
+GitHub:: https://docs.github.com/en/issues/tracking-your-work-with-issues/quickstart#communicating[GitHub instructions for communication^]
+
+
+IMPORTANT: If you want to reply to a previous comment, make sure to create a reply, not a new comment!
+
+|===
+
+
+== Close issues
+An issue shall be closed once its discussion is resolved or the issue has been dismissed. +
+Possible resolutions:
+
+* The questions of the issue have been answered
+* The bug has been fixed and the fixes have been reviewed and merged
+* The feature has been developed, reviewed, and merged
+
+It is best practice to close an issue immediately after one of the closing conditions has been met.
+
+Additionally, an issue may also be closed without resolution if
+
+* it has become obsolete and/or will not be fixed
+* it is a duplicate (i.e. another issue deals with the same topic already)
+
+
+== Reopen issues
+Issues shall not be reopened!
+If an issues has been closed by accident or has become relevant for other reasons again, a related issue shall be created instead.
+
+//end::body[]

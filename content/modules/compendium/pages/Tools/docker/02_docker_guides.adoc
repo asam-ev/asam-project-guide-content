@@ -1,0 +1,88 @@
+= Docker -- Guides
+:description: A guide to using docker at ASAM
+:keywords: docker, guide
+:reftext: Guides
+
+include::partial$_attributes.adoc[]
+
+
+
+{docker-icon-page}
+
+
+== Running Docker-Compose from Visual Studio Code
+
+IMPORTANT: {docker-daemon-warning}
+
+You can run Docker-Compose directly from within xref:compendium:Tools/vscode.adoc[Visual Studio Code (VSCode)] if you have added the docker extensions.
+VSCode will automatically ask you if it finds a .yml file in your project workspace.
+Otherwise, you can get it through the usual way of finding and installing extensions:
+
+include::compendium:page$Tools/vscode/04_vscode_recommended_extensions.adoc[tag=docker]
+
+To run Docker-Compose on your docker-compose.yml, right-click on the file in your workspace and select btn:[Compose Up] from the menu.
+
+image::compendium:vscode/vscode-compose-up.png[title=Run "Compose Up" from the context menu]
+
+
+== Build with the Antora image
+ASAM provides a custom Antora image under `ghcr.io/asam-ev/project-guide-docker`. 
+Note that all ASAM projects using Antora also require read access to the ASAM UI repository as well as the ASAM Antora extensions repository.
+
+Project generator repositories at ASAM usually come with a build script.
+It is located in the "scripts" folder and runs on python 3.
+
+To build a project using the python build script, run that script. 
+
+[source,shell]
+----
+python .\build
+----
+
+By default, this will also open the result afterwards (in Chrome). 
+You can pass parameters such as "-s" (only build) and "-f" (only open).
+For a complete overview, run 
+
+[source,shell]
+----
+python .\build -h
+----
+
+To quickly build a checked-out project locally without the python script, open a terminal where your project's 'site.yml' and the respective 'docker-compose-local.yml' are located and run the following command:
+
+[source,shell]
+----
+docker-compose -f docker-compose-local.yml
+----
+
+If your project does not have a 'docker-compose-local.yml' file but only a 'docker-compose.yml', run the following instead:
+
+[source,shell]
+----
+docker-compose up -d
+----
+
+== Build with the Asciidoctor image
+All new projects using .adoc files will be Antora projects.
+However, if you need to create an Asciidoctor output instead, check if your project comes with a "local_build_tools" folder that includes a "compose.yml" file. +
+If not, create said folder.
+Then, add a file named "compose.yml" with the following content:
+
+[source,yml]
+----
+version: "2"
+
+services:
+  asciidoctor:
+    image: asciidoctor/docker-asciidoctor
+    volumes:
+      - ../:/documents
+    entrypoint: asciidoctor --failure-level WARN -r asciidoctor-kroki -a mathjax -r asciidoctor-bibtex --trace content/index.adoc -o local_build_tools/HTML_content_local_build.html
+----
+
+To create the build, open a terminal in the 'local_build_tools' folder and run the following command:
+
+[source,shell]
+----
+docker-compose up -d
+----

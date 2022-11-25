@@ -1,0 +1,35 @@
+= Roles overview
+:description: Links to the current contact page for ASAM Office members.
+:keywords: roles, asam, concept
+
+include::partial$_attributes.adoc[]
+
+
+{roles-icon}
+
+include::compendium:partial$roles.adoc[tag=summary]
+
+
+== Overview
+
+image::Concepts/roles_overview.drawio.svg[title=Overview over the most relevant roles in ASAM projects.]
+
+It is possible to have more than one role at the same time.
+Some roles require you to "enroll" in a project first.
+**Enrollment requires an ASAM membership.**
+
+
+== Role descriptions
+The following table contains a list of the most prominent roles at ASAM and a short description for each of them.
+
+include::compendium:partial$roles.adoc[tags=list_of_roles]
+
+
+// == Further information
+
+// For a complete overview over roles at ASAM, see xref:role-specific:main.adoc[].
+
+// related::role[]
+
+== Questions
+Please reach out if you have any questions: project-office@asam.net

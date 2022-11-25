@@ -1,0 +1,5 @@
+= Contribute with issues
+
+include::compendium:partial$_attributes.adoc[]
+
+include::tour_guide:page$contribution/contribute_with_issues.adoc[tag=body]

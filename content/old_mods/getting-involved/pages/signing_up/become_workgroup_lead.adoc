@@ -1,0 +1,8 @@
+= Become Sub-group Lead
+:description: Describes how to become a lead of a Sub-group and where to find more information.
+:keywords: Sub-group-lead
+
+include::partial$_attributes.adoc[]
+
+
+include::compendium:page$How-Tos/become_wg_lead.adoc[tag=body]

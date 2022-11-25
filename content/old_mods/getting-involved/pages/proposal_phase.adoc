@@ -1,0 +1,56 @@
+= Proposal phase
+:description: Describes the Proposal phase in the ASAM development process for standards.
+:keywords: proposal,phase,standardization,process,proposal-workshop
+
+include::partial$_attributes.adoc[]
+
+====
+[horizontal]
+Involved roles::
+{role-idea-giver} --
+{role-project-participant} --
+{role-or} --
+{role-tsc-member} --
+{role-member}
+
+include::partial$project_phases.adoc[tag=proposal]
+====
+
+== Process overview
+The purpose of the Proposal Phase is to attain the approval for a new project at ASAM. +
+During the Proposal Phase, a xref:proposal/proposal_document.adoc[Proposal document] is created.
+This document is submitted to the ASAM Technical Steering Committee (TSC) for approval.
+On approval, the next project phase (the xref:development_phase.adoc[Development Phase]) can begin.
+
+
+image::compendium:asam/proposal_phase_timeline.drawio.svg[title="The Proposal phase timeline"]
+
+In this phase, the xref:ideation_phase.adoc[proposed idea] is further analyzed.
+In the xref:proposal/proposal_document.adoc[Proposal document], central requirements are formulated, the expected effort is quantified, and the timeline is specified. +
+In addition to that
+
+* interested parties can enroll during this phase for project participation,
+* the proposal is released to attract more attention as well as for transparency.
+
+The Proposal document is then submitted and presented to the TSC for approval.
+Submittal must occur at least two (2) weeks prior to the TSC meeting. +
+If the Project Proposal is approved, the project transitions to the xref:development_phase.adoc[Standard Development phase].
+Otherwise, the TSC outlines the aspects that need to be revised prior to another submission.
+
+The typical Proposal Phase timeline consists of
+
+* creating the draft
+* announcing the Proposal Workshop 4-6 weeks ahead of time
+* 1 day of Proposal Workshop
+* 4-8 weeks of finalizing the draft and enrollment, including up to 2 weeks of review by the group
+* proposal publication and submission to TSC
+* at least 2 weeks of review by TSC
+* proposal presentation by Proposal Submitter and project decision by TSC
+
+NOTE: If a single Proposal Workshop does not suffice for answering all questions and clarifying all topics, the group may decide to do as many workshops as needed.
+These workshops do not need to be within the same week. +
+Note that enrollment starts with the first workshop but the timeframe for finalization of the proposal after the last. +
+Conversely, if a project's proposal information is already well-defined and all participants have sufficient prior knowledge, the workshop may be kept within an hour instead of one day.
+
+The phase is explained in more detail on the xref:proposal/phase_details.adoc[next page].
+If you want to learn more about how to participate in this phase, check out the pages in this chapter or follow the links in the relevant section on this page.

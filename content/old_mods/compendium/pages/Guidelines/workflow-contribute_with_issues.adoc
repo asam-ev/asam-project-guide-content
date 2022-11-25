@@ -1,0 +1,187 @@
+= Contributing through issues
+:description: Describes how to contribute through issues.
+:keywords: proposal, gitlab, issue, doc-as-code
+:navtitle: [Workflow] Contributing Through Issues
+//tag::compendium[]
+//tag::numbered[]
+:numbered:
+//end::numbered[]
+//end::compendium[]
+
+include::compendium:partial$_attributes.adoc[]
+
+{workflow-icon}
+
+//tag::compendium[]
+//tag::roles[]
+{role-project-participant}
+{role-sg-lead}
+{role-project-lead}
+{role-idea-giver}
+//end::roles[]
+//end::compendium[]
+
+IMPORTANT: This is relevant to **ALL** project members!
+
+This page describes how project participants can contribute to a project through issues.
+This is the most common way of content contribution and does not require deeper knowledge of AsciiDoc or specific tools.
+
+
+TIP: If you want to contribute more directly, see xref:compendium:Guidelines/workflow-contribute_in_asciidoc.adoc[].
+
+//tag::body[]
+
+== Make discussions accessible
+// {mandatory}
+
+It must be possible for every project member to contribute to and give feedback on the content of a Proposal document directly.
+For this purpose, all content discussions shall happen through issues in a project's issue board.
+
+
+== Gather topics in issues
+// {mandatory}
+
+include::compendium:partial$clean_issue.adoc[]
+
+If your project is on ASAM GitLab, see the https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#create-an-issue[GitLab instructions^] for creating issues. +
+If your project is on GitHub, see the https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue[GitHub instructions^] for creating issues.
+
+
+//end::body[]
+PROPOSAL::
+//tag::proposal[]
+Participants shall gather content for sections in issues in the proposal repository and discuss them there.
+
+If the Proposal is for an update of an existing ASAM standard, consider collecting and using backlog issues from the previous project first.
+//end::proposal[]
+
+DEVELOPMENT::
+//tag::development[]
+Every topic shall have its own issue.
+
+=== Sub-issues
+//end::development[]
+**DEVELOPMENT only**
+//tag::development[]
+
+// {recommended}
+
+If a topic is too complex for a single issue, sub-issues shall be created.
+
+
+=== Closing issues and sub-issues
+//end::development[]
+**DEVELOPMENT only**
+//tag::development[]
+
+// {mandatory}
+
+
+An issue with sub-issues shall only be closed if all its sub-issues have been closed. +
+If an issue has a branch, the issue shall not be closed before the branch has been merged or closed.
+
+//end::development[]
+
+//tag::body[]
+
+== Use issue templates
+// {mandatory}
+
+Issues shall be created using the provided issue templates in the repository.
+
+TIP: Each issue template contains a description (as comments) on when to use them and what content to add where.
+
+image::compendium:asam/issue_template_example.png[title=Creating an issue from a template]
+
+// == Define issue name
+// // {mandatory}
+
+// //end::body[]
+// PROPOSAL::
+// //tag::proposal[]
+// The name of the issue shall correspond to the respective section.
+
+// image::compendium:asam/proposal_issue_example.png[title=Topic issue for a proposal's Executive Summary]
+
+// //end::proposal[]
+
+// DEVELOPMENT::
+// //tag::development[]
+// The name of the issue shall follow the xref:branch_naming_conventions.adoc[].
+// // The name of the issue shall follow the xref:compendium:Guidelines/repo-branch_naming_conventions.adoc[].
+// //end::development[]
+
+//tag::body[]
+
+
+== Label issues correctly
+// {mandatory}
+
+The use of issue labels is required for filtering and sorting issues more efficiently.
+Each issue and merge/pull request must apply labels as defined in xref:labels.adoc[]. +
+// Each issue and merge/pull request must apply labels as defined in xref:compendium:Guidelines/repo-issue_and_mr_labels.adoc[]. +
+A project may also have project-specific labels in addition to the official ones, specified directly in the project group.
+
+
+== Discuss issue
+The **content** of issues is discussed and resolved through **comments** and **replies** to previous comments.
+
+|===
+|Content |Comments |Replies
+
+a|The issue content (body) contains the definition of the issue.
+
+In the case of a feature or chapter description, it contains the current content of that chapter.
+It shall always be up-to-date and contain the latest discussed and approved version. +
+In the case of a question or a bug, it contains the initial topic.
+In the latter case, the content shall only be updated to correct mistakes therein.
+a|A comment to an issue is a new topic that is independent from any previous comment.
+
+[horizontal]
+GitLab:: https://docs.gitlab.com/ee/user/discussions/[GitLab instructions for commenting^]
+GitHub:: https://docs.github.com/en/issues/tracking-your-work-with-issues/quickstart#communicating[GitHub instructions for commenting^]
+
+IMPORTANT: Before you add a new comment to an issue, make sure it is not a duplicate (i.e. the same or a similar comment already exists) and that it is not supposed to be a <<Replies, reply>>!
+Failure to do so will prevent efficient project progress.
+
+a|A reply is a comment created as a reply to a previous comment.
+In the issue, it is a child comment to the previous one and listed in relation to it.
+
+[horizontal]
+GitLab:: https://docs.gitlab.com/ee/user/discussions/#create-a-thread-by-replying-to-a-standard-comment[GitLab instructions for threads/replies^]
+GitHub:: https://docs.github.com/en/issues/tracking-your-work-with-issues/quickstart#communicating[GitHub instructions for communication^]
+
+
+IMPORTANT: If you want to reply to a previous comment, make sure to create a reply, not a new comment!
+
+|===
+
+
+== Close issues
+An issues shall be closed once its discussion is resolved.
+Possible reasons:
+
+* The questions of the issue have been answered
+* The bug has been fixed and the fixes have been reviewed and merged
+* The feature has been developed, reviewed, and merged
+
+It is best practice to close an issue immediately after one of the closing conditions has been met.
+
+Additionally, an issue may also be closed without resolution if
+
+* it has become obsolete
+* it is a duplicate (i.e. another issue deals with the same topic already)
+// * it has not been worked on for a long period of time (see <<The issue triage>>)
+
+
+// == The issue triage
+// ASAM has defined a process for closing outdated issues.
+// This is called the "Issue Triage" or "Ticket Triage". +
+// See xref:compendium:Guidelines/workflow-ticket_triage.adoc[] for more details.
+
+
+== Reopening issues
+Closed issues can be reopened if they have become relevant again, there have been new developments directly impacting this specific issue, or the issue has been closed by accident and has not actually been finished yet.
+
+//end::body[]
+
