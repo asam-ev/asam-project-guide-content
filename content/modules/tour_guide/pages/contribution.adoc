@@ -17,17 +17,16 @@ The following sections describe this workflow in more detail.
 .ASAM Contribution Workflow
 image::tour_guide:workflow/asam_contribution_workflow-StateDiagram.drawio.svg[]
 
-Each state is described in more detail in the sections below. +
-The role listed at the top of each section is the one responsible for it. +
-DoR stands for **Definition of Ready**.
-It describes the requirements an incoming issue must meet. +
-If DoR are specified but not met, the issue is immediately reset to the previous state (including the assignee). +
-DoD stands for Definition of Done.
-It describes the requirements that must be met for an issue to be allowed to exit this state.
-// You may also want to check out ASAM's xref:labels.adoc[**use of labels**].
-
-
 ---
+
+Each state is described in more detail in the sections below.
+The role listed at the top of each section is the one responsible for it.
+
+**DoR** stands for **Definition of Ready**.
+It describes the requirements an incoming issue must meet.
+If DoR are specified but not met, the issue is immediately reset to the previous state (including the assignee). +
+**DoD** stands for **Definition of Done**.
+It describes the requirements that must be met for an issue to be allowed to exit this state.
 
 [tabs]
 ====
@@ -170,7 +169,51 @@ Transitions::
 Solution implemented::: -> INTEGRATED
 Major questions::: -> IMPLEMENTED
 --
+Integrated::
++
+--
+[horizontal]
+Who:: <<Integration Reviewer>>
+State Label:: Integrated
+Actions::
+* Review the integration
+** Is the original content still correctly represented?
+** Are all guidelines & conventions maintained?
+** Are all discussions resolved?
+** Does it have a https://medium.com/@catalinaturlea/clean-git-history-a-step-by-step-guide-eefc0ad8696d[clear commit history^]?
+* Add feedback as comments on Merge/Pull Request
+* Add verdict as comment in issue
+** If accepted, assign issue to the <<Workflow Manager>>
 
+DoR::
+* <<Integraton Reviewer>> assigned
+DoD::
+* Solution reviewed
+* Feedback provided in Merge/Pull Request, if relevant
+* Verdict documented in issue
+Transitions:: 
+Integration OK::: -> READYFORMERGE
+Integration NOK::: -> REVIEWED
+--
+Ready for Merge::
++
+--
+[horizontal]
+Who:: <<Workflow Manager>>
+State Label:: ReadyForMerge
+Actions::
+* Merge the assigned Merge/Pull Request
+** If any major merge conflicts arise, document conflict, reassign it to the <<Integration Reviewer>>, and change back to the previous state
+** If the merge completes successfully, close the Merge/Pull Request and the associated issue(s)
+DoR::
+* <<Workflow Manager>> assigned
+DoD::
+* Branch merged
+* In case of merge conflicts: conflict documented in Merge/Pull Request
+Transitions:: 
+Merged::: -> CLOSED
+Merge Conflict::: -> INTEGRATED
+--
 
 ====
 
@@ -199,7 +242,7 @@ Typical examples are:
 * Project Lead
 * Office Responsible
 * Subgroup leads, if available
-* Change Control Board (CCB), if defined
+* Change Control Board (CCB) representative, if defined
 
 Typically, the Workflow Manager is experienced with using remote repositories.
 
