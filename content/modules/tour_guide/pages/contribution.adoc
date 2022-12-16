@@ -35,15 +35,15 @@ New::
 --
 [horizontal]
 Who:: <<Workflow Manager>>
-State Label:: New
+State Label:: {isStateNew-label}
 Actions::
 * Categorize the issue (i.e. assign the issue type)
-** If the issue is a duplicate, assign resolutionType:Duplicate and close the issue
-** Otherwise, assign the correct type (one of: Feature, Fix, Documentation)
+** If the issue is a duplicate, assign {resolutionTypeDuplicate-label} and close the issue
+** Otherwise, assign the correct type (one of: {isTypeFeature-label}, {isTypeBug-label}, {isTypeDocumentation-label})
 DoD::
 * Issue type assigned OR resolutionType set
 Transitions:: 
-Issue is a duplicate::: -> CLOSED (resolutionType:Duplicate)
+Issue is a duplicate::: -> CLOSED ({resolutionTypeDuplicate-label})
 Type assigned::: -> CLASSIFIED
 --
 Classified::
@@ -51,7 +51,7 @@ Classified::
 --
 [horizontal]
 Who:: Relevant lead (Project Lead or Subgroup Lead)
-State Label:: Classified
+State Label:: {isStateClassified-label}
 Actions::
 * Discuss the issue
 * Decide whether to accept it or not
@@ -60,11 +60,11 @@ DoR::
 * Issue is assigned to relevant lead
 DoD::
 * Group decision on issue is documented
-* If rejected, resolutionType:Rejected is assigned
-* If duplicate, resolutionType:Duplicate is assigned
+* If rejected, {resolutionTypeRejected-label} is assigned
+* If duplicate, {resolutionTypeDuplicate-label} is assigned
 Transitions:: 
-Issue is a duplicate::: -> CLOSED (resolutionType:Duplicate)
-Issue is rejected::: -> CLOSED (resolutionType:Rejected)
+Issue is a duplicate::: -> CLOSED ({resolutionTypeDuplicate-label})
+Issue is rejected::: -> CLOSED ({resolutionTypeRejected-label})
 Issue is accepted::: -> ACCEPTED
 --
 Accepted::
@@ -72,7 +72,7 @@ Accepted::
 --
 [horizontal]
 Who:: Relevant lead (Project Lead or Subgroup Lead)
-State Label:: Accepted
+State Label:: {isStateAccepted-label}
 Actions::
 * Assign the issue to a group member
 * Check if the issue needs to be split into multiple sub-issues (making it a parent issue)
@@ -97,7 +97,7 @@ In Progress::
 --
 [horizontal]
 Who:: Assignee
-State Label:: InProgress
+State Label:: {isStateInProgress-label}
 Actions::
 * Develop a solution together with relevant group (see xref:tour_guide:contribution/issue_implementation.adoc[])
 * Create a Merge/Pull Request 
@@ -120,7 +120,7 @@ Implemented::
 --
 [horizontal]
 Who:: Project Lead
-State Label:: Implemented
+State Label:: {isStateImplemented-label}
 Actions::
 * Update issue's due date for review (should not exceed 2 weeks)
 * Ask project group for review
@@ -151,7 +151,7 @@ Reviewed::
 --
 [horizontal]
 Who:: <<Integrator>>
-State Label:: Reviewed
+State Label:: {isStateReviewed-label}
 Actions::
 * Refine content and apply ASAM Editorial Guide
 * If relevant, apply project-specific writing rules and guidelines
@@ -174,7 +174,7 @@ Integrated::
 --
 [horizontal]
 Who:: <<Integration Reviewer>>
-State Label:: Integrated
+State Label:: {isStateIntegrated-label}
 Actions::
 * Review the integration
 ** Is the original content still correctly represented?
@@ -200,7 +200,7 @@ Ready for Merge::
 --
 [horizontal]
 Who:: <<Workflow Manager>>
-State Label:: ReadyForMerge
+State Label:: {isStateReadyForMerge-label}
 Actions::
 * Merge the assigned Merge/Pull Request
 ** If any major merge conflicts arise, document conflict, reassign it to the <<Integration Reviewer>>, and change back to the previous state
@@ -211,7 +211,7 @@ DoD::
 * Branch merged
 * In case of merge conflicts: conflict documented in Merge/Pull Request
 Transitions:: 
-Merged::: -> CLOSED
+Merged::: -> CLOSED ({resolutionTypeFixed-label})
 Merge Conflict::: -> INTEGRATED
 --
 
