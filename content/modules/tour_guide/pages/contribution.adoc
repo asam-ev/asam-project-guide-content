@@ -13,160 +13,207 @@ include::compendium:partial$issue_labels.adoc[]
 == Overview 
 Developing content for ASAM standards is focused around the concept of xref:tour_guide:contribution/contribute_with_issues.adoc[contributing with issues]. +
 The following sections describe this workflow in more detail.
-Note that the workflow starts when an issue is assigned to someone.
-Whether the issue is created with an assignee or assigned by someone from the project later is irrelevant. +
-How an unassigned issue is assigned and by whom is out-of-scope for this workflow.
-The project group may define their own workflow and responsibilities for that.
 
+.ASAM Contribution Workflow
+image::tour_guide:workflow/asam_contribution_workflow-StateDiagram.drawio.svg[]
 
-.Workflow stages
-[mermaid]
-....
-graph LR
-START(( START ))
---Issue assigned--> ANALYSIS
-ANALYSIS --Duplicate-->CLOSED
-ANALYSIS --Rejected/Won't fix-->CLOSED
-ANALYSIS --Analyzed--> IMPLEMENTATION
-IMPLEMENTATION --Done--> REVIEW
-IMPLEMENTATION --Analysis required--> ANALYSIS
-REVIEW --Review NOK--> IMPLEMENTATION
-REVIEW --Review OK--> INTEGRATION
-INTEGRATION --Done--> MERGE
-INTEGRATION --Rejected/Won't fix-->CLOSED
-MERGE --Review NOK--> INTEGRATION
-MERGE --Review OK--> CLOSED;
-style START color:#000000, fill:#000000
-....
-
-Each stage is described in more detail in the sections below.
-The role listed at the top of each section is the one responsible for it.
-
+Each state is described in more detail in the sections below. +
+The role listed at the top of each section is the one responsible for it. +
+DoR stands for **Definition of Ready**.
+It describes the requirements an incoming issue must meet. +
+If DoR are specified but not met, the issue is immediately reset to the previous state (including the assignee). +
+DoD stands for Definition of Done.
+It describes the requirements that must be met for an issue to be allowed to exit this state.
 // You may also want to check out ASAM's xref:labels.adoc[**use of labels**].
+
 
 ---
 
 [tabs]
 ====
-Analysis::
+New::
++
+--
+[horizontal]
+Who:: <<Workflow Manager>>
+State Label:: New
+Actions::
+* Categorize the issue (i.e. assign the issue type)
+** If the issue is a duplicate, assign resolutionType:Duplicate and close the issue
+** Otherwise, assign the correct type (one of: Feature, Fix, Documentation)
+DoD::
+* Issue type assigned OR resolutionType set
+Transitions:: 
+Issue is a duplicate::: -> CLOSED (resolutionType:Duplicate)
+Type assigned::: -> CLASSIFIED
+--
+Classified::
++
+--
+[horizontal]
+Who:: Relevant lead (Project Lead or Subgroup Lead)
+State Label:: Classified
+Actions::
+* Discuss the issue
+* Decide whether to accept it or not
+DoR:: 
+* Valid type is assigned
+* Issue is assigned to relevant lead
+DoD::
+* Group decision on issue is documented
+* If rejected, resolutionType:Rejected is assigned
+* If duplicate, resolutionType:Duplicate is assigned
+Transitions:: 
+Issue is a duplicate::: -> CLOSED (resolutionType:Duplicate)
+Issue is rejected::: -> CLOSED (resolutionType:Rejected)
+Issue is accepted::: -> ACCEPTED
+--
+Accepted::
++
+--
+[horizontal]
+Who:: Relevant lead (Project Lead or Subgroup Lead)
+State Label:: Accepted
+Actions::
+* Assign the issue to a group member
+* Check if the issue needs to be split into multiple sub-issues (making it a parent issue)
+** If it needs to be split, each sub-issue enters state ACCEPTED immediately
+** Each sub-issue applies the remaining workflow individually
+** A parent issue may only be closed if all its sub-issues have been closed
+* Define the issue's priority
+* Set a <<Due dates,due date>> for the solution (should not exceed 4 weeks of development)
+* Optional: Assign to corresponding milestone
+DoR:: 
+* Acceptance is documented in issue
+DoD::
+* Solution developer assigned
+* If necessary, split into sub-issues
+* Due date set
+* Issue requirements specified
+Transitions:: 
+Prioritized::: -> IN PROGRESS
+--
+In Progress::
 +
 --
 [horizontal]
 Who:: Assignee
-Steps::
-. Assign the label {requiresClarification-label} to indicate this issue is being looked at and discussed.
-. Coordinate and drive the preparation of a proposal for addressing the issue.
-Do this either directly via comments or in further meetings, adding the results to the comments later.
-. If the analysis shows the issue is a duplicate to another issue in the same project:
-.. Assign the label {isStatusDuplicate-label} and assign the Subgroup Lead 
-// {role-sg-lead}
-.. The SG Lead reviews the issue and either closes it (if it is a duplicate) or changes the status back to {requiresClarification-label} and the assignee back to the original issue assignee
+State Label:: InProgress
+Actions::
+* Develop a solution together with relevant group (see xref:tour_guide:contribution/issue_implementation.adoc[])
+* Create a Merge/Pull Request 
+** In case of strong dependencies to another issue, add the issue number to the request description and the changes to that Merge/Pull Request instead
+* Review changes within involved group
+DoR:: 
+* Solution developer assigned
+* Created sub-issues linked, if any
+* Due date set
+* Issue requirements specified
+DoD::
+* Requirements in the issue description are met
+* All affected artifacts of the standard are covered
+* Complete solution included in Merge/Pull Request
 Transitions:: 
-Issue is a duplicate::: -> CLOSED (Duplicate)
-Issue is rejected::: -> CLOSED (Rejected)
-Issue can or will not be fixed::: -> CLOSED (Won't fix)
-Issue analysis complete::: -> IMPLEMENTATION (Analyzed)
-Tips::
-* If analysis shows an issue to contain too many steps, create linked related issues to split the topic up further for faster content implementation
+Solution developed::: -> IMPLEMENTED
 --
-Implementation::
+Implemented::
 +
 --
 [horizontal]
-Who:: Assignee
-Steps::
-. Once a proposal is ready to be implemented, follow the steps as layed out in xref:tour_guide:contribution/issue_implementation.adoc[]
-. Implement the topics of that issue
-. Review implementation progress of issue with the Subgroup Lead and the other project participants in Subgroup meetings
-// {role-sg-lead}  {role-project-participant} 
-. Once the group agrees that the feature is complete, request a review by the whole project
+Who:: Project Lead
+State Label:: Implemented
+Actions::
+* Update issue's due date for review (should not exceed 2 weeks)
+* Ask project group for review
+* Put issue on the next agenda
+* Group reviews solution and documents feedback in Merge/Pull Request
+** Each reviewer documents their feedback in Merge/Pull Request
+*** General feedback: as comment on Merge/Pull Request
+*** Specific feedback: as review in changes tab
+** Identified minor corrections are implemented directly in collaboration between reviewers and solution developer
+* Discuss review results in group meeting
+* Accept or reject solution and document decision in issue
+** Identified major corrections lead to rejection of solution
+** If accepted, appoint an <<Integrator>> (responsible for integrating the solution) and an <<Integration Reviewer>> (responsible for reviewing the integration)
+DoR::
+* Project Lead assigned
+* Relevant Merge/Pull Request linked in issue
+DoD::
+* Solution reviewed 
+* Feedback documented in Merge/Pull Request
+* Decision (accepted/rejected) documented
+* If accepted: <<Integrator>> assigned
 Transitions:: 
-Issue requires more analysis or should be rejected::: -> ANALYSIS (Analysis required)
-Issue is completely implemented::: -> REVIEW (Done)
+Solution accepted::: -> REVIEWED
+Solution rejected::: -> IN PROGRESS
 --
-Review::
+Reviewed::
 +
 --
-The Review stage consists of the **Internal review** and the **Change Control Board review**
+[horizontal]
+Who:: <<Integrator>>
+State Label:: Reviewed
+Actions::
+* Refine content and apply ASAM Editorial Guide
+* If relevant, apply project-specific writing rules and guidelines
+* Document any questions in the issue
+* Clarify minor questions with solution developer
+* If any major questions arise, change state back to Implemented
+DoR::
+* <<Integrator>> assigned
+DoD::
+* Solution completely integrated
+* Checked against ASAM Editorial Guide
+* Relevant pipelines pass
+* All questions documented as comments in issue
+Transitions:: 
+Solution implemented::: -> INTEGRATED
+Major questions::: -> IMPLEMENTED
+--
 
-**Internal review** +
-[horizontal]
-Who:: All project participants
-// {role-project-participant}
-Steps::
-. Submit feedback on the changes directly in the Merge/Pull Request
-* General feedback: Submit a comment on the Merge/Pull Request
-* Content specific feedback: Start a review in the changes tab of the Merge/Pull Request
-+
-NOTE: To start a review, write a comment on a diff as normal under the 'Changes' tab in a Merge/Pull Request and then select 'Start a review'. +
-Click https://docs.gitlab.com/ee/user/discussions/#starting-a-review[here^] for more information.
-+
-. If the review feedback requires further development work, the process restarts from the **Implementation** stage
-Tips::
-* Technical discussion happen in comments
 
-
-// .A demo of a review
-// image::gitlab/ReviewExample.gif[]
-
-**Change Control Board review** +
-[horizontal]
-Who:: CCB
-Steps::
-. If there are no unresolved comments or threads after two weeks, the CCB ends the review
-. The Merge/Pull Request is assigned to the Service Provider for **Integration**
-Transitions:: 
-Implementation insufficient::: -> IMPLEMENTATION (Review NOK)
-Implementation accepted::: -> INTEGRATION (Review OK)
---
-Integration::
-+
---
-[horizontal]
-Who:: Service Provider
-// {role-service-provider}
-Steps::
-. The Service Provider changes the status label to {requiresDocumentationWork-label}
-. The Service Provider refines the content in the Merge/Pull Request
-.. The content is adjusted to adhere to ASAM style and writing conventions
-// .. The content is adjusted to adhere to xref:compendium:Editorial_guide.adoc[ASAM style and writing conventions]
-.. General editorial rewrites to ensure homogeneity of content
-+
-IMPORTANT: Questions on content should be addressed to the original issue assignee who will be responsible for ensuring a satisfactory resolution.
-In the case that questions lead to significant changes to the content, the MR is reopened for review on resolution.
-+
-. On completion of the integration:
-.. Set the status label of the Merge/Pull Request to {requiresCCBReview-label}
-* Set to squash commits with https://www.tutorialspoint.com/what-is-a-fast-forward-merge-in-git[fast-forward merging^] (default).
-// * Squash commit message MUST adhere to the xref:compendium:Guidelines/repo-commit_conventions.adoc[**Commit Message Conventions**]
-Transitions:: 
-Issue is rejected::: -> CLOSED (Rejected)
-Issue can or will not be fixed::: -> CLOSED (Won't fix)
-Integration complete::: -> MERGE (Done)
---
-Merge::
-+
---
-[horizontal]
-Who:: CCB
-Steps::
-. CCB performs a final review of the integrated content
-* Is the original content still correctly represented?
-* Are all guidelines & conventions maintained?
-* Are all discussions resolved?
-* Does it have a https://medium.com/@catalinaturlea/clean-git-history-a-step-by-step-guide-eefc0ad8696d[clear commit history^]?
-// * Does it have a https://medium.com/@catalinaturlea/clean-git-history-a-step-by-step-guide-eefc0ad8696d[clear commit history^] that adheres to the xref:compendium:Guidelines/repo-commit_conventions.adoc[]?
-. If the review is not passed, return to **Integration**
-. If the review is passed and the CCB can merge, the CCB merges the Merge/Pull Request back to the trunk
-.. The CCB removes the status label and closes the linked issue
-. If the review is passed but the CCB may not merge, the CCB changes the status label to {requiresMerge-label}
-Tips::
-- Use a https://help.github.com/articles/using-pull-requests/[pull request^] for code reviews.
-- Delete local and remote feature branches after merging.
-Transitions:: 
-Integration insufficient::: -> INTEGRATION (Review NOK)
-Integration accepted::: -> CLOSED (Review OK)
---
 ====
+
+== Due dates
+The due date in issues shall be used to indicate the expected finalization date for the development of the solution.
+This date marks the point at which the solution can be reviewed and, ideally, accepted for integration. +
+It is important to note that the development of the solution does not include its implementation!
+**Make sure that there is at least 4 weeks of time after the due date to integrate it before any final deadline of the project.**
+
+ASAM recommends that each issues takes no more than 4 weeks to create a solution for it.
+This means that issues where the solution is expected to be more complex should be split into multiple smaller ones, each with an expected resolution time of 4 weeks or less.
+
+When scheduling an issue, set its due date according to the issue's estimate. 
+If an issue is split into multiple sub-issues, assign due dates for the issue as well as the sub-issues. 
+In this case, the due date of the issue itself may exceed the 4 week recommendation.
+However, the sub-issues should then stick to that limit.
+
+== Generic roles
+The workflow contains some generic roles that each project may implement differently.
+
+=== Workflow Manager
+The role "**Workflow Manager**" is an abstract role. 
+Each project decides how and whom to assign it to. +
+Typical examples are:
+
+* Project Lead
+* Office Responsible
+* Subgroup leads, if available
+* Change Control Board (CCB), if defined
+
+Typically, the Workflow Manager is experienced with using remote repositories.
+
+=== Integrator
+The Integrator is responsible for integrating the developed solution into the standard.
+Their task is to make sure the writing style is kept consistent and the ASAM editorial rules are met. 
+
+The Integrator may be a service provider tasked with documentation efforts in the project.
+Alternatively, the Integrator may be the Office Responsible or a member of the project group.
+
+=== Integration Reviewer
+The Integration Reviewer is responsible for reviewing the integrated solution created by the <<Integrator>>. +
+They may be an individual or a group. 
+Typically, this is also the <<Workflow Manager>>.
+In the case that a project has a defined Change Control Board, it shall take on this role.
 
 //end::body[]
