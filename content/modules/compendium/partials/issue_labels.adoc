@@ -14,7 +14,7 @@
 //ACTUAL LABELS
 :isTypeBug-label: pass:[<label style="background: #428BCA; color: white">isType:Bug</label>]
 :isTypeFeature-label: pass:[<label style="background: #428BCA; color: white">isType:Feature</label>]
-:isTypeDocumentation-label: pass:[<label style="background: #428BCA; color: white">isType:Documenatation</label>]
+:isTypeDocumentation-label: pass:[<label style="background: #428BCA; color: white">isType:Documentation</label>]
 
 // RESOLUTION TYPE LABELS
 :resolutionTypeDuplicate-label: pass:[<label style="background: Grey; color:black">resolutionType:Duplicate</label>]

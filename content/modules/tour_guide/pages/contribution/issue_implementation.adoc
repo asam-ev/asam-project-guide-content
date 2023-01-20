@@ -1,4 +1,4 @@
-= Issue implementation
+= Solution development
 :description: Explains the basic contribution workflows.
 :keywords: basics
 :page-layout: progress
@@ -25,7 +25,7 @@ Simulation domain::
 |===
 a|
 == Introduction
-Projects in the Simulation domain use trunk-based repositories in either GitLab or GitHub.
+Projects at ASAM use trunk-based repositories.
 
 A trunk-based repository is a repository that has a single central branch (the "trunk").
 This trunk contains the official and reviewed state of a project. +
@@ -41,8 +41,8 @@ IMPORTANT: Never work on the trunk directly -- always work in separate branches!
 
 == The trunk
 The central branch ("trunk") can only be merged to by the ASAM office, the Project Lead, or the project's Change Control Board (CCB).
-Tags on this specific branch represent the respective releases.
-These tags use https://semver.org/[semantic versioning^].
+Tags are used to identify fixed states of the repository, including official releases and other versions where the project deems it necessary. 
+Version-based tags use https://semver.org/[semantic versioning^].
 
 Changes **MUST** be added through branches created from the trunk or another branch. +
 These branches **SHOULD** be short-lived (<2 weeks) and regularly merged back. +
@@ -50,18 +50,15 @@ These branches **MAY** be squashed and **MUST** be merged via fast-forward merge
 
 == Implementing issues
 . Once an issue can be implemented, the issue's assignee creates a branch with an associated Merge or Pull Request from the issue.
-* Each branch must have a parent issue and each issue may have zero or one child branches
-. Change the issue status label to {requiresMergeRequest-label} to indicate that a proposal is being implemented for this issue
-. Begin submitting work via commits to the develop branch
+* Each branch must have a parent issue and each issue may have zero or one child branches.
+. Begin submitting work via commits to the branch.
 .. Involved project participants review and comment changes through the associated Pull/Merge Request.
-These comments work identically to those described in xref:tour_guide:contribution/contribute_with_issues.adoc#_discuss_issues["discuss issues"]
-. Review implementation progress of issue with the Subgroup Lead and the other project participants in Subgroup meetings.
+These comments work identically to those described in xref:tour_guide:contribution/contribute_with_issues.adoc#_discuss_issues["discuss issues"].
+. Review implementation progress of issue with other project participants in Subgroup or project meetings.
 // {role-sg-lead} {role-project-participant} 
 Discussions and their results are documented in the Pull/Merge Request
-. Once the group agrees that the feature is complete:
-.. Change the issue status label to {requiresCCBReview-label}
+. Once the group agrees that the feature is complete, the issue state transitions to {isStateImplemented-label}.
 .. If the Merge/Pull Request is set to "Draft:", remove the draft flag from the Merge/Pull Request name
-.. Add a comment to the Merge/Pull Request to ask for a review by the whole project: ``/request_review @all``.
 
 Tips::
 * If a branch cannot be short-lived, rebase frequently to incorporate upstream changes.
@@ -72,7 +69,6 @@ Tips::
 This way, the Merge/Pull Request (and its branch) are already accessible through the parent issue.
 ** Adding "DRAFT: " in front of a Merge/Pull Request's name marks it as not ready for merge and disables the "Merge" button.
 This way, the Merge/Pull Request (and its branch) cannot be concluded by accident.
-// * Mark passages which are not ready for viewing in the final output as draft (see xref:compendium:How-Tos/mark_parts_as_draft.adoc[])
 |===
 --
 Classic domain::

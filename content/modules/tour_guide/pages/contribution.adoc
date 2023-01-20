@@ -137,6 +137,7 @@ Actions::
 DoR::
 * Project Lead assigned
 * Relevant Merge/Pull Request linked in issue
+* "Draft:" flag removed from related Merge/Pull request
 DoD::
 * Solution reviewed 
 * Feedback documented in Merge/Pull Request
@@ -220,7 +221,7 @@ Merge Conflict::: -> INTEGRATED
 == Due dates
 The due date in issues shall be used to indicate the expected finalization date for the development of the solution.
 This date marks the point at which the solution can be reviewed and, ideally, accepted for integration. +
-It is important to note that the development of the solution does not include its implementation!
+It is important to note that the due date of the solution does not account for integration!
 **Make sure that there is at least 4 weeks of time after the due date to integrate it before any final deadline of the project.**
 
 ASAM recommends that each issues takes no more than 4 weeks to create a solution for it.
