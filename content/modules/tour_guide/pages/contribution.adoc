@@ -137,6 +137,7 @@ Actions::
 DoR::
 * Project Lead assigned
 * Relevant Merge/Pull Request linked in issue
+* "Draft:" flag removed from related Merge/Pull request
 DoD::
 * Solution reviewed 
 * Feedback documented in Merge/Pull Request
