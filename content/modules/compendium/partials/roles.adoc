@@ -80,14 +80,17 @@ Each of these groups may be led by a __Subgroup Lead__.
 
 
 |(6)
-|
-a|A subgroup of experts in the project responsible for internal alignment of topics, release management & approval/review of pull requests. This is an optional additional role in a project. +
+|image:compendium:Concepts/roles_overview-ccb_member.svg[]
+a|A subgroup of *experts from the project* taking on this *optional* and *additional role*.
+The __Change Control Board (CCB)__ is responsible for internal alignment of topics, release management and approval/review of pull requests: 
+
 * Issue and MR/PR review
 * Classification of issues
 * Assignment of issues to solution developer(s)
 * Milestone monitoring and planning
 * Ensure alignment of individual Subgroup topics
 * Release management
+
 Commitment to the CCB is for the duration of a project.
 Average commitment entails 1-2 hour meetings every 2 weeks during active development and offline review of content.
 
