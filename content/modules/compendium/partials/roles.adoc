@@ -78,24 +78,37 @@ a|An **active** __Project Participant__ *leading* the activities of a *subgroup*
 Many projects divide up their activities into so-called subgroups which focus on specific aspects of a project.
 Each of these groups may be led by a __Subgroup Lead__.
 
+
+|(6)
+|
+a|A subgroup of experts in the project responsible for internal alignment of topics, release management & approval/review of pull requests. This is an optional additional role in a project. +
+* Issue and MR/PR review
+* Classification of issues
+* Assignment of issues to solution developer(s)
+* Milestone monitoring and planning
+* Ensure alignment of individual Subgroup topics
+* Release management
+Commitment to the CCB is for the duration of a project.
+Average commitment entails 1-2 hour meetings every 2 weeks during active development and offline review of content.
+
 |===
 
 === Other roles
 [cols = ">1,^5,20", frame=none, stripes=hover]
 |===
 // 3+<s|[.underline]#Supporting roles#
-|(6)
+|(7)
 |image:compendium:Concepts/roles_overview-or.svg[]
 a|ASAM contact of the project. +
 An __Office Responsible (OR)__ is an *ASAM employee* focussed on *coordinating project processes* and the *background work* behind a project.
 
-|(7)
+|(8)
 |image:compendium:Concepts/roles_overview-tw.svg[]
 a|Editor and writing support. +
 A __Technical Writer__ *supports* the *creation of documents*.
 They ensure **ASAM's Editorial Guide** is applied and the document is formalized.
 
-|(8)
+|(9)
 |image:compendium:Concepts/roles_overview-tsc.svg[]
 a|*Committee at ASAM reviewing a project's state*. +
 The TSC is responsible for *approving or rejecting* budgets, projects and proposals as well as releases of project results, such as standards or concept papers.
