@@ -12,6 +12,10 @@ Welcome to the **ASAM Project Guide**!
 This guide provides an overview over all relevant basics to get you up and running for your ASAM project.
 It also contains a compendium if you need to look up specific topics.
 
+NOTE: This guide is a pre-release and constantly being updated.
+Feel free to submit any feedback you have using the btn:[Submit feedback] button.
+If you need to reference a specific version of this guide, make sure to select that version from the version selector at the bottom left.
+
 ASAM tries to keep technical requirements for participation as low as possible.
 One example is that you do not need to install any software on your computer to be able to participate.
 All the tools most project members needs in their project are hosted online.
