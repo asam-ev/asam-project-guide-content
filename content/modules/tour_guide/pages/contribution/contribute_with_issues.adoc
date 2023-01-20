@@ -1,4 +1,4 @@
-= Contribute with issues
+= The use of issues
 :description: Explains the basic contribution workflows.
 :keywords: basics
 :page-layout: progress
