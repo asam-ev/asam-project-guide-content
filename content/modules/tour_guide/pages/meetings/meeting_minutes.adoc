@@ -46,3 +46,5 @@ Sharepoint - MS Word::
 . Fill the word file with content
 . Your file should be saved automatically
 --
+
+//end::body[]
