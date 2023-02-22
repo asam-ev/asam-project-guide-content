@@ -1,4 +1,4 @@
-= Meeting types
+= Meeting notes
 
 include::compendium:partial$_attributes.adoc[]
 

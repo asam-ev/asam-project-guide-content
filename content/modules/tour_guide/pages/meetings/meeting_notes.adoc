@@ -1,4 +1,4 @@
-= Meeting minutes
+= Meeting notes
 :description: Contains all information on meeting minutes
 :keywords: meeting, meeting_minutes
 :page-layout: progress // TODO
