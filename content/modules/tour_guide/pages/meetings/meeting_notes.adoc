@@ -13,7 +13,7 @@ include::tour_guide:partial$_attributes.adoc[]
 This page outlines ASAM's rules for meeting notes and how to create them with issue templates.
 Meeting notes (minutes) are to be taken in the project's GitLab or SharePoint.
 The appropriate place in each case contains a template for meeting notes that shall be used.
-The designated <<Minute taker, minute taker>> is responsible for taking the notes.
+The designated xref:tour_guide:meetings/guidelines.adoc#_minute_taker[minute taker] is responsible for taking the notes.
 
 The notes must contain all important decisions (including cast votes).
 Additionally, the next scheduled meeting shall be listed here as well.
