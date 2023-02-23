@@ -10,17 +10,17 @@
 include::tour_guide:partial$_attributes.adoc[]
 
 == Overview
-This page outlines ASAM's rules for meeting notes and how to create them with issue templates.
-Meeting notes (minutes) are to be taken in the project's GitLab or SharePoint.
-The appropriate place in each case contains a template for meeting notes that shall be used.
-The designated xref:tour_guide:meetings/guidelines.adoc#_minute_taker[minute taker] is responsible for taking the notes.
+This page outlines ASAM's rules for meeting notes and how to create them with issue templates. +
+Meeting notes (minutes) are to be taken in the project's GitLab repository or its SharePoint.
+A template is provided by ASAM in the respective location.
+The designated xref:tour_guide:meetings/guidelines.adoc#_minute_taker[minute taker] is responsible for taking the notes using this template.
 
 The notes must contain all important decisions (including cast votes).
 Additionally, the next scheduled meeting shall be listed here as well.
 
 == How
 ASAM projects require protocols to be written in one of two tools:
-one is xref:compendium:Tools/remote_repo.adoc[GitLab] (through issues) and the other is with Microsoft Word on the project's xref:compendium:Tools/sharepoint.adoc[SharePoint]. +
+xref:compendium:Tools/remote_repo.adoc[GitLab] (through issues) or Microsoft Word on the project's xref:compendium:Tools/sharepoint.adoc[SharePoint]. +
 You can ask your Project Lead about your project.
 
 [tabs]
