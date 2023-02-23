@@ -1,5 +1,5 @@
 = Meeting notes
-:description: Contains all information on meeting minutes
+:description: Contains all information on meeting notes
 :keywords: meeting, meeting_minutes
 :page-layout: progress // TODO
 :page-progress_bar: progress_bar_simple-polls_and_voting.svg // TODO
@@ -10,7 +10,7 @@
 include::tour_guide:partial$_attributes.adoc[]
 
 == Overview
-This page outlines ASAM's rules for meeting minutes and how to create them with issue templates.
+This page outlines ASAM's rules for meeting notes and how to create them with issue templates.
 Meeting notes (minutes) are to be taken in the project's repository.
 The repository contains a template for meeting notes that shall be used.
 The designated <<Minute taker, minute taker>> is responsible for taking the notes.
@@ -19,32 +19,36 @@ The notes must contain all important decisions (including cast votes).
 Additionally, the next scheduled meeting shall be listed here as well.
 
 == How
-At ASAM, protocols are written in two main ways.
-One is on GitLab and the other is on SharePoint.
-Which of the two ways is used in your project you can ask your project lead.
+ASAM projects require protocols to be written in one of two tools:
+one is xref:compendium:Tools/remote_repo.adoc[GitLab] (through issues) and the other is with Microsoft Word on the project's xref:compendium:Tools/sharepoint.adoc[SharePoint]. +
+You can ask your Project Lead about your project.
 
 [tabs]
 ====
 GitLab::
 +
 --
-. Open the GitLab repository of your ASAM Standardization project ( menu:Simulation[OpenXXX > OpenXXX Standard] )
+. Open the GitLab repository of your ASAM standardization project ( menu:Simulation[OpenXXX > OpenXXX Standard] )
 . Use the sidebar to open menu:Issues[List]
 . Use the button btn:[New issue] to create a new issue
-. Use the drop down list to select the meeting minutes template menu:Description[Meeting_minutes]
-. Follow the instructions that are displayed in the btn:[Write]-field
+. Use the drop down list to select the meeting notes template menu:Description[Meeting_minutes]
+. Follow the instructions that are displayed in the btn:[Write] field
 . Add yourself as **Assignee**
-. Use the button btn:[Create issue] to publish the meeting minutes issue
+. Use the button btn:[Create issue] to publish the meeting notes issue
+
+TIP: You can update the issue after saving.
+All changes will be recorded in its history.
 --
-Sharepoint - MS Word::
+Sharepoint/Microsoft Word::
 +
 --
-. Open the SharePoint page of your ASAM Standardization project
-. Use the sidebar to open the documents folder
-. Navigate to 02_meeting
-. Paste a copy of the **Template - Meeting Minutes**-file into the folder of your project meeting
-. Fill the word file with content
-. Your file should be saved automatically
+. Open the **SharePoint page** of your ASAM standardization project
+. Use the sidebar to open the menu:documents[] folder
+. Navigate to menu:02_meeting[]
+. Paste a copy of the **Template - Meeting Minutes** file into the folder of your project meeting
+. **Fill** the word file with content
+
+TIP: Your file will be saved automatically.
 --
 
 //end::body[]
