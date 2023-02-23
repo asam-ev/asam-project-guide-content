@@ -50,5 +50,6 @@ Sharepoint/Microsoft Word::
 
 TIP: Your file will be saved automatically.
 --
+====
 
 //end::body[]
