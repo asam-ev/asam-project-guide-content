@@ -1,7 +1,7 @@
 = Meeting notes
 :description: Contains all information on meeting notes
 :keywords: meeting, meeting_minutes
-:page-layout: progress // TODO
+:page-layout: progress
 :page-progress_bar: progress_bar_simple-polls_and_voting.svg // TODO
 :tour_guide_small:
 
