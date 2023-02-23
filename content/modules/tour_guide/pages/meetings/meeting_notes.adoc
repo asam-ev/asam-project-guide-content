@@ -2,7 +2,7 @@
 :description: Contains all information on meeting notes
 :keywords: meeting, meeting_minutes
 :page-layout: progress
-:page-progress_bar: progress_bar_simple-polls_and_voting.svg // TODO
+:page-progress_bar: progress_bar_simple-meeting_notes.svg
 :tour_guide_small:
 
 //tag::body[]
