@@ -2,6 +2,7 @@
 ** xref:meetings.adoc[]
 *** xref:meetings/types.adoc[]
 *** xref:meetings/guidelines.adoc[]
+*** xref:meetings/meeting_notes.adoc[]
 *** xref:meetings/polls_votes.adoc[]
 *** xref:meetings/decisions_and_escalations.adoc[]
 ** xref:sharepoint.adoc[]

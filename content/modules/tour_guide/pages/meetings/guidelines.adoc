@@ -56,7 +56,7 @@ The order of responsibility regarding the taking of minutes is as follows:
 The minute taker has the following responsibilities:
 
 * **Before the meeting**
-** Create the <<Meeting notes,meeting notes>> document ahead of time
+** Create the xref:tour_guide:meetings/meeting_notes.adoc[meeting notes] document ahead of time
 ** Add the provided agenda to the meeting notes
 * **During the meeting**
 ** Document the participants as well as missing meeting members
@@ -74,7 +74,7 @@ The minute taker has the following responsibilities:
 == Meeting agenda
 The <<Meeting host,host>> of the meeting is responsible for providing a meeting agenda ahead of time. +
 The agenda must be shared in the invite to the meeting.
-The agenda also has to be included in the <<Meeting notes,meeting notes>>.
+The agenda also has to be included in the xref:tour_guide:meetings/meeting_notes.adoc[meeting notes].
 
 Each agenda must at least have the following contents:
 
@@ -107,15 +107,6 @@ This list also contains information on the group or groups each participant is p
 
 == Polls and voting
 These are covered in xref:tour_guide:meetings/polls_votes.adoc[].
-
-== Meeting notes
-Meeting notes (minutes) are to be taken in the project's repository.
-The repository contains a template for meeting notes that shall be used.
-The designated <<Minute taker, minute taker>> is responsible for taking the notes.
-
-The notes must contain all important decisions (including cast votes).
-Additionally, the next scheduled meeting shall be listed here as well.
-
 
 == Best practices
 * Schedule regular meetings at least every 6-8 weeks
