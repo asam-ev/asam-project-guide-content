@@ -1,4 +1,5 @@
 * xref:index.adoc[]
+* xref:tool_setup.adoc[]
 ** xref:meetings.adoc[]
 *** xref:meetings/types.adoc[]
 *** xref:meetings/guidelines.adoc[]

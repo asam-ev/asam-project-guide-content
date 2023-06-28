@@ -17,15 +17,15 @@ Feel free to submit any feedback you have using the btn:[Submit feedback] button
 If you need to reference a specific version of this guide, make sure to select that version from the version selector at the bottom left.
 
 ASAM tries to keep technical requirements for participation as low as possible.
-One example is that you do not need to install any software on your computer to be able to participate.
-All the tools most project members needs in their project are hosted online.
+One example is that there is no need to install any software to be able to participate.
+All the tools most project members need in their projects are hosted online.
 They can be accessed through any standard web browser. +
-The only thing you need to set up is your account.
-To get started, follow the xref:tour_guide:index.adoc[guided tour].
+The only thing needed to get started is an account.
+To get help with getting setup, follow the xref:tour_guide:index.adoc[guided tour].
 
-If you have any questions or feedback, do not hesitate to contact your ASAM Office Responsible.
+If you have any questions or feedback, do not hesitate to contact the xref:compendium:Concepts/roles-overview.adoc[ASAM Office Responsible (OR)].
 
-NOTE: This guide assumes you already know who and what ASAM is.
+NOTE: This guide assumes prior knowledge of who and what ASAM is.
 For more information, refer to the https://www.asam.net/about-asam/[ASAM website^].
 
 == Quick access

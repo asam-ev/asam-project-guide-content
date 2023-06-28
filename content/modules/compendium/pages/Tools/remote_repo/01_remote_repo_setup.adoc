@@ -32,7 +32,7 @@ include::compendium:partial$icon_reminder.adoc[tag=online-access]
 //tag::setup[]
 [tabs]
 ====
-GitLab::
+DevOps::
 +
 --
 [cols="^1,8", frame=none, grid=none]
@@ -40,6 +40,10 @@ GitLab::
 |{gitlab-icon-norole} +
 {gitlab-url}[ASAM GitLab^]
 a|== Context
+The choice of DevOps platform depends on the project.
+Most ASAM projects use https://code.asam.net/[ASAM's GitLab instance^].
+If you are unsure which type of remote repository your project is using, ask your xref:compendium:Concepts/roles-overview.adoc[ASAM Office Responsible (OR)].
+
 All specification-related documents are stored and updated in the project's remote (or online) repository. +
 This GitLab instance is hosted and managed directly by ASAM.
 The OR will create the account and the user must then set it up.
@@ -61,12 +65,10 @@ You will be prompted to upload an SSH key.
 See xref:compendium:Tools/git/01_git_setup.adoc#_optional_ssh_key_pair[how to setup secure SSH connection] for instructions on generating and uploading the SSH keys.
 **This is only required IF you use git locally in addition to GitLab.**
 
-NOTE: The "ASAM SVN" login is deprecated and will be removed in the future.
-
 
 == Troubleshooting / Known Issues
-=== I have not received a mail from "GitLab"
-Ask the ASAM office to support you by creating your GitLab account.
+=== I have not received a mail from GitLab
+Ask the OR to support you by creating your GitLab account.
 
 === I forgot my password and cannot use the login anymore
 Click btn:[Forgot your password?] and follow the instructions.
@@ -79,33 +81,44 @@ Ask the ASAM office to grant you the correct rights according to your role in th
 See "I cannot access my project's repository" above.
 |===
 --
-GitHub::
+Sharepoint::
 +
 --
 [cols="^1,8", frame=none, grid=none]
 |===
-|{github-icon-norole} +
-{github-url}[ASAM e.V. on GitHub^]
+
+|{sharepoint-icon} +
 a|== Context
-All specification-related documents are stored and updated in the project's remote (or online) repository. +
-This GitHub instance is an online service that ASAM uses.
-The user must create an account or use an existing one they have and set it up.
-The OR will then add the account the to respective group or project.
+Sharepoint is used at ASAM to exchange and collaborate on files and documents that are not directly part of the deliverables of a standard. These are files that might not need as strict versioning or where collaboration is preferred on the basis of the Office365 platform. It also serves as the project’s internal landing page.
 
 == Result
-The user has created and set up their repository account and can access the correct project repositories.
+* You can access Sharepoint (shared folders)
+* You can add and download files from Sharepoint
 
 == Prerequisites
-None
+* You have enrolled in the project and provided your email address.
 
 == How
+The ASAM office sets up the project Sharepoint.
+If this is your first ASAM project, you will receive an email invitation to join the ASAM Microsoft Organisation. 
+You must accept this invitation to access project pages.
+On accepting the invitation, you will receive an additional email with a link to the project's sharepoint.
 
-. Follow the online instructions on https://docs.github.com/en/get-started/signing-up-for-github/signing-up-for-a-new-github-account[signing up for a new GitHub account^]
-.. If you already have a GiitHub account, you can skip this step.
-. Send your account name to your OR. +
-You will receive a response from them when your account has been granted the rights to access and contribute to the project.
+== Troubleshooting / Known Issues
+
+=== I cannot access my Sharepoint folder
+Try navigating to the parent folder and then access the target folder from there again.
+If this does not work: Check with your ASAM contact if your access to the folder has been revoked or the folder has been renamed.
+
+=== My Microsoft account differs from my contact mail
+Contact your ASAM Office Responsible and provide them with both your Microsoft account email and your contact email.
+Make sure to mark each clearly to prevent confusion.
+
+The ASAM office will send an invite to your Microsoft account. 
+After you (or your company's IT) has accepted the invitation, ASAM will change your user email to the other one.
+This will let you access Teams and Sharepoint with your Microsoft account while sending invites to your contact email.
+
 |===
---
 ====
 //end::setup[]
 //end::body[]
