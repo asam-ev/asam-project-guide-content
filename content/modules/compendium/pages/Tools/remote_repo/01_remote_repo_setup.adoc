@@ -75,7 +75,7 @@ Click btn:[Forgot your password?] and follow the instructions.
 
 [#no-access]
 === I cannot access my project's repository
-Ask the ASAM office to grant you the correct rights according to your role in the project.
+Ask the OR to grant you the correct rights according to your role in the project.
 
 === I cannot access the "Common" group
 See "I cannot access my project's repository" above.
