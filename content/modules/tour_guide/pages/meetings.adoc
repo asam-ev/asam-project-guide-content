@@ -10,15 +10,15 @@ include::tour_guide:partial$_attributes.adoc[]
 //tag::body[]
 == Overview
 
-All projects at ASAM consist of at least three independent project members.
-Therefore, no project can thrive without meetings.
+All projects at ASAM consist of at least 3 member companies.
+A key part of an ASAM project is collaboration and discussion through meetings.
 These meetings provide the opportunities to get updates and make decisions.
 
 In this section you will learn about meetings in ASAM projects, particularly
 
 * the xref:tour_guide:meetings/types.adoc[types of meetings]
 * ASAM's xref:tour_guide:meetings/guidelines.adoc[meeting guidelines]
-* how xref:tour_guide:meetings/polls_votes.adoc[polls and votings] work
-* about xref:tour_guide:meetings/decisions_and_escalations.adoc[decisions and escalation of topics]
+* how xref:tour_guide:meetings/polls_votes.adoc[polls and votings]
+* about xref:tour_guide:meetings/decisions_and_escalations.adoc[decision making and the escalation path]
 
 //end::body[]
