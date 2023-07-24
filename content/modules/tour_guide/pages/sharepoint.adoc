@@ -8,28 +8,23 @@ include::tour_guide:partial$_attributes.adoc[]
 
 //tag::body[]
 == Project landing page
-Every project at ASAM has its own Microsoft Sharepoint.
-It is initially prepared by the ASAM Office.
-Each Sharepoint's start page acts as the main access webpage for the project team. +
-Each project may design their pages differently.
-The associated ASAM Office Responsible, together with the Project Lead, populates and maintains the Sharepoint's structure and content.
+Every project at ASAM has its own Microsoft Sharepoint dashboard that acts as the main landing page for the project group. +
+The OR, together with the Project Lead, populates and maintains the Sharepoint's structure and content.
 It is the responsibility of each presenter, however, to upload their presentation material. +
 The following image shows an example.
 
 image:tour_guide:Sharepoint_example.png[Sharepoint start page example]
 
-== Folder structure
-Every project at ASAM has its own Microsoft Sharepoint that uses the same base folder structure.
-It stores documents that are project related but not directly content for the project. +
-Sharepoint also serves as a project's landing page (webpage) for the group where news are shared, FAQs are hosted, and important links and files can be found.
+The Sharepoint area includes a link to project documents.+
+Every project at ASAM has its own Microsoft Sharepoint storage area, however all employ the same base folder structure.
 
-NOTE: You can use Sharepoint online or https://support.microsoft.com/en-us/office/sync-sharepoint-files-with-the-onedrive-sync-client-groove-exe-59b1de2b-519e-4d3a-8f45-51647cf291cd[synch it locally^].
+NOTE: Sharepoint can be used online or https://support.microsoft.com/en-us/office/sync-sharepoint-files-with-the-onedrive-sync-client-groove-exe-59b1de2b-519e-4d3a-8f45-51647cf291cd[synced locally^].
 
 [source]
 ----
 ├───01_administrative................................// this is where all administrative topics are stored
 │   ├───controlling..................................// contains all topics related to the controlling part of the project
-│   ├───ASAM <Projectname> Participant_list.xlsx.....// contains all enrolled project members with their contact details and their Subgroup assignments
+│   ├───<Projectname> Participant list.xlsx.....// contains all enrolled project members with their contact details and their Subgroup assignments
 │   └───<Projectname> Proposal.<extension>...........// the project proposal as .docx or .pdf or .html
 │
 ├───02_meetings......................................// contains folders with provided presentations and optional recordings of project meetings
@@ -38,16 +33,8 @@ NOTE: You can use Sharepoint online or https://support.microsoft.com/en-us/offic
 
 ----
 
-Each Sharepoint may also contain an archive containing information from previous project iterations.
+Storage areas for previous projects for the same standard are archived and available to project members on demand. 
 
-
-== What Sharepoint is used for
-In ASAM projects, Sharepoint is used to exchange information in the team that is not a direct result or content of development.
-It consists of a landing page specific to the project.
-
-In addition to the landing page and its webpage features (such as FAQs), the main aspect of Sharepoint is its documents storage.
-Sharepoint can be used to exchange files not directly used as project content (e.g. background information, studies, floor plans for meetings etc.).
-It also contains the approved project proposal as well as the current <<Participants list,participants list>>.  
 
 
 == What Sharepoint is NOT used for
@@ -56,15 +43,12 @@ Instead, such information has to be entered through the project's repository so 
 
 
 == Participants list
-IMPORTANT: This list may contain sensitive personal data and may, therefore, not be shared with external parties outside the project.
 
-Each Sharepoint contains a list of all participants in the related project.
-This list is set up initially based on the signups during the Proposal phase.
+Each Sharepoint contains a list of all participants in the corresponding project.
+This list is populated with enrollments during a project's proposal phase.
+However, participation and assignments may change during development.
+It is the responsibility of the OR to keep this document up to date.
 
-However, participation and assignments may change during development. +
-It is the responsibility of the Project Lead to keep this document up to date on at least a monthly basis.
-They may delegate this task to another project member.
-
-When you join a project, make sure that your contact information in the project's participant list is present, correct, and up-to-date.
+This list is the single source for all permissions in a project.
 
 //end::body[]
