@@ -84,9 +84,45 @@ This list also contains information on the group or groups each participant is p
 === Polls and voting
 These are covered in xref:tour_guide:meetings/polls_votes.adoc[].
 
-=== Best practices
-* Schedule regular meetings at least every 6-8 weeks
-* Send a reminder to all assignees with open topics with enough time ahead of the next meeting
-* If you want to give a presentation in a project meeting, upload your presentation in the meeting's "presentations" folder in your project's Sharepoint ahead of time
+=== Inactive project member
+An inactive project member is someone who is registered as a participant in a project on behalf a company, but repeatedly does not partake in meetings or any development activities. 
 
+Inactive participants make it difficult for a project to accurately gauge its available resources for project planning and may even hinder the democratic decision-making process at project group meetings.
+
+Participation in meetings is documented as a core requirement of compliance with ASAM's anti-trust guidelines.
+It is the task of project members and the OR to identify inactive project members.
+ASAM activities revolve around voluntary contributions of participants of companies and these are often on top of usual company-internal tasks.
+Everyone has busy periods and it is completely understandable that participation in ASAM projects may suffer.
+As a first step, inactive participants are contacted by the OR in order to clarify the issue.
+If no response is received or the original commitment is no longer possible, then the company in question is submitted to the project group for a vote to be removed. 
+
+Removed participants lose access to all project material and meetings.
+
+Rejoining an ASAM project is always possible should the resource situation change, and is subject to the usual process for <<Joining a running project, joining a running project>>.
+
+=== Joining a running project
+
+A member company may apply at any time to join a running project. +
+This is subject to:
+
+* A short presentation to the project by the company on their motivation for joining, their current activities and what they aim to bring to the project
+* Formal vote by the project group on whether to accept the request to join
+
+=== Best practices
+
+* Begin discussing document structure early on. This helps to structure discussions. This structure will continue to evolve over the course of the project.
+
+* Identify key terminology early on and define it to ease communication within the project.
+
+* Make use of the advantages of face to face meetings (discussion, fast resolution of items), prepare topics in advance to be addressed in such F2Fs.
+
+* Ensure regular review and reevaluation of project and subgroup status w.r.t. project milestones
+
+* If you have preexisting efforts that you want to contribute to the standard it is possible to transfer IP to ASAM to be used.
+
+* Ensure a project structure that enables resolution finding
+
+* Address meeting participants by name to ensure clear committments and responsibles
+
+* Use examples to demonstrate proposals for resolving features or issues
 //end::body[]
