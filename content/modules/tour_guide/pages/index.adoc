@@ -5,8 +5,6 @@
 :page-aliases: overview.adoc
 :tour_guide:
 :reftext: Guided tour
-:page-layout: progress
-:page-progress_bar: progress_bar_simple-setup.svg
 
 include::tour_guide:partial$_attributes.adoc[]
 
