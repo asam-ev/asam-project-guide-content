@@ -1,8 +1,6 @@
 = The use of issues
 :description: Explains the basic contribution workflows.
 :keywords: basics
-:page-layout: progress
-:page-progress_bar: progress_bar_simple-contributing_with_issues.svg
 :tour_guide_small:
 
 //tag::body[]
@@ -49,7 +47,7 @@ If an issue has a branch, the issue shall not be closed before the branch has be
 
 == Use issue templates
 
-Issues shall be created using the provided issue templates in the repository.
+Issues should be created using the provided issue templates in the repository.
 
 TIP: Each issue template contains a description (as comments) on when to use them and what content to add where.
 
@@ -59,15 +57,9 @@ image::compendium:gitlab/issue_template_example.png[title=Creating an issue from
 == Label issues correctly
 
 The use of issue labels is required for filtering and sorting issues more efficiently.
-Each issue and merge/pull request must apply general domain labels defined by ASAM. +
-A project may also have project-specific labels in addition to the default ones, specified directly in the project group.
+Each issue and merge/pull request shall apply workflow relevant state, resolution and type labels as prescribed by the contribution workflow.
 
-=== Introduce project-specific labels
-A group may introduce project-specific labels on top of the official ASAM ones that provide further filter options.
-If custom labels are introduced, the group must document these labels by providing a exhaustive label description with the label (i.e. in the GitLab/GitHub label).
-Additionally, the project may add the current label definitions in their project's README in their repository.
-
-The documentation shall follow the project's general documentation rules and language.
+A project may also define additional labels, for example for further technical categorization of issues. If such labels are introduced, the group shall document these labels by providing an exhaustive description with the label definition.
 
 
 == Discuss issues
@@ -121,7 +113,6 @@ Additionally, an issue may also be closed without resolution if
 
 
 == Reopen issues
-Issues shall not be reopened!
-If an issues has been closed by accident or has become relevant for other reasons again, a related issue shall be created instead.
+If the topics addressed in a closed issue become relevant again, an issue may be reopened. If the issue was created before the current project, its state is set to NEW in the contribution workflow.
 
 //end::body[]
