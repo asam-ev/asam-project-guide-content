@@ -17,15 +17,15 @@ Other deliverable items, as listed on this page, are optional.
 === Specification
 **Each ASAM standard contains at least one specification document.** +
 Specification documents contain normative information.
-Each Specification document may be prepended by its type.
+Each specification document may be prepended by its type.
 
-Typically, this is
+Typically, this is one of
 
-* a format description (data structure) **or**
-* a protocol definition **or**
+* a format description (data structure) 
+* a protocol definition 
 * an API
 
-and has the following properties:
+These have the following properties:
 
 * Platform-independent
 * Technology-independent
@@ -33,7 +33,7 @@ and has the following properties:
 * Implementation-independent
 * Does not contradict any other https://www.asam.net/standards/[ASAM standard^]
 
-**These documents is normative by default.** +
+**These documents are normative by default.** +
 They **may contain non-normative content** as long as it is clearly marked as such.
 
 
@@ -43,7 +43,7 @@ A Reference document contains information related to implementers.
 The name of each Reference document is prepended by its type or target audience. +
 For example, a Reference for programmers would be named "Programmers Reference". 
 
-**This information is non-normative.**
+**This information is normative.**
 
 === Guidelines
 A standard may contain one or more Guidelines documents. +
@@ -53,10 +53,10 @@ For example, a Guidelines document for modeling scenarios would be named "Modell
 
 **This information is non-normative.**
 
-== Supplemental material
+== Supplemental documents
 Sometimes, a project's deliverable does not fit any of the above. 
-In this case, it is considered to be a so-called "Supplementary" material. +
-Note that Supplemental material is only allowed if deemed absolutely necessary and if it is neither <<Specification>>, <<Reference>>, nor <<Guidelines>>.
+In this case, it is considered to supplemental material. +
+Note that supplemental material is only allowed if deemed absolutely necessary and if it is neither of type <<Specification>>, <<Reference>>, nor <<Guidelines>>.
 
 The following list contains common examples and is non-exhaustive. 
 
@@ -78,5 +78,5 @@ A typical example of an interface definition file is the Interface Description L
 
 === Example files
 Example files demonstrate a typical and standard-compliant implementation of the standard.
-
+Examples are always to be considered informative.
 //end::body[]

@@ -7,23 +7,20 @@ include::partial$_attributes.adoc[]
 {project-types-icon}
 
 == Overview
-ASAM developes its products and results in projects.
-Different result types require different approaches and conditions.
-For this reason, ASAM defines four project types, which further characterize the work to be done within the projects.
+ASAM develops its products and results in projects.
 
+Different projects entail different expectations towards the type of deliverables, although the quality expectations remain {description}
 
-image::Concepts/project_types_overview.drawio.svg[title="ASAM project types overview", width= 800]
-
-== Description
-A new project can be triggered by either a new idea, a previous Concept Paper, or a previously released Standard.
-The intended output of each project type is a document.
+ASAM project types and the expected deliverables are:
 
 * For a **Concept project**, the output is a Concept Paper (which can be the basis for a follow-up project)
 * For a **Standard Development project**, the output is the standard + optional supplemental documents
 * For a **Study project**, the output is a Study Report that details the findings of the project.
-* For an **Implementation project**, the output is **TODO**.
+* For an **Implementation project**, the output is software, tooling or reference implementations to support the use and adoption of one or more standards.
 
-Note that a new concept project is usually not triggered by a previous one.
+image::Concepts/project_types_overview.drawio.svg[title="ASAM project types overview", width= 800]
+
+
 
 // TODO: Project types need to be discussed by TSC first.
 
@@ -35,8 +32,8 @@ Concept::
 --
 [horizontal]
 Description:: Concept projects have the purpose to prepare the further development of existing ASAM standards or to prepare the development of new ASAM standards.
-They are typically chosen when the envisioned standard is complex and requires significant resources to even develop a sound and solid project proposal.
-Goal:: The goals of concept projects are to propose specific content for ASAM standards and/or to provide justification for the usefulness, practicability, and feasibility of the proposed content.
+They are typically chosen when the envisioned standard is complex and requires significant resources to develop initial concepts for a potential standard.
+Goal:: The goals of concept projects are to propose specific content for ASAM standards and/or to provide justification for the usefulness, practicability, and feasibility of the proposed content. This may include technology surveys or the carrying out of performance benchmarks.
 Repository suffix:: Concept
 Output:: Concept Paper
 --
@@ -85,6 +82,6 @@ Goal:: The goal of an implementation project is to create a tool or source code,
 NOTE: Promoting specific commercial tools shall be avoided.
 
 Repository suffix:: Implementation
-Output:: **TODO**
+Output:: Software tools or scripts
 --
 ====

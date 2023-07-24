@@ -11,7 +11,7 @@ include::tour_guide:partial$_attributes.adoc[]
 An ASAM project may have up to three types of meeting:
 
 [horizontal]
-<<Technical Steering Committtee (TSC) meetings>>:: Coordination within ASAM between multiple projects as well as the with the organization itself
+<<TSC meetings,Technical Steering Committtee (TSC) meetings>>:: Coordination within ASAM between multiple projects as well as the with the organization itself
 <<Project group meetings>>:: Coordination for the whole project and general project discussions
 <<Subgroup meetings>>:: Coordination within a subgroup of a project
 
@@ -25,7 +25,7 @@ Meeting minutes are also made available shortly after a meeting.
 Project leads shall be informed of any deadlines by their OR in advance. 
 All content for these meetings shall be submitted in advance in accordance with the deadlines set on the website. 
 
-The tasks and processes of the ASAM TSC are documented in the he https://www.asam.net/active-projects/resources/#[TSC Guidelines^].
+The tasks and processes of the ASAM TSC are documented in the https://www.asam.net/active-projects/resources/#[TSC Guidelines^].
 
 
 == Project group meetings
@@ -38,7 +38,7 @@ The most common examples for these meetings are
 
 A project group meeting is used to hold project level votes, align across subgroups and evaluate the overall status with respect to the project plan. 
 
-These meetings are recommended to be held in person (face to face). This must be clearly communicated in the meeting agenda and made available sufficiently in advance to allow for travel organisation.
+These meetings are recommended to be held in person (face to face). This must be clearly communicated in the meeting agenda and made available sufficiently in advance to allow for travel organization.
 
 ASAM requires project meetings to take place at least every 4 months. 
 ASAM recommends project group meetings take place at least every two months. 
