@@ -1,62 +1,45 @@
 = Meeting guidelines
 :keywords: meeting
-:page-layout: progress
-:page-progress_bar: progress_bar_simple-meeting_guidelines.svg
 :tour_guide_small:
 
 //tag::body[]
 
 include::tour_guide:partial$_attributes.adoc[]
 
-This page contains guidelines regarding all types of official meetings at ASAM. +
-The guidelines apply to every project level meeting (where the whole project is invited) and all Subgroup meetings (where the whole Subgroup is invited).
-These are considered official meetings in this context.
-Clarification or co-development calls as well as similar informal types of meetings do not have to follow these guidelines.
-They still may if they wish, of course.
+This page describes requirements and guidelines for all project and subgroup meetings.
 
-If you are hosting an official meeting, make sure to familiarize yourself with them ahead of time.
-
-WARNING: **An official meeting will not take place unless a minute taker is defined in advance!**
+Clarification or co-development calls as well as similar informal types of meetings may choose to follow these guidelines. Any decisions made in such informal meetings are not valid until reviewed and agreed on in at least a subgroup or project meeting.
 
 
 == Roles in meetings
 [cols="1,1", grid=cols, frame=none]
 |===
-a|=== Meeting host 
+a|=== Meeting initiator 
 a|=== Minute taker
 
-a|IMPORTANT: Project meetings are set up by the ASAM office, even when they are not the meeting host.
-All other meetings within a project (such as Subgroup meetings) have to be set up by the respective host.
 
-**Every meeting has a host.** +
+**Every meeting has an initiator.** +
 This is the person who calls the meeting.
-The host has the following responsibilities:
+For project group meetings, the initiator is the project lead by default.
+The initiator has the following responsibilities:
 
-* **Define the <<Minute taker,minute taker>>.**
-They can take that role themselves if they wish.
-If not, the assignee has to agree to this task first.
-* Provide the <<Meeting agenda,**agenda**>> for the meeting
-* <<Setting up a meeting,**Set up the meeting**>> and send out the <<Whom to invite,**invites**>> (exception: project meetings are set up by the ASAM office in coordination with the host)
-* **Moderate** the meeting
-* Ensure to **stay within the defined timetable**
-* If necessary, **assign tasks** with due dates to participants (assignees)
-* Ensure that **minutes** are taken and send out the link to them afterwards
-* **Follow up** with assignees on assigned tasks after the meeting
+* **Before the meeting**
+** Ensure a <<Minute taker,minute taker>> is defined.
+** Provide the <<Meeting agenda,**agenda**>> for the meeting.
+* <<Setting up a meeting,**Set up the meeting**>> and send out the <<Whom to invite,**invites**>> 
+* **During the meeting**
+** **Moderate** the meeting
+** If necessary, **assign tasks** with due dates to participants
+* **After the meeting**
+* Ensure that **minutes** are shared with participants.
 
-a|The minute taker is designated by the <<Meeting host,meeting host>>.
-This may be the host themselves. +
-However, the host may not just appoint role to a project member without their consent. 
-The order of responsibility regarding the taking of minutes is as follows:
-
-. Host (since they usually do not need to travel)
-. Service Provider
-. Project Lead
-. Office Responsible
+a|The minute taker is designated by the <<Meeting initiator,meeting initiator>>.
+This may be the initiator themselves. +
 
 The minute taker has the following responsibilities:
 
 * **Before the meeting**
-** Create the xref:tour_guide:meetings/meeting_notes.adoc[meeting notes] document ahead of time
+** Create the xref:tour_guide:meetings/meeting_notes.adoc[meeting minutes] document ahead of time
 ** Add the provided agenda to the meeting notes
 * **During the meeting**
 ** Document the participants as well as missing meeting members
@@ -67,26 +50,19 @@ The minute taker has the following responsibilities:
 ** Request missing documents and links from the responsible participants
 ** Update the notes with delivered updates (e.g. links to files)
 ** Finalize the notes once everything has been provided
-** Inform the host in case of overdue tasks
+** Inform the initiator in case of overdue tasks
 |===
 
+== Best practices 
 
-== Meeting agenda
-The <<Meeting host,host>> of the meeting is responsible for providing a meeting agenda ahead of time. +
-The agenda must be shared in the invite to the meeting.
-The agenda also has to be included in the xref:tour_guide:meetings/meeting_notes.adoc[meeting notes].
+**Meeting agenda**
 
-Each agenda must at least have the following contents:
+A well-structured agenda helps keep meetings organized, efficient, and on track, ensuring that important issues are covered, and goals are achieved within the allocated time.
 
-* https://www.asam.net/active-projects/resources/[Antitrust Reminder^]
-* scheduled votes for the meeting
-* documentation of participants
-* voting template
-* agenda items
+The <<Meeting initiator,initiator>> of the meeting shall provide a meeting agenda at the latest 1 week in advance of a meeting. 
 
-
-== Whom to invite
-* The target audience depends on your meeting type.
+=== Whom to invite
+* The target audience depends on the meeting type.
 * While a project is still in the early phase, people will likely be moving from group to group
 * For meetings within a group of a project, send the invite to those emails currently registered for the group
 * For full project meetings, send the invite to the project's mailing list
@@ -98,17 +74,17 @@ NOTE: The list of project participants can be found in the xref:tour_guide:share
 This list also contains information on the group or groups each participant is part of.
 
 
-== Setting up a meeting
+=== Setting up and running a meeting
 // * If you have a Teams license, you can set up a Teams meeting directly in the project's Teams channel.
 // See xref:compendium:How-Tos/meetings_in_teams.adoc[].
-* Feel free to use whatever solution you or your company normally use.
-* If your company does not provide you with a suitable solution, send the details to your ASAM representative and they will assist (either with Teams or Zoom).
+* All meetings for a project are set up by its OR
+* All meetings are hosted using ASAM's Microsoft Teams platform
 
 
-== Polls and voting
+=== Polls and voting
 These are covered in xref:tour_guide:meetings/polls_votes.adoc[].
 
-== Best practices
+=== Best practices
 * Schedule regular meetings at least every 6-8 weeks
 * Send a reminder to all assignees with open topics with enough time ahead of the next meeting
 * If you want to give a presentation in a project meeting, upload your presentation in the meeting's "presentations" folder in your project's Sharepoint ahead of time

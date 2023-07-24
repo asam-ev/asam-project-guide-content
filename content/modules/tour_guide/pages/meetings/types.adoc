@@ -1,8 +1,6 @@
 = Meeting types
 :description: Definitions for all typical meetings at ASAM.
 :keywords: meeting
-:page-layout: progress
-:page-progress_bar: progress_bar_simple-meeting_types.svg
 :tour_guide_small:
 
 //tag::body[]
