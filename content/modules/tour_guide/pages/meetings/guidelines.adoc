@@ -1,6 +1,5 @@
 = Meeting guidelines
 :keywords: meeting
-:tour_guide_small:
 
 //tag::body[]
 

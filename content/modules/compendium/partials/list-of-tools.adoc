@@ -15,7 +15,7 @@ h|Name|Description
 
 |{remote-icon-norole} +
 xref:compendium:Tools/remote_repo.adoc[]
-a|GitLab is a DevOps platform, which provides a centralized and integrated environment for development and deployment of ASAM standards.
+a|ASAM uses both GitHub and GitLab as DevOps platforms. A DevOps platform provides a centralized and integrated environment for development and deployment of ASAM standards.
 
 It provides:
 
@@ -26,6 +26,7 @@ It provides:
 Used to store all source code and content that is part of deliverables of a standard.
 
 Issues relevant to deliverables should be created here.
+
 
 
 

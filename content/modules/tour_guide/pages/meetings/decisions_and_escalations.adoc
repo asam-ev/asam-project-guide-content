@@ -1,7 +1,6 @@
 = Decision making
 :description: Contains information on decisions and when to escalate.
 :keywords: meeting
-:tour_guide_small:
 
 include::tour_guide:partial$_attributes.adoc[]
 

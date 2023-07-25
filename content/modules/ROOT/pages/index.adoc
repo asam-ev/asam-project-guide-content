@@ -4,13 +4,7 @@
 
 include::partial$_attributes.adoc[]
 
-{project-guide-icon-main}
-
-
 Welcome to the **ASAM Project Guide**!
-
-This guide provides an overview over all relevant basics to get you up and running for your ASAM project.
-It also contains a compendium if you need to look up specific topics.
 
 NOTE: This guide is a pre-release and constantly being updated.
 Feel free to submit any feedback you have using the btn:[Submit feedback] button.
@@ -28,6 +22,10 @@ If you have any questions or feedback, do not hesitate to contact the xref:compe
 NOTE: This guide assumes prior knowledge of who and what ASAM is.
 For more information, refer to the https://www.asam.net/about-asam/[ASAM website^].
 
-== Quick access
 
-include::partial$landing_page_referral.adoc[tag=body]
+This guide provides two entry points:
+
+[horizontal]
+xref:tour_guide:index.adoc[Guided tour]:: A walkthrough of all relevant basics to get you up and running for your ASAM project.
+
+xref:compendium:main.adoc[Compendium]:: A searchable collection of relevant individual topics

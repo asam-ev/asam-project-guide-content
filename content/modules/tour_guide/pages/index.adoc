@@ -3,14 +3,15 @@
 :keywords: tools
 :no-installation: xref:main.adoc[]
 :page-aliases: overview.adoc
-:tour_guide:
 :reftext: Guided tour
 
 include::tour_guide:partial$_attributes.adoc[]
 
 == About this tour
 
-include::partial$module-description.adoc[]
+**Get started with the guided tour.** +
+This part gets you up and running for your project at ASAM.
+Here, you will learn about your developer account, meetings and their guidelines, the project sharepoint, and the contribution workflow.
 
 ---
 

@@ -1,7 +1,6 @@
-= Meeting notes
+= Meeting minutes
 :description: Contains all information on meeting notes
 :keywords: meeting, meeting_minutes
-:tour_guide_small:
 
 //tag::body[]
 

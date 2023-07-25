@@ -1,7 +1,6 @@
 = Meeting types
 :description: Definitions for all typical meetings at ASAM.
 :keywords: meeting
-:tour_guide_small:
 
 //tag::body[]
 

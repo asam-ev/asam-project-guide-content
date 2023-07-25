@@ -1,6 +1,5 @@
 = Project Sharepoint
 :keywords: teams, sharepoint
-:tour_guide_small:
 
 include::tour_guide:partial$_attributes.adoc[]
 
