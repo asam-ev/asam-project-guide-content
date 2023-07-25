@@ -13,7 +13,7 @@ Besides xref:compendium:Concepts/project_types.adoc[different types of projects]
 Not all projects must necessarily pass through all these phases.
 See the phase descriptions below for more details.
 
-image::compendium:Concepts/project_lifecycle.drawio.svg[alt=The ASAM Project Phases, title=The ASAM project phases. 
+image::compendium:Concepts/project_lifecycle.drawio.svg[alt=The ASAM Project Phases, title=The ASAM project phases]. 
 
 == Descriptions
 
