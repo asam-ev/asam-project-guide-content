@@ -31,67 +31,104 @@ It describes the requirements that must be met for an issue to be allowed to exi
 New::
 +
 --
-[horizontal]
-What:: A new issue that needs to be classified to a type.
-Who:: <<Workflow Manager>>
-State Label:: {isStateNew-label}
-Actions::
+[cols="<.<1,<.<2a"]
+|===
+|Topic |Description
+
+|What
+|A new issue that needs to be classified to a type.
+
+|Who
+|<<Workflow Manager>>
+
+|State Label
+|{isStateNew-label}
+
+|Actions
+|
 * Categorize the issue (i.e. assign the issue type)
 ** If the issue has been raised previously or was solved in another issue, assign {resolutionTypeDuplicate-label} and close the issue
 ** Otherwise, assign the correct type (one of):
 
 +
-Bug:: 
+Bug:::
 An issue that contains contradictions or errors in the standard. 
 
-NewFeature:: 
+NewFeature:::
 An issue that adds new features to the project. 
 
-FeatureImprovement:: 
+FeatureImprovement::: 
 An issue that amends or improves existing features. 
 
-Editorial:: 
+Editorial::: 
 An issue that contains general structural and editorial changes for the whole documentation. 
 
-Infrastructure:: 
+Infrastructure::: 
 An issue related to the repository infrastructure such as CI, builds, document toolchain or similar. 
 
-Question:: 
+Question:::
 General questions about the project, work-flow or anything related to the standard as well as support requests.  
 
-MeetingMinutes:: 
+MeetingMinutes::: 
 An issue documenting meeting minutes for an ASAM meeting. On starting, a project shall define the location of all meeting minutes for the project. This is either in a project sharepoint or in the issue list. Meeting minutes shall be kept for each official project meeting. 
 
-Transitions:: 
-Issue is a duplicate::: -> CLOSED ({resolutionTypeDuplicate-label})
-Type assigned::: -> CLASSIFIED
+|Transitions 
+|
+[horizontal]
+Issue is a duplicate::-> CLOSED ({resolutionTypeDuplicate-label})
+Type assigned::-> CLASSIFIED
+|===
 --
 Classified::
 +
 --
-[horizontal]
-What:: An issue that has a type and that needs to be accepted by the group.
-Who:: Relevant lead (project lead or subgroup lead)
-State Label:: {isStateClassified-label}
-Actions::
+[cols="<.<1,<.<2a"]
+|===
+|Topic |Description
+
+|What
+|An issue that has a type and that needs to be accepted by the group.
+
+|Who
+|Relevant lead (project lead or subgroup lead)
+
+|State label
+|{isStateClassified-label}
+
+|Actions
+|
 * Decide whether to address the issue or not
 * If the issue is accepted, it is assigned to a release milestone
 * If rejected, {resolutionTypeRejected-label} is assigned
 * If duplicate, {resolutionTypeDuplicate-label} is assigned
 * If accepted, a release milestone is assigned
-Transitions:: 
-Issue is a duplicate::: -> CLOSED ({resolutionTypeDuplicate-label})
-Issue is rejected::: -> CLOSED ({resolutionTypeRejected-label})
-Issue is accepted::: -> ACCEPTED
+
+|Transitions
+|
+Issue is a duplicate::-> CLOSED ({resolutionTypeDuplicate-label})
+Issue is rejected::-> CLOSED ({resolutionTypeRejected-label})
+Issue is accepted::-> ACCEPTED
+
+|===
 --
 Accepted::
 +
 --
-[horizontal]
-What:: An issue that has been accepted by the group, which needs to be assigned to a responsible, given a due date and needs a clear specification of requirements to be fulfilled.
-Who:: Relevant lead (Project Lead or Subgroup Lead)
-State Label:: {isStateAccepted-label}
-Actions::
+[cols="<.<1,<.<2a"]
+|===
+|Topic |Description
+
+|What
+|An issue that has been accepted by the group, which needs to be assigned to a responsible, given a due date and needs a clear specification of requirements to be fulfilled.
+
+|Who
+|Relevant lead (Project Lead or Subgroup Lead)
+
+|State Label
+|{isStateAccepted-label}
+
+|Actions
+|
 * Assign the issue to a group member
 * Check if the issue needs to be split into multiple sub-issues (making it a parent issue)
 ** If it needs to be split, each sub-issue enters state ACCEPTED immediately
@@ -99,32 +136,57 @@ Actions::
 ** A parent issue may only be closed if all its sub-issues have been closed
 * Set a <<Due dates,due date>> for the solution (should not exceed 4 weeks of development)
 * Clear specification of requirements to be fulfilled by a solution
-Transitions:: 
-Prioritized::: -> IN PROGRESS
+
+|Transitions
+|
+Prioritized::-> IN PROGRESS
+
+|===
 --
 In Progress::
 +
 --
-[horizontal]
-What:: An issue that is assigned a responsible, has a due date and clear requirements, which now needs to be implemented in a solution.
-Who:: Solution developer (assignee)
-State Label:: {isStateInProgress-label}
-Actions::
+[cols="<.<1,<.<2a"]
+|===
+|Topic |Description
+
+|What
+|An issue that is assigned a responsible, has a due date and clear requirements, which now needs to be implemented in a solution.
+
+|Who
+|Solution developer (assignee)
+
+|State Label
+|{isStateInProgress-label}
+
+|Actions
+|
 * Develop a solution together with relevant group (solution team, see xref:tour_guide:contribution/issue_implementation.adoc[])
 * Document the solution by creating a merge/pull request. Some projects do not yet use the DevOps platforms of ASAM. In this case the solution location is to be agreed on by the project on start.
 * Monitor and discuss developments within solution team
 ** On solution completion, set a due date for review (should not exceed 2 weeks)
 ** Inform project lead and/or CCB of issue review 
-Transitions:: 
-Solution developed::: -> IMPLEMENTED
+
+|Transitions
+|
+Solution developed::-> IMPLEMENTED
+|===
 --
 Implemented::
 +
 --
-[horizontal]
-What:: An issue that has a solution in an associated merge request or document, which is ready to be reviewed by the group.
-Who:: The project lead shall be the process owner and responsible for initiating and ending the review. They may delegate these process to a CCB if present, but this shall be clearly defined within the project.
-State Label:: {isStateImplemented-label}
+[cols="<.<1,<.<2a"]
+|===
+|Topic |Description
+
+|What
+|An issue that has a solution in an associated merge request or document, which is ready to be reviewed by the group.
+
+|Who
+|The project lead shall be the process owner and responsible for initiating and ending the review. They may delegate these process to a CCB if present, but this shall be clearly defined within the project.
+
+|State Label
+|{isStateImplemented-label}
 Actions::
 * Perform issue review
 ** Issue on the next agenda for the next project or CCB meeting
@@ -137,34 +199,57 @@ Actions::
 * Accept or reject solution and document decision in issue
 ** Identified major corrections lead to rejection of solution
 ** If accepted, appoint an <<Integrator>> (responsible for integrating the solution) and an <<Integration Reviewer>> (responsible for reviewing the integration)
-Transitions::  
-Solution accepted::: -> REVIEWED
-Solution rejected::: -> IN PROGRESS
+
+|Transitions
+| 
+Solution accepted::-> REVIEWED
+Solution rejected::-> IN PROGRESS
+
+|===
 --
 Reviewed::
 +
 --
-[horizontal]
-What:: An issue that has a been accepted by the group, has an assigned integrator, which is ready to be integrated into the standard or project.
-Who:: <<Integrator>>
-State Label:: {isStateReviewed-label}
+[cols="<.<1,<.<2a"]
+|===
+|Topic |Description
+
+
+|What
+|An issue that has a been accepted by the group, has an assigned integrator, which is ready to be integrated into the standard or project.
+
+|Who
+|<<Integrator>>
+
+|State Label
+|{isStateReviewed-label}
 Actions::
 * Refine content and apply ASAM Editorial Guide
 * Document any questions in the issue
 * Clarify minor questions with solution developer
 * If any major questions arise, change state back to Implemented
 * When integrated (and if applicable), remove the "Draft:" flag from the Merge Request
-Transitions:: 
-Solution implemented::: -> INTEGRATED
-Major questions::: -> IMPLEMENTED
+
+|Transitions
+|
+Solution implemented::-> INTEGRATED
+Major questions::-> IMPLEMENTED
 --
 Integrated::
 +
 --
-[horizontal]
-What:: An issue that has been integrated and has an integration reviewer, which is ready to be checked and all open comments are resolved.
-Who:: <<Integration Reviewer>>
-State Label:: {isStateIntegrated-label}
+[cols="<.<1,<.<2a"]
+|===
+|Topic |Description
+
+|What
+|An issue that has been integrated and has an integration reviewer, which is ready to be checked and all open comments are resolved.
+
+|Who
+|<<Integration Reviewer>>
+
+|State Label
+|{isStateIntegrated-label}
 Actions::
 * Review the integration
 ** Is the original content still correctly represented?
@@ -174,27 +259,43 @@ Actions::
 ** If accepted, assign issue to the <<Workflow Manager>>
 ** If accepted (and if applicable), approve the merge request
 
-Transitions:: 
-Integration OK::: -> READYFORMERGE
-Integration NOK::: -> REVIEWED
-Integration OK::: -> CLOSED ({resolutionTypeFixed-label}) Note: This is only applicable for projects that do not use a docs-as-code workflow.
+
+|Transitions
+|
+Integration OK::-> READYFORMERGE
+Integration NOK::-> REVIEWED
+Integration OK::-> CLOSED ({resolutionTypeFixed-label}) Note: This is only applicable for projects that do not use a docs-as-code workflow.
+|===
 --
 Ready for Merge::
 +
 --
-[horizontal]
-What:: An issue that has been integrated and is assigned to the workflow manager, which is ready to be merged.
-Who:: <<Workflow Manager>>
-State Label:: {isStateReadyForMerge-label}
-Actions::
-**Note that this is only applicable to projects with a docs-as-code workflow**
+[cols="<.<1,<.<2a"]
+|===
+|Topic |Description
+
+|What
+|An issue that has been integrated and is assigned to the workflow manager, which is ready to be merged.
+
+|Who
+|<<Workflow Manager>>
+
+|State Label
+|{isStateReadyForMerge-label}
+
+|Actions
+|**Note that this is only applicable to projects with a docs-as-code workflow**
 * Merge the assigned Merge/Pull Request
 ** If any major merge conflicts arise, document conflict, reassign it to the <<Integration Reviewer>>, and change back to the previous state
 ** If the merge completes successfully, close the Merge/Pull Request and the associated issue(s)
 
-Transitions:: 
-Merged::: -> CLOSED ({resolutionTypeFixed-label})
-Merge Conflict::: -> INTEGRATED
+
+|Transitions
+|
+Merged::-> CLOSED ({resolutionTypeFixed-label})
+Merge Conflict::-> INTEGRATED
+
+|===
 --
 
 ====
