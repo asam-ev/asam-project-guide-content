@@ -31,7 +31,7 @@ It describes the requirements that must be met for an issue to be allowed to exi
 New::
 +
 --
-[cols="<.<1,<.<2a"]
+[cols="<.<1,<.<3a"]
 |===
 |Topic |Description
 
@@ -82,7 +82,7 @@ Type assigned::-> CLASSIFIED
 Classified::
 +
 --
-[cols="<.<1,<.<2a"]
+[cols="<.<1,<.<3a"]
 |===
 |Topic |Description
 
@@ -114,7 +114,7 @@ Issue is accepted::-> ACCEPTED
 Accepted::
 +
 --
-[cols="<.<1,<.<2a"]
+[cols="<.<1,<.<3a"]
 |===
 |Topic |Description
 
@@ -146,7 +146,7 @@ Prioritized::-> IN PROGRESS
 In Progress::
 +
 --
-[cols="<.<1,<.<2a"]
+[cols="<.<1,<.<3a"]
 |===
 |Topic |Description
 
@@ -175,7 +175,7 @@ Solution developed::-> IMPLEMENTED
 Implemented::
 +
 --
-[cols="<.<1,<.<2a"]
+[cols="<.<1,<.<3a"]
 |===
 |Topic |Description
 
@@ -210,7 +210,7 @@ Solution rejected::-> IN PROGRESS
 Reviewed::
 +
 --
-[cols="<.<1,<.<2a"]
+[cols="<.<1,<.<3a"]
 |===
 |Topic |Description
 
@@ -238,7 +238,7 @@ Major questions::-> IMPLEMENTED
 Integrated::
 +
 --
-[cols="<.<1,<.<2a"]
+[cols="<.<1,<.<3a"]
 |===
 |Topic |Description
 
@@ -270,7 +270,7 @@ Integration OK::-> CLOSED ({resolutionTypeFixed-label}) Note: This is only appli
 Ready for Merge::
 +
 --
-[cols="<.<1,<.<2a"]
+[cols="<.<1,<.<3a"]
 |===
 |Topic |Description
 
