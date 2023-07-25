@@ -4,7 +4,6 @@
 
 include::partial$_attributes.adoc[]
 
-{project-types-icon}
 
 == Overview
 ASAM develops its products and results in projects.
