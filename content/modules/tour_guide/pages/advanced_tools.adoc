@@ -13,7 +13,7 @@ You may also be interested if you prefer working locally.
 
 == Tools list
 
-include::compendium:partial$list-of-tools.adoc[tag=tabs]
+include::compendium:partial$list-of-tools.adoc[tag=local]
 
 
 // include::ROOT:partial$landing_page_referral.adoc[]
