@@ -4,7 +4,6 @@
 
 include::compendium:partial$_attributes.adoc[]
 
-{remote-icon}
 
 // {role-project-participant}
 // {role-service-provider}

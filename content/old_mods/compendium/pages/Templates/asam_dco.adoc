@@ -4,7 +4,7 @@
 
 include::compendium:partial$_attributes.adoc[]
 
-{template-icon}
+
 
 
 == Developer certification of origin (DCO)

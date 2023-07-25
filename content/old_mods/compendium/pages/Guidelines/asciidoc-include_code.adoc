@@ -5,7 +5,7 @@
 
 include::compendium:partial$_attributes.adoc[]
 
-{asciidoc-icon}
+
 
 //tag::body[]
 This section shows how to include code blocks in an ASAM standard. In the standard case, a fragment direcly from a source code file is included, to not have duplicated code in the document. This is shown in chapter <<Code as fragment from source code file>>.

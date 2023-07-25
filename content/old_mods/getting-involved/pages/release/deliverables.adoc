@@ -6,7 +6,7 @@
 
 include::compendium:partial$_attributes.adoc[]
 
-{term-icon}
+
 
 //tag::body[]
 

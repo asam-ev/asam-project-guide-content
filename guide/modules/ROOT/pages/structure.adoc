@@ -4,7 +4,7 @@
 include::partial$_attributes.adoc[]
 
 
-{structure-icon}
+
 
 Here you find all pages related to the structure of the Project Guide as well as navigating it.
 

@@ -5,7 +5,7 @@
 include::partial$_attributes.adoc[]
 
 
-{gather_feedback-icon}
+
 
 == Context
 Describe the context (why) for this artifact.

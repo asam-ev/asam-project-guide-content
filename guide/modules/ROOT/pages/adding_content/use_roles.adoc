@@ -5,7 +5,7 @@
 include::partial$_attributes.adoc[]
 
 
-{changes-icon}
+
 
 Most task and instruction pages in this Project Guide are assigned to one or more roles.
 By assigning a role, the page is automatically linked to the corresponding role page(s), making it easier to find them for people of that role.

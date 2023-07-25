@@ -4,7 +4,7 @@
 include::partial$_attributes.adoc[]
 
 
-{structure-icon}
+
 
 == Project Guide
 * xref:asamprojectguide:compendium:1_keywords.adoc[]

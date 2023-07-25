@@ -6,7 +6,7 @@ include::compendium:partial$_attributes.adoc[]
 
 include::compendium:partial$icon_reminder.adoc[tag=online-access]
 
-{calendar-icon}
+
 
 // {role-sg-lead}
 // {role-project-lead}

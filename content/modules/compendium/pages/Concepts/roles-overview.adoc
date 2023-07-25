@@ -5,7 +5,6 @@
 include::partial$_attributes.adoc[]
 
 
-{roles-icon}
 
 include::compendium:partial$roles.adoc[tag=summary]
 

@@ -5,7 +5,7 @@
 include::partial$_attributes.adoc[]
 
 
-{structure-icon}
+
 
 == Graph
 

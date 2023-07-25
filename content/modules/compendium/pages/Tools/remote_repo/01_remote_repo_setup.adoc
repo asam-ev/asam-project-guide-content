@@ -87,7 +87,7 @@ Sharepoint::
 [cols="^1,8", frame=none, grid=none]
 |===
 
-|{sharepoint-icon} +
+| +
 a|== Context
 Sharepoint is used at ASAM to exchange and collaborate on files and documents that are not directly part of the deliverables of a standard. These are files that might not need as strict versioning or where collaboration is preferred on the basis of the Office365 platform. It also serves as the project’s internal landing page.
 

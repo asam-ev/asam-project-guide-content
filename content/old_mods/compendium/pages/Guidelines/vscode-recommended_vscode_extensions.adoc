@@ -5,7 +5,7 @@
 
 include::compendium:partial$_attributes.adoc[]
 
-{vscode-icon}
+
 
 VSCode is already without extensions very powerful and user friendly.
 One thing that can make the VSCode experience even better are the extensions.

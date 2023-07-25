@@ -7,7 +7,6 @@ include::partial$_attributes.adoc[]
 
 include::compendium:partial$icon_reminder.adoc[tag=download-link]
 
-{vscode-icon}
 
 // {role-technical-writer}
 // {role-service-provider}

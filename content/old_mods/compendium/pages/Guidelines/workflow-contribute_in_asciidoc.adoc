@@ -8,7 +8,7 @@
 
 include::compendium:partial$_attributes.adoc[]
 
-{workflow-icon}
+
 
 
 //tag::compendium[]

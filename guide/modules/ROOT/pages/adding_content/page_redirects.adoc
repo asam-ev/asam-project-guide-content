@@ -5,7 +5,7 @@
 include::partial$_attributes.adoc[]
 
 
-{changes-icon}
+
 
 == Context
 Sometimes, pages need to be moved or files renamed.
