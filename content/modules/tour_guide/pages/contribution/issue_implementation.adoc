@@ -1,9 +1,6 @@
 = Solution development
 :description: Explains the basic contribution workflows.
 :keywords: basics
-:page-layout: progress
-:page-progress_bar: progress_bar_simple-implementation.svg
-:tour_guide_small:
 
 //tag::body[]
 

@@ -1,7 +1,6 @@
 = The use of issues
 :description: Explains the basic contribution workflows.
 :keywords: basics
-:tour_guide_small:
 
 //tag::body[]
 

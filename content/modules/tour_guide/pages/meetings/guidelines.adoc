@@ -16,8 +16,7 @@ Clarification or co-development calls as well as similar informal types of meeti
 a|=== Meeting initiator 
 a|=== Minute taker
 
-
-**Every meeting has an initiator.** +
+a|**Every meeting has an initiator.** +
 This is the person who calls the meeting.
 For project group meetings, the initiator is the project lead by default.
 The initiator has the following responsibilities:
@@ -81,7 +80,7 @@ This list also contains information on the group or groups each participant is p
 
 
 === Polls and voting
-These are covered in xref:tour_guide:meetings/polls_votes.adoc[].
+These are covered in xref:tour_guide:meetings/decisions_and_escalations#_guidelines_for_formal_voting.adoc[].
 
 === Inactive project member
 An inactive project member is someone who is registered as a participant in a project on behalf a company, but repeatedly does not partake in meetings or any development activities. 
