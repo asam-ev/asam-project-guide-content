@@ -39,14 +39,18 @@ A project group meeting is used to hold project level votes, align across subgro
 
 These meetings are recommended to be held in person (face to face). This must be clearly communicated in the meeting agenda and made available sufficiently in advance to allow for travel organization.
 
-ASAM requires project meetings to take place at least every 4 months. 
+ASAM requires project group meetings to take place at least every 4 months. 
 ASAM recommends project group meetings take place at least every two months. 
 
-If it is taking place live or online, formal voting is only possible in a project group meeting as a formal vote requires involvement of all enrolled companies.
+Formal voting is only possible in a project group meeting. See xref:tour_guide:page$meetings/decisions_and_escalations.adoc
+
+
 
 
 
 == Subgroup meetings
+	
+
 Every subgroup may schedule their own meetings.
 Typically, these meetings happen more frequently than the larger project group meetings.
 Subgroups discuss progress, setbacks, and current topics within the scope of their assigned work packages.

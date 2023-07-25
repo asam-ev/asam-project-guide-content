@@ -25,8 +25,7 @@ At a minimum, all projects use:
 
 include::compendium:partial$list-of-tools.adoc[tag=online]
 
-Optionally, many of these tools can also be used locally. 
-Local use may offer improved ease of use or additional functionality, but requires installation on your PC. See xref:advanced_tools.adoc[] for more information.
+Optionally, many of these tools can also be used locally. See xref:advanced_tools.adoc[] for more information.
 
 === Accessing the tools online
 

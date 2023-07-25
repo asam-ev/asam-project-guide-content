@@ -13,14 +13,14 @@ This page outlines ASAM's rules for meeting minutes and how to create them. +
 ASAM projects require meeting minutes to be written in one of two tools:
 xref:compendium:Tools/remote_repo.adoc[GitLab] (through issues) or Microsoft Word on the project's xref:compendium:Tools/sharepoint.adoc[SharePoint]. +
 
-A template is provided by ASAM in the respective location.
+A template is provided by ASAM for the respective tool.
 
-The location of meeting minutes is to be defined by the project during its kickoff. +
+The tool for writing meeting minutes is to be defined by the project during its kickoff. +
 For questions please contact the project lead.
 
-The designated xref:tour_guide:meetings/guidelines.adoc#_minute_taker[minute taker] is responsible for taking the notes using this template.
+The designated xref:tour_guide:meetings/guidelines.adoc#_minute_taker[minute taker] is responsible for taking the minutes using this template.
 
-The notes shall document all important decisions (including votes).
+The minutes shall document all important decisions (including votes).
 
 == Writing meeting minutes
 

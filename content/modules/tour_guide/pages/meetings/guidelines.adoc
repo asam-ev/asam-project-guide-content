@@ -80,30 +80,29 @@ This list also contains information on the group or groups each participant is p
 
 
 === Polls and voting
-These are covered in xref:tour_guide:meetings/decisions_and_escalations#_guidelines_for_formal_voting.adoc[].
+These are covered in xref:tour_guide:meetings/decisions_and_escalations.adoc#_guidelines_for_formal_voting[].
 
 === Inactive project member
-An inactive project member is someone who is registered as a participant in a project on behalf a company, but repeatedly does not partake in meetings or any development activities. 
+TODO: For definition of project member, see PROJECT STUCTURE
 
-Inactive participants make it difficult for a project to accurately gauge its available resources for project planning and may even hinder the democratic decision-making process at project group meetings.
+An inactive project member is a project member who has been absent, without informing the meeting initiator beforehand, from two consecutive project group and/or subgroup meetings.
 
-Participation in meetings is documented as a core requirement of compliance with ASAM's anti-trust guidelines.
-It is the task of project members and the OR to identify inactive project members.
-ASAM activities revolve around voluntary contributions of participants of companies and these are often on top of usual company-internal tasks.
-Everyone has busy periods and it is completely understandable that participation in ASAM projects may suffer.
-As a first step, inactive participants are contacted by the OR in order to clarify the issue.
-If no response is received or the original commitment is no longer possible, then the company in question is submitted to the project group for a vote to be removed. 
+Inactive project members make it difficult for a project to accurately gauge its available resources for project planning and may even hinder the decision-making process at project group meetings.
 
-Removed participants lose access to all project material and meetings.
+As a first step, inactive project members are contacted by the OR in order to clarify the issue. If no response is received, original commitment is no longer possible or the project member fails to attend a further consecutive meeting, then the project member in question is submitted to the project group for a vote to be removed. 
 
-Rejoining an ASAM project is always possible should the resource situation change, and is subject to the usual process for <<Joining a running project, joining a running project>>.
+Removed project members lose access to all project material and meetings.
+
+In the regular controlling presentations to the TSC, the project shall inform the TSC of changes to project members.
+
+Rejoining an ASAM project is subject to the process for <<Joining a running project, joining a running project>>.
 
 === Joining a running project
 
-A member company may apply at any time to join a running project. +
+An ASAM member may apply at any time to join a running project. +
 This is subject to:
 
-* A short presentation to the project by the company on their motivation for joining, their current activities and what they aim to bring to the project
+* A short presentation to the project by the member on their motivation for joining, their current activities and what they aim to bring to the project
 * Formal vote by the project group on whether to accept the request to join
 
 === Best practices

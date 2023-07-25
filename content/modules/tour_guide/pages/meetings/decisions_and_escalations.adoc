@@ -9,13 +9,10 @@ include::tour_guide:partial$_attributes.adoc[]
 == Decisions in meetings
 This page details the decision making process, escalation path and voting guidelines in ASAM projects.
 
-Development in ASAM projects is collaborative and democratic. Often a decision needs to be made on a technical direction or whether or not a proposed solution is accepted. Some decisions are only possible at specific levels of meeting. 
-
-
 
 
 == Escalation of topics
-=== From Subgroup to project group
+=== From subgroup to project group
 A topic must be presented at the next xref:tour_guide:meetings/types.adoc#_project_group_meetings[project group meeting] if any of the following apply:
 
 * Changes to the underlying *data model* are involved
@@ -26,7 +23,7 @@ A topic must be presented at the next xref:tour_guide:meetings/types.adoc#_proje
 
 
 === From project group to TSC meeting
-If a project wishes to change its scope or timeline or require a change to budget it submit to the TSC for a decision. Prior to submitting to the TSC, project consensus on the request being submitted is required. See the xref:compendium:Concepts/project_types.adoc#[TSC Guidelines] for guidance on submission. In some cases the TSC may explicitly request presentation of specific material, decisions or of overall project controlling, this shall be communicated clearly beforehand by the OR.
+If a project wishes to change its scope or timeline or requires a change to budget it should submit to the TSC for a decision. Prior to submitting to the TSC, project consensus on the request being submitted is required. See the xref:compendium:Concepts/project_types.adoc#[TSC Guidelines] for guidance on submission. In some cases the TSC may explicitly request presentation of specific material, decisions this shall be communicated clearly beforehand by the OR. A project is required to submit a controlling report to each TSC in accordance with the submission deadlines.
 
 
 == Guidelines for formal voting
@@ -36,21 +33,55 @@ An ASAM Office Responsible will reference these rules prior to the initiation of
 Every project member may request that a topic be voted on.
 Additionally, the meeting initiator may set up a quick poll first to identify topics that require a formal voting.
 
+
+== About voting
+In a voting, each project member has one vote, votes cannot be transferred to other project members. 
+It is strongly recommended that if a project member has multiple participants in a project, they decide on their vote and who will cast it ahead of time. 
+If a company casts multiple votes (accidentally or intentionally) and their votes conflict, their vote is counted as abstention.
+
+Choices can be voting-specific (for example if the project is deciding between two or more options). 
+Abstention is a valid vote. 
+**For approval votes, the choices are yes, no, abstention.**
+
+[[v_valid]]
+A voting is only valid if:
+
+* At least 50% of project members cast their vote 
+
+Voting is decided by simple majority (abstentions do not count). 
+
+IMPORTANT: The exception to the above rule is a project release voting prior to submission to the ASAM TSC. For such a voting a two-thirds majority of all project members is needed. Any no-votes should be submitted with a justification by the project group to the next TSC meeting.
+
+An abstention vote counts as a cast vote. 
+
+Failing to submit a vote does not count towards the number of voting project members.
+
+Both onsite and remote users shall be enabled to vote. 
+
+Should a project member not submit their vote during the project group meeting, this member shall be considered absent without excuse for the meeting. The overall validity of the vote may be affected, see <<v_valid,voting is only valid if>>See xref: 
+
+TODO: Link to inactivity of project members
+
+
+IMPORTANT: Exceptions to the voting rules shall be escalated to the TSC.
+
+
 == When to conduct voting
 Project group voting takes place during meetings. 
 Results shall be made available in the corresponding meeting minutes.
 
 By default, a voting is announced in the agenda (before a meeting takes place). 
-However, if spontaneous topics arise, ad hoc voting can be held if all impacted participants are present. 
-In the case that one or more crucial members for a topic's ad hoc voting are missing, the voting must be postponed and scheduled for the next meeting. 
-A voting is only valid if at least 50% of registered active group members cast their vote and the Issue Responsible (if defined) is present. 
-An abstention vote counts as a cast vote. 
+
+However, if spontaneous topics arise, ad hoc voting may be performed. An adhoc voting is only valid if the following is true:
+
+* At least 50% of project members cast their vote 
+* All impacted project members are present (this may include issue responsibles or solution developers)
+* The voting result shall represent a majority opinion such that votes by absent participants could not influence the end result
+
 
 
 == Mandatory votings
-Some topics require a formal voting.
-These typically address project phase changes or things like release decisions. +
-The following items must be subjected to mandatory votings:
+Some topics require a formal voting:
 
 * Election of Project Lead
 * Changes of project scope
@@ -61,26 +92,6 @@ The following items must be subjected to mandatory votings:
 * Release decision
 
 **Note that certain subgroup decisions require an escalation to a project voting. See <<From Subgroup to project group>>.**
-
-== About voting
-To be eligible to vote, a member must have been present during the corresponding topic discussion/presentation. 
-The only exception to this is voting for topics of static nature, such as meeting frequencies.
-
-In a voting, each member company has one vote, votes cannot be transferred to other companies. 
-It is strongly recommended that if a company has multiple participants in a project, they decide on their vote and who will cast it ahead of time. 
-If a company casts multiple votes (accidentally or intentionally) and their votes conflict, their vote is counted as abstention.
-
-Choices can be voting-specific (for example if the project is deciding between two or more options). 
-Abstention is a valid vote. 
-**For approval votes, the choices are yes, no, abstention.**
-
-Voting is decided by simple majority of yes/no votes (abstentions do not count). 
-The exception to this rule is a project release vote prior to submission to the ASAM TSC. 
-For such a vote a two-thirds majority is needed.
-
-All votes must be cast digitally and through an online tool (so both onsite and remote users can vote). 
-
-
 
 
 //end::body[]

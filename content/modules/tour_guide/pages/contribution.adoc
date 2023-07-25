@@ -75,7 +75,7 @@ An issue documenting meeting minutes for an ASAM meeting. On starting, a project
 |Transitions 
 |
 [horizontal]
-Issue is a duplicate::-> CLOSED ({resolutionTypeDuplicate-label})
+Issue is a duplicate::-> CLOSED ({resolutionTypeDuplicate-label}) +
 Type assigned::-> CLASSIFIED
 |===
 --
@@ -105,9 +105,9 @@ Classified::
 
 |Transitions
 |
-Issue is a duplicate::-> CLOSED ({resolutionTypeDuplicate-label})
-Issue is rejected::-> CLOSED ({resolutionTypeRejected-label})
-Issue is accepted::-> ACCEPTED
+Issue is a duplicate::-> CLOSED ({resolutionTypeDuplicate-label}) +
+Issue is rejected::-> CLOSED ({resolutionTypeRejected-label}) +
+Issue is accepted::-> ACCEPTED 
 
 |===
 --
@@ -129,7 +129,7 @@ Accepted::
 
 |Actions
 |
-* Assign the issue to a group member
+* Assign the issue to a project participant -> the solution responsible
 * Check if the issue needs to be split into multiple sub-issues (making it a parent issue)
 ** If it needs to be split, each sub-issue enters state ACCEPTED immediately
 ** Each sub-issue applies the remaining workflow individually
@@ -154,7 +154,7 @@ In Progress::
 |An issue that is assigned a responsible, has a due date and clear requirements, which now needs to be implemented in a solution.
 
 |Who
-|Solution developer (assignee)
+|Solution responsible (issue assignee)
 
 |State Label
 |{isStateInProgress-label}
@@ -183,26 +183,27 @@ Implemented::
 |An issue that has a solution in an associated merge request or document, which is ready to be reviewed by the group.
 
 |Who
-|The project lead shall be the process owner and responsible for initiating and ending the review. They may delegate these process to a CCB if present, but this shall be clearly defined within the project.
+|Workflow manager
 
 |State Label
 |{isStateImplemented-label}
-Actions::
-* Perform issue review
-** Issue on the next agenda for the next project or CCB meeting
-** Project group or CCB reviews solution and documents their feedback:
+
+|Actions
+|
+* Perform solution review
+** Project group or delegated subgroup reviews solution and documents their feedback:
 *** General feedback: as comment on Merge/Pull Request
 *** Specific feedback: as review in changes tab
 *** If the solution is documented otherwise, the use of comments in the document is recommended
-** Identified minor corrections are implemented directly in collaboration between reviewers and solution developer
-* Discuss review results in group meeting
+** Identified minor corrections are implemented directly in collaboration between reviewers and solution responsible
+* Discuss review results in project group meeting
 * Accept or reject solution and document decision in issue
 ** Identified major corrections lead to rejection of solution
-** If accepted, appoint an <<Integrator>> (responsible for integrating the solution) and an <<Integration Reviewer>> (responsible for reviewing the integration)
+** If accepted, appoint and assign solution to an <<Integrator>> (responsible for integrating the solution) 
 
 |Transitions
 | 
-Solution accepted::-> REVIEWED
+Solution accepted::-> REVIEWED +
 Solution rejected::-> IN PROGRESS
 
 |===
@@ -223,16 +224,19 @@ Reviewed::
 
 |State Label
 |{isStateReviewed-label}
-Actions::
+
+|Actions
+|
 * Refine content and apply ASAM Editorial Guide
 * Document any questions in the issue
-* Clarify minor questions with solution developer
+* Clarify minor questions with solution responsible
 * If any major questions arise, change state back to Implemented
 * When integrated (and if applicable), remove the "Draft:" flag from the Merge Request
+* Assign to the solution responsible of the ticket
 
 |Transitions
 |
-Solution implemented::-> INTEGRATED
+Solution implemented::-> INTEGRATED +
 Major questions::-> IMPLEMENTED
 --
 Integrated::
@@ -243,10 +247,10 @@ Integrated::
 |Topic |Description
 
 |What
-|An issue that has been integrated and has an integration reviewer, which is ready to be checked and all open comments are resolved.
+|An issue that has been integrated, is assigned to the solution responsible, which is ready to be checked and all open comments are resolved.
 
 |Who
-|<<Integration Reviewer>>
+|Solution responsible
 
 |State Label
 |{isStateIntegrated-label}
@@ -262,8 +266,8 @@ Actions::
 
 |Transitions
 |
-Integration OK::-> READYFORMERGE
-Integration NOK::-> REVIEWED
+Integration OK::-> READYFORMERGE +
+Integration NOK::-> REVIEWED +
 Integration OK::-> CLOSED ({resolutionTypeFixed-label}) Note: This is only applicable for projects that do not use a docs-as-code workflow.
 |===
 --
@@ -292,7 +296,7 @@ Ready for Merge::
 
 |Transitions
 |
-Merged::-> CLOSED ({resolutionTypeFixed-label})
+Merged::-> CLOSED ({resolutionTypeFixed-label}) +
 Merge Conflict::-> INTEGRATED
 
 |===
