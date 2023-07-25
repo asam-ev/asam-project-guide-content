@@ -5,7 +5,7 @@
 
 include::tour_guide:partial$_attributes.adoc[]
 
-This page describes requirements and guidelines for all project and subgroup meetings.
+This page describes requirements and guidelines for all project group and subgroup meetings.
 
 Clarification or co-development calls as well as similar informal types of meetings may choose to follow these guidelines. Any decisions made in such informal meetings are not valid until reviewed and agreed on in at least a subgroup or project meeting.
 
@@ -24,12 +24,12 @@ The initiator has the following responsibilities:
 * **Before the meeting**
 ** Ensure a <<Minute taker,minute taker>> is defined.
 ** Provide the <<Meeting agenda,**agenda**>> for the meeting.
-* <<Setting up a meeting,**Set up the meeting**>> and send out the <<Whom to invite,**invites**>> 
+** <<Setting up a meeting,**Set up the meeting**>> and send out the <<Whom to invite,**invites**>> 
 * **During the meeting**
 ** **Moderate** the meeting
 ** If necessary, **assign tasks** with due dates to participants
 * **After the meeting**
-* Ensure that **minutes** are shared with participants.
+** Ensure that **minutes** are shared with participants.
 
 a|The minute taker is designated by the <<Meeting initiator,meeting initiator>>.
 This may be the initiator themselves. +
@@ -66,7 +66,6 @@ The <<Meeting initiator,initiator>> of the meeting shall provide a meeting agend
 * For full project meetings, send the invite to the project's mailing list
 * For all meeting types, add the following as CC (if not invited directly):
 ** The Project Lead and the OR.
-** The mailto:openx@asam.net[OpenX Calendar]
 
 NOTE: The list of project participants can be found in the xref:tour_guide:sharepoint.adoc#_participants_list[project's participant list].
 This list also contains information on the group or groups each participant is part of.
@@ -80,10 +79,10 @@ This list also contains information on the group or groups each participant is p
 
 
 === Polls and voting
-These are covered in xref:tour_guide:meetings/decisions_and_escalations.adoc#_guidelines_for_formal_voting[].
+These are covered in xref:tour_guide:page$meetings/decisions_and_escalations.adoc##_guidelines_for_formal_voting[].
 
 === Inactive project member
-TODO: For definition of project member, see PROJECT STUCTURE
+TODO: For definition of a project member, see PROJECT STUCTURE
 
 An inactive project member is a project member who has been absent, without informing the meeting initiator beforehand, from two consecutive project group and/or subgroup meetings.
 

@@ -12,7 +12,7 @@ The following image shows an example.
 
 image:tour_guide:Sharepoint_example.png[Sharepoint start page example]
 
-The Sharepoint area includes a link to project documents.+
+The Sharepoint area includes a link to project documents. +
 Every project at ASAM has its own Microsoft Sharepoint storage area, however all employ the same base folder structure.
 
 NOTE: Sharepoint can be used online or https://support.microsoft.com/en-us/office/sync-sharepoint-files-with-the-onedrive-sync-client-groove-exe-59b1de2b-519e-4d3a-8f45-51647cf291cd[synced locally^].
@@ -46,6 +46,6 @@ This list is populated with enrollments during a project's proposal phase.
 However, participation and assignments may change during development.
 It is the responsibility of the OR to keep this document up to date.
 
-This list is the single source for all permissions in a project.
+This list is the single source for all permissions in a project as well as the mailing list used for communication.
 
 //end::body[]

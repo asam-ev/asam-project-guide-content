@@ -17,14 +17,6 @@ image::tour_guide:workflow/asam_contribution_workflow-StateDiagram.drawio.svg[]
 
 ---
 
-Each state in the workflow is described in more detail in the sections below.
-The role listed at the top of each section is the one responsible for it.
-
-**DoR** stands for **Definition of Ready**.
-It describes the requirements an incoming issue must meet.
-If DoR are specified but not met, the issue is immediately reset to the previous state (including the assignee). +
-**DoD** stands for **Definition of Done**.
-It describes the requirements that must be met for an issue to be allowed to exit this state.
 
 [tabs]
 ====
@@ -127,7 +119,7 @@ Accepted::
 |===
 
 |What
-|An issue that has been accepted by the group, which needs to be assigned to a responsible, given a due date and needs a clear specification of requirements to be fulfilled.
+|An issue that has been accepted by the project group, which needs to be assigned to a responsible, given a due date and needs a clear specification of requirements to be fulfilled.
 
 |Who
 |Relevant lead (Project Lead or Subgroup Lead)
@@ -146,7 +138,7 @@ Prioritized::-> IN PROGRESS
 |Actions that must be taken prior to state transition
 |
 * Assign the issue to a project participant -> the solution responsible
-* Check if the issue needs to be split into multiple sub-issues (making it a parent issue)
+* Check if the issue needs to be split into multiple sub-issues or tasks (making it a parent issue)
 ** If it needs to be split, each sub-issue enters state ACCEPTED immediately
 ** Each sub-issue applies the remaining workflow individually
 ** A parent issue may only be closed if all its sub-issues have been closed
@@ -182,9 +174,9 @@ Solution developed::-> IMPLEMENTED
 |
 * Develop a solution together with relevant group (solution team, see xref:tour_guide:contribution/issue_implementation.adoc[])
 * Document the solution by creating a merge/pull request. Some projects do not yet use the DevOps platforms of ASAM. In this case the solution location is to be agreed on by the project on start.
-* Monitor and discuss developments within solution team
-** On solution completion, set a due date for review (should not exceed 2 weeks)
-** Inform project lead and/or CCB of issue review 
+* Coordinate, monitor and discuss developments within solution team
+* On solution completion, set a due date for review (should not exceed 2 weeks)
+* Inform project lead and any relevant subgroups of issue review 
 
 |===
 --
