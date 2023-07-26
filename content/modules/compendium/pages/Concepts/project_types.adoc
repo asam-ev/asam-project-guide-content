@@ -12,10 +12,10 @@ Different projects entail different expectations towards the type of deliverable
 
 ASAM project types and the expected deliverables are:
 
-* For a **Concept project**, the output is a Concept Paper (which can be the basis for a follow-up project)
-* For a **Standard Development project**, the output is the standard + optional supplemental documents
-* For a **Study project**, the output is a Study Report that details the findings of the project.
-* For an **Implementation project**, the output is software, tooling or reference implementations to support the use and adoption of one or more standards.
+* For a **concept project**, the output is a Concept Paper (which can be the basis for a follow-up project)
+* For a **standard development project**, the output is the standard + optional supplemental documents
+* For a **study project**, the output is a Study Report that details the findings of the project.
+* For an **implementation project**, the output is software, tooling or reference implementations to support the use and adoption of one or more standards.
 
 image::Concepts/project_types_overview.drawio.svg[title="ASAM project types overview", width= 800]
 
@@ -30,57 +30,42 @@ Concept::
 +
 --
 [horizontal]
-Description:: Concept projects have the purpose to prepare the further development of existing ASAM standards or to prepare the development of new ASAM standards.
-They are typically chosen when the envisioned standard is complex and requires significant resources to develop initial concepts for a potential standard.
-Goal:: The goals of concept projects are to propose specific content for ASAM standards and/or to provide justification for the usefulness, practicability, and feasibility of the proposed content. This may include technology surveys or the carrying out of performance benchmarks.
-Repository suffix:: Concept
-Output:: Concept Paper
+Description:: 
+Concept projects are chosen to clarify scope, use cases and requirements towards potential standardisation projects. This may include technology surveys or the carrying out of performance benchmarks.
+
+Output:: Concept paper
 --
 Standard development::
 +
 --
 [horizontal]
-Description:: Standard development projects are the core of ASAM.
-In these, the project group defines the content of an ASAM standard (new or updated). +
-In accordance with the concept of https://semver.org/[semantic versioning^], a standard development project may be one of the following: 
-Major::: Major version developments of ASAM standards introduce significant (i.e. compatibility breaking) changes to the standard.
-A completely new standard is also considered to be a major version development. +
-The number of major version releases meets the pattern:
-"X.0.0".
-Minor::: Minor version developments of ASAM standards introduce significant feature changes that do not break backwards compatibility. +
-The number of minor version releases meets the pattern:
-"Y.X.0".
-Maintenance::: Maintenance version developments of ASAM standards resolve technical issues of the standard.
-Examples are correcting errors, removing ambiguities, adding clarifications to existing descriptions, making editorial improvements, or changing examples. 
-Maintenance versions may not introduce new features. +
-The number of minor version releases meets the pattern:
-"Z.Y.X".
-Goal:: The goal is to create new standards and to update existing standards in accordance with the demands of ASAM members and market requirements.
-Repository suffix:: Standard
-Output:: Standard and (optionally) supplemental material
+Description:: 
+Development of a new version or versions for a standard in accordance with the demands of ASAM members and market requirements.
 
-NOTE: All variants use the same repository suffix.
+The versioning of standards is described in the link:https://internal.pages.asam.net/asam-editorial-guide/editorial-guide-generator/editorialguide-word/1.0.0/Editorial_guide/01_basics.html#sec-ASM-14[ASAM Editorial Guide]
+
+Output:: Standard
+
 
 --
 Study::
 +
 --
 [horizontal]
-Description:: Study projects provide members, an organizational structure to study or analyze specific aspects of ASAM standards in a collaborative way.
-Goal:: These projects have the overall goal to enhance the understanding of ASAM standards, to promote their application in member companies, and to create change requests for the further development of ASAM standards.
-This project type is specifically intended for members in regions, where ASAM standards are not well known.
-Repository suffix:: Study
-Output:: Study Report
+Description:: Study projects provide members an organizational structure to study or analyze specific aspects of ASAM standards or technology sectors in a collaborative way.
+
+These activities aim to improve understanding of using and implementing ASAM standards, the overall landscape and to identify potential new areas for standardization.
+
+Output:: Study report
+
 --
 Implementation::
 +
 --
 [horizontal]
-Description:: Implementation projects have the purpose to create a supplementary product to a standard that supports the implementation or application of an ASAM standard in the industry.
-Goal:: The goal of an implementation project is to create a tool or source code, such as checkers for file formats and APIs, add-ons or plug-ins for commonly used IDEs, importers, exporters or reference implementations.
-NOTE: Promoting specific commercial tools shall be avoided.
+Description:: Create a supplementary product to a standard that supports the implementation or application of an ASAM standard in the industry. 
 
 Repository suffix:: Implementation
-Output:: Software tools or scripts
+Output:: Software tools or scripts, such as checkers, reference implementations, plugins, etc.
 --
 ====

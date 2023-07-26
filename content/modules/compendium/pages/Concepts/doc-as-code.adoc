@@ -63,27 +63,23 @@ ASAM projects frequently use the software https://git-scm.com/[Git^] for this pu
 It allows for working on different parts, features, or versions of a project separately.
 With Git, all of these can be merged again later.
 
-Content is stored in so-called repositories.
-Each repository consist of one or more branches.
-At ASAM, there usually is one main branch (called "main" or (outdated) "master") and possibly one or more feature branches.
-The central branch (also called the "trunk") acts as the agreed or released "official" state of the repository. +
-When changes need to be made, they are added through branches created from this trunk.
+Content is stored in repositories.
+Each repository consists of one or more branches.
+At ASAM, there is one main branch (also called trunk) and possibly one or more feature branches.
+
+When changes need to be made, they are added through branches created from the trunk.
 Each child branch targets a single aspect of development.
-Once the development in a child branch has advanced enough, its changes are merged back into the trunk.
-This is done through a so-called Merge Request (MR), sometimes also called a Pull Request (PR).
+Once the development in a child branch is complete, its changes are merged back into the trunk.
+This is done through a Merge Request (MR) in GitLab, or a Pull Request (PR) in GitHub.
 
 image::Concepts/example-repo-workflow.drawio.svg[title=Repository workflow and branching example.]
 
-TIP: If you want to learn more about Git itself, ASAM recommends online introductions and tutorials such as https://rogerdudler.github.io/git-guide/[**this one**^].
+TIP: If you want to learn more about Git itself, ASAM recommends online introductions and tutorials such as https://rogerdudler.github.io/git-guide/[**Git-Guide, R. Dudler**^].
 
 ---
 
 [#sec-online-collaboration]
 === Online collaboration
-The work on standards, particularly at ASAM, is of collaborative nature:
-People from different companies join in a project to develop something together. +
-Online repository platforms like GitLab and GitHub support the collaboration by providing features for commenting and reviewing content changes as well as issue boards for creating and tracking topics.
-In addition to that, they also integrate the same versioning and repository aspects described in the <<sec-versioning-repo,section above>>.
 
 Using online collaboration platforms with repository support has multiple benefits:
 
@@ -108,7 +104,7 @@ Unless explicitly decided differently by the Office, new projects use GitLab.
 Pipelines in online repositories allow to automate repetitive steps, such as building a document and checking for structural and grammatical errors.
 ASAM projects typically automate the following steps:
 
-* Convert AsciiDoc files to html using https://asciidoctor.org/[Asciidoctor^] or https://antora.org/[Antora^]
+* Publish AsciiDoc files using https://asciidoctor.org/[Asciidoctor^] or https://antora.org/[Antora^]
 * https://en.wikipedia.org/wiki/Lint_(software)[Linting^] and testing documents for rules defined in the ASAM editorial guide and returning found errors
 * Publishing results as pipeline artifacts for downloads or distribution
 * Running project-specific scripts for additional features, such as converting UML diagrams to AsciiDoc files

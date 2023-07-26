@@ -39,7 +39,7 @@ image::compendium:asam/proposal_phase_timeline.drawio.svg[]
 
 All projects at ASAM are required to begin with the proposal phase.
 The focus of this period is to refine the technical content of a potential project with interested parties.
-The proposal workshop is mandatory for all projects. 
+A project shall hold at least one proposal workshop. 
 It is used to present more insight into the scope and gather further feedback and parties.
 
 The output of the proposal phase is a set of proposal documents, detailing the project's targets, participants, the budget, timeline, and other project-related information, such as the xref:compendium:Concepts/project_types.adoc[type of the project]. +
@@ -74,22 +74,16 @@ image::compendium:asam/development_phase_timeline.drawio.svg[]
 If you want to learn more about how to get ready for your project, check out the **xref:tour_guide:index.adoc[]**.
 
 During this phase, the project-type specific xref:compendium:Concepts/deliverables.adoc[deliverables] are developed by the project participants.
-In the beginning, the project team organizes a workshop to specify their modus operandi and set up all technical aspects of the project.
+In the beginning, the project group organizes a kickoff workshop to specify their modus operandi and set up all technical aspects of the project.
 In particular, the Project Lead who is the main responsible for the project is elected.
-Depending on the size of the project, other xref:compendium:Concepts/roles-overview.adoc[roles] such as subgroup Leads are also elected. 
-Additionally, the group may also employ one or more Service Providers as outside help if the required budget was included in the Proposal document. +
-This is followed by specifying, writing, and reviewing content internally until the document or documents are ready for a ASAM-internal or public review in the **Review Phase**.
+Depending on the size of the project, other xref:compendium:Concepts/roles-overview.adoc[roles] such as subgroup leads are also elected. 
+Additionally, the project group may also contract one or more Service Providers as outside help if the required budget was included in the Proposal document. +
+This is followed by one or more development intervals,   specifying, writing, and reviewing content internally until the document or documents are ready for the **Review Phase**.
 
-TIP: The project group shall review their changes regularly during development.
-The Review phase is a dedicated "final" review phase before publication.
+During development, the project group has regular project group meetings.
+ASAM recommends a 2 month interval for these larger meetings. 
 
-During development, the project team has regular group meetings.
-ASAM recommends a 2 month interval for these larger meetings. +
-In between, the group (and its optional subgroups) works on the parts of the project they prioritized for this interval.
-
-During development, the project group will meet in multiple different types of meetings not depicted here. 
-For example, a project with subgroups will have individual subgroup meetings for each of them within each development interval.
-For more on the types of meetings during a project's development, see xref:tour_guide:meetings.adoc[] in the Guided tour.
+For more information on the types of meetings during a project's development, see xref:tour_guide:meetings.adoc[] in the Guided tour.
 
 // Additional information:: xref:compendium:development_phase.adoc[]
 --
@@ -111,26 +105,31 @@ image::compendium:asam/review_phase_timeline.drawio.svg[title="The Review phase 
 |===
 
 
-Before a developed standard is officially released, the deliverables have to be reviewed.
-A project's proposal shall detail whether an ASAM member or a public review is planned. +
-Any problems that are identified during any of these reviews are then analyzed and categorized.
-Important fixes have to be made before the deliverables are released, whilst improvements beyond the initial scope or minute details may be put off for future iterations.
-Once the document has been successfully reviewed and no critical issues are open anymore, the project continues on to the **Release Phase**.
+Before a standard is officially released, all deliverables have to be reviewed. These shall be complete. +
 
-After each review period, all feedback shall be reviewed and the group shall make a decision on how to proceed with it.
-The decision includes as a minimum the status "accepted" or "rejected"
-The decision shall be documented. +
-The group may start reviewing the feedback before the end of the respective review period.
-However, it may not extend into the next period.
+The review phase shall always consist of the following review periods.
+
+. A project member review
+. A native speaker review
+. An ASAM office review
+
+All projects, except for maintenance projects are also required to plan one of:
+
+. A public review
+. An ASAM member review
+
+After each review period, all feedback shall be reviewed and the group shall either accept or reject it. 
 
 Accepted feedback shall be implemented.
-The project group has full authority how to implement the reviewers' feedback into the standard.
-They can implement changes as proposed by the reviewer, or decide for a different implementation.
+
+The project group has full authority on how and to which extent to address the reviewers' feedback.
 
 Reviewers may not submit new use-cases, features, or requirements as part of their review feedback. +
-If this is the case, then the feedback shall be rejected and transferred to the ASAM CR-system with status "new".
+If this is the case, then the feedback shall be rejected and transferred to the relevant issue system with state NEW.
 
-If any review points lead to a need to implement major changes, the review process begins anew.
+Once the deliverables have been successfully reviewed and no issues remain open, the project continues to the **Release Phase**.
+
+If any review points lead to a need of significant development effort, the project transitions to the development phase or decides to move the issue or feature out of scope and it is documented in the issue system.
 
 // Additional information:: xref:compendium:review_phase.adoc[]
 --
@@ -139,21 +138,22 @@ Release::
 --
 include::compendium:partial$project_phases.adoc[tag=release]
 
-After the deliverables have been developed (and, in case of a major or minor standard development project, successfully reviewed), the project enters the Release Phase.
-The project group prepares a release candidate and agrees per formal voting to submit the candidate to the TSC for release decision.
-The release candidate has to be accepted by absolute two-thirds majority for it to pass.
 
-The Project Leader submits the following deliverables to ASAM:
+The project group prepares a release candidate and agrees via [formal voting] to submit the candidate to the TSC for release decision. 
 
-* the standard with all supplemental documents, files and examples that constitute the deliverables to members
-* sources required to generate the deliverables, including written instructions how to generate them
-* a (new) release presentation
+The Project Lead submits the following to ASAM:
 
-(Sources are those digital work products, which can be modified or edited with standard tools such as text editors, image processors or modeling tools, and which are the input for generators that produce the final deliverables.)
+* executive summary of the standard 
+* complete deliverables for the standard
+* all source code required to generate the deliverables for the standard including written instructions how to generate them
+* a release presentation
 
-IMPORTANT: The release candidate has to be submitted by the deadline date published on the https://www.asam.net/active-projects/technical-steering/[ASAM website^].
+NOTE: Download the template for a release presentation here.
 
-**The project has now concluded.**
+Sources are those digital work products, which can be modified or edited with standard tools such as text editors, image processors or modeling tools, and which are the input used to produce the final deliverables.
+
+IMPORTANT: The release candidate shall be submitted by the deadline date published on the https://www.asam.net/active-projects/technical-steering/[ASAM website^].
+
 
 
 // Additional information:: xref:compendium:release_phase.adoc[]
