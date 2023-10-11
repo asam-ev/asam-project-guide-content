@@ -1,0 +1,8 @@
+= Label overview
+:description: Overview of available labels as used for the contribution workflow
+:keywords: basics
+
+//tag::body[]
+
+include::tour_guide:partial$_attributes.adoc[]
+

@@ -46,7 +46,7 @@ The output of the proposal phase is a set of proposal documents, detailing the p
 The proposal documents are the basis for the TSC to decide whether to approve a project.
 Should a project be approved, it proceeds on to the **Development phase**.
 
-NOTE: Download the project proposal templates here.
+NOTE: Download the project proposal templates [here].
 
 
 // Additional information:: xref:compendium:proposal_phase.adoc[]

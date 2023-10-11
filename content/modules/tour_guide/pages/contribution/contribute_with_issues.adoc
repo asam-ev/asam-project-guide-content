@@ -48,7 +48,9 @@ If an issue has a branch, the issue shall not be closed before the branch has be
 
 Issues should be created using the provided issue templates in the repository.
 
-TIP: Each issue template contains a description (as comments) on when to use them and what content to add where.
+TIP: The issue templates are provided by ASAM and are available by default in the repository.
+
+Each issue template contains a description (as comments) on when to use them and what content to add where.
 
 image::compendium:gitlab/issue_template_example.png[title=Creating an issue from a template]
 
@@ -112,6 +114,6 @@ Additionally, an issue may also be closed without resolution if
 
 
 == Reopen issues
-If the topics addressed in a closed issue become relevant again, an issue may be reopened. If the issue was created before the current project, its state is set to NEW in the contribution workflow.
+If the topics addressed in a closed issue become relevant again, an issue may be reopened. The reason for reopening the ticket shall be clearly documented in the comments. If the issue was created before the current project, its state is set to NEW in the contribution workflow.
 
 //end::body[]

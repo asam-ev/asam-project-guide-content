@@ -7,5 +7,6 @@
 ** xref:sharepoint.adoc[]
 ** xref:contribution.adoc[]
 *** xref:contribution/contribute_with_issues.adoc[]
+*** xref:contribution/issue_list.adoc[]
 *** xref:contribution/issue_implementation.adoc[]
 ** xref:advanced_tools.adoc[]

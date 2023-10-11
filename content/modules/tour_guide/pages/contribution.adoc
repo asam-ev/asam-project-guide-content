@@ -341,28 +341,6 @@ If an issue is split into multiple sub-issues, assign due dates for the issue as
 In this case, the due date of the issue itself may exceed the 4 week recommendation.
 However, the sub-issues should then stick to that limit.
 
-== Generic roles
-The workflow contains some generic roles that each project may implement differently.
-
-=== Workflow Manager
-The role "**Workflow Manager**" is an abstract role. 
-Each project decides how and whom to assign it to. +
-Typical examples are:
-
-* Project Lead
-* Office Responsible
-* Subgroup leads, if available
-* Change Control Board (CCB) representative, if defined
-
-Typically, the Workflow Manager is experienced with using remote repositories.
-
-=== Integrator
-The Integrator is responsible for integrating the developed solution into the standard.
-Their task is to make sure the writing style is kept consistent and the link:https://internal.pages.asam.net/asam-editorial-guide/editorial-guide-generator/editorialguide-asciidoc/1.0.0/Editorial_guide.html[ASAM editorial rules] are met. 
-
-The Integrator may be a service provider tasked with documentation efforts in the project.
-Alternatively, the Integrator may be the Office Responsible or a member of the project group.
-
 
 
 //end::body[]
