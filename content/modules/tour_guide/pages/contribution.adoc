@@ -51,25 +51,25 @@ Type assigned::-> CLASSIFIED
 ** Otherwise, assign the correct type (one of):
 
 +
-Bug:::
+{isTypeBug-label}:::
 An issue that contains contradictions or errors in the standard. 
 
-NewFeature:::
+{isTypeFeature-label}:::
 An issue that adds new features to the project. 
 
-FeatureImprovement::: 
+{isTypeFeatureImprovment-label}::: 
 An issue that amends or improves existing features. 
 
-Editorial::: 
+{isTypeEditorial-label}::: 
 An issue that contains general structural and editorial changes for the whole documentation. 
 
-Infrastructure::: 
+{isTypeInfrastructure-label}::: 
 An issue related to the repository infrastructure such as CI, builds, document toolchain or similar. 
 
-Question:::
+{isTypeQuestion-label}:::
 General questions about the project, work-flow or anything related to the standard as well as support requests.  
 
-MeetingMinutes::: 
+{isTypeMeetingMinutes-label}::: 
 An issue documenting meeting minutes for an ASAM meeting. On starting, a project shall define the location of all meeting minutes for the project. This is either in a project sharepoint or in the issue list. Meeting minutes shall be kept for each official project meeting. 
 
 |===
@@ -138,6 +138,9 @@ Prioritized::-> IN PROGRESS
 |Actions that must be taken prior to state transition
 |
 * Assign the issue to a project participant -> the solution responsible
+* Define a solution team within the issue description. This may be either of:
+** a project subgroup - assign the respective label of the subgroup to the issue.
+** an unstructured group of project participants, specific to this issue - the names of these participants shall be documented in the issue description. 
 * Check if the issue needs to be split into multiple sub-issues or tasks (making it a parent issue)
 ** If it needs to be split, each sub-issue enters state ACCEPTED immediately
 ** Each sub-issue applies the remaining workflow individually
