@@ -68,13 +68,6 @@ Communication::
 |===
 h|Name|Description|Usage|Location
 
-|{calendar-icon-norole} +
-xref:compendium:Tools/calendar.adoc[]
-|Shared calendar for all OpenX projects. +
-Relevant for users that want to stay informed about *upcoming events and meetings* in the Simulation domain.
-|{recommended}
-|ASAM IT infrastructure
-
 
 |{sharepoint-icon-norole} +
 xref:compendium:Tools/teams_and_sharepoint.adoc[Microsoft Sharepoint]

@@ -13,7 +13,7 @@ include::compendium:partial$issue_labels.adoc[]
 
 [tabs, subs="attributes"]
 ====
-Simulation domain::
+docs-as-code::
 +
 --
 
@@ -68,7 +68,7 @@ This way, the Merge/Pull Request (and its branch) are already accessible through
 This way, the Merge/Pull Request (and its branch) cannot be concluded by accident.
 |===
 --
-Classic domain::
+Word::
 +
 --
 TODO

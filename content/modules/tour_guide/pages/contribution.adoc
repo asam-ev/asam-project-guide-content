@@ -57,7 +57,7 @@ An issue that contains contradictions or errors in the standard.
 {isTypeFeature-label}:::
 An issue that adds new features to the project. 
 
-{isTypeFeatureImprovment-label}::: 
+{isTypeFeatureImprovement-label}::: 
 An issue that amends or improves existing features. 
 
 {isTypeEditorial-label}::: 

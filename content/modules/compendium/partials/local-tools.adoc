@@ -88,14 +88,6 @@ It is only available for project members and can be found in the project's share
 |{mandatory}
 |ASAM IT infrastructure
 
-|{calendar-icon-norole} +
-xref:compendium:Tools/calendar.adoc[]
-|Shared calendar for all OpenX projects. +
-Relevant for users that want to stay informed about *upcoming events and meetings* in the Simulation domain.
-|Simulation
-|{recommended}
-|ASAM IT infrastructure
-
 |===
 
 //end::communication[]
