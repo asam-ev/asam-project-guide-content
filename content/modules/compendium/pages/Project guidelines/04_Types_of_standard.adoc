@@ -1,0 +1,40 @@
+= Classification of Standards 
+:description: describes the types of standards that are produced in projects. 
+
+include::partial$_attributes.adoc[]
+
+
+ASAM defines two types of standard, _base standard_ and _associated standard_.
+
+Irrespective of the type, all standards may consist of several documents or parts. These parts are independent (e.g., technology references) and must each individually comply with the basic document structure for ASAM standards. See the https://internal.pages.asam.net/asam-editorial-guide/editorial-guide-generator[ASAM Editorial Guide] for further details on document types and structure.
+
+== Base Standard 
+
+A base standard defines the syntax, abstract models, and functionality for general use. 
+A base standard is defined in a technology-independent form. 
+It can use a problem-/taskrelated notation, e.g., UML for an object model, or any suitable description for protocols. 
+
+Typically, a base standard may be:
+
+* A format description (data structure) 
+* A protocol definition 
+* An application programming interface 
+
+A base standard has the following properties: 
+
+* Platform-independent 
+* Technology-independent 
+* Supplier-independent 
+* Does not contradict any other ASAM standard  
+ 
+It is common practice in standardization to define technology-independent standards. 
+Often these are defined as data models, particularly when intended for data formats or apis. 
+These standards will generally include some technology-specific mappings for users looking to implement these standards in specific technologies. 
+The advantage of this approach, is that future developments can add or remove such technology-specific mappings depending on the evolution in the industry. 
+At ASAM these mappings are called "Technology References" and are independent part of the base standard.
+
+== Associated Standard 
+An associated standard always refers to a base standard. An associated standard is not an extension of the base standard, rather it is targeted at a specific use case. Often this includes such specifications as:
+
+* Application Area Companion  
+* Transport Layer Specification  

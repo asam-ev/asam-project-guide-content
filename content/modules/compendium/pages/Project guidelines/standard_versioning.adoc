@@ -1,0 +1,72 @@
+= Versioning of standards
+:description: Describes ASAM's approach to versioning of standards.
+
+include::partial$_attributes.adoc[]
+
+Versioning can be summarized as follows:
+
+    Given a version number **MAJOR.MINOR.MAINTENANCE**, increment the:
+
+    MAJOR version when you make incompatible changes
+    MINOR version when you add functionality in a backward compatible manner
+    MAINTENANCE version when you make backward compatible bug fixes
+
+Backward compatibility in terms of ASAM standards means, that a system compliant to a newer version of the ASAM standard will work together with a system compliant of an older version of the standard without interruption. The only exception is new features introduced by the newer version of the standard.
+
+A feature in terms of ASAM standards is a significant characteristic functionality, data object or process, which is perceived by users of the standard as one specification entity. 
+
+== New standard
+
+Special consideration is made for new standards. 
+A first release of an ASAM standard is versioned as "1.0.0". 
+A new standard meets the following criteria:
+
+* There exists no predecessor in the ASAM standard portfolio. 
+* A predecessor in the ASAM standard portfolio was deprecated and a new standard in the same technology area shall be developed from scratch. 
+* The new standard is an extension, substitution or parallel development of a standard from another standardization organization. 
+
+If a new standard replaces a deprecated standard, then the new standard shall not have the same name as the deprecated standard. 
+
+
+== Major version
+
+Major version developments of ASAM standards introduce significant changes to the standard. 
+Major version development projects meet one or more of the following criteria:  
+
+* Addition of a new, major feature. 
+* Significant changes to existing features. 
+
+It is expected that the implementation of the new version will require significant development or migration efforts by tool vendors and end users alike.  
+A new major version of an ASAM standard does not have to be backward-compatible to its predecessor versions. 
+
+== Minor version
+
+Minor version developments of ASAM standards introduce changes to existing features on a smaller scale or introduce new features that are rather small relative to the rest of the standard. 
+Minor version development projects meet one or more of the following criteria:  
+
+* Addition of new features, which are considered as small relative to existing features. 
+* Insignificant changes or additions to existing features. 
+
+It is expected that the implementation of the new version will require low development or migration efforts by tool vendors and end users.  
+A new minor version of an ASAM standard shall be backward-compatible to its immediate predecessor version.
+Exceptions are allowed, require approval from the TSC and must be documented in the standard. 
+
+== Maintenance version
+
+Revision version developments of ASAM standards resolve technical issues with the currently released version of the standard. 
+Revision version development projects meet one or more of the following criteria: 
+
+* Correction of errors. 
+* Removal of ambiguities. 
+* Addition of clarifications to existing descriptions. 
+* Editorial improvements. 
+* Any kind of changes to examples, including the addition of examples. 
+
+It is expected that the implementation of the new version will require low development or migration efforts by tool vendors and end users.  
+
+Maintenance versions cannot include new features. 
+
+The only exception is, that a new feature has been forgotten in an earlier release of the standard and is absolutely required for a functional and meaningful standard. 
+
+A new maintenance version of an ASAM standard shall be backward-compatible to its immediate predecessor version. The only exception is, that the correction of an error or the removal of an ambiguity cannot be reasonably solved in any other way than breaking the backward compatibility. An exception requires approval from the TSC and must be documented in the standard. 
+
