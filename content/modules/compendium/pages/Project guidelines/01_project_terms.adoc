@@ -1,4 +1,4 @@
-= Project terms
+= Project roles
 :description: Defines all terms used when referencing an ASAM project.
 :keywords: concept, project
 
@@ -14,7 +14,7 @@ Project group:: The full group of all formally enrolled project participants. A 
 
 Project member:: A company enrolled in a project via one or more project participants. A project member has one vote, irrespective of the number of it's project participants.
 
-Project participant:: An individual, representing a project member, enrolled in a project with a defined committment. Actively involved in a project's activities, tasks, or processes, contributing to the project's planning, execution, monitoring, and completion. Contributors may assume various roles and responsibilities, and their involvement can vary in scope and duration based on their contributions to the project. 
+Project participant:: An individual, representing a project member, enrolled in a project with a defined commitment. Actively involved in a project's activities, tasks, or processes, contributing to the project's planning, execution, monitoring, and completion. Contributors may assume various roles and responsibilities, and their involvement can vary in scope and duration based on their contributions to the project. 
 
 Subgroup:: A subgroup is a subset of the project group composed of voluntary project participants who collaborate on specific tasks, functions, or areas within the project. Subgroups are formed to enhance focus, efficiency, and specialization within the larger project group. Subgroups work collaboratively with other subgroups and the main project group to ensure that their contributions align with the overall project objectives.
 

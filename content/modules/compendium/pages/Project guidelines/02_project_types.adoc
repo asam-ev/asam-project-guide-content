@@ -6,66 +6,163 @@ include::partial$_attributes.adoc[]
 
 
 == Overview
-ASAM develops its products and results in projects.
+ASAM develops its products, including standards, in projects.
 
-Different projects entail different expectations towards the type of deliverables, although the quality expectations remain {description}
+Different projects entail different expectations towards the type of deliverables, although the quality expectations remain.
 
-ASAM project types and the expected deliverables are:
+ASAM project types are:
 
-* For a **concept project**, the output is a Concept Paper (which can be the basis for a follow-up project)
-* For a **standard development project**, the output is the standard + optional supplemental documents
-* For a **study project**, the output is a Study Report that details the findings of the project.
-* For an **implementation project**, the output is software, tooling or reference implementations to support the use and adoption of one or more standards.
+* **Concept projects** prepare the further development of existing ASAM standards or the development of new ASAM standards
+* **Standard development projects** develop a new version or versions for a standard in accordance with the demands of ASAM members and market requirements.
+* **Study projects** provide members an organizational structure to study or analyze specific aspects of ASAM standards or technology sectors in a collaborative way.
+* **Implementation project**, the output is software, tooling or reference implementations to support the use and adoption of one or more standards.
 
-image::Concepts/project_types_overview.drawio.svg[title="ASAM project types overview", width= 800]
+// image::Concepts/project_types_overview.drawio.svg[title="ASAM project types overview", width= 800]
 
-
+Unless indicated otherwise, all projects undergo all xref:[project phases] and are subject to the xref:tour_guide:page$contribution.adoc[contribution workflow] for projects. Deliverables of all projects are subject to the rules defined in the link:https://internal.pages.asam.net/asam-editorial-guide/editorial-guide-generator[ASAM Editorial Guide] unless explicitly declared otherwise.
 
 // TODO: Project types need to be discussed by TSC first.
 
-== Details
-[tabs]
-====
-Concept::
-+
---
-[horizontal]
-Description:: 
-Concept projects are chosen to clarify scope, use cases and requirements towards potential standardisation projects. This may include technology surveys or the carrying out of performance benchmarks.
+== Concept project
+Concept projects prepare the further development of existing ASAM standards or to prepare the development of new ASAM standards. 
+The goals of concept projects are:  
 
-Output:: Concept paper
---
-Standard development::
-+
---
-[horizontal]
-Description:: 
-Development of a new version or versions for a standard in accordance with the demands of ASAM members and market requirements.
+* to propose specific content for ASAM standards 
+* to provide justification or proof for the usefulness, practicability and feasibility of the proposals 
 
-The versioning of standards is described in the link:https://internal.pages.asam.net/asam-editorial-guide/editorial-guide-generator/editorialguide-word/1.0.0/Editorial_guide/01_basics.html#sec-ASM-14[ASAM Editorial Guide]
+In order to reach the goals and to enable the project group to develop specific content proposals, concept projects may include some of the following methods: 
 
-Output:: Standard
+* feasibility study 
+* requirements evaluation * technology survey 
+* development of a prototype 
+* carrying out performance benchmarks 
+
+The minimum deliverable of a concept project must be a concept paper. 
+The paper shall include the findings of the project group and proposals for ASAM standards. 
+Proposals for ASAM standards shall be as specific as possible. 
+Ideally, the concept project documents their proposals in a copy-paste ready format, as it could be taken over into the respective ASAM standard. 
+
+Upon request, ASAM provides funding for concept projects up to 75% of the total required project budget.
+
+NOTE: See here for the template for a concept paper.
+
+== Standard development
+
+The result of a standard development project is a new or revised standard. 
+
+ASAM provides funding for standard development projects up to 25% of the total required project budget. 
+Each standard may have only one development project at a time. 
+
+The versioning of standards is described in the link:https://internal.pages.asam.net/asam-editorial-guide/editorial-guide-generator/editorialguide-word/1.0.0/Editorial_guide/01_basics.html#sec-ASM-14[ASAM Editorial Guide].
+
+ASAM distinguishes between two types of standard development project.
 
 
---
-Study::
-+
---
-[horizontal]
-Description:: Study projects provide members an organizational structure to study or analyze specific aspects of ASAM standards or technology sectors in a collaborative way.
+=== Future version development (FVD)
 
-These activities aim to improve understanding of using and implementing ASAM standards, the overall landscape and to identify potential new areas for standardization.
+Development of new, major or minor versions of standards. 
+The new version of a standard(s) is defined by the project during its development and approved by the TSC.
 
-Output:: Study report
+=== Maintenance 
+Maintenance projects resolve technical issues with the currently released version of the standard.
+They meet one or more of the following criteria: 
 
---
-Implementation::
-+
---
-[horizontal]
-Description:: Create a supplementary product to a standard that supports the implementation or application of an ASAM standard in the industry. 
+* Correction of errors 
+* Removal of ambiguities 
+* Addition of clarifications to existing descriptions 
+* Editorial improvements 
+* Any kind of changes to examples, including the addition of examples 
 
-Repository suffix:: Implementation
-Output:: Software tools or scripts, such as checkers, reference implementations, plugins, etc.
---
-====
+It is expected that the implementation of the new version will require low development or migration efforts by tool vendors and end users. 
+Revisions cannot include new features. 
+The only exception is, that a new feature has been forgotten in an earlier release of the standard and is absolutely required for a functional and meaningful standard. 
+A new revision version of an ASAM standard shall be backward-compatible to its immediate predecessor version. 
+The only exception is, that the correction of an error or the removal of an ambiguity cannot be reasonably solved in any other way than breaking the backward compatibility. 
+An exception requires approval from the TSC and must be documented in the standard. 
+Revision development projects may be converted to a minor or major version development project during the course of the project term, if backward-compatibility issues turn out to be too severe or new features need to be added. 
+The TSC has to approve this change of project type. 
+Only those ASAM members, who were actively involved in development of the preceding major or minor version, can participate in the revision development project. 
+Revision projects are limited to a life cycle of up to 18 months. 
+
+Unlike other project types, the paid service provider for a revision project can be contracted without a public request for quotation. 
+The service provider is confirmed by the TSC and is appointed before the project starts. The project leader and the service provider must be employees from different companies. 
+
+NOTE: See here for the template for a new standard document.
+
+== Study
+
+Study projects provide members an organizational structure to study or analyze specific aspects of ASAM standards in a collaborative way. 
+
+Study projects have the overall goal to enhance the understanding of ASAM standards among the participants, to promote their application in member companies and to create change requests for the further development of ASAM standards. 
+
+This project type is specifically intended for members in regions, where ASAM standards are not well known. 
+
+The content of study projects can be, but is not limited to:  
+
+* collaborative self-study of an ASAM standard 
+* receive training on an ASAM standard 
+* carry out a suitability analysis of an ASAM standard against defined usecases 
+* carry out a pilot project to become familiar with the practical application of ASAM-related tools 
+* carry out an interoperability analysis of ASAM-related tools 
+
+Study projects have no expected deliverables other than a final report. 
+The members of study projects shall submit change requests if they find issues or gaps in ASAM standards.
+The requirements towards contribution and editorial rules do not apply for study projects. 
+
+The application process for study project differs and is as follows:
+
+. Member submits a Study Project Proposal to the ASAM Office for project approval. 
+NOTE: https://asamev.sharepoint.com/:w:/g/ETTPLaotxEdPsFTnJO9MSREBL7z32-NZABqicQYR5aTlkQ?e=G08th5[Workgroup Information Sheet]
+. ASAM Office checks the information and approves or rejects the project. 
+. ASAM Office informs the TSC about the project. 
+. ASAM Office publishes an announcement of the project. 
+. The study project starts and is being carried out as described in the study project information sheet.  
+. The ASAM Office monitors the project activities. 
+
+Some further rules apply for study projects: 
+
+* Participation in study projects is open for all ASAM members, e.g. also to members in a non "active" membership class. 
+* Participation in a study project can be restricted to members of a specific region, e.g. Japan only. 
+* The working language can be different than English. 
+* The project members elect a project leader. 
+* Meetings are documented via meeting minutes in English language. The minutes may be translated into the working language of the study group.  
+* The project members use the ASAM IT infrastructure. 
+
+Upon request, ASAM provides funding for study projects up to the limit for small budget projects. Should a greater budget be required, a study project is subject to the full project process. See the https://www.asam.net/active-projects/resources/#[TSC Guidelines^] for further detail on project budgets.
+
+
+== Implementation
+
+An implementation project has the purpose to create a supplementary product that supports the application of an ASAM standard in the industry. 
+
+An ASAM product shall cover one of the following usecases:  
+
+* supports the development of standard-based, commercial products (e.g. development tool kit) 
+* ensures standard-based interoperability of commercial products (e.g. source code) 
+* reduce the development costs of commercial products (e.g. source code) 
+* is used for testing the standard compliance of commercial products (e.g. checker tool, test suite, source code) 
+
+Another auxiliary purpose of an implementation project can be to support the standard development by providing feedback from the implementers to the standard developers to improve the quality and maturity of the standard while it is still in development. 
+For liability reasons, ASAM shall develop and distribute source code only as a result of an implementation project. 
+Members may use the source code to create tools or other executables from the source code. 
+As an example, implementation projects may include the development of source code for one of the following products. 
+This list is not exhaustive and should only serve as a guideline of what might be a meaningful, supplementary product to an ASAM standard. 
+
+* Checker tool for syntax checks of non-schema-based file formats 
+* Checker tool for plausibility checks of schema-based file formats 
+* Checker tool for API checks 
+* Add-on or plug-in for de-facto standard IDEs (e.g. MATLAB, Simulink, Eclipse etc.) 
+* Importers or parsers 
+* Exporters or generators 
+* Reference implementations of tools or tool components 
+* Behavioral software components 
+* Additions to popular open-source projects (e.g. Eclipse, openMDM, Artop, etc.) 
+* API stubs and skeletons 
+
+The deliverable(s) of an implementation project must have product-quality. 
+Consequently, ASAM products are professionally developed in accordance to customary quality guidelines of the automotive or IT industries, whichever is applicable. 
+This requires that the software is developed by a contractor, while the ASAM project group controls and reviews the contractor's implementation. 
+
+Upon request, ASAM provides funding up to 100% of the project's required budget. 
+Excluded are expenses for meeting participation and travel. 
+
