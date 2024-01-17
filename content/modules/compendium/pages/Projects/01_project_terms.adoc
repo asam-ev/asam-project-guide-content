@@ -41,6 +41,7 @@ The TSC evaluates and votes on proposals for the development or enhancement 
 
 == Project roles
 
+[[asam_or]]
 Office Responsible (OR):: The ASAM contact for a project. An __Office Responsible (OR)__ is an *ASAM employee* focussed on *coordinating project processes* and the *background work* behind a project.
 
 Project Lead (PL):: The __Project Participant__ *responsible for the project* and leading the general project activities. +

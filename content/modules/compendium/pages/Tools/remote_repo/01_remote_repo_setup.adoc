@@ -42,7 +42,7 @@ DevOps::
 a|== Context
 The choice of DevOps platform depends on the project.
 Most ASAM projects use https://code.asam.net/[ASAM's GitLab instance^].
-If you are unsure which type of remote repository your project is using, ask your xref:compendium:Concepts/roles-overview.adoc[ASAM Office Responsible (OR)].
+If you are unsure which type of remote repository your project is using, ask your xref:compendium:Projects/01_project_terms.adoc#asam_or[ASAM Office Responsible (OR)].
 
 All specification-related documents are stored and updated in the project's remote (or online) repository. +
 This GitLab instance is hosted and managed directly by ASAM.

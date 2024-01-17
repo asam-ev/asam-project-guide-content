@@ -14,8 +14,8 @@ include::compendium:partial$tools_attributes.adoc[]
 :width-large: 120
 :width-small: 100
 
-:project-types-icon: xref:Projects/project_types.adoc[image:Projects/types_icon.png[width={width-large}], role=right]
-:project-types-icon-norole: xref:Projects/project_types.adoc[image:Projects/types_icon.png[width={width-small}]]
+:project-types-icon: xref:Projects/02_project_types.adoc[image:Projects/types_icon.png[width={width-large}], role=right]
+:project-types-icon-norole: xref:Projects/02_project_types.adoc[image:Projects/types_icon.png[width={width-small}]]
 
 :project-phases-icon: xref:Projects/project_phases.adoc[image:Projects/phases_icon.png[width={width-large}], role=right]
 :project-phases-icon-norole: xref:Projects/project_phases.adoc[image:Projects/phases_icon.png[width={width-small}]]
@@ -23,8 +23,8 @@ include::compendium:partial$tools_attributes.adoc[]
 :project-lifecycle-icon: xref:Projects/project_lifecycle.adoc[image:Projects/phases_icon.png[width={width-large}], role=right]
 :project-lifecycle-icon-norole: xref:Projects/project_lifecycle.adoc[image:Projects/phases_icon.png[width={width-small}]]
 
-:roles-icon: xref:Projects/roles-overview.adoc[image:Projects/roles_icon.svg[width={width-large}], role=right]
-:roles-icon-norole: xref:Projects/roles-overview.adoc[image:Projects/roles_icon.svg[width={width-small}]]
+:roles-icon: xref:Projects/01_project_terms.adoc[image:Projects/roles_icon.svg[width={width-large}], role=right]
+:roles-icon-norole: xref:Projects/01_project_terms.adoc[image:Projects/roles_icon.svg[width={width-small}]]
 
 :diagram-notation-icon: xref:Projects/diagram_notations.adoc[image:Projects/notation_icon.drawio.svg[width={width-large}], role=right]
 :diagram-notation-icon-norole: xref:Projects/diagram_notations.adoc[image:Projects/notation_icon.drawio.svg[width={width-small}]]
