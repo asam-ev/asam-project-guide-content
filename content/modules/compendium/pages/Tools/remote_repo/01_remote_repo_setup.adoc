@@ -119,6 +119,8 @@ After you (or your company's IT) has accepted the invitation, ASAM will change y
 This will let you access Teams and Sharepoint with your Microsoft account while sending invites to your contact email.
 
 |===
+
+--
 ====
 //end::setup[]
 //end::body[]

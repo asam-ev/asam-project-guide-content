@@ -56,11 +56,11 @@ They define file formats, data models, protocols, and interfaces.
 The standards enable easy exchange of data and tools within and across tool chains.
 They are applied worldwide.
 ----
-//image::Concepts/asciidoc[title=ASAM Foreword section in AsciiDoc (source)]
+//image::Projects/asciidoc[title=ASAM Foreword section in AsciiDoc (source)]
 Rendered output::
 +
 --
-image::Concepts/asciidoc_example-output.png[title=The same Foreword section rendered by Asciidoctor and Antora in HTML (rich output)]
+image::Projects/asciidoc_example-output.png[title=The same Foreword section rendered by Asciidoctor and Antora in HTML (rich output)]
 --
 ====
 
@@ -85,7 +85,7 @@ Each child branch targets a single aspect of development.
 Once the development in a child branch is complete, its changes are merged back into the trunk.
 This is done through a Merge Request (MR) in GitLab, or a Pull Request (PR) in GitHub.
 
-image::Concepts/example-repo-workflow.drawio.svg[title=Repository workflow and branching example.]
+image::Projects/example-repo-workflow.drawio.svg[title=Repository workflow and branching example.]
 
 TIP: If you want to learn more about Git itself, ASAM recommends online introductions and tutorials such as https://rogerdudler.github.io/git-guide/[**Git-Guide, R. Dudler**^].
 
@@ -105,7 +105,7 @@ Using online collaboration platforms with repository support has multiple benefi
 The <<fig-issue_example-gitlab,figure below>> shows an example issue from a project where a topic discussion takes place.
 
 [#fig-issue_example-gitlab]
-image::Concepts/issue_example.drawio.svg[title=Example for a topic discussion through the GitLab issue board in a project]
+image::Projects/issue_example.drawio.svg[title=Example for a topic discussion through the GitLab issue board in a project]
 
 ASAM currently supports projects on both its internal GitLab instance as well as on the public GitHub.
 Unless explicitly decided differently by the Office, new projects use GitLab.

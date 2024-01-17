@@ -2,4 +2,4 @@
 
 include::compendium:partial$_attributes.adoc[]
 
-include::tour_guide:page$meetings/meeting_minutes.adoc[tag=body]
+include::tour_guide:page$meetings/meeting_notes.adoc[tag=body]

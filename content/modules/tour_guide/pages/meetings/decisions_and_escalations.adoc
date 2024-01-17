@@ -23,11 +23,11 @@ A topic must be presented at the next xref:tour_guide:meetings/types.adoc#_proje
 
 
 === From project group to TSC meeting
-If a project wishes to change its scope or timeline or requires a change to budget it should submit to the TSC for a decision. Prior to submitting to the TSC, project consensus on the request being submitted is required. See the xref:compendium:Concepts/project_types.adoc#[TSC Guidelines] for guidance on submission. In some cases the TSC may explicitly request presentation of specific material, decisions this shall be communicated clearly beforehand by the OR. A project is required to submit a controlling report to each TSC in accordance with the submission deadlines.
+If a project wishes to change its scope or timeline or requires a change to budget it should submit to the TSC for a decision. Prior to submitting to the TSC, project consensus on the request being submitted is required. See the xref:compendium:Projects/project_types.adoc#[TSC Guidelines] for guidance on submission. In some cases the TSC may explicitly request presentation of specific material, decisions this shall be communicated clearly beforehand by the OR. A project is required to submit a controlling report to each TSC in accordance with the submission deadlines.
 
 
 == Guidelines for formal voting
-
+tag::vote_body[]
 An ASAM Office Responsible shall reference these rules prior to the initiation of project votes in any meeting.
 
 Every project member may request that a topic be voted on.
@@ -94,4 +94,5 @@ Some topics require a formal voting:
 **Note that certain subgroup decisions require an escalation to a project voting. See <<From Subgroup to project group>>.**
 
 
-//end::body[]
+
+end::vote_body[]

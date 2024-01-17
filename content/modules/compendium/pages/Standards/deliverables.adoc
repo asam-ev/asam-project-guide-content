@@ -19,7 +19,8 @@ Contains normative and informative content as described in rule https://internal
 Most ASAM standards also include one or more of the following documents or parts. 
 For more information on naming of documents/parts, see the link:https://internal.pages.asam.net/asam-editorial-guide/editorial-guide-generator/editorialguide-word/1.0.0/Editorial_guide/01_basics.html#sec-3db75534-5e38-44b7-9597-d5b4c4fdff14[ASAM Editorial Guide]
 
-image::
+.An example structure of an ASAM standard
+image::openodd_deliverables.png[]
 
 [sidebar]
 .Model Reference
@@ -30,18 +31,19 @@ Describes all model elements and functions in the data model
 [sidebar]
 .User Guideline
 --
+Additional non-normative content that supplements the normative specification. Often includes usage examples and guidance on application of standard-specific features.
 --
 
 [sidebar]
-.Technology Reference
+.Technology Reference and Mapping Reference
 --
 It is common practice in standardization to define technology-independent standards. 
 Often these are defined as data models, particularly when intended for data formats or apis. 
 These standards will generally include some technology-specific mappings for users looking to implement these standards in specific technologies. 
 
 The advantage of this approach, is that future developments can add or remove such technology-specific mappings depending on the evolution in the industry. 
-At ASAM these mappings are called "Technology References" and are independent part of the base standard.''
-A technology reference specifies the technology-dependent interpretation of the generic standard as mapping rules. If these mapping rules are complied with, the deliverables are technology specific implementations of standards that are suitable for a specific implementation platform and native programming languages. 
+At ASAM these are called "Technology References" and are independent part of the base standard. 
+
 
 A technology reference is not an implementation! See a python mapping for a function call from the XIL API below:
 
@@ -54,7 +56,6 @@ def _getConfiguration(self):
 """
     raise NotImplementedError()
 ----
---
 
 One example, of many within ASAM, is ODS, in the past this provided a mapping of the data model for its API to CORBA. Now it is adding a mapping to HTTP/REST. This is not exclusive. 
 
@@ -62,3 +63,6 @@ Other examples:
 
 ASAM SOVD:: API specified technology-independently, deliverables include a mapping to OpenAPI (yaml). See for example the capability description in section 6 on page 32 in the https://asamev-my.sharepoint.com/:b:/g/personal/benjamin_engel_asam_net/EUMSBhbdtvVPowzndwoLr3oBsWMeO80zJR0bgXbqQiuFfQ?e=AhRdPc[SOVD specification] and the corresponding https://asamev-my.sharepoint.com/:u:/g/personal/benjamin_engel_asam_net/EZLPcrWlwmxOotEeakYmctQBRd3XhAZvJm--8Ava8Uu4qw?e=nAMtS9[OpenAPI mapping]
 ASAM XIL:: API specified in a data model, two mappings included. One to python and one to C#. See the https://asamev-my.sharepoint.com/:f:/g/personal/benjamin_engel_asam_net/EnnKXmUKFVtPjkpiAQiuDBsBjWNBUOWKaMjqemWJHqxx8w?e=XRQksC[technology reference documents]
+
+--
+

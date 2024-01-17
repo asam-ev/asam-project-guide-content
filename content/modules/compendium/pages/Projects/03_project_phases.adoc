@@ -9,11 +9,11 @@ include::partial$_attributes.adoc[]
 
 == Introduction
 
-Besides xref:compendium:Concepts/project_types.adoc[different types of projects], there are five main project phases that ASAM defines.
+Besides xref:compendium:Projects/project_types.adoc[different types of projects], there are five main project phases that ASAM defines.
 Not all projects must necessarily pass through all these phases.
 See the phase descriptions below for more details.
 
-image::compendium:Concepts/project_lifecycle.drawio.svg[alt=The ASAM Project Phases, title=The ASAM project phases]
+image::compendium:Projects/project_lifecycle.drawio.svg[alt=The ASAM Project Phases, title=The ASAM project phases]
 
 == Descriptions
 
@@ -42,7 +42,7 @@ The focus of this period is to refine the technical content of a potential proje
 A project shall hold at least one proposal workshop. 
 It is used to present more insight into the scope and gather further feedback and parties.
 
-The output of the proposal phase is a set of proposal documents, detailing the project's targets, participants, the budget, timeline, and other project-related information, such as the xref:compendium:Concepts/project_types.adoc[type of the project]. +
+The output of the proposal phase is a set of proposal documents, detailing the project's targets, participants, the budget, timeline, and other project-related information, such as the xref:compendium:Projects/project_types.adoc[type of the project]. +
 The proposal documents are the basis for the TSC to decide whether to approve a project.
 Should a project be approved, it proceeds on to the **Development phase**.
 
@@ -73,10 +73,10 @@ image::compendium:asam/development_phase_timeline.drawio.svg[]
 **This is the main phase of each project.** +
 If you want to learn more about how to get ready for your project, check out the **xref:tour_guide:index.adoc[]**.
 
-During this phase, the project-type specific xref:compendium:Concepts/deliverables.adoc[deliverables] are developed by the project participants.
+During this phase, the project-type specific xref:compendium:Projects/deliverables.adoc[deliverables] are developed by the project participants.
 In the beginning, the project group organizes a kickoff workshop to specify their modus operandi and set up all technical aspects of the project.
 In particular, the Project Lead who is the main responsible for the project is elected.
-Depending on the size of the project, other xref:compendium:Concepts/roles-overview.adoc[roles] such as subgroup leads are also elected. 
+Depending on the size of the project, other xref:compendium:Projects/roles-overview.adoc[roles] such as subgroup leads are also elected. 
 Additionally, the project group may also contract one or more Service Providers as outside help if the required budget was included in the Proposal document. +
 This is followed by one or more development intervals,   specifying, writing, and reviewing content internally until the document or documents are ready for the **Review Phase**.
 

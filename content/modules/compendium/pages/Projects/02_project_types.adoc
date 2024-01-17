@@ -17,7 +17,7 @@ ASAM project types are:
 * **Study projects** provide members an organizational structure to study or analyze specific aspects of ASAM standards or technology sectors in a collaborative way.
 * **Implementation project**, the output is software, tooling or reference implementations to support the use and adoption of one or more standards.
 
-// image::Concepts/project_types_overview.drawio.svg[title="ASAM project types overview", width= 800]
+// image::Projects/project_types_overview.drawio.svg[title="ASAM project types overview", width= 800]
 
 Unless indicated otherwise, all projects undergo all xref:[project phases] and are subject to the xref:tour_guide:page$contribution.adoc[contribution workflow] for projects. Deliverables of all projects are subject to the rules defined in the link:https://internal.pages.asam.net/asam-editorial-guide/editorial-guide-generator[ASAM Editorial Guide] unless explicitly declared otherwise.
 
@@ -53,7 +53,7 @@ The result of a standard development project is a new or revised standard.
 ASAM provides funding for standard development projects up to 25% of the total required project budget. 
 Each standard may have only one development project at a time. 
 
-For more detail on versioning, see xref:compendium:page$Project Guidelines/standard_versioning.adoc[standard versioning].
+For more detail on versioning, see xref:compendium:page$Standards/standard_versioning.adoc[standard versioning].
 
 ASAM distinguishes between two types of standard development project.
 
