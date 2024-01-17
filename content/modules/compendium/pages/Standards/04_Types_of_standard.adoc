@@ -27,11 +27,7 @@ A base standard has the following properties:
 * Supplier-independent 
 * Does not contradict any other ASAM standard  
  
-It is common practice in standardization to define technology-independent standards. 
-Often these are defined as data models, particularly when intended for data formats or apis. 
-These standards will generally include some technology-specific mappings for users looking to implement these standards in specific technologies. 
-The advantage of this approach, is that future developments can add or remove such technology-specific mappings depending on the evolution in the industry. 
-At ASAM these mappings are called "Technology References" and are independent part of the base standard.
+
 
 == Associated Standard 
 An associated standard always refers to a base standard. An associated standard is not an extension of the base standard, rather it is targeted at a specific use case. Often this includes such specifications as:

@@ -10,6 +10,6 @@ include::ROOT:partial$_attributes.adoc[]
 **Get to know the central concepts at ASAM.**
 
 
-pages::[path=Concepts]
+pages::[path=Projects]
 
 // include::ROOT:partial$landing_page_referral.adoc[]
