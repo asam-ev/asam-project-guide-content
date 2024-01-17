@@ -4,7 +4,7 @@
 
 include::tour_guide:partial$_attributes.adoc[]
 
-//tag::body[]
+//tag::vote_body[]
 
 == Decisions in meetings
 This page details the decision making process, escalation path and voting guidelines in ASAM projects.
@@ -27,7 +27,6 @@ If a project wishes to change its scope or timeline or requires a change to budg
 
 
 == Guidelines for formal voting
-// tag::vote_body[]
 An ASAM Office Responsible shall reference these rules prior to the initiation of project votes in any meeting.
 
 Every project member may request that a topic be voted on.

@@ -29,5 +29,5 @@ include::compendium:partial$tools_attributes.adoc[]
 :diagram-notation-icon: xref:Projects/diagram_notations.adoc[image:Projects/notation_icon.drawio.svg[width={width-large}], role=right]
 :diagram-notation-icon-norole: xref:Projects/diagram_notations.adoc[image:Projects/notation_icon.drawio.svg[width={width-small}]]
 
-:doc-as-code-icon: xref:Projects/doc-as-code.adoc[image:Projects/doc-as-code-icon.png[width={width-large}], role=right]
-:doc-as-code-icon-norole: xref:Projects/doc-as-code.adoc[image:Projects/doc-as-code-icon.png[width={width-small}]]
+:doc-as-code-icon: xref:Development/doc-as-code.adoc[image:Projects/doc-as-code-icon.png[width={width-large}], role=right]
+:doc-as-code-icon-norole: xref:Development/doc-as-code.adoc[image:Projects/doc-as-code-icon.png[width={width-small}]]

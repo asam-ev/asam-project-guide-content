@@ -53,7 +53,7 @@ The result of a standard development project is a new or revised standard.
 ASAM provides funding for standard development projects up to 25% of the total required project budget. 
 Each standard may have only one development project at a time. 
 
-For more detail on versioning, see xref:compendium:page$Standards/standard_versioning.adoc[standard versioning].
+For more detail on versioning, see xref:Standards/01_standard_versioning.adoc[standard versioning].
 
 ASAM distinguishes between two types of standard development project.
 
