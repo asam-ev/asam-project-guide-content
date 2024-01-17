@@ -5,11 +5,11 @@ include::partial$_attributes.adoc[]
 
 Versioning can be summarized as follows:
 
-    Given a version number **MAJOR.MINOR.MAINTENANCE**, increment the:
+Given a version number **MAJOR.MINOR.MAINTENANCE**, increment the:
 
-    MAJOR version when you make incompatible changes
-    MINOR version when you add functionality in a backward compatible manner
-    MAINTENANCE version when you make backward compatible bug fixes
+*MAJOR* version when you make incompatible changes +
+*MINOR* version when you add functionality in a backward compatible manner +
+*MAINTENANCE* version when you make backward compatible bug fixes +
 
 Backward compatibility in terms of ASAM standards means, that a system compliant to a newer version of the ASAM standard will work together with a system compliant of an older version of the standard without interruption. The only exception is new features introduced by the newer version of the standard.
 

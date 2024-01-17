@@ -15,7 +15,8 @@ The following sections describe this workflow in more detail.
 .ASAM contribution workflow
 image::tour_guide:workflow/asam_contribution_workflow-StateDiagram.drawio.svg[]
 
----
+
+IMPORTANT: For details on referenced labels, refer to the xref:tour_guide:contribution/issue_list.adoc[label overview].
 
 
 [tabs]
@@ -30,7 +31,7 @@ New::
 |A new issue that needs to be classified to a type.
 
 |Who
-|<<Workflow Manager>>
+|xref:compendium:Projects/01_project_terms.adoc#workflow-manager[Workflow Manager]
 
 |State Label
 |{isStateNew-label}
@@ -44,33 +45,12 @@ Type assigned::-> CLASSIFIED
 [cols="<.<1,<.<3a"]
 |===
 
-|Actions that must be taken prior to state transition
-|
+|To transition to next state
+|*Actions*
+
 * Categorize the issue (i.e. assign the issue type)
 ** If the issue has been raised previously or was solved in another issue, assign {resolutionTypeDuplicate-label} and close the issue
-** Otherwise, assign the correct type (one of):
-
-+
-{isTypeBug-label}:::
-An issue that contains contradictions or errors in the standard. 
-
-{isTypeFeature-label}:::
-An issue that adds new features to the project. 
-
-{isTypeFeatureImprovement-label}::: 
-An issue that amends or improves existing features. 
-
-{isTypeEditorial-label}::: 
-An issue that contains general structural and editorial changes for the whole documentation. 
-
-{isTypeInfrastructure-label}::: 
-An issue related to the repository infrastructure such as CI, builds, document toolchain or similar. 
-
-{isTypeQuestion-label}:::
-General questions about the project, work-flow or anything related to the standard as well as support requests.  
-
-{isTypeMeetingMinutes-label}::: 
-An issue documenting meeting minutes for an ASAM meeting. On starting, a project shall define the location of all meeting minutes for the project. This is either in a project sharepoint or in the issue list. Meeting minutes shall be kept for each official project meeting. 
+** Otherwise, assign the correct type.
 
 |===
 --
@@ -100,8 +80,9 @@ Issue is accepted::-> ACCEPTED
 [cols="<.<1,<.<3a"]
 |===
 
-|Actions that must be taken prior to state transition
-|
+|To transition to next state
+|*Actions*
+
 * Decide whether to address the issue or not
 * If the issue is accepted, it is assigned to a release milestone
 * If rejected, {resolutionTypeRejected-label} is assigned
@@ -135,8 +116,9 @@ Prioritized::-> IN PROGRESS
 [cols="<.<1,<.<3a"]
 |===
 
-|Actions that must be taken prior to state transition
-|
+|To transition to next state
+|*Actions*
+
 * Assign the issue to a project participant -> the solution responsible
 * Define a solution team within the issue description. This may be either of:
 ** a project subgroup - assign the respective label of the subgroup to the issue.
@@ -173,8 +155,9 @@ Solution developed::-> IMPLEMENTED
 [cols="<.<1,<.<3a"]
 |===
 
-|Actions that must be taken prior to state transition
-|
+|To transition to next state
+|*Actions*
+
 * Develop a solution together with relevant group (solution team, see xref:tour_guide:contribution/issue_implementation.adoc[])
 * Document the solution by creating a merge/pull request. Some projects do not yet use the DevOps platforms of ASAM. In this case the solution location is to be agreed on by the project on start.
 * Coordinate, monitor and discuss developments within solution team
@@ -207,8 +190,9 @@ Solution rejected::-> IN PROGRESS
 [cols="<.<1,<.<3a"]
 |===
 
-|Actions that must be taken prior to state transition
-|
+|To transition to next state
+|*Actions*
+
 * Perform solution review
 ** Project group or delegated subgroup reviews solution and documents their feedback:
 *** General feedback: as comment on Merge/Pull Request
@@ -218,7 +202,7 @@ Solution rejected::-> IN PROGRESS
 * Discuss review results in project group meeting
 * Accept or reject solution and document decision in issue
 ** Identified major corrections lead to rejection of solution
-** If accepted, appoint and assign solution to an <<Integrator>> (responsible for integrating the solution) 
+** If accepted, appoint and assign solution to an xref:compendium:Projects/01_project_terms.adoc#integrator[Integrator] (responsible for integrating the solution) 
 
 
 |===
@@ -234,7 +218,7 @@ Reviewed::
 |An issue that has a been accepted by the group, has an assigned integrator, which is ready to be integrated into the standard or project.
 
 |Who
-|<<Integrator>>
+|xref:compendium:Projects/01_project_terms.adoc#integrator[Integrator]
 
 |State Label
 |{isStateReviewed-label}
@@ -248,8 +232,9 @@ Major questions::-> IMPLEMENTED
 [cols="<.<1,<.<3a"]
 |===
 
-|Actions that must be taken prior to state transition
-|
+|To transition to next state
+|*Actions*
+
 * Refine content and apply ASAM Editorial Guide
 * Document any questions in the issue
 * Clarify minor questions with solution responsible
@@ -276,22 +261,23 @@ Integrated::
 
 |Transitions
 |
-Integration OK::-> READYFORMERGE +
-Integration NOK::-> REVIEWED +
-Integration OK::-> CLOSED ({resolutionTypeFixed-label}) Note: This is only applicable for projects that do not use a docs-as-code workflow.
+Integration OK::-> READYFORMERGE (relevant for merging of branches in docs-as-code) +
+Integration OK::-> CLOSED ({resolutionTypeFixed-label}) (for projects not using docs-as-code) +
+Integration NOK::-> REVIEWED
 |===
 
 [cols="<.<1,<.<3a"]
 |===
 
-|Actions that must be taken prior to state transition
-|
+|To transition to next state
+|*Actions*
+
 * Review the integration
 ** Is the original content still correctly represented?
 ** Are all discussions resolved?
 * Add feedback as comments
 * Add verdict as comment in issue
-** If accepted, assign issue to the <<Workflow Manager>>
+** If accepted, assign issue to the xref:compendium:Projects/01_project_terms.adoc#workflow-manager[Workflow Manager]
 ** If accepted (and if applicable), approve the merge request
 |===
 --
@@ -305,7 +291,7 @@ Ready for Merge::
 |An issue that has been integrated and is assigned to the workflow manager, which is ready to be merged.
 
 |Who
-|<<Workflow Manager>>
+|xref:compendium:Projects/01_project_terms.adoc#workflow-manager[Workflow Manager]
 
 |State Label
 |{isStateReadyForMerge-label}
@@ -320,8 +306,9 @@ Merge Conflict::-> INTEGRATED
 [cols="<.<1,<.<3a"]
 |===
 
-|Actions that must be taken prior to state transition
-|**Note that this is only applicable to projects with a docs-as-code workflow**
+|To transition to next state
+|*Actions*
+**Note that this is only applicable to projects with a docs-as-code workflow**
 
 * Merge the assigned Merge/Pull Request
 ** If any major merge conflicts arise, these are to be documented and the ticket is reassigned to the Solution Responsible, and change back to the previous state
@@ -340,7 +327,7 @@ This date marks the point at which the solution can be reviewed and, ideally, ac
 ASAM recommends that solution development for issues is scoped to require no more than 4 weeks.
 This means that issues where the solution is expected to be more complex should be split into multiple smaller ones, each with an expected resolution time of 4 weeks or less.
 
-If an issue is split into multiple sub-issues, assign due dates for the issue as well as the sub-issues. 
+If an issue is split into multiple sub-issues or tasks, assign due dates for the issue as well as the sub-issues. 
 In this case, the due date of the issue itself may exceed the 4 week recommendation.
 However, the sub-issues should then stick to that limit.
 

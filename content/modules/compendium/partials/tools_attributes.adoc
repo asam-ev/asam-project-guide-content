@@ -15,6 +15,7 @@
 :sharepoint-xref: {standard-tooling-xref}sharepoint.adoc
 :vscode-xref: {standard-tooling-xref}vscode.adoc
 :docker-xref: {standard-tooling-xref}docker.adoc
+:plantuml-xref: {standard-tooling-xref}plantuml.adoc
 :teams-xref: {standard-tooling-xref}sharepoint.adoc
 :git-xref: {standard-tooling-xref}git.adoc
 :filestage-xref: {standard-tooling-xref}filestage.adoc
@@ -23,6 +24,7 @@
 // External links
 //--Access--
 :drawio-url: https://app.diagrams.net/?splash=0&clibs=Uhttps%3A%2F%2Fcode.asam.net%2Fcommon%2Fasam-graphic-library%2F-%2Fraw%2Fmaster%2FASAM_graphics_library.xml
+:plantuml-url: https://plantuml.com/
 :calendar-url: https://outlook.office365.com/calendar/published/1e9807ec9a8f420fb5b010cd17f4ef0b@asam.net/dd82caebcf5a4c51b22c5eb9a0b220ea3378152309461979582/calendar.html
 :sharepoint-url: https://asamev.sharepoint.com/Freigegebene%20Dokumente/Forms/AllItems.aspx
 
@@ -43,6 +45,7 @@
 :extensions-image: https://cdn-icons-png.flaticon.com/512/3793/3793602.png
 
 :docker-image: https://www.docker.com/wp-content/uploads/2022/03/vertical-logo-monochromatic.png
+:plantuml-image: https://upload.wikimedia.org/wikipedia/commons/3/30/Plantuml_Logo.svg
 :calendar-image: https://cdn-icons-png.flaticon.com/512/591/591576.png
 :vscode-image: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/240px-Visual_Studio_Code_1.35_icon.svg.png
 :drawio-image: https://dashboard.snapcraft.io/site_media/appmedia/2019/08/android-chrome-512x512.png
@@ -61,6 +64,7 @@
 :git-icon: {git-url}[image:{git-image}[alt=Git,title="Git Page", width={icon-width-large}, role=right] ,window=_blank]
 :vscode-icon: {vscode-url}[image:{vscode-image}[alt=Visual Studio Code, title="Visual Studio Code Page", width={icon-width-large}, role=right] ,window=_blank]
 :docker-icon: {docker-url}[image:{docker-image}[alt=Docker, title="Docker Page", width={icon-width-large}, role=right] ,window=_blank]
+:plantuml-icon: {plantuml-url}[image:{plantuml-image}[alt=PlantUML, title="PlantUML Page", width={icon-width-large}, role=right] ,window=_blank]
 :drawio-icon: {drawio-url}[image:{drawio-image}[alt=Draw.io, title="Draw.io Page", width={icon-width-large}, role=right] ,window=_blank]
 :teams-icon: {teams-url}[image:{teams-image}[alt=Microsoft Teams, title="Microsoft Teams Page", width={icon-width-large}, role=right] ,window=_blank]
 :sharepoint-icon: {sharepoint-url}[image:{sharepoint-image}[alt=Microsoft Sharepoint, title="Microsoft Sharepoint Page", width={icon-width-large}, role=right] ,window=_blank]
@@ -76,6 +80,7 @@
 :vscode-icon-page: {vscode-xref}[image:{vscode-image}[alt=Visual Studio Code, title={return-info}, width={icon-width-medium}, role=right]]
 :docker-icon-page: {docker-xref}[image:{docker-image}[alt=Docker, title={return-info}, width={icon-width-medium}, role=right]]
 :drawio-icon-page: {drawio-xref}[image:{drawio-image}[alt=Draw.io, title={return-info}, width={icon-width-medium}, role=right]]
+:plantuml-icon-page: {plantuml-xref}[image:{plantuml-image}[alt=PlantUML, title={return-info}, width={icon-width-medium}, role=right]]
 :teams-icon-page: {teams-xref}[image:{teams-image}[alt=Microsoft Teams, title={return-info}, width={icon-width-medium}, role=right]]
 :sharepoint-icon-page: {sharepoint-xref}[image:{sharepoint-image}[alt=Microsoft Sharepoint, title={return-info}, width={icon-width-medium}, role=right]]
 :filestage-icon-page: {filestage-xref}[image:{filestage-image}[alt=Filestage, title={return-info}, width={icon-width-medium}, role=right]]
@@ -89,6 +94,7 @@
 :vscode-icon-norole: {vscode-xref}[image:{vscode-image}[alt=Visual Studio Code, width={icon-width-small}]]
 :docker-icon-norole: {docker-xref}[image:{docker-image}[alt=Docker, width={icon-width-small}]]
 :drawio-icon-norole: {drawio-xref}[image:{drawio-image}[alt=Draw.io, width={icon-width-small}]]
+:plantuml-icon-norole: {plantuml-xref}[image:{plantuml-image}[alt=Draw.io, width={icon-width-small}]]
 :teams-icon-norole: {teams-xref}[image:{teams-image}[alt=Microsoft Teams, width={icon-width-small}]]
 :sharepoint-icon-norole: {sharepoint-xref}[image:{sharepoint-image}[alt=Microsoft Sharepoint, width={icon-width-small}]]
 :filestage-icon-norole: {filestage-xref}[image:{filestage-image}[alt=Filestage, width={icon-width-small}]]

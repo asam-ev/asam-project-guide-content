@@ -1,4 +1,4 @@
-= Concepts
+= Development
 :description: Contains a short introduction to all important concepts and terms used throughout the Project Guide.
 :concepts:
 

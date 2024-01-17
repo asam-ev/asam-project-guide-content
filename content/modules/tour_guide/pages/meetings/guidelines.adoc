@@ -79,12 +79,11 @@ This list also contains information on the group or groups each participant is p
 
 
 === Polls and voting
-These are covered in xref:tour_guide:page$meetings/decisions_and_escalations.adoc##_guidelines_for_formal_voting[].
+These are covered in xref:tour_guide:page$meetings/decisions_and_escalations.adoc#_guidelines_for_formal_voting[].
 
 === Inactive project member
-TODO: For definition of a project member, see PROJECT STUCTURE
 
-An inactive project member is a project member who has been absent, without informing the meeting initiator beforehand, from two consecutive project group and/or subgroup meetings.
+An inactive xref:compendium:Projects/01_project_terms.adoc#project-member[project member] is a project member who has been absent, without informing the meeting initiator beforehand, from two consecutive project group and/or subgroup meetings.
 
 Inactive project members make it difficult for a project to accurately gauge its available resources for project planning and may even hinder the decision-making process at project group meetings.
 

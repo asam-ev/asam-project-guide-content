@@ -1,4 +1,4 @@
-= Project roles
+= Project roles & structure
 :description: Defines all terms used when referencing an ASAM project.
 :keywords: concept, project
 
@@ -12,6 +12,7 @@ A project may be anything from a whitepaper, a study group to develop knowledge,
 
 Project group:: The full group of all formally enrolled project participants. A formal organizational structure comprising project participants assigned to collectively achieve the objectives and deliverables of a project. It serves as the primary unit for project management and coordination.
 
+[[project-member]]
 Project member:: A company enrolled in a project via one or more project participants. A project member has one vote, irrespective of the number of it's project participants.
 
 Project participant:: An individual, representing a project member, enrolled in a project with a defined commitment. Actively involved in a project's activities, tasks, or processes, contributing to the project's planning, execution, monitoring, and completion. Contributors may assume various roles and responsibilities, and their involvement can vary in scope and duration based on their contributions to the project. 
@@ -28,15 +29,16 @@ The __Change Control Board (CCB)__ is responsible for internal alignment of topi
 * Ensure alignment of individual Subgroup topics
 * Release management
 
++
 Commitment to the CCB is for the duration of a project.
 Average commitment entails 1-2 hour meetings every 2 weeks during active development and offline review of content.
 
 
 Technical Steering Comittee (TSC):: 
 The ASAM Technical Steering Committee is a group of elected members to which the ASAM Board of Directors has delegated various technical and strategic tasks.  
-
++
 The Technical Steering Committee decides about and controls all technical projects at ASAM. The main task of the TSC is to ensure that the product portfolio of ASAM meets market needs and stays competitive.  
-
++
 The TSC evaluates and votes on proposals for the development or enhancement of products, monitors the progress of ongoing projects, reviews and releases new or revised products. The TSC ensures that products do not overlap or contradict each other. See the https://www.asam.net/index.php?eID=dumpFile&t=f&f=249&token=46fe3fb6dfd4ce05d8fe40415b37babebdaafd25[TSC Guidelines] for further detail on this ASAM body.
 
 == Project roles
@@ -54,11 +56,13 @@ Subgroup Lead (SGL):: An **active** __Project Participant__ *leading* the activi
 
 Technical Writer (TW):: See Integrator.
 
-Integrator:: This role is specified by each project prior to starting development. The Integrator is responsible for integrating the developed solution into the standard. Their task is to make sure the writing style is kept consistent and the ASAM editorial rules are met.
+[[integrator]]
+Integrator:: A role prescribed by the xref:tour_guide:page$contribution.adoc[ASAM contribution workflow]. This role is specified by each project prior to starting development, in most cases this should be a project kickoff. The Integrator is responsible for integrating the developed solution into the standard. Their task is to make sure the writing style is kept consistent and the ASAM editorial rules are met.
 +
-The Integrator may be a service provider tasked with documentation efforts in the project. Alternatively, the Integrator may be the Office Responsible or a project participant.
+The Integrator may be a service provider tasked with documentation efforts in the project. Alternatively, the Integrator may be the Office Responsible or a project participant. The integrator shall be clearly named in a project repository readme.
 
-Workflow manager:: A role prescribed by the xref:tour_guide:page$contribution.adoc[ASAM contribution workflow]. Orchestrates and manages the entire workflow, the process through which contributions are reviewed, approved, merged, and integrated into a project . Typically, the Workflow Manager is experienced with using remote repositories. This role is assigned to a specific project participant or subgroup by a project prior to starting development.
+[[workflow-manager]]
+Workflow manager:: A role prescribed by the xref:tour_guide:page$contribution.adoc[ASAM contribution workflow]. Orchestrates and manages the entire workflow, the process through which contributions are reviewed, approved, merged, and integrated into a project. Typically, the Workflow Manager is experienced with using remote repositories. This role is assigned to a specific project participant or subgroup by a project prior to starting development, in most cases this should be a project kickoff.
 This may be any one of:
 
 * Project Lead

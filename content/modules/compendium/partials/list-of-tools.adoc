@@ -105,6 +105,13 @@ A tool for hosting containers. +
 Relevant for users that want to *run the build tools locally* in order to create preview documents without the repository's pipeline.
 |{optional}
 |Local
+
+|{plantuml-icon-norole} +
+xref:compendium:Tools/plantuml.adoc[]
+|A textual format to create UML and other diagrams. +
+Relevant for users that want to *create images or diagrams* for ASAM standards.
+|{optional}
+|Local
 |===
 
 

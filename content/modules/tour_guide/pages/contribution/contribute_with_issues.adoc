@@ -14,7 +14,7 @@ These issues can be created and managed in the respective Remote Repository of t
 It must be possible for every project member to contribute to and give feedback on the topic of discussion directly.
 For this purpose, all content discussions shall happen through issues in a project's issue board.
 This also applies to discussion results from some subgroup meetings.
-The output of a discussion pertaining to any topic should be documented in its respective issue.
+The output of a discussion pertaining to any topic shall be documented in its respective issue.
 
 
 == Gather topics in issues
@@ -34,10 +34,14 @@ If your project is on GitHub, see the https://docs.github.com/en/issues/tracking
 
 Every topic shall have its own issue.
 
-=== Linked related issue
-If a topic is too complex for a single issue, linked related issues shall be created from this topic issue.
-Make sure they are linked correctly.
+=== Keep issues granular and focused
+If a topic is too complex for a single issue, break it down into smaller parts. This can be either done throuh the use of linked issues or through the creation of tasks, both of which serve the purpose of capturing individual steps needed to complete or close an issue.
 
+=== Linking issues 
+Issues can be linked to each other in order to make a relationship or dependency visible. See the https://docs.gitlab.com/ee/user/project/issues/related_issues.html[GitLab documentation^].
+
+=== Tasks
+Tasks are a way to capture steps needed to complete/close an issue, they can be separately tracked in Gitlab and make it easier to break down complex issues. See the https://docs.gitlab.com/ee/user/tasks.html[Gitlab documentation^] for further details.
 
 === Closing issues and linked related issue
 
@@ -62,6 +66,7 @@ Each issue and merge/pull request shall apply workflow relevant state, resolutio
 
 A project may also define additional labels, for example for further technical categorization of issues. If such labels are introduced, the group shall document these labels by providing an exhaustive description with the label definition.
 
+Existing labels as defined in the contribution workflow shall not be replaced or extended. This pertains to type, state and resolution labels. See the xref:tour_guide:contribution/issue_list.adoc[label overview] for further details.
 
 == Discuss issues
 The **content** of issues is discussed and resolved through **comments** and **replies** to previous comments.

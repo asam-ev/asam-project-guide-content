@@ -23,8 +23,9 @@ A topic must be presented at the next xref:tour_guide:meetings/types.adoc#_proje
 
 
 === From project group to TSC meeting
-If a project wishes to change its scope or timeline or requires a change to budget it should submit to the TSC for a decision. Prior to submitting to the TSC, project consensus on the request being submitted is required. See the xref:compendium:Projects/02_project_types.adoc#[TSC Guidelines] for guidance on submission. In some cases the TSC may explicitly request presentation of specific material, decisions this shall be communicated clearly beforehand by the OR. A project is required to submit a controlling report to each TSC in accordance with the submission deadlines.
+If a project wishes to change its scope or timeline or requires a change to budget it should submit to the TSC for a decision. Prior to submitting to the TSC, project consensus on the request being submitted is required. See the https://www.asam.net/index.php?eID=dumpFile&t=f&f=249&token=46fe3fb6dfd4ce05d8fe40415b37babebdaafd25[TSC Guidelines] for guidance on submission. In some cases the TSC may explicitly request presentation of specific material, decisions this shall be communicated clearly beforehand by the OR. A project is required to submit a controlling report to each TSC in accordance with the submission deadlines.
 
+NOTE: Controlling report template to be linked here.
 
 == Guidelines for formal voting
 An ASAM Office Responsible shall reference these rules prior to the initiation of project votes in any meeting.
@@ -59,8 +60,7 @@ Both onsite and remote users shall be enabled to vote.
 
 Should a project member not submit their vote during the project group meeting, this member shall be considered absent without excuse for the meeting. The overall validity of the vote may be affected, see <<v_valid,voting is only valid if>>See xref: 
 
-TODO: Link to inactivity of project members
-
+Also refer to xref:tour_guide:meetings/guidelines.adoc#_inactive_project_member[inactive project members].
 
 IMPORTANT: Exceptions to the voting rules shall be escalated to the TSC.
 

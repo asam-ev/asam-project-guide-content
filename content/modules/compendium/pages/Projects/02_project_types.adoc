@@ -44,7 +44,7 @@ Ideally, the concept project documents their proposals in a copy-paste ready for
 
 Upon request, ASAM provides funding for concept projects up to 75% of the total required project budget.
 
-NOTE: See here for the template for a concept paper.
+NOTE: Link to the concept paper template to be added.
 
 == Standard development
 
@@ -56,6 +56,8 @@ Each standard may have only one development project at a time.
 For more detail on versioning, see xref:Standards/01_standard_versioning.adoc[standard versioning].
 
 ASAM distinguishes between two types of standard development project.
+
+NOTE: Link to the standard templates to be added.
 
 
 === Future version development (FVD)
