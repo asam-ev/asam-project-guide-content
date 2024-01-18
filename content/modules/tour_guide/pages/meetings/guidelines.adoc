@@ -79,7 +79,7 @@ This list also contains information on the group or groups each participant is p
 
 
 === Polls and voting
-These are covered in xref:tour_guide:page$meetings/decisions_and_escalations.adoc#_guidelines_for_formal_voting[].
+These are covered in xref:tour_guide:page$meetings/decisions_and_escalations.adoc#_guidelines_for_formal_voting[guidelines for formal voting].
 
 === Inactive project member
 

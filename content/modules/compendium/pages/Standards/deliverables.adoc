@@ -20,7 +20,7 @@ Most ASAM standards also include one or more of the following documents or parts
 For more information on naming of documents/parts, see the link:https://internal.pages.asam.net/asam-editorial-guide/editorial-guide-generator/editorialguide-word/1.0.0/Editorial_guide/01_basics.html#sec-3db75534-5e38-44b7-9597-d5b4c4fdff14[ASAM Editorial Guide]
 
 .An example structure of an ASAM standard
-image::openodd_deliverables.png[]
+image::openodd_deliverables.png[width=120]
 
 [sidebar]
 .Model Reference

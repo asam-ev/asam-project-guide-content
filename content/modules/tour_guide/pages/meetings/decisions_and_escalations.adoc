@@ -58,7 +58,7 @@ Failing to submit a vote does not count towards the number of voting project mem
 
 Both onsite and remote users shall be enabled to vote. 
 
-Should a project member not submit their vote during the project group meeting, this member shall be considered absent without excuse for the meeting. The overall validity of the vote may be affected, see <<v_valid,voting is only valid if>>See xref: 
+Should a project member not submit their vote during the project group meeting, this member shall be considered absent without excuse for the meeting. The overall validity of the vote may be affected, see <<v_valid,voting is only valid if>>. 
 
 Also refer to xref:tour_guide:meetings/guidelines.adoc#_inactive_project_member[inactive project members].
 
@@ -90,7 +90,7 @@ Some topics require a formal voting:
 * Escalation of topics to TSC
 * Release decision
 
-**Note that certain subgroup decisions require an escalation to a project voting. See <<From Subgroup to project group>>.**
+**Note that certain subgroup decisions require an escalation to a project voting. See xref:tour_guide:meetings/decisions_and_escalations.adoc#from_subgroup_to_project_group[].**
 
 
 

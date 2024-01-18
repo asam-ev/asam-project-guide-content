@@ -142,7 +142,7 @@ In Progress::
 |An issue that is assigned a responsible, has a due date and clear requirements, which now needs to be implemented in a solution.
 
 |Who
-|Solution responsible (issue assignee)
+|xref:compendium:Projects/01_project_terms.adoc#solution-responsible[Solution responsible (issue assignee)]
 
 |State Label
 |{isStateInProgress-label}
@@ -176,7 +176,7 @@ Implemented::
 |An issue that has a solution in an associated merge request or document, which is ready to be reviewed by the group.
 
 |Who
-|Workflow manager
+|xref:compendium:Projects/01_project_terms.adoc#workflow-manager[Workflow Manager]
 
 |State Label
 |{isStateImplemented-label}
@@ -254,7 +254,7 @@ Integrated::
 |An issue that has been integrated, is assigned to the solution responsible, which is ready to be checked and all open comments are resolved.
 
 |Who
-|Solution responsible
+|xref:compendium:Projects/01_project_terms.adoc#solution-responsible[Solution responsible]
 
 |State Label
 |{isStateIntegrated-label}

@@ -71,7 +71,7 @@ This may be any one of:
 * Change Control Board (CCB)
 * Project participant
 
-
+[[solution-responsible]]
 Solution responsible:: A role prescribed by the xref:tour_guide:page$contribution.adoc[ASAM contribution workflow]. An individual to whom a specific issue has been assigned that is responsible for developing or ensuring the development and finalisation of a solution addressing it (InProgress state).
 
 Solution team:: A group of project participants responsible for contributing to the development of a solution, also includes the solution responsible. May be a project subgroup or a group specific to the issue.

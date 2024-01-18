@@ -19,7 +19,7 @@ ASAM project types are:
 
 // image::Projects/project_types_overview.drawio.svg[title="ASAM project types overview", width= 800]
 
-Unless indicated otherwise, all projects undergo all xref:[project phases] and are subject to the xref:tour_guide:page$contribution.adoc[contribution workflow] for projects. Deliverables of all projects are subject to the rules defined in the link:https://internal.pages.asam.net/asam-editorial-guide/editorial-guide-generator[ASAM Editorial Guide] unless explicitly declared otherwise.
+Unless indicated otherwise, all projects undergo all xref:compendium:page$Projects/02_project_types.adoc[project phases] and are subject to the xref:tour_guide:page$contribution.adoc[contribution workflow] for projects. Deliverables of all projects are subject to the rules defined in the link:https://internal.pages.asam.net/asam-editorial-guide/editorial-guide-generator[ASAM Editorial Guide] unless explicitly declared otherwise.
 
 // TODO: Project types need to be discussed by TSC first.
 
@@ -33,7 +33,8 @@ The goals of concept projects are:
 In order to reach the goals and to enable the project group to develop specific content proposals, concept projects may include some of the following methods: 
 
 * feasibility study 
-* requirements evaluation * technology survey 
+* requirements evaluation 
+* technology survey 
 * development of a prototype 
 * carrying out performance benchmarks 
 
