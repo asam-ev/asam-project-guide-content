@@ -1,4 +1,4 @@
-= ASAM Deliverables
+= Parts of a standard
 :description: Summarizes the expected deliverables for ASAM projects.
 :keywords: deliverable,standardization
 
@@ -20,7 +20,7 @@ Most ASAM standards also include one or more of the following documents or parts
 For more information on naming of documents/parts, see the link:https://internal.pages.asam.net/asam-editorial-guide/editorial-guide-generator/editorialguide-word/1.0.0/Editorial_guide/01_basics.html#sec-3db75534-5e38-44b7-9597-d5b4c4fdff14[ASAM Editorial Guide]
 
 .An example structure of an ASAM standard
-image::openodd_deliverables.png[width=120]
+image::openodd_deliverables.png[width=600]
 
 [sidebar]
 .Model Reference
@@ -61,8 +61,8 @@ One example, of many within ASAM, is ODS, in the past this provided a mapping of
 
 Other examples:
 
-ASAM SOVD:: API specified technology-independently, deliverables include a mapping to OpenAPI (yaml). See for example the capability description in section 6 on page 32 in the https://asamev-my.sharepoint.com/:b:/g/personal/benjamin_engel_asam_net/EUMSBhbdtvVPowzndwoLr3oBsWMeO80zJR0bgXbqQiuFfQ?e=AhRdPc[SOVD specification] and the corresponding https://asamev-my.sharepoint.com/:u:/g/personal/benjamin_engel_asam_net/EZLPcrWlwmxOotEeakYmctQBRd3XhAZvJm--8Ava8Uu4qw?e=nAMtS9[OpenAPI mapping]
-ASAM XIL:: API specified in a data model, two mappings included. One to python and one to C#. See the https://asamev-my.sharepoint.com/:f:/g/personal/benjamin_engel_asam_net/EnnKXmUKFVtPjkpiAQiuDBsBjWNBUOWKaMjqemWJHqxx8w?e=XRQksC[technology reference documents]
+ASAM SOVD:: API specified technology-independently, deliverables include a mapping to OpenAPI (yaml).
+ASAM XIL:: API specified in a data model, two mappings included. One to python and one to C#.
 
 --
 
