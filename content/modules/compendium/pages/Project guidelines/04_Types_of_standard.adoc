@@ -3,16 +3,20 @@
 
 include::partial$_attributes.adoc[]
 
-
+== Standard types
 ASAM defines two types of standard, _base standard_ and _associated standard_.
 
 Irrespective of the type, all standards may consist of several documents or parts. These parts are independent (e.g., technology references) and must each individually comply with the basic document structure for ASAM standards. See the https://internal.pages.asam.net/asam-editorial-guide/editorial-guide-generator[ASAM Editorial Guide] for further details on document types and structure.
 
-== Base Standard 
+=== Base Standard 
+
+
+At ASAM it is common practice to define technology-independent standards. 
+Often these are defined as data models, particularly when intended for data formats or apis. 
 
 A base standard defines the syntax, abstract models, and functionality for general use. 
 A base standard is defined in a technology-independent form. 
-It can use a problem-/taskrelated notation, e.g., UML for an object model, or any suitable description for protocols. 
+It can use a problem-/task-related notation, e.g., UML for an object model, or any suitable description for protocols. 
 
 Typically, a base standard may be:
 
@@ -26,15 +30,19 @@ A base standard has the following properties:
 * Technology-independent 
 * Supplier-independent 
 * Does not contradict any other ASAM standard  
- 
-It is common practice in standardization to define technology-independent standards. 
-Often these are defined as data models, particularly when intended for data formats or apis. 
-These standards will generally include some technology-specific mappings for users looking to implement these standards in specific technologies. 
-The advantage of this approach, is that future developments can add or remove such technology-specific mappings depending on the evolution in the industry. 
-At ASAM these mappings are called "Technology References" and are independent part of the base standard.
 
-== Associated Standard 
+A base standard may include one or more technology-specific mappings for users looking to implement it in specific technologies. 
+At ASAM these mappings are called "Technology References" and are independent part of the base standard.
+The advantage of this approach, is that future developments can add or remove such technology-specific mappings depending on the evolution in the industry. 
+
+xref:<<<<<<
+
+=== Associated Standard 
 An associated standard always refers to a base standard. An associated standard is not an extension of the base standard, rather it is targeted at a specific use case. Often this includes such specifications as:
 
 * Application Area Companion  
 * Transport Layer Specification  
+
+== Parts of a standard
+
+The content characterization indicates the type of the part of the standard. These are:  • Format description • API • Protocol definition  • Technology reference  • Application area companion  • Transport layer specification. A "set of standards" is a special form comprising different elements in one standard. 3.2.1 Format Description A format description standard defines the syntax and semantics of a file format to exchange data. Currently these standards are defined in XML, but older standards, such as ASAM   Creation of Standards  ASAM Project Handbook  24   MCD-2 MC (ASAP2), still use proprietary ASCII formats. There are also binary description standards, for example, to store measurement data efficiently. 3.2.2 API An application programming interface (API) is the interface that a computer system, library or application provides in order to allow requests for service to be made of it by other computer programs, and/or to allow data to be exchanged between them. An API allows software components to communicate with one another. 3.2.3 Protocol Definition  A protocol definition defines the syntax, semantics, and synchronization of communication. A communications protocol is a system of digital message formats and rules for exchanging the messages in or between computer systems. A protocol may have a formal description. 3.2.4 Technology Reference A technology reference specifies the technology-dependent interpretation of the generic standard as mapping rules. If these mapping rules are complied with, the deliverables are technology-specific implementations of standards that are suitable for a specific implementation platform and native programming languages. These technology references are typically available for base standards and companion standards.  3.2.5 Application Area Companion An application area companion is an associated extension of a base standard for a specific type of device or a specific application area. A companion uses the syntax and the abstract models of the base standard. Companion standards describe models for application fields (application-specific information) and are technology-independent. 3.2.6 Transport Layer Specification A transport layer specification details, for example, how a generic protocol definition is to be interpreted using a concrete physical layer. The transport layer provides uniform access to the application-oriented layers, so that the application-oriented layers do not have to take the properties of the communication network into account. 
