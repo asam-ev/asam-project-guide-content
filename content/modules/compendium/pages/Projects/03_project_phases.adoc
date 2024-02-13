@@ -90,7 +90,7 @@ For more information on the types of meetings during a project's development, se
 All projects are monitored by the TSC in its meetings.
 
 A running project shall submit a controlling report by the deadline day for every ASAM TSC meeting.
-Submission of the controlling report and any additional material is the responsibility of the PL, supported by the OR and the project members.
+Submission of the controlling report and any supporting material is the responsibility of the PL, supported by the OR and the project members.
 
 Significant changes to a project require submission of supporting documents, see <<tab-significant-project-changes>>. 
 
@@ -101,7 +101,7 @@ A request to present shall be submitted at the latest one calendar week prior to
 By default, the PL is the presenter for a presentation.
 If necessary and on agreement by the respective parties, a presentation may be delegated to one or more project participants.
 The process for identification of a suitable slot for a presentation shall be initiated by the ASAM office. 
-Any supporting material for a presentation shall be submitted by the deadline day.
+Any additional presentation material for a presentation should be submitted by the deadline day.
 
 .Significant changes requiring a presentation slot in a TSC meeting.
 [#tab-significant-project-changes,cols="1,1,1"]
@@ -118,8 +118,8 @@ Any supporting material for a presentation shall be submitted by the deadline da
 |===
 
 Failure to submit a controlling report by the deadline day shall result in a request to present (remotely) to the TSC.
-Failure to submit supporting material by the deadline day shall result in cancellation of the presentation slot and thus automatic rejection of any requests.
-Failure to present when requested shall result in a project being frozen.
+Failure to submit supporting material for a change request by the deadline day shall result in automatic rejection of any requests.
+Failure to present when requested shall result in a project being suspended.
 
 NOTE: See the https://asamev.sharepoint.com/:w:/g/EVN_baBVLfxAsh5-MCKtEHEBwTBvZDGE8rmJIY0z7kHzeA?e=S6SOYG[controlling report template] and the https://asamev.sharepoint.com/:p:/g/EQm7G7Qzv4RInoyVdKqkwJUBWTQRGZqK5NVpRCem5WOqgA?e=1R7nUo[powerpoint template].
 
