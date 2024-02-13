@@ -85,6 +85,45 @@ ASAM recommends a 2 month interval for these larger meetings.
 
 For more information on the types of meetings during a project's development, see xref:tour_guide:meetings.adoc[] in the Guided tour.
 
+**Project controlling**
+
+All projects are monitored by the TSC in its meetings.
+
+A running project shall submit a controlling report by the deadline day for every ASAM TSC meeting.
+Submission of the controlling report and any additional material is the responsibility of the PL, supported by the OR and the project members.
+
+Significant changes to a project require submission of supporting documents, see <<tab-significant-project-changes>>. 
+
+Some projects may be requested to present further detail or insight during the TSC meeting.
+Such a request may be submitted by the TSC, a project member or the ASAM office. 
+For project members, such a request shall be submitted to the OR.
+A request to present shall be submitted at the latest one calendar week prior to the deadline day.
+By default, the PL is the presenter for a presentation.
+If necessary and on agreement by the respective parties, a presentation may be delegated to one or more project participants.
+The process for identification of a suitable slot for a presentation shall be initiated by the ASAM office. 
+Any supporting material for a presentation shall be submitted by the deadline day.
+
+.Significant changes requiring a presentation slot in a TSC meeting.
+[#tab-significant-project-changes,cols="1,1,1"]
+|===
+.2+|Change type 2+|Additional documents to be updated and submitted
+
+|Project proposal	
+|Resource overview	
+
+|Project scope		|X	|X	
+|Project duration 	|	|X	
+|Additional budget	|	|X	
+ 
+|===
+
+Failure to submit a controlling report by the deadline day shall result in a request to present (remotely) to the TSC.
+Failure to submit supporting material by the deadline day shall result in cancellation of the presentation slot and thus automatic rejection of any requests.
+Failure to present when requested shall result in a project being frozen.
+
+NOTE: See the https://asamev.sharepoint.com/:w:/g/EVN_baBVLfxAsh5-MCKtEHEBwTBvZDGE8rmJIY0z7kHzeA?e=S6SOYG[controlling report template] and the https://asamev.sharepoint.com/:p:/g/EQm7G7Qzv4RInoyVdKqkwJUBWTQRGZqK5NVpRCem5WOqgA?e=1R7nUo[powerpoint template].
+
+
 // Additional information:: xref:compendium:development_phase.adoc[]
 --
 Review::
@@ -148,7 +187,7 @@ The Project Lead submits the following to ASAM:
 * all source code required to generate the deliverables for the standard including written instructions how to generate them
 * a release presentation
 
-NOTE: Download the template for a release presentation here.
+NOTE: Download the template for a release presentation https://asamev.sharepoint.com/:p:/g/EceKQ0Ei4sJMjaWVazVfhtsB1TIxa2SAkP3D85vA_UTzcQ?e=Z29lKh[here].
 
 Sources are those digital work products, which can be modified or edited with standard tools such as text editors, image processors or modeling tools, and which are the input used to produce the final deliverables.
 
