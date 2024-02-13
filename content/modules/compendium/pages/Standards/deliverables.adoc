@@ -7,45 +7,72 @@ include::compendium:partial$_attributes.adoc[]
 
 A standard may consist of multiple documents. 
 
+1..n specification (normative)
 
-Every ASAM standard shall consist of at least a specification.
+0..n rules (normative) //renamed from reference
 
-[sidebar]
-.Specification
---
-Contains normative and informative content as described in rule https://internal.pages.asam.net/asam-editorial-guide/editorial-guide-generator/editorialguide-word/1.0.0/Editorial_guide/01_basics.html#sec-3db75534-5e38-44b7-9597-d5b4c4fdff14[ASM-22]. A Specification describes the code of operation, the structure, and the usage of the standard.
---
+0..n guideline (non-normative)
 
-Most ASAM standards also include one or more of the following documents or parts. 
-For more information on naming of documents/parts, see the link:https://internal.pages.asam.net/asam-editorial-guide/editorial-guide-generator/editorialguide-word/1.0.0/Editorial_guide/01_basics.html#sec-3db75534-5e38-44b7-9597-d5b4c4fdff14[ASAM Editorial Guide]
+0..n supplementary documents (normative/non-normative)
 
-.An example structure of an ASAM standard
-image::openodd_deliverables.png[width=600]
+---
+Deliverables of a standard shall include at least:
 
-[sidebar]
-.Model Reference
---
-Describes all model elements and functions in the data model
---
+Specification
+Contains normative and informative content as described in rule ASM-22. 
+A Specification describes the code of operation, the structure, and the usage of the standard. 
+Subject to the document structure proscribed in the editorial guide.
 
-[sidebar]
-.User Guideline
---
-Additional non-normative content that supplements the normative specification. Often includes usage examples and guidance on application of standard-specific features.
---
+Deliverables of a standard may include:
 
-[sidebar]
-.Technology Reference and Mapping Reference
---
-It is common practice in standardization to define technology-independent standards. 
-Often these are defined as data models, particularly when intended for data formats or apis. 
-These standards will generally include some technology-specific mappings for users looking to implement these standards in specific technologies. 
+Data model (0..n)
+(UML, or other technology independent format)
 
-The advantage of this approach, is that future developments can add or remove such technology-specific mappings depending on the evolution in the industry. 
-At ASAM these are called "Technology References" and are independent part of the base standard. 
+Model reference
+Documents all model elements and functions in the data model, including methods, functions, exceptions, postconditions, etc.
+Often automatically generated from the data model.
+As of today, ASAM does not define requirements towards the structure or layout of model references.
+
+Technology reference
+A technology reference specifies the technology-dependent solution for a specific platform and/or language. Note that this is not an implementation. Such solutions often specify interfaces, such as in <<EXAMPLE BELOW>> or XSD schemas , see OTX/OSC XML.
+As of today, ASAM does not define requirements towards the structure or layout of technology references. 
+
+Mapping rules 
+A document that describes the a mapping from a source, such as a generic model or a specific technology reference, to a target, which is some other technology reference. These mappings may include examples and explanatory text. 
+Mapping rules are subject to the structure defined in the editorial guide <<>>
+
+User guideline
+Additional non-normative content that supplements the normative specification. 
+Often includes usage examples and guidance on application of standard-specific features.
+Subject to the document structure proscribed in the editorial guide.
+
+Examples
+These may be representative examples in technology-specific formats as defined by the technology reference(s). Often these are also pseudo-code, in order to demonstrate key concepts of a standard without having to dive into implementation-specifics.
+
+Test cases
+These may be unit tests to enable testing of individual units of source code in a standard.
+
+Checker Rules
 
 
-A technology reference is not an implementation! See a python mapping for a function call from the XIL API below:
+The above list is not-exhaustive, but aims to cover the majority of needs of most of ASAM's standards. 
+
+
+
+-------
+Where are "parts" or "deliverables" mentioned in standards at the moment?
+
+Readme
+- Documents the deliverables of a standard (all items)
+
+Deliverables section
+- Documents all deliverables of a standard
+
+Foreword
+- Documents all parts of the standard
+
+Proposal: Remove the concept of "parts". Wir lassen es einfach mal sacken und sprechen nächste Woche nochmal.
+
 
 [source,python]
 ----
@@ -56,13 +83,3 @@ def _getConfiguration(self):
 """
     raise NotImplementedError()
 ----
-
-One example, of many within ASAM, is ODS, in the past this provided a mapping of the data model for its API to CORBA. Now it is adding a mapping to HTTP/REST. This is not exclusive. 
-
-Other examples:
-
-ASAM SOVD:: API specified technology-independently, deliverables include a mapping to OpenAPI (yaml).
-ASAM XIL:: API specified in a data model, two mappings included. One to python and one to C#.
-
---
-
