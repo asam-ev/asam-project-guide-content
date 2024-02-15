@@ -103,13 +103,14 @@ If necessary and on agreement by the respective parties, a presentation may be d
 The process for identification of a suitable slot for a presentation shall be initiated by the ASAM office. 
 Any supporting material for a presentation shall be submitted by the deadline day.
 
-.Significant changes requiring a presentation slot in a TSC meeting.
-[#tab-significant-project-changes,cols="1,1,1"]
+.Significant changes to a project requiring a presentation slot in a TSC meeting.
+[#tab-significant-project-changes,cols=3,width="60%"]
 |===
-.2+|Change type 2+|Additional documents to be updated and submitted
+.2+h|Change type 2+
+h|Additional documents to be updated and submitted
 
-|Project proposal	
-|Resource overview	
+h|Project proposal	
+h|Resource overview	
 
 |Project scope		|X	|X	
 |Project duration 	|	|X	
@@ -117,8 +118,8 @@ Any supporting material for a presentation shall be submitted by the deadline da
  
 |===
 
-Failure to submit a controlling report by the deadline day shall result in a request to present (remotely) to the TSC.
-Failure to submit supporting material by the deadline day shall result in cancellation of the presentation slot and thus automatic rejection of any requests.
+Failure to submit a controlling report by the deadline day shall result in a request to present (remotely) to the TSC. +
+Failure to submit supporting material by the deadline day shall result in cancellation of the presentation slot and thus automatic rejection of any requests. +
 Failure to present when requested shall result in a project being frozen.
 
 NOTE: See the https://asamev.sharepoint.com/:w:/g/EVN_baBVLfxAsh5-MCKtEHEBwTBvZDGE8rmJIY0z7kHzeA?e=S6SOYG[controlling report template] and the https://asamev.sharepoint.com/:p:/g/EQm7G7Qzv4RInoyVdKqkwJUBWTQRGZqK5NVpRCem5WOqgA?e=1R7nUo[powerpoint template].
