@@ -15,13 +15,10 @@ See the phase descriptions below for more details.
 
 image::compendium:Projects/project_lifecycle.drawio.svg[alt=The ASAM Project Phases, title=The ASAM project phases]
 
-== Descriptions
 
-[tabs]
-====
-Proposal::
-+
---
+
+== Proposal phase
+
 [cols="1,3"]
 |===
 h|Purpose
@@ -50,10 +47,8 @@ NOTE: Download the project proposal templates [here].
 
 
 // Additional information:: xref:compendium:proposal_phase.adoc[]
---
-Development::
-+
---
+== Development phase
+
 [cols="1,3"]
 |===
 h|Purpose
@@ -85,7 +80,7 @@ ASAM recommends a 2 month interval for these larger meetings.
 
 For more information on the types of meetings during a project's development, see xref:tour_guide:meetings.adoc[] in the Guided tour.
 
-**Project controlling**
+=== Project controlling
 
 All projects are monitored by the TSC in its meetings.
 
@@ -106,8 +101,8 @@ Any additional presentation material for a presentation should be submitted by t
 .Significant changes to a project requiring a presentation slot in a TSC meeting.
 [#tab-significant-project-changes,cols=3,width="60%"]
 |===
-.2+h|Change type 2+
-h|Additional documents to be updated and submitted
+.2+h|Change type 
+2+h|Additional documents to be updated and submitted
 
 h|Project proposal	
 h|Resource overview	
@@ -127,10 +122,8 @@ NOTE: See the https://asamev.sharepoint.com/:w:/g/EVN_baBVLfxAsh5-MCKtEHEBwTBvZD
 
 
 // Additional information:: xref:compendium:development_phase.adoc[]
---
-Review::
-+
---
+== Review phase
+
 [cols="1,3"]
 |===
 h|Purpose
@@ -173,10 +166,8 @@ Once the deliverables have been successfully reviewed and no issues remain open,
 If any review points lead to a need of significant development effort, the project transitions to the development phase or decides to move the issue or feature out of scope and it is documented in the issue system.
 
 // Additional information:: xref:compendium:review_phase.adoc[]
---
-Release::
-+
---
+== Release phase
+
 include::compendium:partial$project_phases.adoc[tag=release]
 
 
@@ -198,5 +189,3 @@ IMPORTANT: The release candidate shall be submitted by the deadline date publish
 
 
 // Additional information:: xref:compendium:release_phase.adoc[]
---
-====
