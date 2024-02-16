@@ -71,7 +71,7 @@ This way, the Merge/Pull Request (and its branch) cannot be concluded by acciden
 Word::
 +
 --
-TODO
+NOTE: We are continually working on growing the project guide. This section is still being prepared. Please reach out to the ASAM office if you have any questions.
 --
 ====
 
