@@ -1,8 +1,5 @@
 = Contribution workflow
 :description: Explains the basic contribution workflows.
-:page-layout: progress
-:page-progress_bar: progress_bar_simple-contribution_workflow.svg
-:tour_guide_small:
 
 //tag::body[]
 
@@ -14,250 +11,317 @@ include::compendium:partial$issue_labels.adoc[]
 Developing content for ASAM standards is focused around the concept of xref:tour_guide:contribution/contribute_with_issues.adoc[contributing with issues]. +
 The following sections describe this workflow in more detail.
 
-.ASAM Contribution Workflow
+
+.ASAM contribution workflow
 image::tour_guide:workflow/asam_contribution_workflow-StateDiagram.drawio.svg[]
 
----
 
-Each state is described in more detail in the sections below.
-The role listed at the top of each section is the one responsible for it.
+IMPORTANT: For details on referenced labels, refer to the xref:tour_guide:contribution/issue_list.adoc[label overview].
 
-**DoR** stands for **Definition of Ready**.
-It describes the requirements an incoming issue must meet.
-If DoR are specified but not met, the issue is immediately reset to the previous state (including the assignee). +
-**DoD** stands for **Definition of Done**.
-It describes the requirements that must be met for an issue to be allowed to exit this state.
 
-[tabs]
-====
-New::
-+
---
-[horizontal]
-Who:: <<Workflow Manager>>
-State Label:: {isStateNew-label}
-Actions::
+
+== New
+
+
+[cols="<.<1,<.<3a"]
+|===
+
+|What
+|A new issue that needs to be classified to a type.
+
+|Who
+|xref:compendium:Projects/01_project_terms.adoc#workflow-manager[Workflow Manager]
+
+|State Label
+|{isStateNew-label}
+
+|Transitions 
+|
+Issue is a duplicate::-> CLOSED ({resolutionTypeDuplicate-label}) +
+Type assigned::-> CLASSIFIED
+|===
+
+[cols="<.<1,<.<3a"]
+|===
+
+|To transition to next state
+|*Actions*
+
 * Categorize the issue (i.e. assign the issue type)
-** If the issue is a duplicate, assign {resolutionTypeDuplicate-label} and close the issue
-** Otherwise, assign the correct type (one of: {isTypeFeature-label}, {isTypeBug-label}, {isTypeDocumentation-label})
-DoD::
-* Issue type assigned OR resolutionType set
-Transitions:: 
-Issue is a duplicate::: -> CLOSED ({resolutionTypeDuplicate-label})
-Type assigned::: -> CLASSIFIED
---
-Classified::
-+
---
-[horizontal]
-Who:: Relevant lead (Project Lead or Subgroup Lead)
-State Label:: {isStateClassified-label}
-Actions::
-* Discuss the issue
-* Decide whether to accept it or not
-DoR:: 
-* Valid type is assigned
-* Issue is assigned to relevant lead
-DoD::
-* Group decision on issue is documented
+** If the issue has been raised previously or was solved in another issue, assign {resolutionTypeDuplicate-label} and close the issue
+** Otherwise, assign the correct type.
+
+|===
+
+
+== Classified
+
+[cols="<.<1,<.<3a"]
+|===
+
+|What
+|An issue that has a type and that needs to be accepted by the group.
+
+|Who
+|Relevant lead (project lead or subgroup lead)
+
+|State label
+|{isStateClassified-label}
+
+|Transitions
+|
+Issue is a duplicate::-> CLOSED ({resolutionTypeDuplicate-label}) +
+Issue is rejected::-> CLOSED ({resolutionTypeRejected-label}) +
+Issue is accepted::-> ACCEPTED 
+
+|===
+
+[cols="<.<1,<.<3a"]
+|===
+
+|To transition to next state
+|*Actions*
+
+* Decide whether to address the issue or not
+* If the issue is accepted, it is assigned to a release milestone
 * If rejected, {resolutionTypeRejected-label} is assigned
 * If duplicate, {resolutionTypeDuplicate-label} is assigned
-Transitions:: 
-Issue is a duplicate::: -> CLOSED ({resolutionTypeDuplicate-label})
-Issue is rejected::: -> CLOSED ({resolutionTypeRejected-label})
-Issue is accepted::: -> ACCEPTED
---
-Accepted::
-+
---
-[horizontal]
-Who:: Relevant lead (Project Lead or Subgroup Lead)
-State Label:: {isStateAccepted-label}
-Actions::
-* Assign the issue to a group member
-* Check if the issue needs to be split into multiple sub-issues (making it a parent issue)
+* If accepted, a release milestone is assigned
+
+|===
+
+
+
+
+== Accepted
+
+
+[cols="<.<1,<.<3a"]
+|===
+
+|What
+|An issue that has been accepted by the project group, which needs to be assigned to a responsible, given a due date and needs a clear specification of requirements to be fulfilled.
+
+|Who
+|Relevant lead (Project Lead or Subgroup Lead)
+
+|State Label
+|{isStateAccepted-label}
+
+|Transitions
+|
+Prioritized::-> IN PROGRESS
+|===
+
+[cols="<.<1,<.<3a"]
+|===
+
+|To transition to next state
+|*Actions*
+
+* Assign the issue to a project participant -> the solution responsible
+* Define a solution team within the issue description. This may be either of:
+** a project subgroup - assign the respective label of the subgroup to the issue.
+** an unstructured group of project participants, specific to this issue - the names of these participants shall be documented in the issue description. 
+* Check if the issue needs to be split into multiple sub-issues or tasks (making it a parent issue)
 ** If it needs to be split, each sub-issue enters state ACCEPTED immediately
 ** Each sub-issue applies the remaining workflow individually
 ** A parent issue may only be closed if all its sub-issues have been closed
-* Define the issue's priority
 * Set a <<Due dates,due date>> for the solution (should not exceed 4 weeks of development)
-* Optional: Assign to corresponding milestone
-DoR:: 
-* Acceptance is documented in issue
-DoD::
-* Solution developer assigned
-* If necessary, split into sub-issues
-* Due date set
-* Issue requirements specified
-Transitions:: 
-Prioritized::: -> IN PROGRESS
---
-In Progress::
-+
---
-[horizontal]
-Who:: Assignee
-State Label:: {isStateInProgress-label}
-Actions::
-* Develop a solution together with relevant group (see xref:tour_guide:contribution/issue_implementation.adoc[])
-* Create a Merge/Pull Request 
-** In case of strong dependencies to another issue, add the issue number to the request description and the changes to that Merge/Pull Request instead
-* Review changes within involved group
-DoR:: 
-* Solution developer assigned
-* Created sub-issues linked, if any
-* Due date set
-* Issue requirements specified
-DoD::
-* Requirements in the issue description are met
-* All affected artifacts of the standard are covered
-* Complete solution included in Merge/Pull Request
-Transitions:: 
-Solution developed::: -> IMPLEMENTED
---
-Implemented::
-+
---
-[horizontal]
-Who:: Project Lead
-State Label:: {isStateImplemented-label}
-Actions::
-* Update issue's due date for review (should not exceed 2 weeks)
-* Ask project group for review
-* Put issue on the next agenda
-* Group reviews solution and documents feedback in Merge/Pull Request
-** Each reviewer documents their feedback in Merge/Pull Request
+* Clear specification of requirements to be fulfilled by a solution
+
+|===
+
+
+== In Progress
+
+
+[cols="<.<1,<.<3a"]
+|===
+
+|What
+|An issue that is assigned a responsible, has a due date and clear requirements, which now needs to be implemented in a solution.
+
+|Who
+|xref:compendium:Projects/01_project_terms.adoc#solution-responsible[Solution responsible (issue assignee)]
+
+|State Label
+|{isStateInProgress-label}
+
+|Transitions
+|
+Solution developed::-> IMPLEMENTED
+|===
+
+[cols="<.<1,<.<3a"]
+|===
+
+|To transition to next state
+|*Actions*
+
+* Develop a solution together with relevant group (solution team, see xref:tour_guide:contribution/issue_implementation.adoc[])
+* Document the solution by creating a merge/pull request. Some projects do not yet use the DevOps platforms of ASAM. In this case the solution location is to be agreed on by the project on start.
+* Coordinate, monitor and discuss developments within solution team
+* On solution completion, set a due date for review (should not exceed 2 weeks)
+* Inform project lead and any relevant subgroups of issue review 
+
+|===
+
+
+== Implemented::
+
+
+[cols="<.<1,<.<3a"]
+|===
+
+|What
+|An issue that has a solution in an associated merge request or document, which is ready to be reviewed by the group.
+
+|Who
+|xref:compendium:Projects/01_project_terms.adoc#workflow-manager[Workflow Manager]
+
+|State Label
+|{isStateImplemented-label}
+
+|Transitions
+| 
+Solution accepted::-> REVIEWED +
+Solution rejected::-> IN PROGRESS
+|===
+
+[cols="<.<1,<.<3a"]
+|===
+
+|To transition to next state
+|*Actions*
+
+* Perform solution review
+** Project group or delegated subgroup reviews solution and documents their feedback:
 *** General feedback: as comment on Merge/Pull Request
 *** Specific feedback: as review in changes tab
-** Identified minor corrections are implemented directly in collaboration between reviewers and solution developer
-* Discuss review results in group meeting
+*** If the solution is documented otherwise, the use of comments in the document is recommended
+** Identified minor corrections are implemented directly in collaboration between reviewers and solution responsible
+* Discuss review results in project group meeting
 * Accept or reject solution and document decision in issue
 ** Identified major corrections lead to rejection of solution
-** If accepted, appoint an <<Integrator>> (responsible for integrating the solution) and an <<Integration Reviewer>> (responsible for reviewing the integration)
-DoR::
-* Project Lead assigned
-* Relevant Merge/Pull Request linked in issue
-* "Draft:" flag removed from related Merge/Pull request
-DoD::
-* Solution reviewed 
-* Feedback documented in Merge/Pull Request
-* Decision (accepted/rejected) documented
-* If accepted: <<Integrator>> assigned
-Transitions:: 
-Solution accepted::: -> REVIEWED
-Solution rejected::: -> IN PROGRESS
---
-Reviewed::
-+
---
-[horizontal]
-Who:: <<Integrator>>
-State Label:: {isStateReviewed-label}
-Actions::
+** If accepted, appoint and assign solution to an xref:compendium:Projects/01_project_terms.adoc#integrator[Integrator] (responsible for integrating the solution) 
+
+
+|===
+
+
+== Reviewed
+
+
+[cols="<.<1,<.<3a"]
+|===
+
+
+|What
+|An issue that has a been accepted by the group, has an assigned integrator, which is ready to be integrated into the standard or project.
+
+|Who
+|xref:compendium:Projects/01_project_terms.adoc#integrator[Integrator]
+
+|State Label
+|{isStateReviewed-label}
+
+|Transitions
+|
+Solution implemented::-> INTEGRATED +
+Major questions::-> IMPLEMENTED
+|===
+
+[cols="<.<1,<.<3a"]
+|===
+
+|To transition to next state
+|*Actions*
+
 * Refine content and apply ASAM Editorial Guide
-* If relevant, apply project-specific writing rules and guidelines
 * Document any questions in the issue
-* Clarify minor questions with solution developer
+* Clarify minor questions with solution responsible
 * If any major questions arise, change state back to Implemented
-DoR::
-* <<Integrator>> assigned
-DoD::
-* Solution completely integrated
-* Checked against ASAM Editorial Guide
-* Relevant pipelines pass
-* All questions documented as comments in issue
-Transitions:: 
-Solution implemented::: -> INTEGRATED
-Major questions::: -> IMPLEMENTED
---
-Integrated::
-+
---
-[horizontal]
-Who:: <<Integration Reviewer>>
-State Label:: {isStateIntegrated-label}
-Actions::
+* When integrated (and if applicable), remove the "Draft:" flag from the Merge Request
+* Assign to the solution responsible of the ticket
+
+|===
+
+== Integrated
+
+[cols="<.<1,<.<3a"]
+|===
+
+|What
+|An issue that has been integrated, is assigned to the solution responsible, which is ready to be checked and all open comments are resolved.
+
+|Who
+|xref:compendium:Projects/01_project_terms.adoc#solution-responsible[Solution responsible]
+
+|State Label
+|{isStateIntegrated-label}
+
+|Transitions
+|
+Integration OK::-> READYFORMERGE (relevant for merging of branches in docs-as-code) +
+Integration OK::-> CLOSED ({resolutionTypeFixed-label}) (for projects not using docs-as-code) +
+Integration NOK::-> REVIEWED
+|===
+
+[cols="<.<1,<.<3a"]
+|===
+
+|To transition to next state
+|*Actions*
+
 * Review the integration
 ** Is the original content still correctly represented?
-** Are all guidelines & conventions maintained?
 ** Are all discussions resolved?
-** Does it have a https://medium.com/@catalinaturlea/clean-git-history-a-step-by-step-guide-eefc0ad8696d[clear commit history^]?
-* Add feedback as comments on Merge/Pull Request
+* Add feedback as comments
 * Add verdict as comment in issue
-** If accepted, assign issue to the <<Workflow Manager>>
+** If accepted, assign issue to the xref:compendium:Projects/01_project_terms.adoc#workflow-manager[Workflow Manager]
+** If accepted (and if applicable), approve the merge request
+|===
 
-DoR::
-* <<Integraton Reviewer>> assigned
-DoD::
-* Solution reviewed
-* Feedback provided in Merge/Pull Request, if relevant
-* Verdict documented in issue
-Transitions:: 
-Integration OK::: -> READYFORMERGE
-Integration NOK::: -> REVIEWED
---
-Ready for Merge::
-+
---
-[horizontal]
-Who:: <<Workflow Manager>>
-State Label:: {isStateReadyForMerge-label}
-Actions::
+
+== Ready for Merge
+
+
+[cols="<.<1,<.<3a"]
+|===
+
+|What
+|An issue that has been integrated and is assigned to the workflow manager, which is ready to be merged.
+
+|Who
+|xref:compendium:Projects/01_project_terms.adoc#workflow-manager[Workflow Manager]
+
+|State Label
+|{isStateReadyForMerge-label}
+
+
+|Transitions
+|
+Merged::-> CLOSED ({resolutionTypeFixed-label}) +
+Merge Conflict::-> INTEGRATED
+|===
+
+[cols="<.<1,<.<3a"]
+|===
+
+|To transition to next state
+|*Actions*
+
+**Note that this is only applicable to projects with a docs-as-code workflow**
+
 * Merge the assigned Merge/Pull Request
-** If any major merge conflicts arise, document conflict, reassign it to the <<Integration Reviewer>>, and change back to the previous state
+** If any major merge conflicts arise, these are to be documented and the ticket is reassigned to the Solution Responsible, and change back to the previous state
 ** If the merge completes successfully, close the Merge/Pull Request and the associated issue(s)
-DoR::
-* <<Workflow Manager>> assigned
-DoD::
-* Branch merged
-* In case of merge conflicts: conflict documented in Merge/Pull Request
-Transitions:: 
-Merged::: -> CLOSED ({resolutionTypeFixed-label})
-Merge Conflict::: -> INTEGRATED
---
 
-====
 
-== Due dates
-The due date in issues shall be used to indicate the expected finalization date for the development of the solution.
-This date marks the point at which the solution can be reviewed and, ideally, accepted for integration. +
-It is important to note that the due date of the solution does not account for integration!
-**Make sure that there is at least 4 weeks of time after the due date to integrate it before any final deadline of the project.**
+|===
 
-ASAM recommends that each issues takes no more than 4 weeks to create a solution for it.
-This means that issues where the solution is expected to be more complex should be split into multiple smaller ones, each with an expected resolution time of 4 weeks or less.
 
-When scheduling an issue, set its due date according to the issue's estimate. 
-If an issue is split into multiple sub-issues, assign due dates for the issue as well as the sub-issues. 
-In this case, the due date of the issue itself may exceed the 4 week recommendation.
-However, the sub-issues should then stick to that limit.
 
-== Generic roles
-The workflow contains some generic roles that each project may implement differently.
-
-=== Workflow Manager
-The role "**Workflow Manager**" is an abstract role. 
-Each project decides how and whom to assign it to. +
-Typical examples are:
-
-* Project Lead
-* Office Responsible
-* Subgroup leads, if available
-* Change Control Board (CCB) representative, if defined
-
-Typically, the Workflow Manager is experienced with using remote repositories.
-
-=== Integrator
-The Integrator is responsible for integrating the developed solution into the standard.
-Their task is to make sure the writing style is kept consistent and the ASAM editorial rules are met. 
-
-The Integrator may be a service provider tasked with documentation efforts in the project.
-Alternatively, the Integrator may be the Office Responsible or a member of the project group.
-
-=== Integration Reviewer
-The Integration Reviewer is responsible for reviewing the integrated solution created by the <<Integrator>>. +
-They may be an individual or a group. 
-Typically, this is also the <<Workflow Manager>>.
-In the case that a project has a defined Change Control Board, it shall take on this role.
 
 //end::body[]

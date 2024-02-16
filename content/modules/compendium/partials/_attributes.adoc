@@ -14,20 +14,20 @@ include::compendium:partial$tools_attributes.adoc[]
 :width-large: 120
 :width-small: 100
 
-:project-types-icon: xref:Concepts/project_types.adoc[image:Concepts/types_icon.png[width={width-large}], role=right]
-:project-types-icon-norole: xref:Concepts/project_types.adoc[image:Concepts/types_icon.png[width={width-small}]]
+:project-types-icon: xref:Projects/02_project_types.adoc[image:Projects/types_icon.png[width={width-large}], role=right]
+:project-types-icon-norole: xref:Projects/02_project_types.adoc[image:Projects/types_icon.png[width={width-small}]]
 
-:project-phases-icon: xref:Concepts/project_phases.adoc[image:Concepts/phases_icon.png[width={width-large}], role=right]
-:project-phases-icon-norole: xref:Concepts/project_phases.adoc[image:Concepts/phases_icon.png[width={width-small}]]
+:project-phases-icon: xref:Projects/project_phases.adoc[image:Projects/phases_icon.png[width={width-large}], role=right]
+:project-phases-icon-norole: xref:Projects/project_phases.adoc[image:Projects/phases_icon.png[width={width-small}]]
 
-:project-lifecycle-icon: xref:Concepts/project_lifecycle.adoc[image:Concepts/phases_icon.png[width={width-large}], role=right]
-:project-lifecycle-icon-norole: xref:Concepts/project_lifecycle.adoc[image:Concepts/phases_icon.png[width={width-small}]]
+:project-lifecycle-icon: xref:Projects/project_lifecycle.adoc[image:Projects/phases_icon.png[width={width-large}], role=right]
+:project-lifecycle-icon-norole: xref:Projects/project_lifecycle.adoc[image:Projects/phases_icon.png[width={width-small}]]
 
-:roles-icon: xref:Concepts/roles-overview.adoc[image:Concepts/roles_icon.svg[width={width-large}], role=right]
-:roles-icon-norole: xref:Concepts/roles-overview.adoc[image:Concepts/roles_icon.svg[width={width-small}]]
+:roles-icon: xref:Projects/01_project_terms.adoc[image:Projects/roles_icon.svg[width={width-large}], role=right]
+:roles-icon-norole: xref:Projects/01_project_terms.adoc[image:Projects/roles_icon.svg[width={width-small}]]
 
-:diagram-notation-icon: xref:Concepts/diagram_notations.adoc[image:Concepts/notation_icon.drawio.svg[width={width-large}], role=right]
-:diagram-notation-icon-norole: xref:Concepts/diagram_notations.adoc[image:Concepts/notation_icon.drawio.svg[width={width-small}]]
+:diagram-notation-icon: xref:Projects/diagram_notations.adoc[image:Projects/notation_icon.drawio.svg[width={width-large}], role=right]
+:diagram-notation-icon-norole: xref:Projects/diagram_notations.adoc[image:Projects/notation_icon.drawio.svg[width={width-small}]]
 
-:doc-as-code-icon: xref:Concepts/doc-as-code.adoc[image:Concepts/doc-as-code-icon.png[width={width-large}], role=right]
-:doc-as-code-icon-norole: xref:Concepts/doc-as-code.adoc[image:Concepts/doc-as-code-icon.png[width={width-small}]]
+:doc-as-code-icon: xref:Development/doc-as-code.adoc[image:Projects/doc-as-code-icon.png[width={width-large}], role=right]
+:doc-as-code-icon-norole: xref:Development/doc-as-code.adoc[image:Projects/doc-as-code-icon.png[width={width-small}]]

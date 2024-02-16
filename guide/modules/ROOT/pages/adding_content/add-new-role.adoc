@@ -6,7 +6,7 @@ include::partial$_attributes.adoc[]
 
 
 
-{changes-icon}
+
 
 == Context
 Roles are a way of structuring tasks within ASAM activities.

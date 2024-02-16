@@ -8,20 +8,17 @@
 include::compendium:partial$_attributes.adoc[]
 include::ROOT:partial$_attributes.adoc[]
 
-{compendium-icon}
 
-include::partial$module-description.adoc[]
+**The compendium provides a searchable collection of individual topics that may be relevant in your time in an ASAM project.** 
+
 
 // Additionally, you can look for pages on particular topics using the auto-generated xref:1_keywords.adoc[Keywords Overview Page].
 
-TIP: You cannot find a specific topic in this guide?
+TIP: Can't find what you are looking for?
 Click the btn:[Issue overview] button on the top of the page to check answered questions and upcoming topics. +
 If your topic has not been addressed yet, click the btn:[Submit feedback] button to ask a question, request a new topic, or submit your feedback.   
 
 ---
 
 pages::[]
-
-include::ROOT:partial$landing_page_referral.adoc[]
-
 

@@ -1,0 +1,33 @@
+= Milestones and planning
+:description: Explains the basics of planning projects.
+:keywords: basics
+
+include::tour_guide:partial$_attributes.adoc[]
+
+NOTE: This section is currently written for the ASAM internal development platform, GitLab. The principals described here apply for other platforms in use at ASAM, including GitHub, but the application in practice may differ.
+
+In the context of project planning within GitLab, understanding how to effectively use issues and milestones is crucial for managing tasks, tracking progress, and achieving project goals. 
+
+GitLab offers a robust platform for source code management along with various tools for software development, including project planning and tracking. 
+
+== Milestones
+
+Milestones in GitLab are used to group issues into a set of goals or phases. They represent significant targets within the project, such as a version release, a sprint, or any other important event that requires multiple tasks to be completed. Milestones help in tracking progress towards these targets by associating related issues and merge requests.
+
+=== How to Use Milestones:
+
+. Create a Milestone: Define a new milestone by specifying a title, description, start date, and due date.
+. Associate Issues and Merge Requests: Assign issues and merge requests to the milestone to track the work related to that milestone.
+. Track Progress: Use the milestone's progress bar and issue list to monitor what has been completed and what is still pending.
+
+=== Benefits:
+
+* Organized Planning: Helps in structuring the project into manageable phases or targets.
+* Deadline Tracking: With start and due dates, milestones make it easier to manage deadlines.
+* Progress Monitoring: Provides a visual representation of progress towards the milestone with a progress bar and completion percentage.
+
+=== Linking Issues with Milestones
+
+To effectively manage a project, it's essential to link issues with milestones. This approach allows for detailed planning and tracking of progress on a finer level (issues) and a broader level (milestones). By doing so, project managers and team members can ensure that all tasks are accounted for and that the project is moving towards its defined goals within the set timelines.
+
+For more detailed instructions on creating and managing milestones, GitLab's official documentation provides a comprehensive guide: https://docs.gitlab.com/ee/user/project/milestones/[GitLab Milestones Documentation].

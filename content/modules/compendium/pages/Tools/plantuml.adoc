@@ -1,0 +1,36 @@
+= PlantUML
+:description: A summary page describing what PlantUML is and where to find related information, guides etc.
+:keywords: plantUML,summary,tool,recommended, doc-as-code
+
+include::partial$_attributes.adoc[]
+
+
+include::compendium:partial$icon_reminder.adoc[tag=download-link]
+
+
+
+//tag::summary[]
+PlantUML is a tool that allows users to create diagrams from a plain text language. It is particularly useful for designing and visualizing software architecture but can also be used for other types of diagrams such as sequence diagrams, use case diagrams, class diagrams, activity diagrams, component diagrams, state diagrams, object diagrams, and deployment diagrams.
+
+The key features of PlantUML include:
+
+. **Plain Text Descriptions**: Diagrams are defined using a simple and intuitive language. This makes it easy to create and modify diagrams without needing complex graphical tools.
+
+. **Version Control Friendly**: Since diagrams are described in text, they can be easily version-controlled alongside software code, providing a history of changes and facilitating collaboration.
+
+. **Wide Range of Diagram Types**: PlantUML supports various types of UML diagrams, as well as other diagrams like Gantt charts and mind maps.
+
+. **Integration**: It can be integrated into various software tools like wikis, forums, and IDEs (Integrated Development Environments) for easier access and usage.
+
+. **Automation**: PlantUML allows for automation in generating diagrams, which is particularly useful in large projects where diagrams need to be updated frequently.
+
+. **Export Formats**: Diagrams can be exported to different formats such as PNG, SVG, and ASCII art.
+
+. **Open Source**: PlantUML is open source, allowing users to modify or extend its capabilities according to their needs.
+
+Overall, PlantUML is a powerful tool for developers and teams who want to document and visualize their software architecture and workflows efficiently and collaboratively.
+//end::summary[]
+
+
+
+// related::antora,asciidoctor[]

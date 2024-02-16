@@ -1,20 +1,12 @@
 
 // TYPE LABELS
-// OUTDATED
-:isTypeDocumentationCleanUp-label: pass:[<label style="background: #428BCA; color: white">isType:DocumenatationCleanUp</label>]
-:isTypeFeatureImprovment-label: pass:[<label style="background: #428BCA; color: white">isType:FeatureImprovment</label>]
-:isTypeGeneralQuestion-label: pass:[<label style="background: #428BCA; color: white">isType:GeneralQuestion</label>]
-:isTypeInternalReview-label: pass:[<label style="background: #428BCA; color: white">isType:InternalReview</label>]
-:isTypeNewFeature-label: pass:[<label style="background: #428BCA; color: white">isType:NewFeature</label>]
-:isTypePublicReview-label: pass:[<label style="background: #428BCA; color: white">isType:PublicReview</label>]
-:isTypeReleaseBlocker-label: pass:[<label style="background: #428BCA; color: white">isType:ReleaseBlocker</label>]
-:isTypeRepositoryInfrastructure-label: pass:[<label style="background: #428BCA; color: white">isType:RepositoryInfrastructure</label>]
-:isTypeUML-label: pass:[<label style="background: #428BCA; color: white">isType:UML</label>]
-
-//ACTUAL LABELS
 :isTypeBug-label: pass:[<label style="background: #428BCA; color: white">isType:Bug</label>]
 :isTypeFeature-label: pass:[<label style="background: #428BCA; color: white">isType:Feature</label>]
-:isTypeDocumentation-label: pass:[<label style="background: #428BCA; color: white">isType:Documentation</label>]
+:isTypeFeatureImprovement-label: pass:[<label style="background: #428BCA; color: white">isType:FeatureImprovement</label>]
+:isTypeEditorial-label: pass:[<label style="background: #428BCA; color: white">isType:Editorial</label>]
+:isTypeInfrastructure-label: pass:[<label style="background: #428BCA; color: white">isType:Infrastructure</label>]
+:isTypeQuestion-label: pass:[<label style="background: #428BCA; color: white">isType:Question</label>]
+:isTypeMeetingMinutes-label: pass:[<label style="background: #428BCA; color: white">isType:MeetingMinutes</label>]
 
 // RESOLUTION TYPE LABELS
 :resolutionTypeDuplicate-label: pass:[<label style="background: Grey; color:black">resolutionType:Duplicate</label>]
@@ -22,7 +14,6 @@
 :resolutionTypeFixed-label: pass:[<label style="background: Grey; color:black">resolutionType:Fixed</label>]
 
 // STATE LABELS
-//ACTUAL STATE LABELS
 :isStateNew-label: pass:[<label style="background: Blue; color:white">isState:New</label>]
 :isStateClassified-label: pass:[<label style="background: Blue; color:white">isState:Classified</label>]
 :isStateAccepted-label: pass:[<label style="background: Blue; color:white">isState:Accepted</label>]
@@ -31,24 +22,6 @@
 :isStateReviewed-label: pass:[<label style="background: Blue; color:white">isState:Reviewed</label>]
 :isStateIntegrated-label: pass:[<label style="background: Blue; color:white">isState:Integrated</label>]
 :isStateReadyForMerge-label: pass:[<label style="background: Blue; color:white">isState:ReadyForMerge</label>]
-
-
-// ACTUAL PROPOSAL PHASE LABELS
-:isPhaseProposal-label: pass:[<label style="background: Grey; color: white">isPhase:Proposal</label>]
-
-// ACTUAL REQUIREMENT LABELS
-:requiresCCBReview-label: pass:[<label style="background: Red; color: white">requires:CCBReview</label>]
-:requiresClarification-label: pass:[<label style="background: Red; color: white">requires:Clarification</label>]
-:requiresConceptualWork-label: pass:[<label style="background: Red; color: white">requires:ConceptualWork</label>]
-:requiresDocumentationWork-label: pass:[<label style="background: Red; color: white">requires:DocumentationWork</label>]
-:requiresExample-label: pass:[<label style="background: Red; color: white">requires:Example</label>]
-:requiresMerge-label: pass:[<label style="background: Red; color: white">requires:Merge</label>]
-:requiresMergeRequest-label: pass:[<label style="background: Red; color: white">requires:MergeRequest</label>]
-:requiresTest-label: pass:[<label style="background: Red; color: white">requires:Test</label>]
-
-// ACTUAL RELATION LABELS
-:isRelatedEditorialGuide-label: pass:[<label style="background: Red; color: white">isRelated:EditorialGuide</label>]
-:isRelatedOpenXOntology-label: pass:[<label style="background: Red; color: white">isRelated:OpenXOntology</label>]
 
 //ACTUAL EFFORT LABELS
 :hasEffortHigh-label: pass:[<label style="background: Red; color: white">hasEffort:High</label>]

@@ -8,7 +8,7 @@
 include::contributing:partial$_attributes.adoc[]
 include::ROOT:partial$_attributes.adoc[]
 
-{contributing-icon}
+
 
 include::partial$module-description.adoc[]
 

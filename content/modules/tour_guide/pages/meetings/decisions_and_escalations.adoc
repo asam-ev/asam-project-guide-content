@@ -1,51 +1,100 @@
-= Decisions and escalations
+= Decision making
 :description: Contains information on decisions and when to escalate.
 :keywords: meeting
-:page-layout: progress
-:page-progress_bar: progress_bar_simple-decisions_and_escalations.svg
-:tour_guide_small:
 
 include::tour_guide:partial$_attributes.adoc[]
 
-//tag::body[]
+//tag::vote_body[]
 
 == Decisions in meetings
-Participants of a meeting can make decisions on topics within the scope of their respective group.
-This means that a subgroup can make decisions on all topics related to their subgroup's task, whereas decisions in a project-level meeting typically concern the project as a whole.
+This page details the decision making process, escalation path and voting guidelines in ASAM projects.
 
-[horizontal]
-Project-level:: Can make decisions on all topics that affect the whole project or parts thereof within the defined project scope. +
-May prepare suggestions for topics that alter the current scope or affect other projects as well.
-These suggestions, however, must be escalated to the appropriate ASAM-level meeting.
-Subgroups:: Can make decisions on all topics assigned to this particular subgroup. +
-May prepare suggestions for topics that affect other subgroups. 
-However, topics that go beyond the subgroup's responsibilities must be escalated to the whole group.
 
 
 == Escalation of topics
-=== From Subgroup to group
-A topic must be presented at the next xref:tour_guide:meetings/types.adoc#_project-level_meetings[project-level meeting] when:
+=== From subgroup to project group
+A topic must be presented at the next xref:tour_guide:meetings/types.adoc#_project_group_meetings[project group meeting] if any of the following apply:
 
-* Changes to the underlying data model
-* It is requested by the Subgroup
-* It is requested by the Project Lead
-* It is requested by a project steering committee (e.g. the CCB)
-* The subgroup cannot reach a decision on a specific topic or assumes that there are different opinions in the overall project group
+* Changes to the underlying *data model* are involved
+* It is requested by one or more *subgroup* participants
+* It is requested by the *project lead*
+* It is requested by a *project steering committee* (e.g. the xref:tour_guide:meetings/types.adoc#_tsc_meetings[CCB])
+* A consensus-based decision is not feasible or possible
 
-The Project Lead may escalate Subgroup decisions to a project level vote.
 
-=== From group to ASAM-level meeting
-If a project cannot meet its milestones or budget, it must escalate its status report in the next relevant ASAM-level meeting (such as the TSC controlling meeting).
+=== From project group to TSC meeting
+If a project wishes to change its scope or timeline or requires a change to budget it should submit to the TSC for a decision. Prior to submitting to the TSC, project consensus on the request being submitted is required. See xref:compendium:Projects/03_project_phases.adoc#_project_controlling[project controlling] for requirements on reporting to and requesting changes from the TSC.
 
-== Inactive participants
-An inactive participant is someone who is registered as an active participant but repeatedly does not partake in meetings or any development activities. 
-It is up to the project to decide when a participant is considered inactive.
-As an example, a group can decide that three (3) unexcused absences are the limit, with a final warning being issued after the second time. +
-Inactive participants can hinder a project by bringing it below the required voting threshold.
-They also put more workload on the other active members.
-Lastly, inactive participants endanger the project's budget.
-It is, therefore, important to identify inactive members quickly and get them to be active again.
-As a last resort, inactive (and possibly unresponsive) members can be removed from the project.
-This is the responsibility of the responsible lead: Project Lead for project level inactiveness, Subgroup Lead for relevant subgroups.
+== Guidelines for formal voting
+An ASAM Office Responsible shall reference these rules prior to the initiation of project votes in any meeting.
 
-//end::body[]
+Every project member may request that a topic be voted on.
+Additionally, the meeting initiator may set up a quick poll first to identify topics that require a formal voting.
+
+
+== About voting
+In a voting, each project member has one vote, votes cannot be transferred to other project members. 
+It is strongly recommended that if a project member has multiple participants in a project, they decide on their vote and who will cast it ahead of time. 
+If a project member casts multiple votes (accidentally or intentionally) and their votes conflict, their vote is counted as abstention.
+
+An abstention vote counts as a cast vote. 
+
+Failing to submit a vote does not count towards the number of voting project members.
+
+IMPORTANT: Please try to avoid not submitting any vote at all. If you have any concerns or queries with respect to the votes or to the process, please reach out to your Office Responsible prior to casting your vote.
+
+Both onsite and remote users shall be enabled to vote. 
+
+Choices can be voting-specific (for example if the project is deciding between two or more options). 
+Abstention is a valid vote. 
+**For approval votes, the choices are yes, no, abstention.**
+
+Voting is decided by simple majority.
+Abstentions are not counted, other than for determining validity of a vote. 
+
+[[v_valid]]
+A voting is only valid if:
+
+* At least 50% of project members cast their vote 
+
+IMPORTANT: The exception to the above rule is a project release voting prior to submission to the ASAM TSC. For such a voting a two-thirds majority of all project members is needed. Any no-votes should be submitted with a justification by the project group to the next TSC meeting.
+
+Failure to participate in a vote counts as a lack of attendance, see xref:tour_guide:meetings/guidelines.adoc#_inactive_project_member[inactive project members]. 
+Note that the overall validity of the vote may be affected, see <<v_valid,valid voting>>. 
+
+An invalid vote may be repeated. 
+Should a repeated vote also be invalid, an escalation to the TSC shall take place by the OR.
+
+IMPORTANT: Exceptions to the voting rules shall be subject to approval by the TSC.
+
+
+== When to conduct voting
+Project group voting takes place during meetings. 
+Results shall be made available in the corresponding meeting minutes.
+
+By default, a voting is announced in the agenda (before a meeting takes place). 
+
+However, if spontaneous topics arise, ad hoc voting may be performed. An adhoc voting is only valid if the following is true:
+
+* At least 50% of project members cast their vote 
+* All impacted project members are present (this may include issue responsibles or solution developers)
+* The voting result shall represent a majority opinion such that votes by absent participants could not influence the end result
+
+
+
+== Mandatory votings
+Some topics require a formal voting:
+
+* Election of Project Lead
+* Changes of project scope
+* Budget request
+* Evaluation of service providers
+* Significant changes to deliverables 
+* Escalation of topics to TSC
+* Release decision
+
+**Note that certain subgroup decisions require an escalation to a project voting. See xref:tour_guide:meetings/decisions_and_escalations.adoc#_from_subgroup_to_project_group[].**
+
+
+
+// end::vote_body[]

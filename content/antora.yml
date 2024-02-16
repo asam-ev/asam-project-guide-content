@@ -17,7 +17,7 @@ asciidoc:
     github-url: https://github.com/asam-ev
     abb: "compendium:partial$abbreviations.adoc@"
     experimental: ""
-    
+    editorial-guide-version: 1.0.0
     # tag::roles[]
     ## Defined role attributes
     role-reviewer: 'xref:role-specific:reviewer.adoc[<role style="background:#FA8072;" >REVIEWER</role>]'

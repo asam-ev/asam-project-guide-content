@@ -1,0 +1,84 @@
+= Label overview
+:description: Overview of available labels as used for the contribution workflow
+:keywords: basics
+
+//tag::body[]
+
+include::tour_guide:partial$_attributes.adoc[]
+include::compendium:partial$issue_labels.adoc[]
+
+This page provides an overview of available labels as employed throughout the xref:tour_guide:page$contribution.adoc[contribution workflow].
+
+== Issue types	
+Type labels display the intended field of the issue. Type labels are static and never change. An issue shall only have one type.
+
+[horizontal]
+{isTypeBug-label}:: 	
+An issue that contains contradictions or errors in the standard. 
+
+{isTypeFeature-label}:: 	
+An issue that adds new features to the project. 
+
+{isTypeFeatureImprovement-label}:: 	
+An issue that amends or improves existing features. 
+
+{isTypeEditorial-label}:: 	
+An issue that contains general structural and editorial changes for the whole documentation. 
+
+{isTypeInfrastructure-label}:: 	
+An issue related to the repository infrastructure such as CI, builds, document toolchain or similar. 
+
+{isTypeQuestion-label}:: 	
+General questions about the project, work-flow or anything related to the standard as well as support requests.  
+
+{isTypeMeetingMinutes-label}:: 	
+An issue documenting meeting minutes for an ASAM meeting. 
+On starting, a project shall define the location of all meeting minutes for the project. 
+This is either in a project sharepoint or in the issue list. Meeting minutes should be kept for each official project meeting. 
+
+		
+== Resolution types		
+Resolution type labels indicate why an issue was closed. 
+An issue must be closed to have a resolution and shall only have one resolution type.
+
+[horizontal]
+{resolutionTypeDuplicate-label}:: 	
+This issue has already been raised or was already solved in another issue. 
+
+{resolutionTypeRejected-label}:: 	
+The task described in the issue will not addressed by this standard. 
+
+{resolutionTypeFixed-label}:: 	
+The task described in the issue was addressed. 
+
+		
+== State labels
+
+State labels reflect the current state of an issue. State labels should change in accordance to the state of an issue. 
+An issue shall have one state. On changing state, a new state label shall be added and the old state label shall be removed. 
+
+[horizontal]
+{isStateNew-label}:: 	
+A new issue that needs to be classified to a type. 
+
+{isStateClassified-label}:: 	
+An issue that has a type and that needs to be accepted by the group. 
+
+{isStateAccepted-label}:: 	
+An issue that has been accepted by the group, which needs to be assigned to a responsible, given a due date and needs a clear specification of requirements to be fulfilled. 
+
+{isStateInProgress-label}:: 	
+An issue that is assigned a responsible, has a due date and clear requirements, which now needs to be implemented in a solution. 
+
+{isStateImplemented-label}:: 	
+An issue that has a solution in an associated merge request, which is ready to be reviewed by the group. 
+
+{isStateReviewed-label}:: 	
+An issue that has a been accepted by the group, has an assigned integrator, which is ready to be integrated into the standard or project. 
+
+{isStateIntegrated-label}:: 	
+An issue that has been integrated and has an integration reviewer, which is ready to be checked and all open comments are resolved. 
+
+{isStateReadyForMerge-label}:: 	
+An issue that has been integrated and is assigned to the workflow manager, which is ready to be merged. 
+

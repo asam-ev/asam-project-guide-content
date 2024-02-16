@@ -8,7 +8,7 @@ include::contributing:partial$_attributes.adoc[]
 
 {mandatory}
 
-{remote-icon}
+
 
 {role-project-participant}
 {role-service-provider}

@@ -5,7 +5,7 @@
 
 include::compendium:partial$_attributes.adoc[]
 
-{asciidoc-icon}
+
 
 //tag::body[]
 If you're explaining how to perform a task, you might include introductory information before you get to the steps.

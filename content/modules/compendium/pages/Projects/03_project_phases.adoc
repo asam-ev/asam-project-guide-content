@@ -1,0 +1,193 @@
+= Project phases
+:description: An overview over the ASAM Project Phases.
+:keywords: phase, concept
+
+include::partial$_attributes.adoc[]
+
+
+
+
+== Introduction
+
+Besides xref:compendium:Projects/02_project_types.adoc[different types of projects], there are four main project phases that ASAM defines.
+Not all projects must necessarily pass through all these phases.
+See the phase descriptions below for more details.
+
+image::compendium:Projects/project_lifecycle.drawio.svg[alt=The ASAM Project Phases, title=The ASAM project phases]
+
+
+
+== Proposal phase
+
+[cols="1,3"]
+|===
+h|Purpose
+|To define the technical scope of a project at ASAM. 
+
+h|Required for
+|Every project type.
+
+h|Timeline
+a|**The typical Proposal Phase timeline consists of**
+
+image::compendium:asam/proposal_phase_timeline.drawio.svg[]
+
+|===
+
+All projects at ASAM are required to begin with the proposal phase.
+The focus of this period is to refine the technical content of a potential project with interested parties.
+A project shall hold at least one proposal workshop. 
+It is used to present more insight into the scope and gather further feedback and parties.
+
+The output of the proposal phase is a set of proposal documents, detailing the project's targets, participants, the budget, timeline, and other project-related information, such as the xref:compendium:Projects/02_project_types.adoc[type of the project]. +
+The proposal documents are the basis for the TSC to decide whether to approve a project.
+Should a project be approved, it proceeds on to the **Development phase**.
+
+NOTE: Download the project proposal templates https://asamev.sharepoint.com/:f:/g/EpWO8zVcXvBCu-EG7Xr7H4IBAZpaZTSdqLNhH2A9B2GRiA?e=L6GPnf[here].
+
+
+// Additional information:: xref:compendium:proposal_phase.adoc[]
+== Development phase
+
+[cols="1,3"]
+|===
+h|Purpose
+|To develop the project's deliverables.
+
+h|Required for
+|Every project type.
+
+h|Timeline
+a|**The length of the Development Phase varies from project to project.** +
+However, most projects' proposed development duration lies **between 12 and 24 months**. 
+
+image::compendium:asam/development_phase_timeline.drawio.svg[]
+
+|===
+
+**This is the main phase of each project.** +
+If you want to learn more about how to get ready for your project, check out the **xref:tour_guide:index.adoc[]**.
+
+During this phase, the project-type specific xref:compendium:Standards/deliverables.adoc[deliverables] are developed by the project participants.
+In the beginning, the project group organizes a kickoff workshop to specify their modus operandi and set up all technical aspects of the project.
+In particular, the Project Lead who is the main responsible for the project is elected.
+Depending on the size of the project, other xref:compendium:Projects/01_project_terms.adoc[roles] such as subgroup leads are also elected. 
+One or more service providers may be contracted to provide additional support.
+This is followed by one or more development intervals, specifying, writing, and reviewing content internally until the document or documents are ready for the **Review Phase**.
+
+During development, the project group has regular project group meetings.
+ASAM recommends a 2 month interval for these larger meetings. 
+
+For more information on the types of meetings during a project's development, see xref:tour_guide:meetings.adoc[] in the Guided tour.
+
+=== Project controlling
+
+All projects are monitored by the TSC in its meetings.
+
+A *running* project shall submit a controlling report by the deadline day for every ASAM TSC meeting.
+Submission of the controlling report and any supporting material is the responsibility of the PL, supported by the OR and the project members.
+
+Significant changes to a project require submission of supporting documents, see <<tab-significant-project-changes>>. 
+
+Some projects may be requested to present (remotely) further detail or insight during the TSC meeting.
+Such a request may be submitted by the TSC, a project member or the ASAM office. 
+For project members, such a request shall be submitted to the OR.
+A request to present shall be submitted at the latest one calendar week prior to the deadline day.
+By default, the PL is the presenter for a presentation.
+If necessary and on agreement by the respective parties, a presentation may be delegated to one or more project participants.
+The process for identification of a suitable slot for a presentation shall be initiated by the ASAM office. 
+Any additional presentation material for a presentation should be submitted by the deadline day.
+
+.Significant changes to a project requiring a presentation slot in a TSC meeting.
+[#tab-significant-project-changes,cols=3,width="60%"]
+|===
+.2+h|Change type 
+2+h|Additional documents to be updated and submitted
+
+h|Project proposal	
+h|Resource overview	
+
+|Project scope		|X	|X	
+|Project duration 	|	|X	
+|Additional budget	|	|X	
+ 
+|===
+
+Failure to submit a controlling report by the deadline day shall result in a request to present (remotely) to the TSC. +
+Failure to submit supporting material by the deadline day shall result in cancellation of the respective presentation slot and thus automatic rejection of any requests. +
+Failure to present when requested shall result in a project being suspended.
+Resumption of project activities is subject to TSC approval.
+
+NOTE: See the https://asamev.sharepoint.com/:w:/g/EVN_baBVLfxAsh5-MCKtEHEBwTBvZDGE8rmJIY0z7kHzeA?e=S6SOYG[controlling report template] and the https://asamev.sharepoint.com/:p:/g/EQm7G7Qzv4RInoyVdKqkwJUBWTQRGZqK5NVpRCem5WOqgA?e=1R7nUo[powerpoint template].
+
+
+// Additional information:: xref:compendium:development_phase.adoc[]
+== Review phase
+
+[cols="1,3"]
+|===
+h|Purpose
+|To review the developed deliverables.
+
+h|Required for
+a|* All projects
+
+h|Timeline
+a|**The typical Review Phase timeline looks like this:**
+
+image::compendium:asam/review_phase_timeline.drawio.svg[title="The Review phase timeline"]
+|===
+
+
+Before a standard is officially released, all deliverables have to be reviewed. 
+All deliverables shall be complete and fully available on review start.
+
+The review phase shall always consist of the following review periods.
+
+. A project member review
+. A native speaker review
+. An ASAM office review
+
+All projects, except for maintenance projects are also required to plan one of:
+
+. A public review
+. An ASAM member review
+
+After each review period, all feedback shall be evaluated and the group shall decide to either accept or reject it. 
+These decisions shall be documented for each review point, ideally in a corresponding issue.
+
+Accepted feedback shall be implemented.
+
+The project group has full authority on how and to which extent to address the reviewers' feedback.
+
+Reviewers may not submit new use-cases, features, or requirements as part of their review feedback. +
+If this is the case, then the feedback shall be rejected and transferred to the relevant issue system with state NEW.
+
+Once the deliverables have been successfully reviewed and no issues for the relevant milestone(s) remain open, the project continues to the **Release Phase**.
+
+If any review points lead to a need of significant development effort, the project transitions to the development phase or decides to move the issue or feature out of scope and it is documented in the issue system.
+
+// Additional information:: xref:compendium:review_phase.adoc[]
+== Release phase
+
+include::compendium:partial$project_phases.adoc[tag=release]
+
+
+The project group prepares a release candidate and agrees via xref:tour_guide:page$meetings/decisions_and_escalations.adoc#_guidelines_for_formal_voting[formal voting] to submit the candidate to the TSC for release decision. 
+
+The Project Lead submits the following to ASAM:
+
+* executive summary of the standard 
+* complete deliverables for the standard
+* all source code required to generate the deliverables for the standard including written instructions how to generate them
+* a release presentation
+
+NOTE: Download the template for a release presentation https://asamev.sharepoint.com/:p:/g/EceKQ0Ei4sJMjaWVazVfhtsB1TIxa2SAkP3D85vA_UTzcQ?e=Z29lKh[here].
+
+Sources are those digital work products, which can be modified or edited with standard tools such as text editors, image processors or modeling tools, and which are the input used to produce the final deliverables.
+
+IMPORTANT: The release candidate shall be submitted by the deadline date published on the https://www.asam.net/active-projects/technical-steering/[ASAM website^].
+
+
+
+// Additional information:: xref:compendium:release_phase.adoc[]

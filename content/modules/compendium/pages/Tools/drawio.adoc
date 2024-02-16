@@ -7,7 +7,6 @@ include::partial$_attributes.adoc[]
 
 include::compendium:partial$icon_reminder.adoc[tag=online-access]
 
-{drawio-icon}
 
 // {role-project-participant}
 // {role-technical-writer}

@@ -9,7 +9,7 @@ include::partial$_attributes.adoc[]
 
 include::compendium:partial$icon_reminder.adoc[tag=online-access]
 
-{filestage-icon}
+
 
 Filestage is a webtool for reviewing documents online.
 

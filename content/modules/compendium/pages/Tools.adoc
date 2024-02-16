@@ -4,4 +4,4 @@
 
 include::compendium:partial$_attributes.adoc[]
 
-include::compendium:partial$list-of-tools.adoc[tag=tabs]
+include::compendium:partial$list-of-tools.adoc[tag=local]

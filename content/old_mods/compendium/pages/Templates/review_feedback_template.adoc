@@ -4,7 +4,7 @@
 
 include::compendium:partial$_attributes.adoc[]
 
-{template-icon}
+
 
 == Template for manual use
 TIP: Use this if you want to add manually add a template to an email.

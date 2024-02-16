@@ -5,7 +5,7 @@
 
 include::compendium:partial$_attributes.adoc[]
 
-{asciidoc-icon}
+
 
 //tag::body[]
 If you have a chunk of content that's repeated across different pages, you can easily write it once and reuse it across those pages.

@@ -1,5 +1,4 @@
 
-//tag::tabs[]
 
 include::compendium:partial$tools_attributes.adoc[]
 
@@ -7,11 +6,51 @@ The following tabulated table lists the tools used in ASAM projects, separated b
 
 include::compendium:partial$icon_reminder.adoc[tag=info-page]
 
-[tabs, subs="attributes"]
-====
-Project work::
-+
---
+
+//tag::online[]
+[cols="^3s,8", stripes=hover]
+|===
+h|Name|Description
+
+|{remote-icon-norole} +
+xref:compendium:Tools/remote_repo.adoc[]
+a|ASAM uses both GitHub and GitLab as DevOps platforms. A DevOps platform provides a centralized and integrated environment for development and deployment of ASAM standards.
+
+It provides:
+
+* Issue/ticket-driven workflow
+* Git-based version control for tracking and comparison of changes to files
+* Web-based text editing environment
+
+Used to store all source code and content that is part of deliverables of a standard.
+
+Issues relevant to deliverables should be created here.
+
+
+
+
+|{sharepoint-icon-norole} +
+xref:compendium:Tools/sharepoint.adoc[Microsoft Sharepoint]
+|Microsoft SharePoint is a web-based platform and collaboration tool developed by Microsoft. It serves as a document management and storage system.
+
+Used for any content not part of the deliverables of a standard, such as meeting minutes or presentations. 
+
+
+|===
+
+//end::online[]
+
+
+
+
+//tag::local[]
+
+include::compendium:partial$tools_attributes.adoc[]
+
+The tools listed below are used in ASAM projects.
+
+include::compendium:partial$icon_reminder.adoc[tag=info-page]
+
 
 [cols="^3s,8,^1,^1", stripes=hover]
 |===
@@ -23,14 +62,23 @@ xref:compendium:Tools/remote_repo.adoc[]
 Issues relevant to deliverables should be created here. +
 **This is relevant for everybody involved in ASAM projects!**
 |{mandatory}
-|ASAM IT infrastructure
+|Remote
+
+
+|{sharepoint-icon-norole} +
+xref:compendium:Tools/sharepoint.adoc[Microsoft Sharepoint]
+|Microsoft SharePoint is a web-based platform and collaboration tool developed by Microsoft. It serves as a document management and storage system.
+
+Used for any content not part of the deliverables of a standard, such as meeting minutes or presentations. 
+|{mandatory}
+|Remote
 
 |{git-icon-norole} +
 xref:compendium:Tools/git.adoc[]
 |The version control system ASAM uses. +
 Relevant for users that want to *check out* the project *repository* to work locally.
 |{recommended}
-|Local / web browser (remote)
+|Remote
 
 
 |{vscode-icon-norole} +
@@ -57,139 +105,16 @@ A tool for hosting containers. +
 Relevant for users that want to *run the build tools locally* in order to create preview documents without the repository's pipeline.
 |{optional}
 |Local
-|===
 
---
-Communication::
-+
---
-
-//tag::communication[]
-[cols="^3s,8,^1,^1, ^1", stripes=hover]
-|===
-h|Name|Description|Domains|Usage|Location
-
-|{sharepoint-icon-norole} +
-xref:compendium:Tools/sharepoint.adoc[Microsoft Sharepoint]
-|Sharepoint is a Microsoft service that is used in the background by Teams to manage files.
-It can be accessed directly or through Teams, which is why all files that have been added either way can be retrieved through both tools. +
-Relevant for users that want to *exchange documents* that do not fit into the project's repositories.
-|All
-|{mandatory}
-|ASAM IT infrastructure
-
-|{participants-list-icon-norole} +
-Participants list
-|Each project has a participants list.
-The list contains the current contact information for all project members.
-It is only available for project members and can be found in the project's sharepoint. +
-**Make sure that your contact information is always up-to-date!**
-|All
-|{mandatory}
-|ASAM IT infrastructure
-
-|{calendar-icon-norole} +
-xref:compendium:Tools/calendar.adoc[]
-|Shared calendar for all OpenX projects. +
-Relevant for users that want to stay informed about *upcoming events and meetings* in the Simulation domain.
-|Simulation
-|{recommended}
-|ASAM IT infrastructure
-
-|===
-
-//end::communication[]
---
-
-====
-
-
-//end::tabs[]
-
-// tag::mandatory[]
-
-include::tour_guide:partial$_attributes.adoc[]
-
-include::compendium:partial$icon_reminder.adoc[tag=info-page]
-
-[#collaborative_infrastructure]
-.Infrastructure to enable collaborative standard development
-[cols="^3s,8,^1"]
-[frame=none,grid=rows, stripes=hover]
-
-|===
-h|Name|Description|Location
-
-|{remote-icon-norole} +
-xref:compendium:Tools/remote_repo.adoc[]
-|All source code and standard relevant documentation.
-Issues relevant to deliverables should be created here.
-|ASAM IT infrastructure
-
-|{calendar-icon-norole} +
-xref:compendium:Tools/calendar.adoc[]
-|Shared calendar for all OpenX projects.
-|ASAM IT infrastructure
-
-|{teams-icon-norole} +
-xref:compendium:Tools/sharepoint.adoc[]
-|Chat, conferencing, document folder for sharing documents (e.g. research papers, notes, videos, anything that does not need to be versioned).
-|ASAM IT infrastructure
-
-|{sharepoint-icon-norole} +
-xref:compendium:Tools/sharepoint.adoc[]
-|Sharepoint is a Microsoft service that is used in the background by Teams to manage files.
-It can be accessed directly or through Teams, which is why all files that have been added either way can be retrieved through both tools.
-|ASAM IT infrastructure
-
-// |{filestage-icon-norole} +
-// xref:compendium:Tools/filestage.adoc[]
-// |Webhosted tool for reviewing content and leaving comments on screenshots.
-// |ASAM IT infrastructure
-
-
-|===
-
-// end::mandatory[]
-
-// tag::recommended[]
-
-include::tour_guide:partial$_attributes.adoc[]
-
-include::compendium:partial$icon_reminder.adoc[tag=info-page]
-
-[#recommended_tools_table]
-.Recommended tools
-[cols="^3s,8,^1"]
-[frame=none,grid=rows, stripes=hover]
-|===
-h|Name|Description|Location
-
-|{git-icon-norole} +
-xref:compendium:Tools/git.adoc[]
-|The version control system ASAM uses. +
-|Local / web browser (remote)
-
-
-|{vscode-icon-norole} +
-xref:compendium:Tools/vscode.adoc[]
-|An all-in-one open-source text editor that makes life a lot easier.
-|Local
-
-
-|{drawio-icon-norole} +
-xref:compendium:Tools/drawio.adoc[]
-|An editor for diagrams.
-Can be downloaded or access through the browser.
-Also has a (limited) VS Code extension.
-|Local / https://app.diagrams.net/?splash=0&clibs=Uhttps%3A%2F%2Fcode.asam.net%2Fcommon%2Fasam-graphic-library%2F-%2Fraw%2Fmaster%2FASAM_graphics_library.xml[Web^]
-
-|{docker-icon-norole} +
-xref:compendium:Tools/docker.adoc[]
-|(For local rendering of AsciiDoc) +
-A tool for hosting containers.
+|{plantuml-icon-norole} +
+xref:compendium:Tools/plantuml.adoc[]
+|A textual format to create UML and other diagrams. +
+Relevant for users that want to *create images or diagrams* for ASAM standards.
+|{optional}
 |Local
 |===
 
-// end::recommended[]
 
+
+
+//end::local[]

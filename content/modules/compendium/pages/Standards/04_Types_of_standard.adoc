@@ -1,0 +1,41 @@
+= Classification of Standards 
+:description: describes the types of standards that are produced in projects. 
+
+include::partial$_attributes.adoc[]
+
+
+ASAM defines two types of standard, _base standard_ and _associated standard_.
+
+Irrespective of the type, all standards may consist of several items, including various documents and other types of item, such as source code or data files. These items are independent and, where specified, must each individually comply with the basic document structure for ASAM standards. See the https://internal.pages.asam.net/asam-editorial-guide/editorial-guide-generator[ASAM Editorial Guide] for further details on document types and structure.
+
+== Base Standard 
+
+A base standard defines the syntax, abstract models, and functionality for general use. 
+A base standard is defined in a technology-independent form. 
+It can use a problem-/taskrelated notation, e.g., UML for an object model, or any suitable description for protocols. 
+
+Typically, a base standard may be:
+
+* A format description (data structure) 
+* A protocol definition 
+* An application programming interface 
+
+A base standard has the following properties: 
+
+* Platform-independent 
+* Technology-independent 
+* Supplier-independent 
+* Does not contradict any other ASAM standard  
+ 
+
+
+== Associated Standard 
+An associated standard always refers to a base standard. 
+An associated standard is not an extension of the base standard, rather it is targeted at a specific use case(s). 
+Often this includes such specifications as:
+
+* Application Area Companion  
+* Transport Layer Specification  
+
+An associated standard shall specify the first version of the corresponding base standard to which it is compatible.
+See https://internal.pages.asam.net/asam-editorial-guide/editorial-guide-generator/editorialguide-asciidoc/{editorial-guide-version}/Editorial_guide/01_basics.html#sec-ASM-14[definition of the version number] in the Editorial Guide.

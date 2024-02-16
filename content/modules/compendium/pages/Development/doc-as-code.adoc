@@ -1,0 +1,131 @@
+= Documentation as Code
+:description: Gives an introduction for the concept of documentation-as-code.
+:keywords: concept, doc-as-code
+
+include::partial$_attributes.adoc[]
+
+
+{doc-as-code-icon}
+
+== Introduction
+Many newer projects at ASAM follow the concept of *Documentation as Code* (Doc-as-Code).
+This concept refers to using the same tools and methods for documentation (or standardization) as for writing (software) code. +
+The main benefit of this concept is the separation of content and text in documents from its layout rules and publishing.
+
+
+== Concept
+The general concept is to use established tools and processes from software development and apply them in the creation of documents.
+At ASAM, the main aspects of this concept are:
+
+* Writing documents in <<sec-plain-text-markup,plain text markup>>
+* Using <<sec-versioning-repo,repositories with version control systems>>
+* Collaborating on projects through <<sec-online-collaboration,online repository platforms>>
+* Automation of repetitive steps using <<sec-automation-pipeline,automation pipelines>>
+
+[#sec-plain-text-markup]
+=== Plain text content files
+
+The first aspect of this concept is the usage of https://en.wikipedia.org/wiki/Plain_text[plain text^] documents with a https://en.wikipedia.org/wiki/Markup_language[semantic markup language^] in creating standards and other documents, particularly the free https://asciidoc-py.github.io/index.html[AsciiDoc format^].
+Its main benefit is the separation of content from style and layout rules, making it possible to specify general layout settings in a separate set of files and instructions for consistency over multiple projects.
+
+Another benefit is that AsciiDoc files can be opened and edited with any type of text editor, making it a platform-agnostic format.
+Different people can write content independent of the operating system on their work devices and without requiring specific software licenses.
+
+Additionally, plain text files work especially well with <<sec-versioning-repo,respositories and version control systems>>. 
+They provide tools for viewing changes, making collaboration particularly easy.
+
+Finally, the content is decoupled from the target output, making it simple to generate different types of documentation from the same source files if needed.
+
+
+[tabs]
+====
+AsciiDoc source file::
++
+[source,asciidoc]
+----
+[#top-a3744269-489e-44bb-8c94-ca8759d3df7c]
+= Foreword
+
+ASAM e.V. (Association for Standardization of Automation and Measuring Systems) is a non-profit organization that promotes standardization of tool chains in automotive development and testing.
+Our members are international car manufacturers, suppliers, tool vendors, engineering service providers, and research institutes.
+ASAM standards are developed by experts from our member companies and are based on real use cases.
+ASAM is the legal owner of these standards and is responsible for their distribution and marketing.
+
+ASAM standards span a wide range of use cases in automotive development, test, and validation.
+They define file formats, data models, protocols, and interfaces.
+The standards enable easy exchange of data and tools within and across tool chains.
+They are applied worldwide.
+----
+//image::Projects/asciidoc[title=ASAM Foreword section in AsciiDoc (source)]
+Rendered output::
++
+--
+image::Projects/asciidoc_example-output.png[title=The same Foreword section rendered by Asciidoctor and Antora in HTML (rich output)]
+--
+====
+
+// TIP: If you want to learn more about AsciiDoc and how to use its powers in writing technical documents, see the official https://docs.asciidoctor.org/asciidoc/latest/[**AsciiDoc Language Documentation**^] and the https://asciidoctor.org/docs/asciidoc-writers-guide/[Asciidoctor Writers Guide]. +
+// Specific ASAM writing styles and rules can be found in the xref:compendium:Editorial_guide.adoc[**Editorial Guide**].
+
+---
+
+[#sec-versioning-repo]
+=== Versioning and repositories
+Using tool-supported document versioning is another main aspect in the Doc-as-Code approach.
+ASAM projects frequently use the software https://git-scm.com/[Git^] for this purpose. +
+It allows for working on different parts, features, or versions of a project separately.
+With Git, all of these can be merged again later.
+
+Content is stored in repositories.
+Each repository consists of one or more branches.
+At ASAM, there is one main branch (also called trunk) and possibly one or more feature branches.
+
+When changes need to be made, they are added through branches created from the trunk.
+Each child branch targets a single aspect of development.
+Once the development in a child branch is complete, its changes are merged back into the trunk.
+This is done through a Merge Request (MR) in GitLab, or a Pull Request (PR) in GitHub.
+
+image::Projects/example-repo-workflow.drawio.svg[title=Repository workflow and branching example.]
+
+TIP: If you want to learn more about Git itself, ASAM recommends online introductions and tutorials such as https://rogerdudler.github.io/git-guide/[**Git-Guide, R. Dudler**^].
+
+---
+
+[#sec-online-collaboration]
+=== Online collaboration
+
+Using online collaboration platforms with repository support has multiple benefits:
+
+* They typically provide online editors for content, so users can choose to participate in projects xref:compendium:Tools/remote_repo.adoc[without having to install software] (besides any standard web browser)
+* Merge Requests (Pull Requests) can be reviewed and commented on with a side-by-side preview in the browser (diff view)
+* They act as central repository location for the project(s) that can be accessed from anywhere (provided the user has sufficient rights), so all involved people always have access to the latest submitted changes
+* They enable central automation steps through <<sec-automation-pipeline,CI/CD pipelines>>, for example automated writing rules checks on a document after it was updated
+* They provide integrated issue boards for keeping track of tasks, found problems, discussion topics, etc.
+
+The <<fig-issue_example-gitlab,figure below>> shows an example issue from a project where a topic discussion takes place.
+
+[#fig-issue_example-gitlab]
+image::Projects/issue_example.drawio.svg[title=Example for a topic discussion through the GitLab issue board in a project]
+
+ASAM currently supports projects on both its internal GitLab instance as well as on the public GitHub.
+Unless explicitly decided differently by the Office, new projects use GitLab.
+
+---
+
+[#sec-automation-pipeline]
+=== Automation pipelines
+Pipelines in online repositories allow to automate repetitive steps, such as building a document and checking for structural and grammatical errors.
+ASAM projects typically automate the following steps:
+
+* Publish AsciiDoc files using https://asciidoctor.org/[Asciidoctor^] or https://antora.org/[Antora^]
+* https://en.wikipedia.org/wiki/Lint_(software)[Linting^] and testing documents for rules defined in the ASAM editorial guide and returning found errors
+* Publishing results as pipeline artifacts for downloads or distribution
+* Running project-specific scripts for additional features, such as converting UML diagrams to AsciiDoc files
+
+These pipeline instructions are stored in text files in each repository.
+
+In GitLab, they are stored as `.gitlab-ci.yml`. +
+In GitHub, they are stored as "workflows" under `.github/workflows`.
+
+In both cases, the file is written in "YAML".
+If you want to learn more about pipelines, see https://docs.gitlab.com/ee/ci/quick_start/[the GitLab CI documentation^] or https://github.blog/2022-02-02-build-ci-cd-pipeline-github-actions-four-steps/[the GiHub blog^].

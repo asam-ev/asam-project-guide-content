@@ -3,66 +3,13 @@
 :keywords: tools
 :no-installation: xref:main.adoc[]
 :page-aliases: overview.adoc
-:tour_guide:
 :reftext: Guided tour
-:page-layout: progress
-:page-progress_bar: progress_bar_simple-setup.svg
 
 include::tour_guide:partial$_attributes.adoc[]
 
 == About this tour
 
-include::partial$module-description.adoc[]
+**Get started with the guided tour.** +
+This part gets you up and running for your project at ASAM.
+Here, you will learn about your developer account, meetings and their guidelines, the project sharepoint, and the contribution workflow.
 
----
-
-> **Contributing at ASAM is easy: you only need a web browser!**
-
-**All the tools that are required for participating in ASAM projects are hosted online and can be accessed through any web browser.** +
-The only thing you need to do is set up your repository account and you can start right away - no installation required!
-
-Just make sure to **familiarize yourself with the following topics** before you start contributing: 
-
-* How ASAM uses xref:sharepoint.adoc[**Microsoft Sharepoint**] in its projects
-* The xref:sharepoint.adoc#_participants_list[**participants list**] and where to find it
-* How you can xref:contribution.adoc[**contribute**] to your project
-* For the Simulation domain: the shared **OpenX calendar**
-
-== Tour guide progress
-Every page in this guided tour will have a progress bar like this:
-
-.Progres bar for the third topic
-====
-image::progress_bar_simple-meeting_guidelines.svg[]
-====
-
-It shows you the information that has already been covered (darkly colored) as well as the topics of this page (lightly colored and **bold** border).
-
-== Collaboration
-ASAM projects are based on good communication and strong collaboration.
-Besides granting easy and versatile content management, ASAM also provides tools for project management and coordination.
-These are listed in the table below.
-
-NOTE: Click on any icon to be redirected to the corresponding information page in the xref:compendium:compendium.adoc[Compendium].
-
-include::compendium:partial$list-of-tools.adoc[tag=communication]
-
-
-== Accessing the development platform
-
-Remote Repositories provide an integrated working environment and text editor.
-With these, users can directly create and edit files without having to install tools like Git or Visual Studio Code. +
-The choice of remote repository depends on the project.
-Most ASAM projects use https://code.asam.net/[ASAM's GitLab instance^]. +
-If you are unsure which type of remote repository your project is using, ask your ASAM Office Responsible (OR).
-
-**ASAM recommends looking up specific questions on these platforms and their features in general on their respective online documentation.**
-
-Before you can get started, you need to create and set up an account for the project's online repository.
-Select and follow the respective instructions in the tab view below.
-
-include::compendium:partial$icon_reminder.adoc[tag=online-access]
-
-=== Setup steps
-
-include::compendium:Tools/remote_repo/01_remote_repo_setup.adoc[tag=setup]

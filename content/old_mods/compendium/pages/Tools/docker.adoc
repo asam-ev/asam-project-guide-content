@@ -10,7 +10,7 @@ include::contributing:partial$_attributes.adoc[]
 
 include::contributing:partial$icon_reminder.adoc[tag=download-link]
 
-{docker-icon}
+
 
 {role-technical-writer}
 {role-service-provider}

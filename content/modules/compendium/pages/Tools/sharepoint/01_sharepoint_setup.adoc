@@ -11,7 +11,7 @@ include::partial$_attributes.adoc[]
 
 == Context
 MS Sharepoint is used at ASAM to exchange files and documents without direct impact on the standardization processes.
-It also serves as the project's internal landing page.
+It also serves as a project's internal landing page.
 
 == Result
 * You can access Microsoft Teams (assigned teams)

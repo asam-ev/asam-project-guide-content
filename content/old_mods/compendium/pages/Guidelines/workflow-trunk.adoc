@@ -6,7 +6,7 @@
 include::compendium:partial$_attributes.adoc[]
 
 //tag::icon[]
-{workflow-icon}
+
 //end::icon[]
 
 

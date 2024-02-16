@@ -1,0 +1,5 @@
+= Polls and voting guidelines
+
+include::compendium:partial$_attributes.adoc[]
+
+include::tour_guide:page$meetings/decisions_and_escalations.adoc[tag=vote_body]

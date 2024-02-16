@@ -1,0 +1,22 @@
+= Tool overview
+:description: Contains information on the basic tools needed users.
+
+include::tour_guide:partial$_attributes.adoc[]
+
+> **Contributing at ASAM is easy: You only need a web browser!**
+
+All the tools that are required for participating in ASAM projects are hosted online and can be accessed through any web browser without any additional installation required. 
+
+At a minimum, all projects use:
+
+include::compendium:partial$list-of-tools.adoc[tag=online]
+
+Optionally, many of these tools can also be used locally. See xref:advanced_tools.adoc[] for more information.
+
+== Accessing the tools online
+
+
+include::compendium:partial$icon_reminder.adoc[tag=online-access]
+
+
+include::compendium:Tools/remote_repo/01_remote_repo_setup.adoc[tag=setup]

@@ -1,0 +1,77 @@
+= Project roles & structure
+:description: Defines all terms used when referencing an ASAM project.
+:keywords: concept, project
+
+include::partial$_attributes.adoc[]
+
+== Project structure
+
+Project:: ASAM activities are always organized in projects. A project at ASAM is a temporary endeavor undertaken to achieve a particular aim with a definite beginning and a definite end. ASAM standardization activities are always organized in projects. 
++
+A project may be anything from a whitepaper, a study group to develop knowledge, a concept to begin defining concepts for a potential standard, or a standardization effort to develop new standards or improve on existing standards.
+
+Project group:: The group of all formally enrolled project participants. A formal organizational structure comprising project participants assigned to collectively achieve the objectives and deliverables of a project. It serves as the primary unit for project management and coordination.
+
+[[project-member]]
+Project member:: A company enrolled in a project via one or more project participants. A project member has one vote, irrespective of the number of it's project participants. 
+
+Project participant:: An individual, representing a project member, enrolled in a project with a defined commitment. Actively involved in a project's activities, tasks, or processes, contributing to the project's planning, execution, monitoring, and completion. Contributors may assume various roles and responsibilities, and their involvement can vary in scope and duration based on their contributions to the project. 
++
+A project participant is most often a direct employee of a project member. A project member may also be represented by an individual or individuals of a subcontracted company. In this case, each individual shall be registered in the project with an email address provided by the project member. A written confirmation by a representative of the project member shall also be provided. This shall include the start and end date of the expected representation by the subcontracted party in the ASAM project.
+
+Subgroup:: A subgroup is a subset of the project group composed of project participants who collaborate on specific tasks, functions, or areas within the project. Subgroups are formed to enhance focus, efficiency, and specialization within the larger project group. They may be temporary in nature. Subgroups work collaboratively with other subgroups and the main project group to ensure that their contributions align with the overall project objectives.
+
+CCB:: A subgroup of *experts from the project* taking on this *optional* and *additional role*.
+The __Change Control Board (CCB)__ is responsible for internal alignment of topics, release management and approval/review of pull requests: 
+
+* Issue and MR/PR review
+* Classification of issues
+* Assignment of issues to solution developer(s)
+* Milestone monitoring and planning
+* Ensure alignment of individual Subgroup topics
+* Release management
+
++
+Commitment to the CCB is for the duration of a project.
+Average commitment entails 1-2 hour meetings every 2 weeks during active development and offline review of content.
+
+
+== Project roles
+
+[[asam_or]]
+Office Responsible (OR):: The ASAM contact for a project. An __Office Responsible (OR)__ is an *ASAM employee* focussed on *coordinating project processes* and the *background work* behind a project.
+
+Project Lead (PL):: The __Project Participant__ *responsible for the project* and leading the general project activities. +
+*Every project needs one* elected __Project Lead__ who takes responsibility for it.
+The __Project Lead__ is elected at the beginning of the Development Phase.
+Any __Project Participant__ can send in their candidacy during the Proposal Phase.
+The PL is responsible for submitting controlling reports and other material to the ASAM TSC. They are by default also the presenter during TSC presentations. See xref:compendium:Projects/03_project_phases.adoc#_project_controlling[project controlling]
+
+
+Subgroup Lead (SGL):: An **active** __Project Participant__ *leading* the activities of a *subgroup*. +
+
+[[service-provider]]
+Service Provider (SP):: A service provider is a company contracted by ASAM to support a project. The contract is financed by ASAM and is subject to prior approval by the TSC. For further details on the contracting process and further restrictions, refer to the https://www.asam.net/active-projects/resources/[TSC Guidelines]. A service provider does not have a formal vote in a project. Controlling and invoicing is managed by the OR, supported by the PL.
+
+Technical Writer (TW):: See Integrator.
+
+[[integrator]]
+Integrator:: A role prescribed by the xref:tour_guide:page$contribution.adoc[ASAM contribution workflow]. This role is specified by each project prior to starting development, in most cases this should be a project kickoff. The Integrator is responsible for integrating the developed solution into the standard. Their task is to make sure the writing style is kept consistent and the ASAM editorial rules are met.
++
+The Integrator may be a service provider tasked with documentation efforts in the project. Alternatively, the Integrator may be the Office Responsible or a project participant. The integrator shall be clearly named in a project repository readme.
+
+[[workflow-manager]]
+Workflow manager:: A role prescribed by the xref:tour_guide:page$contribution.adoc[ASAM contribution workflow]. Orchestrates and manages the entire workflow, the process through which contributions are reviewed, approved, merged, and integrated into a project. Typically, the Workflow Manager is experienced with using remote repositories. This role is assigned to a specific project participant or subgroup by a project prior to starting development, in most cases this should be a project kickoff.
+This may be any one of:
+
+* Project Lead
+* Office Responsible
+* Subgroup Lead
+* Change Control Board (CCB)
+* Project participant
+
+[[solution-responsible]]
+Solution responsible:: A role prescribed by the xref:tour_guide:page$contribution.adoc[ASAM contribution workflow]. An individual to whom a specific issue has been assigned that is responsible for developing or ensuring the development and finalisation of a solution addressing it (InProgress state).
+
+Solution team:: A group of project participants responsible for contributing to the development of a solution, also includes the solution responsible. May be a project subgroup or a group specific to the issue.
+

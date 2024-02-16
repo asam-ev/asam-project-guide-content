@@ -1,3 +1,5 @@
 *.bkp
 *.svg.bkp
 *.svg.dtmp
+settings.json
+.vscode

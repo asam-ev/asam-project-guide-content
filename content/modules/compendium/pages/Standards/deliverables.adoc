@@ -1,0 +1,108 @@
+= Parts of a standard
+:description: Summarizes the expected deliverables for ASAM projects.
+:keywords: deliverable,standardization
+
+
+include::compendium:partial$_attributes.adoc[]
+
+An ASAM standard often consists of multiple documents as well as other items. Requirements towards the documents, including structure and content expectations are detailed in the https://internal.pages.asam.net/asam-editorial-guide/editorial-guide-generator/editorialguide-asciidoc/1.0.0/Editorial_guide/01_basics.html#sec-3db75534-5e38-44b7-9597-d5b4c4fdff14[ASAM Editorial Guide].
+
+Documents in a standard can be classified into various types, as listed below:
+
+* 1..n specifications (normative)
+* 0..n rules (normative) 
+* 0..n guidelines (non-normative)
+* 0..n supplementary documents (normative/non-normative)
+
+The type classifiers are mandatory inclusions in the document titles and may be extended with additional text.
+
+At a minimum, a standard shall consist of:
+
+Specification::
+Contains normative and informative content as described in rule ASM-22. 
+A Specification describes the code of operation, the structure, and the usage of the standard. 
+Subject to the document structure prescribed in the editorial guide.
+
+Deliverables of a standard may include:
+
+Data model (0..n)::
+(UML, or other technology independent format)
+
+Model reference (0..n)::
+Documents all model elements and functions in the data model, including methods, functions, exceptions, postconditions, etc.
+Often automatically generated from the data model.
+As of today, ASAM does not define requirements towards the structure or layout of model references.
+
+Technology reference (0..n)::
+A technology reference specifies the technology-dependent solution for a specific platform and/or language. Note that this is not an implementation. Such solutions often specify interfaces, such as in the <<ex-xil,example>> below, or XSD schemas, see ASAM OTX(R) or ASAM OpenSCENARIO(R) XML.
+As of today, ASAM does not define requirements towards the structure or layout of technology references. 
+
+.An example from ASAM XIL(r) V3.1.0, demonstrating the difference between a technology reference and a technology-independent model.
+[#ex-xil]
+===
+The technology independent data model defines a class `IDiagPort` with some functions.
+
+.A screenshot of the UML data model for the `IDiagPort` class.
+image::project_deliverables_DiagPort.png[]
+
+This can be represented in technology-specific formats, ASAM XIL(R) defines a representation for both C# and for Python.
+
+.An excerpt from the Python Technology Reference, showing the python-specific definition of the `_getConfiguration()` function in the `IDiagPort` class.
+[#source-techref,source,python]
+----
+class IDiagPort(IPort):
+    """Representation of the diagnostic tool.
+    
+      It is not allowed to create more than one DiagTool instances for the same
+    diagnostic tool, but it is possible to have several DiagTool instances of
+    different diagnostic tools.
+    """
+    def _getConfiguration(self):
+        """Returns the currently active port configuration or a NULL value if there is no
+        active configuration. Changes to the port configuration object do not have any
+        effect until the configuration is reactivated via LoadConfiguration().
+                @type
+                @rtype IDiagPortConfig
+        """
+        raise NotImplementedError()
+----
+===
+
+
+Mapping rules (0..n)::
+A document that describes the a mapping from a source, such as a generic model or a specific technology reference, to a target, which is some other technology reference. These mappings may include examples and explanatory text. 
+Mapping rules are subject to the structure defined in the https://internal.pages.asam.net/asam-editorial-guide/editorial-guide-generator/editorialguide-asciidoc/1.0.0/Editorial_guide/01_basics.html#sec-3db75534-5e38-44b7-9597-d5b4c4fdff14[editorial guide]
+
+User guideline (0..n)::
+Additional non-normative content that supplements the normative specification. 
+Often includes usage examples and guidance on application of standard-specific features.
+Subject to the document structure proscribed in the editorial guide.
+
+Examples (0..n)::
+These may be representative examples in technology-specific formats as defined by the technology reference(s). Often these are also pseudo-code, in order to demonstrate key concepts of a standard without having to dive into implementation-specifics.
+
+Test cases (0..n)::
+These may be unit tests to enable testing of individual units of source code in a standard.
+
+Checker Rules (0..n)::
+Rules, that must be implemented into checks, which allow the checking of syntactic and semantic conformity with an ASAM standard.
+
+The above list is not-exhaustive, but aims to cover the majority of needs of most of ASAM's standards. 
+
+
+
+-------
+Where are "parts" or "deliverables" mentioned in standards at the moment?
+
+Readme
+- Documents the deliverables of a standard (all items)
+
+Deliverables section
+- Documents all deliverables of a standard
+
+Foreword
+- Documents all parts of the standard
+
+Proposal: Remove the concept of "parts". Wir lassen es einfach mal sacken und sprechen nächste Woche nochmal.
+
+

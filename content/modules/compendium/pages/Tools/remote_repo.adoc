@@ -1,10 +1,9 @@
-= Remote repository platforms
+= DevOps platforms
 :description: A summary page describing what online repository platforms are, which are supported by ASAM, and where to find related information, guides etc.
 :keywords: gitlab, github,summary,tool,mandatory, doc-as-code, repository
 
 include::compendium:partial$_attributes.adoc[]
 
-{remote-icon}
 
 // {role-project-participant}
 // {role-service-provider}

@@ -5,7 +5,7 @@
 
 include::compendium:partial$_attributes.adoc[]
 
-{coordination-icon}
+
 
 
 {role-or}

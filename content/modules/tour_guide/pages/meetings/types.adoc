@@ -1,62 +1,58 @@
 = Meeting types
 :description: Definitions for all typical meetings at ASAM.
 :keywords: meeting
-:page-layout: progress
-:page-progress_bar: progress_bar_simple-meeting_types.svg
-:tour_guide_small:
 
 //tag::body[]
 
 include::tour_guide:partial$_attributes.adoc[]
 
 == Overview
-There are three different types of meetings:
+An ASAM project may have up to three types of meeting:
 
 [horizontal]
-<<ASAM-level meetings>>:: Coordination within ASAM between multiple projects as well as the with the organization itself
-<<Project-level meetings>>:: Coordination for the whole project and general project discussions
+<<TSC meetings,Technical Steering Committtee (TSC) meetings>>:: Coordination within ASAM between multiple projects as well as the with the organization itself
+<<Project group meetings>>:: Coordination for the whole project and general project discussions
 <<Subgroup meetings>>:: Coordination within a subgroup of a project
 
 image::compendium:asam/meeting_timeline_example.drawio.svg[title = "Relationship between meeting types"]
 
-== ASAM-level meetings
-Each project at ASAM is also part of an overarching project coordination.
-This coordination includes different monitoring and steering meetings.
-It is the Project Lead's responsibility to represent their project in those meetings.
+== TSC meetings
+The TSC reviews the status of ongoing projects and approves new activities, budget and releases. Scope changes or unforeseen problems in a project are also subject to approval by the TSC.
+
+All information on upcoming TSC meetings, including date, location and submission deadlines for material is published on the https://www.asam.net/active-projects/technical-steering/[ASAM website^]. 
+Meeting minutes are also made available shortly after a meeting. 
+Project leads shall be informed of any deadlines by their OR in advance. 
+All content for these meetings shall be submitted in advance in accordance with the deadlines set on the website. 
+
+The tasks and processes of the ASAM TSC are documented in the https://www.asam.net/active-projects/resources/#[TSC Guidelines^].
 
 
-=== TSC controlling meetings
-These are the top level controlling meetings at ASAM, where the https://www.asam.net/active-projects/technical-steering/[TSC^] reviews all current projects.
-Here, projects can request more time as well as submit their deliverables for review and, ideally, approval for release.
-In case a project faces unforeseen problems and setbacks, these are addressed here. +
-Upcoming TSC meetings are announced on the https://www.asam.net/active-projects/technical-steering/[ASAM website^].
-
-=== Information online
-If you are interested, the ASAM Website provides some more information on the whole development process.
-Check out the https://www.asam.net/active-projects/development-process/[Development Process page^].
-If you have additional questions, don't hesitate to contact your ASAM representative.
-
-
-== Project-level meetings
-A project-level meeting is declared as such when all enrolled project members are invited to participate. +
+== Project group meetings
+A project group meeting is declared as such when all enrolled project members are invited to participate. +
 The most common examples for these meetings are
 
-* the Kick-off Workshop
+* the kick-off workshop
 * status meetings
 * review meetings
 
-If possible, project-level meetings are to be held face-to-face or as hybrid.
-If circumstances forbid this, online meetings are acceptable as well.
+A project group meeting is used to hold project level votes, align across subgroups and evaluate the overall status with respect to the project plan. 
 
-ASAM requires projects to hold a project-level meeting at least once a quarter.
-The recommendation is to meet every two months. +
-A full project meeting is used to hold project level votes, align across Subgroups and evaluate the overall status with respect to the project plan. 
+These meetings are recommended to be held in person (face to face). This must be clearly communicated in the meeting agenda and made available sufficiently in advance to allow for travel organization.
+
+ASAM requires project group meetings to take place at least quarterly. 
+ASAM recommends project group meetings take place at least every two months. 
+
+Formal voting is only possible in a project group meeting. See the xref:tour_guide:page$meetings/decisions_and_escalations.adoc#_guidelines_for_formal_voting[guidelines for formal voting].
 
 
 == Subgroup meetings
-Every subgroup will schedule their own meetings.
-Typically, these meetings happen more frequently than the larger project-level meetings.
-Here, the subgroups discuss progress, setbacks, and current topics within their assignment and make related decisions.
-Each subgroup shall present results, particularly substantial changes, to the whole project group regularly.
+	
+
+Every subgroup may schedule their own meetings.
+Typically, these meetings happen more frequently than the larger project group meetings.
+Subgroups discuss progress, setbacks, and current topics within the scope of their assigned work packages.
+Each subgroup shall present results, decisions and substantial changes to the whole project group in regular intervals but not less than in quarterly project group meetings.
+
+Decision making in subgroups is consensus-based. Meeting participants engage in open discussions, actively listen to each other's perspectives, and work together to find common ground and solutions that accommodate the interests and concerns of all involved. The goal is to achieve a decision that reflects the broad consensus of the group and ensures that everyone feels heard and valued. No formal voting is supported.
 
 //end::body[]

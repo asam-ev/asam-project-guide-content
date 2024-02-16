@@ -5,7 +5,7 @@
 include::partial$_attributes.adoc[]
 
 
-{changes-icon}
+
 
 The following pages describe how to add or change content in files.
 

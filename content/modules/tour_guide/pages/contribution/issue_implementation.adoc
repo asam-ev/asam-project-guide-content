@@ -1,9 +1,6 @@
 = Solution development
 :description: Explains the basic contribution workflows.
 :keywords: basics
-:page-layout: progress
-:page-progress_bar: progress_bar_simple-implementation.svg
-:tour_guide_small:
 
 //tag::body[]
 
@@ -16,7 +13,7 @@ include::compendium:partial$issue_labels.adoc[]
 
 [tabs, subs="attributes"]
 ====
-Simulation domain::
+docs-as-code::
 +
 --
 
@@ -71,10 +68,10 @@ This way, the Merge/Pull Request (and its branch) are already accessible through
 This way, the Merge/Pull Request (and its branch) cannot be concluded by accident.
 |===
 --
-Classic domain::
+Word::
 +
 --
-TODO
+NOTE: We are continually working on growing the project guide. This section is still being prepared. Please reach out to the ASAM office if you have any questions.
 --
 ====
 
