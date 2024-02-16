@@ -10,14 +10,16 @@ Project:: ASAM activities are always organized in projects. A project at ASAM is
 +
 A project may be anything from a whitepaper, a study group to develop knowledge, a concept to begin defining concepts for a potential standard, or a standardization effort to develop new standards or improve on existing standards.
 
-Project group:: The full group of all formally enrolled project participants. A formal organizational structure comprising project participants assigned to collectively achieve the objectives and deliverables of a project. It serves as the primary unit for project management and coordination.
+Project group:: The group of all formally enrolled project participants. A formal organizational structure comprising project participants assigned to collectively achieve the objectives and deliverables of a project. It serves as the primary unit for project management and coordination.
 
 [[project-member]]
-Project member:: A company enrolled in a project via one or more project participants. A project member has one vote, irrespective of the number of it's project participants.
+Project member:: A company enrolled in a project via one or more project participants. A project member has one vote, irrespective of the number of it's project participants. 
 
 Project participant:: An individual, representing a project member, enrolled in a project with a defined commitment. Actively involved in a project's activities, tasks, or processes, contributing to the project's planning, execution, monitoring, and completion. Contributors may assume various roles and responsibilities, and their involvement can vary in scope and duration based on their contributions to the project. 
++
+A project participant is most often a direct employee of a project member. A project member may also be represented by an individual or individuals of a subcontracted company. In this case, each individual shall be registered in the project with an email address provided by the project member. A written confirmation by a representative of the project member shall also be provided. This shall include the start and end date of the expected representation by the subcontracted party in the ASAM project.
 
-Subgroup:: A subgroup is a subset of the project group composed of voluntary project participants who collaborate on specific tasks, functions, or areas within the project. Subgroups are formed to enhance focus, efficiency, and specialization within the larger project group. Subgroups work collaboratively with other subgroups and the main project group to ensure that their contributions align with the overall project objectives.
+Subgroup:: A subgroup is a subset of the project group composed of project participants who collaborate on specific tasks, functions, or areas within the project. Subgroups are formed to enhance focus, efficiency, and specialization within the larger project group. They may be temporary in nature. Subgroups work collaboratively with other subgroups and the main project group to ensure that their contributions align with the overall project objectives.
 
 CCB:: A subgroup of *experts from the project* taking on this *optional* and *additional role*.
 The __Change Control Board (CCB)__ is responsible for internal alignment of topics, release management and approval/review of pull requests: 
@@ -34,13 +36,6 @@ Commitment to the CCB is for the duration of a project.
 Average commitment entails 1-2 hour meetings every 2 weeks during active development and offline review of content.
 
 
-Technical Steering Comittee (TSC):: 
-The ASAM Technical Steering Committee is a group of elected members to which the ASAM Board of Directors has delegated various technical and strategic tasks.  
-+
-The Technical Steering Committee decides about and controls all technical projects at ASAM. The main task of the TSC is to ensure that the product portfolio of ASAM meets market needs and stays competitive.  
-+
-The TSC evaluates and votes on proposals for the development or enhancement of products, monitors the progress of ongoing projects, reviews and releases new or revised products. The TSC ensures that products do not overlap or contradict each other. See the https://www.asam.net/index.php?eID=dumpFile&t=f&f=249&token=46fe3fb6dfd4ce05d8fe40415b37babebdaafd25[TSC Guidelines] for further detail on this ASAM body.
-
 == Project roles
 
 [[asam_or]]
@@ -50,9 +45,13 @@ Project Lead (PL):: The __Project Participant__ *responsible for the project* an
 *Every project needs one* elected __Project Lead__ who takes responsibility for it.
 The __Project Lead__ is elected at the beginning of the Development Phase.
 Any __Project Participant__ can send in their candidacy during the Proposal Phase.
+The PL is responsible for submitting controlling reports and other material to the ASAM TSC. They are by default also the presenter during TSC presentations. See xref:compendium:Projects/03_project_phases.adoc#_project_controlling[project controlling]
 
 
 Subgroup Lead (SGL):: An **active** __Project Participant__ *leading* the activities of a *subgroup*. +
+
+[[service-provider]]
+Service Provider (SP):: A service provider is a company contracted by ASAM to support a project. The contract is financed by ASAM and is subject to prior approval by the TSC. For further details on the contracting process and further restrictions, refer to the https://www.asam.net/active-projects/resources/[TSC Guidelines]. A service provider does not have a formal vote in a project. Controlling and invoicing is managed by the OR, supported by the PL.
 
 Technical Writer (TW):: See Integrator.
 

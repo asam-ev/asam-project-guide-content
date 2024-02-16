@@ -1,0 +1,14 @@
+= ASAM TSC
+:description: Introduces the ASAM TSC
+:keywords: concept, project, tsc
+
+include::partial$_attributes.adoc[]
+
+
+The ASAM Technical Steering Committee (TSC) is a group of elected members to which the ASAM Board of Directors has delegated various technical and strategic tasks.  
+
+The TSC decides about and controls all technical projects at ASAM. The main task of the TSC is to ensure that the product portfolio of ASAM meets market needs and stays competitive.  
+
+The TSC evaluates and votes on proposals for the development or enhancement of products, monitors the progress of ongoing projects, reviews and releases new or revised products. The TSC ensures that products do not overlap or contradict each other. 
+
+NOTE: See the https://www.asam.net/index.php?eID=dumpFile&t=f&f=249&token=46fe3fb6dfd4ce05d8fe40415b37babebdaafd25[TSC Guidelines] for further detail on this ASAM body.

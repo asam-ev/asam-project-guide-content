@@ -9,7 +9,7 @@ include::partial$_attributes.adoc[]
 
 == Introduction
 
-Besides xref:compendium:Projects/02_project_types.adoc[different types of projects], there are five main project phases that ASAM defines.
+Besides xref:compendium:Projects/02_project_types.adoc[different types of projects], there are four main project phases that ASAM defines.
 Not all projects must necessarily pass through all these phases.
 See the phase descriptions below for more details.
 
@@ -43,7 +43,7 @@ The output of the proposal phase is a set of proposal documents, detailing the p
 The proposal documents are the basis for the TSC to decide whether to approve a project.
 Should a project be approved, it proceeds on to the **Development phase**.
 
-NOTE: Download the project proposal templates [here].
+NOTE: Download the project proposal templates https://asamev.sharepoint.com/:f:/g/EpWO8zVcXvBCu-EG7Xr7H4IBAZpaZTSdqLNhH2A9B2GRiA?e=L6GPnf[here].
 
 
 // Additional information:: xref:compendium:proposal_phase.adoc[]
@@ -72,8 +72,8 @@ During this phase, the project-type specific xref:compendium:Standards/deliverab
 In the beginning, the project group organizes a kickoff workshop to specify their modus operandi and set up all technical aspects of the project.
 In particular, the Project Lead who is the main responsible for the project is elected.
 Depending on the size of the project, other xref:compendium:Projects/01_project_terms.adoc[roles] such as subgroup leads are also elected. 
-Additionally, the project group may also contract one or more Service Providers as outside help if the required budget was included in the Proposal document. +
-This is followed by one or more development intervals,   specifying, writing, and reviewing content internally until the document or documents are ready for the **Review Phase**.
+One or more service providers may be contracted to provide additional support.
+This is followed by one or more development intervals, specifying, writing, and reviewing content internally until the document or documents are ready for the **Review Phase**.
 
 During development, the project group has regular project group meetings.
 ASAM recommends a 2 month interval for these larger meetings. 
@@ -139,7 +139,8 @@ image::compendium:asam/review_phase_timeline.drawio.svg[title="The Review phase 
 |===
 
 
-Before a standard is officially released, all deliverables have to be reviewed. These shall be complete. +
+Before a standard is officially released, all deliverables have to be reviewed. 
+All deliverables shall be complete and fully available on review start.
 
 The review phase shall always consist of the following review periods.
 
@@ -152,7 +153,8 @@ All projects, except for maintenance projects are also required to plan one of:
 . A public review
 . An ASAM member review
 
-After each review period, all feedback shall be reviewed and the group shall either accept or reject it. 
+After each review period, all feedback shall be evaluated and the group shall decide to either accept or reject it. 
+These decisions shall be documented for each review point, ideally in a corresponding issue.
 
 Accepted feedback shall be implemented.
 
@@ -161,7 +163,7 @@ The project group has full authority on how and to which extent to address the r
 Reviewers may not submit new use-cases, features, or requirements as part of their review feedback. +
 If this is the case, then the feedback shall be rejected and transferred to the relevant issue system with state NEW.
 
-Once the deliverables have been successfully reviewed and no issues remain open, the project continues to the **Release Phase**.
+Once the deliverables have been successfully reviewed and no issues for the relevant milestone(s) remain open, the project continues to the **Release Phase**.
 
 If any review points lead to a need of significant development effort, the project transitions to the development phase or decides to move the issue or feature out of scope and it is documented in the issue system.
 
@@ -171,7 +173,7 @@ If any review points lead to a need of significant development effort, the proje
 include::compendium:partial$project_phases.adoc[tag=release]
 
 
-The project group prepares a release candidate and agrees via [formal voting] to submit the candidate to the TSC for release decision. 
+The project group prepares a release candidate and agrees via xref:tour_guide:page$meetings/decisions_and_escalations.adoc#_guidelines_for_formal_voting[formal voting] to submit the candidate to the TSC for release decision. 
 
 The Project Lead submits the following to ASAM:
 
