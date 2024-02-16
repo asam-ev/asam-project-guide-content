@@ -34,12 +34,44 @@ Often automatically generated from the data model.
 As of today, ASAM does not define requirements towards the structure or layout of model references.
 
 Technology reference (0..n)::
-A technology reference specifies the technology-dependent solution for a specific platform and/or language. Note that this is not an implementation. Such solutions often specify interfaces, such as in <<EXAMPLE BELOW>> or XSD schemas , see OTX/OSC XML.
+A technology reference specifies the technology-dependent solution for a specific platform and/or language. Note that this is not an implementation. Such solutions often specify interfaces, such as in the <<ex-xil,example>> below, or XSD schemas, see ASAM OTX(R) or ASAM OpenSCENARIO(R) XML.
 As of today, ASAM does not define requirements towards the structure or layout of technology references. 
+
+.An example from ASAM XIL(r) V3.1.0, demonstrating the difference between a technology reference and a technology-independent model.
+[#ex-xil]
+===
+The technology independent data model defines a class `IDiagPort` with some functions.
+
+.A screenshot of the UML data model for the `IDiagPort` class.
+image::project_deliverables_DiagPort.png[]
+
+This can be represented in technology-specific formats, ASAM XIL(R) defines a representation for both C# and for Python.
+
+.An excerpt from the Python Technology Reference, showing the python-specific definition of the `_getConfiguration()` function in the `IDiagPort` class.
+[#source-techref,source,python]
+----
+class IDiagPort(IPort):
+    """Representation of the diagnostic tool.
+    
+      It is not allowed to create more than one DiagTool instances for the same
+    diagnostic tool, but it is possible to have several DiagTool instances of
+    different diagnostic tools.
+    """
+    def _getConfiguration(self):
+        """Returns the currently active port configuration or a NULL value if there is no
+        active configuration. Changes to the port configuration object do not have any
+        effect until the configuration is reactivated via LoadConfiguration().
+                @type
+                @rtype IDiagPortConfig
+        """
+        raise NotImplementedError()
+----
+===
+
 
 Mapping rules (0..n)::
 A document that describes the a mapping from a source, such as a generic model or a specific technology reference, to a target, which is some other technology reference. These mappings may include examples and explanatory text. 
-Mapping rules are subject to the structure defined in the editorial guide <<>>
+Mapping rules are subject to the structure defined in the https://internal.pages.asam.net/asam-editorial-guide/editorial-guide-generator/editorialguide-asciidoc/1.0.0/Editorial_guide/01_basics.html#sec-3db75534-5e38-44b7-9597-d5b4c4fdff14[editorial guide]
 
 User guideline (0..n)::
 Additional non-normative content that supplements the normative specification. 
@@ -53,7 +85,7 @@ Test cases (0..n)::
 These may be unit tests to enable testing of individual units of source code in a standard.
 
 Checker Rules (0..n)::
-
+Rules, that must be implemented into checks, which allow the checking of syntactic and semantic conformity with an ASAM standard.
 
 The above list is not-exhaustive, but aims to cover the majority of needs of most of ASAM's standards. 
 
@@ -74,12 +106,3 @@ Foreword
 Proposal: Remove the concept of "parts". Wir lassen es einfach mal sacken und sprechen nächste Woche nochmal.
 
 
-[source,python]
-----
-def _getConfiguration(self):
-"""Creates an instance of the RecorderConfiguration class.
-        @type
-        @rtype IRecorderConfiguration
-"""
-    raise NotImplementedError()
-----
