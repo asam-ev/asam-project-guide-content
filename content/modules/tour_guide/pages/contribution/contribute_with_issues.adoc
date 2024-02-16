@@ -7,12 +7,13 @@
 include::tour_guide:partial$_attributes.adoc[]
 
 You can contribute to ASAM projects directly with issues.
-These issues can be created and managed in the respective Remote Repository of the project.
+These issues can be created and managed in the respective remote repository of the project.
+We recommend using https://docs.gitlab.com/ee/user/project/issue_board.html[issue boards] for managing issues in projects.
 
 == Make discussions accessible
 
 It must be possible for every project member to contribute to and give feedback on the topic of discussion directly.
-For this purpose, all content discussions shall happen through issues in a project's issue board.
+For this purpose, all content discussions shall happen through issues.
 This also applies to discussion results from some subgroup meetings.
 The output of a discussion pertaining to any topic shall be documented in its respective issue.
 
