@@ -308,6 +308,7 @@ Merge Conflict::-> INTEGRATED
 
 |To transition to next state
 |*Actions*
+
 **Note that this is only applicable to projects with a docs-as-code workflow**
 
 * Merge the assigned Merge/Pull Request
