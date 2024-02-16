@@ -39,30 +39,35 @@ In a voting, each project member has one vote, votes cannot be transferred to ot
 It is strongly recommended that if a project member has multiple participants in a project, they decide on their vote and who will cast it ahead of time. 
 If a project member casts multiple votes (accidentally or intentionally) and their votes conflict, their vote is counted as abstention.
 
+An abstention vote counts as a cast vote. 
+
+Failing to submit a vote does not count towards the number of voting project members.
+
+IMPORTANT: Please try to avoid not submitting any vote at all. If you have any concerns or queries with respect to the votes or to the process, please reach out to your Office Responsible prior to casting your vote.
+
+Both onsite and remote users shall be enabled to vote. 
+
 Choices can be voting-specific (for example if the project is deciding between two or more options). 
 Abstention is a valid vote. 
 **For approval votes, the choices are yes, no, abstention.**
+
+Voting is decided by simple majority.
+Abstentions are not counted, other than for determining validity of a vote. 
 
 [[v_valid]]
 A voting is only valid if:
 
 * At least 50% of project members cast their vote 
 
-Voting is decided by simple majority (abstentions do not count). 
-
 IMPORTANT: The exception to the above rule is a project release voting prior to submission to the ASAM TSC. For such a voting a two-thirds majority of all project members is needed. Any no-votes should be submitted with a justification by the project group to the next TSC meeting.
 
-An abstention vote counts as a cast vote. 
+Failure to participate in a vote counts as a lack of attendance, see xref:tour_guide:meetings/guidelines.adoc#_inactive_project_member[inactive project members]. 
+Note that the overall validity of the vote may be affected, see <<v_valid,valid voting>>. 
 
-Failing to submit a vote does not count towards the number of voting project members.
+An invalid vote may be repeated. 
+Should a repeated vote also be invalid, an escalation to the TSC shall take place by the OR.
 
-Both onsite and remote users shall be enabled to vote. 
-
-Should a project member not submit their vote during the project group meeting, this member shall be considered absent without excuse for the meeting. The overall validity of the vote may be affected, see <<v_valid,voting is only valid if>>. 
-
-Also refer to xref:tour_guide:meetings/guidelines.adoc#_inactive_project_member[inactive project members].
-
-IMPORTANT: Exceptions to the voting rules shall be escalated to the TSC.
+IMPORTANT: Exceptions to the voting rules shall be subject to approval by the TSC.
 
 
 == When to conduct voting
@@ -90,7 +95,7 @@ Some topics require a formal voting:
 * Escalation of topics to TSC
 * Release decision
 
-**Note that certain subgroup decisions require an escalation to a project voting. See xref:tour_guide:meetings/decisions_and_escalations.adoc#from_subgroup_to_project_group[].**
+**Note that certain subgroup decisions require an escalation to a project voting. See xref:tour_guide:meetings/decisions_and_escalations.adoc#_from_subgroup_to_project_group[].**
 
 
 
