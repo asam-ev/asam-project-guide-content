@@ -84,12 +84,12 @@ For more information on the types of meetings during a project's development, se
 
 All projects are monitored by the TSC in its meetings.
 
-A running project shall submit a controlling report by the deadline day for every ASAM TSC meeting.
+A *running* project shall submit a controlling report by the deadline day for every ASAM TSC meeting.
 Submission of the controlling report and any supporting material is the responsibility of the PL, supported by the OR and the project members.
 
 Significant changes to a project require submission of supporting documents, see <<tab-significant-project-changes>>. 
 
-Some projects may be requested to present further detail or insight during the TSC meeting.
+Some projects may be requested to present (remotely) further detail or insight during the TSC meeting.
 Such a request may be submitted by the TSC, a project member or the ASAM office. 
 For project members, such a request shall be submitted to the OR.
 A request to present shall be submitted at the latest one calendar week prior to the deadline day.
