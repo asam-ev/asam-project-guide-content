@@ -19,11 +19,10 @@ image::tour_guide:workflow/asam_contribution_workflow-StateDiagram.drawio.svg[]
 IMPORTANT: For details on referenced labels, refer to the xref:tour_guide:contribution/issue_list.adoc[label overview].
 
 
-[tabs]
-====
-New::
-+
---
+
+== New
+
+
 [cols="<.<1,<.<3a"]
 |===
 
@@ -53,10 +52,10 @@ Type assigned::-> CLASSIFIED
 ** Otherwise, assign the correct type.
 
 |===
---
-Classified::
-+
---
+
+
+== Classified
+
 [cols="<.<1,<.<3a"]
 |===
 
@@ -92,10 +91,11 @@ Issue is accepted::-> ACCEPTED
 |===
 
 
---
-Accepted::
-+
---
+
+
+== Accepted
+
+
 [cols="<.<1,<.<3a"]
 |===
 
@@ -131,10 +131,11 @@ Prioritized::-> IN PROGRESS
 * Clear specification of requirements to be fulfilled by a solution
 
 |===
---
-In Progress::
-+
---
+
+
+== In Progress
+
+
 [cols="<.<1,<.<3a"]
 |===
 
@@ -165,10 +166,11 @@ Solution developed::-> IMPLEMENTED
 * Inform project lead and any relevant subgroups of issue review 
 
 |===
---
-Implemented::
-+
---
+
+
+== Implemented::
+
+
 [cols="<.<1,<.<3a"]
 |===
 
@@ -206,10 +208,11 @@ Solution rejected::-> IN PROGRESS
 
 
 |===
---
-Reviewed::
-+
---
+
+
+== Reviewed
+
+
 [cols="<.<1,<.<3a"]
 |===
 
@@ -243,10 +246,9 @@ Major questions::-> IMPLEMENTED
 * Assign to the solution responsible of the ticket
 
 |===
---
-Integrated::
-+
---
+
+== Integrated
+
 [cols="<.<1,<.<3a"]
 |===
 
@@ -280,10 +282,11 @@ Integration NOK::-> REVIEWED
 ** If accepted, assign issue to the xref:compendium:Projects/01_project_terms.adoc#workflow-manager[Workflow Manager]
 ** If accepted (and if applicable), approve the merge request
 |===
---
-Ready for Merge::
-+
---
+
+
+== Ready for Merge
+
+
 [cols="<.<1,<.<3a"]
 |===
 
@@ -317,20 +320,7 @@ Merge Conflict::-> INTEGRATED
 
 
 |===
---
 
-====
-
-== Due dates
-The due date in issues shall be used to indicate the expected finalization date for the development of the solution.
-This date marks the point at which the solution can be reviewed and, ideally, accepted for integration.
-
-ASAM recommends that solution development for issues is scoped to require no more than 4 weeks.
-This means that issues where the solution is expected to be more complex should be split into multiple smaller ones, each with an expected resolution time of 4 weeks or less.
-
-If an issue is split into multiple sub-issues or tasks, assign due dates for the issue as well as the sub-issues. 
-In this case, the due date of the issue itself may exceed the 4 week recommendation.
-However, the sub-issues should then stick to that limit.
 
 
 
