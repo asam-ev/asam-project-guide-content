@@ -6,7 +6,7 @@ include::partial$_attributes.adoc[]
 
 Welcome to the **ASAM Project Guide**!
 
-NOTE: This guide is a pre-release and constantly being updated.
+NOTE: This guide is constantly being updated.
 Feel free to submit any feedback you have using the btn:[Submit feedback] button.
 If you need to reference a specific version of this guide, make sure to select that version from the version selector at the bottom left.
 
