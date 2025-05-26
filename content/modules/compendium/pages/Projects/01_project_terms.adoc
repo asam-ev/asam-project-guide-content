@@ -40,6 +40,7 @@ Average commitment entails 1-2 hour meetings every 2 weeks during active develop
 
 [[asam_or]]
 Office Responsible (OR):: The ASAM contact for a project. An __Office Responsible (OR)__ is an *ASAM employee* focussed on *coordinating project processes* and the *background work* behind a project.
+OR is responsible for informing their projects of the latest decisions and updates by the working day following the TSC (Technical Steering Committee) meeting.
 
 Project Lead (PL):: The __Project Participant__ *responsible for the project* and leading the general project activities. +
 *Every project needs one* elected __Project Lead__ who takes responsibility for it.
@@ -56,7 +57,9 @@ Service Provider (SP):: A service provider is a company contracted by ASAM to su
 Technical Writer (TW):: See Integrator.
 
 [[integrator]]
-Integrator:: A role prescribed by the xref:tour_guide:page$contribution.adoc[ASAM contribution workflow]. This role is specified by each project prior to starting development, in most cases this should be a project kickoff. The Integrator is responsible for integrating the developed solution into the standard. Their task is to make sure the writing style is kept consistent and the ASAM editorial rules are met.
+Integrator:: A role prescribed by the xref:tour_guide:page$contribution.adoc[ASAM contribution workflow]. This role is specified by each project prior to starting development, in most cases this should be a project kickoff. 
+The Integrator is responsible for integrating the developed solution into the standard. 
+Their task is to make sure the writing style is kept consistent and the ASAM editorial rules are met.
 +
 The Integrator may be a service provider tasked with documentation efforts in the project. Alternatively, the Integrator may be the Office Responsible or a project participant. The integrator shall be clearly named in a project repository readme.
 
