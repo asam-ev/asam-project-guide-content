@@ -87,6 +87,9 @@ All projects are monitored by the TSC in its meetings.
 A *running* project shall submit a controlling report by the deadline day for every ASAM TSC meeting.
 Submission of the controlling report and any supporting material is the responsibility of the PL, supported by the OR and the project members.
 
+In addition, OR shall inform their project groups of any relevant outcomes or decisions from TSC meetings by the end of the next working day following the meeting. 
+This ensures timely communication and allows the project team to adapt accordingly.
+
 Significant changes to a project require submission of supporting documents, see <<tab-significant-project-changes>>. 
 
 Some projects may be requested to present (remotely) further detail or insight during the TSC meeting.
