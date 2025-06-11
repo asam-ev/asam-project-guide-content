@@ -54,6 +54,8 @@ Subgroup Lead (SGL):: An **active** __Project Participant__ *leading* the activi
 [[service-provider]]
 Service Provider (SP):: A service provider is a company contracted by ASAM to support a project. The contract is financed by ASAM and is subject to prior approval by the TSC. For further details on the contracting process and further restrictions, refer to the https://www.asam.net/active-projects/resources/[TSC Guidelines]. A service provider does not have a formal vote in a project. Controlling and invoicing is managed by the OR, supported by the PL.
 
+  IMPORTANT: Service providers and the project leader must originate from different companies.
+
 Technical Writer (TW):: See Integrator.
 
 [[integrator]]
