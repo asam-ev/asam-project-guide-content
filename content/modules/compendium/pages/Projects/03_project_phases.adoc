@@ -151,6 +151,7 @@ The review phase shall always consist of the following review periods.
 . An ASAM office review
 
 In addition, the project group may decide to conduct:
+
 . A native speaker review
 
 All projects, except for maintenance projects are also required to plan one of:
