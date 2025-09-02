@@ -72,7 +72,7 @@ During this phase, the project-type specific xref:compendium:Standards/deliverab
 In the beginning, the project group organizes a kickoff workshop to specify their modus operandi and set up all technical aspects of the project.
 
 NOTE: Before holding the kickoff workshop, make sure the project infrastructure has been fully prepared and tested. 
-See xref:tools.adoc#infrastructure-pipelines[Infrastructure & Pipelines for Projects] for details on required steps.
+See xref:../tools.adoc#infrastructure-pipelines[Infrastructure & Pipelines for Projects] for details on required steps.
 
 In particular, the Project Lead who is the main responsible for the project is elected.
 Depending on the size of the project, other xref:compendium:Projects/01_project_terms.adoc[roles] such as subgroup leads are also elected. 

@@ -54,6 +54,9 @@ The following process must be completed before project kick-off.
 - Writing standards in Git
 - File storage in Git (previously SharePoint)
 - Meeting minutes as artefacts
+- Determine the Standard name, see https://internal.pages.asam.net/asam-editorial-guide/editorial-guide-generator/editorialguide-asciidoc/latest/Editorial_guide/01_basics.html#sec-ASM-125[Editorial Guide ASM-125]  
+- Determine the Standard version, see https://internal.pages.asam.net/asam-editorial-guide/editorial-guide-generator/editorialguide-asciidoc/latest/Editorial_guide/01_basics.html#sec-ASM-14[Editorial Guide ASM-14]
+
 
 *Delivery format:*
 
@@ -69,7 +72,7 @@ The following process must be completed before project kick-off.
 === Step 5: Project Kick-off (only when infrastructure is running)
 - Agenda item: *“Commissioning of the infrastructure”*  
 - Clarify open questions from onboarding material  
-- Live demonstration of the pipeline (Systeam Admin must attend)  
+- Live demonstration of the pipeline (System Admin must attend)  
 
 === Step 6: Ongoing Support
 - Hotline available for questions during the project runtime infrastructure@asam.net
