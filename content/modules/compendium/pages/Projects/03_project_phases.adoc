@@ -148,8 +148,11 @@ All deliverables shall be complete and fully available on review start.
 The review phase shall always consist of the following review periods.
 
 . A project member review
-. A native speaker review
 . An ASAM office review
+
+In addition, the project group may decide to conduct:
+
+. A native speaker review
 
 All projects, except for maintenance projects are also required to plan one of:
 
