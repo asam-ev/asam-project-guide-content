@@ -70,9 +70,14 @@ If you want to learn more about how to get ready for your project, check out the
 
 During this phase, the project-type specific xref:compendium:Standards/deliverables.adoc[deliverables] are developed by the project participants.
 In the beginning, the project group organizes a kickoff workshop to specify their modus operandi and set up all technical aspects of the project.
+
+NOTE: Before holding the kickoff workshop, make sure the project infrastructure has been fully prepared and tested. 
+See xref:../tools.adoc#infrastructure-pipelines[Infrastructure & Pipelines for Projects] for details on required steps.
+
 In particular, the Project Lead who is the main responsible for the project is elected.
 Depending on the size of the project, other xref:compendium:Projects/01_project_terms.adoc[roles] such as subgroup leads are also elected. 
 One or more service providers may be contracted to provide additional support.
+
 This is followed by one or more development intervals, specifying, writing, and reviewing content internally until the document or documents are ready for the **Review Phase**.
 
 During development, the project group has regular project group meetings.

@@ -20,3 +20,59 @@ include::compendium:partial$icon_reminder.adoc[tag=online-access]
 
 
 include::compendium:Tools/remote_repo/01_remote_repo_setup.adoc[tag=setup]
+
+[[infrastructure-pipelines]]
+== Infrastructure & Pipelines for Projects
+
+Each project requires a well-prepared infrastructure to ensure smooth collaboration.  
+The following process must be completed before project kick-off.
+
+=== Step 1: Define Infrastructure (≈ 3 months before start)
+*Participants:* PL, System Admin (ASAM), OR
+
+*Tasks:* 
+
+- Define artefacts, deliverables, and pipeline  
+- Decide on output formats  
+- Identify tool and process extensions  
+- Set up project e-mail list & calendar  
+- Define file storage structure  
+
+=== Step 2: Set Up & Test Infrastructure (≈ 2 months before start)
+*Participants:* System Admin (ASAM) + OR
+
+- Configure and validate the infrastructure environment
+- Run test pipelines
+
+=== Step 3: Project Process Manual (≈ 1 month before start)
+
+*Content to be explained:*
+
+- Project workflow
+- First-time use of tooling (installation, tests)
+- Ticket handling in Git
+- Writing standards in Git
+- File storage in Git (previously SharePoint)
+- Meeting minutes as artefacts
+- Determine the Standard name, see https://internal.pages.asam.net/asam-editorial-guide/editorial-guide-generator/editorialguide-asciidoc/latest/Editorial_guide/01_basics.html#sec-ASM-125[Editorial Guide ASM-125]  
+- Determine the Standard version, see https://internal.pages.asam.net/asam-editorial-guide/editorial-guide-generator/editorialguide-asciidoc/latest/Editorial_guide/01_basics.html#sec-ASM-14[Editorial Guide ASM-14]
+
+
+*Delivery format:*
+
+- User manuals for participants
+- Preferably short instructional videos
+
+=== Step 4: Inform Participants (≈ 2 weeks before start)
+
+- Distribute credentials and manuals
+- Provide contact for questions: infrastructure@asam.net
+- System Admin on standby for support
+
+=== Step 5: Project Kick-off (only when infrastructure is running)
+- Agenda item: *“Commissioning of the infrastructure”*  
+- Clarify open questions from onboarding material  
+- Live demonstration of the pipeline (System Admin must attend)  
+
+=== Step 6: Ongoing Support
+- Hotline available for questions during the project runtime infrastructure@asam.net

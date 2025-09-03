@@ -11,6 +11,9 @@ include::compendium:partial$issue_labels.adoc[]
 Developing content for ASAM standards is focused around the concept of xref:tour_guide:contribution/contribute_with_issues.adoc[contributing with issues]. +
 The following sections describe this workflow in more detail.
 
+NOTE: Parts of the contribution process rely on project infrastructure being in place
+(pipelines, repositories, file storage). Before starting work, verify your project has
+completed the steps in xref:tools.adoc#infrastructure-pipelines[Infrastructure & Pipelines for Projects].
 
 .ASAM contribution workflow
 image::tour_guide:workflow/asam_contribution_workflow-StateDiagram.drawio.svg[]
