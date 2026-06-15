@@ -45,6 +45,17 @@ Should a project be approved, it proceeds on to the **Development phase**.
 
 NOTE: Download the project proposal templates https://asamev.sharepoint.com/:f:/g/EpWO8zVcXvBCu-EG7Xr7H4IBAZpaZTSdqLNhH2A9B2GRiA?e=L6GPnf[here].
 
+=== Proposal writing
+
+The xref:compendium:Projects/01_project_terms.adoc#project-initiator[Project Initiator] prepares the project proposal.
+They take into account the input from the preceding proposal workshop, if one was held.
+They define which content shall be included in the standard.
+They create a project plan and estimate the required work efforts and an optional budget.
+
+The Project Initiator must secure a minimum of three companies, which may include their own organization, that commit work resources to the project.
+
+The ASAM Office supports the proposal author throughout this step.
+
 
 // Additional information:: xref:compendium:proposal_phase.adoc[]
 == Development phase
