@@ -76,7 +76,7 @@ See xref:../tools.adoc#infrastructure-pipelines[Infrastructure & Pipelines for P
 
 In particular, the Project Lead who is the main responsible for the project is elected.
 Depending on the size of the project, other xref:compendium:Projects/01_project_terms.adoc[roles] such as subgroup leads are also elected. 
-One or more service providers may be contracted to provide additional support.
+One or more service providers may be contracted to provide additional support via the xref:compendium:Projects/04_rfq_process.adoc[RfQ Process].
 
 This is followed by one or more development intervals, specifying, writing, and reviewing content internally until the document or documents are ready for the **Review Phase**.
 
