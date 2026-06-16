@@ -1,0 +1,20 @@
+= Member onboarding
+:description: Describes how new project members are onboarded and receive their access credentials.
+:keywords: onboarding, member, credentials, distribution list, project
+
+include::partial$_attributes.adoc[]
+
+
+== Introduction
+
+When a new xref:compendium:Projects/01_project_terms.adoc#project-member[project member] joins a project group, ASAM onboards them and provides their access credentials.
+This page describes the onboarding process and the confirmation step that ensures every new member reliably receives their onboarding email and credentials.
+
+
+== Process steps
+
+. The new project-group member is added to the relevant distribution lists. (Responsible: ASAM Office)
+. An invitation email, including the member's access credentials, is sent to the new member when they are added to the distribution lists.
+. In parallel, a separate email *without credentials* is sent to the xref:compendium:Projects/01_project_terms.adoc#asam_or[Office Responsible (OR)] to notify them of the new member.
+. The new member clicks the confirmation link in the invitation email to confirm they have received the email.
+. If the member has not confirmed within five working days, the OR follows up directly with that member. (Supported by the ASAM Office)
