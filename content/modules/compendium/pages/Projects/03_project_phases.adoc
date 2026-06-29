@@ -10,7 +10,7 @@ include::partial$_attributes.adoc[]
 == Introduction
 
 Besides xref:compendium:Projects/02_project_types.adoc[different types of projects], there are four main project phases that ASAM defines.
-Not all projects must necessarily pass through all these phases.
+Not all projects shall necessarily pass through all these phases.
 See the phase descriptions below for more details.
 
 image::compendium:Projects/project_lifecycle.drawio.svg[alt=The ASAM Project Phases, title=The ASAM project phases]
@@ -45,6 +45,17 @@ Should a project be approved, it proceeds on to the **Development phase**.
 
 NOTE: Download the project proposal templates https://asamev.sharepoint.com/:f:/g/EpWO8zVcXvBCu-EG7Xr7H4IBAZpaZTSdqLNhH2A9B2GRiA?e=L6GPnf[here].
 
+=== Proposal writing
+
+The xref:compendium:Projects/01_project_terms.adoc#project-initiator[Project Initiator] prepares the project proposal.
+They take into account the input from the preceding proposal workshop, if one was held.
+They define which content shall be included in the standard.
+They create a project plan and estimate the required work efforts and an optional budget.
+
+The Project Initiator shall secure a minimum of three companies, which may include their own organization, that commit work resources to the project.
+
+The ASAM Office supports the proposal author throughout this step.
+
 
 // Additional information:: xref:compendium:proposal_phase.adoc[]
 == Development phase
@@ -75,6 +86,8 @@ NOTE: Before holding the kickoff workshop, make sure the project infrastructure 
 See xref:../tools.adoc#infrastructure-pipelines[Infrastructure & Pipelines for Projects] for details on required steps.
 
 In particular, the Project Lead who is the main responsible for the project is elected.
+Depending on the size of the project, other xref:compendium:Projects/01_project_terms.adoc[roles] such as subgroup leads are also elected. 
+One or more service providers may be contracted to provide additional support via the xref:compendium:Projects/04_rfq_process.adoc[RfQ Process].
 Depending on the size of the project, other xref:compendium:Projects/01_project_terms.adoc[roles] such as subgroup leads are also elected.
 One or more service providers may be contracted to provide additional support.
 

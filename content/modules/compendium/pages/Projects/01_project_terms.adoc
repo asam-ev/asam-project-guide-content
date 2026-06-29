@@ -38,6 +38,9 @@ Average commitment entails 1-2 hour meetings every 2 weeks during active develop
 
 == Project roles
 
+[[project-initiator]]
+Project Initiator:: The __Project Participant__ who authors and submits the project proposal during the Proposal Phase. The __Project Initiator__ prepares the project plan, estimates the required work efforts and an optional budget, and secures the minimum of three participating companies, which may include their own organization, that commit work resources to the project. The ASAM Office supports the __Project Initiator__ throughout the xref:compendium:Projects/03_project_phases.adoc#_proposal_writing[proposal writing] step.
+
 [[asam_or]]
 Office Responsible (OR):: The ASAM contact for a project. An __Office Responsible (OR)__ is an *ASAM employee* focussed on *coordinating project processes* and the *background work* behind a project.
 OR is responsible for informing their projects of the latest decisions and updates by the working day following the __Technical Steering Committee (TSC)__ meeting.
