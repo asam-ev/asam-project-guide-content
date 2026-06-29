@@ -14,18 +14,18 @@ This page describes how the RfQ is prepared, published, evaluated, and awarded.
 == Process steps
 
 . The TM and project group write the RfQ document.
-. The TM and project group create the evaluation matrix.
+. The TM and project group create the evaluation matrix using the provided https://asamev.sharepoint.com/:x:/g/IQDm4IMHD50cTqxl60n5CGyoAaKhOm3qgZPMuUxlV948ers?e=AdYsTF[template].
 . The RfQ is published on the website, via the project-group email distribution list, and via the newsletter. (Responsible: ASAM Office)
 . Quotations are sent to the central offers inbox (offers@asam.net).
 . For each incoming offer:
 .. A receipt confirmation is sent to the submitter within 2 working days. (Responsible: ASAM Office)
-.. A preliminary check is done (e.g. validity of the offer). (Responsible: ASAM Office)
+.. A preliminary check is done (e.g., validity of the offer). (Responsible: ASAM Office)
 .. The offer is forwarded to TM/STC. (Responsible: ASAM Office)
-.. A formal check is done (e.g. all parts offered, terms and conditions, transfer of ownership of work results). (Responsible: TM/STC)
+.. A formal check is done (e.g., all parts offered, terms and conditions, transfer of ownership of work results). (Responsible: TM/STC)
 .. The offer is anonymized if required. (Responsible: TM/STC, assisted by the ASAM Office)
 .. The commercial and technical parts are separated. (Responsible: TM/STC, assisted by the ASAM Office)
 .. The evaluation matrix is prepared. (Responsible: TM/STC)
 . The project group performs the evaluation.
-. Results are presented in the TSC and a service provider is selected.
-. The contract with the winner is signed within 2 working days after the TSC decision. (Responsible: TM/STC/CEO)
+. Results are presented in the TSC, and a service provider is selected.
+. The contract with the winner is initiated within 2 working days after the TSC decision. (Responsible: TM/STC/CEO)
 . The remaining bidders are informed within 2 working days after contract confirmation. (Responsible: ASAM Office)
