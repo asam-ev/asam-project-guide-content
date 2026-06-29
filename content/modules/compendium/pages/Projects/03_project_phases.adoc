@@ -10,7 +10,7 @@ include::partial$_attributes.adoc[]
 == Introduction
 
 Besides xref:compendium:Projects/02_project_types.adoc[different types of projects], there are four main project phases that ASAM defines.
-Not all projects must necessarily pass through all these phases.
+Not all projects shall necessarily pass through all these phases.
 See the phase descriptions below for more details.
 
 image::compendium:Projects/project_lifecycle.drawio.svg[alt=The ASAM Project Phases, title=The ASAM project phases]
@@ -52,7 +52,7 @@ They take into account the input from the preceding proposal workshop, if one wa
 They define which content shall be included in the standard.
 They create a project plan and estimate the required work efforts and an optional budget.
 
-The Project Initiator must secure a minimum of three companies, which may include their own organization, that commit work resources to the project.
+The Project Initiator shall secure a minimum of three companies, which may include their own organization, that commit work resources to the project.
 
 The ASAM Office supports the proposal author throughout this step.
 
